@@ -1,0 +1,1673 @@
+account-true-wallet: Tài khoản ví thực sự
+add-crypto: ''
+affilate:
+  affiliateInCome: tất cả thu nhập {thu nhập} {tiền tệ}
+  affiliateNewFriend: bạn mới
+  affiliatePeople: số {num} mọi người
+  anotherTurn: nhận các lượt khác
+  canIncomForFriend: có thể nhận thu nhập từ bạn bè
+  casinoLossPercentage: tỷ lệ sòng bạc
+  casinoPayback: đã nhận được một sòng bạc bị mất
+  casinoProfit: số lượng sòng bạc
+  casinoTurn: đã nhận được một sòng bài
+  casinoWin: nhận số dư sòng bạc
+  classmate: bạn
+  currentLevel: cấp độ hiện tại
+  currentRevenue: mức thu nhập hiện tại
+  details: chi tiết
+  earnMore: nhận số dư khác
+  earnedIncome: doanh thu nhận được
+  eventAffiliate: mời bạn bè nhận được hoa hồng-
+  friendsWhoPay: những người bạn đứng dậy
+  getPoint: nhận được điểm
+  highestPercentage: bạn đã nhận được tỷ lệ cao nhất.
+  howToEarnCommissions: cách nhận thu nhập từ hoa hồng
+  ifInviteFriendIncomMore: nếu bạn bè của bạn mời thêm bạn bè bạn sẽ nhận được nhiều thu nhập hơn.
+  income: thu nhập
+  incomeCondition: thu nhập phụ thuộc vào các điều kiện quy định.
+  inviteFriendMore: mời nhiều bạn {mọi người} mọi người lên cấp
+  inviteFriendsEarn: mời bạn bè nhận thu nhập
+  maxLevel: lên đến 100 phân cấp
+  moreIncome: thu nhập nhiều hơn
+  moreYouInviteFriends: bạn càng mời bạn bè
+  noInBox: đừng hiển thị tin nhắn này một lần nữa
+  notAffiliateLink: không có liên kết để chia sẻ doanh thu
+  notHave: không có
+  number: con số
+  numberFriends: con số
+  otherLossPercentage: tỷ lệ phần trăm khác
+  otherLosses: số dư khác
+  othersPayback: nhận được số dư khác
+  people: người
+  percentageEarned: tỷ lệ phần trăm nhận được
+  percentageWinCasino: tỷ lệ sòng bạc
+  percentageWinOther: tỷ lệ phần trăm khác
+  percentageWinSlots: tỷ lệ phần trăm của các khe
+  pressToGetPoints: bấm để nhận điểm
+  receivedHistory: lịch sử báo chí
+  receivedHistoryIncom: lịch sử thu nhập
+  receivedHistoryPoint: lịch sử cấp bách
+  receivedIncome: nhấn để nhận thu nhập
+  reciveLossFreind: nhận được đỉnh của một người bạn
+  redeemForCredit: trao đổi tín dụng
+  seeMoreDetails: xem thêm chi tiết
+  selectHierarchy: chọn thứ bậc
+  shareEarn: chia sẻ tiền
+  shareLinkInviteFriend: chia sẻ một liên kết để mời bạn bè chơi. nhận doanh thu từ đầu và sự mất mát của bạn bè
+  shareLinkMakeMoney: kiếm tiền dễ dàng với chi nhánh.
+  slotLossPercentage: tỷ lệ phần trăm mất khe
+  slotProfit: các vị trí hàng đầu mất.
+  slotTurn: nhận được các khe
+  slotWin: nhận một vị trí
+  slotsPayback: nhận được sự mất mát của các khe
+  todayDeposit: tiền gửi hôm nay
+  todayInformation: thông tin hôm nay
+  totalIncome: tất cả thu nhập {tiền} baht
+  totalLoss: tất cả các ngọn
+  transactionHistory: lịch sử và thu nhập cấp bách
+  up: hướng lên
+  user: người dùng
+  yesterdayInformation: thông tin ngày hôm qua
+  youEarningsFreeCredit: bạn phải trao đổi thu nhập miễn phí.
+  getEnterLink: Nhấn để sao chép liên kết mời bạn
+affiliate:
+  PlayCasino: Sòng bạc chơi
+  PlayLotto: Chơi xổ số
+  PlayOther: Chơi khác
+  PlaySlot: Chơi khe
+  PlaySport: Chơi thể thao
+  calCommissions: trong giai đoạn tóm tắt
+  calLv: tính toán
+  canReceviveHaveReward: có thể nhận được giải thưởng khi có nhiều phần thưởng tích lũy hơn
+  canReceviveHaveReward11: tạo một vị trí
+  canReceviveHaveReward12: x {tín dụng}
+  canReceviveHaveReward13: và làm cho sòng bạc rẽ
+  canReceviveHaveReward14: x {sòng bạc}
+  canReceviveHaveReward2: thực hiện việc rút tiền tối đa
+  canSeeTableOnBottom: có thể thấy tỷ lệ phần trăm nhận được ở bàn bên dưới
+  cardAffilateFriend: bạn {tối thiểu}/{tối đa} mọi người
+  cardAffilateLossFriend: nhận một người bạn {phần trăm}%
+  cardAffilateTitile: đặc biệt! mời bạn bè chơi cấp độ, tỷ lệ phần trăm càng nhiều hơn!
+  casinoLossPercentage: Mất sòng bạc
+  classmate: bạn bè {mọi người}
+  classmateNo: bạn
+  comissionType: nhận thu nhập từ đầu chơi và mất bạn bè.
+  continueOne: tiếp tục 1.
+  continueTree: tiếp tục 3.
+  continueTreeMax: nhận thu nhập tối đa 3 mỗi mỗi!
+  continueTwo: tiếp tục 2.
+  continueTwoMax: nhận thu nhập tối đa là 2 mỗi!
+  customPlayer: đầu hoặc chơi của bạn bè theo loại trò chơi
+  desNumOne: gửi một liên kết đến bạn bè để đăng ký và hàng đầu chơi trò chơi.
+  descAffilate1: xem tỷ lệ phần trăm đã nhận được thời gian.
+  descAffilate2: xem tỷ lệ phần trăm nhận được từ mỗi hệ thống phân cấp
+  descAffilate3: bấm để xem tất cả các chi tiết.
+  desfriendsWhoTopUp: những người bạn đứng dậy
+  detailAll: nhìn thấy tất cả
+  earnIncomeFrom: nhận thu nhập từ
+  firstTopup: lần đầu tiên thêm bạn bè
+  friendInLoss: sự mất mát của bạn bè
+  friendInProfit: sự mất mát của bạn bè
+  friendInTurnover: doanh thu của bạn bè
+  friendPlay: bạn bè có thể chơi chúng tôi!
+  friendRegister: ứng dụng của bạn bè
+  friendTurnover: doanh thu của bạn bè
+  friendsNumber: bạn
+  friendsTopUp: số lượng bạn bè đứng lên
+  getNow: chấp nhận ngay lập tức
+  incomNumOne: tiếp tục thu nhập 1
+  incomNumTree: thu nhập thứ 3
+  incomNumTwo: thu nhập thứ 2
+  incomTurn: nhận thu nhập từ chơi của bạn bè.
+  incomWinLoss: nhận doanh thu từ đầu một người bạn
+  inviteFriendsApply: mời bạn bè nộp đơn
+  inviteFriendsStepsOne: sao chép liên kết đến bạn bè.
+  level: hệ thống cấp bậc
+  lineActive: những người bạn đứng lên {hoạt động} mọi người trở đi
+  lineLoss: mất {mất} baht trở đi
+  lineTurnOver: Lượt tối thiểu
+  loss: thua
+  lossLv: Thua
+  lottoLossPercentage: Số tiền xổ số
+  noiceLevel: khi mức đến hạn bạn sẽ nhận được phần trăm bổ sung trong ngoặc. tỷ lệ phần trăm trong bảng sẽ là một tỷ lệ phần trăm kết hợp với tỷ lệ phần trăm đặc biệt trong ngoặc.
+  noteOther: tín dụng mà bạn bè nhận được từ các hoạt động khác nhau sẽ không được tính toán với biên lai doanh thu. (đếm từ đầu -up)
+  notiAffiliateTypeCheckIncom: có thể nhấp từ 1 baht trở lên
+  numLevel: mức độ
+  onwards: trở đi
+  otherLossPercentage: Số tiền khác
+  percentageWinCasino: Sòng bạc
+  percentageWinLotto: Số tiền xổ số
+  percentageWinOther: Số dư khác
+  percentageWinSlots: Đỉnh của khe
+  percentageWinSport: Thể thao
+  persent: phần trăm
+  persentLv: Cấp độ hiện tại
+  shareLossFriend: nhận doanh thu từ đầu một người bạn
+  slotLossPercentage: Mất khe
+  sportLossPercentage: Thể thao
+  stepIncom: thủ tục nhận doanh thu
+  tablePercentage: bảng của mọi thứ bậc
+  totalLossOther: Tất cả các loại chất thải
+  turnCasino: Sòng bạc rẽ
+  turnLotto: Xổ số
+  turnOther: Lượt khác
+  turnSlot: Biến các khe
+  turnSport: Thể thao rẽ
+  typeCashback: trò chơi
+  typeCasino: danh mục sòng bạc
+  typeLotto: danh mục xổ số
+  typeOther: các loại khác
+  typeSlot: danh mục khe
+  typeSport: thể loại thể thao
+  typeTopPlay: kiểu
+  waitFriends: đợi một người bạn nộp đơn ngay lập tức.
+  whatIsAff: liên kết là gì?
+  winAndLoss: Có thể và thua
+  youPlay: chơi
+  youWant: bạn muốn nhận thu nhập.
+alert:
+  error:
+    OTPBeenSent: otp đã được gửi.
+    boxCannotOpen: không thể mở hộp vào lúc này
+    canNotSpinNow: không thể xoay bánh xe bây giờ
+    copyError: không thành công
+    creditLower: tín dụng thấp hơn quy định
+    expiredRequestOTPAgain: otp đã hết hạn.
+    findNumberSystem: không có số trong hệ thống
+    founError: Tìm thấy lỗi
+    foundError: tìm lỗi.
+    invalidLink: liên kết không chính xác
+    invalidOTP: otp không đúng
+    loginFailed: đăng nhập không thành công, vui lòng kiểm tra tài khoản và mật khẩu.
+    network: mạng không ổn định
+    noCanGiveTips: không thể đưa ra lời khuyên trong ca này.
+    noHvaeLinkShareEarn: không liên kết để chia sẻ doanh thu
+    noItem: không tìm thấy thông tin
+    outstanding: khách hàng không thể chơi sòng bạc trực tuyến, trò chơi chiến đấu, thể thao, xổ số, xe ngựa và trò chơi tiền điện tử. nếu muốn chơi vui lòng đóng chương trình khuyến mãi. và hoàn thành doanh thu !!!
+    passwordRequired: Vui lòng nhập mật khẩu
+    passwordUncorret: mật khẩu không khớp.
+    pleaseComplete: vui lòng điền vào
+    pleaseCompleteInformation: vui lòng điền vào tất cả các thông tin.
+    plsRecaptcha: vui lòng xác nhận danh tính.
+    receivedPromotionAutoFailed: Không thành công
+    transactionError: không thành công
+    updating: hệ thống cập nhật tạm thời
+    uploadMoreThan: tải lên hình ảnh không quá 1 mb.
+    uploadNoSuccessfully: tải lên không gây khó chịu
+    usernameRequired: Vui lòng điền vào tên người dùng.
+  success:
+    OTPCorrect: otp là chính xác
+    OTPSentSuccessfully: hoàn thành otp
+    changePasswordSuccessfully: thay đổi mật khẩu thành công
+    changedPinSuccessfully: thay đổi pin thành công
+    colseReceivedPromotion: đóng chương trình khuyến mãi thành công
+    commissionEarned: nhận được hoa hồng
+    congratulations: chúc mừng!
+    copySuccessfully: hoàn thành
+    exchangeCreditSuccessfully: hoàn thành chuyển khoản tín dụng
+    loginSuccess: nhập hệ thống thành công
+    promotionSuccessfully: nhận một chương trình khuyến mãi thành công
+    receiveFreeSpin: nhận spin miễn phí
+    receivedAward: nhận được giải thưởng
+    receivedFreeCredit: nhận tín dụng miễn phí
+    receivedPromotionAutoSuccessfully: nhận được các chương trình khuyến mãi tự động thành công.
+    redeemSuccess: hoàn thành phần thưởng
+    resetPasswordSuccessfully: thiết lập một mật khẩu mới.
+    savedSuccessfully: Ghi dữ liệu thành công
+    successfulWithdrawal: đã hoàn thành tiền rút tiền
+    successfulWithdrawalCurrency: đã hoàn thành rút tiền {số lượng} {tiền tệ}
+    successfullyRedeemed: trao đổi tín dụng miễn phí thành công.
+    thnankToTipSuccessfully: cảm ơn bạn vì lời khuyên chúng tôi sẽ phát triển hệ thống tốt hơn.
+    topUpSuccessfully: top -top -up {số lượng} {tiền tệ}
+  topUpSuccessfully: Hoàn thành Top -Up
+answerQuestions:
+  chooseAtLeast: chọn trả lời ít nhất
+  questions: câu hỏi đặt
+bacroom:
+  popularRooms: Phòng phổ biến
+  noData: Không có dữ liệu
+  enterRoom: Vào phòng
+  cannotEnterGame: Không thể vào trò chơi
+bank:
+  accountChangeWarning: Tài khoản ngân hàng có thể thay đổi, không lưu lại!
+  accountTransferred: tài khoản phải được chuyển
+  baac: ''
+  bankUpdate: Tài khoản sẽ được cập nhật liên tục
+  bay: ''
+  bbl: ''
+  cancelTopup: hủy bỏ hàng đầu
+  checking: quan sát
+  chooseBank: chọn một ngân hàng
+  cimb: ''
+  confirmTopup: xác nhận hàng đầu
+  coppyBank: vui lòng sao chép số tài khoản. hệ thống sẽ hiển thị số lượng tiền gửi là số thập phân. để bạn chuyển vào bạn chỉ phải chuyển sang số lượng của hệ thống.
+  copyAccount: sao chép tài khoản
+  decimalTransfer: chuyển nhượng thập phân
+  gameQR: Chỉ được sử dụng để thêm trò chơi
+  gotoPopUp: Đang chuyển hướng trong..
+  gsb: ''
+  icbc: ''
+  kbank: ''
+  kk: ''
+  ktb: ''
+  lastestTransaction: Giao dịch mới nhất
+  lhbank: ''
+  minimumAmount: số tiền tối thiểu {money} baht
+  minimumTopUp: top -up tối thiểu
+  minimumTopUpBath: tối thiểu {money} {currency}
+  minute: phút
+  noMoneyTransfer: bởi vì không có tiền chuyển tiền nào trong hệ thống
+  noRounded: không giảm số lượng
+  noRoundedDecimal: không quét
+  pending: chờ thanh toán
+  pleaseRoundAmount: xin vui lòng nạp tiền được hiển thị.
+  pleaseTopUp: xin vui lòng nạp tiền được hiển thị.
+  pleaseTransferMoney: vui lòng chuyển tiền trong thời gian.
+  pleaseTransferTime: vui lòng chuyển tiền trong thời gian.
+  pleaseUseAccount: vui lòng sử dụng tài khoản mà bạn chỉ đăng ký chuyển nhượng.
+  plsAccountOnly: '"vui lòng sử dụng tài khoản mà bạn chỉ đăng ký chuyển nhượng"'
+  plsQrcode: Mã QR này chỉ có thể sử dụng một lần. Không chuyển lại.
+  promptpay: PromptPay
+  scanQRCode: quét mã qr để chuyển vào tài khoản.
+  scb: ''
+  specifyAmount: chỉ định số tiền
+  systemAutomatically: hệ thống sẽ lấp đầy tín dụng trò chơi tự động trong vòng 1-2 phút.
+  tbank: ''
+  tisco: ''
+  tmb: ''
+  topUp: top -up
+  topUpComplete: hệ thống đã hoàn thành túi của bạn.
+  topUpSuccessfully: hoàn thành top -up
+  topupHistory: lịch sử trả trước
+  topupRejected: danh sách hàng đầu bị từ chối
+  transferAccount: chuyển khoản kế toán
+  transferredPleaseClick: khi chuyển tiền, xin vui lòng nhấn "xác nhận" ở đây.
+  truewallet: ''
+  ttb: ''
+  uob: ''
+  wantCancelTopup: bạn muốn hủy bỏ hàng đầu hay không?
+  yourAccount: tài khoản của bạn
+  bankIncom: tài khoản nhận tiền
+  trueMoneyWalletFee:
+    feePercentage: Phí {percentage}%
+    systemDeductFee: Hệ thống sẽ trừ phí nạp tiền {percentage}%
+    fromTopupAmount: từ số tiền nạp, tối đa {maxDeduction} baht
+    promotionCase: Trường hợp nạp tiền nhận khuyến mãi
+    topupMinPromo: Nạp tối thiểu cho khuyến mãi + (phí)
+    toGetPromotion: để nhận được khuyến mãi mong muốn
+    feeInfo: Phí {percentage}% (tối đa {maxDeduction} baht)
+    amountToTopup: Số tiền cần nạp (tối thiểu {minAmount} baht)
+    minimumAmountError: Số tiền tối thiểu {minAmount} baht
+    feeAmount: Phí ({percentage}%)
+    amountReceived: Số tiền nhận được (sau khi trừ phí)
+    calculateTopupAfterFee: Tính số tiền nạp sau khi trừ phí
+    amountToTopupSimple: Số tiền cần nạp
+bankMethod:
+  viaAccount: Gửi tiền qua ngân hàng
+button:
+  add: tăng
+  apply: Sử dụng
+  back: hồi tưởng
+  cancel: hủy bỏ
+  changePassword: Thay đổi mật khẩu
+  clear: Thông thoáng
+  clickHere: bấm vào đây
+  close: tắt
+  confirm: xác nhận
+  continue: Tiếp tục
+  copy: sao chép
+  delete: xóa bỏ
+  download: Tải xuống
+  edit: Chính xác
+  exchangeCredit: chuyển khoản tín dụng
+  filter: ''
+  finish: hoàn thành
+  forgotPassword: Quên mật khẩu
+  getCredit: nhận tín dụng
+  getPromotion: nhận chương trình khuyến mãi này
+  getRewarded: thắng
+  goPlayGames: đi chơi trò chơi
+  login: Đăng nhập
+  logout: Ngoài hệ thống
+  next: kế tiếp
+  notAccepPromotion: không chấp nhận các chương trình khuyến mãi
+  ok: đồng ý
+  participate: tham gia
+  playGame: chơi một trò chơi
+  previous: Trước đây
+  receive: nhận được
+  recevice: nhấn
+  record: 'ghi '
+  register: áp dụng
+  resend: Tái hiện
+  reset: Cài lại
+  resetPassword: Đặt lại mật khẩu
+  save: 'ghi '
+  search: tìm kiếm
+  select: chọn
+  send: gửi
+  sendCode: Gửi mã
+  share: chia sẻ
+  stay: ở lại
+  submit: gửi
+  topUp: top -up
+  understand: 'hiểu '
+  upload: Tải lên
+  verify: Vâng
+  withdraw: rút
+  yess: đúng
+cashPoint:
+  cashPoint: tích lũy
+  cashpointReceivedTwoAm: '*có thể nhận được tích lũy sau 02.00 giờ.'
+  cumulativeAmount: nhận số dư tích lũy trong mỗi đặt cược.
+  earnedCredit: Số tiền tích lũy nhận được
+  login: đăng nhập
+  lostBet: dị ứng {bị mất} %
+  numberOf: số {tín dụng} có phải không?
+  turnAll: tất cả các loại lượt
+  turnOver: doanh thu {turn} %
+  wantEarnFreeCredits: bạn muốn nhận tín dụng miễn phí từ số dư tích lũy.
+  whenBetting: khi đặt cược hoặc thua, nhận tín dụng tích lũy ngay lập tức! bạn có thể thấy tỷ lệ phần trăm nhận được từ bên dưới.
+  winBet: chiến thắng {win} %
+cashback:
+  allAbout: tất cả
+  calLossForPlay: hệ thống sẽ tính toán số tiền từ vở kịch.
+  cashPointsBackGames: để quay khe đừng lo bởi vì dù sao tín dụng trả lại, có thể thấy tỷ lệ phần trăm nhận được dưới đây.
+  cashbackPlaySlotAndCasino: nhận số tiền trả lại từ các khe sòng bạc.
+  cashbackReceivedFiveAm: có thể nhận lại tiền mặt sau 05.00 giờ.
+  cashbackReceivedFourAm: có thể nhận lại tiền mặt sau 4:00 chiều trở đi
+  cashbackReceivedOneAm: có thể nhận lại tiền mặt sau 01.00 giờ.
+  cashbackReceivedThreeAm: có thể nhận lại tiền mặt sau 03.00 giờ.
+  cashbackReceivedTwoAm: có thể nhận lại tiền mặt sau 02.00 giờ.
+  cashpointPercentageBelow: đặt cược đừng lo bởi vì dù sao, hãy nhận tín dụng số tiền trả lại có thể được nhìn thấy từ mức độ dị ứng ở đây.
+  casinoGamesPersent: trò chơi sòng bạc
+  creditBackFromLoss: tín dụng trở lại từ trên cùng {value}%
+  exceptSportsBetting: để quay khe đừng lo bởi vì dù sao tín dụng trở lại ngoại trừ cá cược thể thao
+  getBackEveryBet: nhận lại số tiền trong mỗi lần đặt cược.
+  getLossPlayingSlots: nhận số tiền trả lại từ các khe chơi!
+  noReceviceCashback: sẽ không nhận lại tín dụng
+  onlyPlaysSlotsGames: nếu người chơi chỉ chơi trò chơi khe, hệ thống sẽ tính toán mất các khe cắm.
+  otherPlaylistsNotReceive: các chương trình chơi khác khác với các khe sẽ không nhận được tất cả tín dụng
+  percentageReceivedLoss: tỷ lệ phần trăm sẽ là tín dụng trở lại từ số tiền dị ứng.
+  playersCanGetLosses: người chơi có thể lấy lại số tiền từ cá cược. và cũng có thể thấy tỷ lệ phần trăm tín dụng nhận được từ số tiền bên dưới
+  playsSlotsAndCasinoGames: nếu người chơi chơi khe và trò chơi sòng bạc hệ thống sẽ chỉ tính tỷ lệ phần trăm của sòng bạc.
+  receivedCashback: lấy lại số tiền
+  returnedLoss: số tiền đã được trả lại
+  slotAndCasino: trò chơi sòng bạc và sòng bạc
+  slotGames: trò chơi khe
+  slotGamesPersent: trò chơi khe {value} %
+  systemCalculateSlots: hệ thống sẽ chỉ tính toán chương trình "khe".
+  topUpFirstADay: từ lần điền đầu tiên trong ngày
+  topUpFirstPlayer: từ lần điền đầu tiên của người chơi
+  'topUpFirstPlayer ': Đầu tiên thêm
+  typeGameSport: chơi thể thao
+  whatBetsCan: có thể lấy lại số tiền từ bất kỳ cược nào?
+  youWantReceive: bạn muốn nhận tín dụng
+codeDesc: Nhập mã để nhận giải thưởng đặc biệt.
+collectPoints:
+  allPrizes: tất cả các giải thưởng
+  ascending: rất ít
+  credit: tín dụng
+  descending: rất nhiều
+  endNow: sẽ kết thúc bên trong
+  equipment: thiết bị
+  gold: vàng
+  isCheckRewardAlert: bạn muốn nhận điểm
+  lifestyle: cách sống
+  moreThan: hơn 72.000
+  noHistory: không có lịch sử cứu chuộc
+  pending: chờ đợi hành động
+  points: đánh dấu
+  pointsNumber: $ {số}
+  redeemRewards: chuộc lại
+  redemptionHistory: lịch sử trao đổi giải thưởng
+  remainingPoints: điểm hiện có
+  rewardsNotFound: không có phần thưởng được tìm thấy.
+  scoreRange: điểm
+  searchRewards: tìm kiếm giải thưởng
+  spend: sử dụng {point} điểm
+  toRedeem: để trao đổi {phần thưởng} hay không?
+  totalBalance: điểm nhấn
+  tupUpTimeNow: hàng hóa lần này, nhận x {nhiều}} như!
+  type: kiểu
+  wantToSpend: bạn muốn sử dụng
+commission:
+  approved: Chấp thuận
+  codeAlready: mã này đã được sử dụng.
+  codeHere: nhập mã vào đây.
+  description: chi tiết
+  earnings: ''
+  enterCode: nhập mã tín dụng miễn phí.
+  examine: nghiên cứu
+  history: ''
+  historyCommission: lịch sử hoa hồng
+  pending: ''
+  plsCode: không có mã trong hệ thống
+  prizealready: bạn đã thắng
+  rate: ''
+  rejected: ''
+  title: ''
+  total: ''
+  typeCasino: Sòng bạc tươi
+  typeLotto: Xổ số
+  typeOther: Các loại khác
+  typeSlot: Trò chơi khe
+  typeSport: Trò chơi thể thao
+  withdrawal: ''
+commission4step:
+  back: Quay lại
+  close: Đóng
+  day: Hàng ngày
+  details: Chi tiết hoàn tiền
+  eventName: Ủy ban 4 -Story
+  history: Lịch sử
+  latestItems: (5 mục mới nhất)
+  matchingDetails: Chi tiết khớp
+  month: Hàng tháng
+  moreThanOneDay: Hơn 1 ngày
+  now: Hiện tại
+  playMoreGames: Chơi thêm trò chơi
+  realtime: Hàng ngày
+  receiveMoney: Nhận tiền
+  receiveMoneyType:
+    cash: Tiền mặt
+    freecredit: Tín dụng miễn phí
+  rewardHistory: Lịch sử phần thưởng
+  timeRemaining: Thời gian còn lại
+  week: Hàng tuần
+commom:
+  activity: 'hoạt động '
+  admin: quản trị viên
+  badBalance: thua
+  baht: baht
+  bankLink: để lại/rút tiền
+  cash: tiền bạc
+  cashMoney: tiền trong trò chơi
+  cashTranfer: chuyển tiền
+  casino: sòng bạc
+  categoryPosition: loại
+  contact: liên hệ
+  credit: tín dụng
+  creditHistory: lịch sử nhận tín dụng
+  day: ngày
+  details: chi tiết
+  diamond: kim cương
+  displaySetting: đặt màn hình
+  dong: theo cùng một cách
+  enterAmount: Vui lòng chỉ định số tiền.
+  error: Tìm thấy lỗi
+  freeCredit: tín dụng miễn phí
+  game: trò chơi
+  gameBalance: cân bằng trò chơi
+  gotoGame: nhập trò chơi
+  hide: trốn
+  info: thông tin
+  lastEntries: (5 mục mới nhất)
+  left: bên trái
+  line: đường kẻ
+  loading: Đang tải
+  logout: hoàn thành từ hệ thống
+  mainPage: trang chính
+  min: Tối thiểu
+  money: tiền bạc
+  month: tháng
+  noCreditHistory: không có lịch sử tín dụng
+  noData: Không tìm thấy thông tin
+  noHave: không có
+  noHistoryEntry: không có danh sách lịch sử
+  noResults: Không tìm thấy thông tin
+  noRewardHistory: không có lịch sử
+  notPointHistory: không có lịch sử nhận điểm
+  notexttoday: đừng hiển thị tin nhắn này một lần nữa
+  number: số lượng
+  other: khác
+  prizeNotFound: không có giải thưởng
+  rewardHistory: giải thưởng lịch sử
+  right: phải
+  seconds: thứ hai
+  seeAll: Xem tất cả
+  seeConditions: xem thêm điều kiện
+  showLess: Ít hiển thị hơn
+  showMore: Thêm chương trình
+  slot: chỗ
+  success: thành công
+  top: trên
+  topUp: top -up
+  turn: xoay
+  view: Không tìm thấy thông tin
+  wait: xin vui lòng chờ trong giây lát
+  warning: ''
+  year: năm
+  yerNo: đúng không?
+  quickNavigation: Lối tắt đến bộ phận
+  dailyTopUpCalendar: Lịch nạp tiền hàng ngày
+common:
+  loadMore: Thêm nhiều hơn
+  noItem: Không tìm thấy thông tin
+  scrollForMore: Hoãn lại để xem thêm
+  resetFilters: Tìm kiếm rõ ràng
+  filters: Lọc
+  doNotReuse: Không sử dụng lại
+  qrDeposit: QR Code này chỉ dành cho việc gửi tiền qua trang web để chơi game
+components:
+  language_switcher:
+    change_language: thay đổi ngôn ngữ
+  theme_switcher:
+    change_theme: thay đổi
+    theme: tiếp theo
+crypto:
+  addCryptoDesc: Nhập địa chỉ Vollet và chọn một chi tiền điện tử
+  addWallet: Nhập địa chỉ Vollet
+  crypto: Cá sấu
+  enterProcess: Tiền gửi
+  network: Mạng
+  selectCrypto: Chọn một loại tiền điện tử
+  selectNetwork: Chọn một mạng
+  walletAddress: Địa chỉ Vollet
+  withdraw: Cripitos (để rút tiền)
+decimalTransfer: Tiền gửi thập phân
+deposit: tiền gửi
+depositAndUploadSlip: Chuyển tiền và tải lên một phiếu.
+depositBankAuto: Gửi qua ngân hàng (tự động)
+depositBankDesc: Sử dụng các tài khoản áp dụng tiền thông qua ngân hàng. Hỗ trợ cả kế toán ngân hàng và mã QR
+depositBankSpecials: Gửi tiền qua ngân hàng (Đặc biệt)
+depositCryptoDesc: Đứng lên trò chơi bằng tiền điện tử
+depositHistory: Lịch sử tiền gửi
+depositWithTrueWallet: Gửi tiền bằng cách sử dụng tiền thật
+depostiCrypto: Gửi tiền trong tiền điện tử
+directTopupBank: Chuyển giao trực tiếp qua Ngân hàng
+error:
+  failedToInitialize: Tìm thấy lỗi
+  founError: Tìm thấy lỗi
+  foundError: Tìm thấy lỗi
+  invalidData: Tìm thấy lỗi
+  invalidPrize: Tìm thấy lỗi
+  invalidResponse: Tìm thấy một lỗi
+  unknownPrize: Không có thông tin phần thưởng
+events:
+  allEvents: Tất cả sự kiện
+  affiliate: mời bạn bè nhận hoa hồng
+  answerQuestions: Trả lời câu hỏi
+  balanceDiamonds: kim cương còn lại
+  cash: tiền mặt
+  cashPoint: ''
+  cashback: trả lại số tiền
+  cashbackBill: trả về phích cắm đầu tiên
+  cashpoint: tích lũy
+  collectPoints: ''
+  commission: nhiệm vụ
+  commission4step: ''
+  daily: thường xuyên
+  dailyFixTopup: tiền gửi, hình, cân bằng,
+  dailyMission: ''
+  earn: làm ra tiền
+  evaluateAdmin: đánh giá quản trị viên,
+  eventsDetail: chi tiết hoạt động
+  freeCredit: tín dụng miễn phí
+  income: làm ra tiền
+  inviteFriends: ''
+  joinEvent: tham gia các hoạt động để giành được nhiều giải thưởng.
+  joinMinigame: sử dụng kim cương để chơi các trò chơi mini. để giành được nhiều kim cương hơn trước!
+  luckyBox: hộp vui vẻ
+  luckyBoxDiamond: mở niềm vui
+  luckyWheel: bánh xe may mắn
+  minigame: trò chơi nhỏ
+  mission: nhiệm vụ
+  monthlyMission: ''
+  notActive: Hoạt động chưa được mở để sử dụng.
+  points: tích trữ
+  questionResearch: câu hỏi đặt
+  randomPrize: giải thưởng ngẫu nhiên
+  rank: ''
+  rated: thứ hạng
+  referral: mời bạn bè nhận tiền thưởng
+  regularDeposit: ''
+  reward: phần thưởng
+  shareFacebook: chia sẻ facebook
+  specialCommission: ủy ban đặc biệt
+  tier: ''
+  title: ''
+  titleevents: tham gia các hoạt động để giành được nhiều giải thưởng.
+  titlestore: sử dụng kim cương để trao đổi quyền để chơi các hoạt động ở đây.
+  treasureBox: ''
+  updatePhone: số cập nhật
+  weeklyMission: ''
+  wheelTurnOver: người chiến thắng
+  winPrizes: giành được một giải thưởng
+exchangeCredit:
+  available: ''
+  creditFreeNoEnough: tín dụng miễn phí của bạn là không đủ.
+  description: ''
+  exchange: ''
+  exchangeCreditFree: chuyển khoản tín dụng miễn phí vào trò chơi
+  exchangeFreeCreditMinimum: chuyển khoản tín dụng miễn phí tối thiểu {tối thiểu} baht
+  exchangeUnlimitedWithdrawal: rút không giới hạn {tối thiểu} {tiền tệ}
+  goMoney: cân bằng
+  history: ''
+  makeTurnCasino: thực hiện một sòng bài {rẽ} turn
+  makeTurnSlot: tạo một vị trí {rẽ} turn
+  maximum: ''
+  minimum: ''
+  plsCreditMinimum: vui lòng nhập tín dụng tối thiểu ít nhất {tối thiểu}
+  plsInputCredit: vui lòng nhập tín dụng
+  rate: ''
+  specifyAmount: chỉ định số tiền tín dụng
+  systemClosedMaintenance: hệ thống tín dụng miễn phí đang đóng cửa. xin lỗi vì sự bất tiện ở đây.
+  title: ''
+  tranferCredit: 'chuyển nhượng: tín dụng miễn phí'
+favGames:
+  deletefavGames: xóa trò chơi yêu thích của bạn.
+  empty: ''
+  failedfavGame: không thêm trò chơi yêu thích của bạn.
+  successfavGames: thêm trò chơi yêu thích của bạn.
+  title: ''
+footer:
+  events: 'hoạt động '
+  home: trang chính
+  noti: cảnh báo
+  promotion: khuyến mãi
+  withdraw: để lại/rút tiền
+forgame: ''
+freeCredit:
+  checkReceivedFour: có thể nhận được tín dụng miễn phí sau 4:00 chiều trở đi
+  checkReceivedOne: có thể nhận tín dụng miễn phí sau 01.00 giờ.
+  checkReceivedThree: có thể nhận được tín dụng miễn phí sau 3:00 chiều trở đi
+  earnedCredit: tín dụng nhận được
+  easyWayCreditFree: cách nhận tín dụng miễn phí {số} tín dụng đơn giản
+  easyWayDiamond: cách nhận kim cương {số} kim cương đơn giản
+  easyWayMoney: cách nhận tiền {số}
+  end: kết thúc
+  getFreeCredit: nhận tín dụng miễn phí
+  luckyWheel:
+    additionalConditions: ''
+    goTopup: ''
+    goTurn: ''
+    haveLoss: ''
+    haveLossNew: ''
+    haveMinimum: ''
+    haveReceived: ''
+    noRightSpin: ''
+    noSpinning: ''
+    noSpinningRight: ''
+    remarks: ''
+    seeAdditionalConditions: ''
+    spinWheel: ''
+    spinsLeft: ''
+    topUpMinimum: ''
+    turn: ''
+    wheelTurnOver: ''
+    winBigPrizes: ''
+    youHave: ''
+  makeTurnClaim: '-make a slots {slotturn} và làm sòng bạc {sòng bạc}'
+  round: vòng {số}
+  start: bắt đầu
+  topUpMinimum: tiền gửi tối thiểu {tối thiểu} baht, nhận tín dụng miễn phí ngay lập tức.
+  topUpNoPromotion: gửi tiền mà không nhận được các chương trình khuyến mãi và tiền gửi tối thiểu {tối thiểu}.
+  topUpPromotion: để lại một chương trình khuyến mãi và tiền gửi tối thiểu {tối thiểu}.
+  wantFreeCredit: bạn muốn nhận tín dụng miễn phí.
+  whenTopupRecevedCredit: khi hoàn thành top -up có thể nhấp để nhận tín dụng miễn phí
+  whenTopupRecevedDiamond: khi hoàn thành top -up có thể nhấp để nhận kim cương
+  whenTopupRecevedMoney: khi hoàn thành top -up có thể nhấp để nhận tiền
+  whenWitdthCredit: khi làm sân thượng có thể rút tín dụng miễn phí
+  whenWitdthDiamond: khi làm sân thượng có thể rút kim cương ngay lập tức
+  whenWitdthMoney: khi làm sân thượng có thể rút tiền
+  quickAccessCredit: Có thể nhận được một giải thưởng tại đây
+freeSpin:
+  description: ''
+  forGame: ''
+  giftbox: hộp quà
+  noNoti: không tìm thấy thông báo
+  nogiftBox: bạn không có một món quà.
+  noti: cảnh báo
+  title: ''
+freespin: ''
+from: ''
+gamehits: Trò chơi phổ biến nhất!
+incomDetail: Thông tin doanh thu
+inviteFriends:
+  bonusFriends: tiền thưởng nhận được từ những người bạn mời
+  friendAll: tất cả bạn bè mời
+  newUsersOnly: chỉ sử dụng người dùng mới
+  receiveBonus: bạn sẽ nhận được một phần thưởng.
+  referralLink: liên kết mời bạn bè
+  unlimitedFriends: không giới hạn ở bạn bè!
+isGameType:
+  all: ''
+  arcade: ''
+  cashback: trả lại số tiền
+  casino: ''
+  gameType0: khách hàng không thể chơi sòng bạc trực tuyến, trò chơi chiến đấu, thể thao, xổ số, xe ngựa và trò chơi tiền điện tử. nếu muốn chơi vui lòng đóng chương trình khuyến mãi. và hoàn thành doanh thu
+  gameType1: khách hàng không thể chơi sòng bạc trực tuyến. vui lòng đóng chương trình khuyến mãi. và hoàn thành doanh thu
+  gameType2: khách hàng không thể chơi trong danh mục các khe, bắn cá, bàn, bàn. và hoàn thành doanh thu
+  lotto: ''
+  luckyWheel: bánh xe
+  slot: ''
+  sport: ''
+key: Trò chơi mới nhất
+lastgame: Trò chơi mới nhất
+lobby:
+  allGames: Tất cả trò chơi
+  gameCategory: thể loại trò chơi
+  new: mới
+  noGamesFound: ''
+  notGame: không có trò chơi tìm kiếm
+  searchGames: Tìm kiếm trò chơi
+  noEventsNow: Hiện tại chưa có hoạt động nào
+  recommendedEvents: Sự kiện được đề xuất
+  gameCategoriesList: Slot, Casino, Thể thao, Game bàn, Arcade, Đối kháng, v.v.
+  typeAtLeastThreeChars: Nhập ít nhất 3 ký tự
+  foundGamesCount: 'Tìm thấy {count} trò chơi'
+loginPage:
+  byLoggingIn: ''
+  enterYourUsername: điền vào tên của người dùng hoặc số điện thoại.
+  exclusiveBonus: ''
+  exclusiveBonusDesc: ''
+  forgotPassword: quên mật khẩu
+  login: đăng nhập
+  loginToYourAccount: ''
+  or: ''
+  passwordOrPin: mật khẩu / mã pin
+  plsInputLeastFour: vui lòng điền vào 4 ký tự.
+  plsInputLeastTen: vui lòng điền vào 10 ký tự.
+  privacyPolicy: ''
+  rememberMe: nhớ tôi
+  secureGaming: ''
+  secureGamingDesc: ''
+  subscribtion: đặt mua
+  support247: ''
+  support247Desc: ''
+  termsOfService: ''
+  userAccountOrTel: tài khoản người dùng hoặc số điện thoại
+  welcomeToSlotGames: ''
+luckyWheel:
+  additionalConditions: điều kiện bổ sung
+  goTopup: để lên trên đầu
+  goTurn: đi đến lượt
+  haveLoss: số tiền bị hỏng từ {tối thiểu} baht trở lên để có được 1 lần/ngày.
+  haveLossNew: số tiền bị hỏng từ {tối thiểu} baht trở lên.
+  haveMinimum: với trả trước {tối thiểu} {tiền tệ} lên để có được 1 lần/ngày
+  haveReceived: bạn nhận được {phần thưởng}
+  noRightSpin: bạn không có quyền xoay vòng.
+  noSpinning: bạn không có quyền xoay vòng.
+  noSpinningRight: bạn không có quyền xoay.
+  remarks: ghi chú
+  seeAdditionalConditions: xem thêm điều kiện
+  spinWheel: xoay bánh xe
+  spinsLeft: phải
+  topUpMinimum: tối thiểu {tối thiểu} nhưng không quá {tối đa} baht, nhận đặc quyền {value} lần
+  turn: xoay
+  wheelTurnOver: người chiến thắng
+  winBigPrizes: giành được một giải thưởng lớn và nhiều tín dụng miễn phí!
+  youHave: bạn có quyền xoay.
+manageBankAccount:
+  addAccount: thêm tài khoản
+  addAccountBank: thêm tài khoản ngân hàng
+  addAccountBankDesc: vui lòng thêm tài khoản ngân hàng mới
+  changePrimaryAccount: thay đổi tài khoản chính
+  changePrimaryAccountDesc: vui lòng chọn một tài khoản chính mới
+  changedSuccessfullyPrimaryAccount: thay đổi tài khoản chính thành công
+  dafaultAccount: tài khoản mặc định
+  manageAccount: quản lý tài khoản ngân hàng
+  notHaveAccount: chưa có tài khoản
+  waitingVerification: đang chờ xác minh
+migrate:
+  complete: ''
+  description: ''
+  popup1: hủy cập nhật dữ liệu
+  popup2: bạn có muốn hủy cập nhật dữ liệu không?
+  popup3: hủy cập nhật dữ liệu
+  popup4: chào mừng!
+  popup5: cập nhật thông tin cho chúng tôi một chút.
+  start: ''
+  title: ''
+minimum: Tối thiểu {0} baht
+mission:
+  accumulate: tích trữ
+  awardAllLogin: nhận {phần thưởng} {typereward} mỗi ngày đăng nhập!
+  awardHistory: giải thưởng lịch sử
+  claim: ''
+  collectorModeOnly: nhiệm vụ tích lũy sẽ đủ điều kiện nhận chỉ một giải thưởng.
+  complete: ''
+  completed: ''
+  daily: ''
+  description: ''
+  duration: 'thời lượng: không giới hạn'
+  everyday: hằng ngày
+  fri: giáo sư.
+  getRewarded: thắng
+  go: đi
+  inProgress: ''
+  loginCalendar: lịch đăng nhập
+  missionList: nhiệm vụ
+  missionsEnd: tất cả các nhiệm vụ sẽ kết thúc trong
+  mon: thứ hai
+  monthly: ''
+  progress: ''
+  received: đã nhận
+  reward: ''
+  sat: s.
+  seasonMissions: nhiệm vụ theo mùa có ảnh hưởng từ
+  seasonal: mùa
+  soon: tại thời điểm này không có nhiệm vụ. vui lòng theo dõi sớm.
+  special: ''
+  sun: chú.
+  thu: thu
+  title: ''
+  tue: giáo viên
+  wed: có thể
+  weekly: ''
+  detailModalType: Nhận phần thưởng ngẫu nhiên ngay lập tức khi bạn đăng nhập!
+  getRewardPromotion: Top up with promotion
+  getRewardNoPromotion: Top up without promotion
+month:
+  april: tháng tư
+  august: tháng tám
+  december: tháng 12
+  february: tháng hai
+  january: tháng một
+  july: tháng bảy
+  june: tháng sáu
+  march: bước đều
+  may: có thể
+  november: tháng mười một
+  october: tháng mười
+  september: tháng 9
+notRewardList: ''
+nvalidPrizeType: ''
+onePayment:
+  description: ''
+  recommend: ''
+  title: ''
+  oneBanks: Automatic Bank
+oneThingMustBeDone: ''
+p2p:
+  description: ''
+  receive: ''
+  send: ''
+  tab1: Thanh toán qua trang web
+  tab2: Thanh toán qua mã QR
+  title: ''
+pages:
+  '404':
+    title: đăng ký
+  promotion:
+    all: tất cả
+    casino: sòng bạc
+    lotto: vé số
+    other: khác
+    slot: chỗ
+    sport: thể thao
+  tier:
+    credit: tín dụng
+    diamonds: kim cương
+    freeCredit: tín dụng miễn phí
+    permissionToOpenTheBox: quyền mở hộp
+    permissionToSpinTheWheel: quyền
+    point_rewards: đánh dấu
+personalInformation:
+  accountLine: ràng buộc với dòng
+  accountName: tên tài khoản
+  accountNotYet: không bị ràng buộc với tài khoản
+  accountNumber: số tài khoản
+  address: Địa chỉ
+  bankAccount: tài khoản ngân hàng
+  birthday: sinh nhật
+  birthdayRegistration: đăng ký sinh nhật
+  changePIN: thay đổi pin thành hệ thống
+  changePassword: Thay đổi mật khẩu
+  changePasswordGame: thay đổi mật khẩu thành trò chơi.
+  chkPasswordSix: mật khẩu phải nằm trong khoảng từ 6-12.
+  city: thành phố
+  country: quốc gia
+  dateOfBirth: sinh nhật
+  email: E-mail
+  female: ''
+  gameCode: mã lối vào trò chơi
+  gender: ''
+  haveLangue: có tiếng anh, bản in nhỏ, các bản in lớn như abc123.
+  inviteFriends: mời bạn bè nhận tiền thưởng
+  male: ''
+  name: ''
+  noHaveFriend: không tìm thấy bạn bè
+  notYetRegistered: chưa đăng ký
+  other: ''
+  personalInformation: thông tin cá nhân
+  phone: ''
+  pinCode: mã mã
+  plsConfrimPasswordNew: vui lòng xác nhận mật khẩu mới.
+  plsNewPassword: vui lòng dành một mật khẩu mới.
+  plsNewPasswordAndSave: vui lòng dành một đường chuyền mới và hồ sơ báo chí.
+  postalCode: ''
+  preferNotToSay: ''
+  pressSave: vui lòng điền vào một pin mới và nhấn lưu.
+  profile: hồ sơ
+  referralCode: mã mời bạn bè
+  referralLink: liên kết mời bạn bè
+  seeProfile: xem hồ sơ
+  shareEarn: chia sẻ tiền
+  state: ''
+  title: ''
+  twoFactorAuthentication: ''
+  update: ''
+  userGame: trò chơi là trong trò chơi.
+pls-enter-true-wallet: Vui lòng điền vào số điện thoại gắn với ví thật.
+plsUploadSlipviaQR: Vui lòng tải lên một phiếu chỉ với mã QR, nếu không thì số dư sẽ không đăng nhập.
+promotion:
+  supportedChannels: Kênh nạp tiền được hỗ trợ
+  supportedPromotions: Khuyến mãi được hỗ trợ
+  accountSupportsPromotion: Tài khoản này hỗ trợ khuyến mãi
+  acceptedpro: tôi đã nhận được chương trình khuyến mãi này.
+  allPromotionsCasino: tất cả các chương trình khuyến mãi của các trò chơi sòng bạc
+  allPromotionsSlot: tất cả các chương trình khuyến mãi của trò chơi khe
+  automatically: tự động
+  automaticallyReceivePromotions: nhận một nhóm các chương trình khuyến mãi tự động
+  buttonOpen: nhấn nút khuyến mãi.
+  canNotReceiveNow: không thể chấp nhận chương trình khuyến mãi tại thời điểm này
+  cannotplayCasino: không thể chơi sòng bạc
+  casino: sòng bạc
+  change: thay đổi
+  changePromotion: số dư còn lại phải nhỏ hơn hoặc bằng {tín dụng} {tiền tệ} để có thể thay đổi trạng thái quảng cáo.
+  chooseGroupLike: chọn nhóm yêu thích của bạn.
+  chossesPromotion: chọn chương trình khuyến mãi này.
+  closePromotion: khuyến mãi gần
+  conditions: tình trạng
+  details: chi tiết
+  doNotNotify: không cần phải cảnh báo vấn đề này một lần nữa.
+  getPromotion: nhận được các chương trình khuyến mãi
+  getPromotionsAutomatically: nhận các chương trình khuyến mãi tự động
+  getPromotionsManually: nhận một chương trình khuyến mãi của chính mình.
+  getThisPromotion: nhận chương trình khuyến mãi này
+  noPromotionReceived: không chấp nhận các chương trình khuyến mãi
+  noTurnRequired: không cần phải rẽ có thể rút tất cả tiền
+  notAccept: không nhận được các chương trình khuyến mãi
+  notFoundPromotion: không có thông tin khuyến mãi
+  outOfBusiness: xin lỗi, ngoài thời gian.
+  outOfBusinessCannot: không thể nhận được các chương trình khuyến mãi
+  promotion: khuyến mãi
+  promotionAuto: khuyến mãi tự động
+  promotionCurrChoose: các chương trình khuyến mãi hiện tại mà bạn chọn
+  receiveAutomaticCasino: nhận một chương trình khuyến mãi trò chơi sòng bạc tự động.
+  receiveAutomaticSlot: nhận quảng bá các trò chơi khe tự động.
+  receiveGroupPromotion: nhận chương trình khuyến mãi nhóm
+  receiveProGameAuto: nhận một trò chơi {game} tự động.
+  receivePromotion: nhận chương trình khuyến mãi này
+  seeProSlotAll: xem tất cả các chương trình khuyến mãi
+  selectReceivePromotion: chọn để nhận được chương trình khuyến mãi một mình.
+  slideButton: di chuyển nút để nhận chương trình khuyến mãi.
+  slot: chỗ
+  specialPromotion: khuyến mãi đặc biệt
+  systemMatchPromotions: khi chọn nhận một nhóm các chương trình khuyến mãi khi bạn nạp tiền, hệ thống sẽ phù hợp với chương trình khuyến mãi trong danh mục. rằng bạn chọn tự động
+  topUpSystemAutomaticallyMatch: khi top -up hệ thống sẽ tự động phù hợp với chương trình khuyến mãi.
+  turnOff: tắt
+  turnOn: mở
+  unableActivities: không thể tham gia vào các hoạt động như thu thập điểm thường xuyên
+  viewAllCasino: xem tất cả các chương trình khuyến mãi sòng bạc
+  warning: cảnh báo
+  youAcceptingPromotion: bạn đang chấp nhận chương trình khuyến mãi này.
+  youReceviceProAnother: bạn đã nhận được một chương trình khuyến mãi khác.
+  youWantReceive: bạn muốn nhận
+  youWantReceivePromotions: bạn muốn nhận được một chương trình khuyến mãi.
+  myPromotions: Khuyến mãi của tôi
+  promotionStatus: Trạng thái khuyến mãi
+  receiveAutomaticPromotions: Nhận khuyến mãi tự động
+  notReceivingPromotions: Không nhận khuyến mãi
+  automaticPromotionInfo: Thông tin khuyến mãi tự động
+  promotionName: Tên khuyến mãi
+  requiredAmount: Số tiền yêu cầu
+  complete: Hoàn thành
+  promotionDetails: Chi tiết khuyến mãi
+  promotionType: Loại khuyến mãi
+  requirements: Yêu cầu
+  defaultRequirements: Yêu cầu mặc định
+  bonusAmount: Số tiền thưởng
+  noActivePromotion: Không có khuyến mãi hoạt động
+  wantToReceivePromotions: Muốn nhận khuyến mãi
+  enablePromotions: Bật khuyến mãi
+  updating: Đang cập nhật
+  promotionsDisabled: Khuyến mãi đã tắt
+  promotionsEnabled: Khuyến mãi đã bật
+  toggleError: Lỗi chuyển đổi
+  depositBonus: Thưởng nạp tiền
+  cashback: Hoàn tiền
+  freeCredit: Tín dụng miễn phí
+qrCodeBank: Gửi qua (mã QR)
+randomPrize:
+  earn: nhận phần thưởng}
+  justPlayGame: chỉ cần chơi bất kỳ trò chơi liên tục. người chơi cũng có cơ hội nhận phần thưởng ngẫu nhiên cao nhất.
+  max: số lớn nhất}
+  minimum: thấp {số}
+  noHaveRandomHistory: không có lịch sử ngẫu nhiên
+  randomFreePrizes: giải thưởng ngẫu nhiên miễn phí
+  randomHistory: lịch sử ngẫu nhiên
+  randomPrize: giải thưởng ngẫu nhiên
+rank:
+  cash: tiền mặt
+  mostPlayer: sự lấp đầy cuối cùng
+  remarks: ghi chú
+  reward: phần thưởng
+  roundResult: kết quả hàng ngày
+  sortedAmount: được sắp xếp từ số lượng đã được thêm vào hệ thống
+  things: đồ đạc
+  topRankedPlayer: xếp hạng hàng đầu
+ranking:
+  things: đồ đạc
+  title: ''
+referral:
+  InviteFriendsBonuses: mời bạn bè nhận tiền thưởng
+  InviteFriendsDesc1: khi bạn bè áp dụng đứng lên và nhận các chương trình khuyến mãi bạn sẽ nhận được tín dụng {value}%.
+  InviteFriendsDesc2: khi bạn bè áp dụng và nạp tiền bạn sẽ nhận được tín dụng {value}%.
+  InviteFriendsDesc3: từ đầu tiên của một người bạn tối thiểu {tối thiểu} baht
+  InviteFriendsDesc4: tín dụng tối đa {giới hạn}
+  InviteFriendsDesc5: thu nhập sẽ ngay lập tức vào túi tín dụng.
+  YouReferralLink: liên kết mời bạn bè
+  commissionEarned: ủy ban nhận được
+  copy: ''
+  copyLink: sao chép liên kết
+  currentIncome: mức thu nhập hiện tại
+  description: ''
+  friendInviteHistory: lịch sử của bạn bè
+  inviteFriendsDesc3: ''
+  inviteFriendsDesc4: ''
+  inviteFriendsDesc5: ''
+  inviteFriendsStepsOne: sao chép liên kết đến bạn bè.
+  inviteFriendsStepsThree: bạn bè lần đầu tiên thêm tín dụng ngay lập tức!
+  inviteFriendsStepsTwo: chờ bạn bè đăng ký làm thành viên
+  inviteFriendsToRarn: mời bạn bè nhận thu nhập
+  link: ''
+  received: đã nhận
+  receivedHistory: lịch sử báo chí
+  rewards: ''
+  share: ''
+  shareYouReferralLink: liên kết mời bạn bè
+  terms: ''
+  title: ''
+  totalFriends: tất cả bạn bè
+register:
+  acceptTermsConditions: tôi chấp nhận tất cả các điều kiện và thỏa thuận.
+  accountSuccessfully: tạo tài khoản thành công!
+  bank: ngân hàng
+  bankAccountNumber: số tài khoản ngân hàng
+  birthday: sinh nhật
+  birthdayOptional: sinh nhật (không phải lực)
+  choose: chọn
+  conditionsFive: 5) chỉ 1 thành viên trên 1 id.
+  conditionsFour: 4) nếu xảy ra lỗi hệ thống để thông báo cho nhân viên ngay lập tức trong trường hợp chúng tôi không thông báo, chúng tôi có quyền rút tiền trong mọi trường hợp.
+  conditionsOne: 1) số điện thoại được sử dụng để nhận tin nhắn vì hệ thống cần gửi mã xác nhận đến số điện thoại của bạn nếu không, nó sẽ không thể thực hiện các giao dịch khác nhau.
+  conditionsRegister: điều kiện và điều khoản của ứng dụng
+  conditionsThree: 3) phải sử dụng tài khoản được áp dụng để chỉ gửi tiền
+  conditionsTwo: 2) tên -surname phải khớp với tên tài khoản nếu không, bạn sẽ không thể rút tiền.
+  confirmOTP: xác nhận mã otp
+  enterAccountNumberMatch: điền vào số tài khoản để phù hợp với tên của người nộp đơn.
+  enterRecommendedFriend: nhập mã bạn bè được đề xuất. để nhận tín dụng miễn phí
+  fillIn: điền vào thông tin
+  fillInLastName: điền vào họ
+  fillInName: điền vào tên
+  fillPhone: điền số điện thoại
+  fillPhoneFight: điền chính xác số từ vựng ({number}
+  fillPhoneGetOTP: vui lòng điền vào số điện thoại để nhận mã xác nhận otp.
+  friendRecommended: bạn đề nghị
+  getOTP: otp
+  knowUs: hãy cho chúng tôi biết chúng tôi biết chúng tôi từ đâu?
+  lastStep: bước cuối cùng!
+  lineOptional: dòng id (nếu có)
+  loginNow: đăng nhập ngay lập tức
+  middlename: tên trung tâm
+  miss: cô
+  mr: ông.
+  mrs: bà.
+  name: tên
+  or: hoặc
+  password: mật khẩu
+  pinCode: mã pin
+  pinCodeNotMatch: ''
+  pleaseEnterSixDigit: vui lòng nhập số mã số 6 mà bạn đã nhận được.
+  pleaseFilInformation: vui lòng điền thông tin của bạn để đăng ký thành viên.
+  pleaseRemember: hãy nhớ hoặc lưu màn hình của bạn.
+  pleaseSelectChannel: vui lòng chọn kênh
+  pleaseSetPin: vui lòng đặt mã pin 4 -digit để sử dụng trong hệ thống.
+  plsClickRecaptcha: vui lòng bấm vào để xác nhận recaptcha cho an toàn.
+  plsEnterLeast: vui lòng điền ít nhất
+  plsInputInforLeast: vui lòng điền vào các số không nhiều hơn {max} chữ cái.
+  plsInputInforNine: vui lòng điền vào một vài số.
+  plsInputInforTen: vui lòng điền vào một lượng nhỏ các số.
+  plsInputName: điền vào thông tin tên ít nhất 2 ký tự.
+  plsInputNumber: vui lòng điền vào số.
+  plsInputPhoneComplate: vui lòng điền vào số điện thoại.
+  plsInputPhoneReciveOtp: vui lòng điền vào số được sử dụng để áp dụng để nhận mã xác nhận otp.
+  plsInputSureName: điền vào thông tin họ cuối cùng.
+  plsLineInput: vui lòng điền vào dòng id.
+  prefixName: tên tiền tố
+  qrcode: mã từ mã qr
+  record: 'ghi '
+  referralCode: mã bạn bè được đề xuất (nếu có)
+  resendCode: gửi lại mã
+  resendCodeTime: gửi mã một lần nữa trong
+  scanBank: trả lời
+  setPinCode: đặt mã pin
+  surname: họ
+  telephoneNumber: số điện thoại
+  userAccount: tài khoản người dùng (tên người dùng)
+  validateAllFields: vui lòng điền vào thông tin một cách chính xác.
+registermethod: Vui lòng chọn cách áp dụng.
+regularDeposit:
+  a2zCheckPayment: xác nhận hàng đầu
+  a2zPending: xác nhận hàng đầu
+  a2zPrompt1: khi chuyển giao vui lòng chỉ nhấn xác nhận "một lần"
+  a2zPrompt2: vui lòng không ghi lại tài khoản ngân hàng này.
+  accumulateConsecutiveDay: tích lũy theo số tiền bạn đã chọn liên tục theo số ngày được lên lịch mỗi ngày.
+  appeaseFillingLine: nuông chiều đường điền! tích lũy ngày đặt cọc để nhận giải thưởng
+  cause: Vui lòng sao chép số tài khoản ngân hàng để chuyển khoản
+  cause1: vui lòng sao chép số tài khoản. để bạn chuyển vào bạn phải chuyển sang số tiền mà hệ thống chỉ hiển thị.
+  chooseDays: chọn số ngày
+  condition: tình trạng
+  countWillStart: nếu không liên tục, sẽ bắt đầu lại
+  dailyTopUp: thường xuyên
+  date: ngày {ngày}
+  day: '{ngày qua ngày'
+  deposit: tiền gửi
+  depositAccordingRedeemBonus: được tích lũy theo số tiền bạn đã chọn liên tục khi gửi số ngày được lên kế hoạch để trao đổi tiền thưởng ngay lập tức.
+  depositAccumulatedAccording: tích lũy theo số ngày được chỉ định
+  depositAmount: tiền gửi
+  depositComplete: hoàn thành
+  depositGetUnlimited: chỉ cần một khoản tiền gửi thường xuyên, nhận được một tín dụng miễn phí không giới hạn!
+  depositNotConsecutive: nếu không liên lạc, hệ thống sẽ bắt đầu đếm tiền gửi mới.
+  details: chi tiết
+  dialog: ''
+  earn: nhận phần thưởng}
+  fixedDeposit: để lại hình trên cùng
+  fixedDepositDetails: chi tiết tiền gửi thường xuyên
+  getCredit: nhận tín dụng
+  getRewarded: thắng
+  highestAward: giải thưởng cao nhất nhận được
+  justPlayGames: chỉ cần chơi trò chơi slots vào hàng đầu được chỉ định. nhận một tín dụng miễn phí không giới hạn!
+  keepDepositing: tiền gửi liên tục để nhận tiền thưởng mong muốn
+  makeTurnClaim: cần tạo sòng bạc {sòng bạc} và các khe {slotturn} để có thể nhận được tiền thưởng.
+  note: ghi chú
+  numberOfDays: con số
+  outOfTime: hết giờ
+  outOfTimePayment: thời gian thanh toán
+  playSlotGames: chơi trò chơi khe
+  receiveFixedDeposit: bạn muốn nhận được phần thưởng từ một khoản tiền gửi thường xuyên.
+  received: nhận được
+  receivedBonus: phần thưởng nhận được
+  receivedCredit: nhận tín dụng
+  receivedCreditFree: nhận tín dụng miễn phí
+  receivedDiamond: nhận kim cương
+  redeemBonus: có thể trao đổi tiền thưởng ngay lập tức
+  specifiedDays: số ngày
+  startAccumulatingAgain: khi nhấp vào để nhận giải thưởng này, giải thưởng sẽ bắt đầu tích lũy.
+  when: khi
+  whenReceivingBonus: khi nhấp vào phần thưởng, nó sẽ được coi là kết thúc của tiền gửi. và có thể bắt đầu nhận được một phần thưởng mới vào ngày hôm sau
+  whenReceivingTransferredCredit: khi nhận được tiền thưởng có thể bắt đầu một khoản tiền gửi mới (số lần không giới hạn) và phần thưởng này sẽ được chuyển sang túi tín dụng
+selectBankAndnumber: '"Chọn một tài khoản ngân hàng và điền vào số tiền"'
+selectMethod: Chọn một cách để gửi tiền
+serviceSurvey:
+  adminRating: cho quản trị viên
+  chooseWantTel: chọn câu chuyện mà bạn muốn kể cho chúng tôi.
+  fair: công bằng
+  good: tốt
+  improveService: chúng tôi sẽ mang lại để cải thiện dịch vụ.
+  low: sửa đổi
+  moderate: vừa phải
+  selectAdmin: vui lòng chọn quản trị viên.
+  selectAdminEvaluating: vui lòng chọn quản trị viên trước khi đánh giá.
+  sorryOpen: xin lỗi, không mở để đánh giá quản trị viên hệ thống.
+  suggestion: gợi ý
+  telMeExperience: mô tả kinh nghiệm bạn đã nhận được cho chúng tôi.
+  thanksSuggestion: cảm ơn vì đã góp ý
+  veryGood: rất tốt
+shareFacebook:
+  referralLink: liên kết tham khảo
+  shareLinks: chia sẻ một liên kết đến phương tiện truyền thông xã hội của bạn. và tải lên hình ảnh miễn phí ngay lập tức!
+  socialShare: chia sẻ phương tiện truyền thông xã hội
+  uploadPictures: tải lên hình ảnh ở đây.
+showTurnPromotion:
+  makeAnotherTurn: phải làm một lượt khác
+  makeTurnCanWithdrawn: bạn phải tạo ra một "nhiều hơn" hoặc "bằng" {text} {tiền} để có thể rút tiền.
+  noTurnover: không cần phải rẽ
+  promotionName: tên khuyến mãi
+  turnMustMade: lượt phải được thực hiện
+  turnoverAmount: xoay
+sidebar:
+  chooseContactAdmin: chọn một cách để liên hệ với quản trị viên.
+  contactAdmin: liên hệ với quản trị viên
+  deposit: ''
+  enterWebSite: nhập trang web
+  favorites: ''
+  games: ''
+  history: ''
+  home: ''
+  logout: ra khỏi hệ thống
+  profile: ''
+  promotions: ''
+  recentlyPlayed: ''
+  seeProfile: xem hồ sơ
+  settingScreen: đặt màn hình
+  settings: ''
+  support: ''
+  wallet: ''
+  withdraw: ''
+slip:
+  clipCheckSlip: Khi chuyển tiền, xin vui lòng thực hiện "tải lên" ở đây.
+  contactAdmin: Nếu không thể tải lên trượt, vui lòng liên hệ với quản trị viên.
+  dragSlip: Kéo tập tin của bạn ở đây hoặc nhấp vào hình ảnh.
+  error: Không thể sử dụng ảnh trượt
+  errorMin: Số tiền bạn muốn nạp tiền ít hơn mức tối thiểu.
+  history: Lịch sử tải lên phiếu
+  plsSelectBank: Vui lòng chọn một ngân hàng
+  slip: Trượt
+  slipComplete: Hoàn thành tải lên trượt Hệ thống là top -up.
+  slipOnly: Chỉ trượt tệp
+  upload: Vui lòng tải lên
+  uploadSlip: Tải lên trượt
+slipSystem: Tiền gửi tải lên
+specialCommission:
+  calculation: ''
+  desc1: chỉ cần làm thiết bị đầu cuối theo các quy tắc được chỉ định. có thể nhận được một tín dụng miễn phí!
+  description: ''
+  dialogTitle: nhận hoa hồng
+  eligibility: ''
+  payment: ''
+  period: ''
+  rate: ''
+  selectType: vui lòng chọn một kênh hoa hồng.
+  terms: ''
+  title: ''
+  warnText: bạn muốn nhận tất cả hoa hồng.
+spicificAmountTransfer: Chuyển tiền theo số tiền hiển thị mà không làm tròn.
+status:
+  approved: chấp thuận
+  approvedDone: chấp thuận
+  disapproved: không chắc chắn
+  noTopup: không phải top -up
+  pending: chờ đợi hành động
+  received: đã nhận
+  receivedCom: đã nhận
+teir:
+  birthdayReward: tháng sinh
+  congratulations: xin chúc mừng bạn đang ở cấp độ cao nhất!
+  detailsVip: tất cả các chi tiết cấp vip
+  earn: nhận {thưởng} {type}
+  levelsReset: hệ thống sẽ đặt lại toàn bộ cấp độ trong ngày.
+  myReward: giải thưởng của tôi
+  privilege: đặc quyền cấp độ
+  promotionRewards: giải thưởng khuyến mãi vip
+  reward: phần thưởng
+  specialPrize: giải đặc biệt
+  topUp: đổ đầy
+  turnOver: doanh số
+  type: kiểu
+  unlocked: mở khóa đến cấp độ
+  upgradeReward: phần thưởng
+tier:
+  LatestTenItems: (10 mục mới nhất)
+  all: Tất cả
+  benefits: ''
+  colse: Đóng
+  condetion: Điều kiện
+  congratulationsHighestLevel: Chúc mừng! Bạn đang ở cấp cao nhất
+  count: Số lượng
+  credit: Tín dụng
+  creditFree: Tín dụng miễn phí
+  creditGame: Tín dụng trong trò chơi
+  current: ''
+  deposit: Nạp tiền
+  description: ''
+  diamond: Kim cương
+  forgame: Cho trò chơi
+  freeSpin: Quay miễn phí
+  freespin: Quay miễn phí
+  from: Từ
+  game: Trò chơi
+  get: Nhận được
+  getFreeSpinsGameRewards: Muốn nhận phần thưởng quay miễn phí trò chơi
+  getPanner: Từ nhà cung cấp
+  getReward: Xem phần thưởng
+  getRewarded: Nhận phần thưởng
+  hasNowShowEven: Sự kiện đã kết thúc
+  history: Lịch sử
+  item: Vật phẩm
+  lastEvent: Sự kiện đã kết thúc
+  list: Danh sách
+  litsReward: Danh sách phần thưởng
+  makeTurn: Thực hiện vòng quay
+  marking: Điểm
+  mustBeCompleted: Phải hoàn thành cả hai
+  myReward: Phần thưởng của tôi
+  next: ''
+  notHistory: Không tìm thấy lịch sử phần thưởng
+  notReward: Không có phần thưởng
+  notRewardList: Không có phần thưởng
+  nvalidPrizeType: Loại phần thưởng không hợp lệ
+  oneThingMustBeDone: Phải hoàn thành một điều
+  openBox: Quyền mở hộp
+  or: Hoặc không
+  provider: Nhà cung cấp
+  reward: Phần thưởng
+  rewardLeveUp: Phần thưởng lên cấp
+  rights: Quyền
+  tierResetDate: Hệ thống sẽ đặt lại tất cả các cấp vào ngày
+  tierVipDetail: Chi tiết cấp VIP
+  time: Lần
+  title: ''
+  topUp: Số tiền nạp
+  trunOver: Doanh thu
+  type: Loại
+  vipDetail: Chi tiết VIP
+  vipLevel: Cấp VIP
+  wantToReceivePrize: Muốn nhận phần thưởng
+  wheel: Quyền vòng quay
+  wheelRights: Quyền mở vòng quay
+  youConditionsIsChoose: Bạn có thể chọn hoàn thành một trong các điều kiện
+  youConditionsIsChoose2: Bạn phải hoàn thành cả số tiền nạp và doanh thu
+  onlyEligibleToReceive: Chỉ đủ điều kiện để nhận
+  specialOnly: Chỉ dành riêng
+  youNotEligibleToReceive: Không đủ điều kiện nhận khuyến mãi này
+tips:
+  balance: cân bằng trò chơi
+  becauseMotivation: bởi vì mọi sự cho đi của bạn đều mạnh mẽ và khuyến khích trong phát triển hệ thống của chúng tôi tốt hơn. cảm ơn bạn vì sức mạnh luôn được đưa ra.
+  depositTips: ''
+  generalTips: ''
+  give: mẹo
+  inputMoney: chỉ định hoặc chọn số tiền
+  minOneBaht: tối thiểu 1 baht
+  promotionTips: ''
+  tellUs: có điều gì để nói với chúng tôi không?
+  text: tin nhắn
+  tipsForLuv: để mở hệ thống để khuyến khích
+  withdrawTips: ''
+tmw:
+  addAccount: Thêm tài khoản ví thật
+  addAccountComplete: Thêm tài khoản tiền thật thành công.
+  addAccountInfo: '*Nếu không thể thêm tài khoản, vui lòng liên hệ với quản trị viên.'
+  enerOtp: Nhập mã 6 chữ số nhận được.
+  enterTmwPhone: Điền vào số điện thoại gắn với ví thật.
+  settingAccount: Đặt tài khoản tiền thật.
+  topup: Đứng lên qua ví tiền thật
+treasureBox:
+  addRight: nhận đặc quyền {số}
+  eligibilityConditions: điều kiện cho các đặc quyền
+  haveMinimumtopUp: có số tiền hàng đầu từ {tối thiểu} baht trở lên để có được 1 lần/ngày
+  justPlayActivity: chỉ cần chơi các hoạt động hộp vui vẻ.
+  minimumtopUp: tối thiểu {tối thiểu} nhưng không quá {tối đa} baht, nhận đặc quyền {number}
+  notAuthorized: bạn không có quyền mở hộp.
+  rightsOpen: bạn có quyền mở một lần nữa.
+  tapBox: '"nhấn vào hộp để mở"'
+  topUp: top -up
+  topUpMinimumToMax: tối thiểu {tối thiểu} nhưng không quá {tối đa} baht
+  treasureBox: mở hộp vui vẻ
+  tryMoneyRightOpen: hãy thử top -up để có quyền mở hộp!
+  winFreeCredit: giành được tín dụng miễn phí và nhiều phần thưởng nữa!
+treasureBoxTurn:
+  haveRightToOpen: bạn có quyền mở hộp.
+  minimumTurnoverRequired: có doanh thu từ {tối thiểu} baht trở lên để có được 1 lần/ngày
+  receivedRewardToday: hôm nay bạn đã nhận được giải thưởng.
+  treasureBoxTurn: mở hộp tham quan
+  tryPlayGameRightOpen: hãy thử chơi trò chơi để có quyền mở hộp!
+type:
+  arcade: giải trí
+  bigwin: chiến thắng lớn
+  canNotPlayGame: không có trò chơi mới nhất để chơi
+  casino: sòng bạc
+  casinoOnline: sòng bài trực tuyến
+  casinohit: đánh sòng bạc
+  challenge: thử thách
+  chooseDisplayFormat: chọn định dạng hiển thị.
+  cock: ''
+  crash: quan tâm
+  crypto: tiền điện tử
+  desktopVersion: phiên bản máy tính để bàn
+  favoriteGame: trò chơi yêu thích
+  favorites: ferrit
+  feature: tính năng
+  findGame: tìm kiếm trò chơi
+  fishing: bắn
+  fishinghit: đánh cá
+  freespin: lượt quay miễn phí
+  gameCamp: chơi game
+  hitGame: trò chơi phổ biến
+  hits: phổ biến
+  home: trang chính
+  lastPlayed: chơi mới nhất
+  letPlay: hãy thử chơi
+  loginFromAnother: có một đăng nhập từ những nơi khác.
+  lotto: vé số
+  lottoOnline: xổ số trực tuyến
+  mobileVersion: phiên bản điện thoại
+  muay: ''
+  new: mới
+  newGame: trò chơi mới
+  noFavoriteGame: không có trò chơi yêu thích
+  onlineSport: thể thao trực tuyến
+  other: khác
+  pleaseLogin: vui lòng hãy đăng nhập
+  provider: chơi game
+  providers: Chơi game
+  pvp: trận đánh
+  saveYourFavorite: cố gắng nhấn vào góc bên phải của trò chơi để lưu trò chơi yêu thích của bạn.
+  slot: chỗ
+  slothit: đánh
+  sport: thể thao
+  sportOnline: thể thao trực tuyến
+  sporthit: đánh
+  table: thẻ
+  tableGames: thẻ
+  tophit: đánh
+  topten: top mười
+  upcoming: gần đây
+unit:
+  baht: ''
+  bronze: ''
+  coin: ''
+  credit: ''
+  diamond: ''
+  dollar: ''
+  euro: ''
+  gold: ''
+  point: ''
+  pound: ''
+  silver: ''
+  token: ''
+  yen: ''
+updatePhone:
+  conditionRecevice: nhận điều kiện
+  condtionTopupMin: cần phải nạp tiền tối thiểu {tiền} baht trước khi nhận được quyền tham gia chương trình khuyến mãi này
+  condtionTopupNoPrommotionMin: cần phải nạp tiền mà không nhận được chương trình khuyến mãi tối thiểu {tiền} baht trước khi nhận được quyền tham gia chương trình khuyến mãi này
+  condtionTopupPrommotionMin: cần nạp tiền quảng cáo tối thiểu {money} baht trước khi nhận được quyền tham gia chương trình khuyến mãi này
+  confirm: ''
+  current: ''
+  description: ''
+  descritoionForPromotion: chỉ cần cập nhật số điện thoại và điền vào mã otp 6 chữ số nhận được. nhận tín dụng ngay lập tức có thể xem các điều kiện cho tín dụng dưới đây
+  exPhone: chẳng hạn như 089-999-9999
+  inPutOtp: nhập mã otp 6 -by -sigit.
+  inputPhone: nhập số tín dụng miễn phí!
+  makeTurnTwo: tạo một vị trí {tín dụng} như nhau và làm cho sòng bạc quay {sòng bạc}
+  new: ''
+  onePhoneOneRight: 1 số đủ điều kiện chỉ chấp nhận 1 lần
+  otp: ''
+  receviceSuccess: nhận {money} {typecredit}
+  sendAgine: gửi lại
+  success: ''
+  title: ''
+  updatePhoneFree: cập nhật số tín dụng miễn phí
+  userAddReward: người chơi sẽ nhận được giải thưởng như
+useRegisterdBank: Sử dụng các tài khoản áp dụng tiền thông qua ngân hàng.
+validate:
+  EMAIL: định dạng email không chính xác.
+  ISMATCH: mật khẩu không khớp.
+  MAXLENGTH: nhập ký tự ít nhất {max}
+  MINLENGTH: nhập ký tự ít nhất {min}
+  NOTTEXT: không điền vào tin nhắn.
+  NOTTHAI: không điền vào các ký tự thái lan.
+  NUMBER: phải chỉ là số
+  PHONE: định dạng số điện thoại không chính xác.
+  REQUIRED: vui lòng điền vào
+  WHITESPACE: không có không gian
+  alpha: ''
+  alphaNum: ''
+  email: ''
+  max: ''
+  min: ''
+  numeric: ''
+  required: ''
+vipDetail: ''
+warnPay:
+  cancel: ''
+  confirm: ''
+  description: ''
+  text1: vui lòng chuyển tiền như báo cáo và
+  text10: thực hiện một giao dịch trong thời gian quy định
+  text11: với các tài khoản đã đăng ký chỉ một lần
+  text12: nếu việc chuyển nhượng không chịu trách nhiệm cho tất cả các trường hợp
+  text2: chỉ chuyển một lần
+  text3: nếu được chuyển hoặc quét nhiều lần hoặc sử dụng một tài khoản không được đăng ký, chúng tôi sẽ
+  text4: không chịu trách nhiệm cho tất cả các trường hợp
+  text5: sau khi tạo yêu cầu tiền gửi
+  text6: bạn có 6 phút.
+  text7: gửi tiền nếu bạn không gửi tiền trong thời gian quy định phải gửi một yêu cầu mới
+  text8: chỉ chuyển một lần theo số tiền được thông báo.
+  text9: xin vui lòng
+  title: ''
+withdraw:
+  alertErrorCode426: hệ thống rút tiền tạm thời đóng. hãy nhìn lại sau.
+  alertErrorCode428: tín dụng của bạn ít hơn mức tối thiểu có thể được rút.
+  alertErrorCode429: không thể rút tiền ngay bây giờ.
+  alertErrorCode430: không thể rút tiền vì bây giờ bạn có một danh sách rút tiền
+  alertErrorCode432: tín dụng bạn muốn rút phải nhiều hơn hoặc bằng {num}.
+  alertErrorCode445: không thể rút tiền do số tiền đặt cược
+  amountYesNo: số lượng {tiền} có phải không?
+  deductBonus: thưởng
+  disapprovedCreditReturned: không chấp thuận (tín dụng trả lại)
+  disapprovedDeductingCredit: không được phê duyệt (cắt tín dụng)
+  disapprovedIllegalPlay: không được phê duyệt (phá vỡ các quy tắc)
+  fundsTransferredBack: được khôi phục (chơi bất hợp pháp)
+  lastestTransaction: 5 mục mới nhất
+  minimumWithdrawal: rút tiền tối thiểu
+  pending: chờ đợi hành động
+  succeed: thành công
+  trueDialog1: bạn muốn rút tiền vào ví thực sự, phải không?
+  trueDialog2: rút tiền vào ví thật.
+  trueDialog3: nếu số không khớp với đăng ký, liên hệ với quản trị viên
+  trueDialog4: để thực hiện cập nhật số mới
+  trueDialog5: hệ thống sẽ rút số lượng giao thoa chỉ bằng 0, chẳng hạn như 100
+  wantWithdraw: muốn rút tiền
+  withdraw: rút
+  withdrawWith: rút tiền qua {type}
+  withdrawableAmount: số tiền rút tiền
+  withdrawalHistory: lịch sử rút tiền
+withdrawHistory: Lịch sử rút tiền
+အကြွေးလက်ခံရရှိခဲ့သည်: tín dụng nhận được
+cashback4step:
+  title: Hoàn trả 4 cấp
+  getMoney: Nhận tiền
+  wallet: Ví
+  creditFree: Ví tín dụng miễn phí
+  subtitleDetailRewad: Khi bạn yêu cầu, tiền sẽ được thêm vào ví của bạn và có thể sử dụng ngay lập tức.
+  detailModalRewad: Khi bạn yêu cầu, tiền sẽ được thêm vào ví tín dụng miễn phí của bạn. Có thể sử dụng sau khi bạn chuyển tín dụng miễn phí.
+  waysReward: Cách nhận phần thưởng
+  selectReward: Vui lòng chọn phương thức nhận thưởng
+oneDepost:
+  oneBankCardDetail1: Hệ thống sẽ chọn tài khoản ngẫu nhiên mỗi lần
+  oneBankCardDetail2: Không được lưu số tài khoản dưới mọi hình thức
+  oneBankCardDetail3: Nếu không, hệ thống sẽ không tự động nạp tiền
+ui:
+  homePage: Trang chủ
+  activity: Hoạt động
+  promotion: Khuyến mãi
+  profile: Hồ sơ
+  refresh: Làm mới
+  contactAdmin: Liên hệ Admin
+  topUp: Nạp tiền
+  receiveCredit: Nhận tín dụng
+  searchGameHere: Tìm kiếm trò chơi tại đây
+  enterWalletAddress: Nhập địa chỉ ví
+  selectCryptoCurrency: Chọn tiền điện tử
+  selectNetwork: Chọn mạng
+  firstName: Tên
+  lastName: Họ
+  bankAccountNumber: Số tài khoản ngân hàng
+  selectThisPromotion: Chọn khuyến mãi này
+  noPromotionFound: Không tìm thấy khuyến mãi
+  luckyWheelTurnOver: Vòng quay may mắn
+  openBox: Mở hộp
+  openBoxTurnOver: Mở hộp doanh thu
+  noBankFound: Không tìm thấy ngân hàng
+  contactAdminForHelp: Vui lòng liên hệ admin để được hỗ trợ
+  creditReceived: Tín dụng đã nhận
+  creditHistory: Lịch sử tín dụng
+  login: Đăng nhập
+  suggest: Gợi ý
+autopeer:
+  detail: Nạp tiền qua hệ thống Autopeer
+  noti: Thông tin quan trọng - Vui lòng đọc
+  pleaseTransferWithin: Vui lòng chuyển tiền và tải slip trong vòng 5 phút
+  ifNotUpload: Nếu bạn không tải lên trong thời gian quy định
+  mustReport: Bạn sẽ cần báo cáo giao dịch chuyển tiền sai
+  contactBank: Và liên hệ ngân hàng để yêu cầu hoàn tiền
+  howToDeposit: Cách nạp tiền
+  step1: Chỉ định số tiền hoặc Nạp nhanh theo ý muốn và nhấn "Nạp tiền"
+  step1_specifyAmount: Chỉ định số tiền
+  step1_or: hoặc
+  step1_quickDeposit: Nạp nhanh
+  step1_asDesired: Theo ý muốn
+  step1_andPress: và nhấn
+  step1_deposit: Nạp tiền
+  step2: Sao chép tài khoản và chuyển chính xác như hiển thị. Sau khi đính kèm slip, nhấn "Xác nhận"
+  step2_copyAccount: Sao chép tài khoản và chuyển tiền
+  step2_asShown: Chính xác như hiển thị
+  step2_afterAttach: Sau khi đính kèm slip
+  step2_pressConfirm: Nhấn "Xác nhận"
+  step3: Tiền sẽ được tự động nạp vào khi giao dịch hoàn tất trong thời gian
+  importantQuestion: Rất quan trọng! Vui lòng trả lời các câu hỏi
+  question1: Bạn có bao nhiêu phút để chuyển tiền và đính kèm slip?
+  question2: Nếu bạn tạo khoản nạp 500, bạn cần chuyển bao nhiêu?
+  question3: Chỉ được sử dụng tài khoản đã đăng ký để chuyển tiền?
+  minutes5: 5 phút
+  minutes10: 10 phút
+  baht550: 550 Baht
+  baht500: 500 Baht
+  yes: Có
+  no: Không
+  cancel: Hủy
+  confirm: Xác nhận
+  understand: Đã hiểu
+  sorry: Xin lỗi, bạn không thể thực hiện giao dịch mới
+  pendingTransaction: Vì có giao dịch đang chờ xử lý, vui lòng hoàn thành hoặc kết thúc trước
+  acknowledge: Xác nhận
+  title: Autopeer
+  amountToTransfer: Số tiền cần chuyển
+  useRegisteredAccount: Chỉ sử dụng tài khoản đã đăng ký để chuyển tiền
+  timeRemaining: Thời gian còn lại
+  depositMore: Nạp thêm
+  endDeposit: Kết thúc nạp tiền
+  endDepositNote: Khi bạn kết thúc nạp tiền, chỉ số tiền đã chuyển mới được nạp vào
+  scbBank: Ngân hàng Thương mại Siam Công ty Cổ phần
+  ref: Ref
+  depositNotFound: Không tìm thấy giao dịch nạp tiền
+  cancelSuccess: Hủy nạp tiền thành công
+  cancelError: Lỗi khi hủy giao dịch
+  pleaseUploadSlip: Vui lòng tải lên slip chuyển tiền
+  refNotFound: Không tìm thấy Ref, vui lòng thử lại
+  uploadSuccess: Tải slip thành công, vui lòng đợi
+  uploadError: Lỗi khi tải slip
+  endDepositSuccess: Kết thúc nạp tiền thành công
+  minimumDeposit: Nạp tối thiểu {amount} Baht
+  pleaseSelectMethod: Vui lòng chọn phương thức nạp tiền bên dưới
+  specifyDepositAmount: Chỉ định số tiền nạp
+  specifyDepositNote: Chỉ định số tiền bạn muốn nạp. Sau khi chuyển, mất 2-3 phút
+  specifyAmount: Chỉ định số tiền
+  specifyDepositPlaceholder: Chỉ định số tiền nạp
+  deposit: Nạp tiền
+  quickDepositRecommended: Nạp nhanh (Số tiền được đề xuất)
+  quickDepositNote: Chọn số tiền hiển thị bên dưới, tiền được nạp trong 1 phút
+  amount: Số tiền
+  cancelTransaction: Tôi muốn hủy giao dịch này
+  confirmCancelTransaction: Bạn có muốn hủy giao dịch này không?
+  waitFirst: Đợi
+  loadDepositListError: Không thể tải danh sách nạp tiền
+  cancelledSuccessfully: Hủy thành công
+  minimumDepositRequired: Vui lòng chỉ định số tiền tối thiểu {amount} Baht
+  createDepositSuccess: Tạo khoản nạp tiền thành công
+  requireEnglishName: Không thể xử lý. Vui lòng sử dụng tên tiếng Anh. Vui lòng liên hệ admin để sửa
+  createDepositError: Lỗi khi tạo khoản nạp tiền
+  transactionTimeout: Giao dịch hết thời gian, vui lòng thử lại

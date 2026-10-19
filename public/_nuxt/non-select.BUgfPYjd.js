@@ -1,0 +1,1 @@
+const t='<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">\n  <circle cx="9" cy="9" r="8.5" fill="#39393B" stroke="#8E8E8E"/>\n</svg>\n';export{t as default};

@@ -1,0 +1,1 @@
+import{av as o,G as s,m as t,Y as a,H as e}from"./entry.COoSIBHm.js";const r=()=>{const r=o(),i=s(),n=t(),p=a(),m=e();return{openDeposit:async()=>{if(!m.loggedIn())return void n.isLoginModal(!0);await r.push({query:{...i.query,activeTab:"deposit"}});const o=p.imgPromote?.some(o=>5===o.type_promote&&(o.status??!0));o?n.isPromoteTopUpModal(!0):n.isBankModal(!0)}}};export{r as u};

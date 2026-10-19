@@ -1,0 +1,1674 @@
+account-true-wallet: ပိုက်ဆံအိတ်အကောင့်အသစ်
+add-crypto: Crypto အကောင့်ထည့်ပါ
+affilate:
+  affiliateInCome: ဝင်ငွေစုစုပေါင်း{ဝင်ငွေ} {ငွေကြေး}
+  affiliateNewFriend: သူငယ်ချင်းအသစ်များ
+  affiliatePeople: နံပါတ် {num} လူများ
+  anotherTurn: အခြားရငွေများကိုရယူပါ
+  canIncomForFriend: သူငယ်ချင်းများထံမှဝင်ငွေရနိုင်သည်
+  casinoLossPercentage: ကာစီနိုလောင်းကစားရုံများ၏အရှုံးရာခိုင်နှုန်း
+  casinoPayback: လောင်းကစားရုံအရှုံးငွေပြန်အမ်းငွေလက်ခံရှိသည်
+  casinoProfit: လောင်းကစားရုံများ၏ အမြတ်/အရှုံးငွေပမာဏ
+  casinoTurn: လောင်းကစားရုံ၏အမြတ်ငွေရရှိသည်
+  casinoWin: လောင်းကစားရုံအနိုင်ရငွေရရှိသည်
+  classmate: မိတ်ဆွေတီယာ
+  currentLevel: လက်ရှိအဆင့်
+  currentRevenue: လက်ရှိဝင်ငွေ
+  details: အသေးစိတ်
+  earnMore: အခြားဝင်ငွေကိုရယူပါ
+  earnedIncome: ရရှိသောဝင်ငွေ
+  eventAffiliate: ကော်မရှင်ငွေရရှိရန်သူငယ်ချင်းများကိုဖိတ်ပါ။
+  friendsWhoPay: ငွေဖြည့်သောသူငယ်ချင်းများ
+  getPoint: ရမှတ်များရယူပါ
+  highestPercentage: သင်အမြင့်ဆုံးရာခိုင်နှုန်းကိုလက်ခံရရှိပါပြီ
+  howToEarnCommissions: ကော်မရှင်များမှ ဝင်ငွေကိုရနိုင်မည့်နည်း
+  ifInviteFriendIncomMore: သင်၏မိတ်ဆွေများကသူငယ်ချင်းများကိုဖိတ်ကြားပါက သင်ဝင်ငွေပိုရလိမ့်မည်။
+  income: ဝင်ငွေများ
+  incomeCondition: ဝင်ငွေသည်သတ်မှတ်ထားသောအခြေအနေများပေါ်တွင်မူတည်သည်။
+  inviteFriendMore: သူငယ်ချင်းများကိုဖိတ်ကြားပြီး အဆင့်မြင့်အောင်ပြုလုပ်ပါ
+  inviteFriendsEarn: ဝင်ငွေရရန်သူငယ်ချင်းများကိုဖိတ်ပါ
+  maxLevel: အဆင့် 100 အထိ
+  moreIncome: ဝင်ငွေပိုရလေ
+  moreYouInviteFriends: သင့်သူငယ်ချင်းများကို ပိုဖိတ်ကြားလေလေ
+  noInBox: ဒီမက်ဆေ့ခ်ျကိုထပ်မံမပြပါနှင့်
+  notAffiliateLink: မျှဝေရန်လင့်များမရှိပါ
+  notHave: မရှိပါ
+  number: အဆင့်
+  numberFriends: သူငယ်ချင်းအရေအတွက်
+  otherLossPercentage: အခြားအရှုံးပြန်အမ်းငွေရာခိုင်နှုန်း
+  otherLosses: အခြားအနိုင်/အရှုံးစုစုပေါင်း
+  othersPayback: အခြားအရှုံးပြန်အမ်းငွေကိုလက်ခံရရှိသည်
+  people: လူများ
+  percentageEarned: ရရှိထားသောရာခိုင်နှုန်း
+  percentageWinCasino: ကာစီနိုလောင်းကစားရုံများ၏နိုင်ခြေနှုန်း
+  percentageWinOther: အခြားနိုင်ခြေနှုန်း
+  percentageWinSlots: slot များ၏နိုင်ခြေနှုန်း
+  pressToGetPoints: ရမှတ်များလက်ခံရယူပါ
+  receivedHistory: ရယူမှုမှတ်တမ်း
+  receivedHistoryIncom: ဝင်ငွေမှတ်တမ်း
+  receivedHistoryPoint: ရမှတ်ရယူမှုမှတ်တမ်း
+  receivedIncome: ဝင်ငွေရယူပါ
+  reciveLossFreind: မိတ်ဆွေ၏အရှုံးပြန်အမ်းငွေကိုလက်ခံရရှိသည်
+  redeemForCredit: Credit လဲလှယ်မည်
+  seeMoreDetails: အသေးစိတ်ကြည့်ပါ
+  selectHierarchy: တီယာကိုရွေးပါ
+  shareEarn: တွဲဖက်ရှယ်ယာ
+  shareLinkInviteFriend: သူငယ်ချင်းများကိုကစားရန်ဖိတ်ကြားရန် link တစ်ခုမျှဝေပါ။ သူငယ်ချင်းများ၏အရှုံး အမြတ်များမှ ဝင်ငွေများရယူပါ။
+  shareLinkMakeMoney: affiliate ဖြင့်အလွယ်တကူငွေရှာပါ။ link တစ်ခုသာမျှဝေပါ။
+  slotLossPercentage: slot များ၏ဆုံးရှုံးမှုရာခိုင်နှုန်း
+  slotProfit: slots အမြတ်/အရှုံးပမာဏ
+  slotTurn: slot အမြတ်ငွေရသည်
+  slotWin: slot အမြတ်များကိုရရှိသည်
+  slotsPayback: slot အရှုံးငွေများရရှိသည်
+  todayDeposit: ယနေ့ထည့်ငွေ
+  todayInformation: ယနေ့သတင်းအချက်အလက်
+  totalIncome: စုစုပေါင်းရေငွ{ပိုက်ဆံ} ဘတ်
+  totalLoss: စုစုပေါင််း အမြတ်/အရှုံးပမာဏ
+  transactionHistory: ရယူမှုနှင့် ဝင်ငွေမှတ်တမ်း
+  up: ထပ်ကြည့်ရှုရန်
+  user: အသုံးပြုသူ
+  yesterdayInformation: မနေ့ကသတင်းအချက်အလက်များ
+  youEarningsFreeCredit: သင် ဝင်ငွေကို credit လဲလှယ်မည်။
+  getEnterLink: သူငယ်ချင်းများဖိတ်ကြားရန်လင့်ကိုကူးယူရန်နှိပ်ပါ
+affiliate:
+  PlayCasino: ကာစီနိုအမြတ်ငွေ
+  PlayLotto: ထီပေါက်ငွေ
+  PlayOther: အခြားရငွေ
+  PlaySlot: Slot ရငွေ
+  PlaySport: အားကစားရငွေ
+  calCommissions: ကော်မရှင်တွက်ချက်မှုလုပ်ဆောင်နေသည်
+  calLv: တွက်ချက်သည်
+  canReceviveHaveReward: စုဆောင်းထားသောပမာဏထက်ပိုလာလျှင် ဆုငွေများရနိုင်သည်။
+  canReceviveHaveReward11: slot အမြတ်ငွေရသည်
+  canReceviveHaveReward12: x {credit} အဆ
+  canReceviveHaveReward13: နှင့်ကာစီနိုအမြတ်ငွေရယူပါ
+  canReceviveHaveReward14: x {လောင်းကစားရုံ} အဆ
+  canReceviveHaveReward2: အမြတ်ငွေရပြီးအများဆုံးထုတ်နိုင်သောပမာဏ
+  canSeeTableOnBottom: 'အောက်ပါဇယားတွင်ရခဲ့သောငွေပမာဏရာခိုင်နှုန်းကိုတွေ့မြင်နိုင်ပါတယ် '
+  cardAffilateFriend: သူငယ်ချင်း {အနိမ့်ဆုံး} / {အများဆုံး}
+  cardAffilateLossFriend: မိတ်ဆွေတစ် ဦး ၏အရှုံးများမှ{ရာခိုင်နှုန်း}% ရယူပါ
+  cardAffilateTitile: 'ယခုပဲ! သူငယ်ချင်းများကိုဖိတ်ကြားပြီး အမြတ်နှုန်းပိုရရန်အဆင့်မြှင့်ပါ '
+  casinoLossPercentage: ကာစီနိုဆုံးရှုံးမှု
+  classmate: သူငယ်ချင်းအဆင့်{လူများ}
+  classmateNo: သူငယ်ချင်းများ
+  comissionType: သူငယ်ချင်းများ၏အမြတ်နှင့်အရှုံးတို့မှဝင်ငွေရယူပါ။
+  continueOne: အဆင့်တစ်
+  continueTree: အဆင့်သုံး
+  continueTreeMax: ကော်မရှင်အဆင့်သုံးဆင့်ထိရယူပါ
+  continueTwo: အဆင့်နှစ်
+  continueTwoMax: ကော်မရှင် အဆင့်၂ဆင့်ထိရယူပါ
+  customPlayer: ဂိမ်းအမျိုးအစားအရသူငယ်ချင်းများ၏အမြတ်/အရှုံး
+  desNumOne: သူငယ်ချင်းများကို ဂိမ်းကစားရန်လျှောက်ထားရန်နှင့်ငွေဖြည့်ရန် မျှဝေပါ။
+  descAffilate1: လဲဗဲလ်လိုက်ရရှိသောရာခိုင်နှုန်းကိုကြည့်ပါ။
+  descAffilate2: တီယာတစ်ခုချင်းစီရသောရာခိုင်နှုန်းကြည့်ပါ
+  descAffilate3: အသေးစိတ်အချက်အလက်အားလုံးကိုကြည့်ရန်ကိုနှိပ်ပါ။
+  desfriendsWhoTopUp: ငွေဖြည့်သောသူငယ်ချင်းများ
+  detailAll: အားလုံးကိုကြည့်ပါ
+  earnIncomeFrom: ထံမှဝင်ငွေရယူပါ
+  firstTopup: သူငယ်ချင်း၏ပထမဆုံးငွေထည့်သွင်းခြင်း
+  friendInLoss: သူငယ်ချင်း၏ဆုံးရှုံးမှုများ
+  friendInProfit: သူငယ်ချင်း၏ဆုံးရှုံးမှု
+  friendInTurnover: သူငယ်ချင်း၏အမြတ်ရငွေ
+  friendPlay: သူငယ်ချင်းများကစားခဲ့သည်။ သင်ငွေရရှိသည်။
+  friendRegister: သူငယ်ချင်း၏လျှောက်လွှာများ
+  friendTurnover: သူငယ်ချင်း၏အမြတ်ရငွေ
+  friendsNumber: သူငယ်ချင်းများ
+  friendsTopUp: ငွေဖြည့်သောသူငယ်ချင်းအရေအတွက်
+  getNow: ရယူပါ
+  incomNumOne: အဆင့်တစ် ရငွေများ
+  incomNumTree: အဆင့်သုံးရငွေများ
+  incomNumTwo: အဆင့်နှစ််ရငွေများ
+  incomTurn: သူငယ်ချင်းများ၏ကစားခြင်းမှ ဝင်ငွေကိုရယူပါ။
+  incomWinLoss: မိတ်ဆွေများ၏အရှုံးများမှဝင်ငွေကိုရယူပါ
+  inviteFriendsApply: သူငယ်ချင်းများကို ကစားရန်ဖိတ်ပါ
+  inviteFriendsStepsOne: လင့်မျှဝေရန်ကူးယူပါ
+  level: အဆင့်
+  lineActive: '{active} ငွေဖြည့်သောသူငယ်ချင်းများနှင့်အထက်'
+  lineLoss: '{အရှုံး} ဘတ်ငွေအရှုံးများနှင့်အခြား'
+  lineTurnOver: အနိမ့်ဆုံးရငွေ
+  loss: အရှုံးများ
+  lossLv: အရှုံးများ
+  lottoLossPercentage: ထီအရှုံးငွေပမာဏ
+  noiceLevel: လိုအပ်သောအဆင့်ကိုရောက်ရှိလျှင် ဘောနပ်စ်နှုန်းထားတစ်ခုရရှိမည်(ကွင်းနှင့်ပြထားသည်)။ ဇယားထဲမှငွေပမာဏများသည် ဘောနပ်စ်ပါပြီးသားဖြစ်သည်။
+  noteOther: အခြားနှင့်ပရိုမိုးရှင်းများမှရရှိသော ခရက်ဒစ်များကို ထည့်တွက်မည်မဟုတ်ပါ။ ငွေဖြည့်ခြင်းသည်သာ ဝင်ငွေများတွင်ပါဝင်သည်။
+  notiAffiliateTypeCheckIncom: ၁ ဘတ်သို့မဟုတ်ထိုထက်ပိုမှရယူနိုင်သည်
+  numLevel: အဆင့်
+  onwards: ဆက်သွားမည်
+  otherLossPercentage: အခြားအရှုံးငွေများ
+  percentageWinCasino: ကာစီနိုအနိုင်ရငွေများ
+  percentageWinLotto: ထီပေါက်ငွေ
+  percentageWinOther: အခြားအနိုင်ရငွေများ
+  percentageWinSlots: slot အနိုင်ရငွေများ
+  percentageWinSport: အားကစားပွဲများ၏အနိုင်ရငွေများ
+  persent: ရာခိုင်နှုန်း
+  persentLv: လက်ရှိအဆင့်
+  shareLossFriend: သူငယ်ချင်းများ၏အရှုံးများမှ အမြတ်ရယူပါ
+  slotLossPercentage: slot အရှုံးငွေများ
+  sportLossPercentage: အားကစားအရှုံးငွေများ
+  stepIncom: ဆုငွေဘယ်လိုရယူမလဲ
+  tablePercentage: ကော်မရှင်ရာခိုင်နှုန်းအဆင့်အားလုံး
+  totalLossOther: အရှုံးငွေအားလုံး
+  turnCasino: ကာစီနိုရငွေ
+  turnLotto: ထီပေါက်ငွေ
+  turnOther: အခြားရငွေ
+  turnSlot: slots ရငွေ
+  turnSport: အားကစားရငွေ
+  typeCashback: ဂိမ်း
+  typeCasino: ကာစီနိုအမျိုးအစား
+  typeLotto: ထီအမျိုးအစား
+  typeOther: အခြားအမျိုးအစားများ
+  typeSlot: စလော့အမျိုးစားများ
+  typeSport: အားကစားအမျိုးအစား
+  typeTopPlay: အမျိုးစား
+  waitFriends: သူငယ်ချင်းတစ်ယောက်လျှောက်ထားလျှင် ဆုငွေချက်ချင်းရယူပါ
+  whatIsAff: affiliate ဆိုတာဘာလဲ။
+  winAndLoss: အနိုင်နှင့်အရှုံး
+  youPlay: ဂိမ်းရငွေ
+  youWant: သင်ဝင်ငွေထပ်ရချင်ပါလား
+alert:
+  error:
+    OTPBeenSent: otp ကိုပို့လိုက်ပါပြီ
+    boxCannotOpen: ယခုသေတ္တာဖွင့်မရပါ
+    canNotSpinNow: ယခုဘီးလှည့်မရပါ
+    copyError: ကူးယူမှုမအောင်မြင်ပါ
+    creditLower: ခရက်ဒစ်ပမာဏ အနည်းဆုံးလိုအပ်သည်ထက် နိမ့်နေသည်။
+    expiredRequestOTPAgain: otp သက်တမ်းကုန်သွားပြီ။ ကျေးဇူးပြု၍ otp အသစ်ရယူပါ။
+    findNumberSystem: စနစ်ထဲတွင် နံပါတ်မရှိပါ
+    founError: စနစ်ချို့ယွင်းမှုဖြစ်သည်
+    foundError: စနစ်ချို့ယွင်းမှုဖြစ်သည်။ ကျေးဇူးပြု၍ admin ကိုဆက်သွယ်ပါ။
+    invalidLink: လင့်အသုံးမဝင်တော့ပါ
+    invalidOTP: OTP မမှန်ပါ
+    loginFailed: login မအောင်မြင်ပါ။ကျေးဇူးပြု၍အကောင့်နှင့်စကားဝှက်ကိုစစ်ဆေးပါ။
+    network: ဆက််သွယ်မှုမတည်ငြိမ်ပါ။
+    noCanGiveTips: ယခုမှတ်ချက်ပေး၍မရပါ။ ကျေးဇူးပြု၍၁မိနစ် - ၂ မိနစ်စောင့်ပါ။
+    noHvaeLinkShareEarn: မျှဝေရန် ဝင်ငွေလင့်မရှိပါ
+    noItem: သတင်းအချက်အလက်မတွေ့ပါ
+    outstanding: ပရိုမိုးရှင်းများပိတ်ပြီး၊ ရငွေများ ဖြည့်စွက်ပြီးမှသာ သုံးစွဲသူများသည်အွန်လိုင်းလောင်းကစားရုံများ, အားကစားဂိမ်းများ, အားကစား, ထီ, ငွေသား သို့မဟုတ် ခရစ်တို စနစ်ကိုအသုံးပြုနိုင်သည်။
+    passwordRequired: ကျေးဇူးပြု၍စကားဝှက်ကိုရိုက်ထည့်ပါ
+    passwordUncorret: စကားဝှက်မကိုက်ညီပါ
+    pleaseComplete: ကျေးဇူးပြု၍အချက်လက်အားလုံးဖြည့်ပါ
+    pleaseCompleteInformation: ကျေးဇူးပြု၍အချက်လက်အားလုံးဖြည့်ပါ
+    plsRecaptcha: ကျေးဇူးပြု၍ဝိသေသလက္ခဏာများကိုအတည်ပြုပါ။
+    receivedPromotionAutoFailed: ပရိုမိုးရှင််းရယူမှုမအောင်မြင်ပါ
+    transactionError: ငွေလွှဲမအောင်မြင်ပါ
+    updating: စနစ်ကိုယာယီပြင်ဆင်နေသည်
+    uploadMoreThan: ဓာတ်ပုံများကို 1 mb ထက်မပိုပါနှင့်။
+    uploadNoSuccessfully: ထည့်သွင်းမှုမအောင်မြင်ပါ
+    usernameRequired: အသုံးပြုသူအမည်ကိုဖြည့်ပါ။
+  success:
+    OTPCorrect: otp အတည်ပြုပြီးပါပြီ
+    OTPSentSuccessfully: otp ပေးပို့မှုအောင်မြင်သည်
+    changePasswordSuccessfully: စကားဝှက်ပြောင်းလဲမှုအောင်မြင်သည်
+    changedPinSuccessfully: ပင်နံပါတ် ပြောင်းလဲမှုအောင်မြင်သည်
+    colseReceivedPromotion: ပရိုမိုးရှင်းပိတ်သိမ်းမှုအောင်မြင်သည်
+    commissionEarned: ကော်မရှင်ရရှိသည်
+    congratulations: ဂုဏ်ယူပါတယ်!
+    copySuccessfully: ကူးယူမှုအောင်မြင်သည်
+    exchangeCreditSuccessfully: ခရက်ဒစ်လွဲပြီးပါပြီ
+    loginSuccess: login အောင်မြင်သည်
+    promotionSuccessfully: အောင်မြင်သောမြှင့်တင်ရေးရယူပါ
+    receiveFreeSpin: ပရိုမိုးရှင်းရယူပြီးပါပြီ
+    receivedAward: ဆုရယူပြီးပါပြီ
+    receivedFreeCredit: အခမဲ့ခရက်ဒီ ရရှိပါပြီ
+    receivedPromotionAutoSuccessfully: အလိုအလျှောက်ပရိုမိုးရှင်းကိုအောင်မြင်စွာလက်ခံရရှိသည်။
+    redeemSuccess: အမြတ်ငွေရယူမှုပြီးပါပြီ
+    resetPasswordSuccessfully: စကားဝှက်အသစ်ပြောင်းလဲပြီးပါပြီ
+    savedSuccessfully: အချက်လက်သိမ်းဆည်းပြီးပါပြီ
+    successfulWithdrawal: ငွေထုတ်ယူပြီးပြီးစီးသည်
+    successfulWithdrawalCurrency: ထုတ်ယူမှု {ငွေပမာဏ} {ငွေကြေး}အောင်မြင်သည်
+    successfullyRedeemed: ငွေလဲလှယ်မှုအောင်မြင်သည်
+    thnankToTipSuccessfully: အကြံပြုချက်များအတွက်ကျေးဇူးတင်ပါတယ်။ကျနော်တို့စနစ်ပိုကောင်းမွန်အောင်ကြိုးစားသွားပါမည်။
+    topUpSuccessfully: 'ငွေထည့်မှုအောင်မြင်သည်{ပမာဏ} {ငွေကြေး} '
+  topUpSuccessfully: ငွေထည့်သွင်းမှုအောင်မြင်သည်
+answerQuestions:
+  chooseAtLeast: အနည်းဆုံးရွေးချယ်ပါ
+  questions: မေးခွန်းများ
+bacroom:
+  popularRooms: လူကြိုက်များသောအခန်း
+  noData: ဒေတာမရှိ
+  enterRoom: အခန်းဝင်ပါ
+  cannotEnterGame: ဂိမ်းဝင်မရ
+bank:
+  accountChangeWarning: အကောင့်များ အပြောင်းအလဲရှိနိုင်သည်၊ မသိမ်းဆည်းပါနှင့်!
+  accountTransferred: လွှဲပြောင်းရမယ်အကောင့်
+  baac: စိုက်ပျိုးမွေးမြူရေးဘဏ်
+  bankUpdate: အကောင့်အသေးစိတ်အချက်လက်များကို အမြဲပြင်ဆင်နေပါမည်
+  bay: အယုဒ္ဓယဘဏ်
+  bbl: ဘန်ကောက်ဘဏ်
+  cancelTopup: ငွေထည့်သွင်းမှုမလုပ်တော့ပါ
+  checking: စစ်ဆေးနေသည်
+  chooseBank: ဘဏ်ရွေးပါ
+  cimb: စီအိုင်အမ်ဘီ ထိုင်း
+  confirmTopup: ငွေဖြည့်မှုအတည်ပြုပါ
+  coppyBank: ကျေးဇူးပြု၍အကောင့်နံပါတ်ကိုကူးယူပါ။ စနစ်မှ ဒသမဖြင့် အပ်ငွေပမာဏကိုပြလိမ့်မည်။ စနစ်မှပြသသောပမာဏကို လွှဲပြောင်းပါ။
+  copyAccount: အကောင့်ကူးယူပါ
+  decimalTransfer: ဒသမကိန်းဖြင့်လွှဲပြောင်းခြင်း
+  gameQR: ဂိမ်းဖြည့်ငွေများကိုသာအသုံးပြုသည်
+  gotoPopUp: ပြန်ညွှန်းနေသည်..
+  gsb: အစိုးရစုငွေများဘဏ်
+  icbc: တရုတ်ပြည်သူ့သမ္မတနိုင်ငံ စက်မှုနှင့်စီးပွားရေးဘဏ်
+  kbank: ကာစီကွန်ဘဏ််
+  kk: ကီယာနာကင်ဘဏ်
+  ktb: ခရွန်ထိုင်းဘဏ်
+  lastestTransaction: နောက်ဆုံးငွေပေးချေမှုများ
+  lhbank: အိမ်ခြံမြေဘဏ်
+  minimumAmount: အနည်းဆုံးငွေပမာဏ {money} ဘတ်
+  minimumTopUp: အနည်းဆုံးငွေထည့်သွင်းမှု
+  minimumTopUpBath: အနည်းဆုံးငွေထည့်သွင်းမှု {money} {currency}
+  minute: မိနစ်
+  noMoneyTransfer: စနစ်တွင် ငွေလွှဲပြောင်းမှုမတွေ့ပါ
+  noRounded: ဒသမကိန်းအတိုင််းထားပါ
+  noRoundedDecimal: ဒသမကိန်းအတိုင်းထားပါ
+  pending: ငွေပေးချေမှုကိုစောင့်ဆိုင်းနေသည်
+  pleaseRoundAmount: ပြထားတဲ့ငွေပမာဏ ကိုဖြည့်ပါ။ ဒသမကိန်းအတိုင်းထားပါ
+  pleaseTopUp: ကျေးဇူးပြုပြီးပြထားတဲ့ငွေပမာဏတိုင်းငွေဖြည့်ပါ။
+  pleaseTransferMoney: ကျေးဇူးပြု၍ သတ်မှတ်အချိန်အတွင်းငွေလွှဲပါ။
+  pleaseTransferTime: ကျေးဇူးပြု၍သတ်မှတ်အချိန်အတွင်းငွေလွှဲပါ။
+  pleaseUseAccount: သင်လွှဲပြောင်းရန်အတွက်လျှောက်ထားသောအကောင့်ကိုသုံးပါ။
+  plsAccountOnly: သင်လွှဲပြောင်းရန်အတွက်လျှောက်ထားသောအကောင့်ကိုသုံးပါ
+  plsQrcode: ဤ QR Code ကိုတစ်ကြိမ်သာအသုံးပြုနိုင်သည်။ ထပ်မံလွှဲပြောင်း၍မရပါ
+  promptpay: PromptPay
+  scanQRCode: အကောင့်ထဲသို့လွှဲပြောင်းရန် QR ကုဒ်ကိုစကန်ဖတ်စစ်ဆေးပါ။
+  scb: ဆီယမ်စီးပွားရေးဘဏ်
+  specifyAmount: ငွေပမာဏကိုသတ်မှတ်ပါ
+  systemAutomatically: ၁-၂ မိနစ်အတွင်းစနစ်သည်အလိုအလျောက်ဂိမ်းခရက်ဒစ်ကိုဖြည့်ပါလိမ့်မည်။
+  tbank: သနာချာ့ဘဏ်
+  tisco: တစ်စ်ကိုဘဏ်
+  tmb: တီအမ်ဘီဘဏ်
+  topUp: ထည့်သွင််းငွေ
+  topUpComplete: စနစ်ကသင့်အကောင့်ကို ခရက်ဒစ်ဖြည့်ပြီးပါပြီ
+  topUpSuccessfully: ငွေဖြည့်ဆည်းမှုပြီးမြောက်သည်
+  topupHistory: ကြိုတင်ငွေဖြည့်မှုမှတ်တမ်း
+  topupRejected: ငွေဖြည့်မှုကိုငြင်းပယ်သည်
+  transferAccount: ငွေလွှဲအကောင့်
+  transferredPleaseClick: ငွေလွှဲရာတွင် ကျေးဇူးပြု၍ "confirm" ကိုနှိပ်ပါ။
+  truewallet: TrueWallet
+  ttb: တီအမ််ဘီတနာချာ့ဘဏ်
+  uob: ယူနိုင်တစ်အိုဗာစီးစ်ဘဏ်
+  wantCancelTopup: ငွေထည့်သွင််းမှုကိုဆက်မလုပ်တော့ပါ
+  yourAccount: သင့်အကောင့်
+  bankIncom: ငွေဖြည့်ရန်အကောင့်
+  trueMoneyWalletFee:
+    feePercentage: ကော်မရှင် {percentage}%
+    systemDeductFee: စနစ်သည် ငွေထည့်သွင်းမှုကြေးကို နုတ်ယူမည် {percentage}%
+    fromTopupAmount: ငွေထည့်သွင်းမှုမှ၊ အများဆုံး {maxDeduction} ဘတ်
+    promotionCase: ပရိုမိုရှင်ရရှိရန် ငွေထည့်သွင်းမှု
+    topupMinPromo: ပရိုမိုရှင်အတွက် အနည်းဆုံးငွေထည့်သွင်းမှု + (ကြေး)
+    toGetPromotion: လိုချင်သော ပရိုမိုရှင်ကို ရရှိရန်
+    feeInfo: ကော်မရှင် {percentage}% (အများဆုံး {maxDeduction} ဘတ်)
+    amountToTopup: ထည့်သွင်းရမည့်ငွေ (အနည်းဆုံး {minAmount} ဘတ်)
+    minimumAmountError: အနည်းဆုံးငွေ {minAmount} ဘတ်
+    feeAmount: ကော်မရှင် ({percentage}%)
+    amountReceived: ရရှိမည့်ငွေ (ကြေးနုတ်ပြီးနောက်)
+    calculateTopupAfterFee: ကြေးနုတ်ပြီးနောက် ငွေထည့်သွင်းမှုကို တွက်ချက်ပါ
+    amountToTopupSimple: ထည့်သွင်းရမည့်ငွေ
+bankMethod:
+  viaAccount: ဘဏ်မှတဆင့်သိုက်
+button:
+  add: ထပ်ထည့်သည်
+  apply: အသုံးပြုသည်
+  back: နောက်သို့
+  cancel: မလုပ်တော့ပါ
+  changePassword: စကားဝှက်ကိုပြောင်းပါ
+  clear: ရှင်းလင်းမည်
+  clickHere: ဤနေရာကိုကလစ်နှိပ်ပါ
+  close: ပိတ်ပါ
+  confirm: အတည်ပြုသည်
+  continue: ဆက်လက်ပြုလုပ်သည်
+  copy: ကူးမည်
+  delete: ဖျက်မည်
+  download: ဒေါင်းလုပ်လုပ်မည်
+  edit: ပြင်မည်
+  exchangeCredit: ခရက်ဒစ်လွှဲမည်
+  filter: စစ်ထုတ်မည်
+  finish: အပြီးသတ်မည်
+  forgotPassword: စကားဝှက်ကိုမေ့နေပါသလား
+  getCredit: ခရက်ဒစ်ရယူမည်
+  getPromotion: ပရိုမိုးရှင်းယူမည်
+  getRewarded: ဆုငွေရယူမည်
+  goPlayGames: ဂိမ်းကစားရန်သွားပါ
+  login: လော့ဂ်အင်
+  logout: စနစ်ထဲကထွက်မည်
+  next: နောက်တစ်ခု
+  notAccepPromotion: ပရိုမိုးရှင်းကိုလက်မခံပါ
+  ok: သဘောတူသည်
+  participate: ပါဝင်သည်
+  playGame: ဂိမ်းကစားမည်
+  previous: ယခင်က
+  receive: ရရှိသည်
+  recevice: သိမ်းမည်
+  record: သိမ််းမည်
+  register: လျှောက်ထားမည်
+  resend: ပြန်ပို့ပါ
+  reset: မူလတိုင်းပြန်ထားမည်
+  resetPassword: စကားဝှက်ကို မူလတိုင်းပြန်ထားမည်
+  save: သိမ်းမည််
+  search: ရှာမည်
+  select: ရွေးမည်
+  send: ပေးပို့သည်
+  sendCode: ကုဒ်ပို့ပါ
+  share: မျှဝေသည်
+  stay: ရပ်နေသည်
+  submit: ပေးပို့သည်
+  topUp: ငွေထည့်သွင်းမည်
+  understand: နားလည်သည်
+  upload: တင်ပါ
+  verify: အတည််ပြုသည်
+  withdraw: ငွေထုတ်သည်
+  yess: ဟုတ်ကဲ့
+cashPoint:
+  cashPoint: စုထားသောပမာဏ
+  cashpointReceivedTwoAm: '* 02.00 နာရီပြီးနောက်စုဆောင်းထားသောပမာဏကိုလက်ခံရရှိနိုင်သည်'
+  cumulativeAmount: အလောင်းအစားတိုင်းတွင် ငွေပြန်လည်ရယူပါ
+  earnedCredit: လက်ခံရရှိငွေပမာဏကိုလက်ခံရရှိ
+  login: လော့ဂ်အင်
+  lostBet: အရှုံး{အရှုံး}%
+  numberOf: ပမာဏ {credit} မှန်ကန်ပါသလား
+  turnAll: ရငွေအမျိုးမျိုး
+  turnOver: ရငွေ {turn} %
+  wantEarnFreeCredits: သင်စုဆောင်းထားသောငွေပမာဏမှ အခမဲ့ခရက်ဒစ်များကိုရရှိလိုပါသလား
+  whenBetting: လောင်းကစားနိုင်ခြင်းသို့မဟုတ်ရှုံးသောအခါခရက်ဒစ်ချက်ချင်းရရှိမည်။ အောက်တွင်ဖော်ပြထားသောရာခိုင်နှုန်းကိုသင်တွေ့နိုင်သည်။
+  winBet: အနိုင်ပွဲ {win}%
+cashback:
+  allAbout: စုစုပေါင်း
+  calLossForPlay: စနစ်သည်သင်ကစားခဲ့သော အရှုံးငွေများကိုတွက်ချက်ပေးမည်
+  cashPointsBackGames: slot ကိုလှည့်ရန် စိတ်မပူပါနဲ့  အရှုံးပွဲများကနေ ခရက်ဒစ်များရနိုင်ပါသေးသည်။အောက်တွင်ရရှိသောရာခိုင်နှုန်းကိုတွေ့နိုင်သည်။
+  cashbackPlaySlotAndCasino: စလော့နှင့် ကာစီနိုကစားခြင်းမှ အရှုံးများကို ပြန်ရယူပါ။
+  cashbackReceivedFiveAm: မနက် ၅ နာရီနောက်ပိုင်းပြန်ငွေရနိုင်သည်။
+  cashbackReceivedFourAm: မနက်  ၄ နာရီနောက်ပိုင်းပြန်ငွေရနိုင်သည်
+  cashbackReceivedOneAm: မနက်၁ နာရီနောက်ပိုင်းပြန်ငွေရနိုင်သည်။
+  cashbackReceivedThreeAm: မနက် ၃ နာရီနောက်ပိုင်းပြန်ငွေရနိုင်သည်။
+  cashbackReceivedTwoAm: မနက် ၂ နာရီနောက်ပိုင်းတွင်ပြန်ငွေရနိုင်သည်။
+  cashpointPercentageBelow: စလော့လောင်းရန် စိတ်မပူပါနဲ့ ။အရှုံးပွဲများမှ ခရက်ဒစ်ပြန်ရနိုင်သေးသည်။ အရှုံးမှ ပြန်ရသော ရာခိုင်နှုန်းများကိုကြည့်ပါ
+  casinoGamesPersent: ကာစီနိုဂိမ်းများ
+  creditBackFromLoss: 'အရှုံးပွဲများမှရသော ခရက်ဒစ် {တန်ဖိုး}% '
+  exceptSportsBetting: slot ကိုလှည့်ရန် စိတ်မပူပါနဲ့  အားကစားလောင်းပွဲများမှ လွဲ၍ အရှုံးပွဲများမှ ခရက်ဒစ်များပြန်ရနိုင်ပါသေးတယ်။
+  getBackEveryBet: အလောင်းအစားတိုင်းအတွက်အရှုံးငွေပမာဏကိုပြန်ရယူပါ။
+  getLossPlayingSlots: စလော့ကစားပြီး အရှုံးပွဲများမှ အနိုင်ပြန်ယူလိုက်ပါ
+  noReceviceCashback: အရှုံးပွဲများမှ ခရက်ဒစ်လက်ခံရရှိလိမ့်မည်မဟုတ်ပါ
+  onlyPlaysSlotsGames: အကယ်၍ကစားသမားသည် slot ဂိမ်းများကိုသာကစားပါက စနစ်သည် slot များဆုံးရှုံးမှုရာနှုန်းကိုတွက်ချက်လိမ့်မည်။
+  otherPlaylistsNotReceive: slot မှလွဲ၍အခြားဂိမ်းများသည် အရှုံးပွဲများမှ ခရက်ဒစ်ပြန်ရမည်မဟုတ်ပါ။
+  percentageReceivedLoss: ရရှိမည့်ရာခိုင်နှုန်းသည် အရှုံးပွဲများမှပြန်အမ်းသော ခရက်ဒစ် ဖြစ်သည်။
+  playersCanGetLosses: ကစားသမားများသည် အရှုံးပွဲများမှ ခရက်ဒစ်လက်ခံနိုင်သည်။ ရာခိုင်နှုန်းကို အောက်တွင်ဖော်ပြထားသည်
+  playsSlotsAndCasinoGames: ကစားသမားများသည် slots နှင့်ကာစီနိုဂိမ်းများကိုကစားပါက အဆိုပါစနစ်သည်လောင်းကစားရုံ၏ရာခိုင်နှုန်းကိုသာတွက်ချက်လိမ့်မည်။
+  receivedCashback: ပြန်ရငွေကိုရယူပါ
+  returnedLoss: အရှုံးငွေပြန်ရသည်
+  slotAndCasino: စလော့နှင့်လောင်းကစားရုံဂိမ်းများ
+  slotGames: စလော့ဂိမ်းများ
+  slotGamesPersent: စလော့ဂိမ်းများ{value}%
+  systemCalculateSlots: စနစ်သည် စလော့ဂိမ်းများ၏အရှုံးပွဲများကိုသာတွက်ချက်လိမ့်မည်။
+  topUpFirstADay: နေ့၏ပထမဦးဆုံးငွေထည့်သွင်းမှုမှ
+  topUpFirstPlayer: ကစားသမား၏ပထမဦးဆုံးငွေထည့်သွင်းမှုမှ
+  'topUpFirstPlayer ': ပထမဆုံးငွေထည့်သွင်းမှု
+  typeGameSport: အားကစားပွဲများ
+  whatBetsCan: မည်သည့်အလောင်းအစားများမှ အရှုံးတွက်ပြန်အမ်းငွေပေးပါလဲ
+  youWantReceive: ခရက်ဒစ်ရယူလိုပါလား
+codeDesc: အထူးဆုရရန်ကုဒ်ကိုရိုက်ထည့်ပါ။
+collectPoints:
+  allPrizes: ဆုအားလုံး
+  ascending: အနိမ့်မှ အမြင့်
+  credit: ခရက်ဒစ်
+  descending: အမြင့်မှ အနိမ့်
+  endNow: အဆုံးသတ်ပါလိမ့်မယ်
+  equipment: ပစ္စည်းကိရိယာ
+  gold: ရွှေ
+  isCheckRewardAlert: သင်ရမှတ်များရချင်ပါလား
+  lifestyle: လူနေမှုပုံစံ
+  moreThan: 72,000 ကျော်
+  noHistory: ပြန်ရငွေမှတ်တမ်းမရှိပါ
+  pending: စောင့်ဆိုင်းပါ။
+  points: ရမှတ်များ
+  pointsNumber: $ {နံပါတ်} ရမှတ်များ
+  redeemRewards: ပြန်အမ်းသောဆုများ
+  redemptionHistory: ဆုလဲလှယ်မှုမှတ်တမ်း
+  remainingPoints: ရနိုင်သောရမှတ်များ
+  rewardsNotFound: သင့်၏ရှာဖွေမှုအတွက် ဆုများမရှိပါ
+  scoreRange: အမှတ်သတ်မှတ်ချက်
+  searchRewards: ဆုများကိုရှာဖွေပါ
+  spend: '{ရမှတ်} ရမှတ်များကို အသုံးပြုပါ'
+  toRedeem: လဲလှယ်ခြင်းအတွက် {ဆု} မှန်ကန်ပါသလား
+  totalBalance: ရယူနိုင်သော ရမှတ်များ
+  tupUpTimeNow: အခုပဲငွေဖြည့်ပြီး {ရမှတ်များ}ရမှတ်များရယူပါ
+  type: အမျိုးစား
+  wantToSpend: သင်အသုံးပြုလိုပါသလား
+commission:
+  approved: သဘောတူသည်
+  codeAlready: ယခုကုတ်ကိုအသုံးပြုပြီးပါပြီ
+  codeHere: ကုဒ််ရိုက်ထည့်ပါ
+  description: ညွှန်းပေးမှုများမှ ကော်မရှင်ငွေရယူပါ
+  earnings: ကော်မရှင်ရငွေများ
+  enterCode: အခမဲ့ခရက်ဒစ်ကုဒ်ရိုက်ထည့်ပါ။
+  examine: စစ်ဆေးသည်
+  history: ကော်မရှင်မှတ်တမ်း
+  historyCommission: ဆက််သွယ်မှုမှတ်တမ်း
+  pending: စောင့်ဆိုင််းနေသောကော်မရှင်
+  plsCode: စနစ်အတွက်ကုဒ်မရှိပါ
+  prizealready: သင်နိုင်သွားပြီ
+  rate: ကော်မရှင်နှုန်း
+  rejected: ပယ်ခံရသောကော်မရှင်
+  title: ကော်မရှင်
+  total: ကော်မရှင်စုစုပေါင်း
+  typeCasino: လောင်းကစားရုံအသစ်
+  typeLotto: ထီ
+  typeOther: အခြားအမျိုးအစားများ
+  typeSlot: Slot ဂိမ်း
+  typeSport: အားကစားဂိမ်းများ
+  withdrawal: ကော်မရှင်ထုတ်မည်
+commission4step:
+  back: နောက်သို့
+  close: ပိတ်မည်
+  day: နေ့စဉ်
+  details: ငွေပြန်အမ်းမှုအသေးစိတ်
+  eventName: တီယာ ၄ ကော်မရှင်
+  history: မှတ်တမ်း
+  latestItems: (နောက်ဆုံး ၅ ခု)
+  matchingDetails: တွဲဖက်ခြင်းအသေးစိတ်
+  month: လစဉ်
+  moreThanOneDay: တစ်ရက်ထက်ပိုသည်
+  now: ယခု
+  playMoreGames: ဂိမ်းများထပ်ကစားမည်
+  realtime: နေ့စဉ်
+  receiveMoney: ဆုငွေလက်ခံရယူမည်
+  receiveMoneyType:
+    cash: ငွေသား
+    freecredit: ခရက်ဒစ်
+  rewardHistory: ဆုကြေးမှတ်တမ်း
+  timeRemaining: ကျန်ရှိချိန်
+  week: အပတ်စဉ်
+commom:
+  activity: ဆောင်ရွက်ခြင်း
+  admin: အက်ဒ်မင်
+  badBalance: အရှုံး
+  baht: ဘတ်
+  bankLink: ငွေထုတ််သည်
+  cash: ပိုက်ဆံ
+  cashMoney: ဂိမ်းကစားငွေ
+  cashTranfer: ပိုက်ဆံလွှဲပြောင်းသည်
+  casino: ကာစီီနို
+  categoryPosition: အမျိုးအစား
+  contact: ဆက်သွယ်ရမည်ဖုန်းနံပါတ်
+  credit: ခရက်ဒစ်
+  creditHistory: ခရက်ဒစ်မှတ်တမ်း
+  day: နေ့စွဲ
+  details: အသေးစိတ်
+  diamond: စိန်များ
+  displaySetting: ပြသမှုဆက်တင်
+  dong: ဒွန်
+  enterAmount: ကျေးဇူးပြုပြီးငွေပမာဏကိုဖော်ပြပါ။
+  error: စက်ချို့ယွင်းမှုဖြစ်သည်
+  freeCredit: အခမဲ့ခရက်ဒစ်
+  game: ဂိမ်း
+  gameBalance: ဂိမ်းကစားငွေ
+  gotoGame: ဂိမ်းကိုရိုက်ထည့်ပါ
+  hide: ၀ှက်ထားမည်
+  info: သတင််းအချက်လက်
+  lastEntries: (နောက်ဆုံးပေါ်ပစ္စည်းများ ၅ခု)
+  left: လက်ဝဲဘက်
+  line: မျဥ်းကြောင်း
+  loading: အချက်လက်များရယူနေသည်
+  logout: စနစ်မှထွက်မည်
+  mainPage: အဓိကစာမျက်နှာ
+  min: အနည်းဆုံး
+  money: ပိုက်ဆံ
+  month: လ
+  noCreditHistory: ခရက်ဒစ်မှတ််တမ်းမရှိပါ
+  noData: သတင်းအချက်အလက်မရှိပါ
+  noHave: မရှိပါ
+  noHistoryEntry: မှတ်တမ်းမရှိပါ
+  noResults: သတင်းအချက်အလက်မတွေ့ပါ
+  noRewardHistory: မှတ်တမ်းမရှိပါ
+  notPointHistory: ရမှတ်မှတ်တမ်းမရှိပါ
+  notexttoday: ဒီမက်ဆေ့ခ်ျကိုထပ်မံမပြပါနှင့်
+  number: အရေအတွက်
+  other: အခြား
+  prizeNotFound: ဆုမရှိပါ
+  rewardHistory: ဆုမှတ်တမ်း
+  right: ညာဘက်
+  seconds: စက္ကန့်
+  seeAll: အားလုံးကိုကြည့်မည်
+  seeConditions: နောက်အခြေအနေများကိုကြည့်ပါ
+  showLess: နည်းနည်းပဲပြပါ
+  showMore: ထပ်ပြပါ
+  slot: စလော့ဂိမ်းများ
+  success: လုပ်ဆောင်မှုအောင်မြင်သည်
+  top: အပေါ်
+  topUp: ငွေဖြည့်သည်
+  turn: ရငွေ
+  view: ကြည့်မည်
+  wait: ကျေးဇူးပြုပြီးခဏစောင့်ပါ
+  warning: သတိပေးချက်
+  year: ခုနှစ်
+  yerNo: မှန်ပါလား?
+  quickNavigation: ဌာန၏ဌာနသို့ဖြတ်လမ်း
+  dailyTopUpCalendar: နေ့စဉ်ငွေဖြည့က္ခဒိန်
+common:
+  loadMore: ထပ်ထည့်ပါ
+  noItem: သတင်းအချက်အလက်ရှာမတွေ့ပါ
+  scrollForMore: ပိုပြီးကြည့်ဖို့ရွှေ့ဆိုင်းပါ
+  resetFilters: စစ်ထုတ်မှုများကိုပြန်လည်သတ်မှတ်ပါ
+  filters: စစ်ထုတ်မှုများ
+  doNotReuse: ထပ်မံအသုံးမပြုပါ
+  qrDeposit: ဤ QR Code သည် ဂိမ်းကစားရန် ဝက်ဘ်ဆိုက်မှတဆင့် ငွေသွင်းရန်အတွက်သာဖြစ်သည်
+components:
+  language_switcher:
+    change_language: ဘာသာစကားပြောင်းပါ
+  theme_switcher:
+    change_theme: အရောင်ပြောင်းပါ
+    theme: အရောင််
+crypto:
+  addCryptoDesc: Vollet လိပ်စာကိုရိုက်ထည့်ပြီး crypto အမျိုးအစားကိုရွေးချယ်ပါ
+  addWallet: Vollet လိပ်စာကိုရိုက်ထည့်ပါ
+  crypto: မိကေျာင်း
+  enterProcess: ငွေသွင်းပါ
+  network: ကွန်ယက်
+  selectCrypto: Crypto ငွေကြေးကိုရွေးချယ်ပါ
+  selectNetwork: ကွန်ယက်တစ်ခုရွေးပါ
+  walletAddress: Vollet လိပ်စာ
+  withdraw: CripiTos (ဆုတ်ခွာခြင်းအတွက်)
+decimalTransfer: ဒ decimal မအပ်
+deposit: ငွေဖြည့်သည်
+depositAndUploadSlip: ငွေလွှဲခြင်းနှင့်စလစ်တစ်ခုကိုတင်ပါ။
+depositBankAuto: ဘဏ် (အလိုအလျောက်) မှတဆင့်သိုက်
+depositBankDesc: ဘဏ်မှတဆင့်ငွေလျှောက်ထားသောအကောင့်များကိုသုံးပါ။ ဘဏ်စာရင်းနှင့် QR Code နှစ်ခုစလုံးကိုထောက်ပံ့သည်
+depositBankSpecials: ဘဏ် (အထူး) မှတဆင့်သိုက်
+depositCryptoDesc: cryptocurned အားဖြင့်ဂိမ်းထိပ်တန်းတက်
+depositHistory: အပ်ငွေမံကိန်း
+depositWithTrueWallet: စစ်မှန်တဲ့ငွေကြေး walt ကိုအသုံးပြုပြီးငွေသွင်းခြင်း
+depostiCrypto: crypto အတွက်သိုက်
+directTopupBank: ဘဏ်မှတိုက်ရိုက်လွှဲပြောင်းခြင်း
+error:
+  failedToInitialize: စက်ချို့ယွင်းမှုဖြစ်သည်
+  founError: စက်ချို့ယွင်းမှုဖြစ်သည်
+  foundError: စက်ချို့ယွင်းမှုဖြစ်သည်
+  invalidData: စက်ချို့ယွင်းမှုဖြစ်သည်
+  invalidPrize: စက်ချို့ယွင်းမှုဖြစ်သည်
+  invalidResponse: စက်ချို့ယွင်းမှုဖြစ်သည်
+  unknownPrize: ဆုနှင့်ပတ်သက်သောသတင်းအချက်အလက်မရှိပါ
+events:
+  allEvents: ပွဲအားလုံး
+  affiliate: ကော်မရှင်ကိုလက်ခံရရှိရန်သူငယ်ချင်းများကိုဖိတ်ပါ
+  answerQuestions: မေးခွန်းများကိုဖြေပါ
+  balanceDiamonds: ကျန်ရှိသောစိန်
+  cash: ငွေသား
+  cashPoint: ငွေသားရမှတ်
+  cashback: ပြန်အမ်းငွေ
+  cashbackBill: ပထမဦးဆုံး ပလက် ကိုပြန်သွားပါ
+  cashpoint: စုဆောင်းခြင်း
+  collectPoints: ရမှတ်များစုဆောင်းပါ
+  commission: ကော်မရှင်
+  commission4step: အဆင့်လေးကော်မရှင်
+  daily: နေ့စဥ်ဖြည့်သွင်းငွေ
+  dailyFixTopup: သတ်မှတ်ငွေပမာဏဖြည့်သွင်းသည်
+  dailyMission: နေ့စဥ််မစ်ရှင်
+  earn: ငွေရှာပါ
+  evaluateAdmin: admin ကိုအကဲဖြတ်ရန်
+  eventsDetail: လှုပ်ရှားမှုအသေးစိတ်
+  freeCredit: အခမဲ့ခရက်ဒစ်
+  income: ငွေရှာပါ
+  inviteFriends: သူငယ်ချင်းများကိုဖိတ်ကြားပါ
+  joinEvent: ဆုများစွာရရှိရန်လုပ်ဆောင်မှုများတွင်ပါဝင်ပါ။
+  joinMinigame: အသေးစားဂိမ်းများကိုကစားရန်စိန်များကိုသုံးပါ။ အရင်ကထက်စိန်များစွာရယူပါ
+  luckyBox: ပျော်စရာသေတ္တာ
+  luckyBoxDiamond: ပျော်စရာများကိုဖွင့်ကြည့်ပါ
+  luckyWheel: ကံကောင်းခြင်းဘီး
+  minigame: ' ဂိမ်းအသေးစား'
+  mission: မစ်ရှင်
+  monthlyMission: လစဥ်မစ်ရှင်
+  notActive: အဆိုပါကစားမှုအသုံးပြု၍မရသေးပါ
+  points: စုဆောင်းမှု
+  questionResearch: မေးခွန်းအစု
+  randomPrize: ကျပန်းဆု
+  rank: အဆင့်ပေးခြင်း
+  rated: အဆင့်
+  referral: အပိုဆုရရှိရန်သူငယ်ချင်းများကိုဖိတ်ပါ
+  regularDeposit: ပုံမှန်ဖြည့်ငွေ
+  reward: ဆု
+  shareFacebook: facebook တွင်မျှဝေပါ
+  specialCommission: အထူးကော်မရှင်
+  tier: ဗီအိုင်ပီအဆင့်
+  title: ပွဲများ
+  titleevents: ဆုများရရန်လုပ်ဆောင်မှုများတွင်ပါဝင်ပါ
+  titlestore: ဒီနေရာမှာကစားရန်အခွင့်အရေးများဖလှယ်ရန်စိန်များကိုသုံးပါ။
+  treasureBox: ရတနာသေတ္တာ
+  updatePhone: နံပါတ်ကိုပြုပြင်ပါ
+  weeklyMission: အပတ်စဉ်မစ်ရှင်
+  wheelTurnOver: ကံကောင််းခြင်းဘီးအမြတ်ရငွေ
+  winPrizes: ဆုတစ်ခုရယူပါ
+exchangeCredit:
+  available: ရနိုင််သောခရက်ဒစ်များ
+  creditFreeNoEnough: သင့်ရဲ့အခမဲ့ခရက်ဒစ်မလုံလောက်ပါ။
+  description: ခရက်ဒစ်များကို ဆုအဖြစ်လဲပါ
+  exchange: လဲလှယ််မည်
+  exchangeCreditFree: အခမဲ့ခရက်ဒစ်ကို ဂိမ်းကစားငွေသို့ပြောင်းလဲမည်
+  exchangeFreeCreditMinimum: အနည်းဆုံးအခမဲ့ခရက်ဒစ်လွှဲပြောင်း {အနည်းဆုံး} ဘတ်
+  exchangeUnlimitedWithdrawal: အကန့်အသတ်မဲ့ထုတ်ယူ {အနည်းဆုံးပမာဏ}{ငွေကြေး}
+  goMoney: 'သို့: ငွေပမာဏ'
+  history: လဲလှယ်မှုမှတ်တမ်း
+  makeTurnCasino: ကာစီီီနိုအမြတ်ရငွေတွက်အကြိမ်{လှည့်}ပါ
+  makeTurnSlot: စလော့ရငွေတွက်အကြိမ် {လှည့်}ပါ
+  maximum: အများဆုံးလဲလှယ်မှု
+  minimum: အနည်းဆုံးလဲလှယ်မှု
+  plsCreditMinimum: အနည်းဆုံး {အနည်းဆုံး} ခရက်ဒစ်ထည့်ပါ
+  plsInputCredit: ခရက်ဒစ်ပမာဏထည့်ပါ
+  rate: ငွေလဲလှယ်နှုန်း
+  specifyAmount: ခရက်ဒစ်ပမာဏသတ်မှတ်သည်
+  systemClosedMaintenance: အခမဲ့ခရက်ဒစ်စနစ်ပိတ်နေသည်။ အဆင်မပြေမှုအတွက်တောင်းပန်ပါသည်။
+  title: ခရက်ဒစ်လဲလှယ်သည်
+  tranferCredit: 'မှ: အခမဲ့ခရက်ဒစ်'
+favGames:
+  deletefavGames: သင်အကြိုက်ဆုံးဂိမ်းကိုဖျက်ပါ။
+  empty: အကြိုက်ဆုံးဂိမ်းမတွေ့ပါ
+  failedfavGame: အကြိုက်ဆုံးဂိမ်းထည့်မှုမအောင်မြင်ပါ
+  successfavGames: သင်အကြိုက်ဆုံးဂိမ်းကိုထည့်ပြီးပါပြီ
+  title: အကြိုက်ဆုံးဂိမ်းများ
+footer:
+  events: ပွဲများ
+  home: အဓိကစာမျက်နှာ
+  noti: အသိပေးမှုများ
+  promotion: ပရိုမိုးရှင်း
+  withdraw: ငွေထည့်ခြင်း/ထုတ်ခြင်း
+forgame: ကစားပွဲတွက်
+freeCredit:
+  checkReceivedFour: မနက် ၄ နောက်ပိုင်းအခမဲ့ခရက်ဒစ်ကိုရယူနိုင်သည်
+  checkReceivedOne: မနက် ၁ နာရီနောက်ပိုင်းတွင်အခမဲ့ခရက်ဒစ်ကိုရယူပါ
+  checkReceivedThree: မနက် ၃နာရီ နောက်ပိုင်းတွင်အခမဲ့ခရက်ဒစ်ကိုရယူပါ
+  earnedCredit: ခရက်ဒစ်ရခဲ့သည်
+  easyWayCreditFree: အခမဲ့ခရက်ဒစ်{နံပါတ်} ဘယ်လိုအလွယ်ရမလဲ
+  easyWayDiamond: စိန် {နံပါတ်} ဘယ်လိုအလွယ်ရနိုင်မလဲ
+  easyWayMoney: ငွေဘယ်လိုအလွယ်ရနိုင်မလဲ {နံပါတ်}ဘတ်
+  end: အဆုံးသတ်
+  getFreeCredit: အခမဲ့ခရက်ဒစ်ရယူပါ
+  luckyWheel:
+    additionalConditions: ''
+    goTopup: ''
+    goTurn: ''
+    haveLoss: ''
+    haveLossNew: ''
+    haveMinimum: ''
+    haveReceived: ''
+    noRightSpin: ''
+    noSpinning: ''
+    noSpinningRight: ''
+    remarks: ''
+    seeAdditionalConditions: ''
+    spinWheel: ''
+    spinsLeft: ''
+    topUpMinimum: ''
+    turn: ''
+    wheelTurnOver: ''
+    winBigPrizes: ''
+    youHave: ''
+  makeTurnClaim: '-စလော့အမြတ်ငွေရရန် {စလော့လှည့်} အကြိမ် နှင့် ကာစီနိုအမြတ်ငွေရရန်{ကာစီနိုကစားပါ}အကြိမ်'
+  round: ပြောင်းပါ {နံပါတ်}
+  start: စတင်သည်
+  topUpMinimum: အနည်းဆုံးငွေဖြည့်သွင်းမှု {အနည်းဆုံး} ဘတ်, ချက်ချင်းအခမဲ့ခရက်ဒစ်လက်ခံရယူပါ
+  topUpNoPromotion: ပရိုမိုးရှင်းမပါပဲငွေဖြည့်ပါ။ အနည်းဆုံးငွေဖြည့်သွင်းမှု {အနည်းဆုံးပမာဏ}ဘတ်။ အခမဲ့ခရက်ဒစ်ချက်ချင်းရယူပါ
+  topUpPromotion: ပရိုမိုးရှင်းအသုံးပြုပြီးငွေဖြည့်ပါ။အနည်းဆုံးငွေဖြည့်သွင်းမှု {အနည်းဆုံးပမာဏ}ဘတ်။ အခမဲ့ခရက်ဒစ်ချက်ချင်းရယူပါ
+  wantFreeCredit: အခမဲ့ခရက်ဒစ်လက်ခံလိုပါလား
+  whenTopupRecevedCredit: ငွေဖြည့်ပြီးလျှင်၊ အခမဲ့ခရက်ဒစ်ရယူပါ
+  whenTopupRecevedDiamond: ငွေဖြည့်ပြီးလျှင်၊ အခမဲ့စိန်များရယူပါ
+  whenTopupRecevedMoney: ငွေဖြည့်ပြီးလျှင် ပိုက်ဆံရယူပါ
+  whenWitdthCredit: ရငွေတွက်ချက်ပြီးလျှင် အခမဲ့ခရက်ဒစ်ထုတ်ယူနိုင်သည်
+  whenWitdthDiamond: ရငွေတွက်ချက်ပြီးလျှင် စိန်ထုတ်ယူနိုင်ပါသည်
+  whenWitdthMoney: ရငွေတွက်ချက်ပြီးလျှင် ပိုက်ဆံထုတ်ယူနိုင်ပါသည်
+  quickAccessCredit: ဒီမှာဆုလက်ခံရရှိနိုင်ပါတယ်
+freeSpin:
+  description: စလော့ဂိမ်းများတွက် အခမဲ့လှည့်ခွင့်များ
+  forGame: ဂိမ်းအတွက်
+  giftbox: လက်ဆောင်သေတ္တာ
+  noNoti: အသိပေးချက်မရှိပါ
+  nogiftBox: လက််ဆောင်မရသေးပါ
+  noti: အသိပေးချက််
+  title: အခမဲ့လှည့်ခွင့်များ
+freespin: အခမဲ့လှည့်ခွင့်များ
+from: မှ
+gamehits: လူကြိုက်အများဆုံးဂိမ်း!
+incomDetail: ဝင်ငွေသတင်းအချက်အလက်
+inviteFriends:
+  bonusFriends: သူငယ်ချင်းများကိုဖိတ်ကြားခြင်းမှရရှိသောအပိုဆု
+  friendAll: သူငယ်ချင်းများအားလုံးကိုဖိတ်ကြားခြင်း
+  newUsersOnly: အသုံးပြုသူအသစ်များမှသာ
+  receiveBonus: သင်အပိုဆုရလိမ့်မယ်။
+  referralLink: သူငယ်ချင်းများကိုဖိတ်ကြားမည့်လင့်
+  unlimitedFriends: သူငယ်ချင်းများကိုကန့်သတ်မထားပါ။
+isGameType:
+  all: အားလုံး
+  arcade: အာကိတ်
+  cashback: ပြန်အမ်းငွေ
+  casino: ကာစီနို
+  gameType0: ပရိုမိုးရှင်းကာလတွင် ကာစီီနို၊တိုက်ပွဲ၊ အားကစားပွဲ၊ထီ၊ ခရှက်ရှ်နှင့် ခရစ်တိုဂိမ်းများကိုကစားလို့မရပါ။ပရိုမိုးရှင်းကိုပိတ်ပြီး လိုအပ်သောရငွေရအောင်လုပ်ပါ
+  gameType1: ပရိုမိုးရှင်းကာလတွင် ကာစီီနို၊ ခရစ်ပ်တို၊ ပီဗီပီ သို့မဟုတ် ခရက်ရှ်ဂိမ်းများကိုကစားလို့မရပါ။ပရိုမိုးရှင်းကိုပိတ်ပြီး လိုအပ်သောရငွေရအောင်လုပ်ပါ
+  gameType2: ပရိုမိုးရှင်းကာလတွင် စလော့၊ ငါးမျှားဂိမ်း၊ အာကိတ်နှင့် တေဘဲလ်ကစားပွဲများကိုကစားလို့မရပါ။ပရိုမိုးရှင်းကိုပိတ်ပြီး လိုအပ်သောရငွေရအောင်လုပ်ပါ
+  lotto: ထီ
+  luckyWheel: ဘီး
+  slot: စလော့ဂိမ်းများ
+  sport: အားကစားပွဲများ
+key: နောက်ဆုံးပေါ်ဂိမ်းများ
+lastgame: နောက်ဆုံးပေါ်ဂိမ်းများ
+lobby:
+  allGames: ဂိမ်းအားလုံး
+  gameCategory: ဂိမ်းအမျိုးအစား
+  new: အသစ်
+  noGamesFound: ဂိမ်းမတွေ့ပါ
+  notGame: ဂိမ်းမရှိပါ
+  searchGames: ဂိမ်းများရှာဖွေသည်
+  noEventsNow: လောလောဆယ် လှုပ်ရှားမှုများ မရှိသေးပါ
+  recommendedEvents: အကြံပြုထားသော ဖြစ်ရပ်များ
+  gameCategoriesList: စလော့, ကာစီနို, အားကစား, စားပွဲဂိမ်း, အာကိတ်, တိုက်ခိုက်ပွဲ, စသည်
+  typeAtLeastThreeChars: အနည်းဆုံး စာလုံး ၃ လုံး ရိုက်ထည့်ပါ
+  foundGamesCount: 'ဂိမ်း {count} ခု တွေ့ရှိသည်'
+loginPage:
+  byLoggingIn: စနစ်ထဲသို့ ဝင်ခြင်းခြင့် သင်သဘောတူပြီးသားဖြစ်သည်
+  enterYourUsername: အသုံံးပြုသူနာမည် သို့မဟုတ် ဖုန်းနံပါတ်ထည့်ပါ
+  exclusiveBonus: အထူးအပိုငွေ
+  exclusiveBonusDesc: အထူးအပိုငွေနှင့် ဆုများရယူပါ
+  forgotPassword: စကားဝှက်ကိုမေ့နေပါသလား
+  login: လော့ဂ်အင်
+  loginToYourAccount: ဆက်သွားဖို့ အကောင့်ဖြင့်ဝင်ပါ
+  or: သို့မဟုတ်
+  passwordOrPin: စကားဝှက် / ပင်နံပါတ်
+  plsInputLeastFour: ကျေးဇူးပြုပြီးအနည်းဆုံးစာလုံး ၄ လုံးကိုဖြည့်ပါ။
+  plsInputLeastTen: ကျေးဇူးပြုပြီးအနည်းဆုံးစာလုံး ၁၀လုံးကိုဖြည့်ပါ။
+  privacyPolicy: မူပိုင်ခွင့်ပေါ်လစီ
+  rememberMe: ကျွန်တော့်ကိုမှတ်ထားပါ
+  secureGaming: လုံခြုံမှုရှိသောကစားပွဲများ
+  secureGamingDesc: သင့်အချက်လက်နှင့်ငွေလွှဲမှုများကို အဆင့်မြင့် အချက်လက်လွှဲပြောင်းမှုဖြင့်ကာကွယ်ထားသည်
+  subscribtion: စာရင်းသွင်းပါ
+  support247: ၂၄နာရီ၇ရက်ဝန်ဆောင်မှု
+  support247Desc: ကျွန်တော့်တို့အဖွဲ့က အမြဲကူညီဖို့အသင့်ရှိနေပါသည်
+  termsOfService: ဝန်ဆောင်မှုစည်းကမ်းများ
+  userAccountOrTel: အသုံးပြုသူအကောင့်သို့မဟုတ်တယ်လီဖုန်းနံပါတ်
+  welcomeToSlotGames: စလော့ဂိမ်းများမှကြိုဆိုပါသည်
+luckyWheel:
+  additionalConditions: အပိုဆောင်းစည်းကမ်းများ
+  goTopup: ငွေထည့်ဖို့သွားပါ
+  goTurn: ရငွေတွက်ချက်ပါ
+  haveLoss: တစ်ရက်ကိုတစ်ခါလှည့်ဖို့ အနည်းဆုံး အရှုံးငွေတွက်{အနည်းဆုံး}ဘတ် သုံးပါ
+  haveLossNew: အရှုံးငွေ {အနည်းဆုံး} ဘတ်ရှိလျှင် တစ််ရက်ကို ကံကောင်းတဲ့ဘီးတစ်ခါလှည့်ပါ
+  haveMinimum: တစ်ရက််တစ်ခါလှည့်ရန် {အနည်းဆုံးပမာဏ}{ငွေကြေး}ကိုဖြည့်စွက်ပါ
+  haveReceived: '{ဆုငွေ} သင်လက်ခံရရှိပါသည်'
+  noRightSpin: သင့်လှည့်၍မရသေးပါ
+  noSpinning: အခုထိလှည့်စရာမရှိသေးပါ
+  noSpinningRight: အခုထိိလှည့်စရာမရှိသေးပါ
+  remarks: မှတ်ချက်များ
+  seeAdditionalConditions: အခြားအခြေအနေများကိုကြည့်ပါ
+  spinWheel: ကံကောင်းစေသောဘီးကိုလှည့်ပါ
+  spinsLeft: လှည့်ရန်ကျန်သေးသည်
+  topUpMinimum: '{အနည်းဆုံး} ငွေပမာဏဖြည့်ပါ သို့ပေမဲ့ {တန်ဖိုး}အခွင့်လမ်းများရဖို့ {အများဆုံး} ဘတ်ပမာဏမကျော်ပါစေနဲ့'
+  turn: လှည့်သည်
+  wheelTurnOver: ကံကောင်းစေသောဘီးမှရငွေ
+  winBigPrizes: အခမဲ့ခရက််ဒစ်များနှင့် ဆုကြီးများရယူပါ
+  youHave: သင့်တွင်ရှိသည်
+manageBankAccount:
+  addAccount: အကောင့်ထည့်ပါ
+  addAccountBank: ဘဏ်အကောင့်ထည့်ပါ
+  addAccountBankDesc: ဘဏ််ရွေးချယ်ပြီး အကောင့်နံပါတ်ထည့်ပါ
+  changePrimaryAccount: ပင်မအကောင့်ကိုပြောင်းပါ
+  changePrimaryAccountDesc: ပင်မအကောင့်ကိုတစ်ခါသာပြောင်းလဲနိုင်သည်
+  changedSuccessfullyPrimaryAccount: ပင်မအကောင့်ကိုပြောင်းလဲမှုအောင်မြင်သည်
+  dafaultAccount: ပင်မအကောင့်
+  manageAccount: အကောင့်ကိုစီမံပါ
+  notHaveAccount: အကောင့်မရှိသေးပါ
+  waitingVerification: အတည်ပြုရန်စောင့်နေသည်
+migrate:
+  complete: ပြောင််းရွှေ့မှုပြီးပါပြီ
+  description: စနစ််သစ်ထဲကိုအကောင့်ကိုရွှေ့ပါ
+  popup1: အချက်လက်အသစ်ပြောင်းခြင်းကိုပယ်ဖျက်ပါ
+  popup2: အချက်လက်အသစ်ဖြည့်မှုကိုရပ်ချင်ပါလား
+  popup3: အချက်လက်အသစ်ဖြည့်မှုကိုမလုပ်တော့ပါ
+  popup4: ကြိုဆိုပါတယ်
+  popup5: သတင်းအချက်အလက်များကိုကျွန်ုပ်တို့အတွက်နည်းနည်းမွမ်းမံပေးပါ
+  start: ရွေ့ပြောင်းမှုစတင်ပါ
+  title: အကောင့်ပြောင်းရွှေ့မှု
+minimum: အနည်းဆုံး {0} ဘတ်ဘယ်
+mission:
+  accumulate: စုဆောင်းမှု
+  awardAllLogin: နေ့စဥ် စနစ်ထဲကိုဝင်ပြီး {ဆု}{ဆုအမျိုးစား}ရယူပါ
+  awardHistory: ဆုမှတ်တမ်း
+  claim: ရယူမှုမှတ်တမ်း
+  collectorModeOnly: စုဆောင်းထားသောမစ်ရှင်သည်ဆုတစ်ခုရရှိရန်သာဖြစ်သည်
+  complete: မစ်ရှင်ပြီးပါပြီ
+  completed: မစ််ရှင်များပြီးပါပြီ
+  daily: နေ့စဥ်မစ်ရှင်များ
+  description: ဆုများရဖို့ မစ်ရှင််များပြီးအောင်လုပ်ပါ
+  duration: 'ကြာချိန်: အကန့်အသတ်မရှိ'
+  everyday: နေ့စဉ်
+  fri: သောကြာ
+  getRewarded: ဆုရယူပါ
+  go: သွားပါ
+  inProgress: လုပ်ဆောင်နေဆဲမစ်ရှင်များ
+  loginCalendar: 'login ပြက္ခဒိန် '
+  missionList: မစ်ရှင်များ
+  missionsEnd: မစ်ရှင်အားလုံးအဆုံးသတ်ပါလိမ့်မယ်
+  mon: တနင်္လာ
+  monthly: လစဥ်မစ်ရှင်
+  progress: မစ်ရှင်တိုးတက်မှု
+  received: လက်ခံရရှိသည်
+  reward: မစ်ရှင်ဆု
+  sat: စနေနေ့
+  seasonMissions: ရာသီအလိုက်မစ်ရှင်သည်အချိန်မှစ၍အကျုံးဝင်သည်
+  seasonal: ရာသီ
+  soon: ဤအချိန်တွင်မစ်ရှင်မရှိပါ။ ကျေးဇူးပြုပြီးမကြာမီပြန်လည်စစ်ဆေးပါ
+  special: အထူးမစ်ရှင်များ
+  sun: တနင်္ဂနွေ
+  thu: ကြာသပတေး
+  title: မစ်ရှင်များ
+  tue: အင်္ဂါ
+  wed: ဗုဒ္ဓဟူး
+  weekly: null
+  detailModalType: လော့ဂ်အင်လုပ်ပြီးနောက် အခုပဲ အမှတ်တံဆိပ်ရယူပါ!
+  getRewardPromotion: Top up with promotion
+  getRewardNoPromotion: Top up without promotion
+month:
+  april: ဧပြီလ
+  august: သြဂုတ်လ
+  december: ဒီဇင်ဘာလ
+  february: ဖေဖေါ်ဝါရီလ
+  january: ဇန္နဝါရီလ
+  july: ဇူလိုင်လ
+  june: ဇွန်လ
+  march: မတ်လ
+  may: မေလ
+  november: နိုဝင်ဘာလ
+  october: အောက်တိုဘာလ
+  september: စက်တင်ဘာလ
+notRewardList: ဆုစာရင်းမတွေ့ပါ
+nvalidPrizeType: ဆုအမျိုးစားမမှန်ပါ
+onePayment:
+  description: အမြန်ငွေဖြည့်မှု
+  recommend: ထောက်ခံပေးသော
+  title: အလိုလျှောက်ငွေဖြည့်ခြင်း(အိတ်စ်ပရက်စ်)
+  oneBanks: Automatic Bank
+oneThingMustBeDone: တစ်ခုပြီးအောင်လုပ်ရမည်
+p2p:
+  description: အခြားကစားသမားတွေကို ငွေလွှဲမည်
+  receive: လက်ခံရရှိသည်
+  send: ပို့သည်
+  tab1: ဝက်ဘ်ဆိုက်မှတစ်ဆင့်ပေးဆောင်ပါ
+  tab2: QR ကုဒ်မှတစ်ဆင့်ပေးဆောင်ပါ
+  title: အသုံးပြုသူချင်းငွေလွှဲမည်
+pages:
+  '404':
+    title: စာရင်းသွင််းမည်
+  promotion:
+    all: အားလုံး
+    casino: ကာစီီနို
+    lotto: ထီ
+    other: အခြား
+    slot: စလော့ဂိမ်းများ
+    sport: အားကစားပွဲများ
+  tier:
+    credit: ခရက်ဒစ်
+    diamonds: စိန်များ
+    freeCredit: အခမဲ့ခရက်ဒစ်
+    permissionToOpenTheBox: သေတ္တာ ကိုဖွင့်ရန်ခွင့်ပြုချက်
+    permissionToSpinTheWheel: ဘီးလှည့်ဖို့ခွင့်ပြုချက်
+    point_rewards: ရမှတ်များ
+personalInformation:
+  accountLine: လိုင်းနှင့်ချိတ်ဆက်သည်
+  accountName: အကောင့်အမည်
+  accountNotYet: မချိတ်ရသေးပါ
+  accountNumber: အကောင့်နံပါတ်
+  address: လိပ်စာ
+  bankAccount: ဘဏ်အကောင့်
+  birthday: မွေးနေ့
+  birthdayRegistration: မွေးနေ့ကိုမှတ်တမ်းတင်ပါ
+  changePIN: ပင် စနစ်ကိုပြောင်းလဲပါ
+  changePassword: စကားဝှက်ကိုပြောင်းပါ
+  changePasswordGame: ဂိမ်းကိုစကားဝှက်ကိုပြောင်းပါ။
+  chkPasswordSix: စကားဝှက်သည် ၆ - ၁၂ လုံးအတွင်းရှိရမည်
+  city: မြို့
+  country: နိုင်ငံ
+  dateOfBirth: မွေးနေ့
+  email: အီးမေးလ်
+  female: အမျိုးသမီး
+  gameCode: ဂိမ်းဝင်ရန်ကုဒ်
+  gender: လိင်
+  haveLangue: အင်္ဂလိပ်အက္ခရာ, နံပါတ်များ(ဥပမာ ABC123)ပါဝင်ရမည်
+  inviteFriends: အပိုဆုရရှိရန်သူငယ်ချင်းများကိုဖိတ်ပါ
+  male: အမျိုးသား
+  name: နာမည်အပြည့်စုံ
+  noHaveFriend: သူငယ်ချင်းများကိုရှာမတွေ့ပါ
+  notYetRegistered: မှတ်ပုံတင်ထားခြင်းမရှိသေးပါ
+  other: အခြား
+  personalInformation: ကိုယ်ရေးအချက်အလက်များ
+  phone: ဖုန်းနံပါတ်
+  pinCode: ပင်ကုတ် နံပါတ်
+  plsConfrimPasswordNew: ကျေးဇူးပြုပြီးစကားဝှက်အသစ်ကိုအတည်ပြုပါ။
+  plsNewPassword: ကျေးဇူးပြုပြီးစကားဝှက်အသစ်ထည့်ပါ
+  plsNewPasswordAndSave: ကျေးဇူးပြုပြီးစကား၀ှက်အသစ်ထည့်ပြီး သိမ်းမည်ကိုနှိပ်ပါ
+  postalCode: ပို့စ်ကုတ်
+  preferNotToSay: မပြောလိုပါ
+  pressSave: ကျေးဇူးပြုပြီး ပင်နံပါတ် အဟောင်းနှင့် အသစ်ကိုဖြည့်စွက်ပါ။
+  profile: ပရိုဖိုင်ဓာတ်ပုံ
+  referralCode: သူငယ်ချင်းဖိတ်ခေါ်ရန်ကုတ်
+  referralLink: သူငယ်ချင်းများကိုဖိတ်ကြားရန်လင့်
+  seeProfile: ကိုယ်ရေးအကျဉ်းကိုကြည့်ပါ
+  shareEarn: လင့်ကိုဝေမျှပါ
+  state: ပြည်နယ်/စီရင်စု
+  title: ကိုယ်ရေးအချက်လက်
+  twoFactorAuthentication: နှစ်ဆင့်စစ်ဆေးခြင်း
+  update: အချက်လက်ကိုပြုပြင်ပါ
+  userGame: ဂိမ်းနာမည်
+pls-enter-true-wallet: ကျေးဇူးပြု၍ ထရူးပိုက်ဆံအိတ်အကောင့်နှင့် ချိတ်ထားသောဖုန်းနံပါတ်ကိုဖြည့်ပါ
+plsUploadSlipviaQR: ကျေးဇူးပြု. QR Code တစ်ခုတည်းသာရှိသောစလစ်ကိုတင်ပါ။
+promotion:
+  supportedChannels: ပံ့ပိုးထားသော ငွေသွင်းနည်းလမ်းများ
+  supportedPromotions: ပံ့ပိုးထားသော ပရိုမိုးရှင်းများ
+  accountSupportsPromotion: ဤအကောင့်သည် ပရိုမိုးရှင်းကို ပံ့ပိုးသည်
+  acceptedpro: ပရိုမိုးရှင်းလက်ခံရရှိပြီးဖြစ်သည်
+  allPromotionsCasino: ကာစီနိုဂိမ်းများ၏ပရိုမိုးရှင်းအားလုံး
+  allPromotionsSlot: စလော့ဂိမ်းများ၏ပရိုမိုးရှင်းအားလုံး
+  automatically: အလိုအလျောက်လုပ်ဆောင်ပါ
+  automaticallyReceivePromotions: အလိုအလျောက်တချို့သောအဖွဲများတွက် ပရိုမိုးရှင်းလက်ခံရယူပါ
+  buttonOpen: ပရိုမိုးရှင်းများသိဖို့ ခလုတ်ကိုနှိပ်ပါ
+  canNotReceiveNow: ဤအချိန်တွင်ပရိုမိုးရှင်းကိုလက်မခံနိုင်ပါ
+  cannotplayCasino: ကာစီနိုဂိမ်းများကိုမကစားနိုင်ပါ
+  casino: ကာစီနို
+  change: ပြောင်််းလဲခြင်း
+  changePromotion: ကျန်ရှိသောငွေပမာဏသည် ပရိုမိုးရှင်းအခြေနေကိုပြောင်းလဲရန် {ခရက်ဒစ်} {ငွေကြေး} ထက်နည်းရမည် သို့မဟုတ် နှင့်ညီရမည်။
+  chooseGroupLike: သင်အကြိုက်ဆုံးအုပ်စုကိုရွေးချယ်ပါ။
+  chossesPromotion: ဒီပရိုမိုးရှင်းကိုရွေးချယ်ပါ။
+  closePromotion: ပရိုမိုးရှင်းကိုပိတ်ပါ
+  conditions: အခြေနေများ
+  details: အသေးစိတ်အချက်လက်များ
+  doNotNotify: ဒီအရာကိုထပ်အသိမပေးပါနဲ့
+  getPromotion: ပရိုမိုးရှင်းကိုရယူပါ
+  getPromotionsAutomatically: အလိုအလျောက်ပရိုမိုးရှင်းကိုလက်ခံရရှိသည်
+  getPromotionsManually: ပရိုမိုးရှင်းရရှိရန်ကိုယ်တိုင်လုပ်ဆောင်မည်
+  getThisPromotion: ဒီပရိုမိုးရှင််းကိုရယူသည်
+  noPromotionReceived: ပရိုမိုးရှင်းမရရှိပါ
+  noTurnRequired: ရငွေတွက််ချက်ဖို့မလိုအပ်ပါ။ ထုတ်လိုသောပမာဏတိုင်းထုတ်နိုင်သည်
+  notAccept: ပရိုမိုးရှင်းကိုလက်မခံပါ
+  notFoundPromotion: ပရိုမိုးရှင်းမတွေ့ပါ
+  outOfBusiness: စိတ်မကောင်းပါဘူး။လုပ်ငန်းလည်ပတ်မှုအချိန်တွင်းသာ
+  outOfBusinessCannot: ပရိုမိုးရှင်းကိုလက်ခံံ၍မရပါ
+  promotion: ပရိုမိုးရှင်း
+  promotionAuto: အလိုလျှောက််ပရိုမိုးရှင်းတွက်ငွေဖြည့်ပါ
+  promotionCurrChoose: သင်ရွေးချယ်ထားသောရိုမိုးရှင်း
+  receiveAutomaticCasino: အလိုအလျောက်လောင်းကစားရုံပရိုမိုးရှင်းများကိုရယူပါ
+  receiveAutomaticSlot: အလိုအလျောက်စလော့ဂိမ်းပရိုမိုးရှင်းများကိုရယူပါ
+  receiveGroupPromotion: အုပ်စုလိုက်ပရိုမိုးရှင်းကိုရယူပါ
+  receiveProGameAuto: ဂိမ်းပရိုမိုးရှင်းကို အလိုလျှောက်ရယူပါ
+  receivePromotion: ဒီပရိုမိုးရှင်းကိုလက်ရှိလက်ခံရရှိသည်
+  seeProSlotAll: စလော့ပရိုမိုးရှင်းအားလုံးကိုကြည့်ပါ
+  selectReceivePromotion: ပရိုမိုးရှင်းကို ကိုယ်တိုင်လက်ခံရရှိဖို့ရွေးချယ်ပါ
+  slideButton: ပရိုမိုးရှင်းကိုလက်ခံရန်ခလုတ်ကိုရွှေ့ပါ။
+  slot: ဖဲဂိမ်းများ
+  specialPromotion: အထူးအစီအစဉ်များ
+  systemMatchPromotions: ပရိုမိုးရှင်းအုပ်စုတစ်စုကိုလက်ခံရရှိရန်ရွေးချယ်သောအခါ သင်ငွေဖြည့်သောအခါ, စနစ်သည်သင်ရွေးချယ်ထားသောအမျိုးစားနှင့်ကိုက်ညီသည့်ပရိုမိုးရှင်းအစီအစဉ်များကိုအလိုလျောက်ရွေးချယ်ပေးသည်
+  topUpSystemAutomaticallyMatch: သင်ငွေဖြည့်ချိန်တွင် စနစ်သည် ပရိုမိုးရှင်းများနှင့်အလိုလျောက်ကိုက်ညီအောင်ရွေးချယ်ပေးလိမ့်မည်
+  turnOff: ပိတ်ထားပါ
+  turnOn: ဖွင့်ပါ
+  unableActivities: ရမှတ်စုဆောင်းခြင်းနှင့် ပုံမှန်ဖောက်သည်ဆုများရယူမှု စသောလုပ်ဆောင်မှုများတွင်ပါဝင်၍မရပါ
+  viewAllCasino: လောင်းကစားရုံပရိုမိုးရှင်းအားလုံးကိုကြည့်ပါ
+  warning: အသိပေးချက်
+  youAcceptingPromotion: သင်ဤပရိုမိုးရှင်းကိုလက်ခံလိုက်သည်
+  youReceviceProAnother: သင့်တွင်အခြားပရိုမိုးရှင်းတစ်ခုလက်ခံပြီးသားဖြစ်သည်
+  youWantReceive: သင်လက်ခံရယူလိုပါလား
+  youWantReceivePromotions: သင်ပရိုမိုးရှင်းများရယူလိုပါလား
+  myPromotions: ကျွန်ုပ်၏ပရိုမိုးရှင်းများ
+  promotionStatus: ပရိုမိုးရှင်းအခြေအနေ
+  receiveAutomaticPromotions: အလိုအလျောက်ပရိုမိုးရှင်းများလက်ခံပါ
+  notReceivingPromotions: ပရိုမိုးရှင်းများမလက်ခံပါ
+  automaticPromotionInfo: အလိုအလျောက်ပရိုမိုးရှင်းအချက်အလက်
+  promotionName: ပရိုမိုးရှင်းအမည်
+  requiredAmount: လိုအပ်သောပမာဏ
+  complete: ပြီးစီးပါပြီ
+  promotionDetails: ပရိုမိုးရှင်းအသေးစိတ်
+  promotionType: ပရိုမိုးရှင်းအမျိုးအစား
+  requirements: လိုအပ်ချက်များ
+  defaultRequirements: မူလလိုအပ်ချက်များ
+  bonusAmount: ဘောနပ်ပမာဏ
+  noActivePromotion: အသုံးပြုနေသောပရိုမိုးရှင်းမရှိပါ
+  wantToReceivePromotions: ပရိုမိုးရှင်းများလက်ခံလိုပါသည်
+  enablePromotions: ပရိုမိုးရှင်းများကိုဖွင့်ပါ
+  updating: အပ်ဒိတ်လုပ်နေသည်
+  promotionsDisabled: ပရိုမိုးရှင်းများပိတ်ထားသည်
+  promotionsEnabled: ပရိုမိုးရှင်းများဖွင့်ထားသည်
+  toggleError: ပြောင်းလဲမှုအမှား
+  depositBonus: ငွေဖြည့်ဘောနပ်
+  cashback: ငွေပြန်ပေးခြင်း
+  freeCredit: အခမဲ့ခရက်ဒစ်
+qrCodeBank: သိုက် (QR Code) မှတဆင့်အပ်နှံခြင်း
+randomPrize:
+  earn: '{ဆု}လက်ခံရရှိသည်'
+  justPlayGame: အစဉ်မပြတ်ဂိမ်းကစားပါ။ ကစားသမားများအနေဖြင့် {နံပါတ်} {အမျိုးစား}အမြင့်ဆုံးကျပန်းဆုများကိုရရှိရန်အခွင့်အရေးရှိသည်။
+  max: အများဆုံး {နံပါတ်}
+  minimum: အနိမ့်ဆုံး {နံပါတ်}
+  noHaveRandomHistory: ကျပန်းဆုမှတ်တမ်းမရှိပါ
+  randomFreePrizes: အခမဲ့ကျပန်းဆုများ
+  randomHistory: ကျပန်းဆုမှတ််တမ်း
+  randomPrize: ကျပန်းဆု
+rank:
+  cash: ငွေသား
+  mostPlayer: ငွေဖြည့်အများဆုံးသူများ
+  remarks: မှတ်ချက်များ
+  reward: ဆု
+  roundResult: အချိန်တွင်းရလဒ်များ
+  sortedAmount: စနစ်််ထဲသို့ ငွေဖြည့်သွင်းသောပမာဏဖြင့်စီထားသည်
+  things: အရာများ
+  topRankedPlayer: ငွေဖြည့်အများဆုံးသူများ
+ranking:
+  things: အရာများ
+  title: အဆင့်သတ်မှတ်ခြင်း
+referral:
+  InviteFriendsBonuses: အပိုဆုရရှိရန်သူငယ်ချင်းများကိုဖိတ်ပါ
+  InviteFriendsDesc1: သူငယ်ချင်းများငွေဖြည့်ရန်လျှောက်ထားသောအခါ နှင့်ပရိုမိုးရှင်းရသောအခါ သင်ခရက်ဒစ်{တန်ဖိုး}% ကိုလက်ခံရရှိမည်
+  InviteFriendsDesc2: သူငယ်ချင်းများ လျှောက်ထားခြင်းနှင့်ငွေဖြည့်သည့်အခါ သင်ခရက်ဒစ် {တန်ဖိုး}% ကိုလက်ခံရရှိလိမ့်မည်။
+  InviteFriendsDesc3: 'အနည်းဆုံးမိတ်ဆွေတစ်ဦး၏ပထမဆုံးငွေဖြည့်ပမာဏ {အနည်းဆုံး} ဘတ်ငွေကနေ '
+  InviteFriendsDesc4: အများဆုံး{ကန်သန့်ချက်}ခရက်ဒစ်
+  InviteFriendsDesc5: ခရက််ဒစ်အိတ်ထဲသို့ ဝင်ငွေချက်ချင်းရလာမည်
+  YouReferralLink: သူငယ်ချင်းများကိုဖိတ်ကြားမည့်လင့်
+  commissionEarned: ကော်မရှင်ကိုလက်ခံရရှိခဲ့သည်
+  copy: လင့်ကိုကူးယူပါ
+  copyLink: လင့်ကိုကူးယူပါ
+  currentIncome: လက်ရှိဝင်ငွေ
+  description: သူငယ်ချင်းများကိုဖိတ်ပြီး ဆုများကိုရယူပါ
+  friendInviteHistory: သူငယ်ချင်းများဖိတ်ကြားမှုမှတ်တမ်း
+  inviteFriendsDesc3: ''
+  inviteFriendsDesc4: ''
+  inviteFriendsDesc5: ''
+  inviteFriendsStepsOne: သူငယ်ချင်းဖိတ်ကြားမှုအဆင့်တစ််
+  inviteFriendsStepsThree: သူငယ်ချင်းဖိတ်ကြားမှုအဆင့်သုံး
+  inviteFriendsStepsTwo: သူငယ်ချင်းဖိတ်ကြားမှုအဆင့်နှစ်
+  inviteFriendsToRarn: ပိုက်ဆံံရရန်သူငယ်ချင်းများကိုဖိတ်ကြားပါ
+  link: သူငယ်ချင်းများဖိတ်ကြားရန်လင့်ခ်
+  received: လက်ခံရရှိသည်
+  receivedHistory: လက််ခံရရှိမှုမှတ်တမ်း
+  rewards: ဖိတ်ကြားမှုတွက်ဆုများ
+  share: လင့်မျှဝေပါ
+  shareYouReferralLink: သူငယ်ချင်းများကို လင့်ဝေမျှပြီးဖိတ်ကြားခြင်း
+  terms: စည်းကမ်းချက်များ
+  title: ဖိတ်ကြားမှုပရိုဂရမ်
+  totalFriends: သူငယ်ချင်းအားလုံး
+register:
+  acceptTermsConditions: ကျွန်ုပ်အခြေအနေများအားလုံးကိုသဘောတူညီသည်။
+  accountSuccessfully: အကောင့်ကိုအောင်မြင်စွာဖန်တီးပြီးပါပြီ
+  bank: ဘဏ််
+  bankAccountNumber: ဘဏ်အကောင့်နံပါတ်
+  birthday: မွေးနေ့
+  birthdayOptional: မွေးနေ့ (မထည့်လည်းရ)
+  choose: ရွေးချယ်သည်
+  conditionsFive: ၅)  အကောင့်တစ်ခုလျှင်တစ်ယောက်သာသုံးခွင့်ရှိသည်။ အကောင့်တစ်ခုကို လူအများသုံးနေသည်ကို တွေ့ရလျှင် ငွေထုတ်ခွင့်ကျွန်ုပ်တို့တွင်ရှိသည်။
+  conditionsFour: ၄)  စနစ်အမှားဖြစ်ပေါ်လျှင် ဝန်ထမ်းများကိုချက်ချင်းအကြောင်းကြားရန်။ ကျွန်ုပ်တို့ကို အကြောင်းမကြားလျှင် ငွေအားလုံးထုတ်ခံရမှုဖြစ်နိုင်သည်။
+  conditionsOne: ၁)စနစ်မှ ကုတ်မက်ဆေ့ပေးပို့မည် ဖြစ်သောကြောင့် မက်ဆေ့လက်ခံရရှိနိုင်သောဖုန်းနံပါတ်တစ်ခုပေးရမည်။ မဟုတ်လျှင် ငွေလွှဲမှုများလုပ်ဆောင်နိုင်မည်မဟုတ်ပါ။
+  conditionsRegister: မှတ်ပုံတင်မှုတွက် လိုက်နာရမည်စည်းကမ်းချက်များ
+  conditionsThree: ၃) ငွေဖြည့်သွင်းရန်လျှောက်ထားသောအကောင့်ကိုသုံးရမည်။
+  conditionsTwo: ၂) သင့်အမည် နှင့် နောက်အမည်သည် အကောင့်အမည်နှင့်ကိုက်ညီရမည် မဟုတ်လျှင် သင်ပိုက်ဆံထုတ်ယူနိုင်မည်မဟုတ်ပါ။
+  confirmOTP: otp ကုဒ်ကို အတည်ပြုပါ
+  enterAccountNumberMatch: လျှောက်ထားသူ၏အမည်နှင့် ကိုက်ညီသော အကောင့်နံပါတ် ကိုဖြည့်ပါ။
+  enterRecommendedFriend: သူငယ်ချင်း၏ညွှန်းပေးသောကုတ်ကိုရိုက်ထည့်ပြီး အခမဲ့ခရက်ဒစ်လက်ခံရယူပါ
+  fillIn: သတင်းအချက်အလက်ဖြည့်ပါ
+  fillInLastName: နောက်ဆုံးအမည် ကိုဖြည့်ပါ
+  fillInName: နာမည်ကိုဖြည့်ပါ
+  fillPhone: ဖုန်းနံပါတ်ကိုဖြည့်ပါ
+  fillPhoneFight: ဖုန်းနံပါတ်ကိုမှန်ကန်စွာဖြည့်ပါ ({နံပါတ်}-လုံး
+  fillPhoneGetOTP: otp အတည်ပြုချက်ကုဒ်လက်ခံရရှိရန်ဖုန်းနံပါတ်ကိုဖြည့်ပါ။
+  friendRecommended: မိတ်ဆွေ၏ထောက်ခံချက်
+  getOTP: otp တောင်းမည်
+  knowUs: ကျွန်တော်တို့အကြောင်းဘယ်ကနေသိတာပါလဲ
+  lastStep: နောက်ဆုံးအဆင့်
+  lineOptional: လိုင်းအိုင်ဒီ(ရှိလျှင်)
+  loginNow: ချက်ချင်းဝင်ပါ
+  middlename: အလယ်အမည်
+  miss: မစ်
+  mr: မစ္စတာ။
+  mrs: ဒေါ်။
+  name: နာမည်
+  or: သို့မဟုတ်
+  password: လျှိို့ဝှက်စကား
+  pinCode: ပင်နံပါတ်
+  pinCodeNotMatch: ပင််နံပါတ်မကိုက်ညီပါ
+  pleaseEnterSixDigit: ကျေးဇူးပြု၍သင်ရရှိသော ဂဏန်းခြောက်လုံး ကုဒ်နံပါတ်ကိုရိုက်ထည့်ပါ။
+  pleaseFilInformation: ကျေးဇူးပြု၍ သင်၏သတင်းအချက်အလက်များကိုဖြည့်စွက်ပြီး မှတ်ပုံတင်မှုကိုလုပ်ဆောင်ပါ
+  pleaseRemember: ကျေးဇူးပြု၍ ယခုသတင်းအချက်လက်ကိုမှတ်ထားပါ သို့မဟုတ် ဓာတ်ပုံရိုက်သိမ်းဆည်းပါ။
+  pleaseSelectChannel: ကျေးဇူးပြုပြီးရုပ်သံလိုင်းကိုရွေးပါ
+  pleaseSetPin: စနစ်၌အသုံးပြုရန်ပင်ကုတ်လေးလုံး ကိုသတ်မှတ်ပါ။
+  plsClickRecaptcha: လုံခြုံမှုအတွက် recaptcha ကိုအတည်ပြုရန်ကိုနှိပ်ပါ။
+  plsEnterLeast: ကျေးဇူးပြုပြီးအနည်းဆုံးဖြည့်ပါ
+  plsInputInforLeast: ကျေးဇူးပြုပြီး {အများဆုံး} အက္ခရာထက်မကျော်ပဲဖြည့်ပါ။
+  plsInputInforNine: ကျေးဇူးပြု၍အနည်းဆုံး အက္ခရာကိုးလုံးဖြည့်ပါ
+  plsInputInforTen: ကျေးဇူးပြု၍ {အနည်းဆုံး}အက္ခရာကိုဖြည့်ပါ။
+  plsInputName: ကျေးဇူးပြု၍ နာမည်တွက် အနည်းဆုံး အက္ခရာနှစ်လုံးကိုဖြည့်ပါ။
+  plsInputNumber: ကျေးဇူးပြု၍နံပါတ်များသာကိုဖြည့်ပါ။
+  plsInputPhoneComplate: ကျေးဇူးပြု၍ဖုန်းနံပါတ်အပြည့်စုံကိုဖြည့်ပါ။
+  plsInputPhoneReciveOtp: otp အတည်ပြုချက်ကုဒ် လက်ခံရရှိရန် လျှောက်ထားရန်အသုံးပြုသောနံပါတ်ကိုဖြည့်ပါ။
+  plsInputSureName: နောက်ဆုံးအမည်တွက် အနည်းဆုံး အက္ခရာနှစ်လုံးကိုဖြည့်ပါ။
+  plsLineInput: ကျေးဇူးပြု၍ လိုင်းအိုင်ဒီကိုဖြည့်ပါ။
+  prefixName: ခေါင်းစည်း
+  qrcode: QR ကုတ်
+  record: သိမ်းမည်
+  referralCode: အကြံပြုထားသောမိတ်ဆွေကုဒ် (ရှိပါက)
+  resendCode: ကုဒ်ကိုနောက်တစ်ခေါက်ပို့ပါ
+  resendCodeTime: ကုဒ်ကိုနောက်တစ်ခေါက်ပို့ပါ
+  scanBank: PromptPay
+  setPinCode: ပင်ကုတ် ကိုသတ်မှတ်ပါ
+  surname: မျိုးရိုးအမည်(နောက်ဆုံးနာမည်)
+  telephoneNumber: တယ်လီဖုန်းနံပါတ်
+  userAccount: အသုံးပြုသူအကောင့် (အသုံးပြုသူအမည်)
+  validateAllFields: ကျေးဇူးပြု၍အချက်အလက်များကိုမှန်ကန်စွာဖြည့်ပါ။
+registermethod: ကျေးဇူးပြု၍မည်သို့လျှောက်ထားရမည်ကိုရွေးချယ်ပါ။
+regularDeposit:
+  a2zCheckPayment: ငွေဖြည့်မှုကိုအတည်ပြုပါ
+  a2zPending: ငွေဖြည့်မှုကိုအတည််ပြုပါ
+  a2zPrompt1: ငွေလွှဲပြီးလျှင် တစ်ခါတည်းသာ အတည်ပြုပေးပါ
+  a2zPrompt2: ကျေးဇူးပြုပြီးဒီဘဏ်အကောင့်ကိုမမှတ်ပါနဲ့
+  accumulateConsecutiveDay: စီစဉ်ထားသည့်ရက်အရေအတွက်အရသင်စဉ်ဆက်မပြတ်ရွေးချယ်ထားသောပမာဏနှင့်အညီဆက်တိုက်ငွေဖြည့်မှုများပြုလုပ်ပါ
+  appeaseFillingLine: ငွေဖြည့်သွင်းဖို့ စိတ်ပြင်းပြနေသူများတွက် ဆုများရရန် ငွေဖြည့်မည့်နေ့ရက်များကိုရွေးချယ်ပါ
+  cause: သင့်ငွေလွှဲရန် ဘဏ်အကောင့်နံပါတ်ကို ကူးယူပါ
+  cause1: ကျေးဇူးပြု၍ငွေလွှဲရန် အကောင့်နံပါတ်ကို ကူးယူပါ။ စနစ်မှ ပြသသောပမာဏတိုင်းသာလွှဲရမည်။
+  chooseDays: ရက်အရေအတွက်ကိုရွေးချယ်ပါ
+  condition: အခြေနေ
+  countWillStart: ငွေဖြည့်မှုများဆက်တိုက်မဟုတ်ရင် ရေတွက်မှု ပြန်လည်စတင်လိမ့်မည်
+  dailyTopUp: နေ့စဥ် ငွေဖြည့်သွင်းမှု
+  date: ရက်စွဲ {နေ့စွဲ}
+  day: '{နေ့} နေ့များ'
+  deposit: ငွေဖြည့်သွင််းသည်
+  depositAccordingRedeemBonus: စဉ်ဆက်မပြတ်ရွေးချယ်သောပမာဏနှင့်အညီစုဆောင်းပါ။ သတ်မှတ်ရက်များအတွက်အပ်နှံသောအခါ, ချက်ချင်းအပိုဆုလဲလှယ်နိုင်သည်
+  depositAccumulatedAccording: သတ်မှတ်ထားသောရက်အရေအတွက်အတိုင်းငွေဖြည့်သည်
+  depositAmount: အပ်နှံထားသောငွေ
+  depositComplete: ငွေအပ်နှံမှုပြီးဆုံးသည်
+  depositGetUnlimited: အကန့်အသတ်မဲ့အခမဲ့ ခရက်ဒစ်ရရန် ပုံမှန်ငွေဖြည့်ပါ
+  depositNotConsecutive: ငွေဖြည့်မှုများဆက််တိုက်မလုပ်လျှင် စနစ်သည် ရေတွက်မှုအသေးစိတ်ကို အစကနေပြန်စလိမ့်မည်
+  details: အသေးစိတ်အချက်လက်များ
+  dialog: စနစ််မှပြထားသောဒသမကိန်းများနှင့်အညီတိကျသောပမာဏကို လွှဲပါ မဟုတ်ရင် ငွေဖြည့်မှုတွက် ခရက်ဒစ်အလိုလျှောက်ရမည်မဟုတ်ပါ။
+  earn: '{ဆု} လက်ခံရရှိသည်'
+  fixedDeposit: အသေသတ်မှတ်ထားသောဖြည့်ငွေ
+  fixedDepositDetails: အသေသတ်မှတ််ထားသောဖြည့်ငွေအသေးစိတ်အချက်လက်
+  getCredit: ခရက်ဒစ်လက်ခံရရှိသည်
+  getRewarded: ဆုရရှိသည်
+  highestAward: အမြင့်ဆုံးဆုလက်ခံရရှိခဲ့သည်
+  justPlayGames: သတ်မှတ်ထားသောပမာဏရောက်ရန် စလော့ဂိမ်းများကစားပါ။ အကန့်အသတ်မဲ့အခမဲ့ခရက်ဒစ်ရယူပါ။
+  keepDepositing: လိုချင်သောအပိုဆုရယူရန်ငွေထပ်မံထည့်ပါ
+  makeTurnClaim: အပိုဆုကြေးများကိုရရှိရန် ကာစီနိုရငွေတွက်ချက်မှု {ကာစီနိုငွေတွက်ချက်မှု} အကြိမ် နှင့် {စလော့ငွေတွက်ချက်မှု} အကြိမ်ထိပြီးမြောက်ရမည်
+  note: မှတ်ချက်
+  numberOfDays: ရက်အရေအတွက််
+  outOfTime: အချိန်ပြည့်ပါပြီ
+  outOfTimePayment: ငွေပေးချေမှုအချိန်ကုန်ဆုံးပါပြီ
+  playSlotGames: စလော့ဂိမ်းကစားပါ
+  receiveFixedDeposit: ပုံမှန်အပ်နှံမှုမှဆုကိုရလိုပါသလား။
+  received: ရယူသည်
+  receivedBonus: အပိုဆုရရှိသည်
+  receivedCredit: ခရက်ဒစ်လက်ခံရရှိသည်
+  receivedCreditFree: အခမဲ့ခရက်ဒစ်ရရှိသည်
+  receivedDiamond: စိန်များကိုလက်ခံရရှိသည်
+  redeemBonus: ချက်ချင်းအပိုဆုလဲလှယ်နိုင်ပါသည်
+  specifiedDays: ရက်အရေအတွက်သတ်မှတ်ပါ
+  startAccumulatingAgain: ဒီဆုကိုရယူပြီးနောက် ဆုများ စပြီးစုလာလိမ့်မည်
+  when: ဘယ်တော့လဲ
+  whenReceivingBonus: အပိုဆုကိုရယူပြီးလျှင်၎င်းကိုအပ်ငွေစက်ဝန်းအဆုံးဟုသတ်မှတ်လိမ့်မည်။ နောက်တစ်နေ့တွင်အပိုဆုအသစ်များတွက်ပုံမှန်ငွေဖြည့်သွားနိုင်သည်။
+  whenReceivingTransferredCredit: အပိုဆုလက်ခံရရှိသည့်အခါ ပုံမှန်ငွေအပ်နှံမှုစတင်နိုင်ပါသည် (အကန့်အသတ်မဲ့အကြိမ်အရေအတွက်) ပြီးလျှင်ဤဆုကြေးငွေကို သင့်၏ခရက်ဒစ်အိတ်ထဲကိုလွှဲပြောင်းပေးလိမ့်မည်
+selectBankAndnumber: '"ဘဏ်အကောင့်ကိုရွေးပြီးငွေပမာဏကိုဖြည့်ပါ"'
+selectMethod: ငွေသွင်းရန်နည်းလမ်းတစ်ခုကိုရွေးချယ်ပါ
+serviceSurvey:
+  adminRating: admin ကိုမှတ်ချက်ပေးခြင်း
+  chooseWantTel: ပြောချင်တဲ့အရာကိုရွေးချယ်ပါ
+  fair: အသင့်တင့်
+  good: ကောင်းသည်
+  improveService: ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုကို အမြဲတိုးတက်အောင်အကြံပြုချက်များကိုအသုံးပြုပါမည်
+  low: မကောင်းပါ
+  moderate: အသင့်တင့်
+  selectAdmin: ကျေးဇူးပြုပြီး admin ကိုရွေးပါ။
+  selectAdminEvaluating: အကဲဖြတ်ခြင်းမပြုမီ admin ကိုရွေးပါ။
+  sorryOpen: စိတ်မကောင်းပါဘူး, စနစ်အက်ဒ်မင် ကိုအကဲဖြတ်ရန်မဖွင့်သေးပါ
+  suggestion: အကြံပြုချက်
+  telMeExperience: သင်ရရှိခဲ့သောအတွေ့အကြုံကိုဖော်ပြပါ။
+  thanksSuggestion: အကြံပြုချက်အတွက်ကျေးဇူးတင်ပါတယ်
+  veryGood: အလွန်ကောင်းသည်
+shareFacebook:
+  referralLink: ဝေမျှမည့်လင့်
+  shareLinks: သင်၏ဆိုရှယ်မီဒီယာတွင်လင့်များမျှဝေပါ ပြီးလျှင် အခမဲ့ခရက်ဒစ်များရဖို့ ချက်ချင်းဓာတ်ပုံများတင်ပါ
+  socialShare: ဆိုရှယ်မီဒီယာမျှဝေပါ
+  uploadPictures: ဤနေရာတွင်ဓာတ်ပုံများတင်ပါ။
+showTurnPromotion:
+  makeAnotherTurn: အခြားရငွေတွက်ချက်မှုကိုလုပ်ဖို့လိုအပ်သည်
+  makeTurnCanWithdrawn: ငွေထုတ်နိုင်ရန် သင့်၏ရငွေပမာဏသည်  {စာသား}{ငွေပမာဏ} ထက်"ပိုမို" သို့မဟုတ် နှင့်"တူညီ" ရမည်
+  noTurnover: ရငွေတွက်ချက်မှုလုပ်ဖို့မလိုအပ်ပါ
+  promotionName: ပရိုမိုးရှင်းအမည်
+  turnMustMade: လိုအပ်သောရငွေပမာဏ
+  turnoverAmount: ရငွေပမာဏ
+sidebar:
+  chooseContactAdmin: အက်ဒ်မင်ကို ဆက်သွယ်ဖို့နည်းလမ်းတစ်ခုရွေးပါ
+  contactAdmin: admin ကိုဆက်သွယ်ပါ
+  deposit: ငွေဖြည့်ပါ
+  enterWebSite: ဝက်ဘ်ဆိုက်ကိုရိုက်ထည့်ပါ
+  favorites: အကြိုက်ဆုံးအရာများ
+  games: ဂိမ်းများ
+  history: ငွေလွှဲမှုမှတ်တမ်း
+  home: မူလစာမျက်နှာ
+  logout: logout
+  profile: ကိုယ်ရေးအကျဥ်း
+  promotions: ပရိုမိုးရှင််းများ
+  recentlyPlayed: လက်တလောကစားခဲ့သောဂိမ်း
+  seeProfile: ကိုယ်ရေးအကျဉ်းကိုကြည့်ပါ
+  settingScreen: ပြသမှု စက်တင်
+  settings: စက်တင်
+  support: အကူညီရယူပါ
+  wallet: ပိုက်ဆံအိတ်အကောင့်
+  withdraw: ငွေထုတ်မည်
+slip:
+  clipCheckSlip: ငွေလွှဲရာရောက်သောအခါဤနေရာတွင် "upload စလစ်" လုပ်ပါ။
+  contactAdmin: စလစ်ကို တင်. မရပါက admin ကိုဆက်သွယ်ပါ။
+  dragSlip: သင်၏ဖိုင်ကိုဤနေရာတွင်ဆွဲယူပါသို့မဟုတ်ပုံကိုနှိပ်ပါ။
+  error: စလစ်ဓာတ်ပုံမသုံးနိုင်ပါ
+  errorMin: သင်ငွေဖြည့်လိုသောငွေပမာဏသည်နိမ့်ဆုံးထက်နည်းသည်။
+  history: တင်ခြင်းပုံစံ၏သမိုင်း
+  plsSelectBank: ကျေးဇူးပြုပြီးဘဏ်ကိုရွေးပါ
+  slip: ရေကူးဘောင်းဘီ
+  slipComplete: ဖြည့်စွက်ပြီးစီးသွားသော sliping system သည်ထိပ်ဆုံးဖြစ်သည်။
+  slipOnly: ဖိုင်ချော်သာ
+  upload: ကျေးဇူးပြုပြီးတင်ပါ
+  uploadSlip: တင်ပါးစလစ်
+slipSystem: အပ်ငွေချေးခြင်းစလစ်ဖြတ်လော့
+specialCommission:
+  calculation: ကော်မရှင်တွက်ချက်မှု
+  desc1: သတ်မှတ်ထားသောစည်းမျဉ်းများအရ terminal ကိုလုပ်ပါ။ အခမဲ့ခရက်ဒစ်ကိုလက်ခံရရှိနိုင်ပါတယ်!
+  description: ဗီအိုင်ပီအဖွဲ့ဝင်များတွက် အထူးကော်မရှင်နှုန်း
+  dialogTitle: ကော်မရှင်တစ်ခုရယူပါ
+  eligibility: အခွင့်ထူးခံလိုအပ််ချက်များ
+  payment: ကော်မရှင်ပေးငွေများ
+  period: ကော်မရှင်ရသောအချိန်
+  rate: အထူးကော်မရှင်နှုန်း
+  selectType: ကျေးဇူးပြု၍ကော်မရှင်ချန်နယ်ကိုရွေးပါ။
+  terms: စည်းမျဥ်းစည်းကမ်းများ
+  title: အထူးကော်မရှင််
+  warnText: သင်ကော်မရှင်အားလုံးလက်ခံလိုပါသည်
+spicificAmountTransfer: rounded မပါဘဲပြထားတဲ့ပမာဏအရငွေလွှဲ။
+status:
+  approved: သဘောတူညီသည်
+  approvedDone: သဘောတူညီီသည်
+  disapproved: သဘောမတူပါ
+  noTopup: ငွေဖြည့်သွင်းမှုများမလုပ်ခဲ့ပါ
+  pending: စောင့်ဆိုင်းနေသည်
+  received: လက်ခံံရရှိသည်
+  receivedCom: ရယူခဲ့သည်
+teir:
+  birthdayReward: မွေးနေ့ဆုငွေ
+  congratulations: သင်အမြင့်ဆုံးအဆင့်မှာရောက်သွားပါပြီ။ဂုဏ်ယူပါတယ်!
+  detailsVip: ဗီအိုင်ပီအဆင့်အသေးစိတ်အချက်အားလုံး
+  earn: လက်ခံရရှိသည့်{ဆု}{အမျိုးစား}
+  levelsReset: စနစ်သည် အဆင့်အားလုံးကို မူလတိုင်းပြန်ထားမည်
+  myReward: ကျွန်ုပ််၏ဆုများ
+  privilege: အထူးအခွင့်ထူးခံအဆင့်
+  promotionRewards: ဗီအိုင်ပီ ပရိုမိုးရှင်းဆုများ
+  reward: ဆု
+  specialPrize: အထူးဆု
+  topUp: ငွေဖြည့်သည်
+  turnOver: ရငွေတွက််ချက်သည်
+  type: အမျိုးစား
+  unlocked: အဆင့်ကို ဖွင့်ပါ
+  upgradeReward: အဆင့်တိုးမြှင့်မှုဆု
+tier:
+  LatestTenItems: (နောက်ဆုံး ၁၀ ခု)
+  all: အားလုံး
+  benefits: တီယာရပိုင်ခွင့်များ
+  colse: ပိတ်သည်
+  condetion: အခြေအနေ
+  congratulationsHighestLevel: ဂုဏ်ယူပါတယ်! သင်သည်အမြင့်ဆုံးအဆင့်ရောက်သွားပါပြီ။
+  count: အရေအတွက်
+  credit: ခရက်ဒစ်
+  creditFree: အခမဲ့ခရက်ဒစ်
+  creditGame: ဂိမ်းခရက်ဒစ်
+  current: လက်ရှိတီယာ
+  deposit: ငွေဖြည့်သည်
+  description: ဗီအိုင်ပီအဖွဲ့ဝင််အဆင့်များနှင့်အကျိုးခံစားခွင့်များ
+  diamond: စိန်
+  forgame: ဂိမ်းများအတွက်
+  freeSpin: အခမဲ့လှည့်ခြင်း
+  freespin: အခမဲ့လှည့်ခြင်း
+  from: မှ
+  game: ဂိမ်း
+  get: ရရှိသည်
+  getFreeSpinsGameRewards: အခမဲ့လှည့်ခြင်းဂိမ်းဆုရယူလိုသည်
+  getPanner: စခန်းမှ
+  getReward: ဆုကြည့်မည်
+  getRewarded: ဆုရယူမည်
+  hasNowShowEven: လက်ရှိပွဲစဉ်အချိန်ကုန်ဆုံးသွားပြီ
+  history: မှတ်တမ်း
+  item: ပစ္စည်း
+  lastEvent: ပွဲစဉ်အချိန်ကုန်ဆုံးသွားပြီ
+  list: စာရင်း
+  litsReward: ဆုများစာရင်း
+  makeTurn: လှည့်မည်
+  marking: ရမှတ်
+  mustBeCompleted: နှစ်ခုစလုံးပြည့်စုံရမည်
+  myReward: ကျွန်ုပ်၏ဆုများ
+  next: နောက်တီယာ
+  notHistory: ဆုရယူမှုမှတ်တမ်းမတွေ့ပါ
+  notReward: ဆုများမရှိပါ
+  notRewardList: ဆုမှတ်တမ်းများမရှိပါ
+  nvalidPrizeType: မမှန်ကန်သောဆုအမျိုးအစား
+  oneThingMustBeDone: တစ်ခုအနည်းဆုံးလုပ်ရမည်
+  openBox: သေတ္တာဖွင့်ခွင့်
+  or: သို့မဟုတ်
+  provider: ကုမ္ပဏီ
+  reward: ဆု
+  rewardLeveUp: တီယာအဆင့်မြှင့်ဆု
+  rights: အခွင့်အရေး
+  tierResetDate: စနစ်သည်အဆင့်အားလုံးကို မူလတိုင်းပြန်ထားမည်
+  tierVipDetail: ဗီအိုင်ပီ အဆင့်အသေးစိတ်
+  time: အချိိန်
+  title: ဗီအိုင်ပီတီယာ
+  topUp: ထည့်ငွေပမာဏ
+  trunOver: ရငွေ
+  type: အမျိုးအစား
+  vipDetail: VIP အသေးစိတ်အချက်လက်
+  vipLevel: VIP အဆင့်
+  wantToReceivePrize: ဆုရယူလိုသည်
+  wheel: အခွင့်အရေးများ
+  wheelRights: ဘီးဖွင့်ခွင့်
+  youConditionsIsChoose: သင်သည်အခြေအနေတစ်ခုခုကိုရွေးချယ်နိုင်သည်
+  youConditionsIsChoose2: ထည့်ငွေပမာဏနှင့်ငွေလည်ပတ်မှုနှစ်ခုစလုံးကို ပြည့်စုံရမည်
+  onlyEligibleToReceive: လက်ခံနိုင်သူများအတွက်သာ
+  specialOnly: အထူးသီးသန့်
+  youNotEligibleToReceive: ဤပရိုမိုးရှင်းကိုလက်ခံနိုင်မည်မဟုတ်ပါ
+tips:
+  balance: ဂိမ်းငွေ
+  becauseMotivation: ' အားပေးမှုအားလုံးကြောင့် ကျွန်တော်တို့စနစ် ပိုကောင်းလာတာပါ။ အမြဲအားပေးတဲ့တွက်ကျေးဇူးတင်ပါသည်။'
+  depositTips: ငွေဖြည့်ရန်အကြံပြုအချက်များ
+  generalTips: ယေဘုယျအကြံပြုချက်များ
+  give: မုန့်ဖိုးပေးမည်
+  inputMoney: ငွေပမာဏကိုသတ်မှတ်ပါ သို့မဟုတ် ရွေးချယ်ပါ
+  minOneBaht: အနည်းဆုံး ၁ ဘတ်
+  promotionTips: ပရိုမိုးရှင်းအကြံပြုချက်များ
+  tellUs: ကျွန်တော်တို့ကိုပြောစရာရှိပါသလား။
+  text: ပန်ကြားစာ
+  tipsForLuv: အားပေးဖို့  စနစ်ကို ငွေပေးမည်
+  withdrawTips: ငွေထုတ်ရန်အကြံပြုချက်များ
+tmw:
+  addAccount: စစ်မှန်တဲ့ပိုက်ဆံအိတ်အကောင့်ထည့်ပါ
+  addAccountComplete: စစ်မှန်တဲ့ငွေစာရင်းစာရင်းတွေကိုအောင်မြင်စွာထည့်ပါ။
+  addAccountInfo: '* အကောင့်များကိုထည့်သွင်းရန်မတတ်နိုင်ပါက admin ကိုဆက်သွယ်ပါ။'
+  enerOtp: လက်ခံရရှိ 6 ဂဏန်းကုဒ်ရိုက်ထည့်ပါ။
+  enterTmwPhone: ဖုန်းနံပါတ်ကိုစစ်မှန်တဲ့ပိုက်ဆံအိတ်နဲ့ချည်ထားပါ။
+  settingAccount: စစ်မှန်တဲ့ငွေကြေးအကောင့်ကိုသတ်မှတ်ပါ။
+  topup: စစ်မှန်တဲ့ပိုက်ဆံပိုက်ဆံအိတ်မှတဆင့်ငွေဖြည့်
+treasureBox:
+  addRight: အခွင့်အရေးများ{အရေတွက်}ကိုရယူပါ။
+  eligibilityConditions: အခွင့်ထူးများအတွက်အခြေအနေများ
+  haveMinimumtopUp: ၁ရက်တာ အခွင့်လမ်းတစ်ခု ကိုရရန် {အနည်းဆုံး}baht သို့မဟုတ် ထိုထက်မကသော ငွေပမာဏကိုဖြည့်ပါ
+  justPlayActivity: ရတနာသေတ္တာကစားပါ။
+  minimumtopUp: '{အနိမ့်ဆုံး} ကိုငွေဖြည့်ပါ {အများဆုံးငွေ} ဘတ်ပမာဏထက်မကျော်ပါစေနှင့်။ အခွင့်လမ်းများ {အရေတွက်}ရယူပါ'
+  notAuthorized: သင့်မှာသေတ္တာကိုဖွင့်ခွင့်မရှိပါ
+  rightsOpen: သင်ထပ်မံဖွင့်ရန်အခွင့်အရေးရှိသည်။
+  tapBox: သေတ္တာဖွင့်ရန်နှိပ်ပါ
+  topUp: ငွေဖြည့်ပါ
+  topUpMinimumToMax: အနည်းဆုံး {အနည်းဆုံး} သို့ပေမဲ့ {အများဆုံး} ဘတ်ထက်မပိုပါနဲ့
+  treasureBox: ရတနာသေတ္တာကိုဖွင့်ပါ
+  tryMoneyRightOpen: သေတ္တာကိုဖွင့်ခွင့်ရရန် ငွေဖြည့်ပါ
+  winFreeCredit: ခရက်ဒစ်အလကားရယူပြီး အခြားဆုများရယူပါ
+treasureBoxTurn:
+  haveRightToOpen: သင့်တွင်သေတ္တာဖွင့်ခွင့်ရှိပါသည်
+  minimumTurnoverRequired: တစ််ရက်တာ အခွင့်ရေးတစ်ခုရရန် ရငွေ {အနည်းဆုံး} ပမာဏ သို့မဟုတ် ပိုရှိရမည်
+  receivedRewardToday: ဒီနေ့သင်ဆုတစ်ခုကိုလက်ခံရရှိပါပြီ
+  treasureBoxTurn: ရငွေရတနာသေတ္တာကိုဖွင့်ပါ
+  tryPlayGameRightOpen: သေတ္တာကိုဖွင့်ခွင့်ရရန်် ဂိမ်းများကစားပါ
+type:
+  arcade: အာကိတ်
+  bigwin: အနိုင်ပွဲကြီးရပြီ
+  canNotPlayGame: လက်တလောကစားခဲ့သောဂိမ်းမတွေ့ပါ
+  casino: ကာစီနို
+  casinoOnline: အွန်လိုင်းလောင်းကစားရုံ
+  casinohit: ကာစီီနိုအနိုင်ပွဲများ
+  challenge: စိန်ခေါ်မှု
+  chooseDisplayFormat: ပြသမည့်ပုံစံ ကိုရွေးချယ်ပါ။
+  cock: ကြက်တိုက်ခြင်း
+  crash: ခရက်ရှ်ဂိမ်း
+  crypto: ခရစ်တို
+  desktopVersion: desktop ဗားရှင်း
+  favoriteGame: အကြိုက်ဆုံးဂိမ်းများ
+  favorites: အကြိုက်ဆုံးများ
+  feature: အထူးဂိမ်းများ
+  findGame: ဂိမ်းရှာဖွေသည်
+  fishing: ငါးဖမ်းခြင်း
+  fishinghit: ငါးဖမ်းဂိမ်းနိုင်သည်
+  freespin: အခမဲ့လှည့်ပါ
+  gameCamp: ဂိမ်းကုမ္ပဏီ
+  hitGame: လူကြိုက်များသောဂိမ်း
+  hits: လူကြိုက်များသော
+  home: အဓိကစာမျက်နှာ
+  lastPlayed: လတ်တလောကစားခဲ့သည်
+  letPlay: စမ်းကစားကြည့်ပါ
+  loginFromAnother: အခြားနေရာများမှ login ဝင်မည်
+  lotto: ထီ
+  lottoOnline: အွန်လိုင်းထီ
+  mobileVersion: ဖုန်းဗားရှင်း
+  muay: မွေထိုင်း
+  new: အသစ်
+  newGame: ဂိမ်းအသစ်များ
+  noFavoriteGame: အနှစ်သက်ဆုံးဂိမ်းမရှိပါ
+  onlineSport: အွန်လိုင်းအားကစား
+  other: အခြား
+  pleaseLogin: ကျေးဇူးပြု၍ login လုပ်ပါ
+  provider: ဂိမ်း
+  providers: ဂိမ်းကစားခြင်း
+  pvp: ပီဗွီပီ
+  saveYourFavorite: သင်အကြိုက်ဆုံးဂိမ်းကိုအကြိုက်ဆုံးဂိမ်းများတွင်ထည့်ရန် ညာဘက်ထောင့်က အသည်းပုံကိုနှိပ်ပါ
+  slot: ဖဲ
+  slothit: စလော့အနိုင်ပွဲများ
+  sport: အားကစား
+  sportOnline: အွန်လိုင်းအားကစား
+  sporthit: အွန်လိုင်းအားကစားအနိုင်ရမှုများ
+  table: ဖဲ
+  tableGames: ဖဲ
+  tophit: ထိပ််တန်းအနိုင်ရသောကစားပွဲများ
+  topten: ထိပ်ဆုံးဆယ်ခု
+  upcoming: မကြာခင်လာမည်
+unit:
+  baht: ဘတ်
+  bronze: ကြေး
+  coin: ကွိုင်
+  credit: ခရက်ဒစ်
+  diamond: စိန်
+  dollar: ဒေါ်လာ
+  euro: ယူရို
+  gold: ရွှေ
+  persons: လူ
+  point: ရမှတ်
+  pound: ပေါင်
+  silver: ငွေ
+  token: တိုကင်
+  yen: ယန်း
+updatePhone:
+  conditionRecevice: ရယူနိုင်သောအခြေနေများ
+  condtionTopupMin: ဤပရိုမိုးရှင်းတွင်ပါဝင်ရန်အခွင့်အရေးမလက်ခံမီ အနည်းဆုံး {ပိုက်ဆံ} ဘတ်ငွေကိုငွေဖြည့်ရန်လိုအပ်သည်
+  condtionTopupNoPrommotionMin: ဤပရိုမိုးရှင်းတွင်ပါဝင်ရန် အနည်းဆုံး ပရိုမိုးရှင်း {ငွေ} မရခင် ငွေဖြည့်ရန်လိုအပ်သည်
+  condtionTopupPrommotionMin: ဤပရိုမိုးရှင်းတွင်ပါဝင်ရန် အခွင့်အရေးမရရှိမီအနည်းဆုံးပရိုမိုးရှင်း {ပိုက်ဆံ} ဘတ်ငွေ ဖြည့်ရန်လိုအပ်သည်
+  confirm: ဖုန်းနံပါတ်အသစ်ကိုအတည်ပြုပါ
+  current: လက်ရှိဖုန်းနံပါတ်
+  description: လက်ရှိဖုန်းနံံပါတ်အသစ်ထည့်ပါ
+  descritoionForPromotion: ဖုန်းနံပါတ်ကိုပြင်ဆင်ပြီး   ရလာသော otp  ဂဏန်းခြောက်လုံးကုဒ်ကို ဖြည့်ပါ။ ခရက်ဒစ်ကိုချက်ချင်းရယူပါ။ အောက်တွင် ခရက်ဒစ်အခြေနေများကိုကြည့်နိုင်သည်
+  exPhone: ယခုပုံစံ 089-999-9999
+  inPutOtp: otp ဂဏန်းခြောက်လုံးကုဒ် ကိုရိုက်ထည့်ပါ။
+  inputPhone: အခမဲ့ခရက်ဒစ်နံပါတ်ကိုရိုက်ထည့်ပါ။
+  makeTurnTwo: စလော့{ခရက်ဒစ်} {ခရက်ဒစ်} အညီမျှပြုလုပ်ပါ ပြီးလျှင် ကာစီနိုကိုလည်ပတ်ပါ
+  new: ဖုန်းနံပါတ်အသစ််
+  onePhoneOneRight: နံပါတ် ၁ သည် ၁ ကြိမ်သာအသုံးပြုနိုင်သည်
+  otp: အိုတီပီ အတည်ပြုခြင်း
+  receviceSuccess: '{ပိုက်ဆံ} {ခရက်ဒစ်အမျိုးစား}ရယူပါ'
+  sendAgine: နောက်တဖန်ပေးပို့ပါ
+  success: ဖုန်းနံပါတ် ပြင်မှုအောင်မြင်ပါသည်
+  title: ဖုန်းနံပါတ်ပြင်မည်
+  updatePhoneFree: အခမဲ့ခရက်ဒစ်နံပါတ်ကို ပြင်မည်
+  userAddReward: ကစားသမားများဆုအဖြစ်ရလိမ့်မည်
+useRegisterdBank: ဘဏ်မှတဆင့်ငွေလျှောက်ထားသောအကောင့်များကိုသုံးပါ။
+validate:
+  EMAIL: အီးမေးလ်ပုံစံမမှန်ကန်ပါ။
+  ISMATCH: စကားဝှက်မကိုက်ညီပါ
+  MAXLENGTH: အများဆုံး {အများဆုံး}ကိုရိုက်ထည့်ပါ။
+  MINLENGTH: အနည်းဆုံး {အနည်းဆုံး} ကိုရိုက်ထည့်ပါ။
+  NOTTEXT: မက်ဆေ့ခ်ျကိုမဖြည့်ပါနှင့်။
+  NOTTHAI: ထိုင်းအက္ခရာများကိုမဖြည့်ပါနှင့်။
+  NUMBER: နံပါတ်များသာဖြစ်ရမည်
+  PHONE: ဖုန်းနံပါတ်ပုံစံသည်မမှန်ကန်ပါ။
+  REQUIRED: ကျေးဇူးပြုပြီးဖြည့်ပါ
+  WHITESPACE: နေရာမပေးပါ
+  alpha: စာလုံးများသာရိုက်ထည့်ပါ
+  alphaNum: စာလုံံးများနှင့် နံပါတ်များသာထည့်ပါ
+  email: မှန်ကန်သောအီးမေးလ်ထည့်ပါ
+  max: '{အများဆုံး}အက္ခရာထက်မပိုရ'
+  min: '{အနည်းဆုံး}အက္ခရာပြည့်အောင်ထည့်ပါ'
+  numeric: နံပါတ်များသာထည့်ပါ
+  required: ဤအကွက်တွင်ဖြည့်ဖို့လိုအပ်သည်
+vipDetail: ဗီအိုင်ပီအသေးစိတ်အချက်များ
+warnPay:
+  cancel: မလုပ်တော့ပါ
+  confirm: ငွေပေးချေမှုအချက်လက်များမှန်ကန်သည်ဟုအတည်ပြုပါသည်
+  description: ငွေပေးချေမှုအသေးစိတ်အချက်လက်များမှန်မမှန်စစ်ဆေးပါ
+  text1: အစီရင်ခံတင်ပြသည့်အတိုင်းငွေလွှဲပါ
+  text10: သတ်မှတ်ထားသောအချိန်အတွင်းပြုလုပ်ပါ
+  text11: မှတ်ပုံတင်ထားသောအကောင့်များနှင့်တစ်ခါတည်းသာ
+  text12: အဆိုပါလွှဲပြောင်းမှုအားလုံးအတွက်ကျွန်တော်တို့တွင်တာဝန်မရှိပါ
+  text2: တစ်ကြိမ်သာလွှဲပြောင်းပါ
+  text3: ငွေလွှဲမှုနှစ်ခါထပ်ဖြစ်နေသည် သို့မဟုတ် မှတ်တမ်းမတင်ထားသောအကောင့်ကိုအသုံးပြုပါ
+  text4: ကျွန်တော်တို့တွင် ထိုကိစ္စများတွက်တာဝန်မရှိပါ
+  text5: ငွေဖြည့်ရန်တောင်းဆိုပြီးနောက်
+  text6: သင် ၆ မိနစ်အချိန်ရသည်
+  text7: သတိပေးသော ပမာဏအတိုင်း ငွေလွှဲ တစ်ခါသာပြုလုပ်ပါ။ထပ်ခါထပ်ခါ မလွှဲပါနှင့်
+  text8: သတိပေးသော ပမာဏအတိုင်း ငွေလွှဲ တစ်ခါသာပြုလုပ်ပါ။ထပ်ခါထပ်ခါ မလွှဲပါနှင့်
+  text9: ကျေးဇူးပြုပြီး
+  title: ငွေပေးချေမှုသတိပေးချက်
+withdraw:
+  alertErrorCode426: ငွေထုတ်စနစ်ယာယီပိတ်ထားသည်။ အနည်းငယ်စောင့်ပြီးမှထပ်ကြိုးစားကြည့်ပါ။
+  alertErrorCode428: သင်၏ခရက်ဒစ်သည် အနည်းဆုံးငွေထုတ်နိုင်သည့်ပမာဏထက်နည်းနေသည်
+  alertErrorCode429: ယခုငွေကိုထုတ်ယူနိုင်ခြင်းမရှိပါ။ ကျေးဇူးပြု. ၁ - ၂ မိနစ်ခန့်စောင့်ပါ။
+  alertErrorCode430: သင်ယခုငွေထုတ်ရန်တောင်းဆိုမှုကို ဆိုင်းငံ့ထားသည့်အတွက် ငွေထုတ်၍မရပါ
+  alertErrorCode432: အနည်းဆုံးထုတ်ရမည့်ပမာဏ{အရေတွက်}
+  alertErrorCode445: ငွေထုတ်ယူနိုင်ခြင်းမရှိပါ အလောင်းအစားများစောင့်ဆိုင်းနေသေးသည်
+  amountYesNo: '{ငွေကြေး}ပမာဏ, မှန်ကန်ပါသလား'
+  deductBonus: အပိုငွေနုတ်သည်
+  disapprovedCreditReturned: ခွင့်မပြုပါ(ပြန်အမ်းသောခရက်ဒစ်)
+  disapprovedDeductingCredit: ခွင့်မပြုပါ (ခရက်ဒစ်လျှော့သည်)
+  disapprovedIllegalPlay: ခွင့်မပြုပါ (တရားမဝင်ကစားခြင်း)
+  fundsTransferredBack: ငွေပြန်အမ်းသည် (တရားမဝင်ကစားခြင်း)
+  lastestTransaction: နောက်ဆုံးငွေလွှဲမှုများ
+  minimumWithdrawal: အနည်းဆုံးငွေထုတ်နိုင်သောပမာဏ
+  pending: စောင့်ဆိုင်းနေသည်
+  succeed: အောင်မြင်သည်
+  trueDialog1: သင့်ငွေကိုထရူးပိုက်ဆံအိတ်သို့ထုတ်ယူလိုပါသလား။
+  trueDialog2: ထရူပိုက်ဆံအိတ်သို့ငွေထုတ်ယူခြင်း။ သင့်ဖုန်းနံပါတ်သည် မှတ်ပုံတင်ထားသောနံပါတ်နှင့် ကိုက်ညီရမည်
+  trueDialog3: အကယ်၍ သင့်နံပါတ်သည်မှတ်ပုံတင်ထားသောနံပါတ်နှင့်မကိုက်ညီပါက admin ကိုဆက်သွယ်ပါ
+  trueDialog4: သင့်ဖုန်းနံပါတ်ကိုပြင်ရန်
+  trueDialog5: ၁၀၀ သို့မဟုတ် ၀ နှင့်ဆုံးသော ပမာဏများကိုသာ စနစ်က ထုတ်ပေးပါမည်
+  wantWithdraw: ပိုက်ဆံထုတ်သည်
+  withdraw: ပိုက်ဆံထုတ်သည်
+  withdrawWith: '{type} မှတဆင့်ပိုက်ဆံထုတ်ယူ'
+  withdrawableAmount: ထုတ်ယူသောငွေပမာဏ
+  withdrawalHistory: ငွေထုတ်မှုမှတ်တမ်း
+withdrawHistory: ဆုတ်ခွာ၏သမိုင်း
+အကြွေးလက်ခံရရှိခဲ့သည်: ရရှိခဲ့သောခရက်ဒစ်
+cashback4step:
+  title: ငွေပြန်အမ်း ၄ အဆင့်
+  getMoney: ငွေထုတ်ယူပါ
+  wallet: ပိုက်ဆံအိတ်
+  creditFree: အခမဲ့ခရက်ဒစ်ပိုက်ဆံအိတ်
+  subtitleDetailRewad: သင်တောင်းဆိုသောအခါ ငွေသည်သင့်ပိုက်ဆံအိတ်ထဲသို့ထည့်ပေးမည်ဖြစ်ပြီး ချက်ချင်းအသုံးပြုနိုင်ပါသည်။
+  detailModalRewad: သင်တောင်းဆိုသောအခါ ငွေသည်သင့်အခမဲ့ခရက်ဒစ်ပိုက်ဆံအိတ်ထဲသို့ထည့်ပေးမည်ဖြစ်သည်။ အခမဲ့ခရက်ဒစ်ကိုလွှဲပြီးနောက် အသုံးပြုနိုင်ပါသည်။
+  waysReward: ဆုကြေးငွေ ရယူနိုင်သောနည်းလမ်းများ
+  selectReward: ဆုကြေးငွေ ရယူရန်နည်းလမ်းကိုရွေးချယ်ပါ
+oneDepost:
+  oneBankCardDetail1: စနစ်သည် တစ်ကြိမ်စီ အကောင့်တစ်ခုကို အလိုအလျောက် ရွေးပေးပါသည်
+  oneBankCardDetail2: အကောင့်နံပါတ်ကို လုံးဝ သိမ်းဆည်း၍ မရပါ
+  oneBankCardDetail3: မဟုတ်လျှင် စနစ်က အလိုအလျောက် ဖြည့်မပေးပါ
+ui:
+  homePage: ပင်မ
+  activity: လှုပ်ရှားမှု
+  promotion: ပရိုမိုးရှင်း
+  profile: ပရိုဖိုင်
+  refresh: ပြန်လည်စတင်ပါ
+  contactAdmin: အက်မင်နှင့်ဆက်သွယ်ပါ
+  topUp: ငွေဖြည့်ပါ
+  receiveCredit: ခရက်ဒစ်လက်ခံပါ
+  searchGameHere: ဂိမ်းများကို ဤနေရာတွင် ရှာဖွေပါ
+  enterWalletAddress: ပိုက်ဆံအိတ်လိပ်စာထည့်ပါ
+  selectCryptoCurrency: ကူးပြောင်းနိုင်သောငွေကြေးရွေးချယ်ပါ
+  selectNetwork: ကွန်ယက်ရွေးချယ်ပါ
+  firstName: နာမည်
+  lastName: မိသားစုနာမည်
+  bankAccountNumber: ဘဏ်အကောင့်နံပါတ်
+  selectThisPromotion: ဤပရိုမိုးရှင်းကိုရွေးချယ်ပါ
+  noPromotionFound: ပရိုမိုးရှင်းမတွေ့ပါ
+  luckyWheelTurnOver: ကံကောင်းသောဘီးလှည့်ပါ
+  openBox: သေတ္တာဖွင့်ပါ
+  openBoxTurnOver: သေတ္တာဖွင့်ပြီး လှည့်ပါ
+  noBankFound: ဘဏ်မတွေ့ပါ
+  contactAdminForHelp: အကူအညီအတွက် အက်မင်နှင့်ဆက်သွယ်ပါ
+  creditReceived: ခရက်ဒစ်လက်ခံပြီးပါပြီ
+  creditHistory: ခရက်ဒစ်မှတ်တမ်း
+  login: ဝင်ရောက်ပါ
+  suggest: အကြံပြုချက်
+autopeer:
+  detail: Autopeer စနစ်မှတဆင့် ငွေသွင်းရန်
+  noti: အရေးကြီးသောအချက်အလက် ကျေးဇူးပြု၍ ဖတ်ပါ
+  pleaseTransferWithin: ကျေးဇူးပြု၍ ငွေလွှဲပြီး စလစ်ကို ၅ မိနစ်အတွင်း အပ်လုဒ်လုပ်ပါ
+  ifNotUpload: သတ်မှတ်ထားသောအချိန်အတွင်း အပ်လုဒ်မလုပ်ပါက
+  mustReport: သင်သည် မှားယွင်းသောငွေလွှဲမှုကို သတင်းပို့ရမည်
+  contactBank: နှင့် ငွေပြန်အမ်းရန် ဘဏ်သို့ကိုယ်တိုင်ဆက်သွယ်ပါ
+  howToDeposit: ငွေသွင်းနည်း
+  step1: ပမာဏသတ်မှတ်ပါ သို့မဟုတ် အမြန်သွင်း လိုသလို ပြီးလျှင် "သွင်း" ကိုနှိပ်ပါ
+  step1_specifyAmount: ပမာဏသတ်မှတ်ပါ
+  step1_or: သို့မဟုတ်
+  step1_quickDeposit: အမြန်သွင်း
+  step1_asDesired: လိုသလို
+  step1_andPress: နှင့် နှိပ်ပါ
+  step1_deposit: သွင်း
+  step2: အကောင့်ကိုကူးယူပြီး ပြသထားသည့်အတိုင်း ငွေလွှဲပါ။ စလစ်ပူးတွဲပြီးလျှင် "အတည်ပြု" ကိုနှိပ်ပါ
+  step2_copyAccount: အကောင့်ကိုကူးယူပြီး ငွေလွှဲပါ
+  step2_asShown: ပြသထားသည့်အတိုင်း
+  step2_afterAttach: စလစ်ပူးတွဲပြီးလျှင်
+  step2_pressConfirm: 'အတည်ပြု'
+  step3: အချိန်အတွင်း ငွေစာရင်းသွင်းပြီးလျှင် ငွေအလိုအလျောက်ဝင်ရောက်မည်
+  importantQuestion: အလွန်အရေးကြီးပါသည်! ကျေးဇူးပြု၍ မေးခွန်းများကိုဖြေပါ
+  question1: သင်သည် ငွေလွှဲပြီး စလစ်ပူးတွဲရန် မိနစ်ဘယ်နှစ်မိနစ်ရှိပါသလဲ
+  question2: ၅၀၀ သွင်းရန်ဖန်တီးပါက သင်ဘယ်လောက်လွှဲရမည်နည်း
+  question3: မှတ်ပုံတင်ထားသော အကောင့်ကိုသာ အသုံးပြုရပါမည် မှန်ပါသလား
+  minutes5: ၅ မိနစ်
+  minutes10: ၁၀ မိနစ်
+  baht550: ၅၅၀ ဘတ်
+  baht500: ၅၀၀ ဘတ်
+  yes: ဟုတ်ကဲ့
+  no: မဟုတ်ပါ
+  cancel: ပယ်ဖျက်ရန်
+  confirm: အတည်ပြုရန်
+  understand: နားလည်ပါပြီ
+  sorry: တောင်းပန်ပါသည်၊ သင်သည် အရောင်းအဝယ်အသစ်မလုပ်နိုင်ပါ
+  pendingTransaction: စောင့်ဆိုင်းနေသော အရောင်းအဝယ်ရှိသောကြောင့် ကျေးဇူးပြု၍ ပြီးအောင် သို့မဟုတ် ပိုင်းခြားပြီးမှ လုပ်ပါ
+  acknowledge: အသိအမှတ်ပြုရန်
+  title: Autopeer
+  amountToTransfer: လွှဲရမည့်ပမာဏ
+  useRegisteredAccount: မှတ်ပုံတင်ထားသော အကောင့်ကိုသာ အသုံးပြုပါ
+  timeRemaining: ကျန်ရှိသောအချိန်
+  depositMore: နောက်ထပ်သွင်းရန်
+  endDeposit: ငွေသွင်းခြင်းအဆုံးသတ်ရန်
+  endDepositNote: ငွေသွင်းခြင်းအဆုံးသတ်သောအခါ လွှဲပြီးသားပမာဏသာ ဝင်ရောက်မည်
+  scbBank: ဆီယမ်ကူးသန်းရောင်းဝယ်ရေးဘဏ် အများပိုင်ကုမ္ပဏီ
+  ref: Ref
+  depositNotFound: ငွေသွင်းရန်စာရင်းမတွေ့ပါ
+  cancelSuccess: ငွေသွင်းခြင်းကို အောင်မြင်စွာပယ်ဖျက်ပြီးပါပြီ
+  cancelError: အရောင်းအဝယ်ပယ်ဖျက်ရာတွင် အမှားအယွင်းရှိပါသည်
+  pleaseUploadSlip: ကျေးဇူးပြု၍ ငွေလွှဲစလစ်ကို အပ်လုဒ်လုပ်ပါ
+  refNotFound: Ref မတွေ့ပါ၊ ကျေးဇူးပြု၍ ထပ်စမ်းကြည့်ပါ
+  uploadSuccess: စလစ်ကို အောင်မြင်စွာအပ်လုဒ်လုပ်ပြီးပါပြီ၊ ကျေးဇူးပြု၍ စောင့်ပါ
+  uploadError: စလစ်အပ်လုဒ်လုပ်ရာတွင် အမှားအယွင်းရှိပါသည်
+  endDepositSuccess: ငွေသွင်းခြင်းကို အောင်မြင်စွာအဆုံးသတ်ပြီးပါပြီ
+  minimumDeposit: အနည်းဆုံးသွင်းငွေ {amount} ဘတ်
+  pleaseSelectMethod: ကျေးဇူးပြု၍ အောက်တွင် ငွေသွင်းနည်းလမ်းကို ရွေးချယ်ပါ
+  specifyDepositAmount: ငွေသွင်းပမာဏသတ်မှတ်ရန်
+  specifyDepositNote: သင်သွင်းလိုသော ပမာဏကို သတ်မှတ်ပါ။ လွှဲပြီးနောက် ၂-၃ မိနစ်ကြာမည်
+  specifyAmount: ပမာဏသတ်မှတ်ရန်
+  specifyDepositPlaceholder: ငွေသွင်းပမာဏသတ်မှတ်ပါ
+  deposit: ငွေသွင်းရန်
+  quickDepositRecommended: အမြန်သွင်း (အကြံပြုထားသောပမာဏ)
+  quickDepositNote: အောက်တွင်ပြသထားသောပမာဏကို ရွေးပါ၊ ငွေသည် ၁ မိနစ်အတွင်း ဝင်ရောက်မည်
+  amount: ပမာဏ
+  cancelTransaction: ကျွန်ုပ်သည် ဤအရောင်းအဝယ်ကို ပယ်ဖျက်လိုပါသည်
+  confirmCancelTransaction: ဤအရောင်းအဝယ်ကို ပယ်ဖျက်လိုပါသလား
+  waitFirst: စောင့်ပါ
+  loadDepositListError: ငွေသွင်းစာရင်းကို မတင်နိုင်ပါ
+  cancelledSuccessfully: အောင်မြင်စွာပယ်ဖျက်ပြီးပါပြီ
+  minimumDepositRequired: ကျေးဇူးပြု၍ အနည်းဆုံးပမာဏ {amount} ဘတ် သတ်မှတ်ပါ
+  createDepositSuccess: ငွေသွင်းရန်ကို အောင်မြင်စွာဖန်တီးပြီးပါပြီ
+  requireEnglishName: ဆောင်ရွက်၍မရပါ။ ကျေးဇူးပြု၍ အင်္ဂလိပ်အမည်ကို အသုံးပြုပါ။ ကျေးဇူးပြု၍ ပြင်ဆင်ရန် အက်မင်နှင့်ဆက်သွယ်ပါ
+  createDepositError: ငွေသွင်းရန်ဖန်တီးရာတွင် အမှားအယွင်းရှိပါသည်
+  transactionTimeout: အရောင်းအဝယ်အချိန်ကုန်သွားပါပြီ၊ ကျေးဇူးပြု၍ ထပ်စမ်းကြည့်ပါ

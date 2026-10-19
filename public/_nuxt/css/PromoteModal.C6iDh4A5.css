@@ -1,0 +1,1 @@
+:root{--font-size-base: 14px;--line-height-base: 1.625rem;--border-radius: 10px;--success: #4ac300;--RGB_success: 74,195,0;--warning: #ff7a00;--RGB_warning: 255,122,0;--danger: #d72f3c;--RGB_danger: 215,47,60}.dialog .vfm__content{background:var(--card-primary);border:0 solid;min-height:100px;padding:16px;width:100%}

@@ -1,0 +1,68 @@
+/**
+ * PHANTOM color polish — คง layout/โครง Nuxt เดิม ปรับเฉพาะ token สีตาม design.md
+ * โหลดหลัง entry.css ของ Nuxt
+ */
+html[data-theme="gold-dark"],
+html.light[data-theme="gold-dark"] {
+  /* Metallic gold (แทน #ffdb25 ที่สว่างเกิน) */
+  --Main-Primary-Light: #f7e9b0;
+  --RGB_Main-Primary-Light: 247, 233, 176;
+  --Main-Primary: #e6c260;
+  --RGB_Main-Primary: 230, 194, 96;
+  --Main-Primary-Dark: #b67d25;
+  --RGB_Main-Primary-Dark: 182, 125, 37;
+  --Main-Primary-Dark-20: rgba(182, 125, 37, 0.2);
+  --Main-Secondary: #2a2412;
+  --RGB_Main-Secondary: 42, 36, 18;
+  --Main-Secondary-10: rgba(230, 194, 96, 0.1);
+  --Main-Secondary-20: rgba(230, 194, 96, 0.2);
+
+  --Text-Icon-Highlight: #e6c260;
+  --RGB_Text-Icon-Highlight: 230, 194, 96;
+  --Text-Icon-Title: #f7f7f4;
+  --RGB_Text-Icon-Title: 247, 247, 244;
+  --Text-Icon-Body: #c6c8ca;
+  --RGB_Text-Icon-Body: 198, 200, 202;
+
+  /* Graphite surfaces */
+  --BG-Surface-plane: #08090a;
+  --RGB_BG-Surface-plane: 8, 9, 10;
+  --BG-Surface-Darker: #0d0f10;
+  --RGB_BG-Surface-Darker: 13, 15, 16;
+  --BG-Surface-Lighter: #202326;
+  --RGB_BG-Surface-Lighter: 32, 35, 38;
+  --BG-Surface-Sidebar: #121416;
+  --RGB_BG-Surface-Sidebar: 18, 20, 22;
+  --body-sidebar: #121416;
+  --RGB_body-sidebar: 18, 20, 22;
+
+  --Card-Lighter: #181b1d;
+  --RGB_Card-Lighter: 24, 27, 29;
+  --Card-Normal: #121416;
+  --RGB_Card-Normal: 18, 20, 22;
+  --Card-Darker: #08090a;
+  --RGB_Card-Darker: 8, 9, 10;
+
+  --body: #08090a;
+  --RGB_body: 8, 9, 10;
+
+  --primary: #e6c260;
+  --RGB_primary: 230, 194, 96;
+  --primary2: #b67d25;
+  --RGB_primary2: 182, 125, 37;
+
+  --text-primary: #f7f7f4;
+  --RGB_text-primary: 247, 247, 244;
+  --text-secondary: #c6c8ca;
+  --RGB_text-secondary: 198, 200, 202;
+  --text-link: #e6c260;
+  --RGB_text-link: 230, 194, 96;
+  --text-hightlight: #e6c260;
+  --RGB_text-hightlight: 230, 194, 96;
+
+  --btn-primary: #e6c260;
+  --btn-primary-border: #b7832f;
+  --input-bg: #121416;
+  --RGB_input-bg: 18, 20, 22;
+  --input-border: rgba(214, 217, 220, 0.28);
+}

@@ -1,0 +1,1689 @@
+account-true-wallet: True Wallet Account
+add-crypto: ''
+affilate:
+  affiliateInCome: ລາຍໄດ້ທັງຫມົດ {ລາຍໄດ້} {ເງິນຕາ}
+  affiliateNewFriend: ເພື່ອນໃຫມ່
+  affiliatePeople: ຈໍານວນ {num} ປະຊາຊົນ
+  anotherTurn: ໄດ້ຮັບການ turns ອື່ນໆ
+  canIncomForFriend: ສາມາດໄດ້ຮັບລາຍໄດ້ຈາກຫມູ່
+  casinoLossPercentage: ເປີເຊັນຂອງຄາສິໂນ
+  casinoPayback: ໄດ້ຮັບຄາສິໂນທີ່ສູນເສຍໄປ
+  casinoProfit: ຈໍານວນຂອງຄາສິໂນ
+  casinoTurn: ໄດ້ຮັບການປ່ຽນແປງຄາສິໂນ
+  casinoWin: ໄດ້ຮັບຄວາມສົມດຸນຂອງຄາສິໂນ
+  classmate: ມະນຸດ
+  currentLevel: ລະດັບປະຈຸບັນ
+  currentRevenue: ລາຍໄດ້ປະຈຸບັນ
+  details: ລາຍລະອຽດ
+  earnMore: ເອົາຍອດເງິນອື່ນ
+  earnedIncome: ລາຍໄດ້ທີ່ໄດ້ຮັບ
+  eventAffiliate: ເຊີນຊວນຫມູ່ໃຫ້ໄດ້ຮັບຄະນະກໍາມະການເປັນພີ່ນ້ອງກັນ
+  friendsWhoPay: ຫມູ່ເພື່ອນຜູ້ທີ່ top up
+  getPoint: ໄດ້ຮັບຈຸດ
+  highestPercentage: ທ່ານໄດ້ຮັບເປີເຊັນສູງສຸດ.
+  howToEarnCommissions: ວິທີການໄດ້ຮັບລາຍໄດ້ຈາກຄະນະກໍາມະການ
+  ifInviteFriendIncomMore: ຖ້າເພື່ອນຂອງທ່ານເຊີນເພື່ອນໆ ທ່ານຈະໄດ້ຮັບລາຍໄດ້ເພີ່ມເຕີມ.
+  income: ລາຍ​ໄດ້
+  incomeCondition: ລາຍໄດ້ແມ່ນຂື້ນກັບເງື່ອນໄຂທີ່ລະບຸ.
+  inviteFriendMore: ເຊີນເພື່ອນໃຫ້ຫມູ່ເພື່ອນເພີ່ມເຕີມ {ປະຊາຊົນ} ປະຊາຊົນມີລະດັບຂຶ້ນ
+  inviteFriendsEarn: ເຊີນເພື່ອນມາຮັບເອົາລາຍໄດ້
+  maxLevel: ສູງເຖິງ 100 ລໍາດັບ hierarchy
+  moreIncome: ລາຍໄດ້ເພີ່ມເຕີມ
+  moreYouInviteFriends: ຫຼາຍທ່ານເຊີນເພື່ອນ
+  noInBox: ຢ່າສະແດງຂ່າວສານນີ້ອີກ
+  notAffiliateLink: ບໍ່ມີການເຊື່ອມຕໍ່ທີ່ຈະແບ່ງປັນລາຍໄດ້
+  notHave: ບໍ່​ມີ
+  number: ຈໍານວນ
+  numberFriends: ຈໍານວນ
+  otherLossPercentage: ເປີເຊັນອື່ນໆ
+  otherLosses: ຍອດເງິນອື່ນໆ
+  othersPayback: ໄດ້ຮັບຍອດເງິນອື່ນ
+  people: ບຸກຄົນ
+  percentageEarned: ອັດຕາສ່ວນທີ່ໄດ້ຮັບ
+  percentageWinCasino: ເປີເຊັນຂອງຄາສິໂນ
+  percentageWinOther: ເປີເຊັນອື່ນໆ
+  percentageWinSlots: ອັດຕາສ່ວນຮ້ອຍຂອງສະລັອດຕິງ
+  pressToGetPoints: ກົດເພື່ອຮັບຈຸດ
+  receivedHistory: ປະຫວັດການກົດດັນ
+  receivedHistoryIncom: ປະຫວັດສາດຂອງລາຍໄດ້
+  receivedHistoryPoint: ກົດດັນປະຫວັດສາດ
+  receivedIncome: ກົດເພື່ອຮັບເອົາລາຍໄດ້
+  reciveLossFreind: ໄດ້ຮັບຊັ້ນສູງຂອງເພື່ອນ
+  redeemForCredit: ແລກປ່ຽນສໍາລັບການປ່ອຍສິນເຊື່ອ
+  seeMoreDetails: ເບິ່ງລາຍລະອຽດເພີ່ມເຕີມ
+  selectHierarchy: ເລືອກສະຖານະພາບ hierarchy
+  shareEarn: ແບ່ງປັນເງິນ
+  shareLinkInviteFriend: ແບ່ງປັນການເຊື່ອມຕໍ່ເພື່ອເຊີນເພື່ອນມາຫຼີ້ນ. ໄດ້ຮັບລາຍໄດ້ຈາກດ້ານເທິງ ແລະການສູນເສຍຫມູ່ເພື່ອນ
+  shareLinkMakeMoney: ຫາເງິນໄດ້ງ່າຍດ້ວຍການເປັນພີ່ນ້ອງກັນ. ພຽງແຕ່ແບ່ງປັນການເຊື່ອມຕໍ່, ເຊີນເພື່ອນມາໃຊ້!
+  slotLossPercentage: ອັດຕາສ່ວນຂອງການສູນເສຍສະລັອດຕິງ
+  slotProfit: ການສູນເສຍທີ່ສູນເສຍໄປທາງເທີງ.
+  slotTurn: ສະລັອດຕິງທີ່ໄດ້ຮັບ
+  slotWin: ໄດ້ຮັບໂມ້
+  slotsPayback: ໄດ້ຮັບການສູນເສຍສະລັອດຕິງ
+  todayDeposit: ເງິນຝາກມື້ນີ້
+  todayInformation: ຂໍ້ມູນຂອງມື້ນີ້
+  totalIncome: ລາຍໄດ້ທັງຫມົດ {ເງິນ} baht
+  totalLoss: ທັງຫມົດ tops
+  transactionHistory: ກົດດັນປະຫວັດສາດແລະລາຍໄດ້
+  up: ຂຶ້ນ
+  user: ຜູ້ໃຊ້
+  yesterdayInformation: ຂໍ້ມູນໃນມື້ວານນີ້
+  youEarningsFreeCredit: ທ່ານຕ້ອງແລກປ່ຽນລາຍໄດ້ໂດຍບໍ່ເສຍຄ່າ.
+  getEnterLink: ກົດເພື່ອຄັດລອກລິ້ງເຊີນເພື່ອນ
+affiliate:
+  PlayCasino: Casino play
+  PlayLotto: Lottery play
+  PlayOther: Other play
+  PlaySlot: Slot play
+  PlaySport: Sports play
+  calCommissions: ໃນໄລຍະເວລາສະຫຼຸບ
+  calLv: ຄິດໄລ່
+  canReceviveHaveReward: ສາມາດໄດ້ຮັບລາງວັນ ໃນເວລາທີ່ມີລາງວັນສະສົມເພີ່ມເຕີມ
+  canReceviveHaveReward11: ສະລັອດຕິງ
+  canReceviveHaveReward12: x {ການປ່ອຍສິນເຊື່ອ}
+  canReceviveHaveReward13: ແລະເຮັດໃຫ້ຄາສິໂນຫັນ
+  canReceviveHaveReward14: x {ຄາສິໂນ}
+  canReceviveHaveReward2: ເຮັດການຖອນເງິນສູງສຸດ
+  canSeeTableOnBottom: ສາມາດເບິ່ງເປີເຊັນທີ່ໄດ້ຮັບ ຢູ່ໂຕະຂ້າງລຸ່ມ
+  cardAffilateFriend: ເພື່ອນ {ຕ່ໍາສຸດ} / {ສູງສຸດ} ປະຊາຊົນ
+  cardAffilateLossFriend: ເອົາຫມູ່ {ເປີເຊັນ}%
+  cardAffilateTitile: ພິເສດ! ເຊີນເພື່ອນມາຫຼີ້ນໃນລະດັບ, ເປີເຊັນຫຼາຍຂື້ນໄດ້ຮັບຫຼາຍ!
+  casinoLossPercentage: Casino loss
+  classmate: ຫມູ່ເພື່ອນ {ປະຊາຊົນ}
+  classmateNo: ມະນຸດ
+  comissionType: ໄດ້ຮັບລາຍໄດ້ຈາກດ້ານເທິງຂອງການຫຼີ້ນແລະການສູນເສຍຫມູ່ເພື່ອນ.
+  continueOne: ສືບຕໍ່ 1.
+  continueTree: ສືບຕໍ່ 3.
+  continueTreeMax: ໄດ້ຮັບລາຍໄດ້ສູງສຸດ 3 ຕໍ່!
+  continueTwo: ສືບຕໍ່ 2.
+  continueTwoMax: ໄດ້ຮັບລາຍໄດ້ສູງສຸດ 2 ຕໍ່!
+  customPlayer: ດ້ານເທິງຫຼືການຫຼີ້ນຂອງຫມູ່ເພື່ອນອີງຕາມປະເພດເກມ
+  desNumOne: ສົ່ງລິ້ງໃຫ້ຫມູ່ເພື່ອນເພື່ອສະຫມັກແລະການຫຼີ້ນເກມຫຼີ້ນຫຼີ້ນ.
+  descAffilate1: ເບິ່ງເປີເຊັນທີ່ໄດ້ຮັບເວລາ.
+  descAffilate2: ເບິ່ງເປີເຊັນທີ່ໄດ້ຮັບຈາກແຕ່ລະລໍາດັບທີ່
+  descAffilate3: ກົດເພື່ອເບິ່ງລາຍລະອຽດທັງຫມົດ.
+  desfriendsWhoTopUp: ຫມູ່ເພື່ອນຜູ້ທີ່ top up
+  detailAll: ເບິ່ງທັງຫມົດ
+  earnIncomeFrom: ໄດ້ຮັບລາຍໄດ້ຈາກ
+  firstTopup: ການເພີ່ມຫມູ່ທໍາອິດ
+  friendInLoss: ການສູນເສຍຂອງເພື່ອນ
+  friendInProfit: ການສູນເສຍຂອງເພື່ອນ
+  friendInTurnover: ມູນຄ່າຂອງເພື່ອນ
+  friendPlay: ເພື່ອນສາມາດຫຼີ້ນພວກເຮົາໄດ້!
+  friendRegister: ໃບສະຫມັກຂອງເພື່ອນ
+  friendTurnover: ມູນຄ່າຂອງເພື່ອນ
+  friendsNumber: ເພື່ອນ
+  friendsTopUp: ຈໍານວນເພື່ອນທີ່ຂຶ້ນໄປ
+  getNow: ຍອມຮັບທັນທີ
+  incomNumOne: ສືບຕໍ່ລາຍໄດ້ 1
+  incomNumTree: ລາຍໄດ້ທີ 3
+  incomNumTwo: ລາຍໄດ້ທີ 2
+  incomTurn: ໄດ້ຮັບລາຍໄດ້ຈາກການຫຼີ້ນຂອງຫມູ່ເພື່ອນ.
+  incomWinLoss: ໄດ້ຮັບລາຍໄດ້ຈາກຊັ້ນເທິງຂອງເພື່ອນ
+  inviteFriendsApply: ເຊີນເພື່ອນມາສະຫມັກ
+  inviteFriendsStepsOne: ສໍາເນົາລິ້ງໃຫ້ຫມູ່.
+  level: ລໍາດັບຊັ້ນ
+  lineActive: ຫມູ່ເພື່ອນຜູ້ທີ່ top up {ການເຄື່ອນໄຫວ} ປະຊາຊົນເປັນຕົ້ນໄປ
+  lineLoss: ການສູນເສຍ {ການສູນເສຍ} baht overwards
+  lineTurnOver: Minimum turn
+  loss: ເສຽໄປ
+  lossLv: Lose
+  lottoLossPercentage: Lottery amount
+  noiceLevel: ໃນເວລາທີ່ລະດັບແມ່ນເນື່ອງມາຈາກ ທ່ານຈະໄດ້ຮັບເປີເຊັນເພີ່ມເຕີມໃນວົງເລັບ. ອັດຕາສ່ວນຮ້ອຍໃນຕາຕະລາງຈະເປັນເປີເຊັນທີ່ປະສົມປະສານກັບອັດຕາສ່ວນພິເສດໃນວົງເລັບ.
+  noteOther: ສິນເຊື່ອທີ່ຫມູ່ເພື່ອນໄດ້ຮັບຈາກກິດຈະກໍາຕ່າງໆຈະບໍ່ຖືກຄິດໄລ່ດ້ວຍໃບຮັບເງິນລາຍຮັບ. (ນັບຈາກດ້ານເທິງ -up ເທົ່ານັ້ນ)
+  notiAffiliateTypeCheckIncom: ສາມາດກົດຈາກ 1 ບາດຫຼືຫຼາຍກວ່ານັ້ນ
+  numLevel: ລະດັບ
+  onwards: ເປັນຕາໄປບາດ
+  otherLossPercentage: Other amount
+  percentageWinCasino: Casino
+  percentageWinLotto: Lottery amount
+  percentageWinOther: Other balances
+  percentageWinSlots: The top of the slot
+  percentageWinSport: Sports
+  persent: ເປີເຊັນ
+  persentLv: Current level
+  shareLossFriend: ໄດ້ຮັບລາຍໄດ້ຈາກຊັ້ນເທິງຂອງເພື່ອນ
+  slotLossPercentage: Slot loss
+  sportLossPercentage: Sports
+  stepIncom: ຂັ້ນຕອນການຮັບເອົາລາຍໄດ້
+  tablePercentage: ຕາຕະລາງທຸກໆສະພາບອາກາດ
+  totalLossOther: All types of waste
+  turnCasino: Casino turn
+  turnLotto: Lottery
+  turnOther: Other turn
+  turnSlot: Turn slots
+  turnSport: Sports turn
+  typeCashback: ເກມ
+  typeCasino: ປະເພດ casomo
+  typeLotto: ປະເພດ lottery
+  typeOther: ຫມວດອື່ນໆ
+  typeSlot: ປະເພດໂມ້
+  typeSport: ຫມວດກິລາ
+  typeTopPlay: ປະເພດ
+  waitFriends: ລໍຖ້າໃຫ້ເພື່ອນສະຫມັກທັນທີ.
+  whatIsAff: ເປັນພີ່ນ້ອງກັນແມ່ນຫຍັງ?
+  winAndLoss: Can and lose
+  youPlay: ຫລິ້ນ
+  youWant: ທ່ານຕ້ອງການທີ່ຈະໄດ້ຮັບລາຍໄດ້.
+alert:
+  error:
+    OTPBeenSent: otp ໄດ້ຖືກສົ່ງໄປແລ້ວ.
+    boxCannotOpen: ບໍ່ສາມາດເປີດກ່ອງໄດ້ໃນເວລານີ້
+    canNotSpinNow: ບໍ່ສາມາດຫມຸນລໍ້ໄດ້ດຽວນີ້
+    copyError: ບໍ່ປະສົບຜົນສໍາເລັດ
+    creditLower: ການປ່ອຍສິນເຊື່ອຕ່ໍາກ່ວາທີ່ໄດ້ກໍານົດໄວ້
+    expiredRequestOTPAgain: otp ຫມົດກໍານົດແລ້ວ. ກະລຸນາກົດເຂົ້າອີກຄັ້ງ.
+    findNumberSystem: ບໍ່ມີຕົວເລກໃນລະບົບ
+    founError: Found errors
+    foundError: ຊອກຫາຂໍ້ຜິດພາດ. ກະລຸນາຕິດຕໍ່ຫາ admin.
+    invalidLink: ການເຊື່ອມຕໍ່ທີ່ບໍ່ຖືກຕ້ອງ
+    invalidOTP: otp ບໍ່ຖືກຕ້ອງ
+    loginFailed: ການເຂົ້າສູ່ລະບົບທີ່ບໍ່ປະສົບຜົນສໍາເລັດ, ກະລຸນາຫມາຍເຖິງບັນຊີແລະລະຫັດຜ່ານ.
+    network: ເຄືອຂ່າຍທີ່ບໍ່ຫມັ້ນຄົງ
+    noCanGiveTips: ບໍ່ສາມາດໃຫ້ຄໍາແນະນໍາໃນການປ່ຽນແປງນີ້. ກະລຸນາລໍຖ້າ 1 - 2 ນາທີ.
+    noHvaeLinkShareEarn: ບໍ່ມີການເຊື່ອມຕໍ່ທີ່ຈະແບ່ງປັນລາຍໄດ້
+    noItem: ບໍ່ພົບຂໍ້ມູນ
+    outstanding: ລູກຄ້າບໍ່ສາມາດຫຼີ້ນຄາໂບສ໌ໄດ້, ເກມສູ້ກັນ, ເກມສູ້ກັນ, ກິລາ, ຫວຍ, ລົດບັນທຸກ, ແລະເກມ crysto. ຖ້າຕ້ອງການຫຼີ້ນ ກະລຸນາປິດໂປໂມຊັ່ນ. ແລະສໍາເລັດການຊື້ສິນຄ້າ !!!
+    passwordRequired: Please enter the password
+    passwordUncorret: ລະຫັດຜ່ານບໍ່ກົງກັນ.
+    pleaseComplete: ກະລຸນາຕື່ມໃສ່
+    pleaseCompleteInformation: ກະລຸນາຕື່ມຂໍ້ມູນທັງຫມົດ.
+    plsRecaptcha: ກະລຸນາຢືນຢັນຕົວຕົນ.
+    receivedPromotionAutoFailed: Unsuccessful
+    transactionError: ບໍ່ປະສົບຜົນສໍາເລັດ
+    updating: ລະບົບການປັບປຸງຊົ່ວຄາວ
+    uploadMoreThan: ອັບໂຫລດຮູບພາບທີ່ບໍ່ເກີນ 1 mb.
+    uploadNoSuccessfully: ອັບໂຫລດ unthotty
+    usernameRequired: Please fill out the username.
+  success:
+    OTPCorrect: otp ແມ່ນຖືກຕ້ອງ
+    OTPSentSuccessfully: ສໍາເລັດ otp
+    changePasswordSuccessfully: ປ່ຽນລະຫັດຜ່ານຢ່າງສໍາເລັດຜົນ
+    changedPinSuccessfully: ປ່ຽນ pin ປະສົບຜົນສໍາເລັດ
+    colseReceivedPromotion: ປິດໂປໂມຊັ່ນຢ່າງສໍາເລັດຜົນ
+    commissionEarned: ໄດ້ຮັບຄະນະກໍາມະການ
+    congratulations: ຊົມເຊີຍ!
+    copySuccessfully: ສໍາເວນ
+    exchangeCreditSuccessfully: ສໍາເລັດການໂອນສິນເຊື່ອ
+    loginSuccess: ກະລຸນາໃສ່ລະບົບປະສົບຜົນສໍາເລັດ
+    promotionSuccessfully: ໄດ້ຮັບການສົ່ງເສີມທີ່ປະສົບຜົນສໍາເລັດ
+    receiveFreeSpin: ໄດ້ຮັບ spin ຟຣີ
+    receivedAward: ໄດ້ຮັບລາງວັນ
+    receivedFreeCredit: ໄດ້ຮັບເຄດິດຟຣີ
+    receivedPromotionAutoSuccessfully: ໄດ້ຮັບໂປໂມຊັ່ນແບບອັດຕະໂນມັດຢ່າງສໍາເລັດຜົນ.
+    redeemSuccess: ສໍາເລັດລາງວັນ
+    resetPasswordSuccessfully: ຕັ້ງລະຫັດລັບໃຫມ່.
+    savedSuccessfully: Successful data recording
+    successfulWithdrawal: ສໍາເລັດການຖອນເງິນ
+    successfulWithdrawalCurrency: ການຖອນເງິນ {ຈໍານວນເງິນ} {ເງິນຕາ}
+    successfullyRedeemed: ແລກປ່ຽນສໍາລັບການປ່ອຍສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າ.
+    thnankToTipSuccessfully: ຂອບໃຈສໍາລັບຄໍາແນະນໍາ ພວກເຮົາຈະພັດທະນາລະບົບທີ່ດີກວ່າ.
+    topUpSuccessfully: ປະສົບຜົນສໍາເລັດດ້ານເທິງ -up {ຈໍານວນເງິນ} {ເງິນຕາ}
+  topUpSuccessfully: Completed top -up
+answerQuestions:
+  chooseAtLeast: ເລືອກທີ່ຈະຕອບຢ່າງຫນ້ອຍ
+  questions: ຊຸດຄໍາຖາມ
+bacroom:
+  popularRooms: ຫ້ອງຍອດນິຍົມ
+  noData: ບໍ່ມີຂໍ້ມູນ
+  enterRoom: ເຂົ້າຫ້ອງ
+  cannotEnterGame: ບໍ່ສາມາດເຂົ້າເກມ
+bank:
+  accountChangeWarning: ບັນຊີສາມາດປ່ຽນແປງໄດ້ຕະຫຼອດ, ຫ້າມບັນທຶກ!
+  accountTransferred: ບັນຊີທີ່ຕ້ອງໄດ້ຮັບການຍົກຍ້າຍ
+  baac: ''
+  bankUpdate: ບັນຊີຈະຖືກອັບເດດຕະຫຼອດເວລາ
+  bay: ''
+  bbl: ''
+  cancelTopup: ຍົກເລີກການເລື່ອນຊັ້ນ
+  checking: ກວດກາ
+  chooseBank: ເລືອກທະນາຄານ
+  cimb: ''
+  confirmTopup: ຢືນຢັນດ້ານເທິງ
+  coppyBank: ກະລຸນາຄັດລອກເລກບັນຊີ. ລະບົບຈະສະແດງຈໍານວນເງິນຝາກເປັນໃບທົດສະນິຍົມ. ສໍາລັບທ່ານທີ່ຈະໂອນເຂົ້າ ທ່ານຕ້ອງໂອນໃຫ້ຈໍານວນລະບົບເທົ່ານັ້ນ.
+  copyAccount: ສໍາເນົາບັນຊີ
+  decimalTransfer: ການໂອນເງິນທົດສະນິຍົມ
+  gameQR: Used for adding games only
+  gotoPopUp: ກຳລັງພາໄປໃນ..
+  gsb: ''
+  icbc: ''
+  kbank: ''
+  kk: ''
+  ktb: ''
+  lastestTransaction: Latest transactions
+  lhbank: ''
+  minimumAmount: ຈໍານວນເງິນຂັ້ນຕ່ໍາ {money} baht
+  minimumTopUp: top -up ຂັ້ນຕ່ໍາສຸດ
+  minimumTopUpBath: ດ້ານເທິງຂັ້ນຕ່ໍາສຸດ {money} {currency}
+  minute: ນາທີ
+  noMoneyTransfer: ເພາະວ່າບໍ່ມີການໂອນເງິນທີ່ພົບໃນລະບົບ
+  noRounded: ຢ່າຫຼຸດຈໍານວນ
+  noRoundedDecimal: ຢ່າກວາດ
+  pending: ລໍຖ້າການຈ່າຍເງິນ
+  pleaseRoundAmount: ກະລຸນາໃສ່ເງິນທີ່ສະແດງໃຫ້ເຫັນ. ຢ່າປະກົດ.
+  pleaseTopUp: ກະລຸນາໃສ່ເງິນທີ່ສະແດງໃຫ້ເຫັນ.
+  pleaseTransferMoney: ກະລຸນາໂອນເງິນພາຍໃນເວລາ.
+  pleaseTransferTime: ກະລຸນາໂອນເງິນພາຍໃນເວລາ.
+  pleaseUseAccount: ກະລຸນາໃຊ້ບັນຊີທີ່ທ່ານສະຫມັກຂໍການໂອນເທົ່ານັ້ນ.
+  plsAccountOnly: '"ກະລຸນາໃຊ້ບັນຊີທີ່ທ່ານສະຫມັກຂໍການໂອນຍ້າຍເທົ່ານັ້ນ"'
+  plsQrcode: QR Code ນີ້ສາມາດໃຊ້ໄດ້ພຽງຄັ້ງດຽວ. ຫ້າມໂອນຊ້ຳ.
+  promptpay: PromptPay
+  scanQRCode: ສະແກນລະຫັດ qr ເພື່ອໂອນເຂົ້າບັນຊີ.
+  scb: ''
+  specifyAmount: ລະບຸຈໍານວນເງິນ
+  systemAutomatically: ລະບົບດັ່ງກ່າວຈະຕື່ມຂໍ້ມູນໃສ່ເຄດິດເກມອັດຕະໂນມັດພາຍໃນ 1-2 ນາທີ.
+  tbank: ''
+  tisco: ''
+  tmb: ''
+  topUp: ສຸດຍອດ
+  topUpComplete: ລະບົບໄດ້ສໍາເລັດກະເປົາຂອງທ່ານ.
+  topUpSuccessfully: ສໍາເລັດຍອດນິຍົມ
+  topupHistory: ປະຫວັດຄວາມເປັນມາ
+  topupRejected: ບັນຊີລາຍຊື່ top -up ທີ່ຖືກປະຕິເສດ
+  transferAccount: ການໂອນເງິນບັນຊີ
+  transferredPleaseClick: ເມື່ອໂອນເງິນ, ກະລຸນາກົດປຸ່ມ "ຢືນຢັນ" ທີ່ນີ້.
+  truewallet: ''
+  ttb: ''
+  uob: ''
+  wantCancelTopup: ຕ້ອງການຍົກເລີກດ້ານເທິງຫຼືບໍ່?
+  yourAccount: ບັນ​ຊີ​ຂອງ​ທ່ານ
+  bankIncome: ລາຍໄດ້ທາງທະນາຄານ
+  trueMoneyWalletFee:
+    feePercentage: ຄ່າທຳນຽມ {percentage}%
+    systemDeductFee: ລະບົບຈະຫັກຄ່າທຳນຽມການຝາກ {percentage}%
+    fromTopupAmount: ຈາກຈຳນວນເງິນທີ່ເຕີມ, ສູງສຸດ {maxDeduction} ບາດ
+    promotionCase: ກໍລະນີເຕີມຮັບໂປຣໂມຊັນ
+    topupMinPromo: ເຕີມຂັ້ນຕໍ່າຂອງໂປຣໂມ + (ຄ່າທຳນຽມ)
+    toGetPromotion: ເພື່ອໃຫ້ໄດ້ຮັບໂປຣໂມຊັນທີ່ຕ້ອງການ
+    feeInfo: ຄ່າທຳນຽມ {percentage}% (ສູງສຸດ {maxDeduction} ບາດ)
+    amountToTopup: ເງິນທີ່ຕ້ອງເຕີມ (ຂັ້ນຕໍ່າ {minAmount} ບາດ)
+    minimumAmountError: ຈຳນວນຂັ້ນຕໍ່າ {minAmount} ບາດ
+    feeAmount: ຄ່າທຳນຽມ ({percentage}%)
+    amountReceived: ທີ່ໄດ້ຮັບ (ຫຼັງຫັກຄ່າທຳນຽມ)
+    calculateTopupAfterFee: ຄິດໄລ່ຈຳນວນເຕີມຫຼັງຫັກຄ່າທຳນຽມ
+    amountToTopupSimple: ເງິນທີ່ຕ້ອງເຕີມ
+bankMethod:
+  viaAccount: Deposit through bank
+button:
+  add: increase
+  apply: Use
+  back: ທີ່ປຶກສາແລ້ວ
+  cancel: ຍົກເລີກ
+  changePassword: Change the password
+  clear: Clear
+  clickHere: ກົດ​ບ່ອນ​ນີ້
+  close: ປິດ
+  confirm: ຢືນຢັນ
+  continue: Proceed
+  copy: ສໍາເນົາ
+  delete: delete
+  download: download
+  edit: correct
+  exchangeCredit: ໂອນເງິນອຸດເຄດິດ
+  filter: ''
+  finish: finish
+  forgotPassword: Forget the password
+  getCredit: ໄດ້ຮັບການປ່ອຍສິນເຊື່ອ
+  getPromotion: ໄດ້ຮັບໂປໂມຊັ່ນນີ້
+  getRewarded: ແພ້
+  goPlayGames: ໄປຫລິ້ນເກມ
+  login: Log in
+  logout: Out of the system
+  next: ຕໍ່ໄປ
+  notAccepPromotion: ບໍ່ຍອມຮັບເອົາໂປໂມຊັ່ນ
+  ok: agree
+  participate: ເຂົ້າຮ່ວມ
+  playGame: ຫຼິ້ນເກມ
+  previous: Previously
+  receive: ໄດ້ຮັບ
+  recevice: ເລ່ງທວງ
+  record: ບັນທຶກ
+  register: apply
+  resend: Re -send
+  reset: Reset
+  resetPassword: Reset password
+  save: record
+  search: search
+  select: choose
+  send: ສົ່ງ
+  sendCode: Send code
+  share: share
+  stay: ຢູ່
+  submit: send
+  topUp: ສຸດຍອດ
+  understand: ຕັ້ງເຂົ້າ
+  upload: Upload
+  verify: Yeah
+  withdraw: ຖົກຖອນ
+  yess: ແລ້ວ
+cashPoint:
+  cashPoint: ການສະພັ້ງ
+  cashpointReceivedTwoAm: '* ສາມາດໄດ້ຮັບການສະສົມຫຼັງຈາກ 02.00 ຊົ່ວໂມງ.'
+  cumulativeAmount: ໄດ້ຮັບຄວາມສົມດຸນທີ່ສະສົມໄວ້ໃນທຸກໆການເດີມພັນ.
+  earnedCredit: Accumulated amount received
+  login: ເຂົ້າ​ສູ່​ລະ​ບົບ
+  lostBet: ອາການແພ້ {ສູນເສຍ}%
+  numberOf: ຫມາຍເລກ {ສິນເຊື່ອ} ແມ່ນມັນ?
+  turnAll: ທຸກປະເພດຂອງການຫັນ
+  turnOver: turnover {ປ່ຽນ}%
+  wantEarnFreeCredits: ທ່ານຕ້ອງການທີ່ຈະໄດ້ຮັບສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າຈາກຍອດເງິນທີ່ສະສົມໄວ້.
+  whenBetting: ໃນເວລາທີ່ການພະນັນຫຼືການສູນເສຍ, ໄດ້ຮັບການໃຫ້ສິນເຊື່ອສະສົມໃນທັນທີ! ທ່ານສາມາດເບິ່ງເປີເຊັນທີ່ໄດ້ຮັບຈາກດ້ານລຸ່ມ.
+  winBet: ຊະນະ {ຊະນະ}%
+cashback:
+  allAbout: ທັງຫມົດ
+  calLossForPlay: ລະບົບດັ່ງກ່າວຈະຄິດໄລ່ຈໍານວນເງິນຈາກການຫຼີ້ນ.
+  cashPointsBackGames: ເພື່ອຫມຸນໂມ້ ຢ່າກັງວົນ ເພາະວ່າຢ່າງໃດກໍ່ຕາມ ການສົ່ງຄືນສິນເຊື່ອ, ສາມາດເບິ່ງເຫັນເປີເຊັນທີ່ໄດ້ຮັບຢູ່ດ້ານລຸ່ມ.
+  cashbackPlaySlotAndCasino: ໄດ້ຮັບຈໍານວນເງິນຄືນຈາກສະລັອດຕິງກາຊີໂນ.
+  cashbackReceivedFiveAm: ສາມາດໄດ້ຮັບເງິນສົດຄືນຫຼັງຈາກ 05.00 ຊົ່ວໂມງ.
+  cashbackReceivedFourAm: ສາມາດໄດ້ຮັບເງິນສົດຄືນຫຼັງຈາກ 4:00 ໂມງແລງເປັນຕົ້ນໄປ
+  cashbackReceivedOneAm: ສາມາດໄດ້ຮັບເງິນສົດຄືນຫລັງຈາກ 01.00 ຊົ່ວໂມງ.
+  cashbackReceivedThreeAm: ສາມາດໄດ້ຮັບເງິນສົດຄືນຫຼັງຈາກ 03.00 ຊົ່ວໂມງ.
+  cashbackReceivedTwoAm: ສາມາດໄດ້ຮັບເງິນສົດຄືນຫຼັງຈາກວັນທີ 02.00.
+  cashpointPercentageBelow: ບອນພະຍາກອນ ຢ່າກັງວົນ ເພາະວ່າເຖິງຢ່າງໃດກໍ່ຕາມ, ໄດ້ຮັບການປ່ອຍສິນເຊື່ອ ຈໍານວນເງິນຄືນສາມາດເຫັນໄດ້ຈາກການແພ້ທີ່ຢູ່ທີ່ນີ້.
+  casinoGamesPersent: ເກມຄາສິໂນ
+  creditBackFromLoss: ການປ່ອຍສິນເຊື່ອກັບຄືນຈາກດ້ານເທິງ {ມູນຄ່າ}%
+  exceptSportsBetting: ເພື່ອຫມຸນໂມ້ ຢ່າກັງວົນ ເພາະວ່າຢ່າງໃດກໍ່ຕາມ ການປ່ອຍສິນເຊື່ອກັບຄືນ ຍົກເວັ້ນການພະນັນກິລາ
+  getBackEveryBet: ເອົາຈໍານວນເງິນຄືນໃນທຸກໆການເດີມພັນ.
+  getLossPlayingSlots: ໄດ້ຮັບຈໍານວນເງິນຄືນຈາກສະລັອດຕິງຫຼີ້ນ!
+  noReceviceCashback: ຈະບໍ່ໄດ້ຮັບການປ່ອຍສິນເຊື່ອກັບຄືນ
+  onlyPlaysSlotsGames: ຖ້ານັກເຕະພຽງແຕ່ຫຼີ້ນເກມ slots ເທົ່ານັ້ນ, ລະບົບຈະຄິດໄລ່ການສູນເສຍສະລັອດຕິງ.
+  otherPlaylistsNotReceive: ໂປແກຼມຫຼີ້ນຫຼີ້ນອື່ນໆ ນອກເຫນືອຈາກສະລັອດຕິງ ຈະບໍ່ໄດ້ຮັບສິນເຊື່ອທັງຫມົດ
+  percentageReceivedLoss: ອັດຕາສ່ວນຮ້ອຍຈະເປັນສິນເຊື່ອຄືນຈາກອາການແພ້.
+  playersCanGetLosses: ຜູ້ຫຼິ້ນສາມາດໄດ້ຮັບຈໍານວນເງິນຈາກການພະນັນ. ແລະຍັງສາມາດເຫັນອັດຕາສ່ວນສິນເຊື່ອທີ່ໄດ້ຮັບຈາກຈໍານວນທີ່ຢູ່ດ້ານລຸ່ມ
+  playsSlotsAndCasinoGames: ຖ້າຜູ້ຫຼິ້ນຫຼີ້ນໂມ້ແລະເກມຄາສິໂນ ລະບົບດັ່ງກ່າວຈະຄິດໄລ່ເປີເຊັນຂອງຄາສິໂນເທົ່ານັ້ນ.
+  receivedCashback: ເອົາຈໍານວນເງິນຄືນ
+  returnedLoss: ຈໍານວນເງິນທີ່ໄດ້ຮັບການກັບຄືນມາ
+  slotAndCasino: ສະລັອດຕິງແລະເກມຄາສິໂນ
+  slotGames: ເກມສະລັອດຕິງ
+  slotGamesPersent: ເກມສະລັອດຕິງ {ມູນຄ່າ}%
+  systemCalculateSlots: ລະບົບດັ່ງກ່າວຈະຄິດໄລ່ໂຄງການ "ສະລັອດຕິງ" ເທົ່ານັ້ນ.
+  topUpFirstADay: ຈາກການຕື່ມຄັ້ງທໍາອິດຂອງມື້
+  topUpFirstPlayer: ຈາກການຕື່ມຄັ້ງທໍາອິດຂອງຜູ້ນ
+  'topUpFirstPlayer ': First add
+  typeGameSport: ຫຼິ້ນກິລາ
+  whatBetsCan: ສາມາດເອົາຈໍານວນເງິນຈາກການເດີມພັນໃດໆບໍ?
+  youWantReceive: ທ່ານຕ້ອງການທີ່ຈະໄດ້ຮັບສິນເຊື່ອ
+codeDesc: Enter the code to receive a special prize.
+collectPoints:
+  allPrizes: ລາງວັນທັງຫມົດ
+  ascending: ຫນ້ອຍ​ຫລາຍ
+  credit: ການປ່ອຍສິນເຊື່ອ
+  descending: ຫຼາຍໆ
+  endNow: ຈະສິ້ນສຸດພາຍໃນ
+  equipment: ເຄື່ອງອຸປະກອນ
+  gold: ສຸວັນ
+  isCheckRewardAlert: ທ່ານຕ້ອງການທີ່ຈະໄດ້ຮັບຈຸດ
+  lifestyle: ຊີວິດການເປັນຢູ່
+  moreThan: ຫຼາຍກ່ວາ 72,000
+  noHistory: ບໍ່ມີປະຫວັດຄວາມເປັນມາຂອງການໄຖ່
+  pending: ລໍຖ້າການກະທໍາ
+  points: ມື
+  pointsNumber: $ {ຈໍານວນ}
+  redeemRewards: ໄຖ່
+  redemptionHistory: ປະຫວັດການແລກປ່ຽນລາງວັນ
+  remainingPoints: ຈຸດທີ່ມີຢູ່ແລ້ວ
+  rewardsNotFound: ບໍ່ພົບລາງວັນ.
+  scoreRange: ຄະແນນ
+  searchRewards: ຄົ້ນຫາລາງວັນ
+  spend: ການນໍາໃຊ້ {ຈຸດ} ຈຸດ
+  toRedeem: ໃນການແລກປ່ຽນ {ລາງວັນ} ຫຼືບໍ່?
+  totalBalance: ກົດຈຸດ
+  tupUpTimeNow: top up time ເວລານີ້, ໄດ້ຮັບ x {ຫຼາຍ}} as!
+  type: ປະເພດ
+  wantToSpend: ທ່ານຕ້ອງການໃຊ້
+commission:
+  approved: Approve
+  codeAlready: ລະຫັດນີ້ໄດ້ຖືກນໍາໃຊ້ແລ້ວ.
+  codeHere: ໃສ່ລະຫັດທີ່ນີ້.
+  description: details
+  earnings: ''
+  enterCode: ໃສ່ລະຫັດສິນເຊື່ອທີ່ບໍ່ເສຍຄ່າ.
+  examine: ກວດສອບ
+  history: ''
+  historyCommission: ປະຫວັດຄວາມເປັນມາຂອງຄະນະກໍາມະການ
+  pending: ''
+  plsCode: ບໍ່ມີລະຫັດໃນລະບົບ
+  prizealready: ທ່ານໄດ້ຊະນະແລ້ວ
+  rate: ''
+  rejected: ''
+  title: ''
+  total: ''
+  typeCasino: Fresh casino
+  typeLotto: lottery
+  typeOther: Other types
+  typeSlot: Slot game
+  typeSport: Sports game
+  withdrawal: ''
+commission4step:
+  back: retrospective
+  close: turn off
+  day: Daily
+  details: ''
+  eventName: 4 -story commission
+  history: record
+  latestItems: (5 latest items)
+  matchingDetails: ''
+  month: Monthly
+  moreThanOneDay: ''
+  now: current
+  playMoreGames: ''
+  realtime: ''
+  receiveMoney: ''
+  receiveMoneyType:
+    cash: ''
+    freecredit: ''
+  rewardHistory: Awards history
+  timeRemaining: ''
+  week: Weekly
+commom:
+  activity: ກິດຈະກໍາ
+  admin: ບໍລິຫານ
+  badBalance: ເສຽໄປ
+  baht: ບາດແຜ
+  bankLink: ອອກຈາກ / ຖອນ
+  cash: ເງິນ
+  cashMoney: ເງິນໃນເກມ
+  cashTranfer: ໂອນເງິນ
+  casino: ຂ່ອຍ
+  categoryPosition: ປະເພດ
+  contact: ຕິດຕໍ່
+  credit: ການປ່ອຍສິນເຊື່ອ
+  creditHistory: ປະຫວັດການປ່ອຍສິນເຊື່ອ
+  day: ວັນທີ
+  details: details
+  diamond: ເພັດ
+  displaySetting: ຕັ້ງຄ່າການສະແດງ
+  dong: ຢູ່ໃນທາງດຽວກັນ
+  enterAmount: Please specify the amount.
+  error: Found errors
+  freeCredit: ເຄດິດຟຣີ
+  game: ເກມ
+  gameBalance: ຄວາມດຸ່ນດ່ຽງເກມ
+  gotoGame: ກະລຸນາໃສ່ເກມ
+  hide: hide
+  info: information
+  lastEntries: (5 ລາຍການລ້າສຸດ)
+  left: ກ່ໍາ
+  line: ເສັ້ນ
+  loading: Loading
+  logout: ສໍາເລັດຈາກລະບົບ
+  mainPage: ຫນ້າຫຼັກ
+  min: Minimum
+  money: ເງິນ
+  month: ເດືອນ
+  noCreditHistory: ບໍ່ມີປະຫວັດການປ່ອຍສິນເຊື່ອ
+  noData: Not found information
+  noHave: ບໍ່​ມີ
+  noHistoryEntry: ບັນຊີລາຍຊື່ປະຫວັດສາດ
+  noResults: Not found information
+  noRewardHistory: ບໍ່ມີປະຫວັດ
+  notPointHistory: ບໍ່ມີປະຫວັດຂອງຈຸດທີ່ໄດ້ຮັບ
+  notexttoday: ຢ່າສະແດງຂ່າວສານນີ້ອີກ
+  number: ປະລິມານ
+  other: ອື່ນ
+  prizeNotFound: ບໍ່ມີລາງວັນ
+  rewardHistory: ປະຫວັດລາງວັນ
+  right: ຖືກຕ້ອງ
+  seconds: second
+  seeAll: See all
+  seeConditions: ເບິ່ງເງື່ອນໄຂເພີ່ມເຕີມ
+  showLess: Less show
+  showMore: More show
+  slot: ສະລັອດຕິງ
+  success: succeed
+  top: ຕໍ່ໆໄປ
+  topUp: ສຸດຍອດ
+  turn: ຜຽນ
+  view: Not found information
+  wait: ເຊີນລໍຖ້າ
+  warning: ''
+  year: ປີ
+  yerNo: ມັນຖືກຕ້ອງບໍ?
+  quickNavigation: Shortcut to the Department of Department
+  dailyTopUpCalendar: ປະຕິທິນເຕີມເງິນປະຈຳວັນ
+common:
+  loadMore: Add more
+  noItem: Not found information
+  scrollForMore: Postpone to see more
+  resetFilters: Clear search
+  filters: Filter
+  doNotReuse: Do not reuse
+  qrDeposit: This QR Code is for deposits via the website for gameplay only
+components:
+  language_switcher:
+    change_language: ປ່ຽນ​ພາ​ສາ
+  theme_switcher:
+    change_theme: ແປງ
+    theme: ດັ່ງ
+crypto:
+  addCryptoDesc: |-
+    Enter the Vollet Address
+    And choose a crypto genus
+  addWallet: Enter the Vollet Address
+  crypto: Crocodile
+  enterProcess: Make a deposit
+  network: Network
+  selectCrypto: Choose a crypto currency
+  selectNetwork: Choose a network
+  walletAddress: Vollet Address
+  withdraw: Cripitos (for withdrawal)
+decimalTransfer: Decimal deposit
+deposit: deposit
+depositAndUploadSlip: Transfer money and upload a slip.
+depositBankAuto: Deposit through bank (automatic)
+depositBankDesc: |-
+  Use accounts that apply for money via bank.
+  Supports both bank accounting and QR Code
+depositBankSpecials: Deposit through bank (special)
+depositCryptoDesc: Top up the game by cryptocurned
+depositHistory: Deposit history
+depositWithTrueWallet: Deposit money using True Money Walt
+depostiCrypto: Deposit in crypto
+directTopupBank: Direct transfer via bank
+error:
+  failedToInitialize: Found errors
+  founError: Found errors
+  foundError: Found errors
+  invalidData: Found errors
+  invalidPrize: Found errors
+  invalidResponse: Found an error
+  unknownPrize: No reward information
+events:
+  allEvents: ກິດຈະກໍາທັງໝົດ
+  affiliate: ເຊີນເພື່ອນມາຮັບເອົາຄະນະກໍາມະການ
+  answerQuestions: Answer questions
+  balanceDiamonds: ເພັດທີ່ຍັງເຫຼືອ
+  cash: ເງິນສົດ
+  cashPoint: ''
+  cashback: ສົ່ງຄືນຈໍານວນເງິນ
+  cashbackBill: ກັບຄືນສຽບທໍາອິດ
+  cashpoint: ການສະພັ້ງ
+  collectPoints: ''
+  commission: ຄະນະກໍາມາທິການ
+  commission4step: ''
+  daily: ເນືେໆ
+  dailyFixTopup: ເງິນຝາກ, ຮູບ, ຍອດ,
+  dailyMission: ''
+  earn: ຫາ​ເງິນ
+  evaluateAdmin: ປະເມີນ admin,
+  eventsDetail: ລາຍລະອຽດກິດຈະກໍາ
+  freeCredit: ເຄດິດຟຣີ
+  income: ຫາ​ເງິນ
+  inviteFriends: ''
+  joinEvent: ເຂົ້າຮ່ວມກິດຈະກໍາຕ່າງໆເພື່ອຮັບລາງວັນຫຼາຍ.
+  joinMinigame: ໃຊ້ເພັດທີ່ຈະຫລິ້ນເກມ mini. ກັບ win ເພັດເພີ່ມຫຼາຍກ່ວາກ່ອນ!
+  luckyBox: ປ່ອງ
+  luckyBoxDiamond: ເປີດຄວາມມ່ວນຊື່ນ
+  luckyWheel: ລໍ້ໂຊກດີ
+  minigame: ເກມ mini
+  mission: ພາລະກິດ
+  monthlyMission: ''
+  notActive: The activity is not yet open for use.
+  points: ສະສົມ
+  questionResearch: ຊຸດຄໍາຖາມ
+  randomPrize: ລາງວັນແບບສຸ່ມ
+  rank: ''
+  rated: ຈັດລຽງ
+  referral: ເຊີນເພື່ອນມາຮັບເງິນ
+  regularDeposit: ''
+  reward: ລາງ​ວັນ
+  shareFacebook: ແບ່ງປັນເຟສບຸກ
+  specialCommission: ຄະນະກໍາມະການພິເສດ
+  tier: ''
+  title: ''
+  titleevents: ເຂົ້າຮ່ວມກິດຈະກໍາຕ່າງໆເພື່ອຮັບລາງວັນຫຼາຍ.
+  titlestore: ໃຊ້ເພັດເພື່ອແລກປ່ຽນສິດທິໃນການຫຼີ້ນກິດຈະກໍາທີ່ນີ້.
+  treasureBox: ''
+  updatePhone: ຫມາຍເລກປັບປຸງ
+  weeklyMission: ''
+  wheelTurnOver: ຜູ້ຊະນະ
+  winPrizes: ຊະນະລາງວັນ
+exchangeCredit:
+  available: ''
+  creditFreeNoEnough: ການປ່ອຍສິນເຊື່ອຟຣີຂອງທ່ານແມ່ນບໍ່ພຽງພໍ.
+  description: ''
+  exchange: ''
+  exchangeCreditFree: ການໂອນສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າເຂົ້າໃນເກມ
+  exchangeFreeCreditMinimum: ການໂອນເງິນໂດຍບໍ່ເສຍຄ່າຂັ້ນຕ່ໍາ {ຕ່ໍາສຸດ} baht
+  exchangeUnlimitedWithdrawal: ການຖອນເງິນບໍ່ຈໍາກັດ {ຕ່ໍາສຸດ} {ເງິນຕາ}
+  goMoney: 'ເຖິງ: ຄວາມສົມດຸນ'
+  history: ''
+  makeTurnCasino: ເຮັດໃຫ casino casino {ປ່ຽນ} ຫັນ
+  makeTurnSlot: ເຮັດໃຫສະລັອດຕິງ {ປ່ຽນ} ຫັນ
+  maximum: ''
+  minimum: ''
+  plsCreditMinimum: ກະລຸນາໃສ່ສິນເຊື່ອຂັ້ນຕ່ໍາຢ່າງຫນ້ອຍ {ຕ່ໍາສຸດ} ເຄດິດ
+  plsInputCredit: ກະລຸນາໃສ່ເຄດິດ
+  rate: ''
+  specifyAmount: ລະບຸຈໍານວນເງິນຂອງສິນເຊື່ອ
+  systemClosedMaintenance: ລະບົບສິນເຊື່ອທີ່ບໍ່ເສຍຄ່າແມ່ນປິດ. ຂໍອະໄພສໍາລັບຄວາມບໍ່ສະດວກທີ່ນີ້.
+  title: ''
+  tranferCredit: 'ໂອນ: free credit'
+favGames:
+  deletefavGames: ລົບເກມທີ່ທ່ານມັກ.
+  empty: ''
+  failedfavGame: ບໍ່ເພີ່ມເກມທີ່ທ່ານມັກ.
+  successfavGames: ຕື່ມເກມທີ່ທ່ານມັກ.
+  title: ''
+footer:
+  events: ກິດຈະກໍາ
+  home: ຫນ້າຫຼັກ
+  noti: ບອກເລົ່າ
+  promotion: ການສົ່ງເສີມ
+  withdraw: ອອກຈາກ / ຖອນ
+forgame: ''
+freeCredit:
+  checkReceivedFour: ສາມາດໄດ້ຮັບການປ່ອຍສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າຫຼັງຈາກ 4:00 ໂມງແລງ
+  checkReceivedOne: ສາມາດໄດ້ຮັບການປ່ອຍສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າຫຼັງຈາກ 01.00 ຊົ່ວໂມງ.
+  checkReceivedThree: ສາມາດໄດ້ຮັບການປ່ອຍສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າພາຍຫຼັງ 3:00 ໂມງແລງ
+  earnedCredit: ໄດ້ຮັບການປ່ອຍສິນເຊື່ອ
+  easyWayCreditFree: ວິທີການຮັບສິນເຊື່ອຟຣີ {ຈໍານວນ} ເຄດິດງ່າຍດາຍ
+  easyWayDiamond: ວິທີການຮັບເພັດ {ຈໍານວນ} ເພັດທີ່ລຽບງ່າຍ
+  easyWayMoney: ວິທີການຮັບເງິນ {ຈໍານວນ}
+  end: ການລົງທ້າຍ
+  getFreeCredit: ໄດ້ຮັບເຄດິດຟຣີ
+  luckyWheel:
+    additionalConditions: ''
+    goTopup: ''
+    goTurn: ''
+    haveLoss: ''
+    haveLossNew: ''
+    haveMinimum: ''
+    haveReceived: ''
+    noRightSpin: ''
+    noSpinning: ''
+    noSpinningRight: ''
+    remarks: ''
+    seeAdditionalConditions: ''
+    spinWheel: ''
+    spinsLeft: ''
+    topUpMinimum: ''
+    turn: ''
+    wheelTurnOver: ''
+    winBigPrizes: ''
+    youHave: ''
+  makeTurnClaim: '-make arets {solttunt} ແລະເຮັດຄາສິໂນ {casinoturn}'
+  round: ຕະຫຼອດ {ຈໍານວນ}
+  start: ຊູບ
+  topUpMinimum: ເງິນຝາກຂັ້ນຕ່ໍາສຸດ {ຕ່ໍາສຸດ} baht, ຮັບສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າທັນທີ.
+  topUpNoPromotion: ຝາກເງິນໂດຍບໍ່ໄດ້ຮັບການສົ່ງເສີມການ ແລະເງິນຝາກຂັ້ນຕ່ໍາສຸດ {ຕ່ໍາສຸດ}.
+  topUpPromotion: ປ່ອຍໃຫ້ມີການສົ່ງເສີມ ແລະເງິນຝາກຂັ້ນຕ່ໍາສຸດ {ຕ່ໍາສຸດ}.
+  wantFreeCredit: ທ່ານຕ້ອງການທີ່ຈະໄດ້ຮັບສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າ.
+  whenTopupRecevedCredit: ໃນເວລາທີ່ສົມບູນສໍາເລັດ ສາມາດກົດປຸ່ມເພື່ອໃຫ້ໄດ້ຮັບສິນເຊື່ອຟຣີ
+  whenTopupRecevedDiamond: ໃນເວລາທີ່ສົມບູນສໍາເລັດ ສາມາດກົດທີ່ໄດ້ຮັບເພັດ
+  whenTopupRecevedMoney: ໃນເວລາທີ່ສົມບູນສໍາເລັດ ສາມາດກົດທີ່ຈະໄດ້ຮັບເງິນ
+  whenWitdthCredit: ເມື່ອເຮັດລະບຽງ ສາມາດຖອນການປ່ອຍສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າ
+  whenWitdthDiamond: ເມື່ອເຮັດລະບຽງ ສາມາດຖອນເພັດທັນທີ
+  whenWitdthMoney: ເມື່ອເຮັດລະບຽງ ສາມາດຖອນເງິນໄດ້
+  quickAccessCredit: Can receive the award here
+freeSpin:
+  description: ''
+  forGame: ''
+  giftbox: ປ່ອງຂອງຂວັນ
+  noNoti: ບໍ່ພົບການແຈ້ງເຕືອນ
+  nogiftBox: ທ່ານບໍ່ມີຂອງຂວັນ.
+  noti: ບອກເລົ່າ
+  title: ''
+freespin: ''
+from: ''
+gamehits: The most popular game!
+incomDetail: Revenue information
+inviteFriends:
+  bonusFriends: ໄດ້ຮັບໂບນັດຈາກການເຊື້ອເຊີນເພື່ອນ
+  friendAll: ຫມູ່ເພື່ອນທຸກຄົນເຊີນຊວນ
+  newUsersOnly: ຈາກການນໍາໃຊ້ຜູ້ໃຊ້ໃຫມ່ເທົ່ານັ້ນ
+  receiveBonus: ທ່ານຈະໄດ້ຮັບເງິນ.
+  referralLink: ເຊື່ອມໂຍງການເຊື້ອເຊີນເພື່ອນ
+  unlimitedFriends: ບໍ່ຈໍາກັດໃຫ້ຫມູ່ເພື່ອນ!
+isGameType:
+  all: ''
+  arcade: ''
+  cashback: ສົ່ງຄືນຈໍານວນເງິນ
+  casino: ''
+  gameType0: ລູກຄ້າບໍ່ສາມາດຫຼີ້ນຄາໂບສ໌ໄດ້, ເກມສູ້ກັນ, ເກມສູ້ກັນ, ກິລາ, ຫວຍ, ລົດບັນທຸກ, ແລະເກມ crysto. ຖ້າຕ້ອງການຫຼີ້ນ ກະລຸນາປິດໂປໂມຊັ່ນ. ແລະສໍາເລັດການປະມູນ
+  gameType1: ລູກຄ້າບໍ່ສາມາດຫຼີ້ນຄາສິໂນ online ໄດ້. ກະລຸນາປິດໂປໂມຊັ່ນ. ແລະສໍາເລັດການປະມູນ
+  gameType2: ລູກຄ້າບໍ່ສາມາດຫຼີ້ນໄດ້ໃນຫມວດສະລັອດຕິງ, ຍິງປາ, ໂຕະ, ໂຕະ. ກະລຸນາປິດໂປໂມຊັ່ນ. ແລະສໍາເລັດການປະມູນ
+  lotto: ''
+  luckyWheel: ລໍ້
+  slot: ''
+  sport: ''
+key: Latest game
+lastgame: Latest game
+lobby:
+  allGames: ເກມທັງໝົດ
+  gameCategory: ປະເພດເກມ
+  new: ໃຫມ່
+  noGamesFound: ''
+  notGame: ບໍ່ມີເກມຄົ້ນຫາ
+  searchGames: ຄົ້ນຫາເກມ
+  noEventsNow: ຍັງບໍ່ມີກິດຈະກຳໃນຕອນນີ້
+  recommendedEvents: ກິດຈະກຳທີ່ແນະນຳ
+  gameCategoriesList: ສະລັອດ, ຄາສິໂນ, ກິລາ, ເກມໂຕະ, ອາເຄດ, ການຕໍ່ສູ້, ແລະອື່ນໆ
+  typeAtLeastThreeChars: ພິມຢ່າງໜ້ອຍ 3 ໂຕອັກສອນ
+  foundGamesCount: 'ພົບ {count} ເກມ'
+loginPage:
+  byLoggingIn: ''
+  enterYourUsername: ຕື່ມຂໍ້ມູນໃສ່ຊື່ຂອງຜູ້ໃຊ້ຫຼືເບີໂທລະສັບ.
+  exclusiveBonus: ''
+  exclusiveBonusDesc: ''
+  forgotPassword: ລືມລະຫັດຜ່ານ
+  login: ເຂົ້າ​ສູ່​ລະ​ບົບ
+  loginToYourAccount: ''
+  or: ''
+  passwordOrPin: ລະຫັດຜ່ານ / pin
+  plsInputLeastFour: ກະລຸນາຕື່ມໃສ່ 4 ຕົວອັກສອນ.
+  plsInputLeastTen: ກະລຸນາຕື່ມໃສ່ການຕື່ມໃສ່ 10 ຕົວອັກສອນ.
+  privacyPolicy: ''
+  rememberMe: ຈື່​ຂ້ອຍ
+  secureGaming: ''
+  secureGamingDesc: ''
+  subscribtion: ເລັ່ຍລາຍ
+  support247: ''
+  support247Desc: ''
+  termsOfService: ''
+  userAccountOrTel: ບັນຊີຜູ້ໃຊ້ຫຼືເບີໂທລະສັບ
+  welcomeToSlotGames: ''
+luckyWheel:
+  additionalConditions: ເງື່ອນໄຂເພີ່ມເຕີມ
+  goTopup: ເຖິງດ້ານເທິງ
+  goTurn: ໄປເຮັດວຽກ
+  haveLoss: ຈໍານວນດັ່ງກ່າວແມ່ນແຕກຈາກ {ຕ່ໍາສຸດ} ເງິນບາດຫຼືຫຼາຍກວ່ານັ້ນເພື່ອໃຫ້ໄດ້ຮັບເວລາ 1 ຄັ້ງ.
+  haveLossNew: ຈໍານວນດັ່ງກ່າວແມ່ນແຕກຈາກ {ຕ່ໍາສຸດ} baht ຫຼືຫຼາຍກວ່ານັ້ນ. ສາມາດຫມຸນລໍ້ໄດ້ 1 ຄັ້ງຕໍ່ມື້.
+  haveMinimum: ດ້ວຍການລ່ວງລະເມີດ {ຕ່ໍາສຸດ} {ເງິນຕາ} ເຖິງເວລາ / ມື້
+  haveReceived: ທ່ານໄດ້ຮັບ {ລາງວັນ}
+  noRightSpin: ທ່ານບໍ່ມີສິດທີ່ຈະຫມຸນໄດ້ເລີຍ.
+  noSpinning: ທ່ານບໍ່ມີສິດທີ່ຈະຫມຸນໄດ້ເລີຍ.
+  noSpinningRight: ທ່ານບໍ່ມີສິດທີ່ຈະຫມຸນ.
+  remarks: ຫມາຍ​ເຫດ​
+  seeAdditionalConditions: ເບິ່ງເງື່ອນໄຂເພີ່ມເຕີມ
+  spinWheel: ຫມຸນລໍ້
+  spinsLeft: ຖືກຕ້ອງ
+  topUpMinimum: ສູງສຸດຕ່ໍາສຸດ {ຕ່ໍາສຸດ} ແຕ່ບໍ່ເກີນ {ສູງສຸດ}.
+  turn: ຜຽນ
+  wheelTurnOver: ຜູ້ຊະນະ
+  winBigPrizes: ຊະນະລາງວັນໃຫຍ່ ແລະຫຼາຍສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າ!
+  youHave: ທ່ານມີສິດທີ່ຈະຫມຸນ.
+manageBankAccount:
+  addAccount: ເພີ່ມບັນຊີ
+  addAccountBank: ເພີ່ມບັນຊີທີ່ມີທາງການກວດສອບ
+  addAccountBankDesc: ກະລຸນາເພີ່ມບັນຊີທີ່ມີທາງການກວດສອບ
+  changePrimaryAccount: ເປີດກ່ອງບັນຊີທີ່ລະບຸ
+  changePrimaryAccountDesc: ກະລຸນາເລືອກບັນຊີທີ່ລະບຸໃໝ່
+  changedSuccessfullyPrimaryAccount: ປ່ຽນບັນຊີທີ່ລະບຸຮັບສິດທິໃນການປ່ຽນແປງ
+  dafaultAccount: ບັນຊີທີ່ລະບຸ
+  manageAccount: ຈັດການບັນຊີທາງທະນາຄານ
+  notHaveAccount: ຍັງບໍ່ມີບັນຊີ
+  waitingVerification: ກະລຸນາຖ້າການກວດສອບ
+migrate:
+  complete: ''
+  description: ''
+  popup1: ຍົກເລີກການປັບປຸງຂໍ້ມູນ
+  popup2: ທ່ານຕ້ອງການຍົກເລີກການອັບເດດຂໍ້ມູນບໍ?
+  popup3: ຍົກເລີກການປັບປຸງຂໍ້ມູນ
+  popup4: ຍິນດີຕ້ອນຮັບ!
+  popup5: ປັບປຸງຂໍ້ມູນສໍາລັບພວກເຮົາເລັກນ້ອຍ.
+  start: ''
+  title: ''
+minimum: Minimum {0} baht
+mission:
+  accumulate: ສະສົມ
+  awardAllLogin: ໃຫ້ {ລາງວັນ} {ຫນັງສືພິມ} ທຸກໆມື້ທີ່ເຂົ້າສູ່ລະບົບ!
+  awardHistory: ປະຫວັດລາງວັນ
+  claim: ''
+  collectorModeOnly: ຮູບແບບສະສົມຈະມີສິດໄດ້ຮັບລາງວັນດຽວເທົ່ານັ້ນ.
+  complete: ''
+  completed: ''
+  daily: ''
+  description: ''
+  duration: 'ໄລຍະເວລາ: ບໍ່ຈໍາກັດ'
+  everyday: ປະຈໍາວັນ
+  fri: ອາຈານ
+  getRewarded: ແພ້
+  go: ໄປ
+  inProgress: ''
+  loginCalendar: ປະຕິທິນເຂົ້າສູ່ລະບົບ
+  missionList: ພາລະກິດ
+  missionsEnd: ພາລະກິດທັງຫມົດຈະສິ້ນສຸດລົງໃນ
+  mon: ມອນ
+  monthly: ''
+  progress: ''
+  received: ໄດ້ຮັບ
+  reward: ''
+  sat: ເຊ
+  seasonMissions: ພາລະກິດຕາມລະດູການມີຜົນກະທົບຈາກ
+  seasonal: ລະດູການ
+  soon: ໃນເວລານີ້ບໍ່ມີພາລະກິດ. ກະລຸນາຕິດຕາມໃນໄວໆນີ້.
+  special: ''
+  sun: ລຸງ.
+  thu: ໄທ
+  title: ''
+  tue: ຄູ
+  wed: ເດືອນພຶດສະພາ
+  weekly: ''
+  detailModalType: ລາຍລະອຽດລາງວັນ
+  getRewardPromotion: Top up with promotion
+  getRewardNoPromotion: Top up without promotion
+month:
+  april: ເດືອນເມສາ
+  august: ສິງຫາ
+  december: ທັນວາ
+  february: ກຸມພາ
+  january: ເດືອນມັງກອນ
+  july: ເດືອນກໍລະກົດ
+  june: ມິຖຸນາ
+  march: ດົນໆ
+  may: ເດືອນພຶດສະພາ
+  november: ເດືອນພະຈິກ
+  october: ເດືອນຕຸລາ
+  september: ເດືອນກັນຍາ
+notRewardList: ''
+nvalidPrizeType: ''
+onePayment:
+  description: ''
+  recommend: ''
+  title: ''
+  oneBanks: Automatic Bank
+oneThingMustBeDone: ''
+p2p:
+  description: ''
+  receive: ''
+  send: ''
+  tab1: Pay via the website
+  tab2: Pay via QR Code
+  title: ''
+pages:
+  '404':
+    title: ລົງທະບຽນ
+  promotion:
+    all: ທັງຫມົດ
+    casino: ຂ່ອຍ
+    lotto: ການຈັບສະເດັດ
+    other: ອື່ນ
+    slot: ສະລັອດຕິງ
+    sport: ກິລາ
+  tier:
+    credit: ການປ່ອຍສິນເຊື່ອ
+    diamonds: ເພັດ
+    freeCredit: ເຄດິດຟຣີ
+    permissionToOpenTheBox: ສິດໃນການເປີດກ່ອງ
+    permissionToSpinTheWheel: ສິດ
+    point_rewards: ມື
+personalInformation:
+  accountLine: ຜູກພັນກັບເສັ້ນ
+  accountName: ຊື່​ບັນ​ຊີ
+  accountNotYet: ບໍ່ໄດ້ຕິດກັບບັນຊີ
+  accountNumber: ເລກບັນຊີ
+  address: address
+  bankAccount: ບັນ​ຊີ​ທະ​ນາ​ຄານ
+  birthday: ວັນເກີດ
+  birthdayRegistration: ລົງທະບຽນວັນເກີດ
+  changePIN: ປ່ຽນລະຫັດ pin ໃຫ້ລະບົບ
+  changePassword: Change the password
+  changePasswordGame: ປ່ຽນລະຫັດຜ່ານໃຫ້ກັບເກມ.
+  chkPasswordSix: ລະຫັດຜ່ານຕ້ອງມີແຕ່ລະ 6-12.
+  city: city
+  country: country
+  dateOfBirth: birthday
+  email: Email
+  female: ''
+  gameCode: ທີປະສານທາງເຂົ້າ
+  gender: ''
+  haveLangue: ມີພາສາອັງກິດ, ພິມຂະຫນາດນ້ອຍ, ພິມໃຫຍ່ເຊັ່ນ abc123.
+  inviteFriends: ເຊີນເພື່ອນມາຮັບເງິນ
+  male: ''
+  name: ''
+  noHaveFriend: ບໍ່ໄດ້ພົບເຫັນຫມູ່ເພື່ອນ
+  notYetRegistered: ຍັງບໍ່ໄດ້ລົງທະບຽນເທື່ອ
+  other: ''
+  personalInformation: ຂໍ້​ມູນ​ສ່ວນ​ຕົວ
+  phone: ''
+  pinCode: ເຂັມລະຫັດ
+  plsConfrimPasswordNew: ກະລຸນາຢືນຢັນລະຫັດລັບໃຫມ່.
+  plsNewPassword: ກະລຸນາໃຊ້ລະຫັດລັບໃຫມ່.
+  plsNewPasswordAndSave: ກະລຸນາໃຊ້ເວລາໃຫມ່ແລະບັນທຶກຂ່າວໃຫມ່.
+  postalCode: ''
+  preferNotToSay: ''
+  pressSave: ກະລຸນາຕື່ມໃສ່ລະຫັດ pin ໃຫມ່ແລະກົດປຸ່ມ save.
+  profile: ປະຕິບັດ
+  referralCode: ລະຫັດເຊີນຊວນຫມູ່ເພື່ອນ
+  referralLink: ເຊື່ອມໂຍງການເຊື້ອເຊີນເພື່ອນ
+  seeProfile: ເບິ່ງໂປຼໄຟລ໌
+  shareEarn: ແບ່ງປັນເງິນ
+  state: ''
+  title: ''
+  twoFactorAuthentication: ''
+  update: ''
+  userGame: ເກມແມ່ນຢູ່ໃນເກມ.
+pls-enter-true-wallet: Please fill out the phone number tied to True Wallet.
+plsUploadSlipviaQR: Please upload a slip with only QR Code, otherwise the balance will not log in.
+promotion:
+  supportedChannels: ຊ່ອງທາງເຕີມເງິນທີ່ຮອງຮັບ
+  supportedPromotions: ໂປຣໂມຊັນທີ່ຮອງຮັບ
+  accountSupportsPromotion: ບັນຊີນີ້ຮອງຮັບໂປຣໂມຊັນ
+  acceptedpro: ຂ້ອຍໄດ້ຮັບໂປໂມຊັ່ນນີ້.
+  allPromotionsCasino: ການໂຄສະນາທັງຫມົດຂອງເກມຄາສິໂນ
+  allPromotionsSlot: ການໂຄສະນາທັງຫມົດຂອງເກມ slots
+  automatically: ອັດຕະໂນມັດ
+  automaticallyReceivePromotions: ໄດ້ຮັບກຸ່ມໂປໂມຊັ່ນອັດຕະໂນມັດ
+  buttonOpen: ກົດປຸ່ມໂປໂມຊັ່ນ.
+  canNotReceiveNow: ບໍ່ສາມາດຍອມຮັບເອົາໂປໂມຊັ່ນໃນເວລານີ້
+  cannotplayCasino: ບໍ່ສາມາດຫຼິ້ນຄາສິໂນ
+  casino: ຂ່ອຍ
+  change: ແປງ
+  changePromotion: ຄວາມສົມດຸນທີ່ຍັງເຫຼືອຕ້ອງມີຫນ້ອຍກ່ວາຫຼືເທົ່າກັບ {ສິນເຊື່ອ} {ເງິນຕາ} ເພື່ອຈະສາມາດປ່ຽນສະຖານະພາບການສົ່ງເສີມໄດ້.
+  chooseGroupLike: ເລືອກກຸ່ມທີ່ທ່ານມັກ.
+  chossesPromotion: ເລືອກໂປໂມຊັ່ນນີ້.
+  closePromotion: ການສົ່ງເສີມ
+  conditions: ສະພາບ
+  details: ລາຍລະອຽດ
+  doNotNotify: ບໍ່ຈໍາເປັນຕ້ອງແຈ້ງເຕືອນເລື່ອງນີ້ອີກ.
+  getPromotion: ໄດ້ຮັບໂປໂມຊັ່ນ
+  getPromotionsAutomatically: ໄດ້ຮັບໂປໂມຊັ່ນອັດຕະໂນມັດ
+  getPromotionsManually: ໄດ້ຮັບການສົ່ງເສີມໂດຍຕົວທ່ານເອງ.
+  getThisPromotion: ໄດ້ຮັບໂປໂມຊັ່ນນີ້
+  noPromotionReceived: ບໍ່ຍອມຮັບເອົາໂປໂມຊັ່ນ
+  noTurnRequired: ບໍ່ຈໍາເປັນຕ້ອງເຮັດ ສາມາດຖອນເງິນໄດ້ທັງຫມົດ
+  notAccept: ບໍ່ໄດ້ຮັບໂປໂມຊັ່ນ
+  notFoundPromotion: ບໍ່ມີຂໍ້ມູນສົ່ງເສີມ
+  outOfBusiness: ຂໍໂທດ, ຢູ່ນອກເວລາ.
+  outOfBusinessCannot: ບໍ່ສາມາດທີ່ຈະໄດ້ຮັບການສົ່ງເສີມ
+  promotion: ການສົ່ງເສີມ
+  promotionAuto: ການໂຄສະນາໂດຍອັດຕະໂນມັດ
+  promotionCurrChoose: ໂປໂມຊັ່ນໃນປະຈຸບັນທີ່ທ່ານເລືອກ
+  receiveAutomaticCasino: ໄດ້ຮັບໂປໂມຊັ່ນເກມຄາສິໂນອັດຕະໂນມັດ.
+  receiveAutomaticSlot: ໄດ້ຮັບການສົ່ງເສີມເກມໃນການເກັບມ້ຽນອັດຕະໂນມັດ.
+  receiveGroupPromotion: ໄດ້ຮັບການສົ່ງເສີມກຸ່ມ
+  receiveProGameAuto: ໄດ້ຮັບເກມ {ເກມ} ໂດຍອັດຕະໂນມັດ.
+  receivePromotion: ໄດ້ຮັບໂປໂມຊັ່ນນີ້
+  seeProSlotAll: ເບິ່ງທຸກໂປໂມຊັ່ນໂມ້
+  selectReceivePromotion: ເລືອກທີ່ຈະໄດ້ຮັບການສົ່ງເສີມໂດຍຕົວທ່ານເອງ.
+  slideButton: ຍ້າຍປຸ່ມເພື່ອຮັບໂປໂມຊັ່ນ.
+  slot: ສະລັອດຕິງ
+  specialPromotion: ໂປໂມຊັ່ນພິເສດ
+  systemMatchPromotions: ໃນເວລາທີ່ເລືອກທີ່ຈະໄດ້ຮັບກຸ່ມຂອງໂປໂມຊັ່ນ ເມື່ອທ່ານຂຶ້ນ, ລະບົບຈະກົງກັບໂປໂມຊັ່ນໃນຫມວດຫມູ່. ທີ່ທ່ານເລືອກໂດຍອັດຕະໂນມັດ
+  topUpSystemAutomaticallyMatch: ໃນເວລາທີ່ການເພີ່ມເຕີມ ລະບົບດັ່ງກ່າວຈະກົງກັບໂປໂມຊັ່ນອັດຕະໂນມັດ.
+  turnOff: ປິດ
+  turnOn: ເປີດ
+  unableActivities: ບໍ່ສາມາດເຂົ້າຮ່ວມໃນກິດຈະກໍາຕ່າງໆເຊັ່ນການເກັບກໍາຈຸດທໍາມະດາ
+  viewAllCasino: ເບິ່ງໂປໂມຊັ່ນຄາສິໂນທັງຫມົດ
+  warning: ບອກເລົ່າ
+  youAcceptingPromotion: ທ່ານກໍາລັງຍອມຮັບໂປໂມຊັ່ນນີ້.
+  youReceviceProAnother: ທ່ານໄດ້ຮັບໂປໂມຊັ່ນອື່ນແລ້ວ.
+  youWantReceive: ທ່ານຕ້ອງການທີ່ຈະເລືອກເອົາ
+  youWantReceivePromotions: ທ່ານຕ້ອງການທີ່ຈະໄດ້ຮັບການສົ່ງເສີມ.
+  myPromotions: ໂປຣໂມຊັນຂອງຂ້ອຍ
+  promotionStatus: ສະຖານະໂປຣໂມຊັນ
+  receiveAutomaticPromotions: ຮັບໂປຣໂມຊັນອັດຕະໂນມັດ
+  notReceivingPromotions: ບໍ່ຮັບໂປຣໂມຊັນ
+  automaticPromotionInfo: ຂໍ້ມູນໂປຣໂມຊັນອັດຕະໂນມັດ
+  promotionName: ຊື່ໂປຣໂມຊັນ
+  requiredAmount: ຈຳນວນທີ່ຕ້ອງການ
+  complete: ສຳເລັດ
+  promotionDetails: ລາຍລະອຽດໂປຣໂມຊັນ
+  promotionType: ປະເພດໂປຣໂມຊັນ
+  requirements: ຄຳຮ້ອງຂໍ
+  defaultRequirements: ຄຳຮ້ອງຂໍເລີ່ມຕົ້ນ
+  bonusAmount: ຈຳນວນໂບນັດ
+  noActivePromotion: ບໍ່ມີໂປຣໂມຊັນທີ່ເຮັດວຽກ
+  wantToReceivePromotions: ຕ້ອງການຮັບໂປຣໂມຊັນ
+  enablePromotions: ເປີດໃຊ້ງານໂປຣໂມຊັນ
+  updating: ກຳລັງອັບເດດ
+  promotionsDisabled: ໂປຣໂມຊັນຖືກປິດ
+  promotionsEnabled: ໂປຣໂມຊັນເປີດໃຊ້ງານ
+  toggleError: ຂໍ້ຜິດພາດການສະຫຼັບ
+  depositBonus: ໂບນັດຝາກເງິນ
+  cashback: ຄືນເງິນ
+  freeCredit: ເຄຣດິດຟຣີ
+qrCodeBank: Deposit through (QR Code)
+randomPrize:
+  earn: ຮັບລາງວັນ}
+  justPlayGame: ພຽງແຕ່ຫລິ້ນເກມໃດກໍ່ໄດ້ຢ່າງຕໍ່ເນື່ອງ. ຜູ້ຫຼິ້ນຍັງມີໂອກາດທີ່ຈະໄດ້ຮັບລາງວັນແບບສຸ່ມທີ່ສູງທີ່ສຸດ. {ຈໍານວນ} {ປະເພດ}
+  max: '{ຈໍານວນ}'
+  minimum: ຕ່ໍາ {ຈໍານວນ}
+  noHaveRandomHistory: ບໍ່ມີປະຫວັດການສຸ່ມ
+  randomFreePrizes: ລາງວັນແບບສຸ່ມຟຣີ
+  randomHistory: ປະຫວັດແບບສຸ່ມ
+  randomPrize: ລາງວັນແບບສຸ່ມ
+rank:
+  cash: ເງິນສົດ
+  mostPlayer: ການຕື່ມຂໍ້ມູນເທິງສຸດ
+  remarks: ຫມາຍ​ເຫດ​
+  reward: ລາງ​ວັນ
+  roundResult: ຜົນໄດ້ຮັບປະຈໍາວັນ
+  sortedAmount: ຈັດລຽງຈາກຈໍານວນເງິນທີ່ຖືກເພີ່ມເຂົ້າໃນລະບົບ
+  things: ສິ່ງ​ຂອງ
+  topRankedPlayer: ຕິດອັນດັບເທິງ
+ranking:
+  things: ສິ່ງ​ຂອງ
+  title: ''
+referral:
+  InviteFriendsBonuses: ເຊີນເພື່ອນມາຮັບເງິນ
+  InviteFriendsDesc1: |-
+    When friends apply
+    Top up and receive promotions
+    You will receive credit {value}%.
+  InviteFriendsDesc2: |-
+    When friends apply and top up
+    You will receive credit {value}%.
+  InviteFriendsDesc3: From the first top -up of a minimum friend {minimum} baht
+  InviteFriendsDesc4: Maximum {limit} Credit
+  InviteFriendsDesc5: Income will immediately enter the credit bag.
+  YouReferralLink: ເຊື່ອມໂຍງການເຊື້ອເຊີນເພື່ອນ
+  commissionEarned: The commission received
+  copy: ''
+  copyLink: ສໍາເນົາລິ້ງ
+  currentIncome: Current income
+  description: ''
+  friendInviteHistory: ''
+  inviteFriendsDesc3: ຈາກການເລີ່ມຕົ້ນຄັ້ງທໍາອິດຂອງເພື່ອນທີ່ຕ່ໍາສຸດ {ຕ່ໍາສຸດ} ເງິນບາດ
+  inviteFriendsDesc4: '{ຈໍາກັດ} ເຄດິດ'
+  inviteFriendsDesc5: ລາຍໄດ້ຈະໃສ່ກະເປົາສິນເຊື່ອທັນທີ.
+  inviteFriendsStepsOne: ສໍາເນົາລິ້ງໃຫ້ຫມູ່.
+  inviteFriendsStepsThree: ''
+  inviteFriendsStepsTwo: ລໍຖ້າໃຫ້ຫມູ່ເພື່ອນສະຫມັກແລະດ້ານເທິງ ທ່ານຈະໄດ້ຮັບສິນເຊື່ອ {ມູນຄ່າ}%.
+  inviteFriendsToRarn: ເຊີນເພື່ອນມາຮັບເອົາລາຍໄດ້
+  link: ''
+  received: ''
+  receivedHistory: ປະຫວັດການກົດດັນ
+  rewards: ''
+  share: ''
+  shareYouReferralLink: ເຊື່ອມໂຍງການເຊື້ອເຊີນເພື່ອນ
+  terms: ''
+  title: ''
+  totalFriends: ''
+register:
+  acceptTermsConditions: ຂ້ອຍຍອມຮັບທຸກເງື່ອນໄຂແລະຂໍ້ຕົກລົງ.
+  accountSuccessfully: ສ້າງບັນຊີຢ່າງສໍາເລັດຜົນ!
+  bank: ທະນາຄານ
+  bankAccountNumber: ເລກບັນຊີທະນາຄານ
+  birthday: ວັນເກີດ
+  birthdayOptional: ວັນເກີດ (ບໍ່ແມ່ນຜົນບັງຄັບໃຊ້)
+  choose: ເລືອກ
+  conditionsFive: 5) 1 ສະມາຊິກຕໍ່ 1 ບັດປະຈໍາຕົວເທົ່ານັ້ນ. ໃນກໍລະນີທີ່ມີຫລາຍໂປແກຼມ, ພວກເຮົາຈະສະຫງວນສິດໃນການຖອນທຸກກໍລະນີ.
+  conditionsFour: 4) ຖ້າຄວາມຜິດພາດຂອງລະບົບເກີດຂື້ນ ເພື່ອແຈ້ງໃຫ້ພະນັກງານຊາບທັນທີ ໃນກໍລະນີທີ່ພວກເຮົາບໍ່ໄດ້ແຈ້ງໃຫ້ຊາບ, ພວກເຮົາສະຫງວນສິດໃນການຖອນເງິນໃນທຸກກໍລະນີ.
+  conditionsOne: 1) ເບີໂທລະສັບທີ່ໃຊ້ໃນການຮັບຂໍ້ຄວາມ ເພາະວ່າລະບົບຕ້ອງສົ່ງລະຫັດຢືນຢັນໃສ່ເບີໂທລະສັບຂອງທ່ານ ຖ້າບໍ່ດັ່ງນັ້ນມັນຈະບໍ່ສາມາດເຮັດທຸລະກໍາຕ່າງໆໄດ້.
+  conditionsRegister: ເງື່ອນໄຂແລະເງື່ອນໄຂຂອງການສະຫມັກ
+  conditionsThree: 3) ຕ້ອງໃຊ້ບັນຊີທີ່ນໍາໃຊ້ກັບເງິນຝາກເທົ່ານັ້ນ
+  conditionsTwo: 2) ຊື່ -surname ຕ້ອງກົງກັບຊື່ບັນຊີ ຖ້າບໍ່ດັ່ງນັ້ນທ່ານຈະບໍ່ສາມາດຖອນເງິນໄດ້.
+  confirmOTP: ຢືນຢັນລະຫັດ otp
+  enterAccountNumberMatch: ຕື່ມຂໍ້ມູນໃສ່ເລກບັນຊີເພື່ອໃຫ້ກົງກັບຊື່ຂອງຜູ້ສະຫມັກ.
+  enterRecommendedFriend: ໃສ່ລະຫັດເພື່ອນທີ່ແນະນໍາ. ໄດ້ຮັບການປ່ອຍສິນເຊື່ອໂດຍບໍ່ເສຍຄ່າ
+  fillIn: ຕື່ມຂໍ້ມູນໃສ່ໃນຂໍ້ມູນ
+  fillInLastName: ຕື່ມຂໍ້ມູນໃສ່ໃນນາມສະກຸນ
+  fillInName: ໃສ່ຊື່
+  fillPhone: ຕື່ມຂໍ້ມູນໃສ່ໃນເບີໂທລະສັບ
+  fillPhoneFight: ຕື່ມຂໍ້ມູນໃສ່ຈໍານວນຄໍາສັບໃຫ້ຖືກຕ້ອງ ({ຈໍານວນ}
+  fillPhoneGetOTP: ກະລຸນາຕື່ມຂໍ້ມູນໃສ່ເບີໂທລະສັບເພື່ອຮັບລະຫັດຢືນຢັນ otp.
+  friendRecommended: ເພື່ອນທີ່ແນະນໍາ
+  getOTP: otp
+  knowUs: ບອກພວກເຮົາວ່າພວກເຮົາຮູ້ຈັກພວກເຮົາຈາກໃສ?
+  lastStep: ຂັ້ນຕອນສຸດທ້າຍ!
+  lineOptional: id id (ຖ້າມີ)
+  loginNow: ເຂົ້າສູ່ລະບົບທັນທີ
+  middlename: ຊື່ກາງ
+  miss: ຄິດຮອດ
+  mr: ທ້າວ.
+  mrs: ນາງ.
+  name: ຊື່
+  or: ຫຼື
+  password: ລະຫັດຜ່ານ
+  pinCode: ລະຫັດ pin
+  pinCodeNotMatch: ''
+  pleaseEnterSixDigit: ກະລຸນາໃສ່ເລກລະຫັດ 6 -digit ທີ່ທ່ານໄດ້ຮັບ.
+  pleaseFilInformation: ກະລຸນາຕື່ມຂໍ້ມູນໃສ່ຂໍ້ມູນຂອງທ່ານເພື່ອສະຫມັກເຂົ້າເປັນສະມາຊິກ.
+  pleaseRemember: ກະລຸນາຈື່ຫຼືບັນທຶກຫນ້າຈໍຂອງທ່ານ.
+  pleaseSelectChannel: ກະລຸນາເລືອກຊ່ອງທາງ
+  pleaseSetPin: ກະລຸນາຕັ້ງລະຫັດ pin 4 -digit ທີ່ຈະໃຊ້ໃນລະບົບ.
+  plsClickRecaptcha: ກະລຸນາກົດເພື່ອຢືນຢັນ recaptcha ເພື່ອຄວາມປອດໄພ.
+  plsEnterLeast: ກະລຸນາຕື່ມໃສ່ຢ່າງຫນ້ອຍ
+  plsInputInforLeast: ກະລຸນາຕື່ມຂໍ້ມູນໃສ່ຕົວເລກທີ່ບໍ່ເກີນ {max} ຕົວອັກສອນ.
+  plsInputInforNine: ກະລຸນາຕື່ມຂໍ້ມູນໃສ່ຕົວເລກຈໍານວນຫນຶ່ງ.
+  plsInputInforTen: ກະລຸນາຕື່ມຈໍານວນຫນ້ອຍຫນຶ່ງຂອງຕົວເລກ.} ຕົວອັກສອນ.
+  plsInputName: ຕື່ມຂໍ້ມູນຊື່ຂໍ້ມູນຊື່ຢ່າງຫນ້ອຍ 2 ໂຕອັກສອນ.
+  plsInputNumber: ກະລຸນາຕື່ມຂໍ້ມູນໃສ່ໃນຕົວເລກ.
+  plsInputPhoneComplate: ກະລຸນາຕື່ມຂໍ້ມູນໃສ່ເບີໂທລະສັບ.
+  plsInputPhoneReciveOtp: ກະລຸນາຕື່ມຈໍານວນທີ່ໃຊ້ໃນການຮັບລະຫັດຢືນຢັນ otp.
+  plsInputSureName: ຕື່ມຂໍ້ມູນໃສ່ຂໍ້ມູນນາມສະກຸນສຸດທ້າຍ.
+  plsLineInput: ກະລຸນາຕື່ມຂໍ້ມູນໃສ່ລະຫັດ id.
+  prefixName: ຊື່ prefix
+  qrcode: ລະຫັດຈາກ qr code
+  record: ບັນທຶກ
+  referralCode: ລະຫັດເພື່ອນທີ່ແນະນໍາໃຫ້ (ຖ້າມີ)
+  resendCode: ສົ່ງລະຫັດອີກຄັ້ງ
+  resendCodeTime: ສົ່ງລະຫັດອີກຄັ້ງ
+  scanBank: ວ່ອງໄວ
+  setPinCode: ກໍານົດລະຫັດ pin
+  surname: ນາມສະກຸນ
+  telephoneNumber: ເບີ​ໂທລະ​ສັບ
+  userAccount: ບັນຊີຜູ້ໃຊ້ (ຊື່ຜູ້ໃຊ້)
+  validateAllFields: ກະລຸນາຕື່ມຂໍ້ມູນໃສ່ຂໍ້ມູນຢ່າງຖືກຕ້ອງ.
+registermethod: Please choose how to apply.
+regularDeposit:
+  a2zCheckPayment: ຢືນຢັນດ້ານເທິງ
+  a2zPending: ຢືນຢັນດ້ານເທິງ
+  a2zPrompt1: ເມື່ອໂອນ ກະລຸນາກົດຢືນຢັນພຽງແຕ່ "ຄັ້ງດຽວ"
+  a2zPrompt2: ກະລຸນາຢ່າບັນທຶກບັນຊີທະນາຄານນີ້.
+  accumulateConsecutiveDay: ສະສົມຕາມຈໍານວນເງິນທີ່ທ່ານໄດ້ເລືອກຢ່າງຕໍ່ເນື່ອງໂດຍອີງຕາມຈໍານວນມື້ທີ່ກໍານົດທຸກໆມື້.
+  appeaseFillingLine: pamper ສາຍການຕື່ມ! ສະສົມວັນທີເງິນຝາກເພື່ອຮັບລາງວັນ
+  cause: ກະລຸນາຄັດລອກເລກບັນຊີເພື່ອໂອນເງິນຂອງທ່ານ
+  cause1: ກະລຸນາຄັດລອກເລກບັນຊີ. ສໍາລັບທ່ານທີ່ຈະໂອນເຂົ້າ ທ່ານຕ້ອງໂອນເງິນໃຫ້ຈໍານວນເງິນທີ່ລະບົບສະແດງໃຫ້ເຫັນເທົ່ານັ້ນ.
+  chooseDays: ເລືອກຈໍານວນມື້
+  condition: ສະພາບ
+  countWillStart: ຖ້າບໍ່ຕໍ່ເນື່ອງ, ຈະເລີ່ມຕົ້ນໃຫມ່
+  dailyTopUp: ເນືେໆ
+  date: ວັນທີ {ວັນທີ}
+  day: '{ມື້}'
+  deposit: ຝາກເງິນ
+  depositAccordingRedeemBonus: ສະສົມຕາມຈໍານວນເງິນທີ່ທ່ານໄດ້ເລືອກຢ່າງຕໍ່ເນື່ອງເມື່ອຝາກຈໍານວນວັນທີທີ່ກໍານົດຈະແລກປ່ຽນເງິນໂບນັດທັນທີ.
+  depositAccumulatedAccording: ສະສົມຕາມຈໍານວນວັນທີ່ກໍານົດໄວ້
+  depositAmount: ຝາກເງິນ
+  depositComplete: ສົມບູນ
+  depositGetUnlimited: ພຽງແຕ່ເງິນຝາກເປັນປະຈໍາ, ໃຫ້ໄດ້ຮັບສິນເຊື່ອຟຣີທີ່ບໍ່ຈໍາກັດ!
+  depositNotConsecutive: ຖ້າບໍ່ຕິດຕໍ່, ລະບົບຈະເລີ່ມນັບເງິນຝາກໃຫມ່.
+  details: ລາຍລະອຽດ
+  dialog: ''
+  earn: ຮັບລາງວັນ}
+  fixedDeposit: ອອກຈາກຮູບທາງເທິງ
+  fixedDepositDetails: ລາຍລະອຽດການຝາກເງິນເປັນປະຈໍາ
+  getCredit: ໄດ້ຮັບສິນເຊື່ອ
+  getRewarded: ແພ້
+  highestAward: ໄດ້ຮັບລາງວັນສູງສຸດທີ່ໄດ້ຮັບ
+  justPlayGames: ພຽງແຕ່ຫຼີ້ນເກມ slots ໃສ່ດ້ານເທິງທີ່ລະບຸ. ໄດ້ຮັບການປ່ອຍສິນເຊື່ອຟຣີບໍ່ຈໍາກັດ!
+  keepDepositing: ເງິນຝາກຢ່າງຕໍ່ເນື່ອງເພື່ອຮັບເງິນທີ່ຕ້ອງການ
+  makeTurnClaim: ຕ້ອງການຜະລິດຄາສິໂນ {casinoturn} ແລະສະລັອດຕິງ {sottorturn} ທີ່ຈະໄດ້ຮັບໂບນັດ.
+  note: ຫມາຍ​ເຫດ​
+  numberOfDays: ຈໍານວນ
+  outOfTime: ຫມົດເວລາ
+  outOfTimePayment: ເວລາການຈ່າຍເງິນ
+  playSlotGames: ຫຼິ້ນເກມສະລັອດຕິງ
+  receiveFixedDeposit: ທ່ານຕ້ອງການທີ່ຈະໄດ້ຮັບລາງວັນຈາກເງິນຝາກເປັນປະຈໍາ.
+  received: ໄດ້ຮັບ
+  receivedBonus: ເງິນໂບນັດໄດ້ຮັບ
+  receivedCredit: ໄດ້ຮັບສິນເຊື່ອ
+  receivedCreditFree: ໄດ້ຮັບເຄດິດຟຣີ
+  receivedDiamond: ຮັບເພັດ
+  redeemBonus: ສາມາດແລກປ່ຽນໂບນັດໄດ້ທັນທີ
+  specifiedDays: ຈໍານວນວັນທີ
+  startAccumulatingAgain: ເມື່ອກົດທີ່ໄດ້ຮັບລາງວັນນີ້, ລາງວັນຈະເລີ່ມສະສົມ.
+  when: ເມື່ອ​ໃດ​
+  whenReceivingBonus: ເມື່ອກົດທີ່ໂບນັດ, ມັນຈະຖືກພິຈາລະນາໃນຕອນທ້າຍຂອງເງິນຝາກ. ແລະສາມາດເລີ່ມຕົ້ນໄດ້ຮັບໂບນັດໃຫມ່ໃນມື້ຕໍ່ມາ
+  whenReceivingTransferredCredit: ເມື່ອໄດ້ຮັບເງິນໂບນັດ ສາມາດເລີ່ມຕົ້ນຝາກເງິນໃຫມ່ໄດ້ (ຈໍານວນເວລາບໍ່ຈໍາກັດ) ແລະເງິນໂບນັດນີ້ຈະຖືກໂອນເຂົ້າ ຖົງເຄດິດ
+selectBankAndnumber: '"Choose a bank account and fill the amount"'
+selectMethod: Choose a way to deposit
+serviceSurvey:
+  adminRating: ໃຫ້ admin
+  chooseWantTel: ເລືອກເລື່ອງທີ່ທ່ານຕ້ອງການບອກພວກເຮົາ.
+  fair: ພໍສົມຄວນ
+  good: ດີ
+  improveService: ພວກເຮົາຈະນໍາມາໃຫ້ປັບປຸງການບໍລິການ.
+  low: ການດັດແປງ
+  moderate: ພໍສົມຄວນ
+  selectAdmin: ກະລຸນາເລືອກ admin.
+  selectAdminEvaluating: ກະລຸນາເລືອກ admin ກ່ອນທີ່ຈະເຮັດການປະເມີນຜົນ.
+  sorryOpen: ຂໍໂທດ, ບໍ່ເປີດໃຫ້ປະເມີນຜູ້ເບິ່ງແຍງລະບົບ.
+  suggestion: ຄໍາແນະນໍາ
+  telMeExperience: ອະທິບາຍປະສົບການທີ່ທ່ານໄດ້ຮັບກັບພວກເຮົາ.
+  thanksSuggestion: ຂອບໃຈສໍາລັບຄໍາແນະນໍາ
+  veryGood: ດີ​ຫຼາຍ
+shareFacebook:
+  referralLink: ລິ້ງອ້າງອີງ
+  shareLinks: ແບ່ງປັນການເຊື່ອມຕໍ່ກັບສື່ສັງຄົມຂອງທ່ານ. ແລະອັບໂຫລດຮູບໂດຍບໍ່ເສຍຄ່າທັນທີ!
+  socialShare: ແບ່ງປັນສື່ສັງຄົມ
+  uploadPictures: ອັບໂຫລດຮູບພາບທີ່ນີ້.
+showTurnPromotion:
+  makeAnotherTurn: ຕ້ອງເຮັດອີກຄັ້ງຫນຶ່ງ
+  makeTurnCanWithdrawn: ທ່ານຕ້ອງເຮັດ "ເພີ່ມເຕີມ" ຫຼື "ເທົ່າກັບ" {ຂໍ້ຄວາມ}}}} {ເງິນ} ທີ່ຈະສາມາດຖອນໄດ້.
+  noTurnover: ບໍ່ຈໍາເປັນຕ້ອງເຮັດ
+  promotionName: ຊື່ໂປໂມຊັ່ນ
+  turnMustMade: ໄລຍະທີ່ຕ້ອງໄດ້ເຮັດ
+  turnoverAmount: ຜຽນ
+sidebar:
+  chooseContactAdmin: ເລືອກວິທີການຕິດຕໍ່ admin.
+  contactAdmin: ຕິດຕໍ່ admin
+  deposit: ''
+  enterWebSite: ໃສ່ເວບໄຊທ໌
+  favorites: ''
+  games: ''
+  history: ''
+  home: ''
+  logout: ອອກຈາກລະບົບ
+  profile: ''
+  promotions: ''
+  recentlyPlayed: ''
+  seeProfile: ເບິ່ງໂປຼໄຟລ໌
+  settingScreen: ຕັ້ງຄ່າການສະແດງ
+  settings: ''
+  support: ''
+  wallet: ''
+  withdraw: ''
+slip:
+  clipCheckSlip: When transferring money, please do "upload slip" here.
+  contactAdmin: |-
+    If unable to upload the slip
+    Please contact the admin.
+  dragSlip: Drag your file here or click on the picture.
+  error: Unable to use a slip photo
+  errorMin: The amount of money you want to top up is less than the minimum.
+  history: History of uploading slip
+  plsSelectBank: Please select a bank
+  slip: Slip
+  slipComplete: |-
+    Completed uploading slip
+    The system is top -up.
+  slipOnly: The file slip only
+  upload: Please upload
+  uploadSlip: Upload slip
+slipSystem: Deposit uploading slip
+specialCommission:
+  calculation: ''
+  desc1: ພຽງແຕ່ເຮັດສະຫນາມອີງຕາມກົດລະບຽບທີ່ໄດ້ກໍານົດໄວ້. ສາມາດໄດ້ຮັບສິນເຊື່ອຟຣີ!
+  description: ''
+  dialogTitle: ຮັບຄະດີ
+  eligibility: ''
+  payment: ''
+  period: ''
+  rate: ''
+  selectType: ກະລຸນາເລືອກຊ່ອງທາງຂອງຄະນະກໍາມະການ.
+  terms: ''
+  title: ''
+  warnText: ທ່ານຕ້ອງການທີ່ຈະໄດ້ຮັບຄະນະກໍາມະການທັງຫມົດ.
+spicificAmountTransfer: Transfer money according to the amount shown without rounded.
+status:
+  approved: ອະນຸມັດ
+  approvedDone: ອະນຸມັດ
+  disapproved: ອະນິດທີ
+  noTopup: ບໍ່ແມ່ນດ້ານເທິງ
+  pending: ລໍຖ້າການກະທໍາ
+  received: ໄດ້ຮັບ
+  receivedCom: ໄດ້ຮັບ
+teir:
+  birthdayReward: ເດືອນຣຸນ
+  congratulations: ຂໍສະແດງຄວາມຍິນດີທີ່ທ່ານຢູ່ໃນລະດັບສູງສຸດ!
+  detailsVip: ລາຍລະອຽດລະດັບ vip ທັງຫມົດ
+  earn: ໄດ້ຮັບການ {ລາງວັນ} {ປະເພດ}
+  levelsReset: ລະບົບດັ່ງກ່າວຈະຕັ້ງລະດັບທັງຫມົດຄືນໃຫມ່ໃນມື້.
+  myReward: ລາງວັນຂອງຂ້ອຍ
+  privilege: ສິດທິໃນລະດັບ
+  promotionRewards: ລາງວັນສົ່ງເສີມ vip
+  reward: ລາງ​ວັນ
+  specialPrize: ລາງວັນພິເສດ
+  topUp: ຕື່ມຂໍ້ມູນ
+  turnOver: ກໍ່ສ້າງ
+  type: ປະເພດ
+  unlocked: ປົດລັອກໃນລະດັບ
+  upgradeReward: ລາງວັນ
+tier:
+  LatestTenItems: (10 ລາຍການຫຼ້າສຸດ)
+  all: ທັງໝົດ
+  benefits: ''
+  colse: ປິດ
+  condetion: ເງື່ອນໄຂ
+  congratulationsHighestLevel: ຍິນດີດ້ວຍ! ທ່ານຢູ່ລະດັບສູງສຸດແລ້ວ
+  count: ຈຳນວນ
+  credit: ເຄຣດິດ
+  creditFree: ເຄຣດິດຟຣີ
+  creditGame: ເຄຣດິດໃນເກມ
+  current: ''
+  deposit: ຈຳນວນເຕີມ
+  description: ''
+  diamond: ເພັດ
+  forgame: ເກມ
+  freeSpin: ຫມຸນຟຣີ
+  freespin: ຫມຸນຟຣີ
+  from: ຈາກ
+  game: ເກມ
+  get: ໄດ້ຮັບ
+  getFreeSpinsGameRewards: ຕ້ອງການຮັບລາງວັນ ຫມຸນຟຣີ ເກມ
+  getPanner: ຈາກຄ່າຍ
+  getReward: ເບິ່ງລາງວັນ
+  getRewarded: ຮັບລາງວັນ
+  hasNowShowEven: ປະຈຸບັນເວລາກິດຈະກຳໄດ້ສິ້ນສຸດແລ້ວ
+  history: ປະຫວັດສາດ
+  item: ຊິ້ນ
+  lastEvent: ເວລາກິດຈະກຳໄດ້ສິ້ນສຸດ
+  list: ລາຍການ
+  litsReward: ລາຍການລາງວັນ
+  makeTurn: ເຮັດເທີນ
+  marking: ຄະແນນ
+  mustBeCompleted: ຕ້ອງເຮັດໃຫ້ຄົບທັງສອງຢ່າງ
+  myReward: ລາງວັນຂອງຂ້ອຍ
+  next: ''
+  notHistory: ບໍ່ພົບລາຍການຮັບລາງວັນ
+  notReward: ບໍ່ມີລາງວັນ
+  notRewardList: ບໍ່ມີລາງວັນ
+  nvalidPrizeType: ປະເພດລາງວັນບໍ່ຖືກຕ້ອງ
+  oneThingMustBeDone: ຕ້ອງເຮັດໃຫ້ຄົບທັງສອງຢ່າງ
+  openBox: ສິດທິ໌ເປີດກ່ອງ
+  or: ຫຼືບໍ່
+  provider: ຄ່າຍ
+  reward: ລາງວັນ
+  rewardLeveUp: ລາງວັນອັບຂັ້ນ
+  rights: ສິດທິ໌
+  tierResetDate: ລະບົບຈະຣີເຊັດລະດັບທັງໝົດໃນວັນທີ
+  tierVipDetail: ລາຍລະອຽດລະດັບ VIP ທັງໝົດ
+  time: ຄັ້ງ
+  title: ''
+  topUp: ຈຳນວນເຕີມ
+  trunOver: ເທີນໂອເວີ
+  type: ປະເພດ
+  vipDetail: ລາຍລະອຽດ VIP
+  vipLevel: ລະດັບ VIP
+  wantToReceivePrize: ຕ້ອງການຮັບລາງວັນ
+  wheel: ສິດທິ໌ກົງລໍ້
+  wheelRights: ສິດທິ໌ເປີດວົງລໍ້
+  youConditionsIsChoose: ທ່ານສາມາດເລືອກເຮັດເງື່ອນໄຂຢ່າງໃດຢ່າງໜຶ່ງໄດ້
+  youConditionsIsChoose2: ຕ້ອງເຮັດໃຫ້ຄົບທັງຈຳນວນເຕີມ ແລະ ເທີນໂອເວີ
+  onlyEligibleToReceive: ສິດທິທີ່ຮັບໄດ້ເທົ່ານັ້ນ
+  specialOnly: ພິເສດເທົ່ານັ້ນ
+  youNotEligibleToReceive: ບໍ່ມີສິດຮັບໂປໂມຊັ່ນນີ້
+tips:
+  balance: ຄວາມດຸ່ນດ່ຽງເກມ
+  becauseMotivation: ເພາະວ່າທຸກໆການໃຫ້ຂອງການໃຫ້ຂອງທ່ານແມ່ນແຂງແຮງແລະໃຫ້ກໍາລັງໃຈໃນການພັດທະນາ ລະບົບຂອງພວກເຮົາແມ່ນດີກວ່າ. ຂອບໃຈສໍາລັບຄວາມເຂັ້ມແຂງທີ່ໄດ້ຮັບສະເຫມີໄປ.
+  depositTips: ''
+  generalTips: ''
+  give: ປາຍ
+  inputMoney: ລະບຸຫຼືເລືອກຈໍານວນເງິນ
+  minOneBaht: ຕ່ໍາສຸດ 1 ບາດ
+  promotionTips: ''
+  tellUs: ມີສິ່ງໃດແດ່ທີ່ຈະບອກພວກເຮົາ?
+  text: ຂໍ້ຄວາມ
+  tipsForLuv: ເພື່ອແນະນໍາລະບົບເພື່ອໃຫ້ກໍາລັງໃຈ
+  withdrawTips: ''
+tmw:
+  addAccount: Add True Wallet Account
+  addAccountComplete: Add True Money accounts successfully.
+  addAccountInfo: |-
+    *If unable to add accounts
+    Please contact the admin.
+  enerOtp: Enter the 6 digit code received.
+  enterTmwPhone: Fill out the phone number tied to True Wallet.
+  settingAccount: Set the True Money account.
+  topup: Top up via True Money Wallet
+treasureBox:
+  addRight: ເອົາສິດທິພິເສດ {ຈໍານວນ}
+  eligibilityConditions: ເງື່ອນໄຂສໍາລັບສິດທິພິເສດ
+  haveMinimumtopUp: ມີຈໍານວນເງິນທີ່ດີທີ່ສຸດຈາກ {ຕ່ໍາສຸດ} baht ຫຼືຫຼາຍກວ່ານັ້ນເພື່ອໃຫ້ໄດ້ຮັບ 1 ຄັ້ງ / ມື້
+  justPlayActivity: ພຽງແຕ່ຫລິ້ນກິດຈະກໍາກ່ອງທີ່ມ່ວນຊື່ນ.
+  minimumtopUp: ດ້ານເທິງຂັ້ນຕ່ໍາສຸດ} ແຕ່ບໍ່ເກີນ {ສູງສຸດ} ເງິນບາດ, ໃຫ້ໄດ້ຮັບສິດທິພິເສດ {ຈໍານວນ}
+  notAuthorized: ທ່ານບໍ່ມີສິດທີ່ຈະເປີດກ່ອງຢູ່ໃນທຸກ.
+  rightsOpen: ທ່ານມີສິດທີ່ຈະເປີດອີກຄັ້ງ.
+  tapBox: '"ແຕະທີ່ກ່ອງເພື່ອເປີດ"'
+  topUp: ສຸດຍອດ
+  topUpMinimumToMax: ຕ່ໍາສຸດ {ຕ່ໍາສຸດ} ແຕ່ບໍ່ເກີນ {ສູງສຸດ} baht
+  treasureBox: ເປີດຫ້ອງມ່ວນ
+  tryMoneyRightOpen: ລອງໃຊ້ດ້ານເທິງເພື່ອໃຫ້ໄດ້ສິດທີ່ຈະເປີດກ່ອງ!
+  winFreeCredit: ຊະນະເຄດິດຟຣີ ແລະລາງວັນອີກຫລາຍໆຢ່າງ!
+treasureBoxTurn:
+  haveRightToOpen: ທ່ານມີສິດທີ່ຈະເປີດກ່ອງ.
+  minimumTurnoverRequired: ມີມູນຄ່າຈາກ {ຕ່ໍາສຸດ} baht ຫຼືຫຼາຍກວ່ານັ້ນເພື່ອໃຫ້ໄດ້ຮັບເວລາ 1 ຄັ້ງ
+  receivedRewardToday: ມື້ນີ້ທ່ານໄດ້ຮັບລາງວັນແລ້ວ.
+  treasureBoxTurn: ເປີດການທ່ອງທ່ຽວຢູ່ເທິງຕູ້
+  tryPlayGameRightOpen: ລອງຫຼີ້ນເກມເພື່ອໃຫ້ໄດ້ສິດທີ່ຈະເປີດກ່ອງ!
+type:
+  arcade: ຄອມຄອມ
+  bigwin: ໄຊຊະນະໃຫຍ່
+  canNotPlayGame: ບໍ່ມີເກມລ້າສຸດທີ່ຈະຫລິ້ນ
+  casino: ຂ່ອຍ
+  casinoOnline: ຄາສິໂນ online
+  casinohit: ຕີຄາສິໂນ
+  challenge: ທ້າທາຍ
+  chooseDisplayFormat: ເລືອກຮູບແບບການສະແດງ.
+  cock: ''
+  crash: ການເອົາໃຈໃສ່
+  crypto: ຄໍາ່ອງ
+  desktopVersion: ລຸ້ນ desktop
+  favoriteGame: ເກມທີ່ມັກ
+  favorites: ສໍາໄກ່
+  feature: ຄຸນ​ນະ​ສົມ​ບັດ
+  findGame: ເກມຄົ້ນຫາ
+  fishing: ການຍິງປືນ
+  fishinghit: ຕີການຫາປາ
+  freespin: ຫມຸນຟຣີ
+  gameCamp: ເກມ
+  hitGame: ເກມທີ່ນິຍົມ
+  hits: ນິຍົມ
+  home: ຫນ້າຫຼັກ
+  lastPlayed: ການຫຼີ້ນລ້າສຸດ
+  letPlay: ພະຍາຍາມຫຼີ້ນ
+  loginFromAnother: ມີການເຂົ້າສູ່ລະບົບຈາກສະຖານທີ່ອື່ນໆ.
+  lotto: ການຈັບສະເດັດ
+  lottoOnline: littery ອອນໄລນ໌
+  mobileVersion: ລຸ້ນມືຖື
+  muay: ''
+  new: ໃຫມ່
+  newGame: ເກມ​ໃຫມ່
+  noFavoriteGame: ບໍ່ມີເກມທີ່ມັກ
+  onlineSport: ກິລາ online
+  other: ອື່ນ
+  pleaseLogin: ກະລຸນາເຂົ້າສູ່ລະບົບ
+  provider: ເກມ
+  providers: Gaming
+  pvp: ຕໍ່​ສູ້
+  saveYourFavorite: ພະຍາຍາມກົດໃສ່ມຸມຂວາຂອງເກມເພື່ອຊ່ວຍປະຢັດເກມທີ່ທ່ານມັກ.
+  slot: ສະລັອດຕິງ
+  slothit: ໂດນ
+  sport: ກິລາ
+  sportOnline: ກິລາ online
+  sporthit: ໂດນ
+  table: ບັດ
+  tableGames: ບັດ
+  tophit: ໂດນ
+  topten: ອັນດັບສິບ
+  upcoming: ບໍ່ດົນມານີ້
+unit:
+  baht: ''
+  bronze: ''
+  coin: ''
+  credit: ''
+  diamond: ''
+  dollar: ''
+  euro: ''
+  gold: ''
+  persons: person
+  point: ''
+  pound: ''
+  silver: ''
+  token: ''
+  yen: ''
+updatePhone:
+  conditionRecevice: ໄດ້ຮັບເງື່ອນໄຂ
+  condtionTopupMin: ຕ້ອງການສູງສຸດຕ່ໍາສຸດ {ເງິນ} baht ກ່ອນທີ່ຈະໄດ້ຮັບ ສິດທິໃນການເຂົ້າຮ່ວມໃນໂປໂມຊັ່ນນີ້
+  condtionTopupNoPrommotionMin: ຕ້ອງການສູງສຸດໂດຍບໍ່ໄດ້ຮັບສົ່ງເສີມຂັ້ນຕ່ໍາສຸດ {ເງິນ} baht ກ່ອນທີ່ຈະໄດ້ຮັບ ສິດທິໃນການເຂົ້າຮ່ວມໃນໂປໂມຊັ່ນນີ້
+  condtionTopupPrommotionMin: ຕ້ອງການທີ່ຈະສູງສຸດການສົ່ງເສີມຂັ້ນຕ່ໍາສຸດ {ເງິນ} baht ກ່ອນທີ່ຈະໄດ້ຮັບ ສິດທິໃນການເຂົ້າຮ່ວມໃນໂປໂມຊັ່ນນີ້
+  confirm: ''
+  current: ''
+  description: ''
+  descritoionForPromotion: ພຽງແຕ່ອັບເດດເບີໂທລະສັບແລະຕື່ມຂໍ້ມູນໃສ່ລະຫັດ otp ຂະຫນາດ 6 -digit otp ທີ່ໄດ້ຮັບ. ໄດ້ຮັບການປ່ອຍສິນເຊື່ອໃນທັນທີ ສາມາດເບິ່ງເງື່ອນໄຂສໍາລັບການປ່ອຍສິນເຊື່ອຂ້າງລຸ່ມນີ້
+  exPhone: 'ເຊັ່ນ: 089-99999-9999'
+  inPutOtp: ໃສ່ລະຫັດ otp ຂະຫນາດ 6 -digit.
+  inputPhone: ໃສ່ເບີໂທທີ່ບໍ່ເສຍຄ່າ!
+  makeTurnTwo: ເຮັດໃຫ້ສະລັອດຕິງ {ສິນເຊື່ອ} ຢ່າງເທົ່າທຽມກັນແລະເຮັດໃຫ້ຄາສິໂນຫັນ {ຄາສິໂນ}
+  new: ''
+  onePhoneOneRight: 1 ຈໍານວນແມ່ນມີສິດທີ່ຈະຍອມຮັບພຽງແຕ່ 1 ຄັ້ງເທົ່ານັ້ນ
+  otp: ''
+  receviceSuccess: ໄດ້ຮັບ {} {typecredit}
+  sendAgine: ສົ່ງອີກເທື່ອຫນຶ່ງໃນ
+  success: ''
+  title: ''
+  updatePhoneFree: ປັບປຸງເບີໂທເຄດິດຟຣີ
+  userAddReward: ຜູ້ນຈະໄດ້ຮັບລາງວັນດັ່ງທີ່
+useRegisterdBank: Use accounts that apply for money via bank.
+validate:
+  EMAIL: ຮູບແບບອີເມວແມ່ນບໍ່ຖືກຕ້ອງ.
+  ISMATCH: ລະຫັດຜ່ານບໍ່ກົງກັນ.
+  MAXLENGTH: ກະລຸນາໃສ່ຕົວອັກສອນຢ່າງຫນ້ອຍ {ສູງສຸດ}
+  MINLENGTH: ກະລຸນາໃສ່ຕົວອັກສອນຢ່າງຫນ້ອຍ {ນາທີ}
+  NOTTEXT: ຢ່າປະກອບຂໍ້ຄວາມ.
+  NOTTHAI: ຢ່າຕື່ມໃສ່ຕົວອັກສອນໄທ.
+  NUMBER: ຕ້ອງເປັນຕົວເລກເທົ່ານັ້ນ
+  PHONE: ຮູບແບບເບີໂທລະສັບບໍ່ຖືກຕ້ອງ.
+  REQUIRED: ກະລຸນາຕື່ມໃສ່
+  WHITESPACE: ຢ່າເຮັດຊ່ອງ
+  alpha: ''
+  alphaNum: ''
+  email: ''
+  max: ''
+  min: ''
+  numeric: ''
+  required: ''
+vipDetail: ''
+warnPay:
+  cancel: ''
+  confirm: ''
+  description: ''
+  text1: ກະລຸນາໂອນເງິນຕາມລາຍງານແລະ
+  text10: ເຮັດທຸລະກໍາພາຍໃນເວລາທີ່ກໍານົດ
+  text11: ກັບບັນຊີທີ່ລົງທະບຽນ ພຽງ​ແຕ່​ຄັ້ງ​ດຽວ
+  text12: ຖ້າການໂອນຍ້າຍບໍ່ຮັບຜິດຊອບຕໍ່ທຸກໆກໍລະນີ
+  text2: ໂອນໄດ້ພຽງຄັ້ງດຽວ
+  text3: ຖ້າໂອນຫຼືສະແກນຊ້ໍາອີກ ຫຼືໃຊ້ບັນຊີທີ່ບໍ່ໄດ້ລົງທະບຽນ, ພວກເຮົາຈະ
+  text4: ບໍ່ຮັບຜິດຊອບຕໍ່ທຸກໆກໍລະນີ
+  text5: ຫລັງຈາກສ້າງຄໍາຮ້ອງຂໍເງິນຝາກ
+  text6: ທ່ານມີເວລາ 6 ນາທີ.
+  text7: ຝາກ ຖ້າທ່ານບໍ່ຝາກເງິນພາຍໃນເວລາທີ່ກໍານົດ ຕ້ອງສົຄໍາຮ້ອງຂໍໃຫມ່
+  text8: ໂອນພຽງແຕ່ຄັ້ງດຽວອີງຕາມຈໍານວນເງິນທີ່ໄດ້ຮັບແຈ້ງ. ຢ່າໂອນຄືນເລື້ອຍໆ.
+  text9: ກະລຸນາ
+  title: ''
+withdraw:
+  alertErrorCode426: ລະບົບການຖອນເງິນແມ່ນປິດຊົ່ວຄາວ. ກະລຸນາເບິ່ງອີກຄັ້ງໃນພາຍຫຼັງ.
+  alertErrorCode428: ການປ່ອຍສິນເຊື່ອຂອງທ່ານແມ່ນຫນ້ອຍກ່ວາຕ່ໍາສຸດທີ່ສາມາດຖອນໄດ້.
+  alertErrorCode429: ບໍ່ສາມາດຖອນເງິນໄດ້ດຽວນີ້. ກະລຸນາລໍຖ້າ 1 - 2 ນາທີ.
+  alertErrorCode430: ບໍ່ສາມາດຖອນໄດ້ເພາະວ່າດຽວນີ້ທ່ານມີໂປແກຼມຖອນເງິນແລ້ວ
+  alertErrorCode432: ການປ່ອຍສິນເຊື່ອທີ່ທ່ານຕ້ອງການທີ່ຈະຖອນຕ້ອງມີຫຼາຍຫຼືເທົ່າກັບ {num}.
+  alertErrorCode445: ບໍ່ສາມາດທີ່ຈະຖອນເງິນ ເນື່ອງຈາກຈໍານວນການເດີມພັນ
+  amountYesNo: ຈໍານວນ {ເງິນ} ແມ່ນບໍ?
+  deductBonus: ເບັ້ຽບໍາເຫນັດ
+  disapprovedCreditReturned: ບໍ່ອະນຸມັດ (ສິນເຊື່ອກັບຄືນ)
+  disapprovedDeductingCredit: ບໍ່ໄດ້ຮັບການອະນຸມັດ (ຕັດສິນເຊື່ອ)
+  disapprovedIllegalPlay: ບໍ່ໄດ້ຮັບການອະນຸມັດ (ລະເມີດກົດລະບຽບ)
+  fundsTransferredBack: ຟື້ນຟູ (ການຫຼີ້ນທີ່ຜິດກົດຫມາຍ)
+  lastestTransaction: 5 ລາຍການລ້າສຸດ
+  minimumWithdrawal: ການຖອນເງິນຂັ້ນຕ່ໍາ
+  pending: ລໍຖ້າການກະທໍາ
+  succeed: ປະສົບ
+  trueDialog1: ທ່ານຕ້ອງການທີ່ຈະຖອນເງິນເຂົ້າໃນກະເປົາເງິນທີ່ແທ້ຈິງ, ແມ່ນບໍ?
+  trueDialog2: ຖອນເງິນເຂົ້າໄປໃນກະເປົາເງິນທີ່ແທ້ຈິງ. ຕົວເລກຕ້ອງກົງກັບທະບຽນ.
+  trueDialog3: ຖ້າຕົວເລກບໍ່ກົງກັບການລົງທະບຽນ, ຕິດຕໍ່ຫາ admin
+  trueDialog4: ເພື່ອປັບປຸງຕົວເລກໃຫມ່
+  trueDialog5: ລະບົບດັ່ງກ່າວຈະຖອນຈໍານວນການພົວພັນທີ່ມີພຽງແຕ່ 0, ເຊັ່ນວ່າ 100
+  wantWithdraw: ຕ້ອງການຖອນເງິນ
+  withdraw: ຖົກຖອນ
+  withdrawWith: ຖອນເງິນຜ່ານ {type}
+  withdrawableAmount: ຈໍານວນເງິນຂອງການຖອນ
+  withdrawalHistory: ປະຫວັດຄວາມເປັນມາຂອງການຖອນເງິນ
+withdrawHistory: History of withdrawal
+အကြွေးလက်ခံရရှိခဲ့သည်: ໄດ້ຮັບການປ່ອຍສິນເຊື່ອ
+cashback4step:
+  title: ຄືນຍອດເສຍ 4 ຂັ້ນ
+  getMoney: ຮັບເງິນ
+  wallet: ກະເປົາເງິນ
+  creditFree: ກະເປົາເງິນຟຣີເຄຣດິດ
+  subtitleDetailRewad: ເມື່ອກົດຮັບເງິນ ເງິນຈະເຂົ້າກະເປົາເງິນຂອງທ່ານ ແລະສາມາດໃຊ້ງານໄດ້ທັນທີ
+  detailModalRewad: ເມື່ອກົດຮັບເງິນ ເງິນຈະເຂົ້າກະເປົາເງິນຟຣີເຄຣດິດ ສາມາດໃຊ້ໄດ້ເມື່ອໂອນຟຣີເຄຣດິດແລ້ວ
+  waysReward: ວິທີຮັບລາງວັນ
+  selectReward: ກະລຸນາເລືອກວິທີຮັບລາງວັນ
+oneDepost:
+  oneBankCardDetail1: ລະບົບຈະສຸ່ມບັນຊີທຸກຄັ້ງ
+  oneBankCardDetail2: ຫ້າມບັນທຶກເລກບັນຊີໂດຍເລັດ
+  oneBankCardDetail3: ຖ້າບໍ່ປະຕິບັດ, ລະບົບຈະບໍ່ເພີ່ມເງິນໃຫ້ໂດຍອັດຕະໂນມັດ
+ui:
+  homePage: ໜ້າຫຼັກ
+  activity: ກິດຈະກຳ
+  promotion: ໂປຣໂມຊັນ
+  profile: ໂປຣໄຟລ໌
+  refresh: ໂຫຼດໃໝ່
+  contactAdmin: ຕິດຕໍ່ຜູ້ດູແລ
+  topUp: ເຕີມເງິນ
+  receiveCredit: ຮັບເຄຣດິດ
+  searchGameHere: ຊອກຫາເກມທີ່ນີ້
+  enterWalletAddress: ໃສ່ທີ່ຢູ່ກະເປົ໋າເງິນ
+  selectCryptoCurrency: ເລືອກສະກຸນເງິນດິຈິຕອນ
+  selectNetwork: ເລືອກເຄືອຂ່າຍ
+  firstName: ຊື່
+  lastName: ນາມສະກຸນ
+  bankAccountNumber: ເລກບັນຊີທະນາຄານ
+  selectThisPromotion: ເລືອກໂປຣໂມຊັນນີ້
+  noPromotionFound: ບໍ່ພົບໂປຣໂມຊັນ
+  luckyWheelTurnOver: ກົງລໍ້ເຫຼືອງ
+  openBox: ເປີດກ່ອງ
+  openBoxTurnOver: ເປີດກ່ອງການຫມຸນວຽນ
+  noBankFound: ບໍ່ພົບທະນາຄານ
+  contactAdminForHelp: ກະລຸນາຕິດຕໍ່ຜູ້ດູແລເພື່ອຂໍຄວາມຊ່ວຍເຫຼືອ
+  creditReceived: ເຄຣດິດທີ່ຮັບແລ້ວ
+  creditHistory: ປະຫວັດເຄຣດິດ
+  login: ເຂົ້າສູ່ລະບົບ
+  suggest: ແນະນຳ
+autopeer:
+  detail: ຝາກເງິນຜ່ານລະບົບ Autopeer
+  noti: ຂໍ້ມູນສຳຄັນກະລຸນາອ່ານ
+  pleaseTransferWithin: ກະລຸນາໂອນເງິນ ແລະ ອັບໂຫຼດສະລິບພາຍໃນ 5 ນາທີ
+  ifNotUpload: ຖ້າບໍ່ອັບໂຫຼດຕາມເວລາທີ່ກຳນົດ
+  mustReport: ທ່ານຈະຕ້ອງແຈ້ງຄວາມວ່າໂອນເງິນຜິດ
+  contactBank: ແລະ ຕິດຕໍ່ທະນາຄານເພື່ອຂໍເງິນຄືນດ້ວຍຕົນເອງ
+  howToDeposit: ວິທີການຝາກເງິນ
+  step1: ລະບຸຍອດເງິນ ຫຼື ຝາກດ່ວນ ຕາມຈຳນວນທີ່ຕ້ອງການ ແລະ ກົດ "ຝາກ"
+  step1_specifyAmount: ລະບຸຍອດເງິນ
+  step1_or: ຫຼື
+  step1_quickDeposit: ຝາກດ່ວນ
+  step1_asDesired: ຕາມຈຳນວນທີ່ຕ້ອງການ
+  step1_andPress: ແລະ ກົດ
+  step1_deposit: ຝາກ
+  step2: ຄັດລອກບັນຊີ ແລະ ໂອນເງິນ ຕາມຈຳນວນທີ່ສະແດງ ເມື່ອແນບສະລິບແລ້ວ ກົດ "ຢືນຢັນ"
+  step2_copyAccount: ຄັດລອກບັນຊີ ແລະ ໂອນເງິນ
+  step2_asShown: ຕາມຈຳນວນທີ່ສະແດງ
+  step2_afterAttach: ເມື່ອແນບສະລິບແລ້ວ
+  step2_pressConfirm: ກົດ "ຢືນຢັນ"
+  step3: ເງິນຈະເຂົ້າອັດຕະໂນມັດເມື່ອເຮັດທຸລະກຳພາຍໃນເວລາ
+  importantQuestion: ສຳຄັນຫຼາຍ! ກະລຸນາຕອບຄຳຖາມ
+  question1: ທ່ານຕ້ອງໂອນເງິນ ແລະ ແນບສະລິບພາຍໃນເວລາກີ່ນາທີ
+  question2: ຖ້າສ້າງລາຍການຝາກ 500 ຈະຕ້ອງໂອນເງິນກີ່ບາດ
+  question3: ຕ້ອງໃຊ້ບັນຊີທີ່ສະໝັກໃຊ້ງານ ໂອນເງິນເທົ່ານັ້ນແມ່ນບໍ່
+  minutes5: 5 ນາທີ
+  minutes10: 10 ນາທີ
+  baht550: 550 ບາດ
+  baht500: 500 ບາດ
+  yes: ແມ່ນ
+  no: ບໍ່ແມ່ນ
+  cancel: ຍົກເລີກ
+  confirm: ຢືນຢັນ
+  understand: ເຂົ້າໃຈແລ້ວ
+  sorry: ຂໍໂທດ ທ່ານບໍ່ສາມາດເຮັດທຸລະກຳໃໝ່ໄດ້
+  pendingTransaction: ເນື່ອງຈາກມີທຸລະກຳທີ່ຄ້າງຢູ່ ກະລຸນາດຳເນີນການໃຫ້ສຳເລັດ ຫຼື ປິດລາຍການດັ່ງກ່າວກ່ອນ
+  acknowledge: ຮັບຊາບ
+  title: Autopeer
+  amountToTransfer: ຈຳນວນເງິນທີ່ຕ້ອງໂອນ
+  useRegisteredAccount: ໃຊ້ບັນຊີທີ່ສະໝັກໃຊ້ງານ ໂອນເງິນເທົ່ານັ້ນ
+  timeRemaining: ເວລາທີ່ເຫຼືອ
+  depositMore: ຝາກເງິນເພີ່ມ
+  endDeposit: ສິ້ນສຸດການຝາກ
+  endDepositNote: ເມື່ອສິ້ນສຸດການຝາກເງິນ ຍອດເງິນຈະເຂົ້າພຽງແຕ່ຈຳນວນທີ່ໂອນເຂົ້າມາແລ້ວເທົ່ານັ້ນ
+  scbBank: ທະນາຄານໄທພານິດ ຈຳກັດ (ມະຫາຊົນ)
+  ref: Ref
+  depositNotFound: ບໍ່ພົບຂໍ້ມູນລາຍການຝາກເງິນ
+  cancelSuccess: ຍົກເລີກລາຍການຝາກເງິນສຳເລັດ
+  cancelError: ເກີດຄວາມຜິດພາດໃນການຍົກເລີກລາຍການ
+  pleaseUploadSlip: ກະລຸນາອັບໂຫຼດສະລິບໂອນເງິນ
+  refNotFound: ບໍ່ພົບຂໍ້ມູນ ref ກະລຸນາລອງໃໝ່ອີກຄັ້ງ
+  uploadSuccess: ອັບໂຫຼດສະລິບສຳເລັດ ກະລຸນາລໍຖ້າສັກຄູ່
+  uploadError: ເກີດຄວາມຜິດພາດໃນການອັບໂຫຼດສະລິບ
+  endDepositSuccess: ສິ້ນສຸດການຝາກເງິນສຳເລັດ
+  minimumDeposit: ເຕີມເງິນຂັ້ນຕ່ຳ {amount} ບາດ
+  pleaseSelectMethod: ກະລຸນາເລືອກວິທີການຝາກເງິນດ້ານລຸ່ມ
+  specifyDepositAmount: ລະບຸຍອດເງິນຝາກ
+  specifyDepositNote: ລະບຸຍອດທີ່ຕ້ອງການຝາກເມື່ອໂອນເງິນແລ້ວ ໃຊ້ເວລາ 2-3 ນາທີ
+  specifyAmount: ລະບຸຈຳນວນເງິນ
+  specifyDepositPlaceholder: ລະບຸຍອດເງິນຝາກ
+  deposit: ຝາກເງິນ
+  quickDepositRecommended: ຝາກດ່ວນຕາມຍອດທີ່ແນະນຳ
+  quickDepositNote: ເລືອກຍອດທີ່ສະແດງດ້ານລຸ່ມ ເງິນເຂົ້າໄວພາຍໃນ 1 ນາທີ
+  amount: ຈຳນວນເງິນ
+  cancelTransaction: ຂ້ອຍຕ້ອງການຍົກເລີກລາຍການ
+  confirmCancelTransaction: ຕ້ອງການຍົກເລີກການເຮັດທຸລະກຳນີ້ ແມ່ນບໍ່?
+  waitFirst: ລໍຖ້າກ່ອນ
+  loadDepositListError: ບໍ່ສາມາດໂຫຼດລາຍການຝາກເງິນໄດ້
+  cancelledSuccessfully: ຍົກເລີກລາຍການສຳເລັດ
+  minimumDepositRequired: ກະລຸນາລະບຸຈຳນວນເງິນຂັ້ນຕ່ຳ {amount} ບາດ
+  createDepositSuccess: ສ້າງລາຍການຝາກເງິນສຳເລັດ
+  requireEnglishName: ບໍ່ສາມາດເຮັດລາຍການໄດ້ ກະລຸນາໃຊ້ຊື່ພາສາອັງກິດ ກະລຸນາດຳເນີນການຕິດຕໍ່ຜູ້ດູແລເພື່ອແກ້ໄຂ
+  createDepositError: ເກີດຄວາມຜິດພາດໃນການສ້າງລາຍການຝາກເງິນ
+  transactionTimeout: ໝົດເວລາເຮັດລາຍການ ກະລຸນາເຮັດລາຍການໃໝ່ອີກຄັ້ງ

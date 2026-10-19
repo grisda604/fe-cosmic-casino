@@ -1,0 +1,1 @@
+.numbered-list[data-v-b1a34d0c]{counter-reset:item;list-style-type:none;padding-left:0}.numbered-list li[data-v-b1a34d0c]{counter-increment:item;margin-bottom:10px;padding-left:2em;text-indent:-2em}.numbered-list li[data-v-b1a34d0c]:before{color:#fff;content:counter(item) ".";display:inline-block;font-weight:700;padding-right:.5em;text-align:right;width:2em}

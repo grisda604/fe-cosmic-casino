@@ -1,0 +1,1 @@
+import{al as e}from"./entry.COoSIBHm.js";import{b as i}from"./swiper-vue.BDRoAwEe.js";const s=()=>{const s=e(),t=i(!1),o=i(!1),a=()=>{t.value=!t.value};return{isSlideAside:t,isNotiMenu:o,toggleSlideAside:a,navigateWithAside:e=>{a(),s.push(e)},toggleSlodeNoti:()=>{o.value=!o.value}}};export{s as u};

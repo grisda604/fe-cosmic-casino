@@ -1,0 +1,1 @@
+import{O as s,M as r,X as e}from"./swiper-vue.BDRoAwEe.js";const o=["src"],t={__name:"PromotionBanner",props:{src:{type:String,default:""}},setup:t=>(a,n)=>""!==t.src?(e(),s("img",{key:0,alt:"promote_image",loading:"lazy",class:"w-full mx-auto centent-promote",src:t.src},null,8,o)):r("",!0)};export{t as _};

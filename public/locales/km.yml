@@ -1,0 +1,1673 @@
+account-true-wallet: គណនីកាបូបពិត
+add-crypto: ''
+affilate:
+  affiliateInCome: ប្រាក់ចំណូលទាំងអស់ {ប្រាក់ចំណូល} {រូបិយប័ណ្ណ}
+  affiliateNewFriend: មិត្ត​ថ្មី
+  affiliatePeople: ចំនួន {លេខ} មនុស្ស
+  anotherTurn: ទទួលបានវេនផ្សេងទៀត
+  canIncomForFriend: អាចទទួលបានប្រាក់ចំណូលពីមិត្តភក្តិ
+  casinoLossPercentage: ភាគរយនៃកាស៊ីណូ
+  casinoPayback: បានទទួលកាស៊ីណូដែលបានបាត់បង់
+  casinoProfit: ចំនួនកាស៊ីណូ
+  casinoTurn: បានទទួលវេនកាស៊ីណូ
+  casinoWin: ទទួលបានតុល្យភាពកាស៊ីណូ
+  classmate: មិត្តភក្តិ
+  currentLevel: កម្រិតបច្ចុប្បន្ន
+  currentRevenue: ប្រាក់ចំណូលបច្ចុប្បន្ន
+  details: ព័ត៌មានលំអិត
+  earnMore: ទទួលបានសមតុល្យផ្សេងទៀត
+  earnedIncome: ទទួលបានប្រាក់ចំណូល
+  eventAffiliate: អញ្ជើញមិត្តភក្តិឱ្យទទួលបានគណៈកម្មការសម្ព័ន្ធភាព។
+  friendsWhoPay: មិត្តភក្តិដែលបញ្ចូលទឹកប្រាក់
+  getPoint: ទទួលបានពិន្ទុ
+  highestPercentage: អ្នកបានទទួលភាគរយខ្ពស់បំផុត។
+  howToEarnCommissions: វិធីទទួលបានប្រាក់ចំណូលពីគណៈកម្មការ
+  ifInviteFriendIncomMore: ប្រសិនបើមិត្តភក្តិរបស់អ្នកអញ្ជើញមិត្តភក្តិកាន់តែច្រើន អ្នកនឹងទទួលបានប្រាក់ចំណូលកាន់តែច្រើន។
+  income: របាក់ចមនុល
+  incomeCondition: ប្រាក់ចំណូលអាស្រ័យលើល័ក្ខខ័ណ្ឌដែលបានបញ្ជាក់។
+  inviteFriendMore: អញ្ជើញមិត្តភក្តិកាន់តែច្រើន {ប្រជាជន} មនុស្សនឹងកម្រិតឡើង
+  inviteFriendsEarn: អញ្ជើញមិត្តភក្តិឱ្យទទួលបានប្រាក់ចំណូល
+  maxLevel: រហូតដល់ 100 ឋានានុក្រម
+  moreIncome: ប្រាក់ចំណូលកាន់តែច្រើន
+  moreYouInviteFriends: អ្នកអញ្ជើញមិត្តភក្តិកាន់តែច្រើន
+  noInBox: កុំបង្ហាញសារនេះម្តងទៀត
+  notAffiliateLink: គ្មានតំណភ្ជាប់ដើម្បីចែករំលែកប្រាក់ចំណូល
+  notHave: មិន​មាន
+  number: ចំនួន
+  numberFriends: ចំនួន
+  otherLossPercentage: ភាគរយផ្សេងទៀត
+  otherLosses: សមតុល្យផ្សេងទៀត
+  othersPayback: ទទួលបានសមតុល្យផ្សេងទៀត
+  people: មនុសស
+  percentageEarned: ទទួលបានភាគរយ
+  percentageWinCasino: ភាគរយនៃកាស៊ីណូ
+  percentageWinOther: ភាគរយផ្សេងទៀត
+  percentageWinSlots: ភាគរយនៃរន្ធដោត
+  pressToGetPoints: ចុចដើម្បីទទួលបានពិន្ទុ
+  receivedHistory: ចុចប្រវត្តិសាស្រ្ត
+  receivedHistoryIncom: ប្រវត្តិនៃប្រាក់ចំណូល
+  receivedHistoryPoint: ចុចប្រវត្តិសាស្រ្ត
+  receivedIncome: ចុចដើម្បីទទួលបានប្រាក់ចំណូល
+  reciveLossFreind: ទទួលបានកំពូលមិត្តភក្តិ
+  redeemForCredit: ការផ្លាស់ប្តូរសម្រាប់ឥណទាន
+  seeMoreDetails: មើលព័ត៌មានលម្អិតបន្ថែមទៀត
+  selectHierarchy: ជ្រើសរើសឋានានុក្រម
+  shareEarn: ចែករំលែកលុយ
+  shareLinkInviteFriend: ចែករំលែកតំណមួយដើម្បីអញ្ជើញមិត្តភក្តិលេង។ ទទួលបានប្រាក់ចំណូលពីកំពូល និងការបាត់បង់មិត្តភក្តិ
+  shareLinkMakeMoney: រកលុយបានយ៉ាងងាយស្រួលជាមួយនឹងសម្ព័ន្ធភាព។ គ្រាន់តែចែករំលែកតំណសូមអញ្ជើញមិត្តភក្តិប្រើ!
+  slotLossPercentage: ភាគរយនៃការចាញ់រន្ធដោត
+  slotProfit: កំពូលបាត់បង់រន្ធ។
+  slotTurn: បានទទួលរន្ធ
+  slotWin: ទទួលបានរន្ធដោតមួយ
+  slotsPayback: បានទទួលការបាត់បង់រន្ធដោត
+  todayDeposit: ការដាក់ប្រាក់ថ្ងៃនេះ
+  todayInformation: ព័ត៌មានថ្ងៃនេះ
+  totalIncome: ប្រាក់ចំណូលទាំងអស់ {លុយ} ប្រាក់បាត
+  totalLoss: កំពូលទាំងអស់ត្រូវបានខូច។
+  transactionHistory: ការចុចប្រវត្តិសាស្រ្តនិងប្រាក់ចំណូល
+  up: តោលើ
+  user: អ្នក​ប្រើ
+  yesterdayInformation: ព័ត៌មានកាលពីម្សិលមិញ
+  youEarningsFreeCredit: អ្នកត្រូវតែផ្លាស់ប្តូរប្រាក់ចំណូលដោយឥតគិតថ្លៃ។
+  getEnterLink: ចុចដើម្បីចម្លងតំណអញ្ជើញរបស់អ្នក
+affiliate:
+  PlayCasino: លេងកាស៊ីណូ
+  PlayLotto: ការលេងឆ្នោត
+  PlayOther: ការលេងផ្សេងទៀត
+  PlaySlot: ការលេងរន្ធដោត
+  PlaySport: លេងកីឡា
+  calCommissions: នៅក្នុងរយៈពេលសង្ខេប
+  calLv: កិតលេខ
+  canReceviveHaveReward: អាចទទួលបានរង្វាន់ នៅពេលមានរង្វាន់ដែលប្រមូលបានច្រើន
+  canReceviveHaveReward11: ធ្វើឱ្យរន្ធមួយ
+  canReceviveHaveReward12: x {ឥណទាន}
+  canReceviveHaveReward13: និងធ្វើឱ្យកាស៊ីណូប្រែ
+  canReceviveHaveReward14: x {កាស៊ីណូ}
+  canReceviveHaveReward2: ការដកប្រាក់អតិបរមា
+  canSeeTableOnBottom: អាចមើលឃើញភាគរយដែលបានទទួល នៅតុខាងក្រោម
+  cardAffilateFriend: មិត្តភក្តិ {អប្បបរមា} / {អតិបរមា} មនុស្ស
+  cardAffilateLossFriend: ទទួលបានមិត្តភក្តិ {ភាគរយ}%
+  cardAffilateTitile: ពិសេស! អញ្ជើញមិត្តភក្តិឱ្យលេងកម្រិត, ភាគរយកាន់តែច្រើនឡើង!
+  casinoLossPercentage: ខាតបង់កាស៊ីណូ
+  classmate: មិត្តភក្តិ {ប្រជាជន}
+  classmateNo: មិត្តភក្តិ
+  comissionType: ទទួលបានប្រាក់ចំណូលពីកំពូលនៃការលេងនិងការបាត់បង់មិត្តភក្តិ។
+  continueOne: បន្ត 1 ។
+  continueTree: បន្ត 3 ។
+  continueTreeMax: ទទួលបានប្រាក់ចំណូលអតិបរមា 3 ក្នុងមួយ!
+  continueTwo: បន្ត 2 ។
+  continueTwoMax: ទទួលបានប្រាក់ចំណូលអតិបរមា 2 ក្នុងមួយ!
+  customPlayer: កំពូលឬលេងមិត្តភក្តិយោងទៅតាមប្រភេទហ្គេម
+  desNumOne: ផ្ញើតំណទៅមិត្តភក្តិដើម្បីដាក់ពាក្យសុំនិងបញ្ចូលទឹកប្រាក់ក្នុងហ្គេម។
+  descAffilate1: សូមមើលភាគរយដែលបានទទួលពេលវេលា។
+  descAffilate2: មើលភាគរយដែលទទួលបានពីឋានានុក្រមនីមួយៗ
+  descAffilate3: ចុចដើម្បីមើលព័ត៌មានលម្អិតទាំងអស់។
+  desfriendsWhoTopUp: មិត្តភក្តិដែលបញ្ចូលទឹកប្រាក់
+  detailAll: ឃើញ​ទាំងអស់
+  earnIncomeFrom: ទទួលបានប្រាក់ចំណូលពី
+  firstTopup: ការបន្ថែមមិត្តភក្តិដំបូង
+  friendInLoss: ការបាត់បង់របស់មិត្ត
+  friendInProfit: ការបាត់បង់របស់មិត្ត
+  friendInTurnover: ចំណូលរបស់មិត្តភក្តិ
+  friendPlay: មិត្តភក្តិអាចលេងយើងបាន!
+  friendRegister: ពាក្យសុំរបស់មិត្តភ័ក្ត្រ
+  friendTurnover: ចំណូលរបស់មិត្តភក្តិ
+  friendsNumber: មិត្ដនារី
+  friendsTopUp: ចំនួនមិត្តភក្តិដែលបញ្ចូលទឹកប្រាក់
+  getNow: ទទួលយកភ្លាមៗ
+  incomNumOne: ប្រាក់ចំណូលបន្ត 1
+  incomNumTree: ប្រាក់ចំណូលទី 3
+  incomNumTwo: ប្រាក់ចំណូលទី 2
+  incomTurn: ទទួលបានប្រាក់ចំណូលពីការលេងរបស់មិត្តភក្តិ។
+  incomWinLoss: ទទួលបានប្រាក់ចំណូលពីកំពូលនៃមិត្តភក្តិ
+  inviteFriendsApply: អញ្ជើញមិត្តភក្តិឱ្យដាក់ពាក្យ
+  inviteFriendsStepsOne: ចម្លងតំណទៅមិត្តភក្តិ។
+  level: ឋានយុន្ដីរារ
+  lineActive: មិត្តភក្តិដែលបញ្ចូលទឹកប្រាក់ {សកម្ម} មនុស្សនៅតទៅ
+  lineLoss: ការបាត់បង់ {ការបាត់បង់} ប្រាក់បាតឡើងលើ
+  lineTurnOver: វេនអប្បបរមា
+  loss: បាត់
+  lossLv: បាត់
+  lottoLossPercentage: ចំនួនឆ្នោត
+  noiceLevel: នៅពេលដែលកម្រិតត្រូវបានកំណត់ អ្នកនឹងទទួលបានភាគរយបន្ថែមនៅក្នុងតង្កៀប។ ភាគរយនៅក្នុងតារាងនឹងមានភាគរយដែលផ្សំជាមួយភាគរយពិសេសនៅក្នុងតង្កៀប។
+  noteOther: ឥណទានដែលមិត្តភក្តិទទួលបានពីសកម្មភាពផ្សេងៗនឹងមិនត្រូវបានគណនាជាមួយនឹងប្រាក់ចំណូលដែលទទួលបានទេ។ (រាប់ត្រឹមតែពីកំពូល - --up)
+  notiAffiliateTypeCheckIncom: អាចចុចពី 1 បាតឬច្រើនជាងនេះ
+  numLevel: នៃផ្ទៃតឹក
+  onwards: ឆ្ពកកចុលតទៅ
+  otherLossPercentage: ចំនួនទឹកប្រាក់ផ្សេងទៀត
+  percentageWinCasino: កាសីនុ
+  percentageWinLotto: ចំនួនឆ្នោត
+  percentageWinOther: សមតុល្យផ្សេងទៀត
+  percentageWinSlots: កំពូលនៃរន្ធដោត
+  percentageWinSport: កីឡា
+  persent: កនាិកា
+  persentLv: កម្រិតបច្ចុប្បន្ន
+  shareLossFriend: ទទួលបានប្រាក់ចំណូលពីកំពូលនៃមិត្តភក្តិ
+  slotLossPercentage: ការបាត់បង់រន្ធដោត
+  sportLossPercentage: កីឡា
+  stepIncom: នីតិវិធីនៃការទទួលបានប្រាក់ចំណូល
+  tablePercentage: តារាងឋានានុក្រមនីមួយៗ
+  totalLossOther: សំណល់គ្រប់ប្រភេទ
+  turnCasino: បើកកាស៊ីណូវេន
+  turnLotto: ឆ្នោត
+  turnOther: វេនទៀត
+  turnSlot: បង្វែររន្ធ
+  turnSport: វេនកីឡា
+  typeCashback: ល្បេង
+  typeCasino: ប្រភេទកាស៊ីណូ
+  typeLotto: ប្រភេទឆ្នោត
+  typeOther: ប្រភេទផ្សេងទៀត
+  typeSlot: ប្រភេទរន្ធដោត
+  typeSport: ប្រភេទកីឡា
+  typeTopPlay: បុម្ពអកសរ
+  waitFriends: រង់ចាំមិត្តភក្តិដាក់ពាក្យភ្លាមៗ។
+  whatIsAff: តើអ្វីទៅជាសម្ព័ន្ធ?
+  winAndLoss: អាចនិងចាញ់
+  youPlay: ការលេង
+  youWant: អ្នកចង់ទទួលបានប្រាក់ចំណូល។
+alert:
+  error:
+    OTPBeenSent: otp ត្រូវបានផ្ញើ។
+    boxCannotOpen: មិនអាចបើកប្រអប់បានទេនៅពេលនេះ
+    canNotSpinNow: មិនអាចបង្វិលកង់បានទេឥឡូវនេះ
+    copyError: មិនជោគជ័យ
+    creditLower: ឥណទានទាបជាងការបញ្ជាក់
+    expiredRequestOTPAgain: otp បានផុតកំណត់ហើយ។ សូមចុច otp ម្តងទៀត។
+    findNumberSystem: មិនមានលេខនៅក្នុងប្រព័ន្ធ
+    founError: រកឃើញកំហុស
+    foundError: ស្វែងរកកំហុស។ សូមទាក់ទងអ្នកគ្រប់គ្រង។
+    invalidLink: តំណមិនត្រឹមត្រូវ
+    invalidOTP: otp មិនត្រឹមត្រូវទេ
+    loginFailed: ការចូលមិនបានជោគជ័យសូមពិនិត្យមើលគណនីនិងពាក្យសម្ងាត់។
+    network: បណ្តាញមិនស្ថិតស្ថេរ
+    noCanGiveTips: មិនអាចផ្តល់ព័ត៌មានជំនួយក្នុងការផ្លាស់ប្តូរនេះបានទេ។ សូមរង់ចាំ 1 - 2 នាទី។
+    noHvaeLinkShareEarn: គ្មានតំណភ្ជាប់ដើម្បីចែករំលែកប្រាក់ចំណូល
+    noItem: រកមិនឃើញព័ត៌មាន
+    outstanding: អតិថិជនមិនអាចលេងកាស៊ីណូអនឡាញការប្រយុទ្ធលេងកីឡាឆៃឆ្នោតគ្រោងនិងល្បែងគ្រីប។ ប្រសិនបើចង់លេង សូមបិទការផ្សព្វផ្សាយ។ ហើយបᆁញចំណូលចិត្ត !!!
+    passwordRequired: សូមបញ្ចូលពាក្យសម្ងាត់
+    passwordUncorret: ពាក្យសម្ងាត់មិនត្រូវគ្នាទេ។
+    pleaseComplete: សូមបំពេញ
+    pleaseCompleteInformation: សូមបំពេញព័ត៌មានទាំងអស់។
+    plsRecaptcha: សូមបញ្ជាក់ពីអត្តសញ្ញាណ។
+    receivedPromotionAutoFailed: ដេលក្ផានច័យចមនហ
+    transactionError: មិនជោគជ័យ
+    updating: ប្រព័ន្ធធ្វើបច្ចុប្បន្នភាពបណ្តោះអាសន្ន
+    uploadMoreThan: ផ្ទុកឡើងរូបភាពមិនលើសពី 1 មេកាបៃ។
+    uploadNoSuccessfully: unthotty ផ្ទុកឡើងឡើង
+    usernameRequired: សូមបំពេញឈ្មោះអ្នកប្រើ។
+  success:
+    OTPCorrect: otp គឺត្រឹមត្រូវ
+    OTPSentSuccessfully: បានបញ្ចប់ otp
+    changePasswordSuccessfully: ផ្លាស់ប្តូរពាក្យសម្ងាត់ដោយជោគជ័យ
+    changedPinSuccessfully: ផ្លាស់ប្តូរម្ជុលដោយជោគជ័យ
+    colseReceivedPromotion: បិទការផ្សព្វផ្សាយដោយជោគជ័យ
+    commissionEarned: ទទួលបានគណៈកម្មការ
+    congratulations: អបអរសាទរ!
+    copySuccessfully: បានបញ្ចប់
+    exchangeCreditSuccessfully: បានបញ្ចប់ការផ្ទេរឥណទាន
+    loginSuccess: បញ្ចូលប្រព័ន្ធដោយជោគជ័យ
+    promotionSuccessfully: ទទួលបានការផ្សព្វផ្សាយជោគជ័យ
+    receiveFreeSpin: ទទួលបានការបង្វិលដោយឥតគិតថ្លៃ
+    receivedAward: ទទួលបានពានរង្វាន់នេះ
+    receivedFreeCredit: ទទួលបានឥណទានឥតគិតថ្លៃ
+    receivedPromotionAutoSuccessfully: ទទួលបានការផ្សព្វផ្សាយដោយស្វ័យប្រវត្តិដោយជោគជ័យ។
+    redeemSuccess: បានបញ្ចប់រង្វាន់
+    resetPasswordSuccessfully: រៀបចំពាក្យសម្ងាត់ថ្មី។
+    savedSuccessfully: ការថតទិន្នន័យជោគជ័យ
+    successfulWithdrawal: បានបញ្ចប់ការដកប្រាក់
+    successfulWithdrawalCurrency: បានបញ្ចប់ការដកប្រាក់ {ចំនួន} {រូបិយប័ណ្ណ}
+    successfullyRedeemed: ការផ្លាស់ប្តូរសម្រាប់ឥណទានឥតគិតថ្លៃដោយជោគជ័យ។
+    thnankToTipSuccessfully: សូមអរគុណសម្រាប់ព័ត៌មានជំនួយ យើងនឹងអភិវឌ្ឍប្រព័ន្ធឱ្យកាន់តែប្រសើរឡើង។
+    topUpSuccessfully: ខាងលើកំពូល -up ទទួលបានជោគជ័យ {ចំនួនទឹកប្រាក់} {រូបិយប័ណ្ណ}
+  topUpSuccessfully: បានបញ្ចប់កំពូល -up
+answerQuestions:
+  chooseAtLeast: ជ្រើសរើសដើម្បីឆ្លើយយ៉ាងហោចណាស់
+  questions: សំណុំសំណួរ
+bacroom:
+  popularRooms: បន្ទប់ពេញនិយម
+  noData: គ្មានទិន្នន័យ
+  enterRoom: ចូលបន្ទប់
+  cannotEnterGame: មិនអាចចូលហ្គេម
+bank:
+  accountChangeWarning: គណនីធនាគារអាចផ្លាស់ប្តូរ សូមកុំរក្សាទុក!
+  accountTransferred: គណនីដែលត្រូវតែផ្ទេរ
+  baac: ''
+  bankUpdate: គណនីនឹងត្រូវបានធ្វើបច្ចុប្បន្នភាពជានិច្ច
+  bay: ''
+  bbl: ''
+  cancelTopup: បោះបង់កំពូល -up
+  checking: បិនិត្យ
+  chooseBank: ជ្រើសរើសធនាគារ
+  cimb: ''
+  confirmTopup: បញ្ជាក់ពីការបញ្ចូលទឹកប្រាក់
+  coppyBank: សូមចម្លងលេខគណនី។ ប្រព័ន្ធនេះនឹងបង្ហាញពីចំនួនទឹកប្រាក់នៃប្រាក់បញ្ញើជាទសភាគ។ សម្រាប់អ្នកផ្ទេរប្រាក់ អ្នកត្រូវផ្ទេរទៅចំនួនប្រព័ន្ធតែប៉ុណ្ណោះ។
+  copyAccount: ថតចំលងគណនី
+  decimalTransfer: ការផ្ទេរប្រាក់គោលដប់
+  gameQR: ប្រើសម្រាប់បន្ថែមហ្គេមតែប៉ុណ្ណោះ
+  gotoPopUp: កំពុងបញ្ជូនទៅក្នុង..
+  gsb: ''
+  icbc: ''
+  kbank: ''
+  kk: ''
+  ktb: ''
+  lastestTransaction: ប្រតិបត្តិការចុងក្រោយបំផុត
+  lhbank: ''
+  minimumAmount: ចំនួនអប្បបរមា {money} ប្រាក់ baht
+  minimumTopUp: កំពូលខ្ពស់បំផុត
+  minimumTopUpBath: បញ្ចូលទឹកប្រាក់អប្បបរមា {money} {currency}
+  minute: នាទី
+  noMoneyTransfer: ដោយសារតែគ្មានការផ្ទេរប្រាក់ដែលមាននៅក្នុងប្រព័ន្ធ
+  noRounded: កុំកាត់បន្ថយចំនួន
+  noRoundedDecimal: កុំបោស
+  pending: រង់ចាំការទូទាត់
+  pleaseRoundAmount: សូមបញ្ចូលទឹកប្រាក់ដែលត្រូវបានបង្ហាញ។ មិនមានរាងមូលទេ។
+  pleaseTopUp: សូមបញ្ចូលទឹកប្រាក់ដែលត្រូវបានបង្ហាញ។
+  pleaseTransferMoney: សូមផ្ទេរប្រាក់ក្នុងពេលវេលា។
+  pleaseTransferTime: សូមផ្ទេរប្រាក់ក្នុងពេលវេលា។
+  pleaseUseAccount: សូមប្រើគណនីដែលអ្នកដាក់ពាក្យសុំផ្ទេរតែប៉ុណ្ណោះ។
+  plsAccountOnly: msgstr "" "សូមប្រើគណនីដែលអ្នកដាក់ពាក្យសុំតែ"
+  plsQrcode: QR Code នេះអាចប្រើបានតែម្តងប៉ុណ្ណោះ។ កុំផ្ទេរឡើងវិញ។
+  promptpay: PromptPay
+  scanQRCode: ស្កេនលេខកូដ qr ដើម្បីផ្ទេរចូលក្នុងគណនី។
+  scb: ''
+  specifyAmount: បញ្ជាក់ចំនួនទឹកប្រាក់
+  systemAutomatically: ប្រព័ន្ធនេះនឹងបំពេញឥណទានហ្គេមស្វ័យប្រវត្តិក្នុងរយៈពេល 1-2 នាទី។
+  tbank: ''
+  tisco: ''
+  tmb: ''
+  topUp: បញ្ចូល​លុយ
+  topUpComplete: ប្រព័ន្ធនេះបានបញ្ចប់ហោប៉ៅរបស់អ្នកហើយ។
+  topUpSuccessfully: បានបញ្ចប់កំពូល -up
+  topupHistory: ប្រវត្តិបង់ប្រាក់ជាមុន
+  topupRejected: បានបដិសេធបញ្ជីកំពូល -up
+  transferAccount: ការផ្ទេរប្រាក់គណនេយ្យ
+  transferredPleaseClick: នៅពេលផ្ទេរប្រាក់សូមចុច "បញ្ជាក់" នៅទីនេះ។
+  truewallet: ''
+  ttb: ''
+  uob: ''
+  wantCancelTopup: ចង់បោះបង់កំពូលឬអត់?
+  yourAccount: គណនី​របស់​អ្នក
+  trueMoneyWalletFee:
+    feePercentage: កម្រៃ {percentage}%
+    systemDeductFee: ប្រព័ន្ធនឹងដកកម្រៃដាក់ប្រាក់ {percentage}%
+    fromTopupAmount: ពីចំនួនប្រាក់បំពេញ, អតិបរមា {maxDeduction} បាត
+    promotionCase: ករណីបំពេញប្រាក់ទទួលប្រូម៉ូសិន
+    topupMinPromo: បំពេញអប្បបរមានៃប្រូម៉ូ + (កម្រៃ)
+    toGetPromotion: ដើម្បីទទួលប្រូម៉ូសិនដែលចង់បាន
+    feeInfo: កម្រៃ {percentage}% (អតិបរមា {maxDeduction} បាត)
+    amountToTopup: ចំនួនប្រាក់ដែលត្រូវបំពេញ (អប្បបរមា {minAmount} បាត)
+    minimumAmountError: ចំនួនអប្បបរមា {minAmount} បាត
+    feeAmount: កម្រៃ ({percentage}%)
+    amountReceived: ដែលទទួលបាន (បន្ទាប់ពីដកកម្រៃ)
+    calculateTopupAfterFee: គណនាចំនួនបំពេញបន្ទាប់ពីដកកម្រៃ
+    amountToTopupSimple: ចំនួនប្រាក់ដែលត្រូវបំពេញ
+bankMethod:
+  viaAccount: ការដាក់ប្រាក់តាមរយៈធនាគារ
+button:
+  add: ផាបបង្កើន
+  apply: រេបី
+  back: ការប្រការឡើងវិញ
+  cancel: លប់ចោល
+  changePassword: ផ្លាស់ប្តូរពាក្យសម្ងាត់
+  clear: ផ្លឺ
+  clickHere: ចុច​ទីនេះ
+  close: បិទ
+  confirm: បហ្ជាក់
+  continue: ចាត់ចេង
+  copy: ការចម្លង
+  delete: របៅបេលរសច
+  download: របចាបរេកា
+  edit: រតឹមរតុវ
+  exchangeCredit: ការផ្ទេរប្រាក់ឥណទាន
+  filter: ''
+  finish: បហ្ចប់
+  forgotPassword: ភ្លេចលេខសម្ងាត់
+  getCredit: ទទួលបានឥណទាន
+  getPromotion: ទទួលបានការផ្សព្វផ្សាយនេះ
+  getRewarded: ឈ្នហ
+  goPlayGames: ទៅលេងហ្គេម
+  login: ចូល
+  logout: ចេញពីប្រព័ន្ធ
+  next: បន្ទាប់បិនេហ
+  notAccepPromotion: មិនទទួលយកការផ្សព្វផ្សាយ
+  ok: យល់របម
+  participate: ចុលរយម
+  playGame: លេងហ្គេម
+  previous: ចាយ្ដិន
+  receive: តតយល
+  recevice: សង្កត់
+  record: ការកត់តុក
+  register: រេបីចារបយោចន៍
+  resend: Re -Send
+  reset: កំណត់ឡើងវិញ
+  resetPassword: កំណត់ពាក្យសម្ងាត់ឡើងវិញ
+  save: ការកត់តុក
+  search: ការឆេកឆេ
+  select: រេចីសរើស
+  send: ផ្ញើរ
+  sendCode: ផ្ញើលេខកូដ
+  share: ការរមលេក
+  stay: ស្នាក់នោ
+  submit: ផ្ញើរ
+  topUp: បញ្ចូល​លុយ
+  understand: យល់
+  upload: ផ្ទុកឡើង
+  verify: យាយ
+  withdraw: តវ៉ា
+  yess: បាត
+cashPoint:
+  cashPoint: ការរបមុល
+  cashpointReceivedTwoAm: '* អាចទទួលបានការកកកុញបន្ទាប់ពី 02.00 ម៉ោង។'
+  cumulativeAmount: ទទួលបានសមតុល្យបង្គរក្នុងរាល់ការភ្នាល់។
+  earnedCredit: បានទទួលចំនួនទឹកប្រាក់ដែលបានទទួល
+  login: ចូល
+  lostBet: អាឡែស៊ី {បាត់បង់}%
+  numberOf: ចំនួន {ឥណទាន} តើវាទេ?
+  turnAll: ប្រភេទវេនគ្រប់ប្រភេទ
+  turnOver: ចំណូល {វេន}%
+  wantEarnFreeCredits: អ្នកចង់ទទួលបានឥណទានឥតគិតថ្លៃពីសមតុល្យដែលបានបង្គរ។
+  whenBetting: នៅពេលការភ្នាល់ឬចាញ់ទទួលបានឥណទានកើនឡើងភ្លាមៗ! អ្នកអាចមើលឃើញភាគរយដែលទទួលបានពីខាងក្រោម។
+  winBet: ឈ្នះ {ឈ្នះ}%
+cashback:
+  allAbout: តាមងអស់
+  calLossForPlay: ប្រព័ន្ធនេះនឹងគណនាចំនួនទឹកប្រាក់ពីការលេង។
+  cashPointsBackGames: ដើម្បីបង្វិលរន្ធដោត កុំបារម្ភ ព្រោះយ៉ាងណាក៏ដោយ ត្រឡប់ឥណទាន, អាចមើលឃើញភាគរយដែលបានទទួលនៅខាងក្រោម។
+  cashbackPlaySlotAndCasino: ទទួលបានចំនួនទឹកប្រាក់ត្រឡប់មកវិញពីរន្ធកាស៊ីណូ។
+  cashbackReceivedFiveAm: អាចទទួលបានសាច់ប្រាក់ត្រឡប់មកវិញបន្ទាប់ពី 05.00 ម៉ោង។
+  cashbackReceivedFourAm: អាចទទួលបានសាច់ប្រាក់ត្រឡប់មកវិញបន្ទាប់ពីម៉ោង 4 រសៀលតទៅ
+  cashbackReceivedOneAm: អាចទទួលបានសាច់ប្រាក់ត្រឡប់មកវិញបន្ទាប់ពី 01.00 ម៉ោង។
+  cashbackReceivedThreeAm: អាចទទួលបានសាច់ប្រាក់ត្រឡប់មកវិញបន្ទាប់ពី 03.00 ម៉ោង។
+  cashbackReceivedTwoAm: អាចទទួលបានសាច់ប្រាក់ត្រឡប់មកវិញបន្ទាប់ពី 02.00 ម៉ោង។
+  cashpointPercentageBelow: ភ្នាល់ កុំបារម្ភ ព្រោះយ៉ាងណាក៏ដោយទទួលបានឥណទាន ចំនួនទឹកប្រាក់ត្រឡប់មកវិញអាចមើលឃើញពីកំពូលអាឡែស៊ីនៅទីនេះ។
+  casinoGamesPersent: ល្បែងកាស៊ីណូ
+  creditBackFromLoss: ឥណទានត្រឡប់មកវិញពីកំពូល {តម្លៃ}%
+  exceptSportsBetting: ដើម្បីបង្វិលរន្ធដោត កុំបារម្ភ ព្រោះយ៉ាងណាក៏ដោយ ឥណទានត្រឡប់មកវិញ លើកលែងតែការភ្នាល់កីឡា
+  getBackEveryBet: ទទួលបានចំនួនទឹកប្រាក់ត្រឡប់មកវិញក្នុងរាល់ការភ្នាល់។
+  getLossPlayingSlots: ទទួលបានចំនួនទឹកប្រាក់ត្រឡប់មកវិញពីរន្ធដោតលេង!
+  noReceviceCashback: នឹងមិនទទួលបានឥណទានត្រឡប់មកវិញទេ
+  onlyPlaysSlotsGames: ប្រសិនបើអ្នកលេងលេងហ្គេមស្លតប្រព័ន្ធនឹងគណនាការខាតបង់នៃការធ្លាក់ចុះ។
+  otherPlaylistsNotReceive: កម្មវិធីលេងផ្សេងទៀត ក្រៅពីរន្ធ នឹងមិនទទួលបានឥណទានទាំងអស់ទេ
+  percentageReceivedLoss: ភាគរយនឹងជាឥណទានត្រឡប់មកវិញពីចំនួនទឹកប្រាក់ដែលមានអាឡែរហ្សី។
+  playersCanGetLosses: អ្នកលេងអាចទទួលបានចំនួនទឹកប្រាក់ត្រឡប់មកវិញពីការភ្នាល់។ ហើយអាចមើលឃើញភាគរយឥណទានដែលទទួលបានពីចំនួនខាងក្រោម
+  playsSlotsAndCasinoGames: ប្រសិនបើអ្នកលេងលេងរន្ធដោតកាស៊ីណូ ប្រព័ន្ធនេះនឹងគណនាភាគរយនៃកាស៊ីណូតែប៉ុណ្ណោះ។
+  receivedCashback: ទទួលបានចំនួនទឹកប្រាក់ត្រឡប់មកវិញ
+  returnedLoss: ចំនួនទឹកប្រាក់ដែលត្រូវបានត្រឡប់មកវិញ
+  slotAndCasino: រន្ធដោតកាស៊ីណូនិងកាស៊ីណូ
+  slotGames: ហ្គេមស្លត
+  slotGamesPersent: ហ្គេមស្លត {តម្លៃ}%
+  systemCalculateSlots: ប្រព័ន្ធនេះនឹងគណនាផ្នែកខាងលើនៃកម្មវិធី "ស្លត" តែប៉ុណ្ណោះ។
+  topUpFirstADay: ពីការបំពេញដំបូងនៃថ្ងៃ
+  topUpFirstPlayer: ពីការបំពេញរបស់អ្នកលេងលើកដំបូង
+  'topUpFirstPlayer ': បន្ថែមដំបូង
+  typeGameSport: លេងកីឡា
+  whatBetsCan: អាចទទួលបានចំនួនទឹកប្រាក់ត្រឡប់មកវិញពីការភ្នាល់ណាមួយ?
+  youWantReceive: អ្នកចង់ទទួលបានឥណទាន
+codeDesc: បញ្ចូលលេខកូដដើម្បីទទួលបានរង្វាន់ពិសេស។
+collectPoints:
+  allPrizes: រង្វាន់ទាំងអស់
+  ascending: តិចតួច​ណាស់
+  credit: តមនុកចិត្ដ
+  descending: ច្រើនណាស់
+  endNow: នឹងបញ្ចប់នៅខាងក្នុង
+  equipment: ការផ្គត់ផ្គង់
+  gold: មាស
+  isCheckRewardAlert: អ្នកចង់ទទួលបានពិន្ទុ
+  lifestyle: របៀបរស់នៅ
+  moreThan: ច្រើនជាង 72.000
+  noHistory: គ្មានប្រវត្តិនៃការប្រោសលោះ
+  pending: រង់ចាំសកម្មភាព
+  points: ការដាក់អាេយ
+  pointsNumber: $ {លេខ}
+  redeemRewards: លមផុត
+  redemptionHistory: ប្រវត្តិប្តូររង្វាន់
+  remainingPoints: ចំណុចដែលមានស្រាប់
+  rewardsNotFound: រកឃើញរង្វាន់។
+  scoreRange: បិន្ទុ
+  searchRewards: ស្វែងរករង្វាន់
+  spend: ប្រើ {ចំណុច}
+  toRedeem: ជាថ្នូរនឹង {ទទួលបានលទ្ធផល?
+  totalBalance: ចំណុចចុច
+  tupUpTimeNow: បញ្ចូលទឹកប្រាក់នៅពេលនេះទទួលបាន x {ច្រើន}} ដូច!
+  type: បុម្ពអកសរ
+  wantToSpend: អ្នកចង់ប្រើ
+commission:
+  approved: យល់របម
+  codeAlready: លេខកូដនេះត្រូវបានប្រើ។
+  codeHere: បញ្ចូលលេខកូដនៅទីនេះ។
+  description: ព័ត៌មានលំអិត
+  earnings: ''
+  enterCode: បញ្ចូលលេខកូដឥណទានឥតគិតថ្លៃ។
+  examine: ពិនិត្យមើល
+  history: ''
+  historyCommission: ប្រវត្តិគណៈកម្មការ
+  pending: ''
+  plsCode: គ្មានលេខកូដនៅក្នុងប្រព័ន្ធ
+  prizealready: អ្នក​បាន​ឈ្នះ
+  rate: ''
+  rejected: ''
+  title: ''
+  total: ''
+  typeCasino: កាស៊ីណូស្រស់
+  typeLotto: ឆ្នោត
+  typeOther: ប្រភេទផ្សេងទៀត
+  typeSlot: ហ្គេមស្លត
+  typeSport: ល្បែងកីឡា
+  withdrawal: ''
+commission4step:
+  back: ត្រឡប់ក្រោយ
+  close: បិទ
+  day: ប្រចាំថ្ងៃ
+  details: ព័ត៌មានលម្អិតនៃការទទួលបានប្រាក់មកវិញ
+  eventName: ទទួលរង្វាន់ប្រាក់បន្ថែមបំផុត
+  history: ប្រវត្តិ
+  latestItems: (5 មុខចុងក្រោយ)
+  matchingDetails: ព័ត៌មានលម្អិតនៃការផ្គូផ្គង
+  month: ប្រចាំខែ
+  moreThanOneDay: ច្រើនជាង 1 ថ្ងៃ
+  now: បច្ចុប្បន្ន
+  playMoreGames: លេងហ្គេមបន្ថែម
+  realtime: ប្រចាំថ្ងៃ
+  receiveMoney: ទទួលប្រាក់
+  receiveMoneyType:
+    cash: សាច់ប្រាក់
+    freecredit: ឥណទានឥតគិតថ្លៃ
+  rewardHistory: ប្រវត្តិរង្វាន់
+  timeRemaining: ពេលវេលានៅសល់
+  week: ប្រចាំសប្តាហ៍
+commom:
+  activity: សកម្មផាប
+  admin: រដ្ឋបាល
+  badBalance: បាត់
+  baht: លុយកាហ
+  bankLink: ចាកចេញ / ដក
+  cash: របាក់
+  cashMoney: ប្រាក់នៅក្នុងហ្គេម
+  cashTranfer: ផ្ទេរ​ប្រាក់
+  casino: កាសីនុ
+  categoryPosition: បយក
+  contact: ការតាក់តង
+  credit: តមនុកចិត្ដ
+  creditHistory: ទទួលបានប្រវត្តិសាស្ត្រទទួលបាន
+  day: កាលកមនត់
+  details: ព័ត៌មានលំអិត
+  diamond: បេរច
+  displaySetting: កំណត់ការបង្ហាញ
+  dong: ធ្វើដូចគ្នា
+  enterAmount: សូមបញ្ជាក់ចំនួនទឹកប្រាក់។
+  error: រកឃើញកំហុស
+  freeCredit: ឥណទានឥតគិតថ្លៃ
+  game: ល្បេង
+  gameBalance: សមតុល្យហ្គេម
+  gotoGame: បញ្ចូលហ្គេម
+  hide: លាក់
+  info: ប៍តមាន
+  lastEntries: (5 មុខទំនិញចុងក្រោយ)
+  left: ឆេវង
+  line: ការឈរចាចយរ
+  loading: កំពុងផ្ទុក
+  logout: បានបញ្ចប់ពីប្រព័ន្ធ
+  mainPage: ទំ​ពរ​សំខាន់
+  min: អប្បបរិមា
+  money: របាក់
+  month: ខេ
+  noCreditHistory: គ្មានប្រវត្តិឥណទានទេ
+  noData: រកមិនឃើញព័ត៌មាន
+  noHave: មិន​មាន
+  noHistoryEntry: គ្មានបញ្ជីប្រវត្តិទេ
+  noResults: រកមិនឃើញព័ត៌មាន
+  noRewardHistory: គ្មានប្រវត្តិ
+  notPointHistory: គ្មានប្រវត្តិនៃការទទួលបានពិន្ទុទេ
+  notexttoday: កុំបង្ហាញសារនេះម្តងទៀត
+  number: បរិមាន
+  other: ផ្សេងទៀត
+  prizeNotFound: គ្មានរង្វាន់
+  rewardHistory: រង្វាន់ប្រវត្តិសាស្ត្រ
+  right: ខាងស្ដាម
+  seconds: ដេលរេបីរយចហើយ
+  seeAll: មើលទាំងអស់
+  seeConditions: មើលលក្ខខណ្ឌច្រើនទៀត
+  showLess: ការសម្តែងតិច
+  showMore: ការសម្តែងថែមទៀត
+  slot: តិ្យេត
+  success: សរេមច
+  top: លើ
+  topUp: បញ្ចូល​លុយ
+  turn: ការបងវិល
+  view: រកមិនឃើញព័ត៌មាន
+  wait: សូម​រង់ចាំ​មួយ​ភ្លែត
+  warning: ''
+  year: ឈ្នាម
+  yerNo: តើ​វា​ត្រឹមត្រូវ​ទេ?
+  quickNavigation: ផ្លូវកាត់ទៅនាយកដ្ឋានមន្ទីរ
+  dailyTopUpCalendar: ប្រតិទិនបញ្ចូលប្រាក់ប្រចាំថ្ងៃ
+common:
+  loadMore: បន្ថែមទៀត
+  noItem: រកមិនឃើញព័ត៌មាន
+  scrollForMore: ពន្យារពេលដើម្បីមើលច្រើនទៀត
+  resetFilters: ស្វែងរកយ៉ាងច្បាស់
+  filters: តរមង
+  doNotReuse: កុំប្រើឡើងវិញ
+  qrDeposit: This QR Code is for deposits via the website for gameplay only
+components:
+  language_switcher:
+    change_language: ប្ដូរ​ភាសា
+  theme_switcher:
+    change_theme: ការប្ដូរ
+    theme: ចាបន្ដបន្ទាប់
+crypto:
+  addCryptoDesc: បញ្ចូលអាសយដ្ឋាន VOLELT ហើយជ្រើសរើសយកហ្សែនគ្រីប
+  addWallet: បញ្ចូលអាសយដ្ឋាន VOLET
+  crypto: រកបើ
+  enterProcess: ធ្វើការដាក់ប្រាក់
+  network: បណ្តាញ
+  selectCrypto: ជ្រើសរើសរូបិយប័ណ្ណគ្រីប
+  selectNetwork: ជ្រើសរើសបណ្តាញ
+  walletAddress: អាសយដ្ឋាន VOLET
+  withdraw: CRIPOTOS (សម្រាប់ការដកប្រាក់)
+decimalTransfer: ការដាក់ប្រាក់បញ្ញើ
+deposit: របាក់ដេលយកតោដាក់
+depositAndUploadSlip: ផ្ទេរប្រាក់ហើយបញ្ចូលទឹកប្រាក់រអិល។
+depositBankAuto: ការដាក់ប្រាក់តាមរយៈធនាគារ (ស្វ័យប្រវត្តិ)
+depositBankDesc: ប្រើគណនីដែលដាក់ពាក្យសុំលុយតាមរយៈធនាគារ។ គាំទ្រទាំងគណនេយ្យធនាគារនិងលេខកូដ QR
+depositBankSpecials: ការដាក់ប្រាក់តាមរយៈធនាគារ (ពិសេស)
+depositCryptoDesc: បញ្ចូលទឹកប្រាក់ក្នុងហ្គេមដោយ Cryptocurned
+depositHistory: ប្រវត្តិនៃការដាក់ប្រាក់
+depositWithTrueWallet: ការដាក់ប្រាក់ដោយប្រើប្រាក់ពិត Walt
+depostiCrypto: ការដាក់ប្រាក់ក្នុងគ្រីប
+directTopupBank: ការផ្ទេរដោយផ្ទាល់តាមរយៈធនាគារ
+error:
+  failedToInitialize: រកឃើញកំហុស
+  founError: រកឃើញកំហុស
+  foundError: រកឃើញកំហុស
+  invalidData: រកឃើញកំហុស
+  invalidPrize: រកឃើញកំហុស
+  invalidResponse: រកឃើញកំហុសមួយ
+  unknownPrize: គ្មានព័ត៌មានរង្វាន់
+events:
+  allEvents: ព្រឹត្តិការណ៍ទាំងអស់
+  affiliate: អញ្ជើញមិត្តភក្តិឱ្យទទួលភ្ញៀវ
+  answerQuestions: ឆ្លើយសំណួរ
+  balanceDiamonds: ពេជ្រដែលនៅសល់
+  cash: ការបើករបាក់
+  cashPoint: ''
+  cashback: ត្រឡប់ចំនួនទឹកប្រាក់
+  cashbackBill: ត្រឡប់ដោតដំបូង
+  cashpoint: ការរបមុល
+  collectPoints: ''
+  commission: ផារៈ
+  commission4step: ''
+  daily: ត្យេងតាត់
+  dailyFixTopup: ការដាក់ប្រាក់, រូបភាព, តុល្យភាព,
+  dailyMission: ''
+  earn: រកលុយ
+  evaluateAdmin: វាយតម្លៃរដ្ឋបាល,
+  eventsDetail: ព័ត៌មានលម្អិតសកម្មភាព
+  freeCredit: ឥណទានឥតគិតថ្លៃ
+  income: រកលុយ
+  inviteFriends: ''
+  joinEvent: ចូលរួមសកម្មភាពដើម្បីឈ្នះរង្វាន់ជាច្រើន។
+  joinMinigame: ប្រើពេជ្រឱ្យលេងហ្គេមតូច។ ដើម្បីឈ្នះពេជ្រច្រើនជាងមុន!
+  luckyBox: ប្រអប់រីករាយ
+  luckyBoxDiamond: បើកភាពសប្បាយរីករាយ
+  luckyWheel: កង់សំណាង
+  minigame: ហ្គេមខ្នាតតូច
+  mission: បេសកកម្ផ
+  monthlyMission: ''
+  notActive: សកម្មភាពនេះមិនទាន់បើកសម្រាប់ប្រើប្រាស់នៅឡើយទេ។
+  points: របមុល
+  questionResearch: សំណុំសំណួរ
+  randomPrize: ពានរង្វាន់ចៃដន្យ
+  rank: ''
+  rated: លមដាប់ថ្នាក់
+  referral: អញ្ជើញមិត្តភក្តិឱ្យទទួលប្រាក់រង្វាន់
+  regularDeposit: ''
+  reward: រង្វាន់
+  shareFacebook: ចែករំលែកហ្វេសប៊ុក
+  specialCommission: គណៈកម្មការពិសេស
+  tier: ''
+  title: ''
+  titleevents: ចូលរួមសកម្មភាពដើម្បីឈ្នះរង្វាន់ជាច្រើន។
+  titlestore: ប្រើពេជ្រដើម្បីផ្លាស់ប្តូរសិទ្ធិក្នុងការលេងសកម្មភាពនៅទីនេះ។
+  treasureBox: ''
+  updatePhone: លេខធ្វើបច្ចុប្បន្នភាព
+  weeklyMission: ''
+  wheelTurnOver: អ្នកឈ្នហ
+  winPrizes: ឈ្នះ​រង្វាន់
+exchangeCredit:
+  available: ''
+  creditFreeNoEnough: ឥណទានឥតគិតថ្លៃរបស់អ្នកមិនគ្រប់គ្រាន់ទេ។
+  description: ''
+  exchange: ''
+  exchangeCreditFree: ផ្ទេរប្រាក់ដោយឥតគិតថ្លៃទៅក្នុងហ្គេម
+  exchangeFreeCreditMinimum: ការផ្ទេរឥណទានឥតគិតថ្លៃអប្បបរមា {អប្បបរមា} ប្រាក់បាត
+  exchangeUnlimitedWithdrawal: គ្មានដែនកំណត់ដក {អប្បបរមា} {រូបិយប័ណ្ណ}
+  goMoney: សមតុល្យ
+  history: ''
+  makeTurnCasino: ធ្វើឱ្យកាស៊ីណូវេនវេនវេន {វេន} វេន
+  makeTurnSlot: ធ្វើឱ្យរន្ធដោត {វេន} ងាក
+  maximum: ''
+  minimum: ''
+  plsCreditMinimum: សូមបញ្ចូលឥណទានអប្បបរមាយ៉ាងហោចណាស់ {អប្បបរមា}
+  plsInputCredit: សូមបញ្ចូលឥណទាន
+  rate: ''
+  specifyAmount: បញ្ជាក់ចំនួនឥណទាន
+  systemClosedMaintenance: ប្រព័ន្ធឥណទានឥតគិតថ្លៃកំពុងបិទ។ សូមអភ័យទោសចំពោះការរអាក់រអួលនៅទីនេះ។
+  title: ''
+  tranferCredit: 'ផ្ទេរ: ឥណទានឥតគិតថ្លៃ'
+favGames:
+  deletefavGames: លុបហ្គេមដែលអ្នកចូលចិត្ត។
+  empty: ''
+  failedfavGame: មិនបន្ថែមល្បែងដែលអ្នកចូលចិត្តទេ។
+  successfavGames: បន្ថែមល្បែងដែលអ្នកចូលចិត្ត។
+  title: ''
+footer:
+  events: សកម្មផាប
+  home: ទំ​ពរ​សំខាន់
+  noti: របមាន
+  promotion: ការផសបវផសាយ
+  withdraw: ចាកចេញ / ដក
+forgame: ''
+freeCredit:
+  checkReceivedFour: អាចទទួលបានការផ្តល់ឥណទានឥតគិតថ្លៃបន្ទាប់ពីម៉ោង 4 រសៀលតទៅ
+  checkReceivedOne: អាចទទួលបានឥណទានឥតគិតថ្លៃបន្ទាប់ពីម៉ោង 01.00 ម៉ោង។
+  checkReceivedThree: អាចទទួលបានកិត្តិនាមឥតគិតថ្លៃបន្ទាប់ពីម៉ោង 3 រសៀលទៅមុខ
+  earnedCredit: ទទួលបានឥណទាន
+  easyWayCreditFree: តើធ្វើដូចម្តេចដើម្បីទទួលបានឥណទានឥតគិតថ្លៃ {លេខ} ឥណទានសាមញ្ញ
+  easyWayDiamond: វិធីទទួលពេជ្រ {លេខ} ពេជ្រងាយៗ
+  easyWayMoney: វិធីទទួលប្រាក់ {លេខ}
+  end: តីបហ្ចប់
+  getFreeCredit: ទទួលបានឥណទានឥតគិតថ្លៃ
+  luckyWheel:
+    additionalConditions: ''
+    goTopup: ''
+    goTurn: ''
+    haveLoss: ''
+    haveLossNew: ''
+    haveMinimum: ''
+    haveReceived: ''
+    noRightSpin: ''
+    noSpinning: ''
+    noSpinningRight: ''
+    remarks: ''
+    seeAdditionalConditions: ''
+    spinWheel: ''
+    spinsLeft: ''
+    topUpMinimum: ''
+    turn: ''
+    wheelTurnOver: ''
+    winBigPrizes: ''
+    youHave: ''
+  makeTurnClaim: '- ធ្វើឱ្យរន្ធដោតមួយ {slotturn} និងធ្វើកាស៊ីណូ {casinotururn}'
+  round: ជុំ {លេខ}
+  start: បហ្ចេហ
+  topUpMinimum: ការដាក់ប្រាក់អប្បបរមា {អប្បបរមា} ប្រាក់បាតទទួលបានឥណទានឥតគិតថ្លៃភ្លាមៗ។
+  topUpNoPromotion: ការដាក់ប្រាក់ដោយមិនទទួលបានការផ្សព្វផ្សាយ និងការដាក់ប្រាក់អប្បបរមា {អប្បបរមា} ។
+  topUpPromotion: ទុកការផ្សព្វផ្សាយមួយ និងការដាក់ប្រាក់អប្បបរមា {អប្បបរមា} ។
+  wantFreeCredit: អ្នកចង់ទទួលបានឥណទានឥតគិតថ្លៃ។
+  whenTopupRecevedCredit: នៅពេលបញ្ចប់កំពូល -up អាចចុចដើម្បីទទួលបានឥណទានឥតគិតថ្លៃ
+  whenTopupRecevedDiamond: នៅពេលបញ្ចប់កំពូល -up អាចចុចដើម្បីទទួលបានពេជ្រ
+  whenTopupRecevedMoney: នៅពេលបញ្ចប់កំពូល -up អាចចុចដើម្បីទទួលបានប្រាក់
+  whenWitdthCredit: នៅពេលធ្វើរាបស្មើរ អាចដកប្រាក់ដោយឥតគិតថ្លៃ
+  whenWitdthDiamond: នៅពេលធ្វើរាបស្មើរ អាចដកពេជ្រភ្លាមៗ
+  whenWitdthMoney: នៅពេលធ្វើរាបស្មើរ អាចដកប្រាក់បាន
+  quickAccessCredit: អាចទទួលបានពានរង្វាន់នៅទីនេះ
+freeSpin:
+  description: ''
+  forGame: ''
+  giftbox: ប្រអប់​កាដូ
+  noNoti: រកមិនឃើញការជូនដំណឹង
+  nogiftBox: អ្នកមិនមានអំណោយទេ។
+  noti: របមាន
+  title: ''
+freespin: ''
+from: ''
+gamehits: ល្បែងដែលមានប្រជាប្រិយបំផុត!
+incomDetail: ព័ត៌មានចំណូល
+inviteFriends:
+  bonusFriends: ប្រាក់រង្វាន់ទទួលបានពីការអញ្ជើញមិត្តភក្តិ
+  friendAll: មិត្តភក្តិទាំងអស់អញ្ជើញ
+  newUsersOnly: ពីការប្រើប្រាស់របស់អ្នកប្រើប្រាស់ថ្មីតែប៉ុណ្ណោះ
+  receiveBonus: អ្នកនឹងទទួលបានប្រាក់រង្វាន់។
+  referralLink: ភ្ជាប់ទំនាក់ទំនងដែលអញ្ជើញមិត្តភក្តិ
+  unlimitedFriends: មិនកំណត់ចំពោះមិត្តភក្តិ!
+isGameType:
+  all: ''
+  arcade: ''
+  cashback: ត្រឡប់ចំនួនទឹកប្រាក់
+  casino: ''
+  gameType0: អតិថិជនមិនអាចលេងកាស៊ីណូអនឡាញការប្រយុទ្ធលេងកីឡាឆៃឆ្នោតគ្រោងនិងល្បែងគ្រីប។ ប្រសិនបើចង់លេង សូមបិទការផ្សព្វផ្សាយ។ ហើយបញ្ចប់ចំណូល
+  gameType1: អតិថិជនមិនអាចលេងកាស៊ីណូអនឡាញបានទេ។ សូមបិទការផ្សព្វផ្សាយ។ ហើយបញ្ចប់ចំណូល
+  gameType2: អតិថិជនមិនអាចលេងនៅតាមប្រភេទស្លតបានទេការបាញ់ត្រីតារាងតារាង។ សូមបិទការផ្សព្វផ្សាយ។ ហើយបញ្ចប់ចំណូល
+  lotto: ''
+  luckyWheel: កង់
+  slot: ''
+  sport: ''
+key: ល្បែងចុងក្រោយ
+lastgame: ល្បែងចុងក្រោយ
+lobby:
+  allGames: ហ្គេមទាំងអស់
+  gameCategory: ប្រភេទហ្គេម
+  new: ថ្ផី
+  noGamesFound: ''
+  notGame: គ្មានការស្វែងរកហ្គេម
+  searchGames: ស្វែងរកហ្គេម
+  noEventsNow: មិនមានសកម្មភាពនៅពេលនេះ
+  recommendedEvents: សកម្មភាពដែលណែនាំ
+  gameCategoriesList: ស្លុត, កាស៊ីណូ, កីឡា, ហ្គេមតុ, អាកាដ, ការប្រយុទ្ធ, ។ល។
+  typeAtLeastThreeChars: សូមវាយយ៉ាងហោចណាស់ 3 តួអក្សរ
+  foundGamesCount: 'រកឃើញ {count} ហ្គេម'
+loginPage:
+  byLoggingIn: ''
+  enterYourUsername: បំពេញឈ្មោះអ្នកប្រើឬលេខទូរស័ព្ទ។
+  exclusiveBonus: ''
+  exclusiveBonusDesc: ''
+  forgotPassword: ភ្លេចលេខសម្ងាត់
+  login: ចូល
+  loginToYourAccount: ''
+  or: ''
+  passwordOrPin: លេខសម្ងាត់ / ពិន
+  plsInputLeastFour: សូមបំពេញក្នុង 4 តួអក្សរ។
+  plsInputLeastTen: សូមបំពេញក្នុងការបំពេញ 10 តួអក្សរ។
+  privacyPolicy: ''
+  rememberMe: ចងចាំខ្ញុំ
+  secureGaming: ''
+  secureGamingDesc: ''
+  subscribtion: ជាវ
+  support247: ''
+  support247Desc: ''
+  termsOfService: ''
+  userAccountOrTel: គណនីអ្នកប្រើប្រាស់ឬលេខទូរស័ព្ទ
+  welcomeToSlotGames: ''
+luckyWheel:
+  additionalConditions: លក្ខខណ្ឌបន្ថែម
+  goTopup: បញ្ចូលទឹកប្រាក់
+  goTurn: ទៅធ្វើការវេន
+  haveLoss: ចំនួនទឹកប្រាក់ត្រូវបានខូចពី {អប្បបរមា} ប្រាក់បាតឬច្រើនជាងនេះដើម្បីទទួលបាន 1 ដង / ថ្ងៃ។
+  haveLossNew: ចំនួនទឹកប្រាក់ត្រូវបានខូចពី {អប្បបរមា} ប្រាក់បាតឬច្រើនជាងនេះ។ អាចបង្វិលកង់ម្តងក្នុងមួយថ្ងៃ។
+  haveMinimum: ជាមួយបង់ប្រាក់ជាមុន {អប្បបរមា} {រូបិយប័ណ្ណ} ឡើងដើម្បីទទួលបាន 1 ដង / ថ្ងៃ
+  haveReceived: អ្នកទទួលបាន {រង្វាន់}
+  noRightSpin: អ្នកមិនមានសិទ្ធិបង្វិលទាល់តែសោះ។
+  noSpinning: អ្នកមិនមានសិទ្ធិបង្វិលទាល់តែសោះ។
+  noSpinningRight: អ្នកគ្មានសិទ្ធិបង្វិលទេ។
+  remarks: វិក័យប័រត
+  seeAdditionalConditions: មើលលក្ខខណ្ឌច្រើនទៀត
+  spinWheel: បង្វិលកង់
+  spinsLeft: ខាងស្ដាម
+  topUpMinimum: បញ្ចូលទឹកប្រាក់អប្បបរមា {អប្បបរមា} ប៉ុន្តែមិនលើសពី {អតិបរមា} ។
+  turn: ការបងវិល
+  wheelTurnOver: អ្នកឈ្នហ
+  winBigPrizes: ឈ្នះរង្វាន់ធំ និងឥណទានឥតគិតថ្លៃជាច្រើន!
+  youHave: អ្នកមានសិទ្ធិបង្វិល។
+manageBankAccount:
+  addAccount: បន្ថែមគណនី
+  addAccountBank: បន្ថែមគណនីធនាគារ
+  addAccountBankDesc: បន្ថែមគណនីធនាគារដើមដែលអ្នកចូលចិត្ត
+  changePrimaryAccount: ផ្លាស់ប្តូរគណនីដើម
+  changePrimaryAccountDesc: ផ្លាស់ប្តូរគណនីដើមដែលអ្នកចូលចិត្ត
+  changedSuccessfullyPrimaryAccount: ផ្លាស់ប្តូរគណនីដើមដែលអ្នកចូលចិត្តបានជោគជ័យ
+  dafaultAccount: គណនីលំនាំ
+  manageAccount: គ្រប់គ្រងគណនី
+  notHaveAccount: មិនទាន់មានគណនី
+  waitingVerification: រង់ចាំការផ្ទៀងផ្ទុយ
+migrate:
+  complete: ''
+  description: ''
+  popup1: បោះបង់ការធ្វើបច្ចុប្បន្នភាពទិន្នន័យ
+  popup2: តើអ្នកចង់បោះបង់ការធ្វើបច្ចុប្បន្នភាពទិន្នន័យទេ?
+  popup3: បោះបង់ការធ្វើបច្ចុប្បន្នភាពទិន្នន័យ
+  popup4: សូមស្វាគមន៍!
+  popup5: ធ្វើបច្ចុប្បន្នភាពព័ត៌មានសម្រាប់យើងបន្តិច។
+  start: ''
+  title: ''
+minimum: '{0} អប្បបរមា'
+mission:
+  accumulate: របមុល
+  awardAllLogin: ទទួលបាន {រង្វាន់} {tytererward} រាល់ថ្ងៃដែលចូល!
+  awardHistory: រង្វាន់ប្រវត្តិសាស្ត្រ
+  claim: ''
+  collectorModeOnly: របៀបបង្គរនឹងមានសិទ្ធិទទួលបានរង្វាន់តែមួយប៉ុណ្ណោះ។
+  complete: ''
+  completed: ''
+  daily: ''
+  description: ''
+  duration: 'រយៈពេល: គ្មានដែនកំណត់'
+  everyday: របចាមថៃ
+  fri: សាស្រ្តាចារ្យ
+  getRewarded: ឈ្នហ
+  go: ធេវីដមនើរ
+  inProgress: ''
+  loginCalendar: ប្រតិទិនចូល
+  missionList: បេសកកម្ផ
+  missionsEnd: បេសកកម្មទាំងអស់នឹងបញ្ចប់
+  mon: ម្នោ
+  monthly: ''
+  progress: ''
+  received: បានទទួល
+  reward: ''
+  sat: អេសអេស
+  seasonMissions: បេសកកម្មតាមរដូវមានឥទ្ធិពលពី
+  seasonal: រដុវ
+  soon: នៅពេលនេះមិនមានបេសកកម្មទេ។ សូមអនុវត្តតាមឆាប់ៗនេះ។
+  special: ''
+  sun: ពូ
+  thu: thu
+  title: ''
+  tue: អ្នករកុ
+  wed: ខេឧសផា
+  weekly: ''
+  detailModalType: ទទួលបានរង្វាន់ចៃដន្យភ្លាមៗនៅពេលអ្នកចូល!
+  getRewardPromotion: Top up with promotion
+  getRewardNoPromotion: Top up without promotion
+month:
+  april: ខេមេសា
+  august: ខេសីហា
+  december: ខេធ្នូ
+  february: ខេកុម្កៈ
+  january: ខេមករា
+  july: ខេកក្កដា
+  june: ខេមិថុនា
+  march: ដមនើររបមចើងក្នា
+  may: ខេឧសផា
+  november: ខេវិច្ចកា
+  october: ខេតុលា
+  september: ខេកហ្ញា
+notRewardList: ''
+nvalidPrizeType: ''
+onePayment:
+  description: Fast bank deposit
+  recommend: Recommended
+  title: Automatic Deposit (Express)
+  oneBanks: Automatic Bank
+oneThingMustBeDone: ''
+p2p:
+  description: ''
+  receive: ''
+  send: ''
+  tab1: បង់ប្រាក់តាមរយៈគេហទំព័រ
+  tab2: បង់ប្រាក់តាមរយៈលេខកូដ QR
+  title: ''
+pages:
+  '404':
+    title: ការចុហបហ្ជី
+  promotion:
+    all: តាមងអស់
+    casino: កាសីនុ
+    lotto: ឆ្នោត
+    other: ផ្សេងទៀត
+    slot: តិ្យេត
+    sport: កីឡា
+  tier:
+    credit: តមនុកចិត្ដ
+    diamonds: បេរច
+    freeCredit: ឥណទានឥតគិតថ្លៃ
+    permissionToOpenTheBox: សិទ្ធិក្នុងការបើកប្រអប់
+    permissionToSpinTheWheel: អរិកស
+    point_rewards: ការដាក់អាេយ
+personalInformation:
+  accountLine: ចងភ្ជាប់ជាមួយបន្ទាត់
+  accountName: ឈ្មោះ​គណនី
+  accountNotYet: មិនភ្ជាប់ទៅនឹងគណនី
+  accountNumber: លេខ​គណនី
+  address: អាស័យដ្ឋាន
+  bankAccount: គណនីធនាគារ
+  birthday: ថៃខយបកមនើត
+  birthdayRegistration: ចុះឈ្មោះខួបកំណើត
+  changePIN: ផ្លាស់ប្តូរកូដ pin ទៅប្រព័ន្ធ
+  changePassword: ផ្លាស់ប្តូរពាក្យសម្ងាត់
+  changePasswordGame: ផ្លាស់ប្តូរពាក្យសម្ងាត់ទៅហ្គេម។
+  chkPasswordSix: លេខសម្ងាត់ត្រូវតែមានចាប់ពី 6-12 ។
+  city: តីរកុង
+  country: រសុករេស
+  dateOfBirth: ថៃខយបកមនើត
+  email: អ៊ីមែល
+  female: ''
+  gameCode: លេខកូដច្រកចូលហ្គេម
+  gender: ''
+  haveLangue: មានភាសាអង់គ្លេសបោះពុម្ពតូចការបោះពុម្ពធំ ៗ ដូចជា abc123 ។
+  inviteFriends: អញ្ជើញមិត្តភក្តិឱ្យទទួលប្រាក់រង្វាន់
+  male: ''
+  name: ''
+  noHaveFriend: រកមិនឃើញមិត្តភក្តិ
+  notYetRegistered: មិនទាន់បានចុះឈ្មោះនៅឡើយទេ
+  other: ''
+  personalInformation: ព័ត៌មាន​ផ្ទាល់ខ្លួន
+  phone: ''
+  pinCode: លេខកូដកូដ pin
+  plsConfrimPasswordNew: សូមបញ្ជាក់ពាក្យសម្ងាត់ថ្មី។
+  plsNewPassword: សូមចំណាយពាក្យសម្ងាត់ថ្មី។
+  plsNewPasswordAndSave: សូមចំណាយពេលលិខិតឆ្លងដែនថ្មីហើយចុចកំណត់ត្រា។
+  postalCode: ''
+  preferNotToSay: ''
+  pressSave: សូមបំពេញម្ជុលថ្មីហើយចុចរក្សាទុក។
+  profile: ចមហ្យេង
+  referralCode: កូដអញ្ជើញមិត្តភក្តិ
+  referralLink: ភ្ជាប់ទំនាក់ទំនងដែលអញ្ជើញមិត្តភក្តិ
+  seeProfile: មើលប្រវត្តិរូប
+  shareEarn: ចែករំលែកលុយ
+  state: ''
+  title: ''
+  twoFactorAuthentication: ''
+  update: ''
+  userGame: ល្បែងគឺនៅក្នុងហ្គេម។
+pls-enter-true-wallet: សូមបំពេញលេខទូរស័ព្ទដែលបានចងភ្ជាប់ទៅនឹងកាបូបពិត។
+plsUploadSlipviaQR: សូមផ្ទុកប្រាក់ឡើងប័ណ្ណដែលមានតែមួយលេខកូដ QR បើមិនដូច្នេះទេសមតុល្យនឹងមិនចូលទេ។
+promotion:
+  supportedChannels: បណ្តាញដាក់ប្រាក់ដែលគាំទ្រ
+  supportedPromotions: ការផ្សព្វផ្សាយដែលគាំទ្រ
+  accountSupportsPromotion: គណនីនេះគាំទ្រការផ្សព្វផ្សាយ
+  acceptedpro: ខ្ញុំបានទទួលការផ្សព្វផ្សាយនេះ។
+  allPromotionsCasino: រាល់ការផ្សព្វផ្សាយល្បែងកាស៊ីណូ
+  allPromotionsSlot: រាល់ការផ្សព្វផ្សាយហ្គេមស្លត
+  automatically: ដោយសវ័យរបវត្ដ
+  automaticallyReceivePromotions: ទទួលបានការផ្សព្វផ្សាយដោយស្វ័យប្រវត្តិ
+  buttonOpen: ចុចប៊ូតុងផ្សព្វផ្សាយ។
+  canNotReceiveNow: មិនអាចទទួលយកការផ្សព្វផ្សាយនៅពេលនេះទេ
+  cannotplayCasino: មិនអាចលេងកាស៊ីណូបានទេ
+  casino: កាសីនុ
+  change: ការប្ដូរ
+  changePromotion: សមតុល្យដែលនៅសល់ត្រូវតែតិចជាងឬស្មើ {ឥណទាន} {រូបិយប័ណ្ណ} ដើម្បីអាចផ្លាស់ប្តូរស្ថានភាពផ្សព្វផ្សាយបាន។
+  chooseGroupLike: ជ្រើសរើសក្រុមដែលអ្នកចូលចិត្ត។
+  chossesPromotion: ជ្រើសរើសការផ្សព្វផ្សាយនេះ។
+  closePromotion: ការផ្សព្វផ្សាយយ៉ាងដិតដល់
+  conditions: ស្ថានផាប
+  details: ព័ត៌មានលំអិត
+  doNotNotify: មិនចាំបាច់ជូនដំណឹងរឿងនេះម្តងទៀតទេ។
+  getPromotion: ទទួលបានការផ្សព្វផ្សាយ
+  getPromotionsAutomatically: ទទួលបានការផ្សព្វផ្សាយដោយស្វ័យប្រវត្តិ
+  getPromotionsManually: ទទួលបានការផ្សព្វផ្សាយដោយខ្លួនឯង។
+  getThisPromotion: ទទួលបានការផ្សព្វផ្សាយនេះ
+  noPromotionReceived: មិនទទួលយកការផ្សព្វផ្សាយ
+  noTurnRequired: មិនចាំបាច់ធ្វើវេនទេ អាចដកប្រាក់ទាំងអស់
+  notAccept: មិនទទួលបានការផ្សព្វផ្សាយ
+  notFoundPromotion: គ្មានព័ត៌មានផ្សព្វផ្សាយ
+  outOfBusiness: សុំទោសនៅខាងក្រៅពេលវេលា។
+  outOfBusinessCannot: មិនអាចទទួលបានការផ្សព្វផ្សាយបានទេ
+  promotion: ការផសបវផសាយ
+  promotionAuto: ការផ្សព្វផ្សាយដោយស្វ័យប្រវត្តិ
+  promotionCurrChoose: ការផ្សព្វផ្សាយនាពេលបច្ចុប្បន្នដែលអ្នកជ្រើសរើស
+  receiveAutomaticCasino: ទទួលបានការផ្សព្វផ្សាយហ្គេមកាស៊ីណូស្វ័យប្រវត្តិ។
+  receiveAutomaticSlot: ទទួលបានការលើកកម្ពស់ហ្គេមស្លតដោយស្វ័យប្រវត្តិ។
+  receiveGroupPromotion: ទទួលបានការផ្សព្វផ្សាយជាក្រុម
+  receiveProGameAuto: ទទួលបានហ្គេម {ហ្គេម} ដោយស្វ័យប្រវត្តិ។
+  receivePromotion: ទទួលបានការផ្សព្វផ្សាយនេះ
+  seeProSlotAll: មើលការផ្សព្វផ្សាយស្លតទាំងអស់
+  selectReceivePromotion: ជ្រើសរើសទទួលការផ្សព្វផ្សាយដោយខ្លួនឯង។
+  slideButton: ផ្លាស់ទីប៊ូតុងដើម្បីទទួលបានការផ្សព្វផ្សាយ។
+  slot: តិ្យេត
+  specialPromotion: ការផ្សព្វផ្សាយពិសេស
+  systemMatchPromotions: នៅពេលជ្រើសរើសដើម្បីទទួលបានការផ្សព្វផ្សាយមួយក្រុម នៅពេលអ្នកបញ្ចូលទឹកប្រាក់ប្រព័ន្ធនឹងត្រូវគ្នានឹងការផ្សព្វផ្សាយក្នុងប្រភេទ។ ដែលអ្នកជ្រើសរើសដោយស្វ័យប្រវត្តិ
+  topUpSystemAutomaticallyMatch: នៅពេលកំពូល -up ប្រព័ន្ធនឹងត្រូវគ្នានឹងការផ្សព្វផ្សាយដោយស្វ័យប្រវត្តិ។
+  turnOff: បិទ
+  turnOn: ដេលចមហរ
+  unableActivities: មិនអាចចូលរួមក្នុងសកម្មភាពដូចជាការប្រមូលចំនុចទៀងទាត់បានទេ
+  viewAllCasino: សូមមើលការផ្សព្វផ្សាយកាស៊ីណូទាំងអស់
+  warning: របមាន
+  youAcceptingPromotion: អ្នកកំពុងទទួលយកការផ្សព្វផ្សាយនេះ។
+  youReceviceProAnother: អ្នកបានទទួលការផ្សព្វផ្សាយមួយផ្សេងទៀត។
+  youWantReceive: អ្នកចង់យក
+  youWantReceivePromotions: អ្នកចង់ទទួលបានការផ្សព្វផ្សាយ។
+  myPromotions: ផ្សព្វផ្សាយរបស់ខ្ញុំ
+  promotionStatus: ស្ថានភាពផ្សព្វផ្សាយ
+  receiveAutomaticPromotions: ទទួលផ្សព្វផ្សាយស្វ័យប្រវត្តិ
+  notReceivingPromotions: មិនទទួលផ្សព្វផ្សាយ
+  automaticPromotionInfo: ព័ត៌មានផ្សព្វផ្សាយស្វ័យប្រវត្តិ
+  promotionName: ឈ្មោះផ្សព្វផ្សាយ
+  requiredAmount: ចំនួនទឹកប្រាក់ដែលត្រូវការ
+  complete: បញ្ចប់
+  promotionDetails: ព័ត៌មានលម្អិតផ្សព្វផ្សាយ
+  promotionType: ប្រភេទផ្សព្វផ្សាយ
+  requirements: តម្រូវការ
+  defaultRequirements: តម្រូវការលំនាំដើម
+  bonusAmount: ចំនួនប្រាក់រង្វាន់
+  noActivePromotion: គ្មានផ្សព្វផ្សាយសកម្ម
+  wantToReceivePromotions: ចង់ទទួលផ្សព្វផ្សាយ
+  enablePromotions: បើកផ្សព្វផ្សាយ
+  updating: កំពុងធ្វើបច្ចុប្បន្នភាព
+  promotionsDisabled: ផ្សព្វផ្សាយត្រូវបានបិទ
+  promotionsEnabled: ផ្សព្វផ្សាយត្រូវបានបើក
+  toggleError: កំហុសប្តូរ
+  depositBonus: ប្រាក់រង្វាន់បញ្ចូល
+  cashback: ប្រាក់ដែលបានបង្វិល
+  freeCredit: ឥណទានឥតគិតថ្លៃ
+qrCodeBank: ការដាក់ប្រាក់តាមរយៈ (QR កូដ)
+randomPrize:
+  earn: ទទួល​បាន​រង្វាន់}
+  justPlayGame: គ្រាន់តែលេងហ្គេមណាមួយជាបន្តបន្ទាប់។ អ្នកលេងក៏មានឱកាសទទួលបានរង្វាន់ចៃដន្យខ្ពស់បំផុតផងដែរ។ {លេខ} {ប្រភេទ}
+  max: អតិបរមា {ចំនួន}
+  minimum: ទាប {លេខ}
+  noHaveRandomHistory: មិនមានប្រវត្តិចៃដន្យទេ
+  randomFreePrizes: ពានរង្វាន់ចៃដន្យដោយឥតគិតថ្លៃ
+  randomHistory: ប្រវត្តិចៃដន្យ
+  randomPrize: ពានរង្វាន់ចៃដន្យ
+rank:
+  cash: ការបើករបាក់
+  mostPlayer: ការបំពេញចុងក្រោយ
+  remarks: វិក័យប័រត
+  reward: រង្វាន់
+  roundResult: លទ្ធផលប្រចាំថ្ងៃ
+  sortedAmount: បានរៀបចំពីចំនួនទឹកប្រាក់ដែលត្រូវបានបន្ថែមទៅក្នុងប្រព័ន្ធ
+  things: វត្ថុ
+  topRankedPlayer: ការបំពេញកំពូលចំណាត់ថ្នាក់
+ranking:
+  things: វត្ថុ
+  title: ''
+referral:
+  InviteFriendsBonuses: អញ្ជើញមិត្តភក្តិឱ្យទទួលប្រាក់រង្វាន់
+  InviteFriendsDesc1: នៅពេលមិត្តភក្តិដាក់ពាក្យសុំ បញ្ចូលទឹកប្រាក់និងទទួលបានការផ្សព្វផ្សាយ អ្នកនឹងទទួលបានឥណទាន {តម្លៃ}% ។
+  InviteFriendsDesc2: នៅពេលមិត្តភក្តិដាក់ពាក្យសុំនិងបញ្ចូលទឹកប្រាក់ អ្នកនឹងទទួលបានឥណទាន {តម្លៃ}% ។
+  InviteFriendsDesc3: ពីកំពូលកំពូលនៃមិត្តអប្បបរមា {អប្បបរមា} ប្រាក់បាត
+  InviteFriendsDesc4: ឥណទានអតិបរមា {ដែនកំណត់}
+  InviteFriendsDesc5: ប្រាក់ចំណូលនឹងចូលក្នុងកាបូបឥដ្ឋភ្លាមៗ។
+  YouReferralLink: ភ្ជាប់ទំនាក់ទំនងដែលអញ្ជើញមិត្តភក្តិ
+  commissionEarned: គណៈកម្មការបានទទួល
+  copy: ''
+  copyLink: ចម្លងតំណ
+  currentIncome: ប្រាក់ចំណូលបច្ចុប្បន្ន
+  description: ''
+  friendInviteHistory: ប្រវត្តិមិត្តភក្តិ
+  inviteFriendsDesc3: ''
+  inviteFriendsDesc4: ''
+  inviteFriendsDesc5: ''
+  inviteFriendsStepsOne: ចម្លងតំណទៅមិត្តភក្តិ។
+  inviteFriendsStepsThree: មិត្តភក្តិបានបន្ថែមឥណទានដំបូងភ្លាមៗ!
+  inviteFriendsStepsTwo: រង់ចាំមិត្តភក្តិដាក់ពាក្យសុំចូលជាសមាជិកភាព
+  inviteFriendsToRarn: អញ្ជើញមិត្តភក្តិឱ្យទទួលបានប្រាក់ចំណូល
+  link: ''
+  received: បានទទួល
+  receivedHistory: ចុចប្រវត្តិសាស្រ្ត
+  rewards: ''
+  share: ''
+  shareYouReferralLink: ភ្ជាប់ទំនាក់ទំនងដែលអញ្ជើញមិត្តភក្តិ
+  terms: ''
+  title: ''
+  totalFriends: មិត្ត​ទាំងអស់
+register:
+  acceptTermsConditions: ខ្ញុំទទួលយកគ្រប់លក្ខខណ្ឌនិងកិច្ចព្រមព្រៀង។
+  accountSuccessfully: បង្កើតគណនីដោយជោគជ័យ!
+  bank: ធនាការ
+  bankAccountNumber: លេខ​គណនី​ធនាគារ
+  birthday: ថៃខយបកមនើត
+  birthdayOptional: ខួបកំណើត (មិនបង្ខំ)
+  choose: រេចីសរើស
+  conditionsFive: 5) សមាជិក 1 នាក់ក្នុង 1 លេខសម្គាល់តែក្នុងករណីដែលមានកម្មវិធីជាច្រើនយើងនឹងរក្សាសិទ្ធិក្នុងការដកសិទ្ធិទាំងអស់ដកករណីទាំងអស់។
+  conditionsFour: 4) ប្រសិនបើកំហុសប្រព័ន្ធកើតឡើង ដើម្បីជូនដំណឹងដល់និយោជិកភ្លាមៗ ក្នុងករណីដែលយើងមិនជូនដំណឹងយើងរក្សាសិទ្ធិក្នុងការដកប្រាក់គ្រប់ករណីទាំងអស់។
+  conditionsOne: 1) លេខទូរស័ព្ទដែលត្រូវបានប្រើដើម្បីទទួលបានសារ ដោយសារតែប្រព័ន្ធត្រូវការផ្ញើកូដបញ្ជាក់ទៅលេខទូរស័ព្ទរបស់អ្នក បើមិនដូច្នោះទេវានឹងមិនអាចធ្វើប្រតិបត្តិការផ្សេងៗបានទេ។
+  conditionsRegister: ល័ក្ខខ័ណ្ឌនៃការដាក់ពាក្យសុំ
+  conditionsThree: 3) ត្រូវតែប្រើគណនីដែលត្រូវបានអនុវត្តក្នុងការដាក់ប្រាក់តែប៉ុណ្ណោះ
+  conditionsTwo: 2) ឈ្មោះឈ្មោះត្រូវតែត្រូវនឹងឈ្មោះគណនី បើមិនដូច្នោះទេអ្នកនឹងមិនអាចដកប្រាក់បានទេ។
+  confirmOTP: បញ្ជាក់កូដ otp
+  enterAccountNumberMatch: បំពេញលេខគណនីដើម្បីផ្គូផ្គងឈ្មោះអ្នកដាក់ពាក្យ។
+  enterRecommendedFriend: បញ្ចូលលេខកូដមិត្តភក្តិដែលបានណែនាំ។ ដើម្បីទទួលបានឥណទានឥតគិតថ្លៃ
+  fillIn: បំពេញព័ត៌មាន
+  fillInLastName: បំពេញនាមត្រកូល
+  fillInName: បំពេញឈ្មោះ
+  fillPhone: បំពេញលេខទូរស័ព្ទ
+  fillPhoneFight: បំពេញលេខវាក្យសព្ទត្រឹមត្រូវ ({ចំនួន}
+  fillPhoneGetOTP: សូមបំពេញលេខទូរស័ព្ទដើម្បីទទួលបានលេខកូដបញ្ជាក់ otp ។
+  friendRecommended: មិត្តភក្តិដែលបានណែនាំ
+  getOTP: otp
+  knowUs: ប្រាប់យើងពីកន្លែងដែលយើងស្គាល់យើងពី?
+  lastStep: ជំហានចុងក្រោយ!
+  lineOptional: លេខសម្គាល់ (បើមាន)
+  loginNow: ចូលភ្លាមៗចូល
+  middlename: ឈ្មោះកណ្តាល
+  miss: រលឹក
+  mr: លោក។
+  mrs: អ្នកស្រី។
+  name: ឈ្ផោហ
+  or: រឺ
+  password: ហក្យសមងាត់
+  pinCode: លេខកូដ pin
+  pinCodeNotMatch: ''
+  pleaseEnterSixDigit: សូមបញ្ចូលលេខកូដ 6 -digit ដែលអ្នកបានទទួល។
+  pleaseFilInformation: សូមបំពេញព័ត៌មានរបស់អ្នកដើម្បីដាក់ពាក្យសុំចូលជាសមាជិក។
+  pleaseRemember: សូមចងចាំឬរក្សាទុកអេក្រង់របស់អ្នក។
+  pleaseSelectChannel: សូមជ្រើសរើសឆានែល
+  pleaseSetPin: សូមកំណត់លេខកូដ pin 4 -digit ដើម្បីប្រើក្នុងប្រព័ន្ធ។
+  plsClickRecaptcha: សូមចុចដើម្បីបញ្ជាក់ពីការ recaptcha ដើម្បីសុវត្ថិភាព។
+  plsEnterLeast: សូមបំពេញយ៉ាងហោចណាស់
+  plsInputInforLeast: សូមបំពេញលេខមិនលើសពីអក្សរ {អតិបរមា} ។
+  plsInputInforNine: សូមបំពេញលេខពីរបី។
+  plsInputInforTen: សូមបំពេញចំនួនទឹកប្រាក់មួយចំនួនតូច។ {អឹម} អក្សរ។
+  plsInputName: បំពេញព័ត៌មានឈ្មោះយ៉ាងហោចណាស់ 2 តួអក្សរ។
+  plsInputNumber: សូមបំពេញក្នុងលេខ។
+  plsInputPhoneComplate: សូមបំពេញលេខទូរស័ព្ទ។
+  plsInputPhoneReciveOtp: សូមបំពេញលេខដែលបានប្រើដើម្បីទទួលបានលេខកូដបញ្ជាក់ otp ។
+  plsInputSureName: បំពេញព័ត៌មាននាមត្រកូលចុងក្រោយ។
+  plsLineInput: សូមបំពេញលេខសម្គាល់អត្តសញ្ញាណ។
+  prefixName: ឈ្មោះបុព្វបទ
+  qrcode: លេខកូដពីលេខកូដ qr
+  record: ការកត់តុក
+  referralCode: លេខកូដមិត្តភក្តិដែលបានណែនាំ (បើមាន)
+  resendCode: ផ្ញើលេខកូដម្តងទៀត
+  resendCodeTime: ផ្ញើលេខកូដម្តងទៀតនៅក្នុង
+  scanBank: តមបហ្ចូញ
+  setPinCode: កំណត់លេខកូដលេខកូដ
+  surname: នាមរតកុល
+  telephoneNumber: លេខទូរស័ព្ទ
+  userAccount: គណនីអ្នកប្រើប្រាស់ (ឈ្មោះអ្នកប្រើ)
+  validateAllFields: សូមបំពេញព័ត៌មានឱ្យបានត្រឹមត្រូវ។
+registermethod: សូមជ្រើសរើសរបៀបដាក់ពាក្យ។
+regularDeposit:
+  a2zCheckPayment: បញ្ជាក់ពីការបញ្ចូលទឹកប្រាក់
+  a2zPending: បញ្ជាក់ពីការបញ្ចូលទឹកប្រាក់
+  a2zPrompt1: នៅពេលផ្ទេរ សូមចុចបញ្ជាក់តែ "ម្តង"
+  a2zPrompt2: សូមកុំកត់ត្រាគណនីធនាគារនេះ។
+  accumulateConsecutiveDay: កកកុញយោងទៅតាមចំនួនទឹកប្រាក់ដែលអ្នកបានជ្រើសរើសជាបន្តបន្ទាប់យោងទៅតាមចំនួនថ្ងៃដែលបានកំណត់ពេលរាល់ថ្ងៃ។
+  appeaseFillingLine: បញ្ចូលបន្ទាត់បំពេញ! កកកុញកាលបរិច្ឆេទដាក់ប្រាក់ដើម្បីទទួលបានរង្វាន់
+  cause: សូមចម្លងលេខគណនីធនាគារសម្រាប់ការផ្ទេរប្រាក់របស់អ្នក
+  cause1: សូមចម្លងលេខគណនី។ សម្រាប់អ្នកផ្ទេរប្រាក់ អ្នកត្រូវផ្ទេរទៅចំនួនទឹកប្រាក់ដែលប្រព័ន្ធបង្ហាញតែប៉ុណ្ណោះ។
+  chooseDays: ជ្រើសរើសចំនួនថ្ងៃ
+  condition: ស្ថានផាប
+  countWillStart: ប្រសិនបើមិនបន្តនឹងចាប់ផ្តើមម្តងទៀត
+  dailyTopUp: ត្យេងតាត់
+  date: កាលបរិច្ឆេទ {កាលបរិច្ឆេទ}
+  day: '{ថ្ងៃ}'
+  deposit: របាក់ដេលយកតោដាក់
+  depositAccordingRedeemBonus: កកកុញយោងទៅតាមចំនួនទឹកប្រាក់ដែលអ្នកបានជ្រើសរើសជាបន្តបន្ទាប់នៅពេលដាក់ចំនួនកាលបរិច្ឆេទដែលគ្រោងនឹងផ្លាស់ប្តូរប្រាក់រង្វាន់ជាបន្ទាន់។
+  depositAccumulatedAccording: កកកុញយោងទៅតាមចំនួនថ្ងៃដែលបានបញ្ជាក់
+  depositAmount: របាក់ដេលយកតោដាក់
+  depositComplete: ដេលរកប់រកាន់
+  depositGetUnlimited: គ្រាន់តែប្រាក់បញ្ញើធម្មតាទទួលបានឥណទានឥតគិតថ្លៃគ្មានដែនកំណត់!
+  depositNotConsecutive: ប្រសិនបើមិនទាក់ទងប្រព័ន្ធនឹងចាប់ផ្តើមរាប់ការដាក់ប្រាក់ថ្មី។
+  details: ព័ត៌មានលំអិត
+  dialog: ''
+  earn: ទទួល​បាន​រង្វាន់}
+  fixedDeposit: ទុករូបខាងលើកំពូល
+  fixedDepositDetails: ព័ត៌មានលម្អិតអំពីប្រាក់បញ្ញើទៀងទាត់
+  getCredit: ទទួលបានឥណទាន
+  getRewarded: ឈ្នហ
+  highestAward: ទទួលបានពានរង្វាន់ខ្ពស់បំផុតដែលទទួលបាន
+  justPlayGames: គ្រាន់តែលេងហ្គេមស្លតទៅកំពូលដែលបានបញ្ជាក់។ ទទួលបានឥណទានឥតគិតថ្លៃគ្មានដែនកំណត់!
+  keepDepositing: ការដាក់ប្រាក់ជាបន្តបន្ទាប់ដើម្បីទទួលបានប្រាក់រង្វាន់ដែលចង់បាន
+  makeTurnClaim: ត្រូវការធ្វើកាស៊ីណូ {casinoturn} និងរន្ធដោត {sltoturn} ដើម្បីអាចទទួលបានប្រាក់រង្វាន់។
+  note: វិក័យប័រត
+  numberOfDays: ចំនួន
+  outOfTime: អស់ពេល
+  outOfTimePayment: ពេលវេលាទូទាត់
+  playSlotGames: លេងហ្គេមស្លត
+  receiveFixedDeposit: អ្នកចង់ទទួលបានរង្វាន់ពីប្រាក់បញ្ញើធម្មតា។
+  received: តតយល
+  receivedBonus: ទទួលបានប្រាក់រង្វាន់
+  receivedCredit: ទទួលបានឥណទាន
+  receivedCreditFree: ទទួលបានឥណទានឥតគិតថ្លៃ
+  receivedDiamond: ទទួលបានពេជ្រ
+  redeemBonus: អាចផ្លាស់ប្តូរប្រាក់រង្វាន់ជាបន្ទាន់
+  specifiedDays: ចំនួនកាលបរិច្ឆេទ
+  startAccumulatingAgain: នៅពេលចុចដើម្បីទទួលបានពានរង្វាន់នេះរង្វាន់នឹងចាប់ផ្តើមកកកុញ។
+  when: ពេលណា​
+  whenReceivingBonus: នៅពេលចុចលើប្រាក់រង្វាន់វានឹងត្រូវបានចាត់ទុកថាជាការបញ្ចប់នៃប្រាក់បញ្ញើ។ ហើយអាចចាប់ផ្តើមទទួលបានប្រាក់រង្វាន់ថ្មីនៅថ្ងៃបន្ទាប់
+  whenReceivingTransferredCredit: នៅពេលទទួលប្រាក់រង្វាន់ អាចចាប់ផ្តើមការដាក់ប្រាក់ថ្មី (ចំនួនដងគ្មានដែនកំណត់) ហើយប្រាក់រង្វាន់នេះនឹងត្រូវផ្ទេរទៅ កាបូបឥណទាន
+selectBankAndnumber: '"ជ្រើសគណនីធនាគារហើយបំពេញចំនួនទឹកប្រាក់"'
+selectMethod: ជ្រើសរើសវិធីមួយដើម្បីដាក់ប្រាក់
+serviceSurvey:
+  adminRating: ផ្តល់ឱ្យអ្នកគ្រប់គ្រង
+  chooseWantTel: ជ្រើសរើសរឿងដែលអ្នកចង់ប្រាប់យើង។
+  fair: ដោយ​ស្មើភាព
+  good: ល្អ
+  improveService: យើងនឹងនាំមកនូវការកែលម្អសេវាកម្មនេះ។
+  low: កេតរមូវ
+  moderate: មធ្យម
+  selectAdmin: សូមជ្រើសរើសរដ្ឋបាល។
+  selectAdminEvaluating: សូមជ្រើសរើសរដ្ឋបាលមុនពេលធ្វើការវាយតម្លៃ។
+  sorryOpen: សុំទោសមិនបើកដើម្បីវាយតម្លៃអ្នកគ្រប់គ្រងប្រព័ន្ធទេ។
+  suggestion: ការផ្ដល់យោបល់
+  telMeExperience: រៀបរាប់ពីបទពិសោធន៍ដែលអ្នកបានទទួលមកយើង។
+  thanksSuggestion: សូមអរគុណចំពោះការផ្តល់យោបល់
+  veryGood: ល្អ​ណាស់
+shareFacebook:
+  referralLink: តំណភ្ជាប់ឯកសារយោង
+  shareLinks: ចែករំលែកតំណភ្ជាប់ទៅប្រព័ន្ធផ្សព្វផ្សាយសង្គមរបស់អ្នក។ ហើយផ្ទុករូបភាពឡើងដោយឥតគិតថ្លៃ!
+  socialShare: ចែករំលែកប្រព័ន្ធផ្សព្វផ្សាយសង្គម
+  uploadPictures: ផ្ទុកឡើងរូបភាពនៅទីនេះ។
+showTurnPromotion:
+  makeAnotherTurn: ត្រូវធ្វើវេនមួយទៀត
+  makeTurnCanWithdrawn: អ្នកត្រូវធ្វើឱ្យមាន "ច្រើន" ឬ "ស្មើ" {អត្ថបទ} {លុយ} ដើម្បីអាចដកប្រាក់បាន។
+  noTurnover: មិនចាំបាច់ធ្វើវេនទេ
+  promotionName: ឈ្មោះជំរុញ
+  turnMustMade: វេនដែលត្រូវធ្វើ
+  turnoverAmount: ការបងវិល
+sidebar:
+  chooseContactAdmin: ជ្រើសរើសវិធីដើម្បីទាក់ទងអ្នកគ្រប់គ្រង។
+  contactAdmin: ទាក់ទងរដ្ឋបាល
+  deposit: ''
+  enterWebSite: បញ្ចូលគេហទំព័រ
+  favorites: ''
+  games: ''
+  history: ''
+  home: ''
+  logout: ចេញពីប្រព័ន្ធ
+  profile: ''
+  promotions: ''
+  recentlyPlayed: ''
+  seeProfile: មើលប្រវត្តិរូប
+  settingScreen: កំណត់ការបង្ហាញ
+  settings: ''
+  support: ''
+  wallet: ''
+  withdraw: ''
+slip:
+  clipCheckSlip: នៅពេលផ្ទេរប្រាក់សូមធ្វើ "ការផ្ទុកឡើង" នៅទីនេះ។
+  contactAdmin: ប្រសិនបើមិនអាចផ្ទុករអិលបានសូមទាក់ទងអ្នកគ្រប់គ្រង។
+  dragSlip: អូសឯកសាររបស់អ្នកនៅទីនេះឬចុចលើរូបភាព។
+  error: មិនអាចប្រើរូបថតរអិលបានទេ
+  errorMin: ចំនួនទឹកប្រាក់ដែលអ្នកចង់បញ្ចូលទឹកប្រាក់គឺតិចជាងអប្បបរមា។
+  history: ប្រវត្តិនៃការផ្ទុកឡើង
+  plsSelectBank: សូមជ្រើសរើសធនាគារ
+  slip: ខោអាវរតនាប់
+  slipComplete: បានបញ្ចប់ការផ្ទុកឡើងប័ណ្ណផ្ទុកទិន្នន័យគឺជាកំពូល។
+  slipOnly: ឯកសារចាក់ឯកសារតែប៉ុណ្ណោះ
+  upload: សូមផ្ទុកឡើង
+  uploadSlip: ផ្ទុកឡើង
+slipSystem: ការដាក់ប្រាក់លើការដាក់ប្រាក់
+specialCommission:
+  calculation: ''
+  desc1: គ្រាន់តែធ្វើស្ថានីយយោងទៅតាមច្បាប់ដែលបានបញ្ជាក់។ អាចទទួលបានឥណទានឥតគិតថ្លៃ!
+  description: ''
+  dialogTitle: ទទួលបានគណៈកម្មការ
+  eligibility: ''
+  payment: ''
+  period: ''
+  rate: ''
+  selectType: សូមជ្រើសរើសឆានែលគណៈកម្មការ។
+  terms: ''
+  title: ''
+  warnText: អ្នកចង់ទទួលបានគណៈកម្មការទាំងអស់។
+spicificAmountTransfer: ផ្ទេរប្រាក់តាមចំនួនទឹកប្រាក់ដែលបានបង្ហាញដោយគ្មានមូល។
+status:
+  approved: យល់របម
+  approvedDone: យល់របម
+  disapproved: ដេលមិនបិត
+  noTopup: មិនមែនកំពូលទេ
+  pending: រង់ចាំសកម្មភាព
+  received: បានទទួល
+  receivedCom: បានទទួល
+teir:
+  birthdayReward: ខេមររ
+  congratulations: អបអរសាទរអ្នកនៅកម្រិតខ្ពស់បំផុត!
+  detailsVip: ព័ត៌មានលំអិតកម្រិត vip ទាំងអស់
+  earn: ទទួលបាន {រង្វាន់} {វាយ}
+  levelsReset: ប្រព័ន្ធនេះនឹងកំណត់កម្រិតទាំងមូលឡើងវិញនៅថ្ងៃដដែល។
+  myReward: រង្វាន់របស់ខ្ញុំ
+  privilege: ឯកសិទ្ធិកម្រិត
+  promotionRewards: ពានរង្វាន់ផ្សព្វផ្សាយវីអាយភី
+  reward: រង្វាន់
+  specialPrize: រង្វាន់ពិសេស
+  topUp: ញាត់
+  turnOver: ចលនាដេរ
+  type: បុម្ពអកសរ
+  unlocked: ដោះសោដល់កំរិត
+  upgradeReward: ការកាត់ក្ដី
+tier:
+  LatestTenItems: (10 ធាតុចុងក្រោយ)
+  all: ទាំងអស់
+  benefits: ''
+  colse: បិទ
+  condetion: លក្ខខណ្ឌ
+  congratulationsHighestLevel: អបអរសាទរ! អ្នកស្ថិតនៅកម្រិតខ្ពស់បំផុត
+  count: ចំនួន
+  credit: ឥណទាន
+  creditFree: ការបញ្ចូលប្រាក់ឥតគិតថ្លៃ
+  creditGame: ការបញ្ចូលប្រាក់ក្នុងហ្គេម
+  current: ''
+  deposit: ការបញ្ចូល
+  description: ''
+  diamond: ពេជ្រ
+  forgame: សម្រាប់ហ្គេម
+  freeSpin: បង្វិលឥតគិតថ្លៃ
+  freespin: ឥតគិតថ្លៃ
+  from: ពី
+  game: ហ្គេម
+  get: ទទួលបាន
+  getFreeSpinsGameRewards: ចង់ទទួលរង្វាន់បង្វិលឥតគិតថ្លៃហ្គេម
+  getPanner: ពីក្រុមហ៊ុន
+  getReward: មើលរង្វាន់
+  getRewarded: ទទួលរង្វាន់
+  hasNowShowEven: ពច្ចុប្បន្នពេលវេលាព្រឹត្តិការណ៍បានបញ្ចប់
+  history: ប្រវត្តិ
+  item: ធាតុ
+  lastEvent: ព្រឹត្តិការណ៍បានបញ្ចប់
+  list: បញ្ជី
+  litsReward: បញ្ជីរង្វាន់
+  makeTurn: បង្វិល
+  marking: ពិន្ទុ
+  mustBeCompleted: ត្រូវបំពេញទាំងពីរ
+  myReward: រង្វាន់របស់ខ្ញុំ
+  next: ''
+  notHistory: មិនមានកំណត់ត្រារង្វាន់
+  notReward: មិនមានរង្វាន់
+  notRewardList: មិនមានរង្វាន់
+  nvalidPrizeType: ប្រភេទរង្វាន់មិនត្រឹមត្រូវ
+  oneThingMustBeDone: ត្រូវបំពេញមួយវត្ថុ
+  openBox: សិទ្ធិបើកប្រអប់
+  or: ឬមិន
+  provider: ក្រុមហ៊ុនផ្គត់ផ្គង់
+  reward: រង្វាន់
+  rewardLeveUp: រង្វាន់កម្រិតឡើង
+  rights: សិទ្ធិ
+  tierResetDate: ប្រព័ន្ធនឹងកំណត់កម្រិតទាំងអស់ឡើងវិញនៅថ្ងៃ
+  tierVipDetail: ព័ត៌មានលម្អិតអំពីកម្រិត VIP ទាំងអស់
+  time: ដង
+  title: ''
+  topUp: ចំនួនបញ្ចូល
+  trunOver: ការបង្វិល
+  type: ប្រភេទ
+  vipDetail: ព័ត៌មានលម្អិត VIP
+  vipLevel: កម្រិត VIP
+  wantToReceivePrize: ចង់ទទួលរង្វាន់
+  wheel: សិទ្ធិកង់
+  wheelRights: សិទ្ធិបើកកង់
+  youConditionsIsChoose: អ្នកអាចជ្រើសរើសបំពេញលក្ខខណ្ឌមួយ
+  youConditionsIsChoose2: អ្នកត្រូវបំពេញទាំងចំនួនបញ្ចូល និងការបង្វិល
+  onlyEligibleToReceive: មានសិទ្ធិទទួលបានតែប៉ុណ្ណោះ
+  specialOnly: ពិសេសតែប៉ុណ្ណោះ
+  youNotEligibleToReceive: មិនមានសិទ្ធិទទួលយកការផ្សព្វផ្សាយនេះទេ
+tips:
+  balance: សមតុល្យហ្គេម
+  becauseMotivation: ដោយសារតែរាល់ការផ្តល់ជូនរបស់អ្នកគឺខ្លាំងនិងលើកទឹកចិត្តក្នុងការអភិវឌ្ឍ ប្រព័ន្ធរបស់យើងប្រសើរជាង។ សូមអរគុណចំពោះកម្លាំងដែលតែងតែត្រូវបានផ្តល់ឱ្យ។
+  depositTips: ''
+  generalTips: ''
+  give: អាេយរងវាន់ចាលុយ
+  inputMoney: បញ្ជាក់ឬជ្រើសរើសចំនួនទឹកប្រាក់
+  minOneBaht: អប្បបរមា 1 បាត
+  promotionTips: ''
+  tellUs: តើមានអ្វីដែលត្រូវប្រាប់យើងទេ?
+  text: ប៍តមាន
+  tipsForLuv: ដើម្បីណែនាំប្រព័ន្ធដើម្បីលើកទឹកចិត្ត
+  withdrawTips: ''
+tmw:
+  addAccount: បន្ថែមគណនីកាបូបពិត
+  addAccountComplete: បន្ថែមគណនីប្រាក់ពិតដោយជោគជ័យ។
+  addAccountInfo: '* ប្រសិនបើមិនអាចបន្ថែមគណនីបានសូមទាក់ទងអ្នកគ្រប់គ្រង។'
+  enerOtp: បញ្ចូលលេខកូដ 6 ខ្ទង់ដែលទទួលបាន។
+  enterTmwPhone: បំពេញលេខទូរស័ព្ទដែលចងភ្ជាប់ទៅនឹងកាបូបពិត។
+  settingAccount: កំណត់គណនីប្រាក់ពិតប្រាកដ។
+  topup: បញ្ចូលទឹកប្រាក់តាមរយៈកាបូបលុយពិត
+treasureBox:
+  addRight: ទទួលបានសិទ្ធិ {លេខ}
+  eligibilityConditions: ល័ក្ខខ័ណ្ឌសម្រាប់ឯកសិទ្ធិ
+  haveMinimumtopUp: មានចំនួនទឹកប្រាក់កំពូលពី {អប្បបរមា} ប្រាក់បាតឬច្រើនជាងនេះដើម្បីទទួលបាន 1 ដង / ថ្ងៃ
+  justPlayActivity: គ្រាន់តែលេងសកម្មភាពប្រអប់សប្បាយ។
+  minimumtopUp: បញ្ចូលទឹកប្រាក់អប្បបរមា {អប្បបរមា} ប៉ុន្តែមិនលើសពី {អតិបរមា} ប្រាក់បាតទទួលបានសិទ្ធិ {លេខ}
+  notAuthorized: អ្នកមិនមានសិទ្ធិបើកប្រអប់ទាល់តែសោះ។
+  rightsOpen: អ្នកមានសិទ្ធិបើកម្តងទៀត។
+  tapBox: '"ប៉ះប្រអប់ដើម្បីបើក"'
+  topUp: បញ្ចូល​លុយ
+  topUpMinimumToMax: អប្បបរមា {អប្បបរមា} ប៉ុន្តែមិនលើសពី {អតិបរមា} ប្រាក់បាត
+  treasureBox: បើកប្រអប់រីករាយ
+  tryMoneyRightOpen: ព្យាយាមកំពូល -up ដើម្បីទទួលបានសិទ្ធិបើកប្រអប់!
+  winFreeCredit: ឈ្នះឥណទានឥតគិតថ្លៃ និងរង្វាន់ជាច្រើនទៀត!
+treasureBoxTurn:
+  haveRightToOpen: អ្នកមានសិទ្ធិបើកប្រអប់។
+  minimumTurnoverRequired: មានចំណូលពី {អប្បបរមា} ប្រាក់បាតឬច្រើនជាងនេះដើម្បីទទួលបាន 1 ដង / ថ្ងៃ
+  receivedRewardToday: ថ្ងៃនេះអ្នកបានទទួលពានរង្វាន់នេះហើយ។
+  treasureBoxTurn: បើកដំណើរកម្សាន្តតាមប្រអប់
+  tryPlayGameRightOpen: ព្យាយាមលេងហ្គេមដើម្បីឱ្យមានសិទ្ធិបើកប្រអប់!
+type:
+  arcade: អាកសាត
+  bigwin: ឈ្នះធំ
+  canNotPlayGame: គ្មានការប្រកួតចុងក្រោយបំផុតដើម្បីលេងទេ
+  casino: កាសីនុ
+  casinoOnline: កាស៊ីណូអនឡាញ
+  casinohit: បុកកាស៊ីណូ
+  challenge: ការបបយលតាស់
+  chooseDisplayFormat: ជ្រើសរើសទ្រង់ទ្រាយបង្ហាញ។
+  cock: ''
+  crash: សេចក្ដីរបយ័ត្ន
+  crypto: គ្រីប
+  desktopVersion: កំណែផ្ទៃតុ
+  favoriteGame: ល្បែងសំណព្វចិត្ត
+  favorites: ferrit
+  feature: លក្ខនៈ
+  findGame: ល្បែងស្វែងរក
+  fishing: ការបាញ់
+  fishinghit: ការនេសាទបុក
+  freespin: បង្វិលដោយឥតគិតថ្លៃ
+  gameCamp: ការលេងលេងលេង
+  hitGame: ល្បែងប្រជាប្រិយ
+  hits: ដេលរបចារបិយផាប
+  home: ទំ​ពរ​សំខាន់
+  lastPlayed: ការលេងថ្មីៗបំផុត
+  letPlay: ព្យាយាមលេង
+  loginFromAnother: មានការចូលពីកន្លែងផ្សេងទៀត។
+  lotto: ឆ្នោត
+  lottoOnline: ឆ្នោតអ៊ីនធឺណេត
+  mobileVersion: កំណែចល័ត
+  muay: ''
+  new: ថ្ផី
+  newGame: ល្បែង​ថ្មី
+  noFavoriteGame: គ្មានការប្រកួតដែលខ្ញុំចូលចិត្ត
+  onlineSport: កីឡាអនឡាញ
+  other: ផ្សេងទៀត
+  pleaseLogin: សូមចូល
+  provider: ការលេងលេងលេង
+  providers: ការលេងលេងលេង
+  pvp: របយុត្ធ
+  saveYourFavorite: ព្យាយាមចុចនៅជ្រុងខាងស្តាំនៃហ្គេមដើម្បីរក្សាទុកហ្គេមដែលអ្នកចូលចិត្ត។
+  slot: តិ្យេត
+  slothit: វាយ
+  sport: កីឡា
+  sportOnline: កីឡាអនឡាញ
+  sporthit: វាយ
+  table: ប្យេ
+  tableGames: ប្យេ
+  tophit: វាយ
+  topten: កំពូល​ទាំង​ដប់
+  upcoming: តើបនឹងចេញ
+unit:
+  baht: ''
+  bronze: ''
+  coin: ''
+  credit: ''
+  diamond: ''
+  dollar: ''
+  euro: ''
+  gold: ''
+  persons: មនុសស
+  point: ''
+  pound: ''
+  silver: ''
+  token: ''
+  yen: ''
+updatePhone:
+  conditionRecevice: ទទួលបានលក្ខខណ្ឌ
+  condtionTopupMin: ត្រូវបញ្ចូលទឹកប្រាក់អប្បបរមា {លុយ} ប្រាក់ baht មុនពេលទទួល សិទ្ធិក្នុងការចូលរួមក្នុងកម្មវិធីនេះ
+  condtionTopupNoPrommotionMin: ត្រូវបញ្ចូលទឹកប្រាក់ដោយមិនទទួលបានការផ្សព្វផ្សាយអប្បបរមា {ប្រាក់} ប្រាក់ baht មុនពេលទទួល សិទ្ធិក្នុងការចូលរួមក្នុងកម្មវិធីនេះ
+  condtionTopupPrommotionMin: ត្រូវការបញ្ចូលទឹកប្រាក់ក្នុងការផ្សព្វផ្សាយអប្បបរមា {ប្រាក់} ប្រាក់ baht មុនពេលទទួល សិទ្ធិក្នុងការចូលរួមក្នុងកម្មវិធីនេះ
+  confirm: ''
+  current: ''
+  description: ''
+  descritoionForPromotion: គ្រាន់តែធ្វើឱ្យទាន់សម័យលេខទូរស័ព្ទហើយបំពេញលេខកូដ 6 -digit otp ។ ទទួលបានឥណទានភ្លាមៗ អាចមើលឃើញលក្ខខណ្ឌសម្រាប់ឥណទានខាងក្រោម
+  exPhone: ដូចជា 089-999-9999
+  inPutOtp: បញ្ចូលកូដ 6 -digit otp ។
+  inputPhone: បញ្ចូលលេខឥណទានឥតគិតថ្លៃ!
+  makeTurnTwo: ធ្វើឱ្យរន្ធដោត {ឥណទាន} ស្មើគ្នានិងធ្វើកាស៊ីណូវេន {កាស៊ីណូ}
+  new: ''
+  onePhoneOneRight: 1 លេខមានសិទ្ធិទទួលយកតែ 1 ដងប៉ុណ្ណោះ
+  otp: ''
+  receviceSuccess: ទទួលបាន {លុយ} {tabecredit}
+  sendAgine: ផ្ញើម្តងទៀតនៅក្នុង
+  success: ''
+  title: ''
+  updatePhoneFree: ធ្វើបច្ចុប្បន្នភាពលេខឥណទានឥតគិតថ្លៃ
+  userAddReward: អ្នកលេងនឹងទទួលបានពានរង្វាន់នេះ
+useRegisterdBank: ប្រើគណនីដែលដាក់ពាក្យសុំលុយតាមរយៈធនាគារ។
+validate:
+  EMAIL: ទ្រង់ទ្រាយអ៊ីមែលមិនត្រឹមត្រូវ។
+  ISMATCH: ពាក្យសម្ងាត់មិនត្រូវគ្នាទេ។
+  MAXLENGTH: បញ្ចូលតួអក្សរយ៉ាងហោចណាស់ {អតិបរមា}
+  MINLENGTH: បញ្ចូលតួអក្សរយ៉ាងហោចណាស់ {មីន}
+  NOTTEXT: កុំបំពេញសារ។
+  NOTTHAI: កុំបំពេញអក្សរថៃ។
+  NUMBER: ត្រូវតែមានតែលេខប៉ុណ្ណោះ
+  PHONE: ទ្រង់ទ្រាយលេខទូរស័ព្ទមិនត្រឹមត្រូវ។
+  REQUIRED: សូមបំពេញ
+  WHITESPACE: កុំដកឃ្លា
+  alpha: ''
+  alphaNum: ''
+  email: ''
+  max: ''
+  min: ''
+  numeric: ''
+  required: ''
+vipDetail: ''
+warnPay:
+  cancel: ''
+  confirm: ''
+  description: ''
+  text1: សូមផ្ទេរប្រាក់ដូចដែលបានរាយការណ៍និង
+  text10: ធ្វើប្រតិបត្តិការក្នុងរយៈពេលដែលបានកំណត់
+  text11: ជាមួយគណនីដែលបានចុះឈ្មោះ តែម្ដងប៉ុណ្ណោះ
+  text12: ប្រសិនបើការផ្ទេរមិនទទួលខុសត្រូវចំពោះករណីទាំងអស់
+  text2: ផ្ទេរតែម្តង
+  text3: ប្រសិនបើផ្ទេរឬស្កេនម្តងហើយម្តងទៀត ឬប្រើគណនីដែលមិនបានចុះបញ្ជីយើងនឹង
+  text4: មិនទទួលខុសត្រូវចំពោះករណីទាំងអស់
+  text5: បន្ទាប់ពីបង្កើតសំណើរប្រាក់បញ្ញើ
+  text6: អ្នកមាន 6 នាទី។
+  text7: ដាក់ប្រាក់ ប្រសិនបើអ្នកមិនដាក់ប្រាក់ក្នុងរយៈពេលដែលបានកំណត់ទេ ត្រូវតែផ្ញើសំណើថ្មី
+  text8: ផ្ទេរតែមួយដងប៉ុណ្ណោះបើយោងតាមចំនួនដែលត្រូវបានជូនដំណឹង។ កុំផ្ទេរម្តងហើយម្តងទៀត។
+  text9: សុមអហ្ជើញ
+  title: ''
+withdraw:
+  alertErrorCode426: ប្រព័ន្ធដកប្រាក់ត្រូវបានបិទជាបណ្តោះអាសន្ន។ សូមមើលម្តងទៀតនៅពេលក្រោយ។
+  alertErrorCode428: ឥណទានរបស់អ្នកតិចជាងអប្បបរមាដែលអាចត្រូវបានដកចេញ។
+  alertErrorCode429: មិនអាចដកប្រាក់ឥឡូវនេះបានទេ។ សូមរង់ចាំ 1 - 2 នាទី។
+  alertErrorCode430: មិនអាចដកបានទេពីព្រោះអ្នកមានបញ្ជីដកប្រាក់
+  alertErrorCode432: ឥណទានដែលអ្នកចង់ដកត្រូវតែមានច្រើនជាងឬស្មើនឹង {លេខ} ។
+  alertErrorCode445: មិនអាចដកប្រាក់បានទេ ដោយសារតែចំនួននៃការភ្នាល់
+  amountYesNo: លេខ {លុយ} តើវាទេ?
+  deductBonus: របាក់បន្ថេម
+  disapprovedCreditReturned: មិនអនុម័ត (ឥណទានត្រឡប់មកវិញ)
+  disapprovedDeductingCredit: មិនត្រូវបានអនុម័ត (កាត់ឥណទាន)
+  disapprovedIllegalPlay: មិនត្រូវបានអនុម័ត (បំបែកច្បាប់)
+  fundsTransferredBack: បានស្តារឡើងវិញ (លេងខុសច្បាប់)
+  lastestTransaction: 5 ធាតុចុងក្រោយ
+  minimumWithdrawal: ការដកអប្បបរមា
+  pending: រង់ចាំសកម្មភាព
+  succeed: សរេមច
+  trueDialog1: អ្នកចង់ដកប្រាក់ចូលក្នុងកាបូបពិតមែនទេ?
+  trueDialog2: ដកប្រាក់ចូលទៅក្នុងកាបូបពិត។ លេខត្រូវផ្គូផ្គងនឹងការចុះឈ្មោះ។
+  trueDialog3: ប្រសិនបើលេខមិនត្រូវគ្នានឹងការចុះឈ្មោះសូមទាក់ទងរដ្ឋបាល
+  trueDialog4: ដើម្បីធ្វើឱ្យទាន់សម័យលេខថ្មី
+  trueDialog5: ប្រព័ន្ធនេះនឹងដកចំនួនជាប់ទាក់ទងដោយមានត្រឹមតែ 0 ដូចជា 100
+  wantWithdraw: ចង់ដកប្រាក់
+  withdraw: តវ៉ា
+  withdrawWith: ដកប្រាក់តាមរយៈ {type}
+  withdrawableAmount: ចំនួនទឹកប្រាក់នៃការដកប្រាក់
+  withdrawalHistory: ប្រវត្តិនៃការដកប្រាក់
+withdrawHistory: ប្រវត្តិនៃការដកប្រាក់
+အကြွေးလက်ခံရရှိခဲ့သည်: ទទួលបានឥណទាន
+cashback4step:
+  title: បង្វិលត្រឡប់ចំនួនទឹកប្រាក់ 4 ជំហាន
+  getMoney: ទទួលប្រាក់
+  wallet: កាបូប
+  creditFree: កាបូបឥណទានឥតគិតថ្លៃ
+  subtitleDetailRewad: នៅពេលអ្នកទទួលប្រាក់ ប្រាក់នឹងត្រូវបញ្ចូលទៅកាន់កាបូបរបស់អ្នក ហើយអាចប្រើបានភ្លាមៗ។
+  detailModalRewad: នៅពេលអ្នកទទួលប្រាក់ ប្រាក់នឹងត្រូវបញ្ចូលទៅកាន់កាបូបឥណទានឥតគិតថ្លៃ។ អាចប្រើប្រាស់បានបន្ទាប់ពីអ្នកផ្ទេរឥណទានឥតគិតថ្លៃ។
+  waysReward: វិធីទទួលរង្វាន់
+  selectReward: សូមជ្រើសរើសវិធីទទួលរង្វាន់
+oneDepost:
+  oneBankCardDetail1: ប្រព័ន្ធ​នឹង​ជ្រើស​យក​គណនី​យ៉ាង​ចៃដន្យ​រៀងរាល់ដង
+  oneBankCardDetail2: កុំរក្សាទុកលេខគណនីដោយเด็ดខាត
+  oneBankCardDetail3: បើមិនដូច្នេះ ប្រព័ន្ធនឹងមិនបញ្ចូលឲ្យដោយស្វ័យប្រវត្តិ
+ui:
+  homePage: ទំព័រដើម
+  activity: សកម្មភាព
+  promotion: ផ្សព្វផ្សាយ
+  profile: ប្រវត្តិរូប
+  refresh: ផ្ទុកឡើងវិញ
+  contactAdmin: ទាក់ទងអ្នកគ្រប់គ្រង
+  topUp: បញ្ចូលប្រាក់
+  receiveCredit: ទទួលឥណទាន
+  searchGameHere: ស្វែងរកហ្គេមនៅទីនេះ
+  enterWalletAddress: បញ្ចូលអាសយដ្ឋានកាបូប
+  selectCryptoCurrency: ជ្រើសរើសរូបិយប័ណ្ណឌីជីថល
+  selectNetwork: ជ្រើសរើសបណ្តាញ
+  firstName: ឈ្មោះ
+  lastName: នាមត្រកូល
+  bankAccountNumber: លេខគណនីធនាគារ
+  selectThisPromotion: ជ្រើសរើសផ្សព្វផ្សាយនេះ
+  noPromotionFound: រកមិនឃើញផ្សព្វផ្សាយ
+  luckyWheelTurnOver: កង់វាស់វ៉ាន់
+  openBox: បើកប្រអប់
+  openBoxTurnOver: បើកប្រអប់បង្វិល
+  noBankFound: រកមិនឃើញធនាគារ
+  contactAdminForHelp: សូមទាក់ទងអ្នកគ្រប់គ្រងសម្រាប់ជំនួយ
+  creditReceived: ឥណទានដែលបានទទួល
+  creditHistory: ប្រវត្តិឥណទាន
+  login: ចូល
+  suggest: ស្នើសុំ
+autopeer:
+  detail: បញ្ជូលប្រាក់តាមរយៈប្រព័ន្ធ Autopeer
+  noti: ព័ត៌មានសំខាន់ សូមអាន
+  pleaseTransferWithin: សូមផ្ទេរប្រាក់ និងផ្ទុកបង្កាន់ដៃក្នុងរយៈពេល 5 នាទី
+  ifNotUpload: ប្រសិនបើអ្នកមិនផ្ទុកឡើងក្នុងពេលកំណត់
+  mustReport: អ្នកនឹងត្រូវរាយការណ៍ការផ្ទេរមិនត្រឹមត្រូវ
+  contactBank: ហើយទាក់ទងធនាគារដើម្បីស្នើសុំការសងប្រាក់វិញដោយខ្លួនឯង
+  howToDeposit: របៀបបញ្ជូលប្រាក់
+  step1: បញ្ជាក់ចំនួនទឹកប្រាក់ ឬ បញ្ជូលរហ័ស តាមចង់បាន ហើយចុច "បញ្ជូល"
+  step1_specifyAmount: បញ្ជាក់ចំនួនទឹកប្រាក់
+  step1_or: ឬ
+  step1_quickDeposit: បញ្ជូលរហ័ស
+  step1_asDesired: តាមចង់បាន
+  step1_andPress: ហើយចុច
+  step1_deposit: បញ្ជូល
+  step2: ចម្លងគណនី និងផ្ទេរប្រាក់ តាមចំនួនដែលបានបង្ហាញ។ បន្ទាប់ពីភ្ជាប់បង្កាន់ដៃ ចុច "បញ្ជាក់"
+  step2_copyAccount: ចម្លងគណនី និងផ្ទេរប្រាក់
+  step2_asShown: ដូចដែលបានបង្ហាញ
+  step2_afterAttach: បន្ទាប់ពីភ្ជាប់បង្កាន់ដៃ
+  step2_pressConfirm: ចុច "បញ្ជាក់"
+  step3: ប្រាក់នឹងបញ្ចូលដោយស្វ័យប្រវត្តិនៅពេលធ្វើប្រតិបត្តិការបានក្នុងពេលកំណត់
+  importantQuestion: សំខាន់ណាស់! សូមឆ្លើយសំណួរ
+  question1: អ្នកមានពេលប៉ុន្មាននាទីដើម្បីផ្ទេរប្រាក់ និងភ្ជាប់បង្កាន់ដៃ?
+  question2: ប្រសិនបើអ្នកបង្កើតការបញ្ជូលប្រាក់ 500 អ្នកត្រូវផ្ទេរប៉ុន្មាន?
+  question3: ត្រូវប្រើគ្រោះគណនីដែលបានចុះឈ្មោះសម្រាប់ការផ្ទេរតែប៉ុណ្ណោះ?
+  minutes5: 5 នាទី
+  minutes10: 10 នាទី
+  baht550: 550 បាត
+  baht500: 500 បាត
+  yes: បាទ/ចាស
+  no: ទេ
+  cancel: បោះបង់
+  confirm: បញ្ជាក់
+  understand: យល់ហើយ
+  sorry: សូមអភ័យទោស អ្នកមិនអាចធ្វើប្រតិបត្តិការថ្មីបានទេ
+  pendingTransaction: ដោយសារមានប្រតិបត្តិការមិនទាន់បញ្ចប់ សូមបញ្ចប់ឬបិទវាជាមុនសិន
+  acknowledge: ទទួលស្គាល់
+  title: Autopeer
+  amountToTransfer: ចំនួនទឹកប្រាក់ត្រូវផ្ទេរ
+  useRegisteredAccount: ប្រើគ្រោះគណនីដែលបានចុះឈ្មោះសម្រាប់ការផ្ទេរតែប៉ុណ្ណោះ
+  timeRemaining: ពេលវេលានៅសល់
+  depositMore: បញ្ជូលបន្ថែម
+  endDeposit: បញ្ចប់ការបញ្ជូល
+  endDepositNote: នៅពេលអ្នកបញ្ចប់ការបញ្ជូល មានតែចំនួនទឹកប្រាក់ដែលបានផ្ទេររួចហើយប៉ុណ្ណោះត្រូវបានបញ្ចូល
+  scbBank: ធនាគារពាណិជ្ជកម្មសយាម ម.ស.ក
+  ref: Ref
+  depositNotFound: រកមិនឃើញប្រតិបត្តិការបញ្ជូលប្រាក់
+  cancelSuccess: បានបោះបង់ការបញ្ជូលប្រាក់ដោយជោគជ័យ
+  cancelError: កំហុសក្នុងការបោះបង់ប្រតិបត្តិការ
+  pleaseUploadSlip: សូមផ្ទុកបង្កាន់ដៃផ្ទេរប្រាក់
+  refNotFound: រកមិនឃើញ Ref សូមព្យាយាមម្តងទៀត
+  uploadSuccess: បានផ្ទុកបង្កាន់ដៃដោយជោគជ័យ សូមរង់ចាំ
+  uploadError: កំហុសក្នុងការផ្ទុកបង្កាន់ដៃ
+  endDepositSuccess: បានបញ្ចប់ការបញ្ជូលប្រាក់ដោយជោគជ័យ
+  minimumDeposit: បញ្ជូលប្រាក់អប្បបរមា {amount} បាត
+  pleaseSelectMethod: សូមជ្រើសរើសវិធីបញ្ជូលប្រាក់ខាងក្រោម
+  specifyDepositAmount: បញ្ជាក់ចំនួនទឹកប្រាក់បញ្ជូល
+  specifyDepositNote: បញ្ជាក់ចំនួនទឹកប្រាក់ដែលអ្នកចង់បញ្ជូល។ បន្ទាប់ពីផ្ទេរ វាចំណាយពេល 2-3 នាទី
+  specifyAmount: បញ្ជាក់ចំនួនទឹកប្រាក់
+  specifyDepositPlaceholder: បញ្ជាក់ចំនួនទឹកប្រាក់បញ្ជូល
+  deposit: បញ្ជូលប្រាក់
+  quickDepositRecommended: បញ្ជូលរហ័ស (ចំនួនដែលណែនាំ)
+  quickDepositNote: ជ្រើសរើសចំនួនដែលបានបង្ហាញខាងក្រោម ប្រាក់នឹងបញ្ចូលក្នុងរយៈពេល 1 នាទី
+  amount: ចំនួនទឹកប្រាក់
+  cancelTransaction: ខ្ញុំចង់បោះបង់ប្រតិបត្តិការនេះ
+  confirmCancelTransaction: តើអ្នកចង់បោះបង់ប្រតិបត្តិការនេះមែនទេ?
+  waitFirst: រង់ចាំ
+  loadDepositListError: មិនអាចផ្ទុកបញ្ជីបញ្ជូលប្រាក់បានទេ
+  cancelledSuccessfully: បានបោះបង់ដោយជោគជ័យ
+  minimumDepositRequired: សូមបញ្ជាក់ចំនួនអប្បបរមា {amount} បាត
+  createDepositSuccess: បានបង្កើតការបញ្ជូលប្រាក់ដោយជោគជ័យ
+  requireEnglishName: មិនអាចដំណើរការបានទេ។ សូមប្រើឈ្មោះជាភាសាអង់គ្លេស។ សូមទាក់ទងអ្នកគ្រប់គ្រងដើម្បីកែតម្រូវ
+  createDepositError: កំហុសក្នុងការបង្កើតការបញ្ជូលប្រាក់
+  transactionTimeout: អស់ពេលប្រតិបត្តិការ សូមព្យាយាមម្តងទៀត

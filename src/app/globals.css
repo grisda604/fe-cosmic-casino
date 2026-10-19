@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+/* พื้นฐาน Next — UI หลักที่ / มาจาก Nuxt; polish สีอยู่ที่ /phantom/theme-polish.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

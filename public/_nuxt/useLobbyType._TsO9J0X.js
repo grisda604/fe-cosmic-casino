@@ -1,0 +1,1 @@
+import{v as s}from"./entry.COoSIBHm.js";import{m as t}from"./swiper-vue.BDRoAwEe.js";const o=[0,2,4,6,8],e=()=>{const e=s(),r=t(()=>e?.data?.setting?.status_lobby),a=t(()=>o.includes(r.value)),b=t(()=>!0);return{statusLobby:r,isOtherLobby:a,isNewLobby:b}};export{e as u};

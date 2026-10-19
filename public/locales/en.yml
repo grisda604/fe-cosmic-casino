@@ -1,0 +1,1721 @@
+account-true-wallet: True Wallet Account
+add-crypto: Add crypto account
+affilate:
+  affiliateInCome: Total Income {Income} {Currency}
+  affiliateNewFriend: New Friends
+  affiliatePeople: Number {Num} People
+  anotherTurn: Received Other Turnovers
+  canIncomForFriend: You can earn from your friends.
+  casinoLossPercentage: Casino Loss Percentage Rate
+  casinoPayback: Received Casino Loss Payback
+  casinoProfit: Casino Win/Loss Amount
+  casinoTurn: Received Casino Turnover
+  casinoWin: Received Casino Win Amount
+  classmate: Friend Tier
+  currentLevel: 'Current Level '
+  currentRevenue: Current Income
+  details: Details
+  earnMore: Received Other Income
+  earnedIncome: Income Earned
+  eventAffiliate: Invite friends to earn commission - Affiliate
+  friendsWhoPay: Friends who made deposit.
+  getPoint: Earn Points
+  highestPercentage: You have received the maximum percentage.
+  howToEarnCommissions: How to Earn from Commission
+  ifInviteFriendIncomMore: When your friends invite others, you earn even more.
+  income: Earnings
+  incomeCondition: Earnings depend on specified conditions.
+  inviteFriendMore: Invite {people} more friends to level up
+  inviteFriendsEarn: Invite Friends to Earn More
+  maxLevel: Up to 100 levels
+  moreIncome: the more you earn.
+  moreYouInviteFriends: The more you invite friends,
+  noInBox: Don't show this message again.
+  notAffiliateLink: Referral Link Not Found
+  notHave: None
+  number: Level
+  numberFriends: Number of Friends
+  otherLossPercentage: Other Loss Payback Rate
+  otherLosses: Other Win/Loss Totals
+  othersPayback: Other Loss Payback Received
+  people: People
+  percentageEarned: 'Percentage Earned '
+  percentageWinCasino: Casino Win Percentage
+  percentageWinOther: Other Win Percentage
+  percentageWinSlots: Slot Win Percentage
+  pressToGetPoints: Claim Points
+  receivedHistory: Claim History
+  receivedHistoryIncom: Earning History
+  receivedHistoryPoint: Point Claim History
+  receivedIncome: Claim Earnings
+  reciveLossFreind: Received friend's loss payback.
+  redeemForCredit: Convert to Credits
+  seeMoreDetails: See More Details
+  selectHierarchy: Select Tier
+  shareEarn: 'Affiliate Share '
+  shareLinkInviteFriend: Share your link to invite friends and earn from their wins and losses
+  shareLinkMakeMoney: Earn more with our Affiliate Program – just share link to your friends!
+  slotLossPercentage: Slot Loss Percentage
+  slotProfit: Slot Win/Loss Amount
+  slotTurn: 'Slot Turnover Received '
+  slotWin: Slot Wins Received
+  slotsPayback: Slot Losses Received
+  todayDeposit: Today's Deposit
+  todayInformation: Today's information
+  totalIncome: Total Earnings {money} THB
+  totalLoss: Total Win/Loss Amount
+  transactionHistory: Claim & Earnings History
+  up: or more
+  user: User
+  yesterdayInformation: Yesterday's Information
+  youEarningsFreeCredit: Convert your earnings to credits.
+  getEnterLink: Click to copy your invite link
+affiliate:
+  PlayCasino: Casino Turnover
+  PlayLotto: Lotto Turnover
+  PlayOther: Other Turnover
+  PlaySlot: 'Slot Turnover '
+  PlaySport: Sport Turnover
+  calCommissions: Commission Calculation in Progress
+  calLv: Calculate
+  canReceviveHaveReward: Rewards can be claimed when accumulated amount exceeds
+  canReceviveHaveReward11: Make slot turnover
+  canReceviveHaveReward12: x {Credit} times
+  canReceviveHaveReward13: 'and make casino turnover '
+  canReceviveHaveReward14: x {casino} times
+  canReceviveHaveReward2: Maximum Withdrawal After Turnover Completion
+  canSeeTableOnBottom: You can view your earned percentages in the table below
+  cardAffilateFriend: Friend {Minimum}/{Maximum} pax.
+  cardAffilateLossFriend: Earn {percent}% of Friends’ Losses
+  cardAffilateTitile: Nowl! Invite friends and level up to earn higher percentages!
+  casinoLossPercentage: Casino Loss
+  classmate: Friend Tier {People}
+  classmateNo: Friends
+  comissionType: earn from friends’ turnover and losses
+  continueOne: Level 1
+  continueTree: Level 3
+  continueTreeMax: earn Up to 3 Levels of Commission!
+  continueTwo: 'Level 2 '
+  continueTwoMax: earn Up to 2 Levels of Commission!
+  customPlayer: Friends' Turnover or Losses by Game Type
+  desNumOne: Share link to friends for registeration and deposit
+  descAffilate1: See the percentage received by level
+  descAffilate2: 'See the percentage received by level '
+  descAffilate3: Click to see all details
+  desfriendsWhoTopUp: Friends who top up
+  detailAll: 'View All '
+  earnIncomeFrom: 'Earn from '
+  firstTopup: Friend's First Deposit
+  friendInLoss: Friend's Losses
+  friendInProfit: Friend's wins
+  friendInTurnover: Friend's turnover
+  friendPlay: Friends Played, You Earned!
+  friendRegister: Friend Sign-Ups
+  friendTurnover: Friend's Turnover
+  friendsNumber: Friends
+  friendsTopUp: Number of Deposited Friends
+  getNow: Get
+  incomNumOne: Level 1 Earnings
+  incomNumTree: Level3 Earnings
+  incomNumTwo: Level 2 Earnings
+  incomTurn: Earn from friends' turnover
+  incomWinLoss: Earn from friends'losses
+  inviteFriendsApply: Invite friends to play
+  inviteFriendsStepsOne: Copy Link to Share
+  level: Level
+  lineActive: From {active} depositing friends and above
+  lineLoss: From {loss} THB Losses and more
+  lineTurnOver: Minimum Turnover
+  loss: Losses
+  lossLv: Losses
+  lottoLossPercentage: Lottery Loss Amount
+  noiceLevel: Once you reach the required level, you’ll receive a bonus percentage (shown in brackets). The values in the table already include this bonus.
+  noteOther: Credits received from promotions or other activities are not counted. Only top-ups are included in earnings.
+  notiAffiliateTypeCheckIncom: Can claim from 1 THB or more
+  numLevel: Level
+  onwards: Onwards
+  otherLossPercentage: Other Losses
+  percentageWinCasino: Casino Wins
+  percentageWinLotto: Lottery Wins
+  percentageWinOther: Other Wins
+  percentageWinSlots: 'Slot Wins '
+  percentageWinSport: Sports Wins
+  persent: 'Percent '
+  persentLv: Current Level
+  shareLossFriend: Earn from Friends's Losses
+  slotLossPercentage: 'Slot Losses '
+  sportLossPercentage: Sports Losses
+  stepIncom: How to Claim Rewards
+  tablePercentage: 'All Level Commission Percentage '
+  totalLossOther: All Losses
+  turnCasino: Casino Turnover
+  turnLotto: Lottery Turnover
+  turnOther: 'Other Turnover '
+  turnSlot: Slot Turnover
+  turnSport: Sports Turnover
+  typeCashback: Game
+  typeCasino: Casino Category
+  typeLotto: 'Lottery Category '
+  typeOther: Other Category
+  typeSlot: 'Slot Category '
+  typeSport: 'Sport Category '
+  typeTopPlay: Type
+  waitFriends: Get reward immedietly when your friend registered
+  whatIsAff: What is Affiliate?
+  winAndLoss: Win & Loss
+  youPlay: 'Game Turnover '
+  youWant: Need more earnings?
+alert:
+  error:
+    OTPBeenSent: OTP has been sent.
+    boxCannotOpen: Can't open box right now.
+    canNotSpinNow: Unable to spin the wheel now.
+    copyError: Copy failed
+    creditLower: Credit is below minimum required.
+    expiredRequestOTPAgain: OTP has expired. Please request a new OTP.
+    findNumberSystem: Number not found in the system
+    founError: Error found
+    foundError: Error found. Please contact admin.
+    invalidLink: Invalid link
+    invalidOTP: Incorrect OTP
+    loginFailed: Login failed. Please check your account and password.
+    network: Network Unstable
+    noCanGiveTips: Cannot give feedback now. Please wait 1-2 minutes.
+    noHvaeLinkShareEarn: No revenue sharing link available
+    noItem: 'No data found '
+    outstanding: Cannot access casino, battle, sports, lottery, crash or crypto games unless promotions are turned off and turnover is complete.
+    passwordRequired: Enter your password
+    passwordUncorret: Passwords do not match
+    pleaseComplete: Please fill out all the information.
+    pleaseCompleteInformation: Please fill out all the information.
+    plsRecaptcha: Please verify with reCAPTCHA
+    receivedPromotionAutoFailed: Failed to claim promotion
+    transactionError: Transaction failed
+    updating: System is temporarily being updated
+    uploadMoreThan: Upload images under 1 MB
+    uploadNoSuccessfully: Upload failed
+    usernameRequired: Please enter username
+  success:
+    OTPCorrect: 'OTP verified '
+    OTPSentSuccessfully: OTP sent successfully
+    changePasswordSuccessfully: Password changed successfully
+    changedPinSuccessfully: PIN changed successfully
+    colseReceivedPromotion: Promotion closed successfully
+    commissionEarned: Commission received
+    congratulations: Congratulations!
+    copySuccessfully: Copy successful
+    exchangeCreditSuccessfully: Credit transferred!
+    loginSuccess: Login successful
+    promotionSuccessfully: Promotion claimed!
+    receiveFreeSpin: Free spins claimed!
+    receivedAward: Reward claimed!
+    receivedFreeCredit: Free credit received successfully
+    receivedPromotionAutoSuccessfully: Auto promotion activated
+    redeemSuccess: Redemption completed
+    resetPasswordSuccessfully: 'Password changed! '
+    savedSuccessfully: Data saved
+    successfulWithdrawal: Withdrawal successful
+    successfulWithdrawalCurrency: Withdrawal successful {amount} {currency}
+    successfullyRedeemed: Converted successfully
+    thnankToTipSuccessfully: Thank you for your feedback. We will continue to improve the system.
+    topUpSuccessfully: Deposit successful {amount} {currency}
+  topUpSuccessfully: Deposit completed
+answerQuestions:
+  chooseAtLeast: Select at least
+  questions: Questions
+bacroom:
+  popularRooms: Popular Rooms
+  noData: No Data
+  enterRoom: Enter Room
+  cannotEnterGame: Cannot enter game
+bank:
+  accountChangeWarning: The account will change frequently. Please do not save!
+  accountTransferred: Account for transfers
+  baac: Bank for Agriculture
+  bankUpdate: Account details will change periodically.
+  bay: Bank of Ayudhya
+  bbl: Bangkok Bank
+  cancelTopup: Cancel deposit
+  checking: Verifying
+  chooseBank: Choose a bank
+  cimb: CIMB Thai
+  confirmTopup: Confirm deposit
+  coppyBank: Please copy the account number. The system will show deposit amounts with decimals. You must transfer the exact amount shown by the system.
+  copyAccount: Copy account
+  decimalTransfer: Decimal transfer
+  gameQR: Used for game deposits only
+  gotoPopUp: Redirecting...
+  gsb: Government Savings Bank
+  icbc: Industrial and Commercial Bank of China
+  kbank: Kasikorn Bank
+  kk: Kiatnakin Bank
+  ktb: Krung Thai Bank
+  lastestTransaction: Latest transactions
+  lhbank: Land and Houses Bank
+  minimumAmount: Minimum amount {money} baht
+  minimumTopUp: Minimum deposit
+  minimumTopUpBath: Minimum deposit {money} {currency}
+  minute: minute
+  noMoneyTransfer: No money transfer found in the system
+  noRounded: Do not round the amount
+  noRoundedDecimal: Do not round decimals
+  pending: Waiting for payment
+  pleaseRoundAmount: Please deposit the exact amount shown. Do not round.
+  pleaseTopUp: Please deposit the exact amount shown.
+  pleaseTransferMoney: Please transfer money within the time limit.
+  pleaseTransferTime: Please transfer money within the time limit.
+  pleaseUseAccount: Please use only the account you registered with for transfers.
+  plsAccountOnly: Please use only the account you registered with for transfers.
+  plsQrcode: This QR Code can only be used once. Do not transfer repeatedly.
+  promptpay: PromptPay
+  scanQRCode: Scan the QR Code to transfer to the account.
+  scb: Siam Commercial Bank
+  specifyAmount: Specify the amount
+  systemAutomatically: The system will credit your account automatically within 1-2 minutes.
+  tbank: Thanachart Bank
+  tisco: TISCO Bank
+  tmb: TMB Bank
+  topUp: Deposit
+  topUpComplete: The system has credited your account.
+  topUpSuccessfully: Deposit completed
+  topupHistory: Deposit history
+  topupRejected: Rejected deposits
+  transferAccount: Transfer account
+  transferredPleaseClick: After transferring money, please click "confirm" here.
+  truewallet: TrueWallet
+  ttb: TMB Thanachart Bank
+  uob: United Overseas Bank
+  wantCancelTopup: Do you want to cancel this deposit?
+  yourAccount: Your account
+  bankIncom: Bank Account
+  trueMoneyWalletFee:
+    feePercentage: Fee {percentage}%
+    systemDeductFee: The system will deduct deposit fees {percentage}%
+    fromTopupAmount: from top-up amount, maximum {maxDeduction} baht
+    promotionCase: In case of promotion top-up
+    topupMinPromo: Top-up minimum for promotion + (fee)
+    toGetPromotion: to receive the desired promotion
+    feeInfo: Fee {percentage}% (maximum {maxDeduction} baht)
+    amountToTopup: Amount to top-up (minimum {minAmount} baht)
+    minimumAmountError: Minimum amount {minAmount} baht
+    feeAmount: Fee ({percentage}%)
+    amountReceived: Amount received (after fee deduction)
+    calculateTopupAfterFee: Calculate top-up amount after fee deduction
+    amountToTopupSimple: Amount to top-up
+bankMethod:
+  viaAccount: ''
+button:
+  add: Add
+  apply: Apply
+  back: Back
+  cancel: Cancel
+  changePassword: Change Password
+  clear: Clear
+  clickHere: Click here
+  close: Close
+  confirm: Confirm
+  continue: Continue
+  copy: Copy
+  delete: Delete
+  download: Download
+  edit: Edit
+  exchangeCredit: Transfer Credit
+  filter: Filter
+  finish: Finish
+  forgotPassword: Forgot Password
+  getCredit: Claim
+  getPromotion: Get this Promotion
+  getRewarded: Get Reward
+  goPlayGames: Play Games
+  login: Login
+  logout: Logout
+  next: Next
+  notAccepPromotion: Do not accept promotion
+  ok: OK
+  participate: Participate
+  playGame: Play Game
+  previous: Previous
+  receive: Receive
+  recevice: Claim
+  record: Save
+  register: Register
+  resend: Resend
+  reset: Reset
+  resetPassword: Reset Password
+  save: Save
+  search: Search
+  select: Select
+  send: Send
+  sendCode: Send Code
+  share: Share
+  stay: Stay
+  submit: Submit
+  topUp: Deposit
+  understand: Got it
+  upload: Upload
+  verify: Verify
+  withdraw: Withdraw
+  yess: 'Yes'
+cashPoint:
+  cashPoint: Accumulated Amount
+  cashpointReceivedTwoAm: '*Accumulated amount can be received after 02:00 AM onwards'
+  cumulativeAmount: Get cashback on every bet
+  earnedCredit: Accumulated amount received
+  login: Login
+  lostBet: Loss {lost}%
+  numberOf: Amount {credit}, is this correct?
+  turnAll: All Types of Turnover
+  turnOver: Turnover {turn}%
+  wantEarnFreeCredits: Do you want to receive free credits from your accumulated amount?
+  whenBetting: When you win or lose a bet, you'll receive credit back immediately! You can see the percentage you'll receive below.
+  winBet: Win {win}%
+cashback:
+  allAbout: Total
+  calLossForPlay: The system will calculate losses from games played
+  cashPointsBackGames: Don't worry about losses on slot games - you'll still get credit back from your losses. You can see the percentage you'll receive below.
+  cashbackPlaySlotAndCasino: Get cashback from playing slots and casino
+  cashbackReceivedFiveAm: Cashback can be received after 05:00 AM onwards
+  cashbackReceivedFourAm: Cashback can be received after 04:00 AM onwards
+  cashbackReceivedOneAm: Cashback can be received after 01:00 AM onwards
+  cashbackReceivedThreeAm: Cashback can be received after 03:00 AM onwards
+  cashbackReceivedTwoAm: Cashback can be received after 02:00 AM onwards
+  cashpointPercentageBelow: Even if you lose your bets, you'll still receive credit back. See the percentage of losses returned below.
+  casinoGamesPersent: Casino Games
+  creditBackFromLoss: Credit back from losses {value}%
+  exceptSportsBetting: Even if you lose at slots, you'll still get credit back from your losses, except for sports betting
+  getBackEveryBet: Get cashback on every bet
+  getLossPlayingSlots: Get your cashback from playing slots!
+  noReceviceCashback: Will not receive credit back from losses
+  onlyPlaysSlotsGames: If a player plays only slot games, the system will calculate the percentage of slot losses
+  otherPlaylistsNotReceive: Game types other than slots will not receive credit back from losses
+  percentageReceivedLoss: This is a cashback based on your losses.
+  playersCanGetLosses: Players can receive credit on losses from betting. See the percentage of credit returned from losses below.
+  playsSlotsAndCasinoGames: If a player plays both slot and casino games, the system will calculate the percentage of casino losses only
+  receivedCashback: Receive Cashback
+  returnedLoss: Cashback
+  slotAndCasino: Slot and Casino Games
+  slotGames: Slot Games
+  slotGamesPersent: Slot Games {value}%
+  systemCalculateSlots: The system will calculate losses from slot games only
+  topUpFirstADay: From the first deposit of the day
+  topUpFirstPlayer: From the player's first deposit
+  'topUpFirstPlayer ': First deposit
+  typeGameSport: Sports games
+  whatBetsCan: Which games offer loss payback?
+  youWantReceive: You would like to claim credits
+codeDesc: Enter the code to receive a special prize.
+collectPoints:
+  allPrizes: All Rewards
+  ascending: Low to High
+  credit: Credit
+  descending: High to Low
+  endNow: Will end in
+  equipment: Equipment
+  gold: Gold
+  isCheckRewardAlert: Do you want to receive points
+  lifestyle: Lifestyle
+  moreThan: More than 72,000
+  noHistory: No redemption history
+  pending: Pending
+  points: Points
+  pointsNumber: ${number} points
+  redeemRewards: Redeem Rewards
+  redemptionHistory: Redemption History
+  remainingPoints: Available Points
+  rewardsNotFound: No rewards found for your search
+  scoreRange: Score Range
+  searchRewards: Search Rewards
+  spend: Use {point} points
+  toRedeem: to redeem {reward}, is this correct?
+  totalBalance: Points available to claim
+  tupUpTimeNow: Top up now, get x{multiple} points!
+  type: Type
+  wantToSpend: Do you want to spend
+  detailModalType: Get a random reward instantly when you log in!
+commission:
+  approved: Approved
+  codeAlready: This code has been used.
+  codeHere: Enter the code here.
+  description: Earn commission from referrals
+  earnings: Commission Earnings
+  enterCode: Enter a free credit code.
+  examine: examine
+  history: Commission History
+  historyCommission: Communication history
+  pending: Pending Commission
+  plsCode: ''
+  prizealready: You have won
+  rate: Commission Rate
+  rejected: Rejected Commission
+  title: Commission
+  total: Total Commission
+  typeCasino: Fresh casino
+  typeLotto: lottery
+  typeOther: Other types
+  typeSlot: Slot game
+  typeSport: Sports game
+  withdrawal: Commission Withdrawal
+commission4step:
+  back: Back
+  close: Close
+  day: Daily
+  details: Cashback Details
+  eventName: Commission 4 Levels
+  history: History
+  latestItems: (Latest 5 Items)
+  matchingDetails: Matching Details
+  month: Monthly
+  moreThanOneDay: More than 1 day
+  now: Current
+  playMoreGames: Play More Games
+  realtime: Daily
+  receiveMoney: Receive Reward
+  receiveMoneyType:
+    cash: Cash
+    freecredit: Credit
+  rewardHistory: Reward History
+  timeRemaining: Time Remaining
+  week: Weekly
+commom:
+  activity: Activity
+  admin: Admin
+  badBalance: Loss
+  baht: baht
+  bankLink: Withdrawal
+  cash: Cash
+  cashMoney: Balance
+  cashTranfer: Cash Transfer
+  casino: Casino
+  categoryPosition: Category
+  contact: Contact
+  credit: Credit
+  creditHistory: Credit History
+  day: Date
+  details: Details
+  diamond: Diamonds
+  displaySetting: Display Settings
+  dong: Dong
+  enterAmount: Please specify the amount.
+  error: Error
+  freeCredit: Free Credit
+  game: Game
+  gameBalance: Game Balance
+  gotoGame: Enter Game
+  hide: Hide
+  info: Information
+  lastEntries: (5 Latest Items)
+  left: Left
+  line: Line
+  loading: Loading
+  logout: Logout
+  mainPage: Main Page
+  min: Minimum
+  money: Money
+  month: Month
+  noCreditHistory: No credit history
+  noData: No data available
+  noHave: None
+  noHistoryEntry: No history available
+  noResults: No results found
+  noRewardHistory: No history
+  notPointHistory: No points history
+  notexttoday: Don't show this message again
+  number: Quantity
+  other: Other
+  prizeNotFound: No prize found
+  rewardHistory: Reward History
+  right: Right
+  seconds: seconds
+  seeAll: See all
+  seeConditions: See more conditions
+  showLess: Show less
+  showMore: Show more
+  slot: Slots
+  success: Success
+  top: Top
+  topUp: Deposit
+  turn: Turnover
+  view: View
+  wait: Please wait a moment
+  warning: Warning
+  year: Year
+  yerNo: Is this correct?
+  quickNavigation: Shortcut to the Department of Department
+  dailyTopUpCalendar: Daily Top Up Calendar
+common:
+  loadMore: Load more
+  noItem: No information found
+  scrollForMore: Scroll to see more
+  resetFilters: Clear search
+  filters: Filter
+  doNotReuse: Do not reuse
+  qrDeposit: This QR Code is for deposits via the website for gameplay only
+components:
+  language_switcher:
+    change_language: Change Language
+  theme_switcher:
+    change_theme: Change Theme
+    theme: Theme
+crypto:
+  addCryptoDesc: |-
+    Enter the Vollet Address
+    And choose a crypto genus
+  addWallet: Enter the Vollet Address
+  crypto: Crocodile
+  enterProcess: Make a deposit
+  network: Network
+  selectCrypto: Choose a crypto currency
+  selectNetwork: Choose a network
+  walletAddress: Vollet Address
+  withdraw: Cripitos (for withdrawal)
+decimalTransfer: Decimal deposit
+deposit: Deposit
+depositAndUploadSlip: Transfer money and upload a slip.
+depositBankAuto: Deposit through bank (automatic)
+depositBankDesc: |-
+  Use accounts that apply for money via bank.
+  Supports both bank accounting and QR Code
+depositBankSpecials: Deposit through bank (special)
+depositCryptoDesc: Top up the game by cryptocurned
+depositHistory: Deposit history
+depositWithTrueWallet: Deposit money using True Money Walt
+depostiCrypto: Deposit in crypto
+directTopupBank: Direct transfer via bank
+error:
+  failedToInitialize: Something weng wrong
+  founError: Something weng wrong
+  foundError: Something weng wrong
+  invalidData: Something weng wrong
+  invalidPrize: Something weng wrong
+  invalidResponse: Something weng wrong
+  unknownPrize: No reward information
+events:
+  allEvents: All Events
+  affiliate: Invite friends to earn commission
+  answerQuestions: Answer Questions
+  balanceDiamonds: Remaining diamond
+  cash: Cash
+  cashPoint: Cash Point
+  cashback: Cashback
+  cashbackBill: Return the first plug
+  cashpoint: Points
+  collectPoints: Collect Points
+  commission: Commission
+  commission4step: 4-Level Commission
+  daily: Daily Deposit
+  dailyFixTopup: Fix Amount  Deposit
+  dailyMission: Daily Mission
+  earn: Make money
+  evaluateAdmin: Rate Admin
+  eventsDetail: Activity Details
+  freeCredit: Free Credit
+  income: Make money
+  inviteFriends: Invite Friends
+  joinEvent: Join the activities to win many prizes.
+  joinMinigame: |-
+    Use diamonds to play mini games.
+    To win more diamonds than before!
+  luckyBox: Lucky Box
+  luckyBoxDiamond: Open the box
+  luckyWheel: Lucky Wheel
+  minigame: Mini game
+  mission: Mission
+  monthlyMission: Monthly Mission
+  notActive: The activity is not yet open for use.
+  points: Accumulate
+  questionResearch: Question set
+  randomPrize: Random Prize
+  rank: Ranking
+  rated: Rank
+  referral: Invite friends to receive bonus
+  regularDeposit: Regular Deposit
+  reward: reward
+  shareFacebook: Share on Facebook
+  specialCommission: Special commission
+  tier: VIP Level
+  title: Events
+  titleevents: Join the activities to win many prizes.
+  titlestore: Use diamonds to exchange rights to play activities here.
+  treasureBox: Treasure Box
+  updatePhone: Update number
+  weeklyMission: Weekly Mission
+  wheelTurnOver: Lucky Wheel Turnover
+  winPrizes: Win a prize
+exchangeCredit:
+  available: Available Credits
+  creditFreeNoEnough: You don't have enough free credit.
+  description: Exchange your credits for rewards
+  exchange: Exchange
+  exchangeCreditFree: Transfer free credit to your game balance
+  exchangeFreeCreditMinimum: 'Minimum free credit transfer: {Minimum} Baht'
+  exchangeUnlimitedWithdrawal: Unlimited withdrawal {Minimum} {Currency}
+  goMoney: 'To: Balance'
+  history: Exchange History
+  makeTurnCasino: Complete casino turnover {turn} times
+  makeTurnSlot: Complete slot turnover {turn} times
+  maximum: Maximum Exchange
+  minimum: Minimum Exchange
+  plsCreditMinimum: Please enter a minimum of {Minimum} Credit
+  plsInputCredit: Please enter credit amount
+  rate: Exchange Rate
+  specifyAmount: Specify credit amount
+  systemClosedMaintenance: Free credit system is currently down for maintenance. Sorry for the inconvenience.
+  title: Exchange Credit
+  tranferCredit: 'From: Free credit'
+favGames:
+  deletefavGames: Delete your favorite game.
+  empty: No favorite games found.
+  failedfavGame: Failed to add favorite game.
+  successfavGames: Added your favorite game.
+  title: Favorite Games
+footer:
+  events: Events
+  home: Home
+  noti: Notifications
+  promotion: Promotion
+  withdraw: Deposit/Withdraw
+forgame: For game
+freeCredit:
+  checkReceivedFour: 'Free credit can be claimed after 04:00 AM '
+  checkReceivedOne: 'Free credit can be claimed after 01:00 AM '
+  checkReceivedThree: 'Free credit can be claimed after 03:00 AM '
+  earnedCredit: Credit Earned
+  easyWayCreditFree: How to easily get {number} free credit
+  easyWayDiamond: How to easily get  {number} diamonds
+  easyWayMoney: How to easily get {number} baht
+  end: End
+  getFreeCredit: Get Free Credit
+  luckyWheel:
+    additionalConditions: ''
+    goTopup: ''
+    goTurn: ''
+    haveLoss: ''
+    haveLossNew: ''
+    haveMinimum: ''
+    haveReceived: ''
+    noRightSpin: ''
+    noSpinning: ''
+    noSpinningRight: ''
+    remarks: ''
+    seeAdditionalConditions: ''
+    spinWheel: ''
+    spinsLeft: ''
+    topUpMinimum: ''
+    turn: ''
+    wheelTurnOver: ''
+    winBigPrizes: ''
+    youHave: ''
+  makeTurnClaim: '-Make slot turnover {slotturn} times and casino turnover {casinoturn} times'
+  round: Round {number}
+  start: Start
+  topUpMinimum: Minimum deposit {minimum} baht, receive free credit immediately
+  topUpNoPromotion: Deposit without promotion and minimum deposit {minimum} baht, receive free credit immediately
+  topUpPromotion: Deposit with promotion and minimum deposit {minimum} baht, receive free credit immediately
+  wantFreeCredit: Do you want to receive free credit
+  whenTopupRecevedCredit: When your top-up is complete, claim your free credit
+  whenTopupRecevedDiamond: When your top-up is complete, claim your diamonds
+  whenTopupRecevedMoney: When your top-up is complete, claim your money
+  whenWitdthCredit: When turnover is complete, you can withdraw free credit
+  whenWitdthDiamond: When turnover is complete, you can withdraw diamonds
+  whenWitdthMoney: When turnover is complete, you can withdraw money
+  quickAccessCredit: Can receive an award here
+freeSpin:
+  description: Free spins for slot games
+  forGame: For game
+  giftbox: Gift box
+  noNoti: No notification found
+  nogiftBox: No gifts yet!
+  noti: Notification
+  title: Free Spins
+freespin: Free Spins
+from: From
+gamehits: The most popular game!
+incomDetail: Revenue information
+inviteFriends:
+  bonusFriends: Bonus received from inviting friends
+  friendAll: All invited friends
+  newUsersOnly: from new users only
+  receiveBonus: You will receive a bonus
+  referralLink: Affiliate Link
+  unlimitedFriends: Invite unlimited friends!
+isGameType:
+  all: All
+  arcade: Arcade
+  cashback: Cashback
+  casino: Casino
+  gameType0: You cannot access casino, battle, sports, lottery, crash, or crypto games while a promotion is active. Please disable the promotion and complete the required turnover.
+  gameType1: You cannot access casino, crypto, PVP, or crash games while a promotion is active. Please disable the promotion and complete the turnover conditions.
+  gameType2: You cannot play slots, fishing, arcade, or table games while a promotion is active. Please disable the promotion and complete the required turnover.
+  lotto: Lottery
+  luckyWheel: Wheel
+  slot: Slots
+  sport: Sports
+key: Latest game
+lastgame: Latest game
+lobby:
+  allGames: All Games
+  gameCategory: Game category
+  new: New
+  noGamesFound: No games found
+  notGame: 'No Games Found '
+  searchGames: Search Games
+  noEventsNow: No activities at this time
+  recommendedEvents: Recommended Events
+  gameCategoriesList: Slot, Casino, Sports, Table, Arcade, Pvp, etc.
+  typeAtLeastThreeChars: Type at least 3 characters
+  foundGamesCount: 'Found {count} games'
+loginPage:
+  byLoggingIn: By logging in, you agree to our
+  enterYourUsername: Enter username or phone number
+  exclusiveBonus: Special Bonus
+  exclusiveBonusDesc: Claim special promotions and rewards
+  forgotPassword: Forgot Password
+  login: Login
+  loginToYourAccount: Log in to your account to continue
+  or: OR
+  passwordOrPin: Password / PIN
+  plsInputLeastFour: Please enter at least 4 characters
+  plsInputLeastTen: Please enter at least 10 characters
+  privacyPolicy: Privacy Policy
+  rememberMe: Remember Me
+  secureGaming: Secure Gaming
+  secureGamingDesc: Your data and transactions are protected with advanced encryption
+  subscribtion: Register
+  support247: 24/7 Support
+  support247Desc: Our team is always ready to assist you
+  termsOfService: Terms of Service
+  userAccountOrTel: Username or Phone Number
+  welcomeToSlotGames: Welcome to Slot Games
+luckyWheel:
+  additionalConditions: Additional Terms
+  goTopup: Go to Deposit
+  goTurn: Make Turnover
+  haveLoss: Spend at least {minimum} THB in losses to receive 1 spin per day
+  haveLossNew: With losses over {minimum} THB, get 1 lucky wheel spin per day
+  haveMinimum: Deposit at least {minimum} {currency} to receive 1 spin per day
+  haveReceived: You have received {reward}
+  noRightSpin: You don't have spins yet
+  noSpinning: You have no spins for now
+  noSpinningRight: You have no spins left
+  remarks: Remarks
+  seeAdditionalConditions: See Additional Conditions
+  spinWheel: Spin the Lucky Wheel
+  spinsLeft: spins left
+  topUpMinimum: Minimum deposit of {minimum} but not exceeding {maximum} baht to receive {value} chances
+  turn: Spin
+  wheelTurnOver: Turnover Lucky Wheel
+  winBigPrizes: Win big prizes and lots of free credit!
+  youHave: You have
+manageBankAccount:
+  addAccount: Add Account
+  addAccountBank: Add Bank Account
+  addAccountBankDesc: Please select a bank and enter the account number
+  changePrimaryAccount: Change Primary Account
+  changePrimaryAccountDesc: You can change your primary account only once
+  changedSuccessfullyPrimaryAccount: Primary account changed successfully
+  dafaultAccount: Primary Account
+  manageAccount: Manage Account
+  notHaveAccount: No account yet
+  waitingVerification: Waiting for Verification
+migrate:
+  complete: Migration Complete
+  description: Migrate your account to the new system
+  popup1: Cancel data updates
+  popup2: Do you want to cancel data updates?
+  popup3: Cancel the data update
+  popup4: welcome!
+  popup5: Update the information for us a bit.
+  start: Start Migration
+  title: Account Migration
+minimum: Minimum {0} baht
+mission:
+  accumulate: Accumulate
+  awardAllLogin: Get {reward} {typeReward} every day you login!
+  awardHistory: Reward History
+  claim: Claim Reward
+  collectorModeOnly: The accumulated mission will be eligible for only one prize.
+  complete: Complete Mission
+  completed: Completed Missions
+  daily: Daily Missions
+  description: Complete missions to earn rewards
+  duration: 'Duration: Unlimited'
+  everyday: Daily
+  fri: Fri
+  getRewarded: Get Reward
+  go: Go
+  inProgress: Missions in Progress
+  loginCalendar: Login Calendar
+  missionList: Missions
+  missionsEnd: All missions will end in
+  mon: Mon
+  monthly: Monthly Missions
+  progress: Mission Progress
+  received: Received
+  reward: Mission Reward
+  sat: Sat
+  seasonMissions: Seasonal mission is active from
+  seasonal: Seasonal
+  soon: There are no missions available at this time. Please check back soon.
+  special: Special Missions
+  sun: Sun
+  thu: Thu
+  title: Missions
+  tue: Tue
+  wed: Wed
+  weekly: Weekly Missions
+  detailModalType: Get a random reward instantly when you log in!
+  getRewardPromotion: Top up with promotion
+  getRewardNoPromotion: Top up without promotion
+month:
+  april: April
+  august: August
+  december: December
+  february: February
+  january: January
+  july: July
+  june: June
+  march: March
+  may: May
+  november: November
+  october: October
+  september: September
+notRewardList: Reward list not found
+nvalidPrizeType: Invalid Prize Type
+onePayment:
+  description: Fast bank deposit
+  recommend: Recommended
+  title: Automatic Deposit (Express)
+  oneBanks: Automatic Bank
+oneThingMustBeDone: One thing must be done
+p2p:
+  description: Transfer funds to other users
+  receive: Receive
+  send: Send
+  tab1: Pay via the website
+  tab2: Pay via QR Code
+  title: Peer-to-Peer Transfer
+pages:
+  '404':
+    title: Register
+  promotion:
+    all: All
+    casino: Casino
+    lotto: Lottery
+    other: Other
+    slot: Slots
+    sport: Sports
+  tier:
+    credit: Credit
+    diamonds: Diamonds
+    freeCredit: Free Credit
+    permissionToOpenTheBox: Open the Box
+    permissionToSpinTheWheel: Spin the Wheel
+    point_rewards: Points
+personalInformation:
+  accountLine: Connected to LINE
+  accountName: Account Name
+  accountNotYet: Not connected yet
+  accountNumber: Account Number
+  address: Address
+  bankAccount: Bank Account
+  birthday: Birthday
+  birthdayRegistration: Register your birthday
+  changePIN: Change PIN
+  changePassword: Change Password
+  changePasswordGame: Change game password
+  chkPasswordSix: Password must be between 6-12 characters
+  city: City
+  country: Country
+  dateOfBirth: Date of Birth
+  email: Email Address
+  female: Female
+  gameCode: Game Access Code
+  gender: Gender
+  haveLangue: Must include English characters and numbers (e.g., ABC123)
+  inviteFriends: Invite friends to receive bonus
+  male: Male
+  name: Full Name
+  noHaveFriend: No friends found
+  notYetRegistered: Not registered yet
+  other: Other
+  personalInformation: Personal Information
+  phone: Phone Number
+  pinCode: PIN Code
+  plsConfrimPasswordNew: Please confirm the new password
+  plsNewPassword: Please enter a new password
+  plsNewPasswordAndSave: Please enter a new password and click Save
+  postalCode: Postal Code
+  preferNotToSay: Prefer not to say
+  pressSave: Please enter your old PIN and new PIN
+  profile: Profile
+  referralCode: Affiliate Code
+  referralLink: Affiliate Link
+  seeProfile: View Profile
+  shareEarn: Share Link
+  state: State/Province
+  title: Personal Information
+  twoFactorAuthentication: Two-Factor Authentication
+  update: Update Information
+  userGame: In-game Username
+pls-enter-true-wallet: Please fill out the phone number tied to True Wallet.
+plsUploadSlipviaQR: Please upload a slip with only QR Code, otherwise the balance will not log in.
+promotion:
+  supportedChannels: Supported deposit channels
+  supportedPromotions: Supported promotions
+  accountSupportsPromotion: This account supports promotions
+  acceptedpro: Promotion already received
+  allPromotionsCasino: All promotions for casino games
+  allPromotionsSlot: All promotions for slot games
+  automatically: Automatic
+  automaticallyReceivePromotions: Automatically receive promotions for specific groups
+  buttonOpen: Press the button to receive promotions
+  canNotReceiveNow: Cannot receive promotion at this time
+  cannotplayCasino: Cannot play casino games
+  casino: Casino
+  change: Change
+  myPromotions: My Promotions
+  promotionStatus: Promotion Status
+  receiveAutomaticPromotions: Receive Automatic Promotions
+  notReceivingPromotions: Not Receiving Promotions
+  automaticPromotionInfo: Automatic Promotion Info
+  promotionName: Promotion Name
+  requiredAmount: Required Amount
+  viewMore: View More
+  complete: Complete
+  promotionDetails: Promotion Details
+  promotionType: Promotion Type
+  requirements: Requirements
+  bonusAmount: Bonus Amount
+  defaultRequirements: Default Requirements
+  noActivePromotion: No Active Promotion
+  selectPromotion: Select Promotion
+  wantToReceivePromotions: Want to Receive Promotions
+  enablePromotions: Enable Promotions
+  updating: Updating
+  promotionsDisabled: Promotions Disabled
+  promotionsEnabled: Promotions Enabled
+  toggleError: Toggle Error
+  depositBonus: Deposit Bonus
+  cashback: Cashback
+  freeCredit: Free Credit
+  changePromotion: Your remaining balance must be less than or equal to {credit} {currency} to change promotion status
+  chooseGroupLike: Choose your preferred group
+  chossesPromotion: This promotion is selected
+  closePromotion: Close Promotion
+  conditions: Conditions
+  details: Details
+  doNotNotify: Don't notify me about this again
+  getPromotion: Get Promotion
+  getPromotionsAutomatically: Get Promotions Automatically
+  getPromotionsManually: Get Promotions Manually
+  getThisPromotion: Get This Promotion
+  noPromotionReceived: No Promotion Received
+  noTurnRequired: No turnover required, can withdraw any amount
+  notAccept: Not accepting promotions
+  notFoundPromotion: Promotion not found
+  outOfBusiness: Sorry, outside of business hours
+  outOfBusinessCannot: Cannot receive promotion
+  promotion: Promotion
+  promotionAuto: Automatic deposit promotion
+  promotionCurrChoose: 'Current promotion '
+  receiveAutomaticCasino: Receive casino game promotions automatically
+  receiveAutomaticSlot: Receive slot game promotions automatically
+  receiveGroupPromotion: Receive Group Promotion
+  receiveProGameAuto: Receive {game} game promotion automatically
+  receivePromotion: Currently receiving this promotion
+  seeProSlotAll: See all slot promotions
+  selectReceivePromotion: Select to receive promotion manually
+  slideButton: Slide the button to receive promotion
+  slot: Slots
+  specialPromotion: Special Promotion
+  systemMatchPromotions: When you choose to receive promotions from any group, the system will automatically match promotions in your selected category when you make a deposit
+  topUpSystemAutomaticallyMatch: When you deposit, the system will automatically match promotions
+  turnOff: 'Off'
+  turnOn: 'On'
+  unableActivities: Unable to participate in activities such as point collection and regular customer rewards
+  viewAllCasino: View all casino promotions
+  warning: Warning
+  youAcceptingPromotion: You are accepting this promotion
+  youReceviceProAnother: You have already received another promotion
+  youWantReceive: Do you want to receive
+  youWantReceivePromotions: Do you want to receive promotions?
+qrCodeBank: Deposit through (QR Code)
+randomPrize:
+  earn: Received {reward}
+  justPlayGame: Just play any game continuously, and players have a chance to receive rights to randomly win prizes up to {number} {type}
+  max: Maximum {number}
+  minimum: Minimum {number}
+  noHaveRandomHistory: No random prize history
+  randomFreePrizes: Random Free Prizes
+  randomHistory: Random Prize History
+  randomPrize: Random Prize
+rank:
+  cash: Cash
+  mostPlayer: Top Depositors
+  remarks: Remarks
+  reward: Reward
+  roundResult: Results for the period
+  sortedAmount: Sorted by amount deposited into the system
+  things: Items
+  topRankedPlayer: Ranking of Top Depositors
+ranking:
+  things: things
+  title: Ranking
+referral:
+  InviteFriendsBonuses: Invite friends to receive bonus
+  InviteFriendsDesc1: |-
+    When friends apply
+    Top up and receive promotions
+    You will receive credit {value}%.
+  InviteFriendsDesc2: |-
+    When friends apply and top up
+    You will receive credit {value}%.
+  InviteFriendsDesc3: From the first top -up of a minimum friend {minimum} baht
+  InviteFriendsDesc4: Maximum {limit} Credit
+  InviteFriendsDesc5: Income will immediately enter the credit bag.
+  YouReferralLink: 'Referral Link '
+  commissionEarned: The commission received
+  copy: Copy Link
+  copyLink: Copy the link
+  currentIncome: Current income
+  description: Invite friends and earn rewards
+  friendInviteHistory: History of friends
+  inviteFriendsDesc3: ''
+  inviteFriendsDesc4: ''
+  inviteFriendsDesc5: ''
+  inviteFriendsStepsOne: Copy the link
+  inviteFriendsStepsThree: Friends first added credit immediately!
+  inviteFriendsStepsTwo: Waiting for friends to apply for membership
+  inviteFriendsToRarn: Invite friends to receive income
+  link: Your Referral Link
+  received: Received
+  receivedHistory: Press history
+  rewards: Referral Rewards
+  share: Share Link
+  shareYouReferralLink: Link inviting friends
+  terms: Terms and Conditions
+  title: Referral Program
+  totalFriends: All friends
+register:
+  acceptTermsConditions: I accept all terms and conditions
+  accountSuccessfully: Account created successfully!
+  bank: Bank
+  bankAccountNumber: Bank Account Number
+  birthday: Birthday
+  birthdayOptional: Birthday (optional)
+  choose: Choose
+  conditionsFive: 5) One account per person only. If we discover multiple accounts registered to the same person, we reserve the right to withdraw funds.
+  conditionsFour: 4) If you encounter a system error, please notify staff immediately. Failure to notify may result in the withdrawal of your funds.
+  conditionsOne: 1) You must provide a phone number that can receive messages, as the system will send verification codes to this number. Without this, you will not be able to perform various transactions.
+  conditionsRegister: Terms and Conditions for Registration
+  conditionsThree: 3) You must use the registered account for deposits only.
+  conditionsTwo: 2) Your name and surname must match your bank account name. Otherwise, you will not be able to withdraw funds.
+  confirmOTP: Confirm OTP
+  enterAccountNumberMatch: Enter account number that matches your name
+  enterRecommendedFriend: Enter friend's referral code to receive free credit
+  fillIn: Fill Information
+  fillInLastName: Enter Surname
+  fillInName: Enter Name
+  fillPhone: Enter Phone Number
+  fillPhoneFight: Please enter a valid {number}-digit phone number
+  fillPhoneGetOTP: Please enter your phone number to receive OTP verification code
+  friendRecommended: Friend Recommendation
+  getOTP: Request OTP
+  knowUs: How did you hear about us?
+  lastStep: Final Step!
+  lineOptional: Line ID (optional)
+  loginNow: Login Now
+  middlename: Middle Name
+  miss: Miss
+  mr: Mr.
+  mrs: Mrs.
+  name: Name
+  or: or
+  password: Password
+  pinCode: PIN Code
+  pinCodeNotMatch: PIN codes do not match
+  pleaseEnterSixDigit: Please enter the 6-digit code you received
+  pleaseFilInformation: Please fill in your information to complete registration
+  pleaseRemember: Please save this information or take a screenshot
+  pleaseSelectChannel: Please select a channel
+  pleaseSetPin: Please set a 4-digit PIN code to use for login
+  plsClickRecaptcha: Please complete the reCAPTCHA verification for security
+  plsEnterLeast: Please enter at least
+  plsInputInforLeast: Please enter no more than {max} characters
+  plsInputInforNine: Please enter at least 9 characters
+  plsInputInforTen: Please enter at least {min} characters
+  plsInputName: Please enter at least 2 characters for your name
+  plsInputNumber: Please enter numbers only
+  plsInputPhoneComplate: Please enter your complete phone number
+  plsInputPhoneReciveOtp: Please enter the phone number used for registration to receive an OTP verification code
+  plsInputSureName: Please enter at least 2 characters for your surname
+  plsLineInput: Please enter Line ID
+  prefixName: Title
+  qrcode: QR Code
+  record: Save
+  referralCode: Friend's referral code (if any)
+  resendCode: Resend Code
+  resendCodeTime: Resend code in
+  scanBank: PromptPay
+  setPinCode: Set PIN Code
+  surname: Surname
+  telephoneNumber: Phone Number
+  userAccount: Username
+  validateAllFields: Please fill in all fields correctly
+registermethod: Please choose how to apply
+regularDeposit:
+  a2zCheckPayment: Confirm Payment
+  a2zPending: Confirm Payment
+  a2zPrompt1: After making the transfer, please confirm only once
+  a2zPrompt2: Please do not save this bank account
+  accumulateConsecutiveDay: Accumulate deposits of your chosen amount consecutively for the specified number of days
+  appeaseFillingLine: For deposit enthusiasts! Accumulate deposit days to receive rewards
+  cause: Please copy the account number for your transfer
+  cause1: Please copy the account number for your transfer. You must transfer exactly the amount shown by the system.
+  chooseDays: Choose Number of Days
+  condition: Condition
+  countWillStart: If deposits are not consecutive, counting will restart
+  dailyTopUp: Daily Deposit
+  date: Date {date}
+  day: '{day} days'
+  deposit: Deposit
+  depositAccordingRedeemBonus: Accumulate consecutive deposits of your chosen amount. When deposits are complete for the specified number of days, redeem bonus immediately.
+  depositAccumulatedAccording: Deposit accumulated according to the specified number of days
+  depositAmount: Deposit Amount
+  depositComplete: Deposit Complete
+  depositGetUnlimited: Make regular deposits to receive unlimited free credit!
+  depositNotConsecutive: If deposits are not consecutive, the system will restart the count
+  details: Details
+  dialog: Please transfer the exact amount with decimals as shown by the system, otherwise your deposit will not be credited automatically
+  earn: Receive {reward}
+  fixedDeposit: Fixed Deposit
+  fixedDepositDetails: Fixed Deposit Details
+  getCredit: Receive Credit
+  getRewarded: Get Reward
+  highestAward: Highest Award Received
+  justPlayGames: Play slot games to reach the specified amount and receive unlimited free credit!
+  keepDepositing: Keep depositing to receive the desired bonus
+  makeTurnClaim: Must complete casino turnover {casinoturn} times and slot turnover {slotturn} times to receive the bonus
+  note: Note
+  numberOfDays: Number of Days
+  outOfTime: Time's Up
+  outOfTimePayment: Payment time expired
+  playSlotGames: Play slot games to reach
+  receiveFixedDeposit: Do you want to receive the reward from regular deposit?
+  received: Received
+  receivedBonus: Bonus Received
+  receivedCredit: Received Credit
+  receivedCreditFree: Received Free Credit
+  receivedDiamond: Received Diamonds
+  redeemBonus: Redeem Bonus Immediately
+  specifiedDays: Specified Number of Days
+  startAccumulatingAgain: After claiming this reward, rewards will start accumulating again
+  when: When
+  whenReceivingBonus: When you claim the bonus, it will be considered the end of this deposit cycle, and you can start depositing for new bonuses the next day
+  whenReceivingTransferredCredit: After receiving the bonus, you can start making regular deposits again (unlimited number of times) and this bonus will be transferred to your credit wallet
+selectBankAndnumber: '"Choose a bank account and fill the amount"'
+selectMethod: Choose a way to deposit
+serviceSurvey:
+  adminRating: Rate Admin
+  chooseWantTel: Choose what you want to tell us
+  fair: Fair
+  good: Good
+  improveService: We will use it to improve our service
+  low: Poor
+  moderate: Moderate
+  selectAdmin: Please select an admin
+  selectAdminEvaluating: Please select an admin before evaluating
+  sorryOpen: Sorry, admin evaluation is not yet open
+  suggestion: Suggestion
+  telMeExperience: Tell us about your experience
+  thanksSuggestion: Thank you for your suggestion
+  veryGood: Very Good
+shareFacebook:
+  referralLink: Referral Link
+  shareLinks: Share links to your social media and upload pictures to receive free credit immediately!
+  socialShare: Social Share
+  uploadPictures: Upload pictures here
+showTurnPromotion:
+  makeAnotherTurn: Additional turnover required
+  makeTurnCanWithdrawn: You must meet a turnover amount "greater than" or "equal to" {text} {money} to be able to withdraw
+  noTurnover: No turnover required
+  promotionName: Promotion Name
+  turnMustMade: Turnover Required
+  turnoverAmount: Turnover Amount
+sidebar:
+  chooseContactAdmin: Choose a way to contact the admin.
+  contactAdmin: Contact the admin
+  deposit: Deposit
+  enterWebSite: Enter the website
+  favorites: Favorites
+  games: Games
+  history: Transaction History
+  home: Home
+  logout: Logout
+  profile: Profile
+  promotions: Promotions
+  recentlyPlayed: Recently Played
+  seeProfile: See profile
+  settingScreen: Setting the display
+  settings: Settings
+  support: Support
+  wallet: Wallet
+  withdraw: Withdraw
+slip:
+  clipCheckSlip: When transferring money, please do "upload slip" here.
+  contactAdmin: |-
+    If unable to upload the slip
+    Please contact the admin.
+  dragSlip: Drag your file here or click on the picture.
+  error: Unable to use a slip photo
+  errorMin: The amount of money you want to top up is less than the minimum.
+  history: History of uploading slip
+  plsSelectBank: Please select a bank
+  slip: Slip
+  slipComplete: |-
+    Completed uploading slip
+    The system is top -up.
+  slipOnly: The file slip only
+  upload: Please upload
+  uploadSlip: Upload slip
+slipSystem: Deposit uploading slip
+specialCommission:
+  calculation: Commission Calculation
+  desc1: |-
+    Just do the terminal according to the rules that are specified.
+    Can receive a free credit!
+  description: Special commission rates for VIP members
+  dialogTitle: Get a commission
+  eligibility: Eligibility Requirements
+  payment: Commission Payment
+  period: Commission Period
+  rate: Special Commission Rate
+  selectType: Please select a commission channel.
+  terms: Terms and Conditions
+  title: Special Commission
+  warnText: You want to receive all commissions.
+spicificAmountTransfer: Transfer money according to the amount shown without rounded.
+status:
+  approved: Approved
+  approvedDone: 'Approve '
+  disapproved: Not Approved
+  noTopup: No Deposit Made
+  pending: Pending
+  received: Received
+  receivedCom: Claimed
+teir:
+  birthdayReward: Birthday Reward
+  congratulations: Congratulations, you are at the highest level!
+  detailsVip: All VIP Level Details
+  earn: Received {reward} {type}
+  levelsReset: The system will reset all levels on
+  myReward: My Rewards
+  privilege: Privilege Level
+  promotionRewards: VIP Promotion Rewards
+  reward: Reward
+  specialPrize: Special Prize
+  topUp: Top Up
+  turnOver: Turnover
+  type: Type
+  unlocked: Unlocked to Level
+  upgradeReward: Upgrade Reward
+tier:
+  LatestTenItems: (10 latest items)
+  all: all
+  benefits: Tier Benefits
+  colse: turn off
+  condetion: condition
+  congratulationsHighestLevel: |-
+    congratulations!
+    You are at the highest level.
+  count: quantity
+  credit: credit
+  creditFree: Free credit
+  creditGame: Credit in the game
+  current: Current Tier
+  deposit: Deposit
+  description: VIP membership levels and benefits
+  diamond: diamond
+  forgame: For games
+  freeSpin: Free spin
+  freespin: Free spin
+  from: from
+  game: game
+  get: receive
+  getFreeSpinsGameRewards: You are getting a free spin award
+  getPanner: From the camp
+  getReward: See the reward
+  getRewarded: 'Get reward '
+  hasNowShowEven: The event has ended
+  history: History
+  item: item
+  lastEvent: End of time
+  list: list
+  litsReward: Reward list
+  makeTurn: Turn
+  marking: points
+  mustBeCompleted: You have to complete both
+  myReward: My rewards
+  next: Next Tier
+  notHistory: No reward claims found
+  notReward: No rewards available
+  notRewardList: No reward records found
+  nvalidPrizeType: Invalid reward type
+  oneThingMustBeDone: You must do at lease one action
+  openBox: 'Box opening chance '
+  or: Or
+  provider: Provider
+  reward: Reward
+  rewardLeveUp: Tier Upgrade Reward
+  rights: right
+  tierResetDate: All levels will be reset on
+  tierVipDetail: All VIP level details
+  time: time
+  title: VIP Tiers
+  topUp: Fill
+  trunOver: Turnover
+  type: type
+  vipDetail: VIP details
+  vipLevel: VIP Level
+  wantToReceivePrize: Receive the reward
+  wheel: Chances
+  wheelRights: Chance to open the wheel
+  youConditionsIsChoose: Able to choose one of the conditions
+  youConditionsIsChoose2: |-
+    Must complete both the top
+    And turnover
+  onlyEligibleToReceive: Only can receive this promotion.
+  specialOnly: Exclusive only
+  youNotEligibleToReceive: Unable to receive this promotion
+tips:
+  balance: Game balance
+  becauseMotivation: |-
+    Because every give of your give is strong and encouragement in development
+    Our system is better.
+    Thank you for the strength that has always been given.
+  depositTips: Deposit Tips
+  generalTips: General Tips
+  give: Tip
+  inputMoney: Specify or select the amount of money
+  minOneBaht: Minimum 1 baht
+  promotionTips: Promotion Tips
+  tellUs: Is there anything to tell us?
+  text: message
+  tipsForLuv: To tip the system to encourage
+  withdrawTips: Withdrawal Tips
+tmw:
+  addAccount: Add True Wallet Account
+  addAccountComplete: Add True Money accounts successfully.
+  addAccountInfo: |-
+    *If unable to add accounts
+    Please contact the admin.
+  enerOtp: Enter the 6 digit code received.
+  enterTmwPhone: Fill out the phone number tied to True Wallet.
+  settingAccount: Set the True Money account.
+  topup: Top up via True Money Wallet
+treasureBox:
+  addRight: Receive {number} chances
+  eligibilityConditions: Eligibility Conditions
+  haveMinimumtopUp: Have a deposit amount from {minimum} baht or more, receive 1 chance/day
+  justPlayActivity: Play the treasure box activity
+  minimumtopUp: Minimum deposit {minimum} but not exceeding {maximum} baht, receive {number} chances
+  notAuthorized: You have no rights to open the box
+  rightsOpen: You have remaining chances to open
+  tapBox: Tap the box to open
+  topUp: Deposit
+  topUpMinimumToMax: Minimum {minimum} but not exceeding {maximum} baht
+  treasureBox: Open Treasure Box
+  tryMoneyRightOpen: Make a deposit to get the right to open the box!
+  winFreeCredit: Win free credit and many other prizes!
+treasureBoxTurn:
+  haveRightToOpen: You have the right to open the box
+  minimumTurnoverRequired: Have a turnover of {minimum} baht or more to receive 1 chance/day
+  receivedRewardToday: You have received a reward today
+  treasureBoxTurn: Open Turnover Treasure Box
+  tryPlayGameRightOpen: Try playing games to get the right to open the box!
+type:
+  arcade: Arcade
+  bigwin: Big Win
+  canNotPlayGame: No recently played games found
+  casino: Casino
+  casinoOnline: Online Casino
+  casinohit: Casino Hits
+  challenge: Challenge
+  chooseDisplayFormat: Choose Display Format
+  cock: Cockfighting
+  crash: Crash
+  crypto: Crypto
+  desktopVersion: Desktop Version
+  favoriteGame: Favorite Games
+  favorites: Favorites
+  feature: Featured
+  findGame: Find Game
+  fishing: Fishing
+  fishinghit: Fishing Hits
+  freespin: Free Spins
+  gameCamp: Game Provider
+  hitGame: Popular Games
+  hits: Hits
+  home: Home
+  lastPlayed: Recently Played
+  letPlay: Try Now!
+  loginFromAnother: Please Login Again
+  lotto: Lottery
+  lottoOnline: Online Lottery
+  mobileVersion: Mobile Version
+  muay: Muay Thai
+  new: New
+  newGame: New Games
+  noFavoriteGame: No Favorite Games Found
+  onlineSport: Online Sports
+  other: Others
+  pleaseLogin: Please Login
+  provider: Game Provider
+  providers: Gaming
+  pvp: PVP
+  saveYourFavorite: Click the heart icon in the top right corner of the game to add it to your favorites
+  slot: Slots
+  slothit: Slot Hits
+  sport: Sports
+  sportOnline: Online Sports
+  sporthit: Sports Hits
+  table: Card Games
+  tableGames: Card Games
+  tophit: Top Hits
+  topten: Top Ten
+  upcoming: Coming Soon
+unit:
+  baht: Baht
+  bronze: Bronze
+  coin: Coin
+  credit: Credit
+  diamond: Diamond
+  dollar: Dollar
+  euro: Euro
+  gold: Gold
+  persons: person
+  point: Point
+  pound: Pound
+  silver: Silver
+  token: Token
+  yen: Yen
+updatePhone:
+  conditionRecevice: Receiving conditions
+  condtionTopupMin: |-
+    Need to top up the minimum {Money} baht before receiving
+    The right to participate in this promotion
+  condtionTopupNoPrommotionMin: |-
+    Need to top up without receiving a minimum promotion {Money} baht before receiving
+    The right to participate in this promotion
+  condtionTopupPrommotionMin: |-
+    Need to top up a minimum promotion {Money} baht before receiving
+    The right to participate in this promotion
+  confirm: Confirm New Phone Number
+  current: Current Phone Number
+  description: Please enter your new phone number
+  descritoionForPromotion: |-
+    Just update the phone number and fill out the 6 -digit OTP code received.
+    Receive credit immediately
+    Can see the conditions for credit below
+  exPhone: Such as 089-999-9999
+  inPutOtp: Enter the 6 -digit OTP code.
+  inputPhone: Enter the free credit number!
+  makeTurnTwo: Make a slots {Credit} equally and make casino turns {casino}
+  new: New Phone Number
+  onePhoneOneRight: 1 number is eligible to accept only 1 time
+  otp: OTP Verification
+  receviceSuccess: Get {Money} {Typecredit}
+  sendAgine: Send again in
+  success: Phone number updated successfully
+  title: Update Phone Number
+  updatePhoneFree: Update the free credit number
+  userAddReward: Players will receive the award as
+useRegisterdBank: Use accounts that apply for money via bank.
+validate:
+  EMAIL: ''
+  ISMATCH: ''
+  MAXLENGTH: ''
+  MINLENGTH: ''
+  NOTTEXT: ''
+  NOTTHAI: ''
+  NUMBER: ''
+  PHONE: ''
+  REQUIRED: ''
+  WHITESPACE: ''
+  alpha: Please enter letters only
+  alphaNum: Please enter letters or numbers only
+  email: Please enter a valid email address
+  max: Please enter no more than {max} characters
+  min: Please enter at least {min} characters
+  numeric: Please enter numbers only
+  required: This field is required
+vipDetail: VIP Details
+warnPay:
+  cancel: Cancel
+  confirm: I confirm that the payment details are correct
+  description: Please check your payment details carefully
+  text1: Please transfer money as reported and
+  text10: within the specified time
+  text11: with registered accounts only once
+  text12: We are not responsible for duplicate transfers for all cases.
+  text2: Transfer only once
+  text3: |-
+    Duplicated transaction
+    Or use an account that is not registered, we will
+  text4: not responsible for all cases
+  text5: After creating a deposit request
+  text6: you have 6 minutes.
+  text7: |-
+    To deposit
+    If you do not deposit money within the specified time
+    Must send a new request
+  text8: Transfer only one time according to the amount that is notified. Do not transfer repeatedly.
+  text9: please
+  title: Payment Warning
+withdraw:
+  alertErrorCode426: Withdrawal system is temporarily closed. Please try again later.
+  alertErrorCode428: Your credit is less than the minimum withdrawal amount
+  alertErrorCode429: Cannot withdraw at this time. Please wait 1-2 minutes.
+  alertErrorCode430: Cannot withdraw because you currently have a pending withdrawal request
+  alertErrorCode432: Minimum withdrawal amount is {num}
+  alertErrorCode445: Cannot withdraw because you have pending bets
+  amountYesNo: Amount {money}, is this correct?
+  deductBonus: Deduct Bonus
+  disapprovedCreditReturned: Disapproved (Credit Returned)
+  disapprovedDeductingCredit: Disapproved (Credit Deducted)
+  disapprovedIllegalPlay: Disapproved (Illegal Play)
+  fundsTransferredBack: Funds Returned (Illegal Play)
+  lastestTransaction: Latest 5 Transactions
+  minimumWithdrawal: Minimum Withdrawal
+  pending: Pending
+  succeed: Successful
+  trueDialog1: Do you want to withdraw to True Wallet?
+  trueDialog2: To withdraw to True Wallet, the phone number must match the one used for registration
+  trueDialog3: If your phone number does not match the registered one, please contact admin
+  trueDialog4: to update your phone number
+  trueDialog5: The system will only process withdrawals in whole amounts ending with 0, such as 100
+  wantWithdraw: Withdraw
+  withdraw: Withdraw
+  withdrawWith: Withdraw via {type}
+  withdrawableAmount: Withdrawable Amount
+  withdrawalHistory: Withdrawal History
+withdrawHistory: History of withdrawal
+အကြွေးလက်ခံရရှိခဲ့သည်: Credit Earned
+depositRestriction:
+  title: Important Deposit Notice
+  message: Deposit transactions are suspended during 23:59-00:01
+  resumeIn: Resumes in
+cashback4step:
+  title: Cashback 4 Levels
+  getMoney: Receive Money
+  wallet: Wallet
+  creditFree: Free Credit Wallet
+  subtitleDetailRewad: When you claim, the money will be added to your wallet and can be used immediately.
+  detailModalRewad: When you claim, the money will be added to your free credit wallet. It can be used after you transfer the free credit.
+  waysReward: Ways to receive rewards
+  selectReward: Please select a reward method
+oneDepost:
+  oneBankCardDetail1: The system will randomly select an account each time.
+  oneBankCardDetail2: Do not save the account number.
+  oneBankCardDetail3: Otherwise the system will not automatically credit your deposit.
+ui:
+  homePage: Home
+  activity: Activity
+  promotion: Promotion
+  profile: Profile
+  refresh: Refresh
+  contactAdmin: Contact Admin
+  topUp: Top Up
+  receiveCredit: Receive Credit
+  searchGameHere: Search games here
+  enterWalletAddress: Enter wallet address
+  selectCryptoCurrency: Select cryptocurrency
+  selectNetwork: Select network
+  firstName: First Name
+  lastName: Last Name
+  bankAccountNumber: Bank Account Number
+  selectThisPromotion: Select this promotion
+  noPromotionFound: No promotion found
+  luckyWheelTurnOver: Lucky Wheel Turn Over
+  openBox: Open Box
+  openBoxTurnOver: Open Box Turn Over
+  noBankFound: No bank found
+  contactAdminForHelp: Please contact admin for assistance
+  creditReceived: Credit Received
+  creditHistory: Credit History
+  login: Login
+  suggest: Suggest
+autopeer:
+  detail: Deposit via Autopeer System
+  noti: Important Information - Please Read
+  pleaseTransferWithin: Please transfer money and upload slip within 5 minutes
+  ifNotUpload: If you don't upload within the specified time
+  mustReport: You will need to report incorrect transfer
+  contactBank: And contact the bank to request a refund yourself
+  howToDeposit: How to Deposit
+  step1: Specify amount or Quick Deposit as desired and press "Deposit"
+  step1_specifyAmount: Specify Amount
+  step1_or: or
+  step1_quickDeposit: Quick Deposit
+  step1_asDesired: As desired
+  step1_andPress: and press
+  step1_deposit: Deposit
+  step2: Copy account and transfer exactly as shown. After attaching slip, press "Confirm"
+  step2_copyAccount: Copy account and transfer money
+  step2_asShown: Exactly as shown
+  step2_afterAttach: After attaching slip
+  step2_pressConfirm: Press "Confirm"
+  step3: Money will be credited automatically when transaction is completed within time
+  importantQuestion: Very Important! Please answer the questions
+  question1: How many minutes do you have to transfer money and attach slip?
+  question2: If you create a 500 deposit, how much do you need to transfer?
+  question3: Must use only the account registered for transfers?
+  minutes5: 5 minutes
+  minutes10: 10 minutes
+  baht550: 550 Baht
+  baht500: 500 Baht
+  yes: Yes
+  no: No
+  cancel: Cancel
+  confirm: Confirm
+  understand: Understood
+  sorry: Sorry, you cannot make a new transaction
+  pendingTransaction: Because there is a pending transaction, please complete or finish it first
+  acknowledge: Acknowledge
+  title: Autopeer
+  amountToTransfer: Amount to Transfer
+  useRegisteredAccount: Use only registered account for transfers
+  timeRemaining: Time Remaining
+  depositMore: Deposit More
+  endDeposit: End Deposit
+  endDepositNote: When you end the deposit, only the amount already transferred will be credited
+  scbBank: Siam Commercial Bank Public Company Limited
+  ref: Ref
+  depositNotFound: Deposit transaction not found
+  cancelSuccess: Cancelled deposit successfully
+  cancelError: Error cancelling transaction
+  pleaseUploadSlip: Please upload transfer slip
+  refNotFound: Ref not found, please try again
+  uploadSuccess: Slip uploaded successfully, please wait
+  uploadError: Error uploading slip
+  endDepositSuccess: Deposit ended successfully
+  minimumDeposit: Minimum deposit {amount} Baht
+  pleaseSelectMethod: Please select a deposit method below
+  specifyDepositAmount: Specify Deposit Amount
+  specifyDepositNote: Specify the amount you want to deposit. After transfer, it takes 2-3 minutes
+  specifyAmount: Specify Amount
+  specifyDepositPlaceholder: Specify deposit amount
+  deposit: Deposit
+  quickDepositRecommended: Quick Deposit (Recommended Amount)
+  quickDepositNote: Select amount shown below, money credited within 1 minute
+  amount: Amount
+  cancelTransaction: I want to cancel this transaction
+  confirmCancelTransaction: Do you want to cancel this transaction?
+  waitFirst: Wait
+  loadDepositListError: Unable to load deposit list
+  cancelledSuccessfully: Cancelled successfully
+  minimumDepositRequired: Please specify minimum amount {amount} Baht
+  createDepositSuccess: Deposit created successfully
+  requireEnglishName: Cannot process. Please use English name. Please contact admin to fix
+  createDepositError: Error creating deposit
+  transactionTimeout: Transaction timeout, please try again

@@ -1,0 +1,1710 @@
+{
+  "generatedAt": "2026-10-05T20:23:37.246Z",
+  "clones": [
+    {
+      "route": "/",
+      "query": {},
+      "slug": [],
+      "fileKey": "_root",
+      "title": "Home",
+      "folder": "routes/_root",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/ProviderCard.9PO_4UoT.css",
+        "/_nuxt/css/otherLobby.FJ6RgZVd.css",
+        "/_nuxt/css/Checkbox.5HoB85ly.css",
+        "/_nuxt/css/LoginModule.DRsD-Ejv.css"
+      ]
+    },
+    {
+      "route": "/bank",
+      "query": {},
+      "slug": [
+        "bank"
+      ],
+      "fileKey": "bank",
+      "title": "Phantom - ฝาก/ถอน",
+      "folder": "routes/bank",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/index.DOYDi5vA.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/bank/crypto",
+      "query": {},
+      "slug": [
+        "bank",
+        "crypto"
+      ],
+      "fileKey": "bank_crypto",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/bank_crypto",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/EmptyState.C0ZG_IZe.css",
+        "/_nuxt/css/PromotionSupportBadge.DndnVQ2y.css",
+        "/_nuxt/css/ProfileCard.CWYRWHQ5.css",
+        "/_nuxt/css/crypto.CfQ7SrtX.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/ProviderCard.9PO_4UoT.css",
+        "/_nuxt/css/otherLobby.FJ6RgZVd.css"
+      ]
+    },
+    {
+      "route": "/bank/deposit",
+      "query": {},
+      "slug": [
+        "bank",
+        "deposit"
+      ],
+      "fileKey": "bank_deposit",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/bank_deposit",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/index.BgxIJ8z-.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/EmptyState.C0ZG_IZe.css",
+        "/_nuxt/css/PromotionSupportBadge.DndnVQ2y.css",
+        "/_nuxt/css/autoSystem.Do5c48OO.css"
+      ]
+    },
+    {
+      "route": "/bank/deposit/autopeer",
+      "query": {},
+      "slug": [
+        "bank",
+        "deposit",
+        "autopeer"
+      ],
+      "fileKey": "bank_deposit_autopeer",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/bank_deposit_autopeer",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/autopeer.CE8ZlkRh.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/ProviderCard.9PO_4UoT.css",
+        "/_nuxt/css/otherLobby.FJ6RgZVd.css"
+      ]
+    },
+    {
+      "route": "/bank/deposit/autoSystem",
+      "query": {},
+      "slug": [
+        "bank",
+        "deposit",
+        "autoSystem"
+      ],
+      "fileKey": "bank_deposit_autoSystem",
+      "title": "Phantom - ฝากเงิน",
+      "folder": "routes/bank_deposit_autoSystem",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/EmptyState.C0ZG_IZe.css",
+        "/_nuxt/css/PromotionSupportBadge.DndnVQ2y.css",
+        "/_nuxt/css/autoSystem.Do5c48OO.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/bank/deposit/one2pay",
+      "query": {},
+      "slug": [
+        "bank",
+        "deposit",
+        "one2pay"
+      ],
+      "fileKey": "bank_deposit_one2pay",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/bank_deposit_one2pay",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/PromotionSupportBadge.DndnVQ2y.css",
+        "/_nuxt/css/BasePagination.BqzOE88u.css",
+        "/_nuxt/css/one2pay.RUMbp6NK.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/bank/deposit/slipSystem",
+      "query": {},
+      "slug": [
+        "bank",
+        "deposit",
+        "slipSystem"
+      ],
+      "fileKey": "bank_deposit_slipSystem",
+      "title": "Phantom - ฝากเงิน",
+      "folder": "routes/bank_deposit_slipSystem",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/EmptyState.C0ZG_IZe.css",
+        "/_nuxt/css/PromotionSupportBadge.DndnVQ2y.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/index.C_OwGrdM.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/bank/deposit/spdpay",
+      "query": {},
+      "slug": [
+        "bank",
+        "deposit",
+        "spdpay"
+      ],
+      "fileKey": "bank_deposit_spdpay",
+      "title": "Phantom - ฝากเงิน",
+      "folder": "routes/bank_deposit_spdpay",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/floatingDeposit.XQbPW5ni.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/index.BgxIJ8z-.css",
+        "/_nuxt/css/EmptyState.C0ZG_IZe.css",
+        "/_nuxt/css/PromotionSupportBadge.DndnVQ2y.css",
+        "/_nuxt/css/autoSystem.Do5c48OO.css"
+      ]
+    },
+    {
+      "route": "/bank/gateway",
+      "query": {},
+      "slug": [
+        "bank",
+        "gateway"
+      ],
+      "fileKey": "bank_gateway",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/bank_gateway",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/bank/qr",
+      "query": {},
+      "slug": [
+        "bank",
+        "qr"
+      ],
+      "fileKey": "bank_qr",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/bank_qr",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/NewAccountCard.DYqHT6h8.css",
+        "/_nuxt/css/index.DK-K7jV9.css",
+        "/_nuxt/css/PromotionSupportBadge.DndnVQ2y.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events",
+      "query": {},
+      "slug": [
+        "events"
+      ],
+      "fileKey": "events",
+      "title": "Phantom - กิจกรรม",
+      "folder": "routes/events",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/index.CBTyl65W.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsCard.CayKkmWE.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/vue3-pagination.BTqy48B9.css",
+        "/_nuxt/css/AffilitateLevel.7ZYoqIc_.css",
+        "/_nuxt/css/ProgressBar.tFTQDOJd.css",
+        "/_nuxt/css/Checkbox.5HoB85ly.css",
+        "/_nuxt/css/_name_.BH5MNYw5.css",
+        "/_nuxt/css/collect-points.CmapM73F.css",
+        "/_nuxt/css/EventsCard.VNpqWGqX.css",
+        "/_nuxt/css/daily-topup.BQeheEXB.css",
+        "/_nuxt/css/index.D9z2LQnN.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/Select.BQaHOWSp.css",
+        "/_nuxt/css/index.BWqRCKLU.css",
+        "/_nuxt/css/EventsCreditCard.CaidFwP3.css",
+        "/_nuxt/css/PromoteModal.C6iDh4A5.css",
+        "/_nuxt/css/index.CeeaxSnP.css"
+      ]
+    },
+    {
+      "route": "/events/affiliate",
+      "query": {},
+      "slug": [
+        "events",
+        "affiliate"
+      ],
+      "fileKey": "events_affiliate",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_affiliate",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsMenuCard.CvMwcDAK.css",
+        "/_nuxt/css/index.CtK1p4me.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/EventsCard.CayKkmWE.css",
+        "/_nuxt/css/vue3-pagination.BTqy48B9.css",
+        "/_nuxt/css/AffilitateLevel.7ZYoqIc_.css",
+        "/_nuxt/css/ProgressBar.tFTQDOJd.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/Checkbox.5HoB85ly.css",
+        "/_nuxt/css/_name_.BH5MNYw5.css"
+      ]
+    },
+    {
+      "route": "/events/affiliate/affiliate-detail",
+      "query": {},
+      "slug": [
+        "events",
+        "affiliate",
+        "affiliate-detail"
+      ],
+      "fileKey": "events_affiliate_affiliate-detail",
+      "title": "Phantom - กิจกรรม",
+      "folder": "routes/events_affiliate_affiliate-detail",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsCard.CayKkmWE.css",
+        "/_nuxt/css/vue3-pagination.BTqy48B9.css",
+        "/_nuxt/css/AffilitateLevel.7ZYoqIc_.css",
+        "/_nuxt/css/ProgressBar.tFTQDOJd.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/Checkbox.5HoB85ly.css",
+        "/_nuxt/css/_name_.BH5MNYw5.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/index.CBTyl65W.css",
+        "/_nuxt/css/EventsCard.VNpqWGqX.css",
+        "/_nuxt/css/daily-topup.BQeheEXB.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/Select.BQaHOWSp.css",
+        "/_nuxt/css/index.BWqRCKLU.css",
+        "/_nuxt/css/PromoteModal.C6iDh4A5.css",
+        "/_nuxt/css/index.CeeaxSnP.css",
+        "/_nuxt/css/collect-points.CmapM73F.css",
+        "/_nuxt/css/index.D9z2LQnN.css",
+        "/_nuxt/css/EventsCreditCard.CaidFwP3.css"
+      ]
+    },
+    {
+      "route": "/events/affiliateOld",
+      "query": {},
+      "slug": [
+        "events",
+        "affiliateOld"
+      ],
+      "fileKey": "events_affiliateOld",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_affiliateOld",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsMenuCard.CvMwcDAK.css",
+        "/_nuxt/css/index.C38Aiu9P.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/EventsCard.CayKkmWE.css",
+        "/_nuxt/css/vue3-pagination.BTqy48B9.css",
+        "/_nuxt/css/AffilitateLevel.7ZYoqIc_.css",
+        "/_nuxt/css/ProgressBar.tFTQDOJd.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/Checkbox.5HoB85ly.css",
+        "/_nuxt/css/_name_.BH5MNYw5.css"
+      ]
+    },
+    {
+      "route": "/events/cash-back",
+      "query": {},
+      "slug": [
+        "events",
+        "cash-back"
+      ],
+      "fileKey": "events_cash-back",
+      "title": "Phantom - คืนยอดเสีย",
+      "folder": "routes/events_cash-back",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/EventsMenuCard.CvMwcDAK.css",
+        "/_nuxt/css/index.BJbitixb.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/cash-back/cashback-first-bill",
+      "query": {},
+      "slug": [
+        "events",
+        "cash-back",
+        "cashback-first-bill"
+      ],
+      "fileKey": "events_cash-back_cashback-first-bill",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_cash-back_cashback-first-bill",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/index.D_MgdD8g.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/cash-back/cashback-normal",
+      "query": {},
+      "slug": [
+        "events",
+        "cash-back",
+        "cashback-normal"
+      ],
+      "fileKey": "events_cash-back_cashback-normal",
+      "title": "Phantom - คืนยอดเสีย",
+      "folder": "routes/events_cash-back_cashback-normal",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/Select.BQaHOWSp.css",
+        "/_nuxt/css/index.BWqRCKLU.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/cash-point",
+      "query": {},
+      "slug": [
+        "events",
+        "cash-point"
+      ],
+      "fileKey": "events_cash-point",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_cash-point",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/EventsCreditCard.CaidFwP3.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/cash-point.Dx5vJyj_.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/ProviderCard.9PO_4UoT.css",
+        "/_nuxt/css/otherLobby.FJ6RgZVd.css"
+      ]
+    },
+    {
+      "route": "/events/collect-points",
+      "query": {},
+      "slug": [
+        "events",
+        "collect-points"
+      ],
+      "fileKey": "events_collect-points",
+      "title": "Phantom - สะสมแต้ม",
+      "folder": "routes/events_collect-points",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/vue3-pagination.BTqy48B9.css",
+        "/_nuxt/css/collect-points.CmapM73F.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/commissionfourstep",
+      "query": {},
+      "slug": [
+        "events",
+        "commissionfourstep"
+      ],
+      "fileKey": "events_commissionfourstep",
+      "title": "Phantom - สะสมแต้ม",
+      "folder": "routes/events_commissionfourstep",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/vue3-pagination.BTqy48B9.css",
+        "/_nuxt/css/collect-points.CmapM73F.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/DailyRandomReward",
+      "query": {},
+      "slug": [
+        "events",
+        "DailyRandomReward"
+      ],
+      "fileKey": "events_DailyRandomReward",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_DailyRandomReward",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/FooterSlot.CI7spyTL.css",
+        "/_nuxt/css/footer.Due_jwan.css",
+        "/_nuxt/css/full.2fGPXqfw.css",
+        "/_nuxt/css/Wrapper.D4tMY2w6.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/EnterGame.97zI3j1F.css",
+        "/_nuxt/css/FooterNavItem.D6tcDFzI.css",
+        "/_nuxt/css/LegacyFooter.D2-G4w-B.css",
+        "/_nuxt/css/odometer-theme-default.B8OAuno5.css",
+        "/_nuxt/css/odometer-theme-digital.DBH_L1Yj.css"
+      ]
+    },
+    {
+      "route": "/events/daily-topup",
+      "query": {},
+      "slug": [
+        "events",
+        "daily-topup"
+      ],
+      "fileKey": "events_daily-topup",
+      "title": "Phantom - ฝากประจำ",
+      "folder": "routes/events_daily-topup",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsCard.VNpqWGqX.css",
+        "/_nuxt/css/daily-topup.BQeheEXB.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/daily-topup",
+      "query": {
+        "active": "btn-topup-daily"
+      },
+      "slug": [
+        "events",
+        "daily-topup"
+      ],
+      "fileKey": "events_daily-topup_active_btn-topup-daily",
+      "title": "Phantom - ฝากประจำ",
+      "folder": "routes/events_daily-topup_active_btn-topup-daily",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsCard.VNpqWGqX.css",
+        "/_nuxt/css/daily-topup.BQeheEXB.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/daily-topup",
+      "query": {
+        "active": "fixed-deposit"
+      },
+      "slug": [
+        "events",
+        "daily-topup"
+      ],
+      "fileKey": "events_daily-topup_active_fixed-deposit",
+      "title": "Phantom - ฝากประจำ",
+      "folder": "routes/events_daily-topup_active_fixed-deposit",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsCard.VNpqWGqX.css",
+        "/_nuxt/css/daily-topup.BQeheEXB.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/events-details",
+      "query": {},
+      "slug": [
+        "events",
+        "events-details"
+      ],
+      "fileKey": "events_events-details",
+      "title": "Phantom - รายละเอียดกิจกรรม",
+      "folder": "routes/events_events-details",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/index.BYkfbZap.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/free-credit",
+      "query": {},
+      "slug": [
+        "events",
+        "free-credit"
+      ],
+      "fileKey": "events_free-credit",
+      "title": "Phantom - ฟรีเครดิต",
+      "folder": "routes/events_free-credit",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/EventsCreditCard.CaidFwP3.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/get-credit",
+      "query": {},
+      "slug": [
+        "events",
+        "get-credit"
+      ],
+      "fileKey": "events_get-credit",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_get-credit",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/EventsCreditCard.CaidFwP3.css",
+        "/_nuxt/css/get-credit.BngqWysS.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/ProviderCard.9PO_4UoT.css",
+        "/_nuxt/css/otherLobby.FJ6RgZVd.css"
+      ]
+    },
+    {
+      "route": "/events/lucky-wheel",
+      "query": {},
+      "slug": [
+        "events",
+        "lucky-wheel"
+      ],
+      "fileKey": "events_lucky-wheel",
+      "title": "Phantom - วงล้อลุ้นโชค",
+      "folder": "routes/events_lucky-wheel",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/EventsMenuCard.CvMwcDAK.css",
+        "/_nuxt/css/index.CgYfNyIS.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/lucky-wheel/lucky-wheel-normal",
+      "query": {},
+      "slug": [
+        "events",
+        "lucky-wheel",
+        "lucky-wheel-normal"
+      ],
+      "fileKey": "events_lucky-wheel_lucky-wheel-normal",
+      "title": "Phantom - กงล้อลุ้นโชค",
+      "folder": "routes/events_lucky-wheel_lucky-wheel-normal",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/index.D9z2LQnN.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/lucky-wheel/lucky-wheel-turn-over",
+      "query": {},
+      "slug": [
+        "events",
+        "lucky-wheel",
+        "lucky-wheel-turn-over"
+      ],
+      "fileKey": "events_lucky-wheel_lucky-wheel-turn-over",
+      "title": "Phantom - กงล้อลุ้นโชคเทิร์นโอเวอร์",
+      "folder": "routes/events_lucky-wheel_lucky-wheel-turn-over",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/PromoteModal.C6iDh4A5.css",
+        "/_nuxt/css/index.DFy6zOcu.css",
+        "/_nuxt/css/FooterSlot.CI7spyTL.css",
+        "/_nuxt/css/footer.Due_jwan.css",
+        "/_nuxt/css/full.2fGPXqfw.css",
+        "/_nuxt/css/Wrapper.D4tMY2w6.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/EnterGame.97zI3j1F.css",
+        "/_nuxt/css/FooterNavItem.D6tcDFzI.css",
+        "/_nuxt/css/LegacyFooter.D2-G4w-B.css"
+      ]
+    },
+    {
+      "route": "/events/mission",
+      "query": {},
+      "slug": [
+        "events",
+        "mission"
+      ],
+      "fileKey": "events_mission",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_mission",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/EventsCard.VNpqWGqX.css",
+        "/_nuxt/css/ProgressBar.tFTQDOJd.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/mission.CUCFgolv.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/questions",
+      "query": {},
+      "slug": [
+        "events",
+        "questions"
+      ],
+      "fileKey": "events_questions",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_questions",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/random-reward",
+      "query": {},
+      "slug": [
+        "events",
+        "random-reward"
+      ],
+      "fileKey": "events_random-reward",
+      "title": "Phantom - กิจกรรม",
+      "folder": "routes/events_random-reward",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/random-reward.DZVy2_8l.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/index.CBTyl65W.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsCard.CayKkmWE.css",
+        "/_nuxt/css/vue3-pagination.BTqy48B9.css",
+        "/_nuxt/css/AffilitateLevel.7ZYoqIc_.css",
+        "/_nuxt/css/ProgressBar.tFTQDOJd.css",
+        "/_nuxt/css/Checkbox.5HoB85ly.css",
+        "/_nuxt/css/_name_.BH5MNYw5.css",
+        "/_nuxt/css/EventsCard.VNpqWGqX.css",
+        "/_nuxt/css/daily-topup.BQeheEXB.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/Select.BQaHOWSp.css",
+        "/_nuxt/css/index.BWqRCKLU.css",
+        "/_nuxt/css/PromoteModal.C6iDh4A5.css",
+        "/_nuxt/css/index.CeeaxSnP.css",
+        "/_nuxt/css/collect-points.CmapM73F.css",
+        "/_nuxt/css/index.D9z2LQnN.css",
+        "/_nuxt/css/EventsCreditCard.CaidFwP3.css"
+      ]
+    },
+    {
+      "route": "/events/ranking",
+      "query": {},
+      "slug": [
+        "events",
+        "ranking"
+      ],
+      "fileKey": "events_ranking",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_ranking",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/ranking.ykB3eqoH.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/rate-admin",
+      "query": {},
+      "slug": [
+        "events",
+        "rate-admin"
+      ],
+      "fileKey": "events_rate-admin",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_rate-admin",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/rate-admin.C9hNDXDr.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/referral",
+      "query": {},
+      "slug": [
+        "events",
+        "referral"
+      ],
+      "fileKey": "events_referral",
+      "title": "Phantom - ชวนเพื่อนรับรายได้",
+      "folder": "routes/events_referral",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsCard.CayKkmWE.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/share-facebook",
+      "query": {},
+      "slug": [
+        "events",
+        "share-facebook"
+      ],
+      "fileKey": "events_share-facebook",
+      "title": "Phantom - แชร์โซเชียล",
+      "folder": "routes/events_share-facebook",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/EventsCard.CayKkmWE.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/share-facebook.B6EmnI2M.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/index.CBTyl65W.css"
+      ]
+    },
+    {
+      "route": "/events/specialCommission",
+      "query": {},
+      "slug": [
+        "events",
+        "specialCommission"
+      ],
+      "fileKey": "events_specialCommission",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_specialCommission",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/EventsCreditCard.CaidFwP3.css",
+        "/_nuxt/css/specialCommission.BAdjZzD9.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/taro",
+      "query": {},
+      "slug": [
+        "events",
+        "taro"
+      ],
+      "fileKey": "events_taro",
+      "title": "คาสิโนเว็ปตรง ที่รวมเกมส์สุดฮิต จากหลากหลายค่าย พร้อมด้วยทีมลูกค้าสัมพันธ์ที่พร้อมให้บริการตลอด 24 ชั่วโมง - XGB Official Sites",
+      "folder": "routes/events_taro",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/taro.B6fu-NLD.css"
+      ]
+    },
+    {
+      "route": "/events/tier",
+      "query": {},
+      "slug": [
+        "events",
+        "tier"
+      ],
+      "fileKey": "events_tier",
+      "title": "Phantom - กิจกรรม",
+      "folder": "routes/events_tier",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/ProgressBar.tFTQDOJd.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/index.yicUL0w5.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/index.CBTyl65W.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsCard.CayKkmWE.css",
+        "/_nuxt/css/vue3-pagination.BTqy48B9.css",
+        "/_nuxt/css/AffilitateLevel.7ZYoqIc_.css",
+        "/_nuxt/css/Checkbox.5HoB85ly.css",
+        "/_nuxt/css/_name_.BH5MNYw5.css",
+        "/_nuxt/css/collect-points.CmapM73F.css",
+        "/_nuxt/css/EventsCard.VNpqWGqX.css",
+        "/_nuxt/css/daily-topup.BQeheEXB.css",
+        "/_nuxt/css/index.D9z2LQnN.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/Select.BQaHOWSp.css",
+        "/_nuxt/css/index.BWqRCKLU.css",
+        "/_nuxt/css/EventsCreditCard.CaidFwP3.css",
+        "/_nuxt/css/PromoteModal.C6iDh4A5.css",
+        "/_nuxt/css/index.CeeaxSnP.css"
+      ]
+    },
+    {
+      "route": "/events/tier/my-reward",
+      "query": {},
+      "slug": [
+        "events",
+        "tier",
+        "my-reward"
+      ],
+      "fileKey": "events_tier_my-reward",
+      "title": "Phantom - กิจกรรม",
+      "folder": "routes/events_tier_my-reward",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/my-reward.C1km1hNu.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/index.CBTyl65W.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsCard.CayKkmWE.css",
+        "/_nuxt/css/vue3-pagination.BTqy48B9.css",
+        "/_nuxt/css/AffilitateLevel.7ZYoqIc_.css",
+        "/_nuxt/css/ProgressBar.tFTQDOJd.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/Checkbox.5HoB85ly.css",
+        "/_nuxt/css/_name_.BH5MNYw5.css",
+        "/_nuxt/css/EventsCard.VNpqWGqX.css",
+        "/_nuxt/css/daily-topup.BQeheEXB.css",
+        "/_nuxt/css/collect-points.CmapM73F.css",
+        "/_nuxt/css/index.D9z2LQnN.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/Select.BQaHOWSp.css",
+        "/_nuxt/css/index.BWqRCKLU.css",
+        "/_nuxt/css/EventsCreditCard.CaidFwP3.css",
+        "/_nuxt/css/PromoteModal.C6iDh4A5.css",
+        "/_nuxt/css/index.CeeaxSnP.css"
+      ]
+    },
+    {
+      "route": "/events/tierplayer",
+      "query": {},
+      "slug": [
+        "events",
+        "tierplayer"
+      ],
+      "fileKey": "events_tierplayer",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_tierPlayer",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/SkeltonLoading.CZghhW1T.css",
+        "/_nuxt/css/index.CPaYKm1O.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/tierPlayer/details",
+      "query": {},
+      "slug": [
+        "events",
+        "tierPlayer",
+        "details"
+      ],
+      "fileKey": "events_tierPlayer_details",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_tierPlayer_details",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/tierPlayer/myreward",
+      "query": {},
+      "slug": [
+        "events",
+        "tierPlayer",
+        "myreward"
+      ],
+      "fileKey": "events_tierPlayer_myreward",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_tierPlayer_myreward",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/tierPlayer/SkeltonLoading",
+      "query": {},
+      "slug": [
+        "events",
+        "tierPlayer",
+        "SkeltonLoading"
+      ],
+      "fileKey": "events_tierPlayer_SkeltonLoading",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_tierPlayer_SkeltonLoading",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SkeltonLoading.CZghhW1T.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/tier/vip-level",
+      "query": {},
+      "slug": [
+        "events",
+        "tier",
+        "vip-level"
+      ],
+      "fileKey": "events_tier_vip-level",
+      "title": "Phantom - กิจกรรม",
+      "folder": "routes/events_tier_vip-level",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/vip-level.CNnL-To7.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/index.CBTyl65W.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/EventsCard.CayKkmWE.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/vue3-pagination.BTqy48B9.css",
+        "/_nuxt/css/AffilitateLevel.7ZYoqIc_.css",
+        "/_nuxt/css/ProgressBar.tFTQDOJd.css",
+        "/_nuxt/css/Checkbox.5HoB85ly.css",
+        "/_nuxt/css/_name_.BH5MNYw5.css",
+        "/_nuxt/css/collect-points.CmapM73F.css",
+        "/_nuxt/css/EventsCard.VNpqWGqX.css",
+        "/_nuxt/css/daily-topup.BQeheEXB.css",
+        "/_nuxt/css/index.D9z2LQnN.css",
+        "/_nuxt/css/CurrencySymbol.CnliTG_6.css",
+        "/_nuxt/css/Select.BQaHOWSp.css",
+        "/_nuxt/css/index.BWqRCKLU.css",
+        "/_nuxt/css/EventsCreditCard.CaidFwP3.css",
+        "/_nuxt/css/PromoteModal.C6iDh4A5.css",
+        "/_nuxt/css/index.CeeaxSnP.css"
+      ]
+    },
+    {
+      "route": "/events/treasure-box",
+      "query": {},
+      "slug": [
+        "events",
+        "treasure-box"
+      ],
+      "fileKey": "events_treasure-box",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_treasure-box",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/EventsMenuCard.CvMwcDAK.css",
+        "/_nuxt/css/index.Cr4hTzsw.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/events/treasure-box/treasure-box-normal",
+      "query": {},
+      "slug": [
+        "events",
+        "treasure-box",
+        "treasure-box-normal"
+      ],
+      "fileKey": "events_treasure-box_treasure-box-normal",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_treasure-box_treasure-box-normal",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/PromoteModal.C6iDh4A5.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/index.CeeaxSnP.css",
+        "/_nuxt/css/treasure-box.CNmlXQUq.css"
+      ]
+    },
+    {
+      "route": "/events/treasure-box/treasure-box-turn-over",
+      "query": {},
+      "slug": [
+        "events",
+        "treasure-box",
+        "treasure-box-turn-over"
+      ],
+      "fileKey": "events_treasure-box_treasure-box-turn-over",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_treasure-box_treasure-box-turn-over",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/HistoryCard.BzyZedw-.css",
+        "/_nuxt/css/PromoteModal.C6iDh4A5.css",
+        "/_nuxt/css/index.DtWXj7Mb.css",
+        "/_nuxt/css/FooterSlot.CI7spyTL.css",
+        "/_nuxt/css/footer.Due_jwan.css",
+        "/_nuxt/css/full.2fGPXqfw.css",
+        "/_nuxt/css/Wrapper.D4tMY2w6.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/EnterGame.97zI3j1F.css",
+        "/_nuxt/css/FooterNavItem.D6tcDFzI.css",
+        "/_nuxt/css/LegacyFooter.D2-G4w-B.css"
+      ]
+    },
+    {
+      "route": "/events/update-tel",
+      "query": {},
+      "slug": [
+        "events",
+        "update-tel"
+      ],
+      "fileKey": "events_update-tel",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/events_update-tel",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/update-tel.DEhe66az.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/fav",
+      "query": {},
+      "slug": [
+        "fav"
+      ],
+      "fileKey": "fav",
+      "title": "404 - Page not found: /fav | Nuxt",
+      "folder": "routes/fav",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/error-404.De90aWJd.css"
+      ]
+    },
+    {
+      "route": "/games",
+      "query": {},
+      "slug": [
+        "games"
+      ],
+      "fileKey": "games",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/games",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/hits",
+      "query": {},
+      "slug": [
+        "hits"
+      ],
+      "fileKey": "hits",
+      "title": "404 - Page not found: /hits | Nuxt",
+      "folder": "routes/hits",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/error-404.De90aWJd.css"
+      ]
+    },
+    {
+      "route": "/home",
+      "query": {},
+      "slug": [
+        "home"
+      ],
+      "fileKey": "home",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/home",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/lobby",
+      "query": {},
+      "slug": [
+        "lobby"
+      ],
+      "fileKey": "lobby",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/lobby",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/index.CFy8pUyt.css"
+      ]
+    },
+    {
+      "route": "/login",
+      "query": {},
+      "slug": [
+        "login"
+      ],
+      "fileKey": "login",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/login",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/ProviderCard.9PO_4UoT.css",
+        "/_nuxt/css/otherLobby.FJ6RgZVd.css"
+      ]
+    },
+    {
+      "route": "/news",
+      "query": {},
+      "slug": [
+        "news"
+      ],
+      "fileKey": "news",
+      "title": "404 - Page not found: /news | Nuxt",
+      "folder": "routes/news",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/error-404.De90aWJd.css"
+      ]
+    },
+    {
+      "route": "/notifications",
+      "query": {},
+      "slug": [
+        "notifications"
+      ],
+      "fileKey": "notifications",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/notifications",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/notifications.aiishnSF.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/play",
+      "query": {},
+      "slug": [
+        "play"
+      ],
+      "fileKey": "play",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/play",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/play.CTFbKHBX.css",
+        "/_nuxt/css/iframe.CFCPqHFX.css",
+        "/_nuxt/css/Wrapper.D4tMY2w6.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css"
+      ]
+    },
+    {
+      "route": "/profile",
+      "query": {},
+      "slug": [
+        "profile"
+      ],
+      "fileKey": "profile",
+      "title": null,
+      "folder": "routes/profile",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/ProfileCard.CWYRWHQ5.css",
+        "/_nuxt/css/profile.CPT-acdA.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/Checkbox.5HoB85ly.css",
+        "/_nuxt/css/LoginModule.DRsD-Ejv.css"
+      ]
+    },
+    {
+      "route": "/promotion",
+      "query": {},
+      "slug": [
+        "promotion"
+      ],
+      "fileKey": "promotion",
+      "title": "Phantom - โปรโมชั่น",
+      "folder": "routes/promotion",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/SocialShare.iE4q0p8O.css",
+        "/_nuxt/css/Breadcrumb.fTwXnLtB.css",
+        "/_nuxt/css/PromotionToggleCard.DBoA_QSs.css",
+        "/_nuxt/css/promotion.BGwccN26.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/providers",
+      "query": {},
+      "slug": [
+        "providers"
+      ],
+      "fileKey": "providers",
+      "title": "Phantom - เกม",
+      "folder": "routes/providers",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css",
+        "/_nuxt/css/LoadingText.C6G1ZewZ.css",
+        "/_nuxt/css/mozart.DkIFkcxv.css"
+      ]
+    },
+    {
+      "route": "/search",
+      "query": {},
+      "slug": [
+        "search"
+      ],
+      "fileKey": "search",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/search",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameSearch.C8Gjz5UV.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    },
+    {
+      "route": "/withdraw",
+      "query": {},
+      "slug": [
+        "withdraw"
+      ],
+      "fileKey": "withdraw",
+      "title": "Phantom - Phantom Description",
+      "folder": "routes/withdraw",
+      "stylesheets": [
+        "/_nuxt/css/entry.8X9wOrbK.css",
+        "/_nuxt/css/swiper-vue.DJHdZmOr.css",
+        "/_nuxt/css/LanguageSwitcher.Czsnswit.css",
+        "/_nuxt/css/withdrawBtn.BBxUwHCR.css",
+        "/_nuxt/css/Sidebar.DN4YWDGH.css",
+        "/_nuxt/css/bg.DW4fetUv.css",
+        "/_nuxt/css/GameCard.C4A7QIDi.css",
+        "/_nuxt/css/GameGrid.L0ymVzS5.css",
+        "/_nuxt/css/default.l_zWSO1i.css"
+      ]
+    }
+  ]
+}

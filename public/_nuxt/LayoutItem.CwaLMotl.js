@@ -1,0 +1,1 @@
+import{g as s}from"./entry.COoSIBHm.js";import{aA as r,L as a,O as o,X as i,a3 as l}from"./swiper-vue.BDRoAwEe.js";const t={class:"w-full auto-rows-max gap-2 grid grid-cols-2 @xs:grid-cols-2 @sm:grid-cols-4 @md:grid-cols-5 lg:grid-cols-8"},d=s({},[["render",function(s,d){const e=r("virtualize");return a((i(),o("div",t,[l(s.$slots,"default")])),[[e]])}]]);export{d as default};

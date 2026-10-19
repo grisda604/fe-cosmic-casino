@@ -1,0 +1,257 @@
+{
+  "generatedAt": "2026-10-05T20:07:58.836Z",
+  "routes": [
+    {
+      "route": "/",
+      "fileKey": "_root"
+    },
+    {
+      "route": "/bank",
+      "fileKey": "bank"
+    },
+    {
+      "route": "/bank/crypto",
+      "fileKey": "bank_crypto"
+    },
+    {
+      "route": "/bank/deposit",
+      "fileKey": "bank_deposit"
+    },
+    {
+      "route": "/bank/deposit/autoSystem",
+      "fileKey": "bank_deposit_autoSystem"
+    },
+    {
+      "route": "/bank/deposit/autopeer",
+      "fileKey": "bank_deposit_autopeer"
+    },
+    {
+      "route": "/bank/deposit/one2pay",
+      "fileKey": "bank_deposit_one2pay"
+    },
+    {
+      "route": "/bank/deposit/slipSystem",
+      "fileKey": "bank_deposit_slipSystem"
+    },
+    {
+      "route": "/bank/deposit/spdpay",
+      "fileKey": "bank_deposit_spdpay"
+    },
+    {
+      "route": "/bank/gateway",
+      "fileKey": "bank_gateway"
+    },
+    {
+      "route": "/bank/qr",
+      "fileKey": "bank_qr"
+    },
+    {
+      "route": "/events",
+      "fileKey": "events"
+    },
+    {
+      "route": "/events/DailyRandomReward",
+      "fileKey": "events_DailyRandomReward"
+    },
+    {
+      "route": "/events/affiliate",
+      "fileKey": "events_affiliate"
+    },
+    {
+      "route": "/events/affiliate/affiliate-detail",
+      "fileKey": "events_affiliate_affiliate-detail"
+    },
+    {
+      "route": "/events/affiliateOld",
+      "fileKey": "events_affiliateOld"
+    },
+    {
+      "route": "/events/cash-back",
+      "fileKey": "events_cash-back"
+    },
+    {
+      "route": "/events/cash-back/cashback-first-bill",
+      "fileKey": "events_cash-back_cashback-first-bill"
+    },
+    {
+      "route": "/events/cash-back/cashback-normal",
+      "fileKey": "events_cash-back_cashback-normal"
+    },
+    {
+      "route": "/events/cash-point",
+      "fileKey": "events_cash-point"
+    },
+    {
+      "route": "/events/collect-points",
+      "fileKey": "events_collect-points"
+    },
+    {
+      "route": "/events/commissionfourstep",
+      "fileKey": "events_commissionfourstep"
+    },
+    {
+      "route": "/events/daily-topup",
+      "fileKey": "events_daily-topup"
+    },
+    {
+      "route": "/events/events-details",
+      "fileKey": "events_events-details"
+    },
+    {
+      "route": "/events/free-credit",
+      "fileKey": "events_free-credit"
+    },
+    {
+      "route": "/events/get-credit",
+      "fileKey": "events_get-credit"
+    },
+    {
+      "route": "/events/lucky-wheel",
+      "fileKey": "events_lucky-wheel"
+    },
+    {
+      "route": "/events/lucky-wheel/lucky-wheel-normal",
+      "fileKey": "events_lucky-wheel_lucky-wheel-normal"
+    },
+    {
+      "route": "/events/lucky-wheel/lucky-wheel-turn-over",
+      "fileKey": "events_lucky-wheel_lucky-wheel-turn-over"
+    },
+    {
+      "route": "/events/mission",
+      "fileKey": "events_mission"
+    },
+    {
+      "route": "/events/questions",
+      "fileKey": "events_questions"
+    },
+    {
+      "route": "/events/random-reward",
+      "fileKey": "events_random-reward"
+    },
+    {
+      "route": "/events/ranking",
+      "fileKey": "events_ranking"
+    },
+    {
+      "route": "/events/rate-admin",
+      "fileKey": "events_rate-admin"
+    },
+    {
+      "route": "/events/referral",
+      "fileKey": "events_referral"
+    },
+    {
+      "route": "/events/share-facebook",
+      "fileKey": "events_share-facebook"
+    },
+    {
+      "route": "/events/specialCommission",
+      "fileKey": "events_specialCommission"
+    },
+    {
+      "route": "/events/taro",
+      "fileKey": "events_taro"
+    },
+    {
+      "route": "/events/tier",
+      "fileKey": "events_tier"
+    },
+    {
+      "route": "/events/tier/my-reward",
+      "fileKey": "events_tier_my-reward"
+    },
+    {
+      "route": "/events/tier/vip-level",
+      "fileKey": "events_tier_vip-level"
+    },
+    {
+      "route": "/events/tierPlayer/SkeltonLoading",
+      "fileKey": "events_tierPlayer_SkeltonLoading"
+    },
+    {
+      "route": "/events/tierPlayer/details",
+      "fileKey": "events_tierPlayer_details"
+    },
+    {
+      "route": "/events/tierPlayer/myreward",
+      "fileKey": "events_tierPlayer_myreward"
+    },
+    {
+      "route": "/events/tierplayer",
+      "fileKey": "events_tierplayer"
+    },
+    {
+      "route": "/events/treasure-box",
+      "fileKey": "events_treasure-box"
+    },
+    {
+      "route": "/events/treasure-box/treasure-box-normal",
+      "fileKey": "events_treasure-box_treasure-box-normal"
+    },
+    {
+      "route": "/events/treasure-box/treasure-box-turn-over",
+      "fileKey": "events_treasure-box_treasure-box-turn-over"
+    },
+    {
+      "route": "/events/update-tel",
+      "fileKey": "events_update-tel"
+    },
+    {
+      "route": "/fav",
+      "fileKey": "fav"
+    },
+    {
+      "route": "/games",
+      "fileKey": "games"
+    },
+    {
+      "route": "/hits",
+      "fileKey": "hits"
+    },
+    {
+      "route": "/home",
+      "fileKey": "home"
+    },
+    {
+      "route": "/lobby",
+      "fileKey": "lobby"
+    },
+    {
+      "route": "/login",
+      "fileKey": "login"
+    },
+    {
+      "route": "/news",
+      "fileKey": "news"
+    },
+    {
+      "route": "/notifications",
+      "fileKey": "notifications"
+    },
+    {
+      "route": "/play",
+      "fileKey": "play"
+    },
+    {
+      "route": "/profile",
+      "fileKey": "profile"
+    },
+    {
+      "route": "/promotion",
+      "fileKey": "promotion"
+    },
+    {
+      "route": "/providers",
+      "fileKey": "providers"
+    },
+    {
+      "route": "/search",
+      "fileKey": "search"
+    },
+    {
+      "route": "/withdraw",
+      "fileKey": "withdraw"
+    }
+  ]
+}

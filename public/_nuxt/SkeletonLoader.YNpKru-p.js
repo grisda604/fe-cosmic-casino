@@ -1,0 +1,1 @@
+import{O as e,X as t,a1 as a}from"./swiper-vue.BDRoAwEe.js";const s={__name:"SkeletonLoader",props:{width:String,height:String},setup:s=>(i,r)=>(t(),e("div",{class:"animate-pulse bg-gray-200 dark:bg-gray-700 rounded-base",style:a({width:s.width||"100%",height:s.height||"100%"})},null,4))};export{s as _};

@@ -1,0 +1,1 @@
+import{v as t,j as e}from"./entry.COoSIBHm.js";import{m as s}from"./swiper-vue.BDRoAwEe.js";const o=o=>{const i=t(),r=s(()=>i?.config?.theme?.site_title);if(r.value){const t=r.value+" - "+o;e({title:t})}};export{o as u};

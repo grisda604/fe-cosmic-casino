@@ -1,0 +1,1685 @@
+account-true-wallet: บัญชี True Wallet
+add-crypto: เพิ่มบัญชีคริปโต
+affilate:
+  affiliateInCome: รายได้ทั้งหมด {income} {currency}
+  affiliateNewFriend: เพื่อนใหม่
+  affiliatePeople: จำนวน {num} คน
+  anotherTurn: ได้รับเทิร์นอื่นๆ
+  canIncomForFriend: สามารถรับรายได้จากเพื่อน
+  casinoLossPercentage: เปอร์เซ็นยอดเสียคาสิโน
+  casinoPayback: ได้รับยอดเสียคาสิโน
+  casinoProfit: ยอดได้เสียคาสิโน
+  casinoTurn: ได้รับเทิร์นคาสิโน
+  casinoWin: ได้รับยอดได้คาสิโน
+  classmate: เพื่อนชั้นที่
+  currentLevel: เลเวลปัจจุบัน
+  currentRevenue: รายได้รอบปัจจุบัน
+  details: รายละเอียด
+  earnMore: ได้รับยอดได้อื่นๆ
+  earnedIncome: รายได้ที่ได้รับ
+  eventAffiliate: ชวนเพื่อนรับค่าคอมมิชชั่น-Affiliate
+  friendsWhoPay: เพื่อนที่เติมเงิน
+  getPoint: รับแต้ม
+  highestPercentage: คุณได้รับเปอร์เซ็นสูงสุดแล้ว
+  howToEarnCommissions: วิธีรับรายได้จากค่าคอมมิชชั่น
+  ifInviteFriendIncomMore: หากเพื่อนของคุณเชิญเพื่อนเพิ่ม คุณก็จะได้รับรายได้มากขึ้นอีก
+  income: รายได้
+  incomeCondition: รายได้ขึ้นอยู่กับเงื่อนไขที่กำหนด
+  inviteFriendMore: ชวนเพื่อนเพิ่ม {people} คน เพื่ออัพเลเวล
+  inviteFriendsEarn: ชวนเพื่อนรับรายได้
+  maxLevel: สูงสุด 100 ลำดับชั้น
+  moreIncome: รายได้ยิ่งเพิ่ม
+  moreYouInviteFriends: ยิ่งชวนเพื่อนเยอะ
+  noInBox: ไม่แสดงข้อความนี้อีก
+  notAffiliateLink: ไม่พบลิงก์แชร์รับรายได้
+  notHave: ไม่มี
+  number: ลำดับ
+  numberFriends: จำนวนเพื่อน
+  otherLossPercentage: เปอร์เซ็นยอดเสียอื่นๆ
+  otherLosses: ยอดได้เสียอื่นๆ
+  othersPayback: ได้รับยอดเสียอื่นๆ
+  people: คน
+  percentageEarned: เปอร์เซ็นต์ที่ได้รับ
+  percentageWinCasino: เปอร์เซ็นยอดได้คาสิโน
+  percentageWinOther: เปอร์เซ็นยอดได้อื่นๆ
+  percentageWinSlots: เปอร์เซ็นยอดได้สล็อต
+  pressToGetPoints: กดรับแต้ม
+  receivedHistory: ประวัติการกดรับ
+  receivedHistoryIncom: ประวัติของรายได้
+  receivedHistoryPoint: ประวัติการกดรับแต้ม
+  receivedIncome: กดรับรายได้
+  reciveLossFreind: ได้รับยอดเสียจากเพื่อน
+  redeemForCredit: แลกเป็นเครดิต
+  seeMoreDetails: ดูรายละเอียดเพิ่มเติม
+  selectHierarchy: เลือกลำดับชั้น
+  shareEarn: แชร์รับรายได้
+  shareLinkInviteFriend: แชร์ลิงก์เพื่อชวนเพื่อนมาเล่น รับรายได้จากยอดเล่น และยอดเสียของเพื่อน
+  shareLinkMakeMoney: สร้างรายได้ง่ายๆ กับ Affiliate เพียงแชร์ลิงก์ชวนเพื่อนมาใช้งาน!
+  slotLossPercentage: เปอร์เซ็นยอดเสียสล็อต
+  slotProfit: ยอดได้เสียสล็อต
+  slotTurn: ได้รับเทิร์นสล็อต
+  slotWin: ได้รับยอดได้สล็อต
+  slotsPayback: ได้รับยอดเสียสล็อต
+  todayDeposit: ยอดฝากวันนี้
+  todayInformation: ข้อมูลวันนี้
+  totalIncome: รายได้ทั้งหมด {money} บาท
+  totalLoss: ยอดได้เสียทั้งหมด
+  transactionHistory: ประวัติการกดรับและรายได้
+  up: ขึ้นไป
+  user: ยูสเซอร์
+  yesterdayInformation: ข้อมูลเมื่อวาน
+  youEarningsFreeCredit: คุณต้องแลกรายได้เป็นเครดิตฟรี
+  getEnterLink: กดเพื่อคัดลอกลิ้งชวนเพื่อน
+affiliate:
+  PlayCasino: ยอดเล่นคาสิโน
+  PlayLotto: ยอดเล่นหวย
+  PlayOther: ยอดเล่นอื่นๆ
+  PlaySlot: ยอดเล่นสล็อต
+  PlaySport: ยอดเล่นกีฬา
+  calCommissions: กำลังคำนวน
+  calLv: คำนวน
+  canReceviveHaveReward: สามารถรับรางวัลได้ เมื่อมีรางวัลสะสมมากกว่า
+  canReceviveHaveReward11: ทำเทิร์นสล็อต
+  canReceviveHaveReward12: x{credit}เท่า
+  canReceviveHaveReward13: และ ทำเทิร์นคาสิโน
+  canReceviveHaveReward14: x{casino} เท่า
+  canReceviveHaveReward2: ทำเทิร์นครบถอนสูงสุด
+  canSeeTableOnBottom: สามารถดูเปอร์เซ็นต์ที่ได้รับ ได้ที่ตารางด้านล่าง
+  cardAffilateFriend: เพื่อน {minimum}/{maximum} คน
+  cardAffilateLossFriend: รับยอดเสียเพื่อน {percent}%
+  cardAffilateTitile: พิเศษ! เชิญเพื่อนมาเล่น เลเวลอัพ ยิ่งได้รับเปอร์เซ็นต์เพิ่ม!
+  casinoLossPercentage: ยอดเสียคาสิโน
+  classmate: เพื่อนชั้นที่ {people}
+  classmateNo: เพื่อนชั้นที่
+  comissionType: รับรายได้จากยอดเล่นและยอดเสียของเพื่อน
+  continueOne: ต่อที่ 1
+  continueTree: ต่อที่ 3
+  continueTreeMax: รับรายได้สูงสุด 3 ต่อ!
+  continueTwo: ต่อที่ 2
+  continueTwoMax: รับรายได้สูงสุด 2 ต่อ!
+  customPlayer: ยอดเสียหรือยอดเล่นของเพื่อนตามประเภทเกม
+  desNumOne: ส่งลิงก์ให้เพื่อนสมัครและเติมเงินเล่นเกม
+  descAffilate1: ดูเปอร์เซ็นต์ที่ได้รับของแต่ละเลเวลที่
+  descAffilate2: ดูเปอร์เซ็นต์ที่ได้รับของแต่ละลำดับชั้นที่
+  descAffilate3: กดดูรายละเอียดทั้งหมด
+  desfriendsWhoTopUp: เพื่อนที่เติมเงิน
+  detailAll: ดูทั้งหมด
+  earnIncomeFrom: รับรายได้จาก
+  firstTopup: การเติมครั้งแรกของเพื่อน
+  friendInLoss: ยอดเสียของเพื่อน
+  friendInProfit: ยอดได้เสียของเพื่อน
+  friendInTurnover: ยอดเทิร์นโอเวอร์ของเพื่อน
+  friendPlay: เพื่อนเล่นเราได้!
+  friendRegister: การสมัครของเพื่อน
+  friendTurnover: เทิร์นโอเวอร์ของเพื่อน
+  friendsNumber: เพื่อน
+  friendsTopUp: จำนวนเพื่อนที่เติมเงิน
+  getNow: รับทันที
+  incomNumOne: รายได้ต่อที่ 1
+  incomNumTree: รายได้ต่อที่ 3
+  incomNumTwo: รายได้ต่อที่ 2
+  incomTurn: รับรายได้จากยอดเล่นของเพื่อน
+  incomWinLoss: รับรายได้จากยอดเสียของเพื่อน
+  inviteFriendsApply: ชวนเพื่อนมาสมัคร
+  inviteFriendsStepsOne: คัดลอกลิงก์
+  level: ลำดับชั้น
+  lineActive: เพื่อนที่เติมเงิน {active} คน เป็นต้นไป
+  lineLoss: ยอดเสีย {loss} บาท เป็นต้นไป
+  lineTurnOver: เทิร์นขั้นต่ำ
+  loss: ยอดเสีย
+  lossLv: ยอดเสีย
+  lottoLossPercentage: ยอดเสียหวย
+  noiceLevel: เมื่อเลเวลถึงกำหนด ท่านจะได้รับเปอร์เซ็นต์พิเศษในวงเล็บเพิ่มเติม โดยเปอร์เซ็นต์ในตารางจะเป็นเปอร์เซ็นต์คอมมิชชั่นที่บวกกับเปอร์เซ็นต์พิเศษในวงเล็บแล้ว
+  noteOther: เครดิตที่เพื่อนได้รับจากกิจกรรมต่างๆ จะไม่ถูกนำมา คำนวณกับการรับรายได้ (นับจากการเติมเงินเท่านั้น)
+  notiAffiliateTypeCheckIncom: กดรับได้ ตั้งแต่ 1 บาทขึ้นไป
+  numLevel: เลเวล
+  onwards: เป็นต้นไป
+  otherLossPercentage: ยอดเสียอื่นๆ
+  percentageWinCasino: ยอดได้คาสิโน
+  percentageWinLotto: ยอดได้หวย
+  percentageWinOther: ยอดได้อื่นๆ
+  percentageWinSlots: ยอดได้สล็อต
+  percentageWinSport: ยอดได้กีฬา
+  persent: เปอร์เซ็นต์
+  persentLv: ระดับปัจจุบัน
+  shareLossFriend: รับรายได้จากยอดเสียของเพื่อน
+  slotLossPercentage: ยอดเสียสล็อต
+  sportLossPercentage: ยอดเสียกีฬา
+  stepIncom: ขั้นตอนการรับรายได้
+  tablePercentage: ตารางเปอร์เซ็นต์ของทุกลำดับชั้น
+  totalLossOther: ยอดเสียทุกประเภท
+  turnCasino: เทิร์นคาสิโน
+  turnLotto: เทิร์นหวย
+  turnOther: เทิร์นอื่นๆ
+  turnSlot: เทิร์นสล็อต
+  turnSport: เทิร์นกีฬา
+  typeCashback: เกม
+  typeCasino: หมวดคาสิโน
+  typeLotto: หมวดหวย
+  typeOther: หมวดอื่นๆ
+  typeSlot: หมวดสล็อต
+  typeSport: หมวดกีฬา
+  typeTopPlay: ประเภท
+  waitFriends: รอเพื่อนสมัครรับทันที
+  whatIsAff: Affiliate คืออะไร?
+  winAndLoss: ยอดได้และเสีย
+  youPlay: ยอดเล่น
+  youWant: รับรายได้เพิ่มขึ้น
+alert:
+  error:
+    OTPBeenSent: OTP ถูกส่งไปแล้ว
+    boxCannotOpen: ไม่สามารถเปิดกล่องได้ขณะนี้
+    canNotSpinNow: ไม่สามารถหมุนกงล้อได้ขณะนี้
+    copyError: คัดลอกไม่สำเร็จ
+    creditLower: เครดิตต่ำกว่าที่กำหนด
+    expiredRequestOTPAgain: OTP หมดอายุแล้ว กรุณากดขอ OTP อีกคร้ัง
+    findNumberSystem: ไม่พบเบอร์ในระบบ
+    founError: พบข้อผิดพลาด
+    foundError: พบข้อผิดพลาด กรุณาติดต่อแอดมิน
+    invalidLink: ลิงค์ไม่ถูกต้อง
+    invalidOTP: OTP ไม่ถูกต้อง
+    loginFailed: เข้าสู่ระบบไม่สำเร็จกรุณาตรวจสอบบัญชี และรหัสผ่าน
+    network: เครือข่ายไม่เสถียร
+    noCanGiveTips: ไม่สามารถให้ Feedback ได้ในขนะนี้ กรุณารอ 1 - 2 นาที
+    noHvaeLinkShareEarn: ไม่มี link ในการแชร์รายได้
+    noItem: ไม่พบข้อมูล
+    outstanding: ลูกค้าไม่สามารถเข้าเล่นคาสิโนออนไลน์ เกมต่อสู้ กีฬา หวย เกมแครช และเกมคริปโตได้ หากต้องการเล่น กรุณาปิดรับโปรโมชั่น และทำเทิร์นให้ครบเงื่อนไข!!!
+    passwordRequired: กรุณากรอกรหัสผ่าน
+    passwordUncorret: รหัสผ่านไม่ตรงกัน
+    pleaseComplete: กรุณากรอกให้ครบ
+    pleaseCompleteInformation: กรุณกรอกข้อมูลให้ครบ
+    plsRecaptcha: กรุณายืนยันตัวตน reCAPTCHA
+    receivedPromotionAutoFailed: รับโปรไม่สำเร็จ
+    transactionError: ทำรายการไม่สำเร็จ
+    updating: ระบบอัพเดตชั่วคราว
+    uploadMoreThan: อัปโหลดรูปภาพไม่เกิน 1 MB
+    uploadNoSuccessfully: อัพโหลดไม่สำเร็จ
+    usernameRequired: กรุณากรอกชื่อผู้ใช้
+  success:
+    OTPCorrect: OTP ถูกต้อง
+    OTPSentSuccessfully: ส่ง OTP สำเร็จ
+    changePasswordSuccessfully: เปลี่ยนรหัสผ่านสำเร็จ
+    changedPinSuccessfully: เปลี่ยน PIN สำเร็จ
+    colseReceivedPromotion: ปิดรับโปรสำเร็จ
+    commissionEarned: ได้รับคอมมิชชั่นแล้ว
+    congratulations: ยินดีด้วย!
+    copySuccessfully: คัดลอกสำเร็จ
+    exchangeCreditSuccessfully: โอนเครดิตสำเร็จ
+    loginSuccess: เข้าสู่ระบบสำเร็จ
+    promotionSuccessfully: รับโปรสำเร็จ
+    receiveFreeSpin: รับรางวัลหมุนฟรีสำเร็จ
+    receivedAward: รับรางวัลสำเร็จ
+    receivedFreeCredit: รับเครดิตฟรีสำเร็จ
+    receivedPromotionAutoSuccessfully: รับโปรโมชั่นอัตโนมัติสำเร็จ
+    redeemSuccess: แลกรางวัลสำเร็จ
+    resetPasswordSuccessfully: ตั้งรหัสผ่านใหม่สำเร็จ
+    savedSuccessfully: บันทึกข้อมูลสำเร็จ
+    successfulWithdrawal: ถอนเงินสำเร็จ
+    successfulWithdrawalCurrency: ถอนเงินสำเร็จ {amount} {currency}
+    successfullyRedeemed: แลกเป็นเครดิตฟรีสำเร็จ
+    thnankToTipSuccessfully: ขอบคุณสำหรับ Feedback เราจะนำไปพัฒนาระบบให้ดียิ่งขึ้น
+    topUpSuccessfully: เติมเงินสำเร็จ {amount} {currency}
+  topUpSuccessfully: เติมเงินสำเร็จ
+answerQuestions:
+  chooseAtLeast: เลือกตอบอย่างน้อย
+  questions: ชุดคำถาม
+bacroom:
+  popularRooms: ห้องยอดนิยม
+  noData: ไม่มีข้อมูล
+  enterRoom: เข้าสู่ห้อง
+  cannotEnterGame: ไม่สามารถเข้าสู่เกมได้
+bank:
+  accountChangeWarning: บัญชีจะมีการเปลี่ยนแปลงตลอด ห้ามบันทึก!
+  accountTransferred: บัญชีที่ต้องโอน
+  baac: ''
+  bankUpdate: บัญชีจะมีการเปลี่ยนแปลงตลอด
+  bay: ''
+  bbl: ''
+  cancelTopup: ยกเลิกการเติมเงิน
+  checking: กำลังตรวจสอบ
+  chooseBank: เลือกธนาคาร
+  cimb: ''
+  confirmTopup: ยืนยันการเติมเงิน
+  coppyBank: กรุณาคัดลอกเลขบัญชี ระบบจะแสดงจำนวนเงินฝากเป็นทศนิยม เพื่อให้ท่านโอนเข้ามา คุณต้องโอนให้ตรงตาจำนวนที่ระบบแสดง เท่านั้น
+  copyAccount: คัดลอกบัญชี
+  decimalTransfer: โอนแบบทศนิยม
+  gameQR: ใช้สำหรับเติมเกมเท่านั้น
+  gotoPopUp: กำลังพาไปใน..
+  gsb: ''
+  icbc: ''
+  kbank: ''
+  kk: ''
+  ktb: ''
+  lastestTransaction: ธุรกรรมล่าสุด
+  lhbank: ''
+  minimumAmount: จำนวนเงินขั้นต่ำ {money} บาท
+  minimumTopUp: เติมเงินขั้นต่ำ
+  minimumTopUpBath: เติมเงินขั้นต่ำ {money} {currency}
+  minute: นาที
+  noMoneyTransfer: เนื่องจากไม่พบรายการโอนเงินในระบบ
+  noRounded: ห้ามลดจำนวน
+  noRoundedDecimal: ห้ามปัดเศษ
+  pending: กำลังรอการชำระเงิน
+  pleaseRoundAmount: กรุณาเติมเงินให้ตรงกับยอดที่แสดง ห้ามปัดเศษ
+  pleaseTopUp: กรุณาเติมเงินให้ตรงกับยอดที่แสดง
+  pleaseTransferMoney: กรุณาโอนเงินภายในเวลา
+  pleaseTransferTime: กรุณาโอนเงินภายในเวลา
+  pleaseUseAccount: กรุณาใช้บัญชีที่ท่านสมัครโอนมาเท่านั้น
+  plsAccountOnly: กรุณาใช้บัญชีที่ท่านสมัครโอนมาเท่านั้น
+  plsQrcode: QR Code นี้สามารถใช้ได้เพียงครั้งเดียว ห้ามโอนซ้ำ
+  promptpay: พร้อมเพย์
+  scanQRCode: สแกน QR Code เพื่อโอนเข้าบัญชี
+  scb: ''
+  specifyAmount: ระบุจำนวนเงิน
+  systemAutomatically: ระบบจะเติมเครดิตเกมอัตโนมัติ ภายในเวลา 1-2 นาที
+  tbank: ''
+  tisco: ''
+  tmb: ''
+  topUp: เติมเงิน
+  topUpComplete: ระบบได้ทำการเติมเงินเข้ากระเป๋าคุณเรียบร้อย
+  topUpSuccessfully: เติมเงินสำเร็จ
+  topupHistory: ประวัติการเติมเงิน
+  topupRejected: รายการเติมเงินถูกปฏิเสธ
+  transferAccount: โอนแบบบัญชี
+  transferredPleaseClick: เมื่อทำการโอนเงินแล้ว กรุณากด "ยืนยัน" ที่นี่
+  truewallet: ''
+  ttb: ''
+  uob: ''
+  wantCancelTopup: ต้องการยกเลิกการเติมเงิน หรือไม่?
+  yourAccount: บัญชีของคุณ
+  bankIncom: บัญชีรับเงิน
+  trueMoneyWalletFee:
+    feePercentage: ค่าธรรมเนียม {percentage}%
+    systemDeductFee: ระบบจะหักค่าธรรมเนียมการฝาก {percentage}%
+    fromTopupAmount: จากยอดเติม สูงสุดไม่เกิน {maxDeduction} บาท
+    promotionCase: กรณีเติมรับโปร
+    topupMinPromo: เติมขั้นต่ำของโปร + (ค่าธรรมเนียม)
+    toGetPromotion: เพื่อให้ได้รับโปรโมชั่นที่ต้องการ
+    feeInfo: ค่าธรรมเนียม {percentage}% (สูงสุดไม่เกิน {maxDeduction} บาท)
+    amountToTopup: เงินที่ต้องเติม (ขั้นต่ำ {minAmount} บาท)
+    minimumAmountError: ยอดขั้นต่ำ {minAmount} บาท
+    feeAmount: ค่าธรรมเนียม ({percentage}%)
+    amountReceived: ที่ได้รับ (หลังหักค่าธรรมเนียม)
+    calculateTopupAfterFee: คำนวนยอดเติมหลังหักค่าธรรมเนียม
+    amountToTopupSimple: เงินที่ต้องเติม
+bankMethod:
+  viaAccount: ฝากเงินผ่านธนาคาร
+button:
+  add: เพิ่ม
+  apply: นำไปใช้
+  back: ย้อนกลับ
+  cancel: ยกเลิก
+  changePassword: เปลี่ยนรหัสผ่าน
+  clear: ล้างค่า
+  clickHere: คลิกที่นี่
+  close: ปิด
+  confirm: ยืนยัน
+  continue: ดำเนินการต่อ
+  copy: คัดลอก
+  delete: ลบ
+  download: ดาวน์โหลด
+  edit: แก้ไข
+  exchangeCredit: โอนเครดิต
+  filter: Filter
+  finish: เสร็จสิ้น
+  forgotPassword: ลืมรหัสผ่าน
+  getCredit: รับเครดิต
+  getPromotion: รับโปรโมชั่นนี้
+  getRewarded: รับรางวัล
+  goPlayGames: ไปเล่นเกม
+  login: เข้าสู่ระบบ
+  logout: ออกจากระบบ
+  next: ถัดไป
+  notAccepPromotion: ไม่รับโปรฯ
+  ok: ตกลง
+  participate: เข้าร่วม
+  playGame: เล่นเกม
+  previous: ก่อนหน้า
+  receive: รับ
+  recevice: กดรับ
+  record: บันทึก
+  register: สมัคร
+  resend: ส่งใหม่
+  reset: รีเซ็ต
+  resetPassword: รีเซ็ท รหัสผ่าน
+  save: บันทึก
+  search: ค้นหา
+  select: เลือก
+  send: ส่ง
+  sendCode: ส่งรหัส
+  share: แชร์
+  stay: อยู่ต่อ
+  submit: ส่ง
+  topUp: เติมเงิน
+  understand: เข้าใจแล้ว
+  upload: อัปโหลด
+  verify: ยืนยัน
+  withdraw: ถอน
+  yess: ใช่
+cashPoint:
+  cashPoint: ยอดสะสม
+  cashpointReceivedTwoAm: '*สามารถรับยอดสะสมได้หลังเวลา 02.00 น. เป็นต้นไป'
+  cumulativeAmount: รับยอดสะสมคืนในทุกการเดิมพัน
+  earnedCredit: ยอดสะสมที่ได้รับ
+  login: เข้าสู่ระบบ
+  lostBet: ยอดแพ้ {lost} %
+  numberOf: จำนวน {credit} ใช่หรือไม่?
+  turnAll: เทิร์นทุกประเภท
+  turnOver: ยอดเทิร์นโอเวอร์ {turn} %
+  wantEarnFreeCredits: คุณต้องการรับเครดิตฟรีจากยอดสะสม
+  whenBetting: เมื่อเดิมพันได้ หรือเสีย ก็รับเครดิตยอดสะสมคืนทันที! สามารถดูเปอร์เซ็นต์ที่ได้รับจากด้านล่างนี้
+  winBet: ยอดชนะ {win} %
+cashback:
+  allAbout: ทั้งสิ้น
+  calLossForPlay: ระบบจะคำนวนยอดเสียจากรายการที่เล่น
+  cashPointsBackGames: ถึงจะปั่นสล็อตเสีย ก็ไม่ต้องกังวล เพราะยังไงก็ได้รับ เครดิตยอดเสียคืนสามารถดูเปอร์เซ็นต์ที่ได้รับ ด้านล่างนี้
+  cashbackPlaySlotAndCasino: รับยอดเสียคืนจากรายการเล่นสล็อต คาสิโน
+  cashbackReceivedFiveAm: สามารถรับ Cashback ได้หลังเวลา 05.00 น. เป็นต้นไป
+  cashbackReceivedFourAm: สามารถรับ Cashback ได้หลังเวลา 04.00 น. เป็นต้นไป
+  cashbackReceivedOneAm: สามารถรับ Cashback ได้หลังเวลา 01.00 น. เป็นต้นไป
+  cashbackReceivedThreeAm: สามารถรับ Cashback ได้หลังเวลา 03.00 น. เป็นต้นไป
+  cashbackReceivedTwoAm: สามารถรับแคชแบคได้หลังเวลา 02.00 น. เป็นต้นไป
+  cashpointPercentageBelow: ถึงจะเดิมพันเสีย ก็ไม่ต้องกังวล เพราะยังไงก็ได้รับเครดิต ยอดเสียคืนสามารถดูเปอร์เซ็นต์ที่ได้รับจากยอดแพ้ ที่นี่
+  casinoGamesPersent: เกมคาสิโน
+  creditBackFromLoss: เครดิตคืนจากยอดเสีย {value}%
+  exceptSportsBetting: ถึงจะปั่นสล็อตเสีย ก็ไม่ต้องกังวล เพราะยังไงก็ได้รับ เครดิตยอดเสียคืน ยกเว้นเดิมพันกีฬา
+  getBackEveryBet: รับยอดเสียคืนในทุกการเดิมพัน
+  getLossPlayingSlots: รับยอดเสียคืนจากรายการเล่นสล็อต!
+  noReceviceCashback: จะไม่ได้รับเครดิตยอดเสียคืน
+  onlyPlaysSlotsGames: ถ้าผู้เล่น เล่นเกมสล็อตอย่างเดียว ระบบจะคำนวน เปอร์เซ็นต์ยอดเสียของสล็อต
+  otherPlaylistsNotReceive: รายการเล่นอื่นๆ ที่นอกเหนือจากสล็อต จะไม่ได้รับเครดิตยอดเสียคืนทั้งสิ้น
+  percentageReceivedLoss: เปอร์เซ็นต์ที่ได้รับจะเป็นเครดิตคืนจากยอดเสีย
+  playersCanGetLosses: ผู้เล่นสามารถรับยอดเสียคืนได้จากการเดิมพัน และยังสามารถดูเปอร์เซ็นต์เครดิตที่ได้รับจากยอดเสีย ด้านล่างนี้
+  playsSlotsAndCasinoGames: ถ้าผู้เล่น เล่นเกมสล็อตและคาสิโน ระบบจะคำนวนเปอร์เซ็นต์ยอดเสียของคาสิโนเท่านั้น
+  receivedCashback: รับยอดเสียคืน
+  returnedLoss: ยอดเสียที่ได้รับคืน
+  slotAndCasino: เกมสล็อตและคาสิโน
+  slotGames: เกมสล็อต
+  slotGamesPersent: เกมสล็อต {value} %
+  systemCalculateSlots: ระบบจะคำนวนยอดเสียจากรายการที่เล่น "สล็อต" เท่านั้น
+  topUpFirstADay: จากการเติมครั้งแรกของวัน
+  topUpFirstPlayer: จากการเติมครั้งแรกของผู้เล่น
+  'topUpFirstPlayer ': เติมครั้งแรก
+  typeGameSport: รายการเล่นประเภทกีฬา
+  whatBetsCan: รับยอดเสียคืนจากการเดิมพันใดได้บ้าง?
+  youWantReceive: คุณต้องการรับเครดิต
+codeDesc: ใส่โค้ดที่ได้เพื่อรับรางวัลพิเศษ
+collectPoints:
+  allPrizes: ของรางวัลทั้งหมด
+  ascending: น้อยไปมาก
+  credit: เครดิต
+  descending: มากไปน้อย
+  endNow: จะสิ้นสุดภายใน
+  equipment: อุปกรณ์
+  gold: ทอง
+  isCheckRewardAlert: คุณต้องการรับแต้ม
+  lifestyle: ไลฟ์สไตล์
+  moreThan: มากกว่า 72,000
+  noHistory: ไม่มีประวัติการแลกรางวัล
+  pending: รอดำเนินการ
+  points: แต้ม
+  pointsNumber: ${number}แต้ม
+  redeemRewards: แลกรางวัล
+  redemptionHistory: ประวัติการแลกรางวัล
+  remainingPoints: แต้มที่มีอยู่ปฏิทินการล็อกอิน
+  rewardsNotFound: ไม่พบของรางวัลที่ค้นหา
+  scoreRange: ช่วงคะแนน
+  searchRewards: ค้นหารางวัล
+  spend: ใช้ {point} แต้ม
+  toRedeem: เพื่อแลก {reward} ใช่หรือไม่ ?
+  totalBalance: แต้มที่กดรับได้
+  tupUpTimeNow: เติมเงินเวลานี้ รับแต้ม x{multiple} เท่า!
+  type: ประเภท
+  wantToSpend: คุณต้องการใช้
+commission:
+  approved: อนุมัติแล้ว
+  codeAlready: รหัสนี้ถูกใช้ไปแล้ว
+  codeHere: ใส่โค้ดที่นี่
+  description: รายละเอียด
+  earnings: ''
+  enterCode: ใส่โค้ดรับเครดิตฟรี
+  examine: ตรวจสอบ
+  history: ''
+  historyCommission: ประวัติรับคอมมิชชั่น
+  pending: ''
+  plsCode: ไม่พบโค้ดในระบบ
+  prizealready: คุณได้รับรางวัลไปแล้ว
+  rate: ''
+  rejected: ''
+  title: ''
+  total: ''
+  typeCasino: คาสิโนสด
+  typeLotto: หวย
+  typeOther: ประเภทอื่นๆ
+  typeSlot: เกมสล็อต
+  typeSport: เกมกีฬา
+  withdrawal: ''
+commission4step:
+  back: ย้อนกลับ
+  close: ปิด
+  day: รายวัน
+  details: รายละเอียดรับเงินคืน
+  eventName: ค่าคอม 4 ชั้น
+  history: ประวัติ
+  latestItems: (5 รายการล่าสุด)
+  matchingDetails: รายละเอียดการจับคู่
+  month: รายเดือน
+  moreThanOneDay: มากกว่า 1 วัน
+  now: ปัจจุบัน
+  playMoreGames: เล่นเกมเพิ่ม
+  realtime: รายวัน
+  receiveMoney: รับรางวัล
+  receiveMoneyType:
+    cash: เงิน
+    freecredit: เครดิต
+  rewardHistory: ประวัติการรับรางวัล
+  timeRemaining: เวลาที่เหลือ
+  week: รายสัปดาห์
+commom:
+  activity: กิจกรรม
+  admin: แอดมิน
+  badBalance: ยอดเสีย
+  baht: บาท
+  bankLink: ฝาก/ถอน
+  cash: เงิน
+  cashMoney: เงินในเกม
+  cashTranfer: เงินโอน
+  casino: คาสิโน
+  categoryPosition: ตำแหน่งหมวดหมู่
+  contact: ติดต่อ
+  credit: เครดิต
+  creditHistory: ประวัติการรับเครดิต
+  day: วันที่
+  details: รายละเอียด
+  diamond: เพชร
+  displaySetting: ตั้งค่าการแสดงผล
+  dong: ดอง
+  enterAmount: กรุณาระบุยอดเงิน
+  error: พบข้อผิดพลาด
+  freeCredit: เครดิตฟรี
+  game: เกม
+  gameBalance: ยอดเงินในเกม
+  gotoGame: เข้าสู่เกม
+  hide: ซ่อน
+  info: ข้อมูล
+  lastEntries: ( 5 รายการล่าสุด )
+  left: ซ้าย
+  line: LINE
+  loading: กำลังโหลด
+  logout: ออกจากระบบสำเร็จ
+  mainPage: หน้าหลัก
+  min: ขั้นต่ำ
+  money: เงิน
+  month: เดือน
+  noCreditHistory: ไม่มีประวัติการรับเครดิต
+  noData: ไม่พบข้อมูล
+  noHave: ไม่มี
+  noHistoryEntry: ไม่มีรายการประวัติ
+  noResults: ไม่พบข้อมูล
+  noRewardHistory: ไม่มีประวัติการรับรางวัล
+  notPointHistory: ไม่มีประวัติการรับแต้ม
+  notexttoday: ไม่แสดงข้อความนี้อีก
+  number: จำนวน
+  other: อื่นๆ
+  prizeNotFound: ไม่พบรางวัล
+  rewardHistory: ประวัติการรับรางวัล
+  right: ขวา
+  seconds: วินาที
+  seeAll: ดูทั้งหมด
+  seeConditions: ดูเงื่อนไขเพิ่มเติม
+  showLess: แสดงน้อยลง
+  showMore: แสดงเพิ่มเติม
+  slot: สล็อต
+  success: สำเร็จ
+  top: บน
+  topUp: เติมเงิน
+  turn: เทิร์น
+  view: ดูเพิ่มเติม
+  wait: กรุณารอสักครู่
+  warning: ''
+  year: ปี
+  yerNo: ใช่หรือไม่?
+  quickNavigation: ทางลัดไปยังกิจกกรม
+  dailyTopUpCalendar: ปฏิทินเติมเงินรายวัน
+common:
+  loadMore: โหลดเพิ่ม
+  noItem: ไม่พบข้อมูล
+  scrollForMore: เลื่อนเพื่อดูเพิ่มเติม
+  resetFilters: ล้างการค้นหา
+  filters: ตัวกรอง
+  doNotReuse: ห้ามใช้ซ้ำ
+  qrDeposit: QR Code นี้ใช้สำหรับฝากเงินผ่านเว็บเพื่อเล่นเกมเท่านั้น
+components:
+  language_switcher:
+    change_language: เปลี่ยนภาษา
+  theme_switcher:
+    change_theme: เปลี่ยนธีม
+    theme: ธีม
+crypto:
+  addCryptoDesc: กรอกที่อยู่วอลเล็ท และเลือกสกุลคริปโต
+  addWallet: กรอกที่อยู่วอลเล็ท
+  crypto: สกุลคริปโต
+  enterProcess: ทำรายการฝาก
+  network: เครือข่าย
+  selectCrypto: เลือกสกุลคริปโต
+  selectNetwork: เลือกเครือข่าย
+  walletAddress: ที่อยู่วอลเล็ท
+  withdraw: บัญชีคริปโต (สำหรับถอน)
+decimalTransfer: ฝากเงินแบบทศนิยม
+deposit: ฝาก
+depositAndUploadSlip: โอนเงินและทำการอัพโหลดภาพสลิป
+depositBankAuto: ฝากเงินผ่านธนาคาร (อัตโนมัติ)
+depositBankDesc: ใช้บัญชีที่สมัครโอนเงินผ่านธนาคาร รองรับทั้งแบบบัญชีธนาคาร และแบบ QR CODE
+depositBankSpecials: ฝากเงินผ่านธนาคาร (พิเศษ)
+depositCryptoDesc: เติมเงินเล่นเกมโดยคริปโตเคอเรนซี่
+depositHistory: ประวัติการฝาก
+depositWithTrueWallet: ฝากเงินโดยใช้ทรูมันนี่ วอเล็ท
+depostiCrypto: ฝากเงินแบบคริปโต
+directTopupBank: โอนตรงผ่านธนาคาร
+error:
+  failedToInitialize: พบข้อผิดพลาด
+  founError: พบข้อผิดพลาด
+  foundError: พบข้อผิดพลาด
+  invalidData: พบข้อผิดพลาด
+  invalidPrize: พบข้อผิดพลาด
+  invalidResponse: พบข้อผิดลาด
+  unknownPrize: ไม่พบข้อมูลรางวัล
+events:
+  allEvents: ทั้งหมด
+  affiliate: ชวนเพื่อนรับคอมมิชชั่น
+  answerQuestions: ตอบคำถาม
+  balanceDiamonds: เพชรคงเหลือ
+  cash: เงินสด
+  cashPoint: แต้มเงินสด
+  cashback: คืนยอดเสีย
+  cashbackBill: คืนยอดเสียบิลแรก
+  cashpoint: ยอดสะสม
+  collectPoints: สะสมแต้ม
+  commission: คอมมิชชั่น
+  commission4step: คอมมิชชั่น 4 ขั้น
+  daily: ฝากประจำ
+  dailyFixTopup: ฝากประจำฟิกยอด
+  dailyMission: ภารกิจรายวัน
+  earn: สร้างรายได้
+  evaluateAdmin: ประเมินแอดมิน
+  eventsDetail: รายละเอียดกิจกรรม
+  freeCredit: เครดิตฟรี
+  income: สร้างรายได้
+  inviteFriends: เชิญเพื่อน
+  joinEvent: ร่วมกิจกรรม ลุ้นรางวัลมากมาย
+  joinMinigame: ใช้เพชรเล่นมินิเกม เพื่อลุ้นรับเพชรมากกว่าเดิม!
+  luckyBox: กล่องหรรษา
+  luckyBoxDiamond: เปิดหีบหรรษา
+  luckyWheel: กงล้อลุ้นโชค
+  minigame: มินิเกม
+  mission: ภารกิจ
+  monthlyMission: ภารกิจรายเดือน
+  notActive: กิจกรรมยังไม่เปิดให้ใช้งาน
+  points: สะสมแต้ม
+  questionResearch: ชุดคำถาม
+  randomPrize: สุ่มรางวัล
+  rank: ''
+  rated: จัดอันดับ
+  referral: ชวนเพื่อนรับโบนัส
+  regularDeposit: ''
+  reward: รางวัล
+  shareFacebook: เเชร์เฟสบุ๊ค
+  specialCommission: คอมมิชชั่นพิเศษ
+  tier: ''
+  title: ''
+  titleevents: ร่วมกิจกรรม ลุ้นรางวัลมากมาย
+  titlestore: ใช้เพชรแลกสิทธิ์เล่นกิจกรรมที่นี่
+  treasureBox: ''
+  updatePhone: อัพเดตเบอร์
+  weeklyMission: ''
+  wheelTurnOver: กงล้อลุ้นโชคเทิร์นโอเวอร์
+  winPrizes: ลุ้นรับรางวัล
+exchangeCredit:
+  available: ''
+  creditFreeNoEnough: เครดิตฟรีของคุณไม่เพียงพอ
+  description: ''
+  exchange: ''
+  exchangeCreditFree: โอนเครดิตฟรีเข้าเกม
+  exchangeFreeCreditMinimum: โอนเครดิตฟรีขั้นต่ำ {minimum} บาท
+  exchangeUnlimitedWithdrawal: อั้นถอน {minimum} {currency}
+  goMoney: 'ไปยัง: ยอดเงิน'
+  history: ''
+  makeTurnCasino: ทำเทิร์นคาสิโน {turn} เทิร์น
+  makeTurnSlot: ทำเทิร์นสล็อต {turn} เทิร์น
+  maximum: ''
+  minimum: ''
+  plsCreditMinimum: กรุณากรอกเครดิตขั้นต่ำอย่างน้อย {minimum} เครดิต
+  plsInputCredit: กรุณากรอกเครดิต
+  rate: อัตราแลกเปลี่ยน
+  specifyAmount: ระบุจำนวนเครดิต
+  systemClosedMaintenance: ระบบเครดิตฟรีกำลังปิดปรับปรุง ขออภัยสำหรับความไม่สะดวกมา ณ ที่นี้
+  title: ''
+  tranferCredit: 'โอน: เครดิตฟรี'
+favGames:
+  deletefavGames: ลบเกมโปรดสำเร็จ
+  empty: ''
+  failedfavGame: เพิ่มเกมโปรดไม่สำเร็จ
+  successfavGames: เพิ่มเกมโปรดสำเร็จ
+  title: ''
+footer:
+  events: กิจกรรม
+  home: หน้าหลัก
+  noti: แจ้งเตือน
+  promotion: โปรโมชั่น
+  withdraw: ฝาก/ถอน
+forgame: ''
+freeCredit:
+  checkReceivedFour: สามารถรับเครดิตฟรีได้หลังเวลา 04.00 น. เป็นต้นไป
+  checkReceivedOne: สามารถรับเครดิตฟรีได้หลังเวลา 01.00 น. เป็นต้นไป
+  checkReceivedThree: สามารถรับเครดิตฟรีได้หลังเวลา 03.00 น. เป็นต้นไป
+  earnedCredit: เครดิตที่ได้รับ
+  easyWayCreditFree: วิธีรับเครดิตฟรี {number} เครดิตง่ายๆ
+  easyWayDiamond: วิธีรับเพชร {number} เพชรง่ายๆ
+  easyWayMoney: วิธีรับเงิน {number} บาทง่ายๆ
+  end: สิ้นสุด
+  getFreeCredit: รับเครดิตฟรี
+  luckyWheel:
+    additionalConditions: ''
+    goTopup: ''
+    goTurn: ''
+    haveLoss: ''
+    haveLossNew: ''
+    haveMinimum: ''
+    haveReceived: ''
+    noRightSpin: ''
+    noSpinning: ''
+    noSpinningRight: ''
+    remarks: ''
+    seeAdditionalConditions: ''
+    spinWheel: ''
+    spinsLeft: ''
+    topUpMinimum: ''
+    turn: ''
+    wheelTurnOver: ''
+    winBigPrizes: ''
+    youHave: ''
+  makeTurnClaim: '-ทำเทิร์นสล็อต {slotturn} เท่า และทำเทิร์นคาสิโน {casinoturn} เท่า'
+  round: รอบที่ {number}
+  start: เริ่ม
+  topUpMinimum: ฝากขั้นต่ำ {minimum} บาท รับเครดิตฟรีทันที
+  topUpNoPromotion: ฝากแบบไม่รับโปรโมชั่น และฝากขั้นต่ำ {minimum} บาท รับเครดิตฟรีทันที
+  topUpPromotion: ฝากแบบรับโปรโมชั่น และฝากขั้นต่ำ {minimum} บาท รับเครดิตฟรีทันที
+  wantFreeCredit: คุณต้องการรับเครดิตฟรี
+  whenTopupRecevedCredit: เมื่อเติมเงินครบ กดรับเครดิตฟรีได้เลย
+  whenTopupRecevedDiamond: เมื่อเติมเงินครบ กดรับเพชรได้เลย
+  whenTopupRecevedMoney: เมื่อเติมเงินครบ กดรับเงินได้เลย
+  whenWitdthCredit: เมื่อทำเทิร์นครบ สามารถถอนเครดิตฟรีได้เลย
+  whenWitdthDiamond: เมื่อทำเทิร์นครบ สามารถถอนเพชรได้เลย
+  whenWitdthMoney: เมื่อทำเทิร์นครบ สามารถถอนเงินได้เลย
+  quickAccessCredit: สามารถรับรางวัลได้ที่นี่
+freeSpin:
+  description: ''
+  forGame: ''
+  giftbox: กล่องของขวัญ
+  noNoti: ไม่พบการแจ้งเตือน
+  nogiftBox: คุณยังไม่มีของขวัญ
+  noti: แจ้งเตือน
+  title: ฟรีสปิน
+freespin: ฟรีสปิน
+from: 'จาก '
+gamehits: เกมฮิตมาแรง!
+incomDetail: ข้อมูลรายได้
+inviteFriends:
+  bonusFriends: โบนัสที่ได้รับจากการชวนเพื่อน
+  friendAll: เพื่อนที่ชวนทั้งหมด
+  newUsersOnly: จากการใช้งานของผู้ใช้ใหม่เท่านั้น
+  receiveBonus: คุณจะได้รับโบนัส
+  referralLink: ลิงก์ชวนเพื่อน
+  unlimitedFriends: เชิญเพื่อนได้ไม่จำกัด!
+isGameType:
+  all: ทั้งหมด
+  arcade: อาร์เคด
+  cashback: คืนยอดเสีย
+  casino: คาสิโน
+  gameType0: ลูกค้าไม่สามารถเข้าเล่นคาสิโนออนไลน์ เกมต่อสู้ กีฬา หวย เกมแครช และเกมคริปโตได้ หากต้องการเล่น กรุณาปิดรับโปรโมชั่น และทำเทิร์นให้ครบเงื่อนไข
+  gameType1: ลูกค้าไม่สามารถเข้าเล่นคาสิโนออนไลน์  คริปโต ต่อสู้ เกมแครช หากต้องการเล่น กรุณาปิดรับโปรโมชั่น และทำเทิร์นให้ครบเงื่อนไข
+  gameType2: ลูกค้าไม่สามารถเข้าเล่น หมวดสล็อต ยิงปลา อาร์เคด เกมส์โต๊ะ กรุณาปิดรับโปรโมชั่น และทำเทิร์นให้ครบเงื่อนไข
+  lotto: ''
+  luckyWheel: กงล้อลุ้นโชค
+  slot: สล็อต
+  sport: Sport
+key: เกมที่เล่นล่าสุด
+lastgame: เกมที่เล่นล่าสุด
+lobby:
+  allGames: เกมทั้งหมด
+  gameCategory: หมวดหมู่เกม
+  new: มาใหม่
+  noGamesFound: ''
+  notGame: ไม่พบเกมที่ค้นหา
+  searchGames: ค้นหาเกม
+  noEventsNow: ยังไม่มีกิจกรรมในตอนนี้
+  recommendedEvents: กิจกรรมที่แนะนำ
+  gameCategoriesList: สล็อต, คาสิโน, กีฬา, เกมโต๊ะ, อาร์เคด, ต่อสู้, ฯลฯ
+  typeAtLeastThreeChars: พิมพ์อย่างน้อย 3 ตัวอักษร
+  foundGamesCount: 'พบ {count} เกม'
+loginPage:
+  byLoggingIn: การเข้าสู่ระบบถือว่าคุณยอมรับ
+  enterYourUsername: กรอกชื่อผู้ใช้ หรือ เบอร์โทรศัพท์
+  exclusiveBonus: โบนัสพิเศษ
+  exclusiveBonusDesc: รับโปรโมชั่นและรางวัลพิเศษมากมาย
+  forgotPassword: ลืมรหัสผ่าน
+  login: เข้าสู่ระบบ
+  loginToYourAccount: เข้าสู่ระบบเพื่อเริ่มเล่นเกม
+  or: หรือ
+  passwordOrPin: รหัสผ่าน / PIN
+  plsInputLeastFour: กรุณากรอกอย่างน้อย 4 ตัวอักษร
+  plsInputLeastTen: กรุณากรอกอย่างน้อย 10 ตัวอักษร
+  privacyPolicy: นโยบายความเป็นส่วนตัว
+  rememberMe: จำฉันไว้
+  secureGaming: ความปลอดภัยสูงสุด
+  secureGamingDesc: ข้อมูลและธุรกรรมของคุณได้รับการปกป้องด้วยการเข้ารหัสขั้นสูง
+  subscribtion: สมัครสมาชิก
+  support247: บริการตลอด 24 ชั่วโมง
+  support247Desc: ทีมงานของเราพร้อมให้ความช่วยเหลือคุณตลอดเวลา
+  termsOfService: เงื่อนไขการใช้บริการ
+  userAccountOrTel: บัญชีผู้ใช้ หรือ เบอร์โทรศัพท์
+  welcomeToSlotGames: ยินดีต้อนรับสู่เกมสล็อต
+luckyWheel:
+  additionalConditions: เงื่อนไขเพิ่มเติม
+  goTopup: เติมเงินเลย!
+  goTurn: ไปทำเทิร์น
+  haveLoss: มียอดเสียตั้งแต่ {minimum} บาทขึ้นไป รับสิทธิ์ 1 ครั้ง/วัน
+  haveLossNew: มียอดเสียตั้งแต่ {minimum} บาทขึ้นไป สามารถหมุนกงล้อได้เลย 1 ครั้งต่อวัน
+  haveMinimum: มียอดเติมเงินตั้งแต่ {minimum} {currency} ขึ้นไป รับสิทธิ์ 1 ครั้ง/วัน
+  haveReceived: คุณได้รับ {reward}
+  noRightSpin: คุณยังไม่มีสิทธิ์หมุน
+  noSpinning: คุณไม่มีสิทธิ์หมุนในตอนนี้
+  noSpinningRight: คุณใช้สิทธิ์หมุนหมดแล้ว
+  remarks: หมายเหตุ
+  seeAdditionalConditions: ดูเงื่อนไขเพิ่มเติม
+  spinWheel: หมุนกงล้อหรรษา
+  spinsLeft: สิทธิ์
+  topUpMinimum: เติมเงินขั้นต่ำ {minimum} แต่ไม่เกิน {maximum} บาท รับสิทธิ์ {value} ครั้ง
+  turn: หมุน
+  wheelTurnOver: กงล้อลุ้นโชคเทิร์นโอเวอร์
+  winBigPrizes: ลุ้นรับรางวัลใหญ่ และเครดิตฟรีอีกมากมาย!
+  youHave: คุณเหลือสิทธิ์หมุน
+manageBankAccount:
+  addAccount: เพิ่มบัญชี
+  addAccountBank: เพิ่มบัญชีธนาคาร
+  addAccountBankDesc: กรุณาเลือกธนาคารและกรอกเลขบัญชี
+  changePrimaryAccount: เปลี่ยนบัญชีหลัก
+  changePrimaryAccountDesc: คุณสามารถเปลี่ยนบัญชีหลักได้เพียงครั้งเดียว
+  changedSuccessfullyPrimaryAccount: เปลี่ยนบัญชีหลักเรียบร้อย
+  dafaultAccount: บัญชีหลัก
+  manageAccount: จัดการบัญชี
+  notHaveAccount: ยังไม่มีบัญชี
+  waitingVerification: รอตรวจสอบ
+migrate:
+  complete: ''
+  description: ''
+  popup1: ยกเลิกการอัปเดตข้อมูล
+  popup2: คุณต้องการยกเลิกการอัปเดตข้อมูลใช่หรือไม่
+  popup3: ยกเลิกการอัพเดทข้อมูลแล้ว
+  popup4: ยินดีต้อนรับ!
+  popup5: อัปเดตข้อมูลให้เราสักหน่อยนะ
+  start: ''
+  title: ''
+minimum: ขั้นต่ำ {0} บาท
+mission:
+  accumulate: สะสม
+  awardAllLogin: รับ {reward} {typeReward} ทุกวันที่ล็อกอิน!
+  awardHistory: ประวัติการรับรางวัล
+  claim: ''
+  collectorModeOnly: ภารกิจในโหมดสะสมจะมีสิทธิ์รับรางวัลได้เพียงครั้งเดียว
+  complete: ''
+  completed: ''
+  daily: ''
+  description: ''
+  duration: 'ระยะเวลา: ไม่จำกัด'
+  everyday: ประจำวัน
+  fri: ศ.
+  getRewarded: รับรางวัล
+  go: ไป
+  inProgress: ''
+  loginCalendar: ปฏิทินการล็อกอิน
+  missionList: รายการภารกิจ
+  missionsEnd: ภารกิจทั้งหมดจะสิ้นสุดใน
+  mon: จ.
+  monthly: ''
+  progress: ''
+  received: รับแล้ว
+  reward: ''
+  sat: ส.
+  seasonMissions: ภารกิจประจำฤดูกาลมีผลตั้งแต่
+  seasonal: ประจำฤดูกาล
+  soon: ขณะนี้ไม่มีภารกิจ โปรดติดตามเร็วๆนี้
+  special: ''
+  sun: อา.
+  thu: พฤ.
+  title: ''
+  tue: อ.
+  wed: พ.
+  weekly: ''
+  detailModalType: รับสิทธิ์สุ่มรางวัลทันทีเมื่อล็อกอิน!
+  getRewardPromotion: เติมเงินรับโปรโมชั่น
+  getRewardNoPromotion: เติมเงินไม่รับโปรโมชั่น
+month:
+  april: เมษายน
+  august: สิงหาคม
+  december: ธันวาคม
+  february: กุมภาพันธ์
+  january: มกราคม
+  july: กรกฎาคม
+  june: มิถุนายน
+  march: มีนาคม
+  may: พฤษภาคม
+  november: พฤศจิกายน
+  october: ตุลาคม
+  september: กันยายน
+notRewardList: ''
+nvalidPrizeType: ''
+onePayment:
+  description: ฝากเงินผ่านธนาคารแบบเร็วพิเศษ
+  recommend: แนะนำ
+  title: ฝากเงินอัตโนมัติ (ด่วน)
+  oneBanks: ธนาคารอัตโนมัติ
+oneThingMustBeDone: ''
+p2p:
+  description: ''
+  receive: ''
+  send: ''
+  tab1: ชำระผ่านเว็บไซต์
+  tab2: ชำระผ่าน QR Code
+  title: ''
+pages:
+  '404':
+    title: ลงทะเบียน
+  promotion:
+    all: ทั้งหมด
+    casino: คาสิโน
+    lotto: หวย
+    other: อื่นๆ
+    slot: สล็อต
+    sport: กีฬา
+  tier:
+    credit: เครดิต
+    diamonds: เพชร
+    freeCredit: ฟรีเครดิต
+    permissionToOpenTheBox: สิทธิ์เปิดกล่อง
+    permissionToSpinTheWheel: สิทธิ์หมุนกงล้อ
+    point_rewards: แต้ม
+personalInformation:
+  accountLine: ผูกบัญชีกับไลน์
+  accountName: ชื่อบัญชี
+  accountNotYet: ยังไม่ได้ผูกบัญชี
+  accountNumber: เลขบัญชี
+  address: ที่อยู่
+  bankAccount: บัญชีธนาคาร
+  birthday: วันเกิด
+  birthdayRegistration: ลงทะเบียนวันเกิด
+  changePIN: เปลี่ยน PIN
+  changePassword: เปลี่ยนรหัสผ่าน
+  changePasswordGame: เปลี่ยนรหัสผ่านเข้าเกม
+  chkPasswordSix: รหัสผ่านต้องมีตั้งแต่ 6-12 ตัว
+  city: เมือง
+  country: ประเทศ
+  dateOfBirth: วันเกิด
+  email: อีเมล์
+  female: ''
+  gameCode: รหัสเข้าเกม
+  gender: ''
+  haveLangue: มีภาษาอังกฤษ พิมพ์เล็ก พิมพ์ใหญ่ เช่น Abc123
+  inviteFriends: ชวนเพื่อนรับโบนัส
+  male: ''
+  name: ''
+  noHaveFriend: ไม่พบชวนเพื่อน
+  notYetRegistered: ยังไม่ได้ลงทะเบียน
+  other: ''
+  personalInformation: ข้อมูลส่วนตัว
+  phone: ''
+  pinCode: รหัส PIN
+  plsConfrimPasswordNew: กรุณายืนยันรหัสผ่านใหม่
+  plsNewPassword: กรุณากรอกรหัสผ่านใหม่
+  plsNewPasswordAndSave: กรุณากรอกรหัสผ่านใหม่และกดบันทึก
+  postalCode: ''
+  preferNotToSay: ''
+  pressSave: กรุณากรอก PIN เก่าและ PIN ใหม่
+  profile: โปรไฟล์
+  referralCode: รหัสชวนเพื่อน
+  referralLink: ลิงก์ชวนเพื่อน
+  seeProfile: ดูโปรไฟล์
+  shareEarn: แชร์รับรายได้
+  state: จังหวัด
+  title: ''
+  twoFactorAuthentication: ''
+  update: ''
+  userGame: ยูสเซอร์เข้าเกม
+pls-enter-true-wallet: กรุณากรอกเบอร์โทรศัพท์ที่ผูกกับ True Wallet
+plsUploadSlipviaQR: กรุณาอัพโหลดสลิปที่มี QR Code เท่านั้น มิเช่นนั้นยอดจะไม่เข้าระบบ
+promotion:
+  supportedChannels: ช่องทางเติมเงินที่รองรับ
+  supportedPromotions: โปรโมชั่นที่รองรับ
+  accountSupportsPromotion: บัญชีนี้รองรับโปรโมชั่น
+  acceptedpro: รับโปรโมชั่นนี้แล้ว
+  allPromotionsCasino: โปรโมชั่นทั้งหมดของเกมคาสิโน
+  allPromotionsSlot: โปรโมชั่นทั้งหมดของเกมสล็อต
+  automatically: อัตโนมัติ
+  automaticallyReceivePromotions: รับโปรโมชั่นอัตโนมัติเฉพาะกลุ่ม
+  buttonOpen: กดปุ่มเปิดรับโปร
+  canNotReceiveNow: ไม่สามารถรับโปรได้ในขณะนี้
+  cannotplayCasino: ไม่สามารถไปนำเล่นคาสิโนได้
+  casino: คาสิโน
+  change: เปลี่ยน
+  myPromotions: โปรโมชั่นของฉัน
+  promotionStatus: สถานะโปรโมชั่น
+  receiveAutomaticPromotions: รับโปรโมชั่นอัตโนมัติ
+  notReceivingPromotions: ไม่รับโปรโมชั่น
+  automaticPromotionInfo: ข้อมูลโปรโมชั่นอัตโนมัติ
+  promotionName: ชื่อโปรโมชั่น
+  requiredAmount: จำนวนที่ต้องการ
+  viewMore: ดูเพิ่มเติม
+  complete: เสร็จสิ้น
+  promotionDetails: รายละเอียดโปรโมชั่น
+  promotionType: ประเภทโปรโมชั่น
+  requirements: ข้อกำหนด
+  bonusAmount: จำนวนโบนัส
+  defaultRequirements: ข้อกำหนดเริ่มต้น
+  noActivePromotion: ไม่มีโปรโมชั่นที่ใช้งาน
+  selectPromotion: เลือกโปรโมชั่น
+  wantToReceivePromotions: ต้องการรับโปรโมชั่น
+  enablePromotions: เปิดใช้งานโปรโมชั่น
+  updating: กำลังอัปเดต
+  promotionsDisabled: ปิดใช้งานโปรโมชั่น
+  promotionsEnabled: เปิดใช้งานโปรโมชั่น
+  toggleError: ข้อผิดพลาดการสลับ
+  depositBonus: โบนัสฝากเงิน
+  cashback: คืนเงิน
+  freeCredit: เครดิตฟรี
+  changePromotion: ยอดเงินคงเหลือต้องน้อยกว่าหรือเท่ากับ {credit} {currency} จึงจะสามารถเปลี่ยนสถานะโปรโมชั่นได้
+  chooseGroupLike: เลือกกลุ่มที่คุณชอบ
+  chossesPromotion: เลือกโปรโมชั่นนี้อยู่
+  closePromotion: ปิดรับโปรโมชั่น
+  conditions: เงื่อนไข
+  details: รายละเอียด
+  doNotNotify: ไม่แจ้งเตือนอีก
+  getPromotion: รับโปรโมชั่น
+  getPromotionsAutomatically: รับโปรโมชั่นอัตโนมัติ
+  getPromotionsManually: รับโปรโมชั่นด้วยตนเอง
+  getThisPromotion: รับโปรนี้
+  noPromotionReceived: ไม่รับโปรโมชั่น
+  noTurnRequired: ไม่ต้องทำเทิร์น ถอนเงินได้ทุกยอด
+  notAccept: การไม่รับโปรโมชั่น
+  notFoundPromotion: ไม่พบข้อมูลโปรโมชั่น
+  outOfBusiness: ขออภัยอยู่นอกช่วงเวลา
+  outOfBusinessCannot: ไม่สามารถรับโปรโมชั่นได้
+  promotion: โปรโมชั่น
+  promotionAuto: โปรโมชั่นเติมอัตโนมัติ
+  promotionCurrChoose: โปรโมชั่นปัจจุบันที่คุณเลือก
+  receiveAutomaticCasino: รับโปรโมชั่นเกมคาสิโน อัตโนมัติ
+  receiveAutomaticSlot: รับโปรโมชั่นเกมสล็อต อัตโนมัติ
+  receiveGroupPromotion: รับโปรโมชั่นกลุ่ม
+  receiveProGameAuto: รับโปร เกม {game} อัตโนมัติ
+  receivePromotion: รับโปรโมชั่นนี้อยู่
+  seeProSlotAll: ดูโปรโมชั่นสล็อตทั้งหมด
+  selectReceivePromotion: เลือกรับโปรโมชั่นด้วยตนเอง
+  slideButton: เลื่อนปุ่มเพื่อรับโปรโมชั่น
+  slot: สล็อต
+  specialPromotion: โปรโมชั่นพิเศษ
+  systemMatchPromotions: เมื่อเลือกรับโปรโมชั่นกลุ่มใดกลุ่มหนึ่งแล้ว เมื่อท่านเติมเงินระบบจะจับคู่โปรโมชั่นในหมวด ที่ท่านเลือกโดยอัตโนมัติ
+  topUpSystemAutomaticallyMatch: เมื่อเติมเงิน ระบบจะจับคู่โปรโมชั่นโดยอัตโนมัติ
+  turnOff: ปิด
+  turnOn: เปิด
+  unableActivities: ไม่สามารถร่วมกิจกรรม เช่น สะสมแต้ม ขาประจำ
+  viewAllCasino: ดูโปรโมชั่นคาสิโนทั้งหมด
+  warning: แจ้งเตือน
+  youAcceptingPromotion: คุณรับโปรนี้อยู่
+  youReceviceProAnother: ท่านรับโปรโมชั่นอื่นแล้ว
+  youWantReceive: คุณต้องการรับ
+  youWantReceivePromotions: คุณต้องการรับโปรโมชั่น
+qrCodeBank: ฝากเงินผ่าน (QR Code)
+randomPrize:
+  earn: ได้รับ {reward}
+  justPlayGame: เพียงเล่นเกมใดก็ได้อย่างต่อเนื่อง ก็มีโอกาสได้รับสิทธิ์สุ่มรางวัลสูงสุดถึง {number} {type}
+  max: สูงสุด {number}
+  minimum: ต่ำสุด {number}
+  noHaveRandomHistory: ไม่มีประวัติการสุ่มรางวัล
+  randomFreePrizes: สุ่มรางวัลฟรี
+  randomHistory: ประวัติการสุ่มรางวัล
+  randomPrize: สุ่มรางวัล
+rank:
+  cash: เงินสด
+  mostPlayer: สุดยอดนักเติม
+  remarks: หมายเหตุ
+  reward: รางวัล
+  roundResult: ผลรอบวันที่
+  sortedAmount: เรียงจากยอดเงินที่เติมเข้าระบบ
+  things: สิ่งของ
+  topRankedPlayer: จัดอันดับสุดยอดนักเติม
+ranking:
+  things: สิ่งของ
+  title: ''
+referral:
+  InviteFriendsBonuses: ชวนเพื่อนรับโบนัส
+  InviteFriendsDesc1: เมื่อเพื่อนสมัคร เติมเงินและรับโปรโมชั่น คุณจะได้รับเครดิต {value}%
+  InviteFriendsDesc2: เมื่อเพื่อนสมัครและเติมเงิน คุณจะได้รับเครดิต {value}%
+  InviteFriendsDesc3: จากการเติมเงินครั้งแรกของเพื่อน ขั้นต่ำ {minimum} บาท
+  InviteFriendsDesc4: สูงสุด {limit} เครดิต
+  InviteFriendsDesc5: รายได้จะเข้ากระเป๋าเครดิตทันที
+  YouReferralLink: ลิงก์ชวนเพื่อน
+  commissionEarned: ค่าคอมที่ได้รับ
+  copy: ''
+  copyLink: คัดลอกลิงก์
+  currentIncome: รายได้ปัจจุบัน
+  description: ''
+  friendInviteHistory: ประวัติชวนเพื่อน
+  inviteFriendsDesc3: ''
+  inviteFriendsDesc4: ''
+  inviteFriendsDesc5: ''
+  inviteFriendsStepsOne: คัดลอกลิงก์
+  inviteFriendsStepsThree: เพื่อนเติมครั้งแรกรับเครดิตทันที!
+  inviteFriendsStepsTwo: รอเพื่อนสมัครสมาชิก
+  inviteFriendsToRarn: ชวนเพื่อนรับรายได้
+  link: ''
+  received: ได้รับแล้ว
+  receivedHistory: ประวัติการกดรับ
+  rewards: ''
+  share: ''
+  shareYouReferralLink: ลิงก์ชวนเพื่อน
+  terms: ''
+  title: ''
+  totalFriends: เพื่อนทั้งหมด
+register:
+  acceptTermsConditions: ฉันยอมรับเงื่อนไขและข้อตกลงทั้งหมด
+  accountSuccessfully: สร้างบัญชีสำเร็จแล้ว!
+  bank: ธนาคาร
+  bankAccountNumber: เลขบัญชีธนาคาร
+  birthday: วันเกิด
+  birthdayOptional: วันเกิด (ไม่บังคับ)
+  choose: เลือก
+  conditionsFive: 5) สมาชิก 1 คน ต่อ 1 ไอดีเท่านั้น กรณีตรวจพบว่ามีการสมัครหลายไอดีทางเราจะสงวนสิทธิ์การถอนทุกกรณี
+  conditionsFour: 4) ถ้าเกิดข้อผิดพลาดของระบบ ให้ทำการแจ้งพนักงานทันที กรณีที่ไม่แจ้งทางเราขอสงวนสิทธิ์การถอนเงินทุกกรณี
+  conditionsOne: 1) เบอร์โทรศัพท์ที่ใช้ต้องสามารถรับข้อความได้ เพราะระบบจำเป็นต้องส่งรหัสยืนยันไปยังเบอร์โทรศัพท์ของท่าน มิเช่นนั้นจะไม่สามารถทำรายการต่างๆได้
+  conditionsRegister: เงื่อนไขและข้อตกลงในการสมัคร
+  conditionsThree: 3) ต้องใช้บัญชีที่สมัครฝากเงินเข้ามาเท่านั้น
+  conditionsTwo: 2) ชื่อ - นามสกุล จะต้องตรงกับชื่อบัญชี มิเช่นนั้นจะไม่สามารถถอนเงินได้
+  confirmOTP: ยืนยันรหัส OTP
+  enterAccountNumberMatch: กรอกเลขบัญชีให้ตรงกับชื่อผู้สมัคร
+  enterRecommendedFriend: ใส่รหัสเพื่อนที่แนะนำ เพื่อรับเครดิตฟรี
+  fillIn: กรอกข้อมูล
+  fillInLastName: กรอกนามสกุล
+  fillInName: กรอกชื่อ
+  fillPhone: กรอกเบอร์โทรศัพท์
+  fillPhoneFight: กรอกเบอร์โทร์ศัพท์ให้ถูกต้อง ({number} หลัก)
+  fillPhoneGetOTP: กรุณากรอกเบอร์โทรศัพท์เพื่อรับรหัสยืนยัน OTP
+  friendRecommended: เพื่อนแนะนำ
+  getOTP: ขอ OTP
+  knowUs: รู้จักเราจากที่ไหน?
+  lastStep: ขั้นตอนสุดท้ายแล้ว!
+  lineOptional: ไอดีไลน์ (ถ้ามี)
+  loginNow: เข้าสู่ระบบทันที
+  middlename: ชื่อกลาง
+  miss: นางสาว
+  mr: นาย
+  mrs: นาง
+  name: ชื่อ
+  or: หรือ
+  password: รหัสผ่าน
+  pinCode: 'รหัส PIN '
+  pinCodeNotMatch: รหัส PIN ไม่ตรงกัน
+  pleaseEnterSixDigit: กรุณากรอกหมายเลขรหัส 6 หลักที่คุณได้รับ
+  pleaseFilInformation: กรุณากรอกข้อมูลของคุณเพื่อสมัครสมาชิก
+  pleaseRemember: กรุณาจดจำหรือบันทึกหน้าจอของคุณไว้
+  pleaseSelectChannel: กรุณาเลือกช่องทาง
+  pleaseSetPin: กรุณาตั้งรหัส PIN 4 หลัก เพื่อใช้เข้าสู่ระบบ
+  plsClickRecaptcha: ยืนยัน reCAPTCHA เพื่อความปลอดภัย
+  plsEnterLeast: กรุณากรอกข้อมูลอย่างน้อย
+  plsInputInforLeast: กรุณากรอกข้อมูลกรอกตัวเลขไม่เกิน {max} ตัวอักษร
+  plsInputInforNine: กรุณากรอกข้อมูลกรอกตัวเลขน้อย 9 ตัวอักษร
+  plsInputInforTen: กรุณากรอกข้อมูลตัวเลขอย่างน้อย {min} หลัก
+  plsInputName: กรอกข้อมูลชื่ออย่างน้อย 2 อักษรตัวขึ้นไป
+  plsInputNumber: กรุณากรอกข้อมูลตัวเลข
+  plsInputPhoneComplate: กรุณากรอกเบอร์โทรให้ครบ
+  plsInputPhoneReciveOtp: กรุณากรอกเบอร์ที่ใช้สมัครเพื่อรับรหัสยืนยัน OTP
+  plsInputSureName: กรอกข้อมูลนามสกุลอย่างน้อย 2 อักษรตัวขึ้นไป
+  plsLineInput: กรุณากรอกไอดีไลน์
+  prefixName: คำนำหน้าชื่อ
+  qrcode: รหัสจาก QR code
+  record: บันทึก
+  referralCode: รหัสเพื่อนที่แนะนำ (ถ้ามี)
+  resendCode: ส่งรหัสอีกครั้ง
+  resendCodeTime: ส่งรหัสอีกครั้งใน
+  scanBank: พร้อมเพย์
+  setPinCode: ตั้งรหัส PIN
+  surname: นามสกุล
+  telephoneNumber: เบอร์โทรศัพท์
+  userAccount: บัญชีผู้ใช้ (Username)
+  validateAllFields: กรุณากรอกข้อมูลให้ถูกต้อง
+registermethod: กรุณาเลือกวิธีการสมัคร
+regularDeposit:
+  a2zCheckPayment: ยืนยันการเติมเงิน
+  a2zPending: ยืนยันการเติมเงิน
+  a2zPrompt1: เมื่อทำการโอน กรุณากดยืนยันเพียง "ครั้งเดียว"
+  a2zPrompt2: กรุณาไม่บันทึกบัญชีธนาคารนี้
+  accumulateConsecutiveDay: ฝากสะสมตามจำนวนเงินที่ท่านเลือกต่อเนื่องกันให้ครบตามจำนวนวันที่กำหนดทุกวันติดต่อกัน
+  appeaseFillingLine: เอาใจสายเติม! สะสมวันฝากเพื่อรับรางวัล
+  cause: กรุณาคัดลอกเลขบัญชี เพื่อให้ท่านโอนเข้ามา
+  cause1: กรุณาคัดลอกเลขบัญชี เพื่อให้ท่านโอนเข้ามา คุณต้องโอนให้ตรงตามจำนวนที่ระบบแสดง เท่านั้น
+  chooseDays: เลือกจำนวนวัน
+  condition: เงื่อนไข
+  countWillStart: หากฝากไม่ต่อเนื่องจะเริ่มต้นนับใหม่
+  dailyTopUp: ฝากประจำ
+  date: วันที่ {date}
+  day: '{day} วัน'
+  deposit: ฝากเงิน
+  depositAccordingRedeemBonus: ฝากสะสมตามจำนวนเงินที่ท่านเลือกต่อเนื่องกัน เมื่อฝากครบ จำนวนวันที่กำหนดแลกโบนัสได้ทันที
+  depositAccumulatedAccording: ฝากสะสมครบตามจำนวนวันที่กำหนด
+  depositAmount: ยอดฝาก
+  depositComplete: ฝากครบ
+  depositGetUnlimited: เพียงฝากประจำก็ได้รับเครดิตฟรีแบบไม่จำกัด!
+  depositNotConsecutive: หากฝากไม่ติดต่อกันระบบจะเริ่มนับวันฝากใหม่
+  details: รายละเอียด
+  dialog: กรุณา โอนเงินพร้อมทศนิยม ตามที่ระบบแสดงให้เท่านั้น มิเช่นนั้นเงินจะไม่เข้าอัตโนมัติ
+  earn: รับ {reward}
+  fixedDeposit: ฝากประจำฟิกยอด
+  fixedDepositDetails: รายละเอียดการฝากประจำ
+  getCredit: ได้รับเครดิต
+  getRewarded: รับรางวัล
+  highestAward: รางวัลสูงสุดที่ได้รับ
+  justPlayGames: เพียงเล่นเกมสล็อตให้ถึงยอดที่กำหนด ก็ได้รับเครดิตฟรีแบบไม่จำกัด!
+  keepDepositing: ฝากต่อเนื่องเพื่อรับโบนัสที่ต้องการ
+  makeTurnClaim: ต้องทำเทิร์นคาสิโน {casinoturn} เท่าและเทิร์นสล็อต {slotturn} เท่าจึงจะสามารถรับโบนัสได้
+  note: หมายเหตุ
+  numberOfDays: จำนวนวัน
+  outOfTime: หมดเวลาแล้ว
+  outOfTimePayment: หมดเวลาในการชำระเงิน
+  playSlotGames: เล่นเกมสล็อตให้ถึง
+  receiveFixedDeposit: คุณต้องการรับรางวัลจากการฝากประจำ
+  received: รับ
+  receivedBonus: โบนัสที่ได้รับ
+  receivedCredit: ได้รับเครดิต
+  receivedCreditFree: ได้รับเครดิตฟรี
+  receivedDiamond: ได้รับเพชร
+  redeemBonus: แลกโบนัสได้ทันที
+  specifiedDays: จำนวนวันที่กำหนด
+  startAccumulatingAgain: เมื่อกดรับรางวัลนี้แล้วรางวัลจะเริ่มสะสมใหม่
+  when: เมื่อ
+  whenReceivingBonus: เมื่อกดรับโบนัสแล้วจะถือว่าเป็นการสิ้นสุดการฝาก และสามารถเริ่มฝากรับโบนัสใหม่ได้ในวันถัดไป
+  whenReceivingTransferredCredit: เมื่อรับโบนัสแล้ว สามารถเริ่มทำการฝากประจำได้ใหม่ (รับได้ไม่จำกัดจำนวนครั้ง)และโบนัสนี้จะถูกโอนไปยัง กระเป๋าเครดิต
+selectBankAndnumber: '"เลือกบัญชีธนาคารและกรอกจำนวนเงิน"'
+selectMethod: เลือกช่องทางการฝาก
+serviceSurvey:
+  adminRating: ให้คะแนนแอดมิน
+  chooseWantTel: เลือกเรื่องที่ต้องการบอกเรา
+  fair: พอใช้
+  good: ดี
+  improveService: เราจะนำไปพัฒนาการบริการให้ดียิ่งขึ้น
+  low: ปรับปรุง
+  moderate: ปานกลาง
+  selectAdmin: กรุณาเลือกแอดมิน
+  selectAdminEvaluating: กรุณาเลือกแอดมินก่อนทำการประเมิน
+  sorryOpen: ขออภัยค่ะ ยังไม่เปิดให้ประเมินผู้ดูแลระบบ
+  suggestion: ข้อเสนอแนะ
+  telMeExperience: เล่าความคิดเห็น หรือข้อเสนอแนะให้เราฟัง
+  thanksSuggestion: ขอบคุณสำหรับข้อเสนอแนะ
+  veryGood: ดีมาก
+shareFacebook:
+  referralLink: ลิงก์อ้างอิง
+  shareLinks: แชร์ลิงก์ไปยังโซเชียลมิเดียของคุณ พร้อมอัปโหลดรูปรับเครดิตฟรีทันที!
+  socialShare: แชร์โซเชียล
+  uploadPictures: อัพโหลดรูปภาพที่นี่
+showTurnPromotion:
+  makeAnotherTurn: ต้องทำยอดเทิร์นอีก
+  makeTurnCanWithdrawn: คุณต้องทำเทิร์นให้ได้ "มากกว่า" หรือ "เท่ากับ" {text} {money} จึงจะสามารถถอนได้
+  noTurnover: ไม่ต้องทำเทิร์น
+  promotionName: ชื่อโปรโมชั่น
+  turnMustMade: ยอดเทิร์นที่ต้องทำ
+  turnoverAmount: ยอดเทิร์น
+sidebar:
+  chooseContactAdmin: เลือกช่องทางติดต่อแอดมิน
+  contactAdmin: ติดต่อแอดมิน
+  deposit: ฝาก
+  enterWebSite: เข้าสู่เว็บไซต์
+  favorites: ที่คุณชอบ
+  games: เกม
+  history: ประวัติการทำรายการ
+  home: หน้าหลัก
+  logout: ออกจากระบบ
+  profile: โปรไฟล์
+  promotions: โปรโมชั่น
+  recentlyPlayed: เล่นล่าสุด
+  seeProfile: ดูโปรไฟล์
+  settingScreen: ตั้งค่าการแสดงผล
+  settings: 'ตั้งค่า '
+  support: ''
+  wallet: กระเป๋าตัง
+  withdraw: ถอน
+slip:
+  clipCheckSlip: เมื่อทำการโอนเงินแล้ว กรุณาทำการ "อัพโหลดสลิป" ที่นี่
+  contactAdmin: หากอัพโหลดสลิปไม่ได้ กรุณาติดต่อแอดมิน
+  dragSlip: ลากไฟล์ของคุณที่นี่ หรือ คลิกเลือกรูป
+  error: ไม่สามารถใช้รูปถ่ายสลิปได้
+  errorMin: จำนวนเงินที่ต้องการเติมน้อยกว่าขั้นต่ำ
+  history: ประวัติการอัพโหลดสลิป
+  noBankType119: ขณะนี้ยังไม่เปิดให้บริการฝากเงินแบบนี้ กรุณาเลือกช่องทางอื่น
+  plsSelectBank: กรุณาเลือกธนาคาร
+  slip: สลิป
+  slipComplete: อัปโหลดสลิปสำเร็จ ระบบกำลังทำการเติมเงิน
+  slipOnly: ไฟล์สลิปเท่านั้น
+  upload: กรุณาอัพโหลด
+  uploadSlip: อัพโหลดสลิป
+slipSystem: ฝากเงินแบบอัพโหลดสลิป
+slipSystemFixAmount: ฝากเงินแบบอัพโหลดสลิป (ระบุยอดฝาก)
+specialCommission:
+  calculation: ''
+  desc1: เพียงทำเทิร์นครบตามกติกาที่กำหนด ก็รับเครดิตฟรีได้เลย!
+  description: ''
+  dialogTitle: รับคอมมิชชั่น
+  eligibility: ''
+  payment: ''
+  period: ''
+  rate: ''
+  selectType: กรุณาเลือกช่องทางรับคอมมิชชั่น
+  terms: ''
+  title: ''
+  warnText: คุณต้องการรับคอมมิชชั่นทั้งหมด
+spicificAmountTransfer: โอนเงินตามจำนวนที่แสดงโดยห้ามปัดเศษ
+status:
+  approved: อนุมัติแล้ว
+  approvedDone: อนุมัติ
+  disapproved: ไม่อนุมัติ
+  noTopup: ไม่ได้เติมเงิน
+  pending: รอดำเนินการ
+  received: รับแล้ว
+  receivedCom: ได้รับแล้ว
+teir:
+  birthdayReward: รางวัลเดือนเกิด
+  congratulations: ยินดีด้วยท่านอยู่ระดับสูงสุดแล้ว!
+  detailsVip: รายละเอียดระดับ VIP ทั้งหมด
+  earn: ได้รับ {reward} {type}
+  levelsReset: ระบบจะรีเซ็ตระดับทั้งหมดในวันที่
+  myReward: รางวัลของฉัน
+  privilege: สิทธิพิเศษระดับ
+  promotionRewards: รางวัลเลื่อนขั้น VIP
+  reward: รางวัล
+  specialPrize: รางวัลพิเศษ
+  topUp: ยอดเติม
+  turnOver: เทิร์นโอเวอร์
+  type: ประเภท
+  unlocked: ปลดล็อกสู่ระดับ
+  upgradeReward: รางวัลอัปขั้น
+tier:
+  LatestTenItems: ( 10 รายการล่าสุด )
+  all: ทั้งหมด
+  benefits: ''
+  colse: ปิด
+  condetion: เงื่อนไข
+  congratulationsHighestLevel: ยินดีด้วย! ท่านอยู่ระดับสูงสุดแล้ว
+  count: จำนวน
+  credit: เครดิต
+  creditFree: เครดิตฟรี
+  creditGame: เครดิตในเกม
+  current: เลเวลปัจจุบัน
+  deposit: ฝากเงิน
+  description: ''
+  diamond: เพชร
+  forgame: สำหรับเกม
+  freeSpin: ฟรีสปิน
+  freespin: ฟรีสปิน
+  from: จาก
+  game: เกม
+  get: ได้รับ
+  getFreeSpinsGameRewards: รับรางวัล ฟรีสปิน
+  getPanner: จากค่าย
+  getReward: ดูรางวัล
+  getRewarded: รับรางวัล
+  hasNowShowEven: ขณะนี้สิ้นสุดเวลากิจกรรมแล้ว
+  history: ประวัติ
+  item: ชิ้น
+  lastEvent: สิ้นสุดเวลากิจกรรม
+  list: รายการ
+  litsReward: รายการของรางวัล
+  makeTurn: ทำเทิร์น
+  marking: แต้ม
+  mustBeCompleted: ต้องทำให้ครบทั้งสองอย่าง
+  myReward: รางวัลของฉัน
+  next: ''
+  notHistory: ไม่พบรายการรับรางวัล
+  notReward: ไม่มีรายการรางวัล
+  notRewardList: ไม่พบรายการของรางวัล
+  nvalidPrizeType: ประเภทรางวัลไม่ถูกต้อง
+  oneThingMustBeDone: ต้องทำอย่างใดอย่างหนึ่ง
+  openBox: สิทธิ์เปิดกล่อง
+  or: หรือไม่
+  provider: ค่ายเกม
+  reward: รางวัล
+  rewardLeveUp: รางวัลอัปขั้น
+  rights: สิทธิ์
+  tierResetDate: ระบบจะรีเซ็ตระดับทั้งหมดในวันที่
+  tierVipDetail: รายละเอียดระดับ VIP ทั้งหมด
+  time: ครั้ง
+  title: ''
+  topUp: ยอดเติม
+  trunOver: เทิร์นโอเวอร์
+  type: ประเภท
+  vipDetail: รายละเอียด VIP
+  vipLevel: VIP level
+  wantToReceivePrize: ต้องการรับรางวัล
+  wheel: สิทธิ์กงล้อ
+  wheelRights: สิทธิ์เปิดกงล้อ
+  youConditionsIsChoose: สามารถเลือกทำเงื่อนไขอย่างใดอย่างหนึ่งได้
+  youConditionsIsChoose2: ต้องทำให้ครบทั้งยอดเติม และเทิร์นโอเวอร์
+  onlyEligibleToReceive: เท่านั้นที่รับได้
+  specialOnly: พิเศษเฉพาะ
+  youNotEligibleToReceive: ไม่สามารถรับโปรโมชั่นนี้ได้
+tips:
+  balance: ยอดเงิน
+  becauseMotivation: เพราะทุกการให้ของคุณเป็นแรงและกำลังใจในการพัฒนา ระบบของเราให้ดียิ่งขึ้น ขอบคุณแรงสนับสนุนที่มีให้เสมอมา
+  depositTips: ''
+  generalTips: ''
+  give: ให้ทิป
+  inputMoney: ระบุหรือเลือกจำนวนเงิน
+  minOneBaht: ขั้นต่ำ 1 บาท
+  promotionTips: ''
+  tellUs: มีอะไรจะบอกเราไหม
+  text: ข้อความ
+  tipsForLuv: ให้ทิปแก่ระบบเพื่อเป็นกำลังใจ
+  withdrawTips: ''
+tmw:
+  addAccount: เพิ่มบัญชี True Wallet
+  addAccountComplete: เพิ่มบัญชีทรูมันนี่สำเร็จ
+  addAccountInfo: '*หากไม่สามารถเพิ่มบัญชีได้ กรุณาติดต่อแอดมิน'
+  enerOtp: กรอกรหัส 6 หลักที่ได้รับ
+  enterTmwPhone: กรอกเบอร์โทรที่ใช้ผูกกับ True Wallet
+  settingAccount: ตั้งค่าบัญชีทรูมันนี่
+  topup: เติมเงินผ่าน True Money Wallet
+treasureBox:
+  addRight: รับสิทธิ์ {number} ครั้ง
+  eligibilityConditions: เงื่อนไขการรับสิทธิ์
+  haveMinimumtopUp: มียอดเติมเงินตั้งแต่ {minimum} บาทขึ้นไป รับสิทธิ์ 1 ครั้ง/วัน
+  justPlayActivity: เพียงเล่นกิจกรรมกล่องหรรษา
+  minimumtopUp: เติมเงินขั้นต่ำ {minimum} แต่ไม่เกิน {maximum} บาท รับสิทธิ์ {number} ครั้ง
+  notAuthorized: คุณไม่มีสิทธิ์เปิดกล่องเลย
+  rightsOpen: คุณเหลือสิทธิ์เปิดอีก
+  tapBox: แตะที่กล่องเพื่อเปิด
+  topUp: เติมเงิน
+  topUpMinimumToMax: ขั้นต่ำ {minimum} แต่ไม่เกิน {maximum} บาท
+  treasureBox: เปิดกล่องหรรษา
+  tryMoneyRightOpen: ลองเติมเงินเพื่อรับสิทธิ์ในการเปิดกล่อง!
+  winFreeCredit: ลุ้นรับเครดิตฟรี และรางวัลอีกมากมาย!
+  noItem: ไม่พบรายการ
+  noItemDescription: ไม่พบรายการที่คุณสามารถเปิดได้
+treasureBoxTurn:
+  haveRightToOpen: คุณมีสิทธิ์เปิดกล่อง
+  minimumTurnoverRequired: มียอดเทิร์นโอเวอร์ตั้งแต่ {minimum} บาทขึ้นไป รับสิทธิ์ 1 ครั้ง/วัน
+  receivedRewardToday: วันนี้คุณรับรางวัลแล้ว
+  treasureBoxTurn: เปิดกล่องหรรษาเทิร์นโอเวอร์
+  tryPlayGameRightOpen: ลองเล่นเกมเพื่อรับสิทธิ์ในการเปิดกล่อง!
+type:
+  arcade: อาร์เคด
+  bigwin: ชนะรางวัลใหญ่
+  canNotPlayGame: ไม่พบเกมที่เล่นล่าสุด
+  casino: คาสิโน
+  casinoOnline: คาสิโนออนไลน์
+  casinohit: คาสิโนฮิต
+  challenge: ชาเลนจ์
+  chooseDisplayFormat: เลือกรูปแบบในการแสดงผล
+  cock: ไก่ชน
+  crash: แครช
+  crypto: คริปโต
+  desktopVersion: เวอร์ชั่นเดสก์ท็อป
+  favoriteGame: เกมโปรด
+  favorites: ที่ชอบ
+  feature: ฟีเจอร์
+  findGame: ค้นหาเกม
+  fishing: ยิงปลา
+  fishinghit: ยิงปลายอดฮิต
+  freespin: ฟรีสปิน
+  gameCamp: ค่ายเกม
+  hitGame: เกมฮิต
+  hits: ฮิต
+  home: หน้าหลัก
+  lastPlayed: เล่นล่าสุด
+  letPlay: ลองเล่นเลย!
+  loginFromAnother: กรุณาเข้าสู่ระบบใหม่อีกครั้ง
+  lotto: หวย
+  lottoOnline: หวยออนไลน์
+  mobileVersion: เวอร์ชั่นมือถือ
+  muay: มวย
+  new: ใหม่
+  newGame: เกมใหม่
+  noFavoriteGame: ไม่พบเกมโปรด
+  onlineSport: กีฬาออนไลน์
+  other: อื่นๆ
+  pleaseLogin: กรุณาเข้าสู่ระบบ
+  provider: ค่ายเกม
+  providers: ค่ายเกม
+  pvp: ต่อสู้
+  saveYourFavorite: กดที่หัวใจมุมขวาของเกมเพื่อบันทึกเกมโปรด
+  slot: สล็อต
+  slothit: สล็อตฮิต
+  sport: กีฬา
+  sportOnline: กีฬาออนไลน์
+  sporthit: กีฬาฮิต
+  table: ไพ่
+  tableGames: ไพ่
+  tophit: ท็อปฮิต
+  topten: ท็อปเท็น
+  upcoming: เร็วๆนี้
+unit:
+  baht: ''
+  bronze: ''
+  coin: ''
+  credit: ''
+  diamond: ''
+  dollar: ''
+  euro: ''
+  gold: ''
+  persons: คน
+  point: ''
+  pound: ''
+  silver: ''
+  token: ''
+  yen: ''
+  days: วัน {day}
+updatePhone:
+  conditionRecevice: เงื่อนไขการรับ
+  condtionTopupMin: ต้องทำการเติมเงินขั้นต่ำ {money} บาทก่อนถึงจะได้รับ สิทธิ์ในการร่วมโปรโมชั่นนี้
+  condtionTopupNoPrommotionMin: ต้องทำการเติมเงินแบบไม่รับโปรโมชั่นขั้นต่ำ {money} บาทก่อนถึงจะได้รับ สิทธิ์ในการร่วมโปรโมชั่นนี้
+  condtionTopupPrommotionMin: ต้องทำการเติมเงินแบบรับโปรโมชั่นขั้นต่ำ {money} บาทก่อนถึงจะได้รับ สิทธิ์ในการร่วมโปรโมชั่นนี้
+  confirm: ''
+  current: ''
+  description: ''
+  descritoionForPromotion: เพียงอัพเดทเบอร์โทรศัพท์ และกรอกรหัส OTP 6 หลักที่ได้รับ ก็รับเครดิตทันที สามารถดูเงื่อนไขการรับเครดิตได้ด้านล่าง
+  exPhone: เช่น 089-999-9999
+  inPutOtp: กรอกรหัส OTP 6 หลัก
+  inputPhone: ใส่เบอร์รับเครดิตฟรี!
+  makeTurnTwo: ' ทำเทิร์นสล็อต {credit}เท่า และทำเทิร์นคาสิโน {casino} เท่า'
+  new: ''
+  onePhoneOneRight: 1 เบอร์มีสิทธิ์รับได้เพียงแค่ 1 ครั้ง
+  otp: ''
+  receviceSuccess: ได้รับ {money} {typeCredit} เรียบร้อย
+  sendAgine: ส่งอีกครั้งใน
+  success: ''
+  title: ''
+  updatePhoneFree: อัพเดตเบอร์รับเครดิตฟรี
+  userAddReward: ผู้เล่นจะได้รับรางวัลเป็น
+useRegisterdBank: ใช้บัญชีที่สมัครโอนเงินผ่านธนาคาร
+validate:
+  EMAIL: รูปแบบอีเมล์ไม่ถูกต้อง
+  ISMATCH: รหัสผ่านไม่ตรงกัน
+  MAXLENGTH: ป้อนอักขระอย่างน้อย {max} ตัว
+  MINLENGTH: ป้อนอักขระอย่างน้อย {min} ตัว
+  NOTTEXT: ห้ามกรอกข้อความ
+  NOTTHAI: ห้ามกรอกตัวอักษรไทย
+  NUMBER: ต้องเป็นตัวเลขเท่านั้น
+  PHONE: รูปแบบเบอร์โทรศัพท์ไม่ถูกต้อง
+  REQUIRED: กรุณากรอกข้อมูล
+  WHITESPACE: ห้ามเว้นวรรค
+  alpha: ''
+  alphaNum: ''
+  email: ''
+  max: ''
+  min: ''
+  numeric: ''
+  required: ''
+vipDetail: ''
+warnPay:
+  cancel: ''
+  confirm: ''
+  description: ''
+  text1: กรุณาโอนเงินตามจำนวนที่แจ้ง และ
+  text10: ทำรายการภายในเวลาที่กำหนด
+  text11: ด้วยบัญชีที่ลงทะเบียน เพียงครั้งเดียวเท่านั้น
+  text12: หากโอนซ้ำ ไม่รับผิดชอบทุกกรณี
+  text2: โอนเพียงครั้งเดียวเท่านั้น
+  text3: หากโอนหรือสแกนมาซ้ำ หรือใช้บัญชีที่ไม่ได้ลงทะเบียน ทางเราจะ
+  text4: ไม่รับผิดชอบทุกกรณี
+  text5: หลังจากสร้างคำขอฝากเงิน
+  text6: ท่านมีเวลา 6 นาที
+  text7: ในการทำการฝาก หากท่านไม่ฝากเงินภายในเวลาที่กำหนด จะต้องส่งคำขอใหม่
+  text8: โอนเพียงครั้งเดียวตามจำนวนที่แจ้งเท่านั้น ห้ามโอนซ้ำ
+  text9: กรุณา
+  title: ''
+withdraw:
+  alertErrorCode426: ระบบถอนเงินถูกปิดชั่วคราว กรุณาลองใหม่ภายหลัง
+  alertErrorCode428: เครดิตของคุณน้อยกว่าขั้นต่ำที่สามารถถอนได้
+  alertErrorCode429: ไม่สามารถถอนเงินได้ในขนะนี้ กรุณารอ 1 - 2 นาที
+  alertErrorCode430: ไม่สามารถถอนได้เนื่องจากขณะนี้คุณมีรายการถอนรอดำเนินการอยู่
+  alertErrorCode432: เครดิตที่ต้องการถอน ต้องมากกว่า หรือเท่ากับ {num}
+  alertErrorCode445: ไม่สามารถถอนเงินได้ เนื่องจากมียอดเดิมพันค้าง
+  amountYesNo: จำนวน {money} ใช่หรือไม่?
+  deductBonus: หักโบนัส
+  disapprovedCreditReturned: ไม่อนุมัติ (คืนเครดิต)
+  disapprovedDeductingCredit: ไม่อนุมัติ (ตัดเครดิต)
+  disapprovedIllegalPlay: ไม่อนุมัติ (เล่นผิดกฏ)
+  fundsTransferredBack: คืนทุน (เล่นผิดกฏ)
+  lastestTransaction: 5 รายการล่าสุด
+  minimumWithdrawal: ถอนขั้นต่ำ
+  pending: รอดำเนินการ
+  succeed: สำเร็จ
+  trueDialog1: คุณต้องการถอนเงินเข้า True Wallet ใช่ไหม?
+  trueDialog2: ถอนเงินเข้า True wallet เบอร์ต้องตรงกับที่ลงทะเบียน
+  trueDialog3: หากเบอร์ไม่ตรงกับที่ลงทะเบียน ติดต่อแอดมิน
+  trueDialog4: เพื่อทำรายการอัพเดทเบอร์ใหม่
+  trueDialog5: ระบบจะถอนจำนวนเต็มที่ลงท้ายด้วย 0 เท่านั้น เช่น 100
+  wantWithdraw: ต้องการถอนเงิน
+  withdraw: ถอน
+  withdrawWith: ถอนเงินผ่าน {type}
+  withdrawableAmount: จำนวนเงินที่ถอนได้
+  withdrawalHistory: ประวัติการถอนเงิน
+withdrawHistory: ประวัติการถอน
+အကြွေးလက်ခံရရှိခဲ့သည်: เครดิตที่ได้รับ
+depositRestriction:
+  title: บัญชีสำคัญการฝากเงิน
+  message: งดทำรายการฝากช่วงเวลา 23.59-00.01 น.
+  resumeIn: ทำรายการได้อีก
+cashback4step:
+  title: คืนยอดเสีย 4 ขั้น
+  getMoney: รับเงิน
+  wallet: กระเป๋าเงิน
+  creditFree: กระเป๋าเครดิตฟรี
+  subtitleDetailRewad: เมื่อกดรับเงินจะเข้ากระเป๋าเงินและสามารถใช้ได้เลย
+  detailModalRewad: เมื่อกดรับเงินจะเข้ากระเป๋าเครดิตฟรี จะใช้ได้เมื่อผู้เล่นทำการโอนเครดิตฟรีก่อน
+  waysReward: ช่องทางรับรางวัล
+  selectReward: กรุณาเลือกช่องทางการรับรางวัล
+oneDepost:
+  oneBankCardDetail1: ระบบจะสุ่มบัญชีทุกครั้ง
+  oneBankCardDetail2: ห้ามบันทึกเลขบัญชีโดยเด็ดขาด
+  oneBankCardDetail3: มิฉะนั้นระบบจะไม่เติมให้อัตโนมัติ
+ui:
+  homePage: หน้าหลัก
+  activity: กิจกรรม
+  promotion: โปรโมชั่น
+  profile: โปรไฟล์
+  refresh: รีเฟรช
+  contactAdmin: ติดต่อแอดมิน
+  topUp: เติมเงิน
+  receiveCredit: รับเครดิต
+  searchGameHere: ค้นหาเกมที่นี่
+  enterWalletAddress: กรอกที่อยู่วอลเล็ท
+  selectCryptoCurrency: เลือกสกุลคริปโต
+  selectNetwork: เลือกเครือข่าย
+  firstName: ชื่อ
+  lastName: นามสกุล
+  bankAccountNumber: เลขบัญชีธนาคาร
+  selectThisPromotion: เลือกโปรโมชั่นนี้
+  noPromotionFound: ไม่พบโปรโมชั่น
+  luckyWheelTurnOver: กงล้อเทิร์นโอเวอร์
+  openBox: เปิดกล่อง
+  openBoxTurnOver: เปิดกล่องเทิร์นโอเวอร์
+  noBankFound: ไม่พบธนาคาร
+  contactAdminForHelp: กรุณาติดต่อแอดมินเพื่อขอความช่วยเหลือ
+  creditReceived: เครดิตที่ได้รับ
+  creditHistory: ประวัติการรับเครดิต
+  login: เข้าสู่ระบบ
+  suggest: แนะนำ
+autopeer:
+  detail: ฝากเงินผ่านระบบ Autopeer
+  noti: ข้อมูลสำคัญกรุณาอ่าน
+  pleaseTransferWithin: กรุณาโอนเงินและอัปโหลดสลิปภายใน 5 นาที
+  ifNotUpload: หากไม่อัปโหลดตามเวลาที่กำหนด
+  mustReport: คุณจะต้องแจ้งความว่าโอนเงินผิด
+  contactBank: และติดต่อธนาคารเพื่อขอเงินคืนด้วยตนเอง
+  howToDeposit: วิธีฝากเงิน
+  step1: ระบุยอดเงิน หรือ ฝากด่วน ตามจำนวนที่ต้องการ และ กด "ฝาก"
+  step1_specifyAmount: ระบุยอดเงิน
+  step1_or: หรือ
+  step1_quickDeposit: ฝากด่วน
+  step1_asDesired: ตามจำนวนที่ต้องการ
+  step1_andPress: และ กด
+  step1_deposit: ฝาก
+  step2: คัดลอกบัญชีและโอนเงิน ตามจำนวนที่แสดง เมื่อแนบสลิปแล้ว กด "ยืนยัน"
+  step2_copyAccount: คัดลอกบัญชีและโอนเงิน
+  step2_asShown: ตามจำนวนที่แสดง
+  step2_afterAttach: เมื่อแนบสลิปแล้ว
+  step2_pressConfirm: กด "ยืนยัน"
+  step3: เงินจะเข้าอัตโนมัติเมื่อทำรายการภายในเวลา
+  importantQuestion: สำคัญมาก! กรุณาตอบคำถาม
+  question1: คุณต้องโอนเงิน และแนบสลิปภายในเวลากี่นาที
+  question2: ถ้าสร้างรายการฝาก 500 จะต้องโอนเงินกี่บาท
+  question3: ต้องใช้บัญชีที่สมัครใช้งาน โอนเงินเท่านั้นใช่ไหม
+  minutes5: 5 นาที
+  minutes10: 10 นาที
+  baht550: 550 บาท
+  baht500: 500 บาท
+  yes: ใช่
+  no: ไม่ใช่
+  cancel: ยกเลิก
+  confirm: ยืนยัน
+  understand: เข้าใจแล้ว
+  sorry: ขออภัย คุณไม่สามารถทำรายการใหม่ได้
+  pendingTransaction: เนื่องจากมีธุรกรรมที่ค้างอยู่ กรุณาดำเนินการให้เสร็จหรือจบรายการดังกล่าวก่อน
+  acknowledge: รับทราบ
+  title: Autopeer
+  amountToTransfer: จำนวนเงินที่ต้องโอน
+  useRegisteredAccount: ใช้บัญชีที่สมัครใช้งาน โอนเงินเท่านั้น
+  timeRemaining: เวลาคงเหลือ
+  depositMore: ทำรายการเดิมต่อ
+  endDeposit: สิ้นสุดการฝาก
+  endDepositNote: เมื่อสิ้นสุดการฝากเงิน ยอดเงินจะเข้าเพียงแค่จำนวนที่โอนเข้ามาแล้วเท่านั้น
+  scbBank: ไทยพาณิชย์ จำกัด (มหาชน)
+  ref: Ref
+  depositNotFound: ไม่พบข้อมูลรายการฝากเงิน
+  cancelSuccess: ยกเลิกรายการฝากเงินสำเร็จ
+  cancelError: เกิดข้อผิดพลาดในการยกเลิกรายการ
+  pleaseUploadSlip: กรุณาอัพโหลดสลิปโอนเงิน
+  refNotFound: ไม่พบข้อมูล ref กรุณาลองใหม่อีกครั้ง
+  uploadSuccess: อัพโหลดสลิปสำเร็จ กรุณารอสักครู่
+  uploadError: เกิดข้อผิดพลาดในการอัพโหลดสลิป
+  endDepositSuccess: สิ้นสุดการฝากเงินสำเร็จ
+  minimumDeposit: เติมเงินขั้นต่ำ {amount} บาท
+  pleaseSelectMethod: กรุณาเลือกวิธีการฝากเงินด้านล่าง
+  specifyDepositAmount: ระบุยอดเงินฝาก
+  specifyDepositNote: ระบุยอดที่ต้องการฝากเมื่อโอนเงินแล้ว ใช้เวลา 2-3 นาที
+  specifyAmount: ระบุจำนวนเงิน
+  specifyDepositPlaceholder: ระบุยอดเงินฝาก
+  deposit: ฝากเงิน
+  quickDepositRecommended: ฝากด่วนตามยอดที่แนะนำ
+  quickDepositNote: เลือกยอดที่แสดงด้านล่าง เงินเข้าเร็วภายใน 1 นาที
+  amount: จำนวนเงิน
+  cancelTransaction: ฉันต้องการยกเลิกรายการ
+  confirmCancelTransaction: ต้องการยกเลิกการทำธุรกรรมนี้ ใช่ไหม?
+  waitFirst: ไว้ก่อน
+  loadDepositListError: ไม่สามารถโหลดรายการฝากเงินได้
+  cancelledSuccessfully: ยกเลิกรายการเรียบร้อย
+  minimumDepositRequired: กรุณาระบุจำนวนเงินขั้นต่ำ {amount} บาท
+  createDepositSuccess: สร้างรายการฝากเงินสำเร็จ
+  requireEnglishName: ไม่สามารถทำรายการได้ กรุณาใช้ชื่อภาษาอังกฤษ โปรดดำเนินการติดต่อแอดมินเพื่อแก้ไข
+  createDepositError: เกิดข้อผิดพลาดในการสร้างรายการฝากเงิน
+  transactionTimeout: หมดเวลาทำรายการ กรุณาทำรายการใหม่อีกครั้ง
