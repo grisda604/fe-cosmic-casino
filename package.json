@@ -4,27 +4,36 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "dev:login": "node scripts/dev-login.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test \"src/lib/**/*.test.ts\" \"src/app/**/*.test.ts\" \"src/hooks/**/*.test.ts\" \"scripts/**/*.test.ts\"",
     "sync:phantom": "node scripts/sync-phantom-from-dump.mjs",
     "sync:clones": "node scripts/sync-clone-routes.mjs",
     "sync:site": "node scripts/sync-site-structure.mjs",
     "sync:all": "npm run sync:phantom && npm run sync:clones && npm run sync:site"
   },
   "dependencies": {
+    "lucide-react": "^1.56.0",
     "next": "16.3.8",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "swr": "^2.5.1"
   },
   "devDependencies": {
+    "@serwist/turbopack": "^9.5.13",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "esbuild": "^0.28.2",
     "eslint": "^9",
     "eslint-config-next": "16.3.8",
+    "serwist": "^9.5.13",
     "tailwindcss": "^4",
+    "tsx": "^4.23.15",
     "typescript": "^5"
   },
   "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977"

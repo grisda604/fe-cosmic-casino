@@ -1,0 +1,23 @@
+import { SiteGuestShell } from "@/legacy/layout/SiteGuestShell";
+import {
+  NuxtClonePage,
+  nuxtCloneMetadata,
+} from "@/legacy/components/legacy/nuxt-clone-page";
+
+const PATHNAME = "/";
+
+type PageProps = {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+};
+
+export async function generatePtmxHomeMetadata(props: PageProps) {
+  return nuxtCloneMetadata(PATHNAME, props.searchParams);
+}
+
+export function PtmxHomePage(props: PageProps) {
+  return (
+    <SiteGuestShell activePath="/" showRegister>
+      <NuxtClonePage pathname={PATHNAME} searchParams={props.searchParams} />
+    </SiteGuestShell>
+  );
+}

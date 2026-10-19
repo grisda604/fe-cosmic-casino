@@ -1,0 +1,168 @@
+/*
+ * สะพานระหว่างระบบธีมของ glass (app/styles/themes.css → <html data-theme data-mode>) กับ token ของ lotto
+ * ธีมเริ่มต้น "cosmic" = ดำ-ทองเดิมของ lotto (ไม่แตะอะไรเลย) · ธีมอื่นเขียนทับ token ใน lotto-theme.css
+ * ด้วยบทบาทสีของ glass: --t-ga/--t-gb (chrome) · --t-icon (ไอคอน/ตัวเน้น) · --t-action (ปุ่มหลัก) และพื้นผิว --surface-*
+ * ข้อจำกัด: ปุ่มทองที่ hard-code สีใน CSS module ของ components/lotto/** (frozen) ยังเป็นทองทุกธีม
+ */
+html[data-mode="light"] {
+  color-scheme: light;
+}
+
+html[data-theme]:not([data-theme="cosmic"]) {
+  --body: var(--cosmic-page-base);
+  --BG-Surface-Darker: var(--surface-mid);
+  --BG-Surface-Normal: var(--surface-start);
+  --Card-Normal: var(--surface-solid-inner);
+  --BG-Surface-Lighter: var(--t-ga);
+  --card-primary: var(--surface-solid-inner);
+  --card-secondary: var(--surface-mid);
+  --input-bg: var(--sheet-field-fill);
+  --soft-chrome: var(--cosmic-chrome-surface-bg);
+
+  --Main-Primary: var(--t-icon);
+  --Main-Secondary: var(--t-icon);
+  --main-icon-1: var(--t-icon);
+  --Text-Icon-Highlight: var(--t-icon);
+  --Main-Primary-Light: color-mix(in srgb, var(--t-icon) 70%, white);
+  --Main-Primary-Dark: color-mix(in srgb, var(--t-icon) 65%, black);
+  --brand-soft: color-mix(in srgb, var(--t-icon) 14%, transparent);
+  --btn-gradient1: var(--t-action);
+  --btn-gradient2: color-mix(in srgb, var(--t-action) 78%, black);
+  --btn-text: var(--t-action-text);
+
+  --balance-wrapper1: color-mix(in srgb, var(--t-ga) 55%, transparent);
+  --balance-wrapper2: var(--surface-mid);
+  --balance-wrapper-stroke: color-mix(in srgb, var(--t-icon) 35%, transparent);
+  --Main-Disable: color-mix(in srgb, var(--text-primary) 12%, transparent);
+}
+
+/* ธีมสว่าง: ช่อง input ทุกอันเป็นเทาอ่อน (#e4e5e9) ตัวหนังสือเข้ม */
+html[data-mode="light"] {
+  --input-bg: #e4e5e9;
+  --sheet-field-fill: #e4e5e9;
+  --sheet-field-fill-focus: #dadbe0;
+  --sheet-field-addon-bg: #d6d7dc;
+}
+
+html[data-mode="light"] .lotto-field {
+  background: #e4e5e9;
+  color: #1b2230;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+html[data-mode="light"] .lotto-field::placeholder {
+  color: #6b7385;
+}
+
+/* ธีมสว่าง: ตัวอักษรกลับเป็นสเกลเข้มตามที่ themes.css กำหนด (--text-primary / --text-secondary) */
+html[data-mode="light"] {
+  --Text-Icon-Title: var(--text-primary);
+  --text-title: var(--text-primary);
+  --Text-Icon-Body: var(--text-secondary);
+  --tab-inactive: var(--text-muted);
+  --icon-muted: var(--text-muted);
+  --text-on-dark: var(--text-primary);
+}
+
+html[data-theme]:not([data-theme="cosmic"]) body {
+  background: var(--cosmic-page-base);
+}
+
+html[data-theme]:not([data-theme="cosmic"]) .lotto-page {
+  background: radial-gradient(120% 80% at 50% -20%, color-mix(in srgb, var(--t-ga) 45%, transparent), transparent 55%),
+    var(--cosmic-page-base);
+}
+
+/* ธีมสว่าง: พื้นหน้าเป็นสีเรียบ ไม่ไล่เฉดสี */
+html[data-mode="light"][data-theme]:not([data-theme="cosmic"]) .lotto-page {
+  background: var(--cosmic-page-base);
+}
+
+@media (min-width: 1024px) {
+  html[data-theme]:not([data-theme="cosmic"]) .lotto-page {
+    background: var(--cosmic-page-base);
+  }
+}
+
+/* header + bottom nav = พื้นเข้มไล่เฉดสีที่ 1→2 ของธีม (--t-ga → --t-gb) ทั้งโหมดมืดและสว่าง
+ * ตั้ง token เฉพาะใน scope นี้ เพื่อไม่กระทบการ์ด/พื้นผิวอื่นที่ใช้ --BG-Surface-* */
+html[data-theme]:not([data-theme="cosmic"]) :is(.lotto-site-header .header-shell, .lotto-bottom-nav) {
+  --BG-Surface-Lighter: var(--t-ga);
+  --BG-Surface-Darker: var(--t-gb);
+  --Text-Icon-Body: #ffffff;
+  --main-icon-1: #ffffff;
+}
+
+/* ปุ่มหลักที่ hard-code ทองใน lotto-theme.css / lotto-ui-compat.css → ใช้สีปุ่มของธีม */
+html[data-theme]:not([data-theme="cosmic"]) :is(.btn-gold, .soft-btn-primary) {
+  background: var(--action-gradient);
+  color: var(--t-action-text);
+}
+
+html[data-theme]:not([data-theme="cosmic"]) :is(.btn-outline-gold, .soft-btn-outline) {
+  background: transparent;
+  color: var(--t-icon);
+  border-color: var(--t-icon);
+}
+
+/* โหมดมืด (ทุกธีม): พื้นหลังหลังสุดอ่อนลงจากเดิม — ผสมขาว 7% ทับสีพื้นของธีม (cosmic ใช้ #060409) */
+html:not([data-mode="light"]) body,
+html:not([data-mode="light"]) .lotto-page {
+  background-color: color-mix(in srgb, #fff 7%, #060409);
+}
+
+html:not([data-mode="light"]) .lotto-page {
+  background-image: none;
+}
+
+html:not([data-mode="light"])[data-theme]:not([data-theme="cosmic"]) body {
+  background: color-mix(in srgb, #fff 7%, var(--cosmic-page-base));
+}
+
+html:not([data-mode="light"])[data-theme]:not([data-theme="cosmic"]) .lotto-page {
+  background: radial-gradient(120% 80% at 50% -20%, color-mix(in srgb, var(--t-ga) 45%, transparent), transparent 55%),
+    color-mix(in srgb, #fff 7%, var(--cosmic-page-base));
+}
+
+/* ── Overlay (bottom sheet / modal / confirm dialog) โหมดมืด ───────────────────────────
+ * พื้นนอกไล่เฉดตามสีธีม (--t-gb → --t-ga) · ช่อง/การ์ดด้านในอ่อนกว่าชัดเจนแต่ยังเข้มพอให้ตัวหนังสือขาวอ่านง่าย
+ * ตั้ง token ใหม่ใน scope นี้ — การ์ดด้านในที่ใช้ --BG-Surface-* / --Card-Normal จึงได้สีอ่อนโดยไม่ต้องแก้ทีละไฟล์ */
+html:not([data-mode="light"]) .overlay-theme {
+  --overlay-from: color-mix(in srgb, var(--t-gb, #140c1f) 94%, #fff);
+  --overlay-to: color-mix(in srgb, var(--t-ga, #0c090f) 97%, #fff);
+  --overlay-mid: color-mix(in srgb, var(--overlay-from) 50%, var(--overlay-to));
+  --overlay-inner: color-mix(in srgb, #fff 12%, var(--overlay-mid));
+  --BG-Surface-Normal: var(--overlay-inner);
+  --BG-Surface-Darker: var(--overlay-inner);
+  --Card-Normal: color-mix(in srgb, #fff 15%, var(--overlay-mid));
+  background: linear-gradient(165deg, var(--overlay-from), var(--overlay-to));
+}
+
+/* ── Overlay โหมดสว่าง: ไล่เฉดเงิน (silver) แบบพรีเมียม ────────────────────────────────
+ * ขาวมุกด้านบน → เงินเทาตรงกลาง → ประกายเงินอ่อนด้านล่าง · การ์ดด้านในเป็นขาวนวลลอยจากพื้นเงิน */
+html[data-mode="light"] .overlay-theme {
+  --BG-Surface-Normal: rgba(255, 255, 255, 0.72);
+  --BG-Surface-Darker: rgba(255, 255, 255, 0.72);
+  --Card-Normal: rgba(255, 255, 255, 0.9);
+  background: linear-gradient(160deg, #f7f8fa 0%, #dcdfe5 42%, #c7ccd4 62%, #e6e8ed 100%);
+  border-color: rgba(255, 255, 255, 0.7);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.9),
+    0 18px 48px rgba(40, 46, 60, 0.28);
+}
+
+/* ── โหมดสว่าง: ตัวหนังสือบนพื้น active (--brand) เป็นสีขาวทุกจุด ─────────────────────────
+ * คลาสเดิม hard-code text-[#2a0607] (เหมาะกับพื้นครีมของธีมมืด) — บังคับขาวเฉพาะที่อยู่บนพื้น --brand */
+html[data-mode="light"] [class*="bg-[var(--brand)]"][class*="text-[#2a0607]"] {
+  color: #fff;
+}
+
+/* กระดิ่งใน header เป็นสีขาว (header ธีมสว่างเป็นพื้นเข้มเสมอ) */
+html[data-mode="light"] .lotto-site-header .header-bell {
+  color: #fff;
+}
+
+html[data-mode="light"] .lotto-site-header .header-bell:hover {
+  color: #fff;
+  opacity: 0.8;
+}

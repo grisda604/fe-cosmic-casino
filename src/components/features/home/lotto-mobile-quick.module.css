@@ -1,0 +1,116 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 0;
+}
+
+/* หมวดเกม 6 ช่อง — เลื่อนข้างได้เมื่อจอแคบ (ซ่อน scrollbar) */
+.categories {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 0 2px;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+}
+
+.categories::-webkit-scrollbar {
+  display: none;
+}
+
+.menuItem {
+  flex: 1 0 0;
+  min-width: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1px;
+  font-size: 11px;
+  color: var(--Text-Icon-Body);
+  padding: 3px 4px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  text-decoration: none;
+  scroll-snap-align: start;
+}
+
+.menuActive {
+  /* ไม่มีเส้นขอบ — พื้นอ่อนกว่าฉากหลังเล็กน้อย */
+  border-color: transparent;
+  background: color-mix(in srgb, #fff 10%, transparent);
+}
+
+.textGold {
+  color: var(--Main-Secondary);
+  font-weight: 600;
+}
+
+/* ฝาก - ถอน / เข้าสู่ระบบ - สมัครสมาชิก เป็นแถวปุ่มคู่
+ * ใช้ .panel .actions (specificity สูงกว่า) เพราะองค์ประกอบนี้ใช้คลาส hideDesktop (display:block) ร่วมด้วย
+ * ถ้าใช้คลาสเดียว ลำดับการโหลด CSS หลังสลับหน้าจะทำให้ display:block ชนะ grid แล้วปุ่มพัง */
+.panel .actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.btnPrimary {
+  border-radius: 12px;
+  border: 0;
+  background: var(--btn-theme-gradient, linear-gradient(180deg, #ffe082 0%, #ffd15c 45%, #c9a227 100%));
+  color: var(--btn-theme-fg, #2a0607);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 8px;
+}
+
+.btnSecondary {
+  border-radius: 12px;
+  border: 1px solid var(--t-action, rgba(255, 255, 255, 0.25));
+  background: var(--shade-mid);
+  color: var(--t-action, #fff);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 8px;
+}
+
+/* ธีมสว่าง: ปุ่มถอนใช้สีตัวหนังสือของธีม (สีปุ่มอ่อนเกินไปบนพื้นขาว) */
+:global(html[data-mode="light"]) .btnSecondary {
+  color: var(--ink);
+  border-color: color-mix(in srgb, var(--ink) 30%, transparent);
+}
+
+/* ธีมสว่าง: ปุ่มถอนเงินใช้สีที่ 1 ของธีม (ไล่เฉดบน→ล่าง) ตัวหนังสือสีขาว · ปุ่มฝากเงินคงสีเดิม */
+:global(html[data-mode="light"]) .btnSecondary {
+  border-color: transparent;
+  background: linear-gradient(
+    to bottom,
+    color-mix(in srgb, var(--t-ga) 88%, #fff),
+    color-mix(in srgb, var(--t-ga) 70%, #000)
+  );
+  color: #fff;
+}
+
+/* กล่องครอบแบนเนอร์ + ปุ่มฝาก/ถอน (มือถือ): พื้นทึบอ่อนกว่าพื้นหลัก มุม 2xl · desktop ไม่มีกล่อง */
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (max-width: 1023px) {
+  .panel {
+    /* เต็มความกว้างจอ (หักช่องไฟ 12px ของเปลือกหน้า) ชิดใต้ header — มนเฉพาะมุมล่าง */
+    margin-inline: -12px;
+    padding: 8px 12px 22px;
+    border-radius: 0 0 16px 16px;
+    background: color-mix(in srgb, #fff 8%, var(--surface-start, #16101e));
+  }
+
+  /* หมวดเกมขยับลงจากกล่อง */
+  .panel + .root,
+  .panel ~ .root {
+    margin-top: 8px;
+  }
+}

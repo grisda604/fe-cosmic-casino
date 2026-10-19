@@ -1,0 +1,72 @@
+{
+  "language": "ภาษา",
+  "languagePicker": {
+    "title": "เลือกภาษา",
+    "description": "เปลี่ยนภาษาที่แสดงบนเว็บไซต์",
+    "close": "ปิดหน้าเลือกภาษา"
+  },
+  "theme": {
+    "fab": "เลือกธีมสี",
+    "floatingLabel": "ปุ่มลัด",
+    "title": "เลือกธีมสี",
+    "description": "เปลี่ยนโทนสีของเว็บไซต์ได้ทันที",
+    "close": "ปิดหน้าเลือกธีม",
+    "dark": "ธีมมืด",
+    "light": "ธีมสว่าง",
+    "darkLabel": "ธีมมืด",
+    "lightLabel": "ธีมสว่าง",
+    "chat": "แชทสด",
+    "chatUnavailable": "ระบบแชทสดยังไม่เชื่อมต่อ — เร็ว ๆ นี้"
+  },
+  "close": "ปิด",
+  "retry": "ลองใหม่",
+  "loading": "กำลังโหลด…",
+  "confirm": "ยืนยัน",
+  "cancel": "ยกเลิก",
+  "processing": "กำลังดำเนินการ…",
+  "back": "ย้อนกลับ",
+  "next": "ถัดไป",
+  "backStep": "กลับขั้นตอนก่อนหน้า",
+  "loadFailed": "โหลดข้อมูลไม่สำเร็จ",
+  "emptyCategory": "ยังไม่มีรายการในหมวดนี้",
+  "refCode": "รหัสอ้างอิง: {code}",
+  "units": {
+    "people": "{n} คน",
+    "records": "{n} รายการ",
+    "credits": "{n} เครดิต",
+    "gems": "{n} เพชร",
+    "million": "{n} ล้าน"
+  },
+  "carousel": {
+    "prev": "เลื่อน {title} ไปกลุ่มก่อนหน้า",
+    "next": "เลื่อน {title} ไปกลุ่มถัดไป"
+  },
+  "pagination": {
+    "label": "เปลี่ยนหน้า",
+    "prev": "หน้าก่อน",
+    "page": "หน้า {page}",
+    "next": "หน้าถัดไป"
+  },
+  "notifications": {
+    "title": "การแจ้งเตือน",
+    "close": "ปิดการแจ้งเตือน",
+    "tabsLabel": "ประเภทการแจ้งเตือน",
+    "tabs": {
+      "all": "ทั้งหมด",
+      "privileges": "สิทธิพิเศษ",
+      "messages": "ข้อความ"
+    },
+    "empty": "ไม่มีข้อความใหม่",
+    "contactChannels": "ช่องทางติดต่อ"
+  },
+  "coupon": {
+    "title": "แลกคูปอง",
+    "close": "ปิดหน้าแลกคูปอง",
+    "description": "โค้ดสำหรับแลกเครดิตฟรี",
+    "codeLabel": "รหัสคูปอง",
+    "codePlaceholder": "กรอกโค้ดคูปอง",
+    "codeRequired": "กรุณากรอกรหัสคูปอง",
+    "submit": "แลกเครดิตฟรี",
+    "submitting": "กำลังตรวจสอบ..."
+  }
+}

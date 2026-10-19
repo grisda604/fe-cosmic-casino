@@ -1,0 +1,658 @@
+/* Port จาก dump header (default chunk + entry) — ไม่ใช้ Vue scoped */
+
+.lotto-site-header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  width: 100%;
+}
+
+.lotto-site-header .header-shell {
+  width: 100%;
+  border-radius: 0 0 40px 40px;
+  background: linear-gradient(
+    180deg,
+    var(--BG-Surface-Lighter) 0%,
+    var(--BG-Surface-Darker) 100%
+  );
+  box-shadow: 0 2px 0 0 var(--Main-Secondary);
+}
+
+.lotto-site-header .header-inner {
+  margin: 0 auto;
+  max-width: 1240px;
+  padding: 10px 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.lotto-site-header .header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+}
+
+.lotto-site-header .header-logo {
+  cursor: pointer;
+  object-fit: contain;
+  height: auto;
+  max-height: 60px;
+  /* โลโก้เด่น — โตตามจอ แต่ยังเหลือที่ให้กล่องเงิน + avatar + hamburger */
+  width: clamp(96px, 30vw, 140px);
+  max-width: none;
+  flex-shrink: 1;
+  min-width: 0;
+  padding: 4px;
+}
+
+.lotto-site-header .header-actions {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+}
+
+.lotto-site-header .wallet-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  /* พื้นทึบสีอ่อนกว่าพื้น header ไม่มีขอบ */
+  background: color-mix(in srgb, #fff 10%, var(--surface-start, #16101e));
+  border: 0;
+  box-shadow: none;
+}
+
+.lotto-site-header .wallet-lines {
+  flex: 1;
+  min-width: 0;
+}
+
+.lotto-site-header .wallet-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  color: var(--Main-Secondary);
+}
+
+.lotto-site-header .wallet-row--credit {
+  color: var(--Text-Icon-Body);
+}
+
+.lotto-site-header .wallet-value {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 4px;
+  min-width: 50px;
+  text-align: right;
+  color: #fff;
+}
+
+.lotto-site-header .gold-line {
+  height: 0.5px;
+  margin: 4px 0;
+  background: linear-gradient(
+    90deg,
+    var(--Main-Primary-Dark, #9b7a24) 0%,
+    var(--Main-Primary-Light, #f6db96) 50%,
+    var(--Main-Primary-Dark, #9b7a24) 100%
+  );
+}
+
+.lotto-site-header .transfer-icon {
+  display: grid;
+  place-content: center;
+  width: 20px;
+  height: 20px;
+  margin-left: 8px;
+  border-radius: 9999px;
+  background: var(--primary);
+  flex-shrink: 0;
+}
+
+.lotto-site-header .auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex: 1;
+  justify-content: flex-end;
+  min-width: 0;
+  padding-right: 2px;
+}
+
+.lotto-site-header .auth-buttons .bb-btn {
+  font-size: 12px;
+  height: 36px;
+  min-height: 36px;
+  padding: 0 10px;
+  white-space: nowrap;
+}
+
+@media (min-width: 380px) {
+  .lotto-site-header .auth-buttons .bb-btn {
+    font-size: 13px;
+    padding: 0 14px;
+  }
+}
+
+.lotto-site-header .deposit-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  width: 100%;
+  padding: 0 4px 4px;
+}
+
+.lotto-site-header .bb-btn {
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 600;
+  justify-content: center;
+  font-size: 14px;
+  height: 42px;
+  min-height: 42px;
+  padding: 0 16px;
+  width: 100%;
+  transition: all 0.15s ease;
+}
+
+.lotto-site-header .bb-btn-primary {
+  background: linear-gradient(
+    180deg,
+    var(--Main-Primary-Light, #f6db96) 0%,
+    var(--Main-Primary-Dark, #9b7a24) 100%
+  );
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  color: var(--Text-Icon-Title, #1a1a1d);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.lotto-site-header .bb-btn-secondary {
+  background: linear-gradient(
+    180deg,
+    var(--Card-Normal, #34353a) 0%,
+    var(--BG-Surface-Darker, #171719) 100%
+  );
+  border: 1px solid var(--balance-wrapper-stroke);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  color: var(--Text-Icon-Title, #fff);
+}
+
+.lotto-site-header .hamburger-template-1 label {
+  align-items: flex-end;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  width: 30px;
+}
+
+.lotto-site-header .hamburger-template-1 label span {
+  background: var(--main-icon-1, var(--Main-Secondary));
+  border-radius: 100px;
+  height: 3px;
+  margin: 3px 0;
+  transition: all 0.4s ease-in-out;
+}
+
+.lotto-site-header .hamburger-template-1 span:nth-of-type(1) {
+  width: 100%;
+}
+
+.lotto-site-header .hamburger-template-1 span:nth-of-type(2) {
+  width: 75%;
+}
+
+.lotto-site-header .hamburger-template-1 span:nth-of-type(3) {
+  width: 100%;
+}
+
+/* บน desktop ที่มี sidebar — wallet/ฝาก-ถอนอยู่ sidebar (ตาม dump lg:hidden) */
+@media (min-width: 1024px) {
+  .lotto-site-header .header-inner {
+    max-width: none;
+    width: 100%;
+    margin: 0 auto;
+    padding: 12px 24px 14px 12px;
+    box-sizing: border-box;
+  }
+
+  .lotto-site-header .header-logo {
+    max-height: 44px;
+    max-width: 112px;
+  }
+
+  .lotto-site-header .header-hide-with-sidebar {
+    display: none !important;
+  }
+
+  .lotto-site-header .auth-buttons .bb-btn {
+    font-size: 14px;
+    height: 42px;
+    min-height: 42px;
+    padding: 0 22px;
+  }
+
+  .lotto-site-header .header-row--desktop-logged-in .header-actions {
+    flex: 0 0 auto;
+  }
+}
+
+/* ---- header desktop (≥1024) — ตามภาพอ้างอิง SuperLotto (design.md §2.1) ---- */
+.lotto-site-header .header-desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .lotto-site-header .header-inner--mobile {
+    display: none;
+  }
+
+  .lotto-site-header .header-shell {
+    border-radius: 0 0 24px 24px;
+    overflow: hidden;
+  }
+
+  .lotto-site-header .header-desktop {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    min-height: 76px;
+    max-width: none;
+    margin: 0 auto;
+    padding: 0 0 0 24px;
+    box-sizing: border-box;
+    color: #fff;
+  }
+
+  .lotto-site-header .dh-left,
+  .lotto-site-header .dh-right {
+    display: flex;
+    align-items: center;
+    min-width: 0;
+  }
+
+  .lotto-site-header .dh-left {
+    gap: 20px;
+  }
+
+  .lotto-site-header .dh-right {
+    gap: 14px;
+  }
+
+  .lotto-site-header .dh-logo__img {
+    height: auto;
+    width: 190px;
+    max-width: 190px;
+    object-fit: contain;
+  }
+
+  /* ปุ่มภาษา — แคปซูลมืด ขอบเรืองสีเน้น */
+  .lotto-site-header .dh-lang {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 36px;
+    padding: 0 12px;
+    border-radius: 9999px;
+    border: 1px solid color-mix(in srgb, var(--t-accent, var(--Main-Secondary)) 70%, transparent);
+    background: color-mix(in srgb, #000 35%, transparent);
+    box-shadow: 0 0 10px color-mix(in srgb, var(--t-accent, var(--Main-Secondary)) 35%, transparent);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+  }
+
+  /* ลิงก์เมนู — ตัวเล็ก สี muted */
+  .lotto-site-header .dh-nav {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-left: 8px;
+  }
+
+  .lotto-site-header .dh-nav a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    color: color-mix(in srgb, #fff 55%, transparent);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .lotto-site-header .dh-nav a:hover {
+    color: #fff;
+  }
+
+  /* ชื่อ + ยอดเงิน */
+  .lotto-site-header .dh-account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    min-width: 0;
+  }
+
+  .lotto-site-header .dh-account__name {
+    max-width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .lotto-site-header .dh-balance {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 24px;
+    padding: 0 12px 0 3px;
+    border-radius: 9999px;
+    background: color-mix(in srgb, #000 45%, transparent);
+    font-size: 11px;
+    font-weight: 600;
+  }
+
+  .lotto-site-header .dh-balance__plus {
+    display: grid;
+    place-content: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 9999px;
+    background: #22d36b;
+    color: #04210f;
+    cursor: pointer;
+  }
+
+  .lotto-site-header .dh-balance svg:not(.lucide) {
+    width: 11px;
+    height: 11px;
+  }
+
+  /* avatar — สี่เหลี่ยมมน */
+  .lotto-site-header .dh-avatar {
+    display: block;
+    width: 44px;
+    height: 44px;
+    overflow: hidden;
+    border-radius: 14px;
+    border: 1px solid color-mix(in srgb, #fff 25%, transparent);
+    background: color-mix(in srgb, #000 30%, transparent);
+  }
+
+  .lotto-site-header .dh-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* ปุ่มหกเหลี่ยม (ธีม) */
+  .lotto-site-header .dh-hex {
+    display: grid;
+    place-content: center;
+    width: 34px;
+    height: 38px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background: color-mix(in srgb, #fff 14%, transparent);
+    color: color-mix(in srgb, #fff 80%, transparent);
+    cursor: pointer;
+  }
+
+  .lotto-site-header .dh-hex:hover {
+    background: color-mix(in srgb, var(--t-accent, var(--Main-Secondary)) 45%, transparent);
+    color: #fff;
+  }
+
+  /* แผงขวาสุด — พื้นเข้มกว่า คั่นด้วยเส้นตั้ง */
+  .lotto-site-header .dh-ticket {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    margin-left: 6px;
+    padding: 0 64px 0 22px;
+    /* รูป herader-ticket เป็นพื้น แล้วทับด้วย overlay เข้มให้ตัวหนังสืออ่านง่าย */
+    background:
+      linear-gradient(rgba(10, 8, 18, 0.9), rgba(10, 8, 18, 0.9)),
+      url("/lottery/herader-ticket.avif") right center / auto 130% no-repeat;
+    border-left: 1px solid color-mix(in srgb, #fff 10%, transparent);
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .lotto-site-header .dh-ticket__coin {
+    position: relative;
+    display: grid;
+    place-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 9999px;
+    background: var(--t-accent, var(--Main-Secondary));
+    color: var(--t-action-text, #fff);
+    font-size: 12px;
+    font-weight: 600;
+    box-shadow: 0 0 12px color-mix(in srgb, var(--t-accent, var(--Main-Secondary)) 55%, transparent);
+  }
+
+  .lotto-site-header .dh-ticket__plus {
+    position: absolute;
+    right: -4px;
+    bottom: -3px;
+    display: grid;
+    place-content: center;
+    width: 14px;
+    height: 14px;
+    border-radius: 9999px;
+    background: #22d36b;
+    color: #04210f;
+  }
+
+  .lotto-site-header .dh-ticket__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    white-space: nowrap;
+  }
+
+  .lotto-site-header .dh-ticket__title {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.15;
+  }
+
+  .lotto-site-header .dh-ticket__sub {
+    font-size: 10px;
+    color: color-mix(in srgb, #fff 55%, transparent);
+  }
+
+  /* guest */
+  .lotto-site-header .dh-auth {
+    height: 36px;
+    padding: 0 18px;
+    border-radius: 10px;
+    border: 0;
+    background: var(--action-gradient, var(--Main-Primary));
+    color: var(--t-action-text, #000);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .lotto-site-header .dh-auth--ghost {
+    background: color-mix(in srgb, #000 35%, transparent);
+    border: 1px solid color-mix(in srgb, #fff 20%, transparent);
+    color: #fff;
+  }
+
+  .lotto-site-header .dh-right:not(:has(.dh-ticket)) {
+    padding-right: 24px;
+  }
+}
+
+/* ปุ่ม Dev Login (เฉพาะ dev) — เส้นประ ให้รู้ว่าไม่ใช่ปุ่มจริง */
+@media (min-width: 1024px) {
+  .lotto-site-header .dh-auth--dev {
+    background: transparent;
+    border: 1px dashed #22d36b;
+    color: #22d36b;
+  }
+
+  .lotto-site-header .dh-auth--dev:disabled {
+    opacity: 0.6;
+    cursor: wait;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lotto-site-header .header-desktop {
+    max-width: none;
+  }
+}
+
+/* header desktop: ไม่มีพื้นหลัง/เส้นขอบ — โปร่งเห็นพื้นหน้าเว็บ */
+@media (min-width: 1024px) {
+  .lotto-site-header .header-shell {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+
+/* desktop: เลื่อนหน้าแล้ว → พื้นสีเดียว = สีที่ 1 ของธีมค่อยๆ ปรากฏ (ก่อนเลื่อน = โปร่ง) */
+@media (min-width: 1024px) {
+  .lotto-site-header .header-shell {
+    position: relative;
+    isolation: isolate;
+  }
+
+  .lotto-site-header .header-shell::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: var(--t-ga, var(--BG-Surface-Lighter));
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    pointer-events: none;
+  }
+
+  .lotto-site-header[data-scrolled="true"] .header-shell::before {
+    opacity: 1;
+  }
+}
+
+/* ---- header มือถือ (<1024): พื้นสีเดียว = สีที่ 1 ของธีม · avatar · hamburger หด-ยืดตลอดเวลา ---- */
+@media (max-width: 1023px) {
+  .lotto-site-header .header-shell {
+    background: var(--BG-Surface-Lighter);
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  /* กระชับกล่องเงินให้โลโก้มีที่มากขึ้น */
+  .lotto-site-header .header-inner {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .lotto-site-header .header-actions {
+    gap: 6px;
+  }
+
+  .lotto-site-header .wallet-wrapper {
+    padding: 6px 8px;
+    font-size: 11px;
+  }
+
+  /* ไอคอนสลับเงินเป็นของตกแต่งอย่างเดียว — ซ่อนบนมือถือเพื่อให้โลโก้ใหญ่ขึ้น */
+  .lotto-site-header .transfer-icon {
+    display: none;
+  }
+}
+
+/* แต่ละเส้นหด-ยืดสลับกันตลอดเวลา (ชิดขวาเหมือนเดิม) */
+@keyframes lotto-hamburger-stretch {
+  0%,
+  100% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scaleX(0.4);
+  }
+}
+
+.lotto-site-header .hamburger-template-1 label span {
+  transform-origin: right center;
+  animation: lotto-hamburger-stretch 1.6s ease-in-out infinite;
+}
+
+.lotto-site-header .hamburger-template-1 label span:nth-of-type(2) {
+  animation-delay: 0.25s;
+}
+
+.lotto-site-header .hamburger-template-1 label span:nth-of-type(3) {
+  animation-delay: 0.5s;
+}
+
+/* ธีมสว่าง: header ใช้สีที่ 1 ของธีมที่เข้มลงตลอดเวลา (ไม่โปร่ง เพราะตัวหนังสือขาวต้องมีพื้นเข้มรองรับ) */
+html[data-mode="light"] .lotto-site-header .header-shell {
+  background: color-mix(in srgb, var(--t-ga) 70%, #000);
+}
+
+/* โลโก้ม่วงเข้มกลืนกับพื้นสีธีม จึงทำให้สว่างขึ้นบนธีมสว่าง */
+html[data-mode="light"] .lotto-site-header :is(.header-logo, .dh-logo__img) {
+  filter: brightness(1.9) saturate(0.75);
+}
+
+html[data-mode="light"] .lotto-site-header .header-shell::before {
+  background: color-mix(in srgb, var(--t-ga) 70%, #000);
+  opacity: 1;
+}
+
+/* ธีมสว่าง: กล่องเครดิตใน header มือถือใช้พื้นเข้มโปร่ง + ตัวหนังสือขาว (เดิมเป็นพื้นขาว ตัวหนังสือมองไม่เห็น) */
+html[data-mode="light"] .lotto-site-header .wallet-wrapper {
+  background: rgba(255, 255, 255, 0.14);
+  box-shadow: none;
+}
+
+html[data-mode="light"] .lotto-site-header .wallet-row {
+  color: #ffffff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lotto-site-header .hamburger-template-1 label span {
+    animation: none;
+  }
+}
+
+/* ปุ่มเข้าสู่ระบบ/สมัครสมาชิก (มือถือ): เตี้ยลง + ตัวหนังสืออ่านออก */
+.lotto-site-header .auth-buttons .bb-btn {
+  height: 30px;
+  min-height: 30px;
+}
+
+.lotto-site-header .auth-buttons .bb-btn-primary {
+  color: #1a1200;
+}
+
+.lotto-site-header .auth-buttons .bb-btn-secondary {
+  color: #fff;
+}

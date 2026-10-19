@@ -8,7 +8,7 @@ const dumpRoot = path.resolve(casRoot, "..", "dump");
 const renderedPath = path.join(dumpRoot, "rendered-home.html");
 const indexPath = path.join(dumpRoot, "index.html");
 const publicDir = path.join(casRoot, "public");
-const generatedDir = path.join(casRoot, "src", "lib", "generated");
+const generatedDir = path.join(casRoot, "src", "legacy", "lib", "generated");
 const REMOTE = "https://ptmx-app.web.app";
 
 async function fetchRemoteAsset(relativePath) {

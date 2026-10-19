@@ -3,9 +3,9 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const casRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const manifestPath = path.join(casRoot, "src", "lib", "generated", "clone-manifest.json");
-const siteRoot = path.join(casRoot, "src", "app", "(site)");
-const featuresRoot = path.join(casRoot, "src", "components", "features", "routes");
+const manifestPath = path.join(casRoot, "src", "legacy", "lib", "generated", "clone-manifest.json");
+const siteRoot = path.join(casRoot, "src", "legacy", "site");
+const featuresRoot = path.join(casRoot, "src", "legacy", "components", "features", "routes");
 
 const FEATURE_MARKER = "@generated-site-feature";
 const PAGE_MARKER = "@generated-site-page";
@@ -60,7 +60,7 @@ export default function ${exportName}(props: PageProps) {
 function appPageSource(route, fileKey) {
   const exportName = `${exportBaseName(route, fileKey)}Page`;
   const metaFn = `generate${exportBaseName(route, fileKey)}Metadata`;
-  const importPath = `@/components/features/routes/${fileKey}/page`;
+  const importPath = `@/legacy/components/features/routes/${fileKey}/page`;
 
   return `/** ${PAGE_MARKER} — route: ${route} */
 export {
@@ -119,7 +119,7 @@ function main() {
 
   fs.mkdirSync(siteRoot, { recursive: true });
   removeGenerated(siteRoot, PAGE_MARKER);
-  removeGenerated(path.join(casRoot, "src", "components", "features"), FEATURE_MARKER);
+  removeGenerated(path.join(casRoot, "src", "legacy", "components", "features"), FEATURE_MARKER);
   removeGeneratedFeatures();
 
   const routeMap = [];
@@ -149,7 +149,7 @@ function main() {
   }
 
   fs.writeFileSync(
-    path.join(casRoot, "src", "lib", "generated", "site-routes.json"),
+    path.join(casRoot, "src", "legacy", "lib", "generated", "site-routes.json"),
     JSON.stringify({ generatedAt: new Date().toISOString(), routes: routeMap }, null, 2)
   );
 

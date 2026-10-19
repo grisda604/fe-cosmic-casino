@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 const casRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const dumpRoot = path.resolve(casRoot, "..", "dump");
 const routesIndexPath = path.join(dumpRoot, "routes", "ROUTES_INDEX.json");
-const generatedDir = path.join(casRoot, "src", "lib", "generated");
+const generatedDir = path.join(casRoot, "src", "legacy", "lib", "generated");
 const clonesDir = path.join(generatedDir, "clones");
 
 function normalizeAssetUrl(url) {

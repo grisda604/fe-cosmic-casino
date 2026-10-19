@@ -3,7 +3,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const casRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const manifestPath = path.join(casRoot, "src", "lib", "generated", "clone-manifest.json");
+const manifestPath = path.join(casRoot, "src", "legacy", "lib", "generated", "clone-manifest.json");
 const phantomRoot = path.join(casRoot, "src", "app", "(phantom)");
 const generatedMarker = "@generated-phantom-page";
 
@@ -88,7 +88,7 @@ function main() {
   }
 
   fs.writeFileSync(
-    path.join(casRoot, "src", "lib", "generated", "phantom-page-routes.json"),
+    path.join(casRoot, "src", "legacy", "lib", "generated", "phantom-page-routes.json"),
     JSON.stringify({ generatedAt: new Date().toISOString(), pathnames }, null, 2)
   );
 

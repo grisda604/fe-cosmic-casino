@@ -1,8 +1,21 @@
 @import "tailwindcss";
+@import "../styles/lotto-theme.css";
+@import "../styles/bblotto-header.css";
+@import "../styles/lotto-ui-compat.css";
+@import "../styles/themes.css";
+@import "../styles/lotto-themes-bridge.css";
+@import "../styles/lotto-floating-actions.css";
+@import "../styles/lottery-hub.css";
+@import "../styles/lottery-glass.css";
+@import "../styles/lottery-typography.css";
+@import "../styles/lottery-art.css";
+@import "../styles/gaming-lobby.css";
+@import "../styles/motion.css";
+@import "../styles/motion-glass.css";
 
-/* พื้นฐาน Next — UI หลักที่ / มาจาก Nuxt; polish สีอยู่ที่ /phantom/theme-polish.css */
-html,
-body {
-  margin: 0;
-  padding: 0;
+/* ฟอนต์เดียวทั้งโปรเจค: Noto Sans (ไทย+ละติน) — ตัด mono/serif ออก น้ำหนักสูงสุด semibold (600) */
+@theme inline {
+  --font-sans: var(--font-noto), "Noto Sans Thai", "Noto Sans", system-ui, sans-serif;
+  --font-mono: var(--font-noto), "Noto Sans Thai", "Noto Sans", system-ui, sans-serif;
+  --font-serif: var(--font-noto), "Noto Sans Thai", "Noto Sans", system-ui, sans-serif;
 }
