@@ -53,7 +53,7 @@ function CouponModalBody({ onClose, state }: { onClose: () => void; state: "open
 
       <div
         data-state={state}
-        className="lotto-overlay-panel lotto-overlay-panel--modal overlay-theme relative z-10 w-full max-w-[380px] rounded-3xl border border-white/10 bg-[var(--BG-Surface-Darker)] p-5 text-[var(--text-on-light)] shadow-[var(--shadow-soft)] sm:p-6"
+        className="lotto-overlay-panel lotto-overlay-panel--modal overlay-theme relative z-10 w-full max-w-[380px] rounded-3xl border border-white/10 bg-[var(--BG-Surface-Darker)] p-5 text-[var(--text-on-light)] sm:p-6"
         role="dialog"
         aria-modal="true"
         aria-labelledby="coupon-modal-title"
@@ -99,7 +99,7 @@ function CouponModalBody({ onClose, state }: { onClose: () => void; state: "open
                 placeholder={t("coupon.codePlaceholder")}
                 autoFocus
                 maxLength={COUPON_CODE_MAX_LENGTH}
-                className="h-12 w-full rounded-xl border border-white/10 bg-[var(--BG-Surface-Normal)] px-4 font-sans text-[15px] font-semibold uppercase tracking-wider text-[var(--text-on-light)] placeholder:normal-case placeholder:text-[var(--text-muted)] focus:outline-none focus:ring-2 focus:ring-[var(--brand)]/40"
+                className="h-12 w-full rounded-xl border border-white/10 soft-panel-bg px-4 font-sans text-[15px] font-semibold uppercase tracking-wider text-[var(--text-on-light)] placeholder:normal-case placeholder:text-[var(--text-muted)] focus:outline-none focus:ring-2 focus:ring-[var(--brand)]/40"
               />
             </div>
           </div>

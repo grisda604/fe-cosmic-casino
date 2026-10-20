@@ -48,8 +48,8 @@
   },
   "mobile": {
     "expires": "Ends {date}",
-    "readTerms": "Read Terms",
-    "readTermsAria": "{title} — Read terms"
+    "readTerms": "Read promotion details",
+    "readTermsAria": "{title} — Read promotion details"
   },
   "my": {
     "tab": "My Promotions",

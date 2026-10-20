@@ -1,0 +1,139 @@
+/* การ์ด hub — รูป 3D ขวา · ชื่อซ้าย (lobby-hub-menu-card ของ glass) */
+/* แผงขวา: หัวแผง + การ์ด hub คอลัมน์เดียว (เหมือนแผง General Chat ในภาพอ้างอิง) */
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  border-radius: var(--ui-radius-card);
+  border: 1px solid var(--ui-stroke);
+  background: var(--BG-Surface-Normal, #222226);
+}
+
+.panelHead {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0 2px;
+  color: var(--Text-Icon-Title);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.panelDot {
+  width: 8px;
+  height: 8px;
+  border-radius: var(--ui-radius-pill);
+  background: var(--Main-Primary);
+}
+
+.rail {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* มือถือ: แถวเลื่อนข้าง ซ่อน scrollbar */
+.strip {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 0 2px;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+}
+
+.strip::-webkit-scrollbar {
+  display: none;
+}
+
+.hubCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 3.5rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0.35rem 0.5rem 0.35rem 0.75rem;
+  border: 0;
+  border-radius: 12px;
+  background: var(--BG-Surface-Darker, #18181b);
+  color: var(--ink, #fff);
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    filter 150ms ease,
+    transform 150ms ease;
+}
+
+.rail .hubCard {
+  height: 4rem;
+}
+
+.strip .hubCard {
+  flex: 0 0 8.5rem;
+  width: 8.5rem;
+  height: 3.25rem;
+  scroll-snap-align: start;
+}
+
+.hubCard:hover {
+  filter: brightness(1.08);
+}
+
+.hubCard:active {
+  transform: scale(0.98);
+}
+
+.hubBg {
+  object-fit: cover;
+  object-position: 100% 50%;
+  transform: scale(0.96);
+  transform-origin: center right;
+  pointer-events: none;
+}
+
+.hubTitle {
+  position: relative;
+  z-index: 1;
+  max-width: 58%;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  text-shadow: none;
+}
+
+/* ธีมสว่าง: การ์ดเป็นเทาอ่อน + ตัวหนังสือเข้ม */
+:global(html[data-mode="light"]) :is(.panel, .hubCard) {
+  --ink: #1b2230;
+}
+
+/* ธีมสว่าง: แผงเทาอ่อน (#e6e9ee) · การ์ดขาว · hover/active = พื้นสีธีม ตัวหนังสือขาว */
+:global(html[data-mode="light"]) .panel {
+  background: #e6e9ee;
+}
+
+:global(html[data-mode="light"]) .hubCard {
+  background: #ffffff;
+}
+
+:global(html[data-mode="light"]) .hubCard:is(:hover, :focus-visible, :active) {
+  background: var(--ui-theme);
+  filter: none;
+}
+
+:global(html[data-mode="light"]) .hubCard:is(:hover, :focus-visible, :active) .hubTitle {
+  color: var(--ui-on-theme);
+}
+
+:global(html[data-mode="light"]) .hubTitle {
+  text-shadow: none;
+}
+
+/* ธีมสว่าง: การ์ดเมนูด่วนแถวเลื่อน (มือถือ) วางบนพื้นขาว → ใช้เทาไล่เฉดเข้มกว่าพื้น ให้เห็นขอบการ์ดชัด (การ์ดใน rail desktop ยังขาวบนแผงเทา) */
+:global(html[data-mode="light"]) .strip .hubCard {
+  background: linear-gradient(180deg, #f2f4f7 0%, #d5dae2 100%);
+}

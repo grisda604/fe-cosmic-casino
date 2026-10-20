@@ -137,7 +137,7 @@ export function VipRankEmblem({
       <div
         className={`relative flex ${dim} items-center justify-center ${
           inactive ? "opacity-45 grayscale-[0.85]" : ""
-        } ${playing && !inactive ? "drop-shadow-[0_4px_16px_rgba(255,209,92,0.25)]" : ""}`}
+        } ${playing && !inactive ? "" : ""}`}
         aria-hidden="true"
       >
         <StackedAlphaVideo
@@ -161,7 +161,7 @@ export function VipRankEmblem({
       <div
         className={`relative flex ${dim} items-center justify-center ${
           inactive ? "opacity-45 grayscale-[0.85]" : ""
-        } ${playing && !inactive ? "drop-shadow-[0_4px_16px_rgba(255,209,92,0.25)]" : ""}`}
+        } ${playing && !inactive ? "" : ""}`}
         aria-hidden="true"
       >
         <video
@@ -199,7 +199,7 @@ export function VipRankEmblem({
       <svg
         viewBox="0 0 100 100"
         className={`absolute inset-0 h-full w-full ${
-          inactive ? "" : "drop-shadow-[0_4px_16px_rgba(255,209,92,0.35)]"
+          inactive ? "" : ""
         }`}
       >
         <polygon
@@ -218,7 +218,7 @@ export function VipRankEmblem({
       </svg>
       <span
         className={`${gem} rounded-full bg-gradient-to-br from-amber-100 via-[#ffd15c] to-amber-600 ${
-          inactive ? "shadow-none" : "shadow-[0_0_12px_rgba(255,209,92,0.6)]"
+          inactive ? "shadow-none" : ""
         }`}
       />
       {inactive && lockLg && (

@@ -105,7 +105,7 @@ function LossRebateSections({
             aria-label={t("lossRebate.selectMonth")}
             value={monthId}
             onChange={(event) => handleMonthChange(event.target.value)}
-            className="h-9 rounded-[var(--radius-soft-sm)] border-0 bg-[var(--soft-card-elevated)] px-3 text-xs font-semibold text-[var(--text-on-light)] outline-none"
+            className="h-9 rounded-[var(--radius-soft-sm)] border-0 soft-card-bg px-3 text-xs font-semibold text-[var(--text-on-light)] outline-none"
           >
             {lossRebate.months.map((option) => (
               <option key={option.id} value={option.id}>
@@ -178,7 +178,7 @@ function LossRebateSections({
           className="flex w-full cursor-pointer items-center gap-2.5 border-0 bg-transparent px-4 py-3.5 text-left transition-colors hover:bg-[var(--brand-soft)]"
           aria-expanded={termsOpen}
         >
-          <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[var(--soft-card-elevated)] text-xs font-semibold text-[var(--text-muted)]">
+          <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full soft-card-bg text-xs font-semibold text-[var(--text-muted)]">
             i
           </span>
           <span className="flex-1 text-sm font-semibold text-[var(--text-on-light)]">{t("lossRebate.termsTitle")}</span>
@@ -206,7 +206,7 @@ function LossRebateSections({
 
 function FormulaCell({ label, value }: { label: string; value: string }) {
   return (
-    <div className="flex min-w-0 flex-1 flex-col items-center gap-1 rounded-[var(--radius-soft-sm)] bg-[var(--soft-card-elevated)] px-2 py-3 text-center">
+    <div className="flex min-w-0 flex-1 flex-col items-center gap-1 rounded-[var(--radius-soft-sm)] soft-card-bg px-2 py-3 text-center">
       <span className="text-[11px] text-[var(--text-muted)] sm:text-xs">{label}</span>
       <span className={toneClass("emphasis", "text-sm sm:text-base")}>{value}</span>
     </div>

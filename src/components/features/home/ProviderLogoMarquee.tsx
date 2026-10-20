@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { SectionHeader } from "@/components/ui/SectionHeader";
 import Link from "@/lib/i18n/navigation";
 import { useT } from "@/lib/i18n/I18nProvider";
 
@@ -40,7 +41,7 @@ export function ProviderLogoMarquee() {
         <Link
           key={`${groupKey}-${item.id}`}
           href={item.href}
-          className="provider-logo-marquee__link flex h-10 w-[clamp(6.25rem,13vw,9.5rem)] shrink-0 items-center justify-center"
+          className="provider-logo-marquee__link flex h-14 w-[clamp(7rem,13vw,9.5rem)] shrink-0 items-center justify-center rounded-[var(--ui-radius-tile)] border border-[var(--ui-stroke)] bg-[var(--ui-gray)] px-3"
           aria-label={t("providers.logoAriaLabel", { name: item.name })}
           tabIndex={ariaHidden ? -1 : undefined}
         >
@@ -58,8 +59,9 @@ export function ProviderLogoMarquee() {
   );
 
   return (
-    <section className="motion-reveal w-full min-w-0 max-w-full overflow-hidden py-2" aria-label={t("providers.marqueeAriaLabel")}>
-      <div className="provider-logo-marquee relative w-full overflow-hidden py-2">
+    <section className="motion-reveal flex w-full min-w-0 max-w-full flex-col gap-2.5 overflow-hidden" aria-label={t("providers.marqueeAriaLabel")}>
+      <SectionHeader title="ค่ายเกม" icon="/assets/3d/menuicon/information.avif" />
+      <div className="provider-logo-marquee relative w-full overflow-hidden">
         <div className="provider-logo-marquee__track flex">
           {renderGroup("a")}
           {renderGroup("b", true)}

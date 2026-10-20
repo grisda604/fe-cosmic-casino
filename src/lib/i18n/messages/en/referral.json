@@ -82,6 +82,7 @@
     "paginationAriaLabel": "Bonus history pages"
   },
   "users": {
+    "username": "Username",
     "registeredAt": "Joined",
     "empty": "No friends have signed up with your link yet",
     "paginationAriaLabel": "Friends list pages"

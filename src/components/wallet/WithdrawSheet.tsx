@@ -116,7 +116,7 @@ export function WithdrawSheet({ onClose, onCompleted }: WithdrawSheetProps) {
                 </span>
                 <span className={`${WALLET_HINT} mt-0.5 block truncate`}>{bank.holderLabel}</span>
               </span>
-              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[var(--Card-Normal)] text-[var(--text-muted)]">
+              <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full soft-card-bg text-[var(--text-muted)]">
                 <ChevronRight className="h-4 w-4" />
               </span>
             </button>

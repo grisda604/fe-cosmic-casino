@@ -113,7 +113,7 @@ export function CashbackInsightPeriodTabs({ activeId, onSelect }: CashbackInsigh
   const t = useT("cashback");
   return (
     <div
-      className="grid grid-cols-4 gap-1.5 rounded-[var(--radius-soft-sm)] bg-[var(--soft-card-elevated)] p-1.5"
+      className="grid grid-cols-4 gap-1.5 rounded-[var(--radius-soft-sm)] soft-card-bg p-1.5"
       role="group"
       aria-label={t("periods.ariaLabel")}
     >

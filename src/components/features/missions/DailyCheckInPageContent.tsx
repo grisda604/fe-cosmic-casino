@@ -110,8 +110,8 @@ function DailyCheckInView({ checkIn }: { checkIn: CheckInData }) {
                 isToday
                   ? "cursor-pointer bg-[var(--brand-soft)] ring-2 ring-[var(--brand)]"
                   : isClaimed
-                    ? "border border-white/10 bg-[var(--soft-card)]"
-                    : "bg-[var(--soft-card-elevated)]"
+                    ? "border border-white/10 soft-panel-bg"
+                    : "soft-card-bg"
               }`}
             >
               <p className="text-[var(--text-muted)]">{t(item.labelKey)}</p>

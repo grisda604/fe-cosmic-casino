@@ -1,0 +1,163 @@
+.card {
+  --tone: var(--Main-Primary);
+  position: relative;
+  display: flex;
+  min-width: 0;
+  overflow: hidden;
+  border-radius: var(--ui-radius-card);
+  border: 1px solid var(--ui-stroke);
+  background:
+    radial-gradient(120% 140% at 100% 50%, color-mix(in srgb, var(--tone) 22%, transparent), transparent 62%),
+    linear-gradient(180deg, var(--BG-Surface-Normal), var(--BG-Surface-Darker));
+  color: var(--Text-Icon-Title);
+  text-decoration: none;
+}
+
+.card:hover {
+  filter: brightness(1.1);
+}
+
+.gold {
+  --tone: var(--Main-Primary);
+}
+.blue {
+  --tone: #3b82f6;
+}
+.purple {
+  --tone: #a855f7;
+}
+.orange {
+  --tone: #f97316;
+}
+
+.lg {
+  min-height: 132px;
+}
+
+.md {
+  min-height: 104px;
+}
+
+.body {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  max-width: 62%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  padding: 14px 14px 14px 16px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.md .title {
+  font-size: 15px;
+}
+
+.desc {
+  color: var(--Text-Icon-Body);
+  font-size: 12px;
+  line-height: 1.45;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.chips {
+  display: none;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.chip {
+  padding: 2px 10px;
+  border-radius: var(--ui-radius-pill);
+  border: 1px solid var(--ui-stroke);
+  color: var(--Text-Icon-Body);
+  font-size: 11px;
+}
+
+/* ปุ่มลูกศรกลมมุมซ้ายล่าง */
+.go {
+  display: inline-flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  border-radius: var(--ui-radius-pill);
+  border: 1px solid var(--ui-stroke);
+  background: color-mix(in srgb, #fff 8%, transparent);
+  color: var(--Text-Icon-Title);
+  transition:
+    background 150ms ease,
+    color 150ms ease;
+}
+
+.card:hover .go {
+  background: var(--Main-Primary);
+  color: var(--btn-text);
+}
+
+.art {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 46%;
+  pointer-events: none;
+}
+
+.artImg {
+  object-fit: contain;
+  object-position: 100% 50%;
+  padding: 8px 8px 8px 0;
+  filter: none;
+}
+
+@media (min-width: 1024px) {
+  .chips {
+    display: flex;
+  }
+
+  .lg {
+    min-height: 148px;
+  }
+}
+
+/* ธีมสว่าง: การ์ดรายละเอียดพื้นสีธีม ตัวหนังสือขาว */
+:global(html[data-mode="light"]) .card {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--ui-theme) 88%, #fff) 0%,
+    var(--ui-theme) 100%
+  );
+  color: var(--ui-on-theme);
+}
+
+:global(html[data-mode="light"]) .desc {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+:global(html[data-mode="light"]) :is(.chip) {
+  color: rgba(255, 255, 255, 0.85);
+  background: rgba(255, 255, 255, 0.14);
+}
+
+:global(html[data-mode="light"]) .go {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--ui-on-theme);
+}
+
+:global(html[data-mode="light"]) .card:hover .go {
+  background: #fff;
+  color: var(--ui-theme);
+}

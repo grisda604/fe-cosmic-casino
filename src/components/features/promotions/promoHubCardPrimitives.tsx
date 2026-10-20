@@ -16,7 +16,7 @@ export function PromoHubPillLabel({ label }: { label: string }) {
 /** การ์ดโปรโมชัน / กิจกรรม — พื้นการ์ดมืด ขอบ white/10 */
 export function promoCardButtonClass(extra?: string) {
   return [
-    "relative block w-full overflow-hidden rounded-2xl border border-white/10 bg-[var(--Card-Normal)] text-left",
+    "relative block w-full overflow-hidden rounded-2xl border border-white/10 soft-card-bg text-left",
     "cursor-pointer transition-[transform,border-color] duration-200 hover:border-[var(--Main-Primary)]/40 active:scale-[0.995]",
     extra ?? "",
   ]

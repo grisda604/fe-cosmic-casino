@@ -25,7 +25,7 @@
   );
   border-radius: 20px 20px 0 0;
   bottom: 0;
-  box-shadow: 0 -1px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: none;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   height: 64px;
@@ -109,4 +109,17 @@
   height: 100%;
   object-fit: contain;
   width: 100%;
+}
+
+/* ธีมมืดเรียบ (phantom/cosmic + navy): ไล่เฉดชัดขึ้น — บนอ่อน (ขาว 14%) → ล่างเข้ม · ปุ่มนูนกลาง (::before) ใช้สีบนเดียวกันให้ต่อเนื่อง */
+:global(html:not([data-mode="light"]):is(:not([data-theme]), [data-theme="cosmic"], [data-theme="navy"])) .menu {
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, #fff 14%, var(--BG-Surface-Darker, #2a0607)) 0%,
+    var(--BG-Surface-Lighter, #610000) 100%
+  );
+}
+
+:global(html:not([data-mode="light"]):is(:not([data-theme]), [data-theme="cosmic"], [data-theme="navy"])) .menu::before {
+  background: color-mix(in srgb, #fff 14%, var(--BG-Surface-Darker, #2a0607));
 }

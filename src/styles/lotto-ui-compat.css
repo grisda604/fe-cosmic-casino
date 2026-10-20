@@ -3,7 +3,12 @@
  * map เข้ากับ token ธีมมืด-ทองของ lotto (styles/lotto-theme.css) — หน้าตาจึงเป็นของ lotto
  * ไม่ใช้กับ component หน้าแรกเดิม (components/lotto/*) ซึ่งใช้ token ของตัวเอง
  */
+/* พื้นผิวไล่เฉดบน→ล่าง (ขาว 8% ทับฐาน → ดำ 8% ทับฐาน) — ใช้ผ่าน utility soft-panel / soft-card / soft-tab ทุกที่ */
 :root {
+  --grad-panel: linear-gradient(180deg, color-mix(in srgb, #fff 8%, var(--soft-card)) 0%, color-mix(in srgb, #000 8%, var(--soft-card)) 100%);
+  --grad-card: linear-gradient(180deg, color-mix(in srgb, #fff 9%, var(--soft-card-elevated)) 0%, color-mix(in srgb, #000 7%, var(--soft-card-elevated)) 100%);
+  --grad-modal: linear-gradient(180deg, color-mix(in srgb, #fff 7%, var(--BG-Surface-Darker)) 0%, color-mix(in srgb, #000 8%, var(--BG-Surface-Darker)) 100%);
+
   --soft-canvas: var(--body);
   --soft-surface: var(--BG-Surface-Darker);
   --soft-card: var(--BG-Surface-Normal);
@@ -30,16 +35,16 @@
 }
 
 @utility soft-panel {
-  background-color: var(--soft-card);
+  background: var(--grad-panel);
   border-radius: var(--radius-soft-lg);
-  box-shadow: var(--shadow-soft-sm);
+  box-shadow: none;
   color: var(--text-on-light);
 }
 
 @utility soft-card {
-  background-color: var(--soft-card-elevated);
+  background: var(--grad-card);
   border-radius: var(--radius-soft-md);
-  box-shadow: var(--shadow-soft-sm);
+  box-shadow: none;
   color: var(--text-on-light);
 }
 
@@ -96,10 +101,10 @@
 
 /* พื้นผิว modal / bottom sheet — ทึบ ใช้ token ของ lotto */
 @utility modal-surface {
-  background: var(--BG-Surface-Darker);
+  background: var(--grad-modal);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: var(--radius-soft-md);
-  box-shadow: var(--shadow-soft-sm);
+  box-shadow: none;
   color: var(--text-on-light);
 }
 
@@ -108,17 +113,30 @@
 }
 
 @utility soft-card-dark {
-  background: var(--BG-Surface-Darker);
+  background: var(--grad-modal);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: var(--radius-soft-md);
-  box-shadow: var(--shadow-soft-sm);
+  box-shadow: none;
   color: var(--text-on-light);
 }
 
 @utility soft-panel-bg {
-  background: var(--BG-Surface-Normal);
+  background: var(--grad-panel);
 }
 
 @utility soft-card-bg {
-  background: var(--Card-Normal);
+  background: var(--grad-card);
+}
+
+/* แท็บ: ไม่ active = พื้นไล่เฉด (ไม่มีขอบ) · active = ไล่เฉดทอง/สีปุ่มของธีม */
+@utility soft-tab {
+  background: var(--grad-card);
+  color: var(--text-on-light);
+  border: 0;
+}
+
+@utility soft-tab-active {
+  background: linear-gradient(180deg, var(--btn-gradient1) 0%, var(--btn-gradient2) 100%);
+  color: var(--btn-text);
+  border: 0;
 }

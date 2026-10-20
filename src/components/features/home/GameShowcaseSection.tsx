@@ -1,15 +1,15 @@
-import Image from "next/image";
-import Link from "@/lib/i18n/navigation";
+import { SectionHeader } from "@/components/ui/SectionHeader";
 import type { LobbyGameItem } from "@/lib/lotto/load-lobby-games";
 import { LobbyGameCard } from "./LobbyGameCard";
 import {
   LottoCarouselSlide,
   LottoPeekCarousel,
 } from "./LottoPeekCarousel";
-import styles from "./showcase.module.css";
+import showcase from "./showcase.module.css";
 
 type Props = {
   title: string;
+  /** ไอคอน 3D ของหัว section (public/assets/3d/menuicon/*) */
   iconSrc: string;
   items: LobbyGameItem[];
   cardVariant?: "tall" | "wide";
@@ -21,12 +21,14 @@ type Props = {
   viewAllHref?: string;
 };
 
-/** ปลายทางปุ่ม «ดูทั้งหมด» เริ่มต้นตามหัวข้อ section (LottoHomeContent ไม่ส่ง viewAllHref) */
+/** ปลายทางปุ่ม «ดูทั้งหมด» เริ่มต้นตามหัวข้อ section */
 const DEFAULT_VIEW_ALL_HREF: Record<string, string> = {
   "คาสิโนออนไลน์": "/casino",
   "สล็อตออนไลน์": "/slots",
+  "กีฬาออนไลน์": "/sport",
 };
 
+/** แถวเกมของ lobby — หัวมาตรฐาน (ไอคอน · ชื่อ · ดูทั้งหมด · ลูกศร) + แถวการ์ด (design.md §5.2, §5.5) */
 export function GameShowcaseSection({
   title,
   iconSrc,
@@ -38,50 +40,31 @@ export function GameShowcaseSection({
   viewAllHref,
 }: Props) {
   if (items.length === 0) return null;
-  const allHref = viewAllHref ?? DEFAULT_VIEW_ALL_HREF[title];
+  const allHref = showViewAll ? (viewAllHref ?? DEFAULT_VIEW_ALL_HREF[title]) : undefined;
 
-  const cards = items.map((item, index) => (
-    <LottoCarouselSlide key={item.id}>
-      <LobbyGameCard
-        index={index}
-        item={item}
-        variant={cardVariant}
-        layout={carousel ? "carousel" : "fixed"}
-      />
-    </LottoCarouselSlide>
-  ));
+  if (carousel) {
+    return (
+      <section className="motion-reveal">
+        <LottoPeekCarousel
+          ariaLabel={title}
+          mode="7grid"
+          heading={{ title, icon: iconSrc, viewAllHref: allHref }}
+        >
+          {items.map((item, index) => (
+            <LottoCarouselSlide key={item.id}>
+              <LobbyGameCard index={index} item={item} variant={cardVariant} layout="carousel" />
+            </LottoCarouselSlide>
+          ))}
+        </LottoPeekCarousel>
+      </section>
+    );
+  }
 
   return (
-    <section className={`${styles.section} motion-reveal`}>
-      <div className={styles.header}>
-        <div className={styles.headerLeft}>
-          <Image
-            src={iconSrc}
-            alt=""
-            width={40}
-            height={40}
-            className={styles.headerIcon}
-          />
-          <h2 className={styles.title}>{title}</h2>
-        </div>
-        {showViewAll ? (
-          allHref ? (
-            <Link href={allHref} className={styles.viewAll} style={{ textDecoration: "none" }}>
-              ดูทั้งหมด
-            </Link>
-          ) : (
-            <button type="button" className={styles.viewAll}>
-              ดูทั้งหมด
-            </button>
-          )
-        ) : null}
-      </div>
-      {carousel ? (
-        <LottoPeekCarousel ariaLabel={title} mode="7grid">
-          {cards}
-        </LottoPeekCarousel>
-      ) : (
-        <div className={styles.track}>{items.map((item, index) => (
+    <section className="motion-reveal flex flex-col gap-2.5">
+      <SectionHeader title={title} icon={iconSrc} viewAllHref={allHref} />
+      <div className={showcase.track}>
+        {items.map((item, index) => (
           <LobbyGameCard
             key={item.id}
             index={index}
@@ -89,8 +72,8 @@ export function GameShowcaseSection({
             variant={cardVariant}
             width={cardWidth ?? "22%"}
           />
-        ))}</div>
-      )}
+        ))}
+      </div>
     </section>
   );
 }

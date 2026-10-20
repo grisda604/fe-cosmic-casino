@@ -8,6 +8,7 @@ import {
   useState,
   type ReactNode,
 } from "react";
+import { SectionHeader } from "@/components/ui/SectionHeader";
 import styles from "./lotto-carousel.module.css";
 
 type Props = {
@@ -15,6 +16,8 @@ type Props = {
   ariaLabel: string;
   mode?: "2peek" | "4peek" | "7grid";
   compact?: boolean;
+  /** มี heading = หัว section มาตรฐาน + ลูกศรเลื่อนอยู่ในหัว (ไม่มี = ลูกศรลอยขอบแถว แบบเดิม) */
+  heading?: { title: string; icon?: string; viewAllHref?: string; id?: string };
 };
 
 function Chevron({ dir }: { dir: "left" | "right" }) {
@@ -36,6 +39,7 @@ export function LottoPeekCarousel({
   ariaLabel,
   mode = "4peek",
   compact,
+  heading,
 }: Props) {
   const trackRef = useRef<HTMLDivElement>(null);
   const [canPrev, setCanPrev] = useState(false);
@@ -67,24 +71,54 @@ export function LottoPeekCarousel({
     if (!el) return;
     const slide = el.querySelector<HTMLElement>(`.${styles.slide}`);
     const gap = 8;
-    const page = mode === "7grid" ? 7 : window.matchMedia("(min-width: 1024px)").matches ? 3 : mode === "2peek" ? 2 : 4;
+    const page = mode === "7grid" ? (window.matchMedia("(min-width: 1024px)").matches ? 5 : 3) : window.matchMedia("(min-width: 1024px)").matches ? 3 : mode === "2peek" ? 2 : 4;
     const step = slide
       ? slide.offsetWidth * page + gap * (page - 1)
       : el.clientWidth * 0.85;
     el.scrollBy({ left: dir * step, behavior: "smooth" });
   };
 
+  const prevBtn = (
+    <button
+      type="button"
+      className={`${styles.navBtn} ${heading ? styles.navInline : styles.navPrev}`}
+      aria-label="เลื่อนไปทางซ้าย"
+      disabled={!canPrev}
+      onClick={() => scrollByPage(-1)}
+    >
+      <Chevron dir="left" />
+    </button>
+  );
+  const nextBtn = (
+    <button
+      type="button"
+      className={`${styles.navBtn} ${heading ? styles.navInline : styles.navNext}`}
+      aria-label="เลื่อนไปทางขวา"
+      disabled={!canNext}
+      onClick={() => scrollByPage(1)}
+    >
+      <Chevron dir="right" />
+    </button>
+  );
+
   return (
-    <div className={styles.carouselWrap}>
-      <button
-        type="button"
-        className={`${styles.navBtn} ${styles.navPrev}`}
-        aria-label="เลื่อนไปทางซ้าย"
-        disabled={!canPrev}
-        onClick={() => scrollByPage(-1)}
-      >
-        <Chevron dir="left" />
-      </button>
+    <div className={`${styles.carouselWrap} ${heading ? styles.carouselWithHead : ""}`}>
+      {heading ? (
+        <SectionHeader
+          title={heading.title}
+          icon={heading.icon}
+          viewAllHref={heading.viewAllHref}
+          headingId={heading.id}
+          nav={
+            <>
+              {prevBtn}
+              {nextBtn}
+            </>
+          }
+        />
+      ) : (
+        prevBtn
+      )}
       <div
         ref={trackRef}
         className={`${styles.track} ${compact ? styles.trackCompact : ""} ${mode === "2peek" ? styles.trackMode2Peek : ""} ${mode === "7grid" ? styles.trackMode7Grid : ""}`}
@@ -95,15 +129,7 @@ export function LottoPeekCarousel({
       >
         {children}
       </div>
-      <button
-        type="button"
-        className={`${styles.navBtn} ${styles.navNext}`}
-        aria-label="เลื่อนไปทางขวา"
-        disabled={!canNext}
-        onClick={() => scrollByPage(1)}
-      >
-        <Chevron dir="right" />
-      </button>
+      {heading ? null : nextBtn}
     </div>
   );
 }

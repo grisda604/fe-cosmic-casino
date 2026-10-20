@@ -32,7 +32,7 @@ export function MyPromotionsPanel() {
 
   if (items.length === 0) {
     return (
-      <div className="flex flex-col items-center gap-3 rounded-2xl border border-white/10 bg-[var(--BG-Surface-Normal)] px-4 py-10 text-center">
+      <div className="flex flex-col items-center gap-3 rounded-2xl border border-white/10 soft-panel-bg px-4 py-10 text-center">
         <p className="text-base font-semibold text-[var(--Text-Icon-Title)]">{t("my.empty")}</p>
         <p className="text-sm text-[var(--Text-Icon-Body)]">{t("my.emptyDesc")}</p>
       </div>
@@ -66,7 +66,7 @@ function MyPromotionCard({ item }: { item: ClaimedPromotion }) {
   const expires = new Date(new Date(item.claimedAt).getTime() + targets.validDays * DAY_MS).toISOString();
 
   return (
-    <article className="h-full rounded-2xl border border-white/10 bg-[var(--Card-Normal)] p-3.5 sm:p-4">
+    <article className="h-full rounded-2xl border border-white/10 soft-card-bg p-3.5 sm:p-4">
       <header className="flex items-start justify-between gap-2">
         <h3 className="min-w-0 text-sm font-semibold leading-snug text-[var(--Text-Icon-Title)] sm:text-base">
           {item.title}

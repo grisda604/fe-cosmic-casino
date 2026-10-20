@@ -99,7 +99,7 @@ function ProfileAccountView({
             aria-selected={activeTab === id}
             onClick={() => selectTab(id)}
             className={`h-10 rounded-[var(--radius-soft-sm)] text-xs font-semibold sm:text-sm ${
-              activeTab === id ? "soft-btn-primary" : "border border-white/10 bg-[var(--soft-card)] text-[var(--text-on-light)]"
+              activeTab === id ? "soft-tab-active" : "soft-tab"
             }`}
           >
             {t(labelKey)}

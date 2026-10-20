@@ -50,6 +50,32 @@ export function HeroBanner() {
         ))}
       </div>
       {slides.length > 1 ? (
+        <div className={styles.arrows}>
+          {([-1, 1] as const).map((dir) => (
+            <button
+              key={dir}
+              type="button"
+              className={styles.arrow}
+              aria-label={dir === -1 ? "แบนเนอร์ก่อนหน้า" : "แบนเนอร์ถัดไป"}
+              onClick={() => {
+                pauseFor(12_000);
+                scrollToLogicalIndex((logicalIndex + dir + slides.length) % slides.length);
+              }}
+            >
+              <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden>
+                <path
+                  d={dir === -1 ? "M10 3L5 8L10 13" : "M6 3L11 8L6 13"}
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          ))}
+        </div>
+      ) : null}
+      {slides.length > 1 ? (
         <div className={styles.dots} role="tablist" aria-label="เลือกแบนเนอร์">
           {slides.map((slide, index) => (
             <button

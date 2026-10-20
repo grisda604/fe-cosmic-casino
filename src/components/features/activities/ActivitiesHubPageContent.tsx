@@ -27,7 +27,7 @@ function ActivityListCard({
       type="button"
       onClick={onSelect}
       aria-current={selected ? "true" : undefined}
-      className={`flex w-full gap-3 rounded-2xl border bg-[var(--Card-Normal)] p-3 text-left transition-colors hover:border-[var(--Main-Primary)]/40 ${
+      className={`flex w-full gap-3 rounded-2xl border soft-card-bg p-3 text-left transition-colors hover:border-[var(--Main-Primary)]/40 ${
         selected ? "border-[var(--Main-Primary)]" : "border-white/10"
       }`}
     >
@@ -69,7 +69,7 @@ function ActivitiesListView({ activities }: { activities: ActivityHubItem[] }) {
             type="button"
             onClick={() => setSelectedId(null)}
             aria-label={t("activities.closeDetail")}
-            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-[var(--BG-Surface-Normal)] text-[var(--Text-Icon-Title)] hover:bg-[var(--Card-Normal)]"
+            className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 soft-panel-bg text-[var(--Text-Icon-Title)] hover:bg-[var(--Card-Normal)]"
           >
             <X className="h-5 w-5" />
           </button>

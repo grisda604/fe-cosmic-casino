@@ -30,7 +30,7 @@
   border-radius: 9999px;
   background: var(--Card-Normal);
   color: var(--Main-Secondary);
-  box-shadow: var(--shadow-soft-sm);
+  box-shadow: none;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
   touch-action: manipulation;
@@ -62,4 +62,19 @@
   border: 2px solid var(--Card-Normal);
   border-radius: 9999px;
   background: #22c55e;
+}
+
+/* ธีมสว่าง: ปุ่มลอยพื้นขาว ขอบ+ไอคอนสีธีม (เดิมเป็นพื้นพาสเทลของธีมจนไอคอนจาง) */
+html[data-mode="light"] .lotto-fab__btn {
+  background: #fff;
+  border-color: var(--ui-theme);
+  color: var(--ui-theme);
+}
+
+html[data-mode="light"] .lotto-fab__btn:hover {
+  background: #eef0f3;
+}
+
+html[data-mode="light"] .lotto-fab__dot {
+  border-color: #fff;
 }

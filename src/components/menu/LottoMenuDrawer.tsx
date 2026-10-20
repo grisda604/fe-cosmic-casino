@@ -80,7 +80,7 @@ function MenuTileIcon({ tile, size }: { tile: MenuDialogTile; size: number }) {
   );
 }
 
-const CARD = "rounded-2xl border border-white/10 bg-[var(--BG-Surface-Normal)]";
+const CARD = "rounded-2xl border border-white/10 soft-panel-bg";
 
 /** ลำดับเข้าของแต่ละชิ้น (menu-enter-item ใน motion-glass.css) — เหมือน glass RightMenuDrawer */
 const enterStyle = (index: number) => ({ "--menu-enter-i": index }) as React.CSSProperties;
@@ -299,11 +299,11 @@ function LottoMenuDrawerContent({ state }: { state: "open" | "closed" }) {
     <div className="mx-auto flex w-full max-w-[440px] flex-col gap-2 px-3 pb-3 pt-11 md:hidden">
       {isAuthenticated ? (
         <div className="flex shrink-0 justify-center">
-          <span className="menu-enter-avatar rounded-full border-2 border-[var(--brand)]/70 p-0.5 shadow-[0_0_18px_color-mix(in_srgb,var(--brand)_35%,transparent)]">
+          <span className="menu-enter-avatar rounded-full border-2 border-[var(--brand)]/70 p-0.5">
             {profile.data ? (
               <UserAvatar profile={profile.data} size="lg" className="!h-11 !w-11 !rounded-full" />
             ) : (
-              <span className="block h-11 w-11 rounded-full bg-[var(--BG-Surface-Normal)]" aria-hidden />
+              <span className="block h-11 w-11 rounded-full soft-panel-bg" aria-hidden />
             )}
           </span>
         </div>
@@ -472,7 +472,7 @@ function LottoMenuDrawerContent({ state }: { state: "open" | "closed" }) {
         aria-modal="true"
         aria-label={t("drawer.title")}
         data-state={state}
-        className="lotto-menu-shell relative h-full w-full overflow-y-auto bg-[var(--BG-Surface-Darker)] text-[var(--text-on-light)] shadow-[var(--shadow-soft)] md:w-[400px] md:border-l md:border-white/10"
+        className="lotto-menu-shell relative h-full w-full overflow-y-auto bg-[var(--BG-Surface-Darker)] text-[var(--text-on-light)] md:w-[400px] md:border-l md:border-white/10"
         style={{
           backgroundImage:
             "radial-gradient(ellipse 80% 38% at 50% 0%, color-mix(in srgb, var(--brand) 14%, transparent), transparent 70%)",

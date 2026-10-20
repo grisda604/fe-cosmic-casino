@@ -1,28 +1,19 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-import dynamic from "next/dynamic";
+import { useEffect, useRef, useState, type FormEvent } from "react";
 import Image from "next/image";
-import { ChevronDown, Gift, Megaphone, Palette, Plus, RotateCcw } from "lucide-react";
-import Link, { useLocale } from "@/lib/i18n/navigation";
+import { Dices, Plus, Search, Ticket, Trophy } from "lucide-react";
+import Link, { usePathname, useRouter } from "@/lib/i18n/navigation";
 import { useT } from "@/lib/i18n/I18nProvider";
-import { LOCALE_LABELS } from "@/lib/i18n/config";
-import { LocaleFlag } from "@/components/i18n/LocaleFlag";
+import { NotificationBellButton } from "@/components/notifications/NotificationBellButton";
+import { useNotifications } from "@/components/notifications/NotificationProvider";
 import { useProfile } from "@/hooks/api/account";
 import { useLotterySlipFirstPage } from "@/hooks/api/lotterySlips";
-import { useLazyOverlayMount } from "@/hooks/useLazyOverlayMount";
 import { useAuthUI } from "@/context/AuthUIContext";
 import { useDeposit } from "@/context/DepositContext";
 import type { WalletSnapshot } from "@/lib/lotto/load-wallet-snapshot";
 import { BahtIcon } from "./BahtIcon";
 import { DevQuickLogin } from "./DevQuickLogin";
-
-const ThemePickerSheet = dynamic(() =>
-  import("@/components/theme/ThemePickerSheet").then((m) => m.ThemePickerSheet),
-);
-const LanguagePickerSheet = dynamic(() =>
-  import("@/components/i18n/LanguagePickerSheet").then((m) => m.LanguagePickerSheet),
-);
 
 type Props = {
   logoSrc: string;
@@ -32,12 +23,12 @@ type Props = {
 
 const PENDING_FILTER = { scope: "pending", market: "", result: "", range: "" } as const;
 
-/** กลุ่มขวาของคนที่ login — ชื่อ + ยอดเงิน · avatar · ปุ่มธีม · แผงโพยค้าง */
-function MemberCluster({ wallet, onOpenTheme }: { wallet: WalletSnapshot; onOpenTheme: () => void }) {
+/** กลุ่มขวาของคนที่ login — กระดิ่ง · โพยค้าง · ยอดเงิน+ฝาก · avatar (ภาพอ้างอิง) */
+function MemberCluster({ wallet }: { wallet: WalletSnapshot }) {
   const tNav = useT("nav");
   const tLottery = useT("lottery");
-  const tCommon = useT("common");
   const { openDeposit } = useDeposit();
+  const { openNotifications } = useNotifications();
   const profile = useProfile();
   const pending = useLotterySlipFirstPage(PENDING_FILTER, () => ({ scope: "pending" }));
   const pendingCount = pending.data?.summary.count ?? 0;
@@ -46,62 +37,43 @@ function MemberCluster({ wallet, onOpenTheme }: { wallet: WalletSnapshot; onOpen
 
   return (
     <>
-      <div className="dh-account">
-        <span className="dh-account__name">{name}</span>
-        <div className="dh-balance">
-          <button
-            type="button"
-            className="dh-balance__plus"
-            onClick={openDeposit}
-            aria-label={tNav("bottomNav.deposit")}
-            title={tNav("bottomNav.deposit")}
-          >
-            <Plus className="h-3 w-3" strokeWidth={3} aria-hidden="true" />
-          </button>
-          <BahtIcon />
-          <span className="dh-balance__value">{wallet.money}</span>
-        </div>
-      </div>
-
-      <Link href="/profile" className="dh-avatar" aria-label={name || undefined}>
-        {avatarUrl ? <Image src={avatarUrl} alt="" width={44} height={44} unoptimized /> : null}
-      </Link>
-
-      <button
-        type="button"
-        className="dh-hex"
-        onClick={onOpenTheme}
-        aria-label={tCommon("theme.fab")}
-        title={tCommon("theme.fab")}
-      >
-        <Palette className="h-4 w-4" aria-hidden="true" />
-      </button>
+      <NotificationBellButton className="dh-icon" onClick={openNotifications} />
 
       <Link
         href="/lottery/slips"
-        className="dh-ticket"
+        className="dh-icon"
         aria-label={pendingCount > 0 ? tLottery("hub.mySlipsPendingAria", { count: pendingCount }) : tLottery("hub.mySlipsAria")}
+        title={tLottery("hub.mySlips")}
       >
-        <span className="dh-ticket__coin">
-          {pendingCount > 99 ? "99+" : pendingCount}
-          <span className="dh-ticket__plus">
-            <Plus className="h-2.5 w-2.5" strokeWidth={3} aria-hidden="true" />
-          </span>
+        <Ticket className="h-5 w-5" aria-hidden="true" />
+        {pendingCount > 0 ? <span className="dh-icon__badge">{pendingCount > 99 ? "99+" : pendingCount}</span> : null}
+      </Link>
+
+      <div className="dh-wallet">
+        <span className="dh-wallet__coin" aria-hidden>
+          <BahtIcon />
         </span>
-        <span className="dh-ticket__text">
-          <span className="dh-ticket__title">
-            {tLottery("hub.mySlips")}
-          </span>
-          <span className="dh-ticket__sub">{tLottery("slips.tabs.pending")}</span>
-        </span>
+        <span className="dh-wallet__value">{wallet.money}</span>
+        <button
+          type="button"
+          className="dh-wallet__plus"
+          onClick={openDeposit}
+          aria-label={tNav("bottomNav.deposit")}
+          title={tNav("bottomNav.deposit")}
+        >
+          <Plus className="h-3.5 w-3.5" strokeWidth={3} aria-hidden="true" />
+        </button>
+      </div>
+
+      <Link href="/profile" className="dh-avatar" aria-label={name || tNav("header.profile")} title={name || undefined}>
+        {avatarUrl ? <Image src={avatarUrl} alt="" width={40} height={40} unoptimized /> : null}
       </Link>
     </>
   );
 }
 
-/** กลุ่มขวาของ guest — ปุ่มเข้าสู่ระบบ/สมัคร + ปุ่มธีม */
-function GuestCluster({ onOpenTheme }: { onOpenTheme: () => void }) {
-  const tCommon = useT("common");
+/** กลุ่มขวาของ guest — ปุ่มเข้าสู่ระบบ/สมัคร */
+function GuestCluster() {
   const { openLogin, openRegister } = useAuthUI();
   return (
     <>
@@ -112,34 +84,24 @@ function GuestCluster({ onOpenTheme }: { onOpenTheme: () => void }) {
       <button type="button" className="dh-auth" onClick={openRegister}>
         สมัครสมาชิก
       </button>
-      <button
-        type="button"
-        className="dh-hex"
-        onClick={onOpenTheme}
-        aria-label={tCommon("theme.fab")}
-        title={tCommon("theme.fab")}
-      >
-        <Palette className="h-4 w-4" aria-hidden="true" />
-      </button>
     </>
   );
 }
 
 /**
- * Header desktop (≥1024) — layout ตามภาพอ้างอิง SuperLotto (design.md §2.1):
- * ซ้าย = โลโก้ · ภาษา · ลิงก์เมนู / ขวา = ชื่อ+ยอดเงิน · avatar · ปุ่มธีม · เส้นคั่น · แผงโพยค้าง
+ * Header desktop (≥1024) ตามภาพอ้างอิง (design.md §5.9):
+ * ซ้าย = สวิตช์ คาสิโน/กีฬา + ช่องค้นหา · กลาง = โลโก้ · ขวา = กระดิ่ง · โพย · ยอดเงิน+ฝาก · avatar
  * mobile ใช้ header เดิมใน LottoSiteHeader (กลุ่มนี้ซ่อนด้วย CSS ต่ำกว่า 1024)
  */
 export function LottoDesktopHeader({ logoSrc, loggedIn, wallet }: Props) {
-  const t = useT("common");
   const tNav = useT("nav");
-  const locale = useLocale();
-  const [themeOpen, setThemeOpen] = useState(false);
-  const [langOpen, setLangOpen] = useState(false);
-  const themeMounted = useLazyOverlayMount(themeOpen);
-  const langMounted = useLazyOverlayMount(langOpen);
-  const openTheme = () => setThemeOpen(true);
+  const tHome = useT("home");
+  const router = useRouter();
+  const pathname = usePathname();
   const rootRef = useRef<HTMLDivElement>(null);
+  const [query, setQuery] = useState("");
+
+  const sportsActive = pathname === "/sport" || pathname.startsWith("/sport/");
 
   /** เริ่มเลื่อนหน้า → ตั้ง data-scrolled บน <header> เพื่อให้ CSS ใส่พื้นไล่เฉดสีธีม */
   useEffect(() => {
@@ -151,47 +113,52 @@ export function LottoDesktopHeader({ logoSrc, loggedIn, wallet }: Props) {
     return () => window.removeEventListener("scroll", update);
   }, []);
 
+  const onSearch = (event: FormEvent) => {
+    event.preventDefault();
+    const q = query.trim();
+    router.push(q ? `/slots?q=${encodeURIComponent(q)}` : "/slots");
+  };
+
   return (
     <div className="header-desktop" ref={rootRef}>
+      <div className="dh-inner">
       <div className="dh-left">
-        <Link href="/" className="dh-logo">
-          <Image src={logoSrc} alt="Phantom" width={1123} height={217} className="dh-logo__img" priority unoptimized />
-        </Link>
-
-        <button
-          type="button"
-          className="dh-lang"
-          onClick={() => setLangOpen(true)}
-          aria-label={t("languagePicker.title")}
-          title={t("languagePicker.title")}
-        >
-          <LocaleFlag locale={locale} className="h-5 w-5" />
-          <span>{LOCALE_LABELS[locale].short}</span>
-          <ChevronDown className="h-3.5 w-3.5 opacity-70" aria-hidden="true" />
-        </button>
-
-        <nav className="dh-nav">
-          <Link href="/promotions">
-            <Megaphone className="h-3.5 w-3.5" aria-hidden="true" />
-            {tNav("menu.promotions")}
+        <nav className="dh-seg" aria-label={tNav("header.mainCategories")}>
+          <Link href="/casino" className={`dh-seg__item ${sportsActive ? "" : "dh-seg__item--active"}`}>
+            <Dices className="h-4 w-4" aria-hidden="true" />
+            {tHome("categories.casino")}
           </Link>
-          <Link href="/cashback">
-            <RotateCcw className="h-3.5 w-3.5" aria-hidden="true" />
-            {tNav("menu.cashback")}
-          </Link>
-          <Link href="/activities">
-            <Gift className="h-3.5 w-3.5" aria-hidden="true" />
-            {tNav("menu.activities")}
+          <Link href="/sport" className={`dh-seg__item ${sportsActive ? "dh-seg__item--active" : ""}`}>
+            <Trophy className="h-4 w-4" aria-hidden="true" />
+            {tHome("categories.sports")}
           </Link>
         </nav>
+
+        <form className="dh-search" role="search" onSubmit={onSearch}>
+          <label htmlFor="dh-search-input" className="sr-only">
+            {tNav("header.searchLabel")}
+          </label>
+          <input
+            id="dh-search-input"
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={tNav("header.searchPlaceholder")}
+            autoComplete="off"
+            spellCheck={false}
+          />
+          <button type="submit" aria-label={tNav("desktop.searchGames")}>
+            <Search className="h-4 w-4" aria-hidden="true" />
+          </button>
+        </form>
       </div>
 
-      <div className="dh-right">
-        {loggedIn ? <MemberCluster wallet={wallet} onOpenTheme={openTheme} /> : <GuestCluster onOpenTheme={openTheme} />}
-      </div>
+      <Link href="/" className="dh-logo">
+        <Image src={logoSrc} alt="Phantom" width={1123} height={217} className="dh-logo__img" priority unoptimized />
+      </Link>
 
-      {themeMounted ? <ThemePickerSheet isOpen={themeOpen} onClose={() => setThemeOpen(false)} /> : null}
-      {langMounted ? <LanguagePickerSheet isOpen={langOpen} onClose={() => setLangOpen(false)} /> : null}
+      <div className="dh-right">{loggedIn ? <MemberCluster wallet={wallet} /> : <GuestCluster />}</div>
+      </div>
     </div>
   );
 }

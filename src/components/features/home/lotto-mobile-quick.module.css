@@ -1,49 +1,15 @@
+/* แถบหมวดเกม (มือถือ): พื้นสีอ่อนเต็มความกว้างจอ + sticky ใต้ header (top ตั้งจาก JS = ความสูง header) */
 .root {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+  position: sticky;
+  z-index: 30;
   margin-top: 0;
+  margin-inline: -12px; /* หักช่องไฟ 12px ของเปลือกหน้า → เต็มจอ */
+  padding: 4px 12px;
+  background: color-mix(in srgb, #fff 12%, var(--BG-Surface-Darker));
 }
 
-/* หมวดเกม 6 ช่อง — เลื่อนข้างได้เมื่อจอแคบ (ซ่อน scrollbar) */
-.categories {
-  display: flex;
-  gap: 8px;
-  overflow-x: auto;
-  padding: 0 2px;
-  scroll-snap-type: x proximity;
-  scrollbar-width: none;
-}
-
-.categories::-webkit-scrollbar {
-  display: none;
-}
-
-.menuItem {
-  flex: 1 0 0;
-  min-width: 56px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1px;
-  font-size: 11px;
-  color: var(--Text-Icon-Body);
-  padding: 3px 4px;
-  border-radius: 10px;
-  border: 1px solid transparent;
-  text-decoration: none;
-  scroll-snap-align: start;
-}
-
-.menuActive {
-  /* ไม่มีเส้นขอบ — พื้นอ่อนกว่าฉากหลังเล็กน้อย */
-  border-color: transparent;
-  background: color-mix(in srgb, #fff 10%, transparent);
-}
-
-.textGold {
-  color: var(--Main-Secondary);
-  font-weight: 600;
+:global(html[data-mode="light"]) .root {
+  background: color-mix(in srgb, #000 8%, var(--BG-Surface-Lighter));
 }
 
 /* ฝาก - ถอน / เข้าสู่ระบบ - สมัครสมาชิก เป็นแถวปุ่มคู่
@@ -112,5 +78,19 @@
   .panel + .root,
   .panel ~ .root {
     margin-top: 8px;
+  }
+}
+
+/* ธีมมืด: กล่องครอบแบนเนอร์ + ปุ่มฝาก/ถอน (มือถือ) เข้มกว่าพื้นหลังหน้าชัดเจน — พื้นหน้าสว่างขึ้นแล้ว (~#242227) กล่องนี้ใช้ดำผสมสีพื้นของธีม */
+@media (max-width: 1023px) {
+  :global(html:not([data-mode="light"])) .panel {
+    background: color-mix(in srgb, #000 42%, var(--BG-Surface-Darker, #110c18));
+  }
+}
+
+/* ธีมสว่าง: กล่องครอบแบนเนอร์ + ปุ่มฝาก/ถอน (มือถือ) เป็นเทาไล่เฉดที่เข้มกว่าพื้นขาวของหน้า — แยกจากพื้นหลังชัดเจน */
+@media (max-width: 1023px) {
+  :global(html[data-mode="light"]) .panel {
+    background: linear-gradient(180deg, #e2e5eb 0%, #cdd2db 100%);
   }
 }

@@ -51,7 +51,7 @@ export function StatusState({
   return (
     <section
       role="status"
-      className={`flex w-full max-w-sm flex-col items-center gap-3 rounded-2xl border border-white/10 bg-[var(--Card-Normal)] px-6 py-8 text-center ${className ?? ""}`}
+      className={`flex w-full max-w-sm flex-col items-center gap-3 rounded-2xl border border-white/10 soft-card-bg px-6 py-8 text-center ${className ?? ""}`}
     >
       {icon ? (
         <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[var(--BG-Surface-Darker)] text-[var(--Main-Primary)]">

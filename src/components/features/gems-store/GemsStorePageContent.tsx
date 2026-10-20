@@ -72,7 +72,7 @@ function GemsStoreView({
           <button
             type="button"
             onClick={() => setTermsOpen((open) => !open)}
-            className="h-10 w-full rounded-[var(--radius-soft-sm)] border border-white/10 bg-[var(--soft-card)] text-sm font-semibold text-[var(--text-on-light)]"
+            className="h-10 w-full rounded-[var(--radius-soft-sm)] border border-white/10 soft-panel-bg text-sm font-semibold text-[var(--text-on-light)]"
             aria-expanded={termsOpen}
           >
             {t("gemsStore.termsTitle")}

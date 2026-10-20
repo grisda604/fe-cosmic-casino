@@ -9,6 +9,7 @@ import type { ReferralUserRow } from "@/types/referral";
 import { useT } from "@/lib/i18n/I18nProvider";
 import { useFormat } from "@/lib/i18n/useFormat";
 import { ReferralPager } from "./ReferralPager";
+import { ReferralTable } from "./ReferralTable";
 
 /** แท็บเพื่อนที่แนะนำ — รายชื่อ + เปลี่ยนหน้า (10 แถว/หน้า) */
 export function ReferralUsersPanel() {
@@ -42,7 +43,7 @@ function ReferralUsersList({ users }: { users: ReferralUserRow[] }) {
     <div className="space-y-2">
       <div className="flex items-center justify-between gap-2">
         <h2 className="text-sm font-semibold text-[var(--text-on-light)]">{t("tabs.users")}</h2>
-        <span className="rounded-full border border-white/10 bg-[var(--soft-card)] px-2.5 py-0.5 text-xs font-semibold text-[var(--text-muted)]">
+        <span className="rounded-full border border-white/10 soft-panel-bg px-2.5 py-0.5 text-xs font-semibold text-[var(--text-muted)]">
           {fmt.people(total)}
         </span>
       </div>
@@ -50,16 +51,15 @@ function ReferralUsersList({ users }: { users: ReferralUserRow[] }) {
       {pageRows.length === 0 ? (
         <p className="soft-panel p-6 text-center text-sm text-[var(--text-muted)]">{t("users.empty")}</p>
       ) : (
-        <ul className="space-y-2">
-          {pageRows.map((row) => (
-            <li key={row.id} className="soft-card flex items-center justify-between gap-3 p-3 text-sm">
-              <span className="min-w-0 truncate font-semibold">{row.username}</span>
-              <span className="shrink-0 text-xs tabular-nums text-[var(--text-muted)]">
-                {t("users.registeredAt")} {formatReferralRegisteredAt(row.registeredAt)}
-              </span>
-            </li>
-          ))}
-        </ul>
+        <ReferralTable
+          caption={t("tabs.users")}
+          head={[t("users.username"), t("users.registeredAt")]}
+          rows={pageRows.map((row) => ({
+            id: row.id,
+            left: row.username,
+            right: formatReferralRegisteredAt(row.registeredAt),
+          }))}
+        />
       )}
 
       {total > 0 ? (

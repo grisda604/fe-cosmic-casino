@@ -53,7 +53,7 @@ export function WalletConfirmDialog({
         role="alertdialog"
         aria-labelledby="wallet-confirm-title"
         aria-describedby="wallet-confirm-desc"
-        className="lotto-overlay-panel lotto-overlay-panel--modal overlay-theme relative rounded-3xl border border-white/10 bg-[var(--BG-Surface-Darker)] text-[var(--text-on-light)] shadow-[var(--shadow-soft)] w-full max-w-[360px] p-5 sm:p-6"
+        className="lotto-overlay-panel lotto-overlay-panel--modal overlay-theme relative rounded-3xl border border-white/10 bg-[var(--BG-Surface-Darker)] text-[var(--text-on-light)] w-full max-w-[360px] p-5 sm:p-6"
         data-state={state}
         onClick={(e) => e.stopPropagation()}
       >
@@ -89,7 +89,7 @@ export function WalletConfirmDialog({
           ) : null}
         </div>
 
-        <div className="my-3 rounded-lg bg-[var(--BG-Surface-Normal)] p-3.5 text-xs sm:text-[13px]">
+        <div className="my-3 rounded-lg soft-panel-bg p-3.5 text-xs sm:text-[13px]">
           <div className="flex items-center justify-between text-[var(--text-muted)]">
             <span>{amountLabel}</span>
             <span className="font-sans text-base font-semibold text-[var(--brand)]">฿{amountDisplay}</span>
@@ -101,7 +101,7 @@ export function WalletConfirmDialog({
             type="button"
             disabled={loading}
             onClick={onClose}
-            className="h-11 flex-1 cursor-pointer rounded-lg border-0 bg-[var(--BG-Surface-Normal)] text-sm font-semibold text-[var(--text-on-light)] transition-colors hover:bg-[var(--Card-Normal)] disabled:opacity-50"
+            className="h-11 flex-1 cursor-pointer rounded-lg border-0 soft-panel-bg text-sm font-semibold text-[var(--text-on-light)] transition-colors hover:bg-[var(--Card-Normal)] disabled:opacity-50"
           >
             {tc("cancel")}
           </button>

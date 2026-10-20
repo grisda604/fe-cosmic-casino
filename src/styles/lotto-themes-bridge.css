@@ -93,6 +93,17 @@ html[data-theme]:not([data-theme="cosmic"]) :is(.lotto-site-header .header-shell
   --main-icon-1: #ffffff;
 }
 
+/* ธีมมืดเรียบ (phantom/cosmic + navy): สี chrome ใกล้กันจนดูเป็นพื้นแบนเดียว → header มือถือ + bottom nav ไล่เฉดชัดขึ้น
+ * บน = พื้นอ่อนขึ้น (ขาว 14% ทับ --BG-Surface-Darker) → ล่าง = --BG-Surface-Lighter · token มาจาก scope ด้านบน (ตามธีม) */
+@media (max-width: 1023px) {
+  html:not([data-mode="light"]):is(:not([data-theme]), [data-theme="cosmic"], [data-theme="navy"]) .lotto-site-header .header-shell {
+    background: linear-gradient(
+      180deg,
+      color-mix(in srgb, #fff 14%, var(--BG-Surface-Darker, #110c18)) 0%,
+      var(--BG-Surface-Lighter, #0c090f) 100%
+    );
+  }
+}
 /* ปุ่มหลักที่ hard-code ทองใน lotto-theme.css / lotto-ui-compat.css → ใช้สีปุ่มของธีม */
 html[data-theme]:not([data-theme="cosmic"]) :is(.btn-gold, .soft-btn-primary) {
   background: var(--action-gradient);
@@ -105,10 +116,10 @@ html[data-theme]:not([data-theme="cosmic"]) :is(.btn-outline-gold, .soft-btn-out
   border-color: var(--t-icon);
 }
 
-/* โหมดมืด (ทุกธีม): พื้นหลังหลังสุดอ่อนลงจากเดิม — ผสมขาว 7% ทับสีพื้นของธีม (cosmic ใช้ #060409) */
+/* โหมดมืด (ทุกธีม): พื้นหลังหลังสุด "สว่างกว่าการ์ด" — ผสมขาว 12% ทับสีพื้นของธีม (cosmic ใช้ #060409 → ~#242227) เดิม 7% เข้มใกล้เคียงการ์ด/แผงจนแยกชั้นไม่ชัด */
 html:not([data-mode="light"]) body,
 html:not([data-mode="light"]) .lotto-page {
-  background-color: color-mix(in srgb, #fff 7%, #060409);
+  background-color: color-mix(in srgb, #fff 12%, #060409);
 }
 
 html:not([data-mode="light"]) .lotto-page {
@@ -116,12 +127,12 @@ html:not([data-mode="light"]) .lotto-page {
 }
 
 html:not([data-mode="light"])[data-theme]:not([data-theme="cosmic"]) body {
-  background: color-mix(in srgb, #fff 7%, var(--cosmic-page-base));
+  background: color-mix(in srgb, #fff 12%, var(--cosmic-page-base));
 }
 
 html:not([data-mode="light"])[data-theme]:not([data-theme="cosmic"]) .lotto-page {
   background: radial-gradient(120% 80% at 50% -20%, color-mix(in srgb, var(--t-ga) 45%, transparent), transparent 55%),
-    color-mix(in srgb, #fff 7%, var(--cosmic-page-base));
+    color-mix(in srgb, #fff 12%, var(--cosmic-page-base));
 }
 
 /* ── Overlay (bottom sheet / modal / confirm dialog) โหมดมืด ───────────────────────────
@@ -146,9 +157,7 @@ html[data-mode="light"] .overlay-theme {
   --Card-Normal: rgba(255, 255, 255, 0.9);
   background: linear-gradient(160deg, #f7f8fa 0%, #dcdfe5 42%, #c7ccd4 62%, #e6e8ed 100%);
   border-color: rgba(255, 255, 255, 0.7);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.9),
-    0 18px 48px rgba(40, 46, 60, 0.28);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.9);
 }
 
 /* ── โหมดสว่าง: ตัวหนังสือบนพื้น active (--brand) เป็นสีขาวทุกจุด ─────────────────────────
@@ -165,4 +174,34 @@ html[data-mode="light"] .lotto-site-header .header-bell {
 html[data-mode="light"] .lotto-site-header .header-bell:hover {
   color: #fff;
   opacity: 0.8;
+}
+
+/* ── ธีมสว่าง (ทุกธีม): พื้นผิวเป็น "เทากลาง" แทนโทนพาสเทลของธีม ──────────────────────────
+ * token พื้นผิวที่คอมโพเนนต์ทั้งแอปอ่านตรง (--Card-Normal / --BG-Surface-Normal / --BG-Surface-Darker)
+ * เดิมได้ค่าพาสเทลจากสีธีม (ชมพูอ่อน ฯลฯ) → ตัวหนังสือ/ข้อมูลจางอ่านยาก · ที่นี่บังคับเป็นเทาอ่อนกลาง + ตัวหนังสือรองเข้มขึ้น
+ * ส่วน chrome (header / bottom nav / sidebar active / การ์ดเน้น) ยังใช้สีธีมเต็ม ผ่าน --t-ga / --ui-theme
+ * specificity สูงกว่ากฎ bridge ด้านบน (html[data-theme]:not(cosmic)) จึงทับได้โดยไม่ต้องแตะ themes.css */
+html[data-mode="light"][data-theme]:not([data-theme="cosmic"]),
+html[data-mode="light"]:not([data-theme]) {
+  --Card-Normal: #eef0f3;
+  --BG-Surface-Normal: #f4f5f7;
+  --BG-Surface-Darker: #eceef2;
+  --card-primary: #eef0f3;
+  --card-secondary: #eceef2;
+  --Text-Icon-Body: #4a5265;
+  --text-muted: #5b6475;
+}
+
+/* ── ธีมสว่าง: พื้นหลังหน้า = เทา gray-300 (#d1d5db) แทนขาวล้วน ─────────────────────────
+ * การ์ด/แผงสีขาวจึงแยกจากพื้นหลังได้ชัด · ตั้งทั้ง token (--cosmic-page-base / --body) และพื้นของ body/.lotto-page
+ * ใช้ attribute ซ้ำ 3 ครั้งให้ specificity เท่ากฎ html[data-mode=light][data-theme]:not(cosmic) ด้านบนแล้วอยู่ท้ายกว่า */
+html[data-mode="light"][data-mode="light"][data-mode="light"] {
+  --cosmic-page-base: #d1d5db;
+  --body: #d1d5db;
+  --soft-canvas: #d1d5db;
+}
+
+html[data-mode="light"][data-mode="light"][data-mode="light"] body,
+html[data-mode="light"][data-mode="light"][data-mode="light"] .lotto-page {
+  background: #d1d5db;
 }

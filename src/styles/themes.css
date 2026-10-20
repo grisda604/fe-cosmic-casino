@@ -1623,7 +1623,7 @@
 
 [data-theme]:not([data-theme="cosmic"]) .category-nav--mobile .category-nav__progress-bar {
   background: var(--line-tab-neon-gradient);
-  box-shadow: var(--line-tab-neon-glow);
+  box-shadow: none;
 }
 
 [data-mode="light"] .category-nav--mobile .category-nav__track {
@@ -1632,7 +1632,7 @@
 
 /* ---- ปุ่มลอย (FloatingActions) ---- */
 [data-mode="light"] .floating-actions__btn {
-  box-shadow: 0 4px 14px rgba(20, 24, 33, 0.22);
+  box-shadow: none;
 }
 
 /**
@@ -1739,7 +1739,7 @@
 [data-mode="light"] .category-nav--mobile .category-nav__pill.is-active {
   color: #111827 !important;
   background: #ffffff;
-  box-shadow: 0 1px 4px rgba(20, 24, 33, 0.18);
+  box-shadow: none;
 }
 
 /* ---- ธีมสว่าง: เมนูเต็มจอ — พื้นนอกเทาอ่อนเกือบขาว · กล่อง/การ์ดด้านในขาว · แถวในรายการเทาจางแยกชั้น ---- */
@@ -1751,7 +1751,7 @@
   --menu-text: #1b2230;
   --menu-muted: #6b7385;
   --menu-border: #d2d2db;
-  box-shadow: 0 24px 64px rgba(20, 24, 33, 0.16);
+  box-shadow: none;
 }
 
 [data-mode="light"] .menu-content--mobile-stack {
@@ -1800,7 +1800,7 @@
   color: #ffffff;
   --text-primary: #ffffff;
   --icon-default: #ffffff;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: none;
 }
 
 [data-theme]:not([data-theme="cosmic"]) .cosmic-footer :is(.glass-pill, .glass-control, nav > a):hover {
@@ -1933,7 +1933,7 @@
 @media (max-width: 1023px) {
   [data-mode="light"] .mobile-standalone-page .cosmic-segment-track {
     border-color: rgba(20, 24, 33, 0.08);
-    box-shadow: 0 1px 4px rgba(20, 24, 33, 0.1);
+    box-shadow: none;
     -webkit-backdrop-filter: none;
     backdrop-filter: none;
   }
@@ -2178,12 +2178,12 @@ html[data-mode="light"][data-theme]:not([data-theme="cosmic"]) .category-nav:not
 
 [data-mode="light"] .vip-modal:not(.hub-modal-shell) .vip-benefits-table__label-head {
   color: #ffffff;
-  box-shadow: 4px 0 8px rgba(20, 24, 33, 0.1);
+  box-shadow: none;
 }
 
 [data-mode="light"] .vip-modal:not(.hub-modal-shell) .vip-benefits-table__label {
   color: #2b2d33;
-  box-shadow: 4px 0 8px rgba(20, 24, 33, 0.06);
+  box-shadow: none;
 }
 
 [data-mode="light"] .vip-modal:not(.hub-modal-shell) .vip-benefits-table__value {
@@ -2420,7 +2420,7 @@ html[data-mode="light"][data-theme]:not([data-theme="cosmic"]) .category-nav:not
 /* ---- ธีมสว่าง: รายละเอียดโปรโมชั่น — การ์ดครอบมีขอบ+เงา แยกจากพื้นขาว ---- */
 [data-mode="light"] .promo-detail-page .promotion-detail-panel__unified-card {
   border: 1px solid #d7d7e0;
-  box-shadow: 0 6px 20px rgba(20, 24, 33, 0.12);
+  box-shadow: none;
 }
 
 /* ---- ธีมสว่าง: ร้านค้า Gems — accordion เงื่อนไข = สีธีม ตัวอักษรขาว ---- */

@@ -9,7 +9,7 @@ import { useT } from "@/lib/i18n/I18nProvider";
 import styles from "./bottom-nav.module.css";
 
 /**
- * เมนูล่างมือถือ: ฝาก · ถอน · [แทงหวย กลาง] · คืนยอด · ติดต่อ
+ * เมนูล่างมือถือ: ฝาก · ถอน · [เล่นเกม กลาง] · คืนยอด · ติดต่อ
  * ฝาก/ถอน เปิดหน้าต่างเดียวกับ sidebar (ถ้ายังไม่ล็อกอิน DepositProvider เปิดหน้าล็อกอินให้) · ติดต่อ = live chat ยังไม่เชื่อมต่อ → toast
  */
 export function BottomNavLotto({ loggedIn }: { loggedIn?: boolean }) {
@@ -43,14 +43,14 @@ export function BottomNavLotto({ loggedIn }: { loggedIn?: boolean }) {
           <Link href="/enterlotto" data-active={pathname.startsWith("/enterlotto")} className={`${styles.item} ${styles.center} motion-press`}>
             <div className={styles.badge}>
               <Image
-                src="/_nuxt/png/lottoFooter.D-kpI84T.png"
+                src="/assets/3d/chip.webp"
                 alt=""
                 width={70}
-                height={80}
+                height={70}
                 className={styles.badgeImg}
               />
             </div>
-            <span className={styles.label}>แทงหวย</span>
+            <span className={styles.label}>เล่นเกม</span>
           </Link>
 
           <Link href="/cashback" data-active={pathname.startsWith("/cashback")} className={`${styles.item} motion-press`}>

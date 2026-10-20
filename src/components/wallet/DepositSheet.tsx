@@ -187,7 +187,7 @@ export function DepositSheet({ onClose, onCompleted }: DepositSheetProps) {
                   <label htmlFor="deposit-amount" className={WALLET_LABEL}>
                     {t("deposit.bank.amountLabel")}
                   </label>
-                  <div className="mt-2 flex h-14 items-center rounded-xl border border-white/10 bg-[var(--Card-Normal)] focus-within:ring-2 focus-within:ring-[var(--brand)]/40">
+                  <div className="mt-2 flex h-14 items-center rounded-xl border border-white/10 soft-card-bg focus-within:ring-2 focus-within:ring-[var(--brand)]/40">
                     <span className="px-3 text-lg font-semibold text-[var(--brand)]">฿</span>
                     <input
                       id="deposit-amount"
@@ -349,7 +349,7 @@ function CopyButton({ copied, onCopy }: { copied: boolean; onCopy: () => void })
     <button
       type="button"
       onClick={onCopy}
-      className="flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full border-0 bg-[var(--Card-Normal)] text-[var(--brand)] transition-all hover:bg-[var(--brand-soft)] active:scale-95"
+      className="flex h-8 w-8 shrink-0 cursor-pointer items-center justify-center rounded-full border-0 soft-card-bg text-[var(--brand)] transition-all hover:bg-[var(--brand-soft)] active:scale-95"
       aria-label={t("shared.copyAccountNumber")}
     >
       {copied ? <Check className="h-4 w-4 text-emerald-400" /> : <Copy className="h-4 w-4" />}

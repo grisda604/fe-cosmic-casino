@@ -26,7 +26,7 @@ export function choiceBtn(active: boolean, className?: string) {
     "cursor-pointer rounded-xl border-0 text-xs font-semibold transition-all",
     active
       ? "bg-[var(--brand)] text-[#2a0607]"
-      : "bg-[var(--Card-Normal)] text-[var(--text-on-light)] hover:bg-[var(--brand-soft)]",
+      : "soft-card-bg text-[var(--text-on-light)] hover:bg-[var(--brand-soft)]",
     className,
   );
 }

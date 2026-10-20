@@ -3,8 +3,38 @@
   margin-top: 8px;
   position: relative;
   overflow: hidden;
-  border-radius: 12px;
+  border-radius: var(--ui-radius-card);
   background: var(--BG-Surface-Darker);
+  box-shadow: none;
+}
+
+/* ลูกศรกลมมุมขวาล่าง (ภาพอ้างอิง) — มือถือซ่อน ใช้ปัดแทน */
+.arrows {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+  z-index: 2;
+  display: none;
+  gap: 6px;
+}
+
+.arrow {
+  display: flex;
+  width: 28px;
+  height: 28px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--ui-stroke);
+  border-radius: var(--ui-radius-pill);
+  background: rgba(0, 0, 0, 0.55);
+  color: var(--Main-Secondary);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .arrows {
+    display: flex;
+  }
 }
 
 @media (min-width: 1024px) {

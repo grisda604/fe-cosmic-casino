@@ -82,6 +82,7 @@
     "paginationAriaLabel": "เปลี่ยนหน้าประวัติโบนัส"
   },
   "users": {
+    "username": "ชื่อผู้ใช้",
     "registeredAt": "สมัครเมื่อ",
     "empty": "ยังไม่มีเพื่อนที่สมัครผ่านลิงก์ของคุณ",
     "paginationAriaLabel": "เปลี่ยนหน้ารายชื่อเพื่อน"

@@ -45,7 +45,7 @@ export function PendingTransactionDialog({ payload: payloadProp, onClose }: Pend
         data-state={state}
         aria-labelledby="pending-tx-title"
         aria-describedby="pending-tx-desc"
-        className="lotto-overlay-panel lotto-overlay-panel--modal overlay-theme relative rounded-3xl border border-white/10 bg-[var(--BG-Surface-Darker)] text-[var(--text-on-light)] shadow-[var(--shadow-soft)] w-full max-w-[400px] px-5 pb-5 pt-4"
+        className="lotto-overlay-panel lotto-overlay-panel--modal overlay-theme relative rounded-3xl border border-white/10 bg-[var(--BG-Surface-Darker)] text-[var(--text-on-light)] w-full max-w-[400px] px-5 pb-5 pt-4"
         onClick={(e) => e.stopPropagation()}
       >
         <button
@@ -96,7 +96,7 @@ export function PendingTransactionDialog({ payload: payloadProp, onClose }: Pend
                     <button
                       type="button"
                       onClick={handleCopyRef}
-                      className="flex h-7 w-7 shrink-0 cursor-pointer items-center justify-center rounded-md border-0 bg-[var(--BG-Surface-Normal)] text-[var(--brand)] hover:bg-[var(--brand-soft)]"
+                      className="flex h-7 w-7 shrink-0 cursor-pointer items-center justify-center rounded-md border-0 soft-panel-bg text-[var(--brand)] hover:bg-[var(--brand-soft)]"
                       aria-label={t("pending.copyReference")}
                     >
                       <Copy className="h-3.5 w-3.5" />

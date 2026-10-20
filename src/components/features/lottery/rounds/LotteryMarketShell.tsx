@@ -41,7 +41,7 @@ export function LotteryMarketShell({ activeEntry, roundCount, children }: Lotter
         "max-lg:gap-2 max-lg:rounded-none max-lg:p-2 max-lg:shadow-none",
         "max-lg:grid-cols-[minmax(0,clamp(6.75rem,31vw,8.25rem))_minmax(0,1fr)] max-lg:grid-rows-[minmax(0,1fr)]",
         "max-lg:[&>*]:min-h-0",
-        "lg:gap-4 lg:rounded-[var(--radius-panel)] lg:p-4 lg:shadow-[0_12px_40px_rgb(0_0_0/0.18)]",
+        "lg:gap-4 lg:rounded-[var(--radius-panel)] lg:p-4",
         "lg:grid-cols-[minmax(0,248px)_minmax(0,1fr)] lg:grid-rows-[minmax(0,1fr)]",
         "lg:h-[min(calc(100dvh-7.5rem),50rem)] lg:max-h-[min(calc(100dvh-7.5rem),50rem)]",
         "lg:[&>*]:min-h-0",

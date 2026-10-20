@@ -105,7 +105,7 @@ export function OverlayPanel({
         aria-labelledby={title && !hideHeader ? titleId : undefined}
         data-state={visible ? "open" : "closed"}
         className={cn(
-          "lotto-overlay-panel overlay-theme relative flex max-h-[88dvh] w-full flex-col overflow-hidden rounded-t-[var(--radius-soft-xl)] modal-surface-bg p-4 text-[var(--text-on-light)] shadow-[var(--shadow-soft)] outline-none md:max-h-[85dvh] md:rounded-[var(--radius-soft-xl)]",
+          "lotto-overlay-panel overlay-theme relative flex max-h-[88dvh] w-full flex-col overflow-hidden rounded-t-[var(--radius-soft-xl)] modal-surface-bg p-4 text-[var(--text-on-light)] outline-none md:max-h-[85dvh] md:rounded-[var(--radius-soft-xl)]",
           maxWidthClassName,
           className,
         )}

@@ -635,7 +635,7 @@
   animation: motion-sheen 700ms var(--ease-out) both;
 }
 
-/* ── Provider logo marquee (ProviderLogoMarquee) — เลื่อนอัตโนมัติ · grayscale → ขาวตอน hover ── */
+/* ── Provider logo marquee (ProviderLogoMarquee) — เลื่อนอัตโนมัติ · โลโก้สีปกติ · hover = ขอบ/พื้นไทล์ ── */
 .provider-logo-marquee {
   -webkit-mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
   mask-image: linear-gradient(90deg, transparent, #000 5%, #000 95%, transparent);
@@ -662,18 +662,17 @@
   transform: translateY(-1px);
 }
 
-.provider-logo-marquee__img {
-  opacity: 0.58;
-  filter: grayscale(1);
+/* โลโก้คงสีปกติ — hover เปลี่ยนที่พื้นไทล์ (ทองอ่อน · ไม่มีเส้นขอบ) ไม่แตะสีโลโก้ */
+.provider-logo-marquee__link {
   transition:
-    filter var(--motion-fast) ease,
-    opacity var(--motion-fast) ease;
+    transform var(--motion-fast) ease,
+    border-color var(--motion-fast) ease,
+    background-color var(--motion-fast) ease;
 }
 
-.provider-logo-marquee__link:hover .provider-logo-marquee__img,
-.provider-logo-marquee__link:focus-visible .provider-logo-marquee__img {
-  opacity: 1;
-  filter: grayscale(1) brightness(0) invert(1);
+.provider-logo-marquee__link:hover,
+.provider-logo-marquee__link:focus-visible {
+  background-color: var(--ui-gray-hover);
 }
 
 @keyframes provider-logo-marquee-scroll {

@@ -1,0 +1,349 @@
+/* ---- header desktop (≥1024) — ภาพอ้างอิง dark casino lobby (design.md §5.9) ----
+ * ซ้าย: สวิตช์ คาสิโน/กีฬา + ช่องค้นหา · กลาง: โลโก้ · ขวา: กระดิ่ง · โพย · ยอดเงิน+ฝาก · avatar */
+.lotto-site-header .header-desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .lotto-site-header .header-inner--mobile {
+    display: none;
+  }
+
+  /* พื้นที่ header = เส้นเดียวกับ main container: เว้นซ้าย 24 (หรือพ้น sidebar แบบขยาย) · เว้นขวาเท่า hub rail
+   * ตัวแปร --lobby-* มาจาก .frame (lobby-layout.module.css) */
+  .lotto-site-header .header-desktop {
+    display: block;
+    min-height: 72px;
+    padding-block: 0;
+    padding-right: calc(24px + var(--lobby-rail-reserve, 0px));
+    /* header เต็มความกว้างจอ — เนื้อหาในนั้นจัดแนวเดียวกับ main (เว้นซ้ายเท่าแถบ sidebar แบบย่อ + 24) */
+    padding-left: calc(var(--lobby-sidebar-inset, 12px) + var(--lobby-sidebar-width, 64px) + 16px);
+    box-sizing: border-box;
+    color: var(--Text-Icon-Title);
+  }
+
+  /* จอกว้าง ≥1992: ชดเชย hub/sidebar ให้เนื้อหา header อยู่กึ่งกลางเหมือน main (กฎเดียวกับ .mainColumn) */
+  @media (min-width: 1992px) {
+    .lotto-site-header .header-desktop {
+      padding-left: calc(var(--lobby-sidebar-inset, 12px) + var(--lobby-sidebar-width, 64px) + 16px + max(0px, calc(var(--lobby-rail-reserve, 0px) - var(--lobby-sidebar-width, 64px) - var(--lobby-sidebar-inset, 12px) - 4px)));
+    }
+  }
+
+  /* กรอบเนื้อหา header กว้างเท่า main (≤1360) อยู่กึ่งกลาง */
+  .lotto-site-header .dh-inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    max-width: 1360px;
+    min-height: 72px;
+    margin: 0 auto;
+  }
+
+  .lotto-site-header .dh-left,
+  .lotto-site-header .dh-right {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    min-width: 0;
+  }
+
+  /* โลโก้กลางแถบ */
+  .lotto-site-header .dh-logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    display: block;
+    line-height: 0;
+  }
+
+  .lotto-site-header .dh-logo__img {
+    width: 150px;
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* สวิตช์ คาสิโน / กีฬา — แคปซูล surface, ตัว active พื้นเข้ม */
+  .lotto-site-header .dh-seg {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    height: 40px;
+    padding: 3px;
+    border-radius: var(--ui-radius-pill);
+    border: 1px solid var(--ui-stroke);
+    background: var(--ui-surface);
+  }
+
+  .lotto-site-header .dh-seg__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    height: 32px;
+    padding: 0 14px;
+    border-radius: var(--ui-radius-pill);
+    color: var(--Text-Icon-Body);
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    transition:
+      background 150ms ease,
+      color 150ms ease;
+  }
+
+  .lotto-site-header .dh-seg__item:hover {
+    color: var(--Text-Icon-Title);
+  }
+
+  .lotto-site-header .dh-seg__item--active,
+  .lotto-site-header .dh-seg__item--active:hover {
+    background: var(--BG-Surface-Lighter);
+    color: var(--Text-Icon-Title);
+    font-weight: 600;
+  }
+
+  /* ช่องค้นหา — แคปซูล surface, แว่นขยายขวา */
+  .lotto-site-header .dh-search {
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 40px;
+    padding: 0 6px 0 16px;
+    border-radius: var(--ui-radius-pill);
+    border: 1px solid var(--ui-stroke);
+    background: var(--ui-surface);
+    transition: border-color 150ms ease;
+  }
+
+  .lotto-site-header .dh-search:focus-within {
+    background: var(--ui-hover);
+  }
+
+  .lotto-site-header .dh-search input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    background: transparent;
+    color: var(--Text-Icon-Title);
+    font-size: 13px;
+    outline: none;
+  }
+
+  .lotto-site-header .dh-search input::placeholder {
+    color: var(--Text-Icon-Body);
+  }
+
+  .lotto-site-header .dh-search input::-webkit-search-cancel-button {
+    display: none;
+  }
+
+  .lotto-site-header .dh-search button {
+    display: grid;
+    place-content: center;
+    width: 28px;
+    height: 28px;
+    border: 0;
+    border-radius: var(--ui-radius-pill);
+    background: transparent;
+    color: var(--Text-Icon-Body);
+    cursor: pointer;
+  }
+
+  .lotto-site-header .dh-search button:hover {
+    color: var(--Main-Secondary);
+  }
+
+  /* ปุ่มไอคอนกลม (กระดิ่ง · โพย) */
+  .lotto-site-header .dh-icon {
+    position: relative;
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--ui-stroke);
+    border-radius: var(--ui-radius-pill);
+    background: var(--ui-surface);
+    color: var(--Text-Icon-Title);
+    text-decoration: none;
+    cursor: pointer;
+    transition:
+      color 150ms ease,
+      border-color 150ms ease;
+  }
+
+  .lotto-site-header .dh-icon:hover {
+    color: var(--Main-Secondary);
+    background: var(--ui-hover);
+  }
+
+  .lotto-site-header .dh-icon__badge {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    min-width: 18px;
+    height: 18px;
+    padding: 0 5px;
+    border-radius: var(--ui-radius-pill);
+    background: #e11d48;
+    color: #fff;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: center;
+  }
+
+  /* ยอดเงิน: [เหรียญ] 7,253.00 [+ทอง] */
+  .lotto-site-header .dh-wallet {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    height: 40px;
+    padding: 0 4px 0 6px;
+    border: 1px solid var(--ui-stroke);
+    border-radius: var(--ui-radius-pill);
+    background: var(--ui-surface);
+  }
+
+  .lotto-site-header .dh-wallet__coin {
+    display: grid;
+    place-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: var(--ui-radius-pill);
+    background: var(--BG-Surface-Lighter);
+    color: var(--Main-Secondary);
+  }
+
+  .lotto-site-header .dh-wallet__coin svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .lotto-site-header .dh-wallet__value {
+    min-width: 64px;
+    font-size: 13px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--Text-Icon-Title);
+  }
+
+  .lotto-site-header .dh-wallet__plus {
+    display: grid;
+    place-content: center;
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: var(--ui-radius-pill);
+    background: linear-gradient(180deg, var(--btn-gradient1), var(--btn-gradient2));
+    color: var(--btn-text);
+    cursor: pointer;
+    box-shadow: none;
+  }
+
+  /* avatar กลม */
+  .lotto-site-header .dh-avatar {
+    display: block;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    border-radius: var(--ui-radius-pill);
+    border: 1px solid var(--ui-stroke-strong);
+    background: var(--ui-surface);
+  }
+
+  .lotto-site-header .dh-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* guest */
+  .lotto-site-header .dh-auth {
+    height: 40px;
+    padding: 0 18px;
+    border-radius: var(--ui-radius-pill);
+    border: 0;
+    background: linear-gradient(180deg, var(--btn-gradient1), var(--btn-gradient2));
+    color: var(--btn-text);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  .lotto-site-header .dh-auth--ghost {
+    background: var(--ui-surface);
+    border: 1px solid var(--ui-stroke);
+    color: var(--Text-Icon-Title);
+  }
+
+  /* ปุ่ม Dev Login (เฉพาะ dev) — เส้นประ ให้รู้ว่าไม่ใช่ปุ่มจริง */
+  .lotto-site-header .dh-auth--dev {
+    background: transparent;
+    border: 1px dashed #22d36b;
+    color: #22d36b;
+  }
+
+  .lotto-site-header .dh-auth--dev:disabled {
+    opacity: 0.6;
+    cursor: wait;
+  }
+}
+
+/* ธีมสว่าง: header เป็นสีธีมเข้ม → แคปซูลเป็นขาวโปร่ง 16% ตัวหนังสือ/ไอคอนขาว · ปุ่ม active = ขาว + ตัวหนังสือสีธีม (อ่านชัด ไม่ใช้พื้นพาสเทล) */
+@media (min-width: 1024px) {
+  html[data-mode="light"] .lotto-site-header :is(.dh-seg, .dh-search, .dh-icon, .dh-wallet) {
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff;
+  }
+
+  html[data-mode="light"] .lotto-site-header .dh-seg__item {
+    color: rgba(255, 255, 255, 0.88);
+  }
+
+  html[data-mode="light"] .lotto-site-header .dh-seg__item:hover {
+    color: #fff;
+  }
+
+  html[data-mode="light"] .lotto-site-header .dh-seg__item--active,
+  html[data-mode="light"] .lotto-site-header .dh-seg__item--active:hover {
+    background: #fff;
+    color: var(--ui-theme);
+  }
+
+  html[data-mode="light"] .lotto-site-header .dh-search input {
+    color: #fff;
+  }
+
+  html[data-mode="light"] .lotto-site-header .dh-search input::placeholder {
+    color: rgba(255, 255, 255, 0.72);
+  }
+
+  html[data-mode="light"] .lotto-site-header .dh-search button {
+    color: #fff;
+  }
+
+  html[data-mode="light"] .lotto-site-header .dh-search:focus-within,
+  html[data-mode="light"] .lotto-site-header .dh-icon:hover {
+    background: rgba(255, 255, 255, 0.26);
+    color: #fff;
+  }
+
+  html[data-mode="light"] .lotto-site-header .dh-wallet__value {
+    color: #fff;
+  }
+
+  html[data-mode="light"] .lotto-site-header .dh-wallet__coin {
+    background: rgba(255, 255, 255, 0.22);
+    color: #fff;
+  }
+
+  html[data-mode="light"] .lotto-site-header .dh-auth--ghost {
+    background: rgba(255, 255, 255, 0.16);
+    color: #fff;
+  }
+}

@@ -26,7 +26,7 @@ export function PromotionDetailPanel({
 }) {
   const isHub = variant === "hub";
   return (
-    <article className="overflow-hidden rounded-2xl border border-white/10 bg-[var(--BG-Surface-Normal)]">
+    <article className="overflow-hidden rounded-2xl border border-white/10 soft-panel-bg">
       <PromotionDetailBanner content={content} isHub={isHub} />
       <PromotionDetailBody body={content} isHub={isHub} />
       <div className="px-4 pb-4">

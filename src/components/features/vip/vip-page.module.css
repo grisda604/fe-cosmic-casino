@@ -69,7 +69,7 @@
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  filter: drop-shadow(0 3px 10px var(--v-glow));
+  filter: none;
 }
 
 .heroTag {
@@ -101,7 +101,7 @@
   position: relative;
   z-index: 2;
   margin-bottom: -12px;
-  filter: drop-shadow(0 10px 18px rgba(0, 0, 0, 0.55));
+  filter: none;
 }
 
 .pedestal {
@@ -110,10 +110,7 @@
   height: 36px;
   border-radius: 50%;
   background: radial-gradient(ellipse at 50% 35%, var(--t-gb, #140c1f) 0%, var(--t-ga, #0c090f) 75%);
-  box-shadow:
-    0 0 0 2px color-mix(in srgb, var(--v-acc) 70%, #000),
-    0 0 22px var(--v-glow),
-    inset 0 -6px 12px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--v-acc) 70%, #000);
 }
 
 .pedestal::after {
@@ -123,7 +120,7 @@
   inset: 12px -12px -14px;
   border-radius: 50%;
   background: linear-gradient(180deg, var(--t-gb, #140c1f), var(--t-ga, #0c090f));
-  box-shadow: 0 0 0 1px var(--v-line), 0 8px 20px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 0 1px var(--v-line);
 }
 
 .heroRank {
@@ -161,7 +158,11 @@
   overflow: hidden;
   border-radius: 12px;
   border: 0;
-  background: var(--v-panel);
+  background: linear-gradient(
+    180deg,
+    color-mix(in srgb, #fff 8%, var(--v-panel)) 0%,
+    color-mix(in srgb, #000 8%, var(--v-panel)) 100%
+  );
 }
 
 .tab {
@@ -239,7 +240,7 @@
   background:
     radial-gradient(90% 70% at 50% -20%, var(--v-glow), transparent 60%),
     var(--v-panel);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: none;
   color: var(--v-ink);
 }
 
@@ -518,11 +519,11 @@
   width: 44px;
   height: 44px;
   object-fit: contain;
-  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.45));
+  filter: none;
 }
 
 .tintGold {
-  filter: sepia(1) saturate(2.8) hue-rotate(-8deg) brightness(1.02) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.45));
+  filter: sepia(1) saturate(2.8) hue-rotate(-8deg) brightness(1.02);
 }
 
 .tileValue {
@@ -570,7 +571,7 @@
   max-width: 220px;
   height: auto;
   object-fit: contain;
-  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.5));
+  filter: none;
 }
 
 .ctaTitle {
@@ -720,4 +721,13 @@
 
 .arrowR {
   right: 6px;
+}
+
+/* desktop: มี hero ชื่อหน้ากึ่งกลางจาก SubPageShell แล้ว → แบนเนอร์ VIP วางต่อใต้มัน (ไม่ดันขึ้นซ้อนใต้ breadcrumb แบบมือถือ) */
+@media (min-width: 1024px) {
+  .hero {
+    margin: 16px 0 0;
+    padding: 48px 24px 0;
+    border-radius: 18px;
+  }
 }

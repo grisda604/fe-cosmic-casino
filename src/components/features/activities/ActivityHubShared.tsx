@@ -113,7 +113,7 @@ export function ActivityTurnProgressCard({
     progress.bonusCap > 0 ? Math.min(100, (progress.bonusEarned / progress.bonusCap) * 100) : 0;
 
   return (
-    <section className="space-y-3 rounded-2xl border border-white/10 bg-[var(--Card-Normal)] p-4">
+    <section className="space-y-3 rounded-2xl border border-white/10 soft-card-bg p-4">
       <h3 className="text-center text-sm font-semibold text-[var(--Text-Icon-Title)]">
         {t("activities.progress.title")}
       </h3>
@@ -169,7 +169,7 @@ function ActivityClaimCell({ state }: { state: ActivityTierRow["claimState"] }) 
 export function ActivityTierTable({ rows }: { rows: ActivityTierRow[] }) {
   const t = useT("rewards");
   return (
-    <div className="overflow-x-auto rounded-2xl border border-white/10 bg-[var(--Card-Normal)] p-2">
+    <div className="overflow-x-auto rounded-2xl border border-white/10 soft-card-bg p-2">
       <table className="w-full min-w-[420px] border-collapse text-left text-sm">
         <thead>
           <tr className="text-[var(--Text-Icon-Body)]">
@@ -228,7 +228,7 @@ export function ActivityRulesSection({ rules, period }: { rules?: string[]; peri
 
   return (
     <section
-      className="rounded-2xl border border-white/10 bg-[var(--BG-Surface-Normal)] p-4"
+      className="rounded-2xl border border-white/10 soft-panel-bg p-4"
       aria-label={t("activities.rulesTitle")}
     >
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-white/10 pb-2">

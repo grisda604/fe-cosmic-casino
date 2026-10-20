@@ -146,3 +146,40 @@ html[data-mode="light"] {
   --shade-soft: color-mix(in srgb, var(--ink) 6%, transparent);
   --shade-mid: color-mix(in srgb, var(--ink) 8%, transparent);
 }
+
+/* ── Lobby UI tokens (ดู design.md §3) — คอมโพเนนต์ใหม่ใช้ค่าเหล่านี้ + token สีของธีมเดิม ── */
+:root {
+  --ui-radius-card: 16px;
+  --ui-radius-tile: 12px;
+  --ui-radius-pill: 999px;
+  /* borderless: ไม่มีเส้นขอบ — แยกชั้นด้วยสีพื้น (surface) และเงาเท่านั้น · token คงไว้เป็นโปร่งใสเพื่อไม่ให้ layout ขยับ */
+  --ui-stroke: transparent;
+  --ui-stroke-strong: transparent;
+  --ui-hover: color-mix(in srgb, #fff 8%, var(--ui-surface));
+  --ui-surface: var(--Card-Normal);
+  /* เทาเข้มกลาง (ไม่อิงสีธีม) — ปุ่ม «ดูทั้งหมด» · ลูกศรเลื่อน · ไทล์โลโก้ค่ายเกม ทุกธีมมืด */
+  --ui-gray: #2a2a2f;
+  --ui-gray-hover: color-mix(in srgb, #fff 8%, var(--ui-gray));
+  --ui-glow: 0 8px 28px color-mix(in srgb, var(--Main-Primary) 16%, transparent);
+  --ui-section-gap: 12px;
+  /* เส้นคั่นกลุ่ม (เช่น เมนู sidebar) — เห็นชัดแต่เบา ต่างจาก --ui-stroke ที่โปร่งใสตามแนว borderless */
+  --ui-divider: rgba(255, 255, 255, 0.16);
+  /* สีธีมสำหรับพื้นที่ต้องเด่น (ตัวหนังสือบนสีนี้ใช้ --ui-on-theme) — ใช้ทุกโหมด */
+  --ui-theme: var(--t-ga, #3b2a63);
+  --ui-on-theme: #fff;
+}
+
+html[data-mode="light"] {
+  --ui-divider: rgba(27, 34, 48, 0.16);
+  --ui-hover: color-mix(in srgb, #000 6%, var(--ui-surface));
+  /* ธีมสว่าง: เทาอ่อนกลาง (viewall · ลูกศร · ไทล์ค่ายเกม) · --ui-theme = สีธีมสำหรับพื้นที่ต้องเด่น (ตัวหนังสือบนสีนี้ใช้ขาว) */
+  --ui-gray: #e4e5e9;
+  --ui-gray-hover: #d6d7dc;
+  /* ธีมสว่าง: พื้นการ์ด/แถบ = เทากลางไล่เฉดขาว→เทา (ไม่ใช้โทนพาสเทลของธีม ซึ่งอ่านยาก) · สีธีมใช้กับ active/ปุ่ม/การ์ดเน้นเท่านั้น */
+  --ui-surface: #eceef2;
+  --grad-panel: linear-gradient(180deg, #ffffff 0%, #eef0f3 100%);
+  --grad-card: linear-gradient(180deg, #ffffff 0%, #e8eaee 100%);
+  --grad-modal: linear-gradient(180deg, #ffffff 0%, #eef0f3 100%);
+  --ui-theme: var(--t-ga, #3b2a63);
+  --ui-on-theme: #fff;
+}

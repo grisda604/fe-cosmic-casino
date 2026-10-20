@@ -9,23 +9,12 @@
   gap: 8px;
 }
 
+/* section แบบใหม่: ไม่มีกล่องครอบ — หัวข้อและแถวการ์ดวางบนพื้นหน้าโดยตรง (design.md §5.2) */
 .section {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  border-radius: 12px;
-  background: var(--BG-Surface-Darker);
-  padding: 10px 8px;
-}
-
-/* มือถือ/แท็บเล็ต: ไม่มีการ์ดนอก — หัวข้อและแถวการ์ดวางบนพื้นหน้าโดยตรง */
-@media (max-width: 1023px) {
-  .section {
-    background: none;
-    border-radius: 0;
-    padding: 0;
-    gap: 4px;
-  }
+  padding: 0;
 }
 
 .sectionCompact {
@@ -97,10 +86,11 @@
     --carousel-peek-gaps: 3;
   }
 
+  /* desktop: เห็น 5 ใบเต็มแถว ไม่มี peek (ตามภาพอ้างอิง) */
   .trackMode7Grid {
-    --carousel-visible: 7;
+    --carousel-visible: 5;
     --carousel-peek: 0;
-    --carousel-peek-gaps: 6;
+    --carousel-peek-gaps: 4;
   }
 
   /* มีไม่เกิน 3 ใบ: ไม่มีใบให้ peek — ขยายเต็มแถว */
@@ -182,6 +172,26 @@
     display: flex;
   }
 
+}
+
+/* ลูกศรในหัว section (heading mode): วงกลม ไม่ลอย */
+.carouselWithHead {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.navInline {
+  position: static;
+  transform: none;
+  border-color: var(--ui-stroke);
+  background: var(--ui-gray);
+  color: var(--Text-Icon-Body);
+}
+
+.navInline:not(:disabled):hover {
+  color: var(--Main-Secondary);
+  background: var(--ui-gray-hover);
 }
 
 .navPrev {

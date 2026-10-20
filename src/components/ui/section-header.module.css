@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-width: 0;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.icon {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  object-fit: contain;
+  filter: none;
+}
+
+.title {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--Text-Icon-Title);
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+/* pill «ดูทั้งหมด» — พื้น surface + ขอบบาง (ภาพอ้างอิง: See all) */
+.viewAll {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: var(--ui-radius-pill);
+  border: 1px solid var(--ui-stroke);
+  background: var(--ui-gray);
+  color: var(--Text-Icon-Body);
+  font-size: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition:
+    color 150ms ease,
+    border-color 150ms ease;
+}
+
+.viewAll:hover,
+.viewAll:focus-visible {
+  color: var(--Main-Secondary);
+  background: var(--ui-gray-hover);
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 20px;
+  }
+}

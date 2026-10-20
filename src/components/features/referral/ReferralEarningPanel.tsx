@@ -11,6 +11,7 @@ import type { ReferralEarningPeriodId } from "@/types/referral";
 import { useT } from "@/lib/i18n/I18nProvider";
 import { useFormat } from "@/lib/i18n/useFormat";
 import { ReferralPager } from "./ReferralPager";
+import { ReferralTable } from "./ReferralTable";
 
 /** แท็บรายได้ — สรุปโบนัส (รับในเครื่องเหมือน glass) + ตัวกรองช่วงเวลา + ประวัติ (10 แถว/หน้า) */
 export function ReferralEarningPanel({ totalEarningsThb }: { totalEarningsThb?: number }) {
@@ -89,7 +90,7 @@ function ReferralEarningContent({
             }}
             aria-pressed={period === option.id}
             className={`h-10 shrink-0 rounded-lg px-3 text-xs font-semibold ${
-              period === option.id ? "bg-[var(--brand)] text-[#2a0607]" : "border border-white/10 bg-[var(--soft-card)] text-[var(--text-on-light)]"
+              period === option.id ? "bg-[var(--brand)] text-[#2a0607]" : "border border-white/10 soft-panel-bg text-[var(--text-on-light)]"
             }`}
           >
             {t(option.labelKey)}
@@ -114,18 +115,17 @@ function ReferralEarningContent({
         {pageRows.length === 0 ? (
           <p className="soft-panel p-6 text-center text-sm text-[var(--text-muted)]">{t("earning.empty")}</p>
         ) : (
-          <ul className="space-y-2">
-            {pageRows.map((row) => (
-              <li key={row.id} className="soft-card flex items-center justify-between gap-3 p-3 text-sm">
-                <span className="font-semibold tabular-nums text-[var(--brand-strong)]">
-                  {formatReferralCurrency(row.amountThb)}
-                </span>
-                <span className="text-xs tabular-nums text-[var(--text-muted)]">
-                  {formatReferralEarningDateTime(row.occurredAt)}
-                </span>
-              </li>
-            ))}
-          </ul>
+          <ReferralTable
+            caption={t("earning.detailsTitle")}
+            head={[t("earning.bonusAmount"), t("earning.date")]}
+            rows={pageRows.map((row) => ({
+              id: row.id,
+              left: (
+                <span className="tabular-nums text-[var(--brand-strong)]">{formatReferralCurrency(row.amountThb)}</span>
+              ),
+              right: formatReferralEarningDateTime(row.occurredAt),
+            }))}
+          />
         )}
         {total > 0 ? (
           <div className="flex flex-col gap-2 pt-1 sm:flex-row sm:items-center sm:justify-between">

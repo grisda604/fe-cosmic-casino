@@ -7,7 +7,7 @@ export interface HubTabItem<T extends string = string> {
   label: string;
 }
 
-/** แท็บหมวด (pill ทอง/มืด) — ใช้ร่วมกันใน promotions / activities hub */
+/** แท็บหมวด (แคปซูล) — จัดกึ่งกลางแถว (ล้นจอ = ชิดซ้ายและเลื่อนได้) · ใช้ร่วมกันใน promotions / activities hub */
 export function HubTabs<T extends string>({
   tabs,
   activeId,
@@ -25,7 +25,7 @@ export function HubTabs<T extends string>({
     <div
       role="tablist"
       aria-label={ariaLabel}
-      className={`scrollbar-none flex gap-2 overflow-x-auto ${className}`}
+      className={`scrollbar-none flex gap-2 overflow-x-auto [justify-content:safe_center] ${className}`}
     >
       {tabs.map((tab) => {
         const selected = tab.id === activeId;
@@ -38,8 +38,8 @@ export function HubTabs<T extends string>({
             onClick={() => onSelect(tab.id)}
             className={`h-10 shrink-0 whitespace-nowrap rounded-full px-4 text-sm font-semibold transition-colors ${
               selected
-                ? "soft-btn-primary"
-                : "border border-white/10 bg-[var(--BG-Surface-Normal)] text-[var(--Text-Icon-Body)] hover:text-[var(--Text-Icon-Title)]"
+                ? "soft-tab-active"
+                : "soft-tab text-[var(--Text-Icon-Body)] hover:text-[var(--Text-Icon-Title)]"
             }`}
           >
             {tab.label}

@@ -1,5 +1,6 @@
 import { fetchWalletBalance } from "@/lib/api/profile";
 import { getSessionUserId } from "@/lib/auth/session";
+import { formatMoney } from "./format-money";
 
 export type WalletSnapshot = { money: string; credit: string };
 
@@ -9,7 +10,7 @@ export async function loadSessionWallet(): Promise<WalletSnapshot> {
   if (!userId) return { money: "0.00", credit: "0.00" };
   const res = await fetchWalletBalance();
   const amount = res.ok ? res.data.amount : 0;
-  return { money: Number(amount).toFixed(2), credit: "0.00" };
+  return { money: formatMoney(Number(amount)), credit: "0.00" };
 }
 
 /** ชื่อเดิมที่ LottoHomePage import — เหมือน loadSessionWallet */

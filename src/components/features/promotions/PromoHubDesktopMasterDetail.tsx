@@ -100,7 +100,7 @@ export function PromoHubDesktopMasterDetail() {
                   type="button"
                   onClick={() => setSelectedItemId(item.id)}
                   aria-current={selected ? "true" : undefined}
-                  className={`w-full rounded-2xl border bg-[var(--Card-Normal)] p-3 text-left transition-colors hover:border-[var(--Main-Primary)]/40 ${selected ? "border-[var(--Main-Primary)]" : "border-white/10"}`}
+                  className={`w-full rounded-2xl border soft-card-bg p-3 text-left transition-colors hover:border-[var(--Main-Primary)]/40 ${selected ? "border-[var(--Main-Primary)]" : "border-white/10"}`}
                 >
                   <span className="block font-semibold leading-snug text-[var(--Text-Icon-Title)]">{item.title}</span>
                   <span className="mt-1 line-clamp-2 text-sm leading-relaxed text-[var(--Text-Icon-Body)]">

@@ -37,7 +37,7 @@ const VARIANT_STYLES: Record<ToastVariant, { box: string; icon: string }> = {
     icon: "!",
   },
   info: {
-    box: "bg-[var(--Card-Normal)] border-[var(--brand)]/50 text-white",
+    box: "soft-card-bg border-[var(--brand)]/50 text-white",
     icon: "i",
   },
 };
@@ -58,7 +58,7 @@ function ToastHost({ items, onDismiss }: { items: ToastItem[]; onDismiss: (id: s
             key={toast.id}
             role="alert"
             style={{ "--toast-duration": `${toast.durationMs}ms` } as React.CSSProperties}
-            className={`motion-toast pointer-events-auto flex w-full max-w-md items-start gap-2.5 rounded-2xl border px-4 py-3 text-sm font-semibold shadow-[var(--shadow-soft)] ${style.box}`}
+            className={`motion-toast pointer-events-auto flex w-full max-w-md items-start gap-2.5 rounded-2xl border px-4 py-3 text-sm font-semibold ${style.box}`}
           >
             <span className="flex h-5 w-5 shrink-0 items-center justify-center text-xs font-bold" aria-hidden>
               {style.icon}

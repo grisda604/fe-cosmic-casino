@@ -1,246 +1,162 @@
+/* Sidebar ซ้าย: ขยาย (ไอคอน+ชื่อแนวนอน) / ย่อ (ไอคอนอย่างเดียว กึ่งกลาง) — ความกว้างมาจาก .sidebarSlot */
 .aside {
   display: flex;
   flex-direction: column;
-  gap: 12px;
   width: 100%;
+  height: 100%;
   box-sizing: border-box;
-  padding: 16px 12px;
-  border-radius: 12px;
-  background: var(--BG-Surface-Normal, #222226);
-  border: 0;
-}
-
-/* ธีมสว่าง: sidebar ใช้สีที่ 1 ของธีมที่เข้มลง + ตัวหนังสืออ่อน */
-:global(html[data-mode="light"]) .aside {
-  --ink: #fff;
-  --BG-Surface-Normal: color-mix(in srgb, var(--t-ga) 58%, #000);
-  --BG-Surface-Darker: color-mix(in srgb, var(--t-ga) 42%, #000);
-  --shade-soft: rgba(0, 0, 0, 0.28);
-  --shade-mid: rgba(0, 0, 0, 0.4);
-  --Text-Icon-Body: rgba(255, 255, 255, 0.8);
-  --Main-Secondary: color-mix(in srgb, var(--t-icon, #ffd15c) 45%, #fff);
-}
-
-.wallet {
-  border-radius: 12px;
-  background: var(--shade-mid);
-  padding: 12px;
-  font-size: 12px;
-}
-
-.walletRow {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
+  padding: 10px 8px 12px;
+  background: var(--BG-Surface-Darker);
+  border-radius: 16px; /* การ์ดลอย มุมมนทั้งสี่ (เหมือนแผงขวา) */
   color: var(--Text-Icon-Body);
+  overflow: hidden;
 }
 
-.walletLabel {
-  color: var(--Main-Secondary);
+.nav {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: none;
 }
 
-.walletValue {
-  color: var(--ink);
-  font-weight: 600;
-}
-
-.coin {
-  color: var(--Main-Secondary);
-}
-
-.divider {
-  height: 1px;
-  margin: 8px 0;
-  background: linear-gradient(
-    90deg,
-    transparent,
-    rgba(255, 209, 92, 0.45),
-    transparent
-  );
-}
-
-.actions {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 8px;
-}
-
-.btnPrimary {
-  border-radius: 12px;
-  border: 0;
-  background: var(--btn-theme-gradient);
-  color: var(--btn-theme-fg);
-  font-weight: 600;
-  font-size: 14px;
-  padding: 10px 8px;
-}
-
-.btnSecondary {
-  border-radius: 12px;
-  border: 0;
-  background: var(--shade-mid);
-  color: var(--t-action, #fff);
-  font-weight: 600;
-  font-size: 14px;
-  padding: 10px 8px;
-}
-
-/* แผงเมนู — โครงเดียวกับ lobby-desktop-sidebar ของ glass (ไอคอน 3D + แถว active) */
-.panel {
-  border-radius: 12px;
-  background: var(--shade-soft);
-  padding: 8px;
+.nav::-webkit-scrollbar {
+  display: none;
 }
 
 .list {
   display: flex;
   flex-direction: column;
-  gap: 1px;
+  gap: 2px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-.link {
+/* กลุ่มที่สอง: เส้นคั่นบน */
+.group {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--ui-divider); /* คั่น หมวดเกม | โปรโมชั่น/กิจกรรม */
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid var(--ui-divider); /* คั่น เมนูเกม/โปร | ตั้งค่า (ลุ้นรางวัล · ธีม · ภาษา) */
+}
+
+/* แถวเมนู (ขยาย): ไอคอนซ้าย ชื่อขวา สูง 44 */
+.link,
+.toggle {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 0.65rem;
-  min-height: 2.5rem;
-  padding: 0.45rem 0.6rem;
-  border-radius: 12px;
-  color: color-mix(in srgb, var(--ink) 78%, transparent);
-  font-size: 0.9375rem;
+  gap: 12px;
+  width: 100%;
+  min-height: 44px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: var(--ui-radius-tile);
+  background: transparent;
+  color: var(--Text-Icon-Body);
+  font: inherit;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 1.3;
+  text-align: left;
   text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
   transition:
     background 150ms ease,
     color 150ms ease;
 }
 
-.link:hover {
-  background: color-mix(in srgb, var(--ink) 6%, transparent);
-  color: var(--ink);
+.link:hover,
+.toggle:hover {
+  color: var(--Text-Icon-Title);
+  background: color-mix(in srgb, #fff 6%, transparent);
 }
 
-.linkActive {
-  background: rgba(255, 209, 92, 0.12);
-  color: var(--Main-Secondary, #ffd15c);
+.toggle {
+  margin-bottom: 8px;
+  color: var(--Text-Icon-Title);
+  font-weight: 600;
 }
 
-.linkIcon {
-  display: flex;
-  width: 1.75rem;
-  height: 1.75rem;
+/* active: ไอคอน+ชื่อสีทอง พื้นทองจาง แถบทอง 3px ขอบซ้าย */
+.linkActive,
+.linkActive:hover {
+  color: var(--Main-Secondary);
+  background: color-mix(in srgb, var(--Main-Primary) 12%, transparent);
+}
+
+.linkActive::before {
+  content: "";
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: -8px;
+  width: 3px;
+  border-radius: 0 3px 3px 0;
+  background: var(--Main-Primary);
+}
+
+.icon {
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
 }
 
-.linkIcon img {
-  width: 1.75rem;
-  height: 1.75rem;
-  object-fit: contain;
-  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.35));
-}
-
-.linkLabel {
+.label {
   min-width: 0;
   flex: 1;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
-/* การ์ด hub ใต้แผงเมนู — รูป 3D ขวา · ชื่อซ้าย (lobby-hub-menu-card ของ glass) */
-.hubStack {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.5rem;
+/* ย่อ: ซ่อนชื่อ ไอคอนกึ่งกลาง */
+.asideCollapsed {
+  padding-inline: 8px;
 }
 
-.hubCard {
-  position: relative;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 3.5rem;
-  overflow: hidden;
-  box-sizing: border-box;
-  padding: 0.35rem 0.5rem 0.35rem 0.85rem;
-  border: 0;
-  border-radius: 12px;
-  background: var(--BG-Surface-Darker, #18181b);
-  color: var(--ink);
-  text-align: left;
-  text-decoration: none;
-  cursor: pointer;
-  transition:
-    filter 150ms ease,
-    transform 150ms ease;
+.asideCollapsed .link,
+.asideCollapsed .toggle {
+  justify-content: center;
+  padding: 0;
 }
 
-.hubCard:hover {
-  filter: brightness(1.08);
+.asideCollapsed .label {
+  display: none;
 }
 
-.hubCard:active {
-  transform: scale(0.98);
+/* ธีมสว่าง: พื้นเทาอ่อน (#e6e9ee) ตัวหนังสือ/ไอคอนเทาเข้ม · hover เทาอ่อน · active = พื้นสีธีม ตัวหนังสือขาว */
+:global(html[data-mode="light"]) .aside {
+  background: #e6e9ee;
+  color: #4f586b;
 }
 
-.hubCardWide {
-  grid-column: 1 / -1;
+:global(html[data-mode="light"]) :is(.link, .toggle, .lang) {
+  color: #4f586b;
 }
 
-.hubBg {
-  object-fit: cover;
-  object-position: 100% 50%;
-  transform: scale(0.96);
-  transform-origin: center right;
-  pointer-events: none;
+:global(html[data-mode="light"]) :is(.link:hover, .toggle:hover, .lang:hover, .burger:hover) {
+  background: #d8dce3;
+  color: #1b2230;
 }
 
-.hubTitle {
-  position: relative;
-  z-index: 1;
-  max-width: 54%;
-  font-size: 0.9375rem;
-  font-weight: 600;
-  line-height: 1.25;
-  letter-spacing: -0.01em;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.85);
+:global(html[data-mode="light"]) .linkActive,
+:global(html[data-mode="light"]) .linkActive:hover {
+  background: var(--ui-theme);
+  color: var(--ui-on-theme);
 }
 
-/* ธีมสว่าง: ปุ่มถอนใช้สีตัวหนังสือของธีม (สีปุ่มอ่อนเกินไปบนพื้นขาว) */
-:global(html[data-mode="light"]) .btnSecondary {
-  color: var(--ink);
-  border-color: color-mix(in srgb, var(--ink) 30%, transparent);
-}
-
-/* ธีมสว่าง: การ์ดย่อยใน sidebar เป็นเทาอ่อน + ตัวหนังสือเข้ม */
-:global(html[data-mode="light"]) :is(.wallet, .panel, .hubCard) {
-  --ink: #1b2230;
-  --Text-Icon-Body: #4a5265;
-  --Main-Secondary: color-mix(in srgb, var(--t-ga) 85%, #000);
-  background: #eceef2;
-}
-
-:global(html[data-mode="light"]) .linkActive {
-  background: color-mix(in srgb, var(--t-ga) 14%, transparent);
-}
-
-:global(html[data-mode="light"]) .hubTitle {
-  text-shadow: none;
-}
-
-/* ธีมสว่าง: ปุ่มถอนเงินใช้สีที่ 1 ของธีม (ไล่เฉดบน→ล่าง) ตัวหนังสือสีขาว · ปุ่มฝากเงินคงสีเดิม */
-:global(html[data-mode="light"]) .btnSecondary {
-  border-color: transparent;
-  background: linear-gradient(
-    to bottom,
-    color-mix(in srgb, var(--t-ga) 88%, #fff),
-    color-mix(in srgb, var(--t-ga) 70%, #000)
-  );
-  color: #fff;
+:global(html[data-mode="light"]) .linkActive::before {
+  display: none;
 }

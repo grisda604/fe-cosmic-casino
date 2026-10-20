@@ -48,8 +48,8 @@
   },
   "mobile": {
     "expires": "หมดเขต {date}",
-    "readTerms": "อ่านเงื่อนไข",
-    "readTermsAria": "{title} — อ่านเงื่อนไข"
+    "readTerms": "อ่านรายละเอียดโปรโมชั่น",
+    "readTermsAria": "{title} — อ่านรายละเอียดโปรโมชั่น"
   },
   "my": {
     "tab": "โปรโมชั่นของฉัน",

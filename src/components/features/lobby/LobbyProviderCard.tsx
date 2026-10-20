@@ -25,7 +25,7 @@ export function LobbyProviderCard({
     <Link
       href={href}
       aria-label={ariaLabel ?? title}
-      className="group relative flex min-w-0 flex-col overflow-hidden rounded-md border border-white/10 bg-[var(--soft-card-elevated)] no-underline transition hover:border-[var(--brand)]/60 active:scale-[0.98]"
+      className="group relative flex min-w-0 flex-col overflow-hidden rounded-md border border-white/10 soft-card-bg no-underline transition hover:border-[var(--brand)]/60 active:scale-[0.98]"
     >
       <div className="relative aspect-square w-full overflow-hidden bg-[var(--soft-surface)]">
         {coverSrc ? (
