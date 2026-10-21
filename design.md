@@ -1,265 +1,357 @@
-# Lobby Design Guide
+# Cosmicbet Lobby — Design & Build Guide
 
-> คู่มือออกแบบหน้า lobby (หน้าแรก + หน้าแท็บหมวดเกม) หลังปรับดีไซน์ตามภาพอ้างอิง "dark casino lobby"
-> ใช้ **token สีของธีมเดิม** (`src/styles/lotto-theme.css`, `themes.css`) — ห้าม hardcode สีพื้น/สีทองใหม่ เพื่อให้สลับธีมได้
-> ดีไซน์เดิม (PHANTOM Graphite + Gold) ดูได้จาก git history ของไฟล์นี้ · อ้างอิงเพิ่ม: `docs/design-ctmx-legend-pro.md`
+> เอกสารหลักของ UI ทั้งโปรเจกต์ (หน้า lobby · หน้าหมวดเกม · หน้าเมนู/สมาชิก · หน้าหวย) — โครงเปลือกหน้า, token/สี, ธีมมืด-สว่าง, คอมโพเนนต์, กติกา, logic ฝั่ง UI และสิ่งที่สร้าง/เปลี่ยนทั้งหมด
+> ภาพอ้างอิงเดิม: "dark casino lobby" (sidebar ซ้าย · header · แบนเนอร์ · pill หมวด · การ์ดเกม · แผงขวา) — **ใช้เป็นโครง ไม่ลอกข้อมูล/ข้อความจากภาพ**
+> ดีไซน์เก่า (PHANTOM Graphite+Gold) อยู่ใน git history ของไฟล์นี้ · อ้างอิงเพิ่ม: `docs/design-ctmx-legend-pro.md`, `docs/THEME-SWITCH-GUIDE.md`, `docs/STRUCTURE.md`
 
 ---
 
-## 1. หลักการ
+## 0. ภาพรวมโปรเจกต์ & วิธีทำงาน
 
-1. **มืด ซ้อนชั้น** — พื้นหลักดำ, การ์ด/pill ใช้ surface อ่อนกว่า 1 ขั้น — **Borderless: ไม่มีเส้นขอบ** แยกชั้นด้วยสีพื้นเท่านั้น — **ไม่มี shadow ใดๆ** (ดู §9.1)
-2. **ทองเฉพาะจุดสำคัญ** — active pill, ปุ่มหลัก, hover ของลูกศร/ปุ่ม (ไม่เกิน ~15% ของพื้นที่)
-3. **ไม่มีกล่องครอบ section** — หัวข้อ + แถวการ์ดวางบนพื้นหน้าโดยตรง (ยกเว้น ผู้ชนะสูงสุด / ผู้โชคดี ที่คงดีไซน์เดิม)
-4. **โค้งมนสม่ำเสมอ** — การ์ดใหญ่ 16 · ไทล์/การ์ดเกม 12 · pill/ปุ่มกลม 999
-5. **ภาพ 3D คือจุดสนใจ** — ใช้ภาพโปร่งใสจาก `public/assets` ชิดขวาของการ์ด ข้อความอยู่ซ้าย
-6. **Mobile-first** — มือถือเป็น baseline, desktop (≥1024) เพิ่ม sidebar ซ้าย + rail ขวา
+| หัวข้อ | รายละเอียด |
+|---|---|
+| Stack | Next.js **16.3** (App Router · Turbopack) · React 19.2 · Tailwind v4 · `lucide-react` · `swr` — **Next 16 มี breaking change** ให้อ่าน `node_modules/next/dist/docs/` ก่อนใช้ API ที่ไม่แน่ใจ (ดู `AGENTS.md`) |
+| โครงโฟลเดอร์ | โค้ดทั้งหมดอยู่ใต้ `src/` (`app` · `components` · `context` · `data` · `hooks` · `lib` · `styles` · `types`) · `public/` = asset · `scripts/` = สคริปต์ sync · `docs/` = เอกสารรอง · `src/legacy` = โค้ด PHANTOM/clone เดิม **ไม่ถูกใช้ในแอป — ห้ามแก้/ห้ามนับเป็นงานจริง** |
+| i18n | route prefix `[lang]` · ภาษา `th en lo my vi zh id fil km` · `th` ต้องครบเสมอ (ปลายทาง fallback) · `th`/`en` แยกไฟล์ต่อ namespace (`messages/<lang>/<ns>.json`) · ภาษาอื่นไฟล์เดียว fallback ตาม `FALLBACK_CHAIN` |
+| ข้อมูล | เกือบทั้งหมดเป็น **mock** (`src/data/*`, `public/promotions/*.json`, `lib/lotto/mock-*`) — เพิ่มข้อมูลผ่านที่โหลดเดิม ไม่ฝังในคอมโพเนนต์ |
+| ตรวจงาน | `npx tsc --noEmit` · `npx eslint src` · เปิดหน้าจริงทั้งมือถือ (≤390) และ desktop (1024/1280/1440/≥1992) · ทั้งธีมมืดและสว่าง |
+| Dev server | `npm run dev` (พอร์ต 3000) · **อย่าลบ `.next` ตอน dev server รันอยู่** (server จะล่ม) — ถ้า type ค้างให้ `npx next typegen` |
 
-## 2. Layout
+---
+
+## 1. หลักการออกแบบ
+
+1. **ซ้อนชั้นด้วยสีพื้น ไม่ใช้เส้น/เงา** — Borderless + **No shadow** (ดู §10) · การ์ดสว่าง/เข้มกว่าพื้นหลังเสมอ
+2. **พื้นผิวการ์ด/แท็บ = ไล่เฉดสีเสมอ** (ไม่ใช้พื้นเรียบ) — ผ่าน utility/token กลาง (§3.4)
+3. **ใช้ token ของธีม** — ห้าม hardcode สีหลัก/สีทองใหม่; สีธีมใช้กับ "จุดเน้น" (active, ปุ่มหลัก, หัวการ์ด) เท่านั้น
+4. **ธีมสว่าง: ห้ามพาสเทลของธีมเป็นพื้น** — พื้นเป็น **เทากลาง** หรือ **สีธีมเต็ม** แล้วเลือกตัวหนังสือคอนทราสต์สูง (เข้มบนเทา · ขาวบนสีธีม)
+5. **โค้งมนสม่ำเสมอ** — การ์ดใหญ่ 16 · ไทล์/ปุ่ม/การ์ดเกม 12 · pill/ปุ่มกลม 999
+6. **ภาพ 3D คือจุดสนใจ** — ภาพโปร่งใสจาก `public/assets` ชิดขวาการ์ด ข้อความอยู่ซ้าย
+7. **Mobile-first** — มือถือเป็น baseline; desktop (≥1024) เพิ่ม sidebar ลอย + แถบเมนูใต้ header + rail ขวา
+8. **ไม่ใช้ emoji เป็นไอคอน** (ใช้ `lucide-react` หรือภาพ 3D) · **ไม่ใส่ข้อมูลหลอกตามภาพอ้างอิง** (แชท, Live Bets, ชื่อเกมในรูป)
+
+---
+
+## 2. เปลือกหน้า (Shell) & Layout
+
+### 2.1 Route group ที่ใช้เปลือก lobby
+
+| กลุ่ม | ตัวอย่างหน้า | ตัวห่อ |
+|---|---|---|
+| `(lobby)/(tabs)` | `/` `/casino` `/slots` `/fishing` `/sport` `/cards` `/lottery` | `LobbyTabsShell` → `LottoShellFrame hubRail` |
+| `(sub)` | `/referral` `/missions/check-in` `/wheel` `/gems-store` `/promotions` `/event` `/vip` `/reward/*` `/transactions` `/cashback` `/profile/account` | `SubShellLayout` → `LottoShellFrame hubRail` (+ `ShellProvidedContext`) |
+| `(lobby)/[cat]/[provider]` · `lottery/*` (rules, slips) | หน้าค่ายเกม · กติกาหวย · โพย | `SubPageShell` ห่อเอง → `LottoShellFrame` (`hubRail` เมื่อไม่ใช่ `fit`/`compactBar`) |
+| หวย step (`/lottery/<ตลาด>/<งวด>` ฯลฯ) | แทง · ใส่ราคา · สรุปโพย | `SubPageShell fit`/`compactBar` — **ไม่มี** แถบเมนู/rail (โครงกะทัดรัดของหวย) |
+
+`LottoShellFrame` props: `hubRail` (เปิดแถบเมนูใต้ header + rail ขวา) · `fit` (มือถือล็อกความสูงเท่าจอ) · `bottomNav`.
+`SubPageShell` (ในหน้าย่อย): desktop แสดง **hero ชื่อหน้ากึ่งกลาง** (`gaming-category-hero`) แทน h1 ชิดซ้าย (ยกเว้น `fit`/`compactBar`); มือถือคง breadcrumb/h1 เดิม.
+
+### 2.2 Desktop ≥1024
 
 ```
-Desktop ≥1024 (sidebar ตรึงซ้ายจอ · hub ชิดขวาสุดจอ)                  Mobile <1024
-┌────────┬────────────────── header ───────────────────┐         ┌─ header ─┐
-│ ◧ เมนู │   ┌──── main ≤1360px กึ่งกลาง ────┐ │ hub rail│         │ banner   │
-│ โฮม    │   │ banner · pills                │ │ เมนูด่วน│         │ ฝาก/ถอน  │
-│ หวย    │   │ sections                      │ │ + โปร×2 │         │ pills →  │
-│ คาสิโน │   └───────────────────────────────┘ │ (ขวาสุด)│         │ hub →    │
-│ ...    │                                       │         │         │ sections │
-│ 248/64 │                                       │         │         │ bottom nav│
-└────────┴───────────────────────────────────────┴─────────┘         └──────────┘
+┌───────────────────────── header (เต็มความกว้างจอ · 72px · z40) ───────────────────────────┐
+├──────────────────── แถบเมนูเกม (sticky ใต้ header · 52px · z38 · ขาว→เทา) ───────────────┤
+│ ┌──────┐   ┌──────── main ≤1360px กึ่งกลาง ────────┐   ┌────────────┐                   │
+│ │sidebar│   │ hero ชื่อหน้า / แบนเนอร์               │   │ rail ขวา   │ ← ชิดขวาสุดจอ    │
+│ │ลอย    │   │ เนื้อหา                                │   │ เมนูด่วน   │                   │
+│ │64/248 │   │                                        │   │ + การ์ดโปร×2│                   │
+│ └──────┘   └────────────────────────────────────────┘   └────────────┘                   │
+└──────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-- **Sidebar ซ้าย** (`LobbySidebar`): **การ์ดลอย** (แบบเดียวกับแผงขวา) `position: fixed` — ห่างจาก header 16px (`top` = `--lobby-header-h` 72px + 16) · ห่างขอบจอซ้าย 12px (`--lobby-sidebar-inset`) · **สูง `min(780px, 100dvh − 72px − 32px)`** ไม่ติดขอบล่างจอ · มุมมน 16px ทั้งสี่ · เนื้อหา/header เว้นซ้ายเท่า `inset + ความกว้างแถบย่อ + 16` — **ขยาย 248px** (ไอคอน+ชื่อแนวนอน) / **ย่อ 64px** (ไอคอนอย่างเดียว, ชื่อเป็น tooltip) · ปุ่มบนสุดสลับ · จำค่าไว้ใน `localStorage` (`lobby-sidebar-collapsed`) · ยังไม่เคยเลือก: จอ ≥1440 เริ่มขยาย, แคบกว่าเริ่มย่อ · ดู §5.8
-- **Hub rail**: ชิดขวาสุดของจอ (264px, ≥1280 = 300px) · **Main container**: ยืดเต็มพื้นที่ระหว่าง sidebar กับ hub โดยเนื้อหา (`.mainStack`) กว้างไม่เกิน 1360px อยู่กึ่งกลาง (จอ ≥1992px ชดเชย hub/sidebar ให้อยู่กึ่งกลางจอจริง) (`.frame[data-sidebar]` เว้นซ้ายตามความกว้าง sidebar)
-- **Rail ขวา** (`LottoShellFrame hubRail`): การ์ด hub (แนะนำเพื่อน · เช็คอิน · วงล้อ · Gems · คูปอง · VIP) ≥1024- **Mobile**: hub เป็นแถวเลื่อนข้าง (`LobbyHubTiles variant="strip"`) ใต้ pill หมวด
-- ระยะห่างระหว่าง section: `gap-4` (มือถือ) / `gap-6` (desktop) · ภายใน section หัว→แถวการ์ด `10px`
+ตัวแปรที่ `.frame` (`lobby-layout.module.css`):
 
-## 3. Tokens
+| ตัวแปร | ค่า | ความหมาย |
+|---|---|---|
+| `--lobby-sidebar-width` | 64px (ย่อ) | ความกว้างที่ **content เว้นให้เสมอ** (ขยาย 248px ลอยทับ ไม่ดัน) |
+| `--lobby-sidebar-expanded` | 248px | ความกว้างตอนขยาย |
+| `--lobby-sidebar-inset` | 12px | ช่องว่างซ้ายของ sidebar ลอย |
+| `--lobby-header-h` | 72px | ความสูง header desktop |
+| `--lobby-bar-h` | 52px เมื่อ `data-hub` (ไม่งั้น 0) | ความสูงแถบเมนูใต้ header |
+| `--lobby-rail-width` | 264px (≥1280: 300px) | ความกว้าง rail ขวา |
+| `--lobby-rail-reserve` | `rail + 16px` เมื่อ `data-hub` (ไม่งั้น 0) | พื้นที่ขวาที่ header/main/แถบเมนูต้องเว้น |
 
-สีใช้ของธีมเดิมเท่านั้น (ค่าเริ่มต้น dark ใน `lotto-theme.css`):
+- **เว้นซ้ายของ content/header/แถบเมนู** = `inset + sidebar-width(64) + 16` (= 92px) · เว้นขวา = `24 + rail-reserve`
+- **main container** (`.mainStack`) กว้างไม่เกิน **1360px** กึ่งกลางพื้นที่ที่เหลือ · จอ **≥1992px** ชดเชย (`padding-left: max(0, reserve − sidebar − inset − 4)`) ให้ main อยู่กึ่งกลาง "จอ" จริง — header และแถบเมนูใช้สูตรเดียวกัน
+- **ขยาย sidebar แล้วต้องไม่มีอะไรขยับ**: sidebar `position: fixed` ลอยทับเนื้อหา (ไม่มีเงา) · header/แถบเมนูไม่ถูกทับ (อยู่เหนือ)
+- z-index: header 40 · bottom nav 40 · sidebar 39 · แถบเมนู 38 · แถบ pill มือถือ 30
+
+### 2.3 Mobile <1024
+
+ลำดับบนหน้าแรก (`LobbyTabsShell`): **header → แบนเนอร์ + ฝาก/ถอน (หรือ เข้าสู่ระบบ/สมัคร ถ้ายังไม่ login) → แถบ hub (เลื่อนข้าง) → การ์ดโปร (เลื่อนข้าง · เฉพาะหน้าแรก) → pill หมวดเกม (sticky) → เนื้อหา → bottom nav**.
+sidebar / แถบเมนูใต้ header / rail ขวา **ไม่แสดง** บนมือถือ (ซ่อนด้วย CSS ต่ำกว่า 1024).
+
+---
+
+## 3. Tokens & ระบบสี
+
+### 3.1 ไฟล์ CSS & ลำดับ (`app/globals.css`)
+
+`tailwindcss` → `lotto-theme.css` (token พื้นฐาน + `--ui-*`) → `bblotto-header.css` (header มือถือ) → `lobby-desktop-header.css` (header desktop) → `lotto-ui-compat.css` (alias `--soft-*`, utilities, `--grad-*`) → `themes.css` (ธีมทั้งหมด) → `lotto-themes-bridge.css` (สะพานธีม→token + **กฎ override ธีมมืด/สว่าง**) → `lotto-floating-actions.css` → `lottery-*.css` → `gaming-lobby.css` → `motion*.css`.
+**กฎ override ต้องอยู่ท้ายไฟล์ที่เกี่ยวข้อง** และใช้ attribute ซ้ำ (`html[data-mode="light"][data-mode="light"]`) เมื่อต้องชนะ specificity ของ `themes.css`.
+
+### 3.2 โหมด/ธีม
+
+`html[data-mode="light"|dark]` (ไม่มี attr = มืด) · `html[data-theme="<ธีม>"]` (ไม่มี attr/`cosmic` = ธีมเริ่มต้น "phantom/cosmic") · สีธีมที่ใช้: `--t-ga` (chrome 1) `--t-gb` (chrome 2) `--t-icon` `--t-action` · alias สำหรับ UI ใหม่: **`--ui-theme` (= `--t-ga`, fallback `#3b2a63`) / `--ui-on-theme` (ขาว)** — ใช้ได้ทุกโหมด.
+
+### 3.3 Token หลัก
 
 | ใช้กับ | token |
 |---|---|
-| พื้นหลังหน้า | `--body`, `--BG-Surface-Lighter` — **ธีมมืด: พื้นหลังหน้าต้องสว่างกว่าการ์ด/แผง** (ขาว 12% ทับสีฐานของธีม, cosmic ≈ `#242227`) ไม่งั้นการ์ดกลืนพื้น (กฎอยู่ท้าย `lotto-themes-bridge.css`) · กล่องครอบแบนเนอร์+ปุ่มฝาก/ถอนบนมือถือ (`.panel`) = ดำ 42% ผสม `--BG-Surface-Darker` เข้มกว่าพื้นหลังหน้าชัดเจน |
-| พื้น section / กล่อง | `--BG-Surface-Darker`, `--BG-Surface-Normal` |
-| การ์ด / pill / ไทล์ | `--ui-surface` (= `--Card-Normal`) |
-| ตัวหนังสือ | `--Text-Icon-Title` (หัว) · `--Text-Icon-Body` (รอง) |
-| ทอง/สีหลัก | `--Main-Primary`, `--Main-Secondary`, `--btn-gradient1/2`, `--btn-text` |
+| พื้นหลังหน้า | `--body`, `--cosmic-page-base` (ดู §3.5) |
+| พื้นส่วน/แผง | `--BG-Surface-Darker`, `--BG-Surface-Normal`, `--BG-Surface-Lighter` |
+| การ์ด/ไทล์ | `--ui-surface` (= `--Card-Normal`) |
+| ตัวหนังสือ | `--Text-Icon-Title` (หัว) · `--Text-Icon-Body` (รอง) · `--text-muted` |
+| สีหลัก/ปุ่ม | `--Main-Primary`, `--Main-Secondary`, `--btn-gradient1/2`, `--btn-text` |
+| รัศมี | `--ui-radius-card` 16 · `--ui-radius-tile` 12 · `--ui-radius-pill` 999 |
+| ขอบ | `--ui-stroke` / `--ui-stroke-strong` = **`transparent`** (ที่ว่างของขอบ ไม่แสดงเส้น · **ห้ามตั้งเป็นสี**) |
+| hover | `--ui-hover` (surface + ขาว 8%; สว่าง: ดำ 6%) — ใช้พื้น hover แทนขอบ |
+| เส้นคั่นกลุ่ม | `--ui-divider` (มืด ขาว 16% · สว่าง `rgba(27,34,48,.16)`) — ใช้เฉพาะเส้นคั่นกลุ่มเมนู |
+| เทากลาง | `--ui-gray` / `--ui-gray-hover` (มืด `#2a2a2f`; สว่าง `#e4e5e9`/`#d6d7dc`) — ปุ่ม «ดูทั้งหมด», ลูกศรเลื่อน, ไทล์โลโก้ค่าย |
+| `--ui-glow` | **เลิกใช้** |
 
-token โครงสร้างที่เพิ่ม (`:root` ใน `lotto-theme.css`):
+### 3.4 พื้นผิวไล่เฉด (`lotto-ui-compat.css`)
 
-| token | ค่า | ใช้กับ |
-|---|---|---|
-| `--ui-radius-card` | 16px | แบนเนอร์, PromoCard |
-| `--ui-radius-tile` | 12px | การ์ดเกม, ไทล์ค่าย |
-| `--ui-radius-pill` | 999px | pill, ปุ่มลูกศรกลม |
-| `--ui-stroke` | `transparent` | ที่ว่างของขอบ (ไม่แสดงเส้น · คงไว้ให้ขนาด layout ไม่ขยับ) — **ห้ามตั้งเป็นสี** |
-| `--ui-hover` | surface + ขาว 8% (light: ดำ 6%) | พื้น hover / focus แทนขอบ |
-| `--ui-gray` / `--ui-gray-hover` | `#2a2a2f` / +ขาว 8% (ธีมสว่าง = `--ui-surface`) | **เทาเข้มกลาง ไม่อิงสีธีม** ทุกธีมมืด: ปุ่ม «ดูทั้งหมด», ลูกศรเลื่อนในหัว section, ไทล์โลโก้ค่ายเกม |
-| `--ui-glow` | **เลิกใช้** (เดิมเป็นเงาเรืองแบนเนอร์) | — |
+- `--grad-panel` / `--grad-card` / `--grad-modal` = ไล่เฉด **บน→ล่าง (180deg)**: ขาว 7–9% ทับสีฐาน → ดำ 7–8% ทับสีฐาน (ธีมสว่างบังคับเป็นเทา: panel `#fff→#eef0f3` · card `#fff→#e8eaee`)
+- utility ที่ต้องใช้ (**ห้ามเขียน `bg-[var(--soft-card)]` ตรง ๆ**): `soft-panel` · `soft-card` · `soft-card-dark` · `modal-surface` · คลาสพื้น `soft-panel-bg` · `soft-card-bg`
+- **แท็บแบบมีพื้น**: ไม่ active = `soft-tab` (ไล่เฉด ไม่มีขอบ) · active = `soft-tab-active` (ไล่เฉด `--btn-gradient1→2` + `--btn-text`) · แท็บ VIP ไล่เฉดที่ตัวราง · แท็บเส้นใต้ (`SoftLineTabs`) คงเดิม
 
-**Header มือถือ + Bottom nav บนธีมมืดเรียบ (phantom/cosmic และ navy)**: สี chrome ของสองธีมนี้ใกล้กันมาก จึงบังคับไล่เฉดชัดเจน — บน = `--BG-Surface-Darker` ผสมขาว 14% → ล่าง = `--BG-Surface-Lighter` (ปุ่มนูนกลางของ bottom nav ใช้สีบนเดียวกัน) · กฎอยู่ที่ `lotto-themes-bridge.css` (header) และ `bottom-nav.module.css` (bottom nav) · ธีมอื่นและโหมดสว่างไม่โดน
+### 3.5 ธีมมืด
 
-**ธีมสว่าง (`html[data-mode="light"]`) — กติกาสี**: ใช้ `--ui-theme` (= `--t-ga` สีธีม) เป็นพื้นของส่วนที่ต้องเด่น และ `--ui-on-theme` (ขาว) เป็นตัวหนังสือบนสีนั้น · `--ui-gray` = `#e4e5e9`
+- **พื้นหลังหน้าต้องสว่างกว่าการ์ด**: `color-mix(#fff 12%, ฐาน)` (cosmic ≈ `#242227`) — ไม่งั้นการ์ด/แผงกลืนพื้น (ท้าย `lotto-themes-bridge.css`)
+- กล่องแบนเนอร์+ฝาก/ถอน (มือถือ, `.panel`) = ดำ 42% ผสม `--BG-Surface-Darker` (เข้มกว่าพื้นหน้าชัด)
+- **header มือถือ + bottom nav บนธีมมืดเรียบ (cosmic/phantom, navy)**: ไล่เฉดบน = `--BG-Surface-Darker` + ขาว 14% → ล่าง = `--BG-Surface-Lighter` (ปุ่มนูนกลาง bottom nav ใช้สีบน) · ธีมอื่นไม่โดน
+- ปุ่ม/ทอง: active pill/ปุ่มหลักใช้ `--btn-gradient`; ทอง ≤ ~15% ของพื้นที่
 
-| ส่วน | พื้น | ตัวหนังสือ |
-|---|---|---|
-| Sidebar ซ้าย | เทาอ่อน `#e6e9ee` | เทาเข้ม `#4f586b` · hover `#d8dce3` · **active = `--ui-theme` + ขาว** (ไม่มีแถบทอง) |
-| Rail ขวา: แผงเมนูด่วน | เทาอ่อน `#e6e9ee` (การ์ดขาว) | เข้ม · **hover/active = `--ui-theme` + ขาว** |
-| Pill หมวดเกม | ไล่เฉดบน→ล่าง ขาว `#fff` → เทา `#d9dbe0` | เข้ม `#3a4150` · **active = เฉดเดิม + ขอบ 2px ไล่เฉดสีธีม (`--ui-theme` อ่อน→เข้ม) + ตัวหนังสือ `--ui-theme`** |
-| การ์ดรายละเอียด (PromoCard) | ไล่เฉด `--ui-theme` | ขาว |
-| ไทล์ค่ายเกม · «ดูทั้งหมด» · ลูกศรเลื่อน | เทา `--ui-gray` | เทาเข้ม |
-| Header desktop (คาสิโน/กีฬา · ค้นหา · กระดิ่ง · โพย · ยอดเงิน) | ขาวโปร่ง 16% บนพื้นสีธีม | ขาว · ตัวที่ active = พื้นขาว + ตัวหนังสือ `--ui-theme` |
-| กล่องครอบแบนเนอร์+ฝาก/ถอน (มือถือ) · การ์ดเมนูด่วนแถวเลื่อน (มือถือ) | เทาไล่เฉดเข้มกว่าพื้นขาวของหน้า (`#e2e5eb → #cdd2db` / `#f2f4f7 → #d5dae2`) | เข้ม |
-| ปุ่มลอย (ธีม/แชท) | ขาว + ขอบสีธีม | ไอคอนสีธีม |
-| การ์ดทั่วไป / แคปชั่นการ์ดเกม (`--ui-surface`, `--grad-*`) | **เทากลาง** ไล่เฉดขาว→เทา (`#fff → #e8eaee`) | เข้ม |
+### 3.6 ธีมสว่าง (สรุปกติกา — รายละเอียดแต่ละส่วนอยู่ §7)
 
-| หน้าหวยทุก step (hub · งวด · แทง · ใส่ราคา · สรุปโพย · โพย) | ไทล์/การ์ด/ปุ่ม **ขาว → เทา** (`#fff → #e6e9ee`) + outline `#cfd4dc` | เข้ม `#1c1d22` · ตัวที่เลือก/active, นับถอยหลัง, ค่ารางวัล, ring = `--ui-theme` · งวดที่เปิดรับและแบนเนอร์หัวตลาดเป็นสีธีมเต็ม + ขาว |
+- พื้นหลังหน้า = **gray-300 `#d1d5db`** (ไม่ใช้ขาวล้วน เพื่อให้การ์ดขาวแยกชัด) — ตั้งทั้ง token (`--cosmic-page-base`/`--body`) และ `body`/`.lotto-page`
+- token พื้นผิวถูกบังคับเป็นเทากลางทุกธีม: `--Card-Normal #eef0f3` · `--BG-Surface-Normal #f4f5f7` · `--BG-Surface-Darker #eceef2` · `--Text-Icon-Body #4a5265` · `--text-muted #5b6475` → คอมโพเนนต์ที่อ่าน token เหล่านี้เป็นเทาอัตโนมัติ
+- สีธีมเต็มใช้กับ: active ของ sidebar/pill, ปุ่มหลัก, หัวการ์ด, การ์ดโปรใน rail, header (ตัวหนังสือขาว)
 
-**กติกาหน้าหวย (ธีมสว่าง, รอบ 2)**: ปุ่มทุกชนิดในโซนหวย **รูปทรงเดียวกัน = มุมโค้ง 12px** (CTA สูง 48px) · ปุ่มหลัก = ไล่เฉด `--ui-theme` + ขาว · ปุ่มรอง = ขาว→เทา + outline + ตัวเข้ม · ตัวที่เลือก = ไล่เฉด `--ui-theme` + ตัวหนังสือ/อัตราจ่ายขาว · **ช่องกรอก/ช่องเลข = พื้นขาว + กรอบ `#98a1b1` 1.5px** (ต่างจากพื้นการ์ดเสมอ) · หัวการ์ด (หัวกลุ่มประเภท, หัวงวด, แบนเนอร์ตลาด) = พื้นสีธีม + ขาว · ตัวเลข/อัตราจ่ายเข้มหนา ไม่ใช้สีจางกลืนพื้น
-
-**หน้าหวยรอบ 3**: หัวการ์ดสีธีมต้อง redefine `--text-on-light` / `--text-muted` เป็นขาวใน scope (ข้อความใน `LotteryDrawCard` ใช้ Tailwind ผ่าน token สองตัวนี้) · **toggle**: ปิด = เทา `#aab2c0` ปุ่มกลมขาวชิดซ้าย, เปิด = เขียว `#16a34a` ปุ่มกลมขาวชิดขวา (ไม่ใช้สีธีม เพราะธีมเข้มทำให้แยกสถานะไม่ออก) · **แถบ ย้อน/ลบเลข**: ไม่มีพื้นหลังรอง ปุ่มสองปุ่มสีธีม + ไอคอนขาว ห่าง 8px
-
-กฎหน้าหวยอยู่ท้าย `lottery-glass.css` (ใช้ `html[data-mode="light"][data-mode="light"]` เพื่อชนะกฎสีธีมใน `themes.css`)
-
-**กลไก**: `lotto-themes-bridge.css` (ท้ายไฟล์) บังคับ `--Card-Normal` `#eef0f3` · `--BG-Surface-Normal` `#f4f5f7` · `--BG-Surface-Darker` `#eceef2` · `--Text-Icon-Body` `#4a5265` · `--text-muted` `#5b6475` ในโหมดสว่างของทุกธีม — คอมโพเนนต์ที่อ่าน token เหล่านี้จึงเป็นเทากลางอัตโนมัติ
-
-**พื้นหลังหน้า (ธีมสว่าง) = เทา gray-300 `#d1d5db`** ไม่ใช้ขาวล้วน — เพื่อให้การ์ด/แผงสีขาวแยกจากพื้นหลังได้ชัด (ตั้ง `--cosmic-page-base` / `--body` ท้าย `lotto-themes-bridge.css`)
-
-**หลักการสีในธีมสว่าง**: ห้ามใช้โทนพาสเทลของธีมเป็นพื้นการ์ด/แถบ (ตัวหนังสือจาง อ่านยาก) — พื้นเป็น **เทากลาง** หรือ **สีธีมเต็ม** เท่านั้น แล้วเลือกสีตัวหนังสือให้คอนทราสต์สูง (เข้มบนเทา · ขาวบนสีธีม)
-
-คอมโพเนนต์ใหม่อ้างผ่าน token ทั้งหมด — ถ้าต้องแก้เฉพาะธีมสว่างให้ override ที่ token ไม่ใช่ที่คอมโพเนนต์
+---
 
 ## 4. Typography
 
-| บทบาท | ขนาด / น้ำหนัก |
-|---|---|
-| หัว section | 18 (มือถือ) / 20 (desktop) · 700 |
-| ชื่อการ์ดโปร lg / md | 18 / 15 · 700 |
-| ชื่อเกม | 12 · 500 (ellipsis บรรทัดเดียว) |
-| ข้อความรอง / จำนวนผู้เล่น / ชิป | 10–12 |
-| pill หมวด | 14 · 500 (active 700) |
+ฟอนต์ `Noto Sans Thai` ตั้งที่ `body` (ห้ามตั้ง font-family เพิ่ม) · หัว section 18/20 · 700 · ชื่อการ์ดโปร lg/md 18/15 · 700 · ข้อความรอง/ชิป 10–12 · pill หมวด 13–16 (active 700) · ตัวเลขเงิน/จำนวน `tabular-nums`.
+ตัวหนังสือบนสีธีมใช้ `--ui-on-theme` (ขาว) · ตัวเลข/อัตราจ่ายในหวยเข้ม-หนา ไม่ใช้สีจางกลืนพื้น.
 
-ฟอนต์: `Noto Sans Thai` (ตั้งไว้ที่ `body`) — ห้ามตั้ง font-family เพิ่มในคอมโพเนนต์
+---
 
 ## 5. คอมโพเนนต์
 
-### 5.1 ภาพรวม
+### 5.1 แผนที่คอมโพเนนต์
 
 | คอมโพเนนต์ | ไฟล์ | หน้าที่ |
 |---|---|---|
-| `SectionHeader` | `components/ui/SectionHeader.tsx` | หัว section มาตรฐาน |
-| `CategoryPills` | `features/home/CategoryPills.tsx` | แถว pill หมวดเกม |
-| `PromoCard` | `features/home/PromoCard.tsx` | การ์ดโปร (ชื่อ+คำอธิบาย+ลูกศร / ภาพ 3D) |
-| `DesktopFeatureCards` | `features/home/DesktopFeatureCards.tsx` | จัดวาง PromoCard (คู่ใหญ่ / แถวเลื่อนมือถือ) |
-| `LobbyGameCard` | `features/home/LobbyGameCard.tsx` | การ์ดเกม: ปก + แถบชื่อ/ผู้เล่น |
-| `TrendingGames` | `features/home/TrendingGames.tsx` | กริดเกมยอดนิยม |
-| `GameShowcaseSection` | `features/home/GameShowcaseSection.tsx` | แถวเกม (หัว + carousel) |
-| `LottoPeekCarousel` | `features/home/LottoPeekCarousel.tsx` | carousel; ส่ง `heading` = ลูกศรอยู่ในหัว |
-| `LobbyHubTiles` | `features/home/LobbyHubTiles.tsx` | การ์ด hub (rail / strip) |
-| `HeroBanner` | `features/home/HeroBanner.tsx` | แบนเนอร์ + ลูกศร + จุด |
-| `ProviderLogoMarquee` | `features/home/ProviderLogoMarquee.tsx` | ไทล์โลโก้ค่ายเลื่อนอัตโนมัติ |
+| `LottoShellFrame` / `SubShellLayout` / `SubPageShell` | `components/layout/*` | เปลือกหน้า (§2) |
+| `LottoSiteHeader` (+ `LottoDesktopHeader`) | `features/home` | header มือถือ / desktop |
+| `LobbySidebar` | `features/home` | sidebar ลอย ย่อ/ขยาย |
+| `CategoryPills` | `features/home` | pill หมวด (มือถือ) / แถบเมนู (`bar`) |
+| `LobbyHubTiles` | `features/home` | การ์ด hub (`rail` แผงขวา · `strip` มือถือ) |
+| `DesktopFeatureCards` + `PromoCard` | `features/home` | การ์ดโปรโมชั่น/กิจกรรม (`rail` · `mobile`) |
+| `HeroBanner` | `features/home` | แบนเนอร์ + ลูกศร + จุด |
+| `TrendingGames` · `GameShowcaseSection` · `LottoPeekCarousel` · `LobbyGameCard` · `LiveOnlineCount` | `features/home` | กริด/แถวเกม |
+| `ProviderLogoMarquee` | `features/home` | ไทล์โลโก้ค่ายเลื่อนอัตโนมัติ |
+| `TopLeadersSection` · `HallOfFameSection` | `features/home` | ผู้ชนะสูงสุด / ผู้โชคดี (**คงเดิม** §11) |
+| `SectionHeader` | `components/ui` | หัว section มาตรฐาน |
+| `GamingCategoryPage` | `features/lobby` | หน้าหมวดเกม (hero + ตัวกรอง + กริดค่าย) |
+| `LotteryHubPage` / `LotteryHubContent` | `features/lottery/hub` | หน้าหมวดหวย |
+| `ReferralTable` | `features/referral` | ตาราง 2 คอลัมน์ |
+| `PromotionsMobileFeed` (กริดการ์ดโปร) | `features/promotions` | รายการโปรโมชั่น (ทุกจอ) |
+| `BottomNavLotto` · `FloatingActions` · `LottoMenuDrawer` | `home`/`layout`/`menu` | bottom nav มือถือ · ปุ่มลอย · ลิ้นชักเมนู |
 
-### 5.2 SectionHeader
+### 5.2 Header
 
-- ซ้าย: ไอคอน 3D 28px + ชื่อ · ขวา: pill «ดูทั้งหมด» (สูง 32, ลูกศร+ข้อความ) + ปุ่มลูกศรกลม 32px ซ้าย/ขวา
-- ลูกศรเลื่อนแสดงเฉพาะ ≥768 (มือถือใช้ปัดนิ้ว) · ปุ่ม disabled เมื่อสุดแถว
-- ใช้ผ่าน `LottoPeekCarousel heading={{ title, icon, viewAllHref }}` เมื่อมี carousel, หรือใช้ `SectionHeader` ตรง ๆ เมื่อเป็นกริด
-- **ห้าม** ทำหัวแบบอื่นใน lobby — section ใหม่ต้องใช้ตัวนี้
+**Desktop** (`LottoDesktopHeader`, CSS `lobby-desktop-header.css`): เต็มความกว้างจอ สูง 72 — ซ้าย: สวิตช์ คาสิโน/กีฬา + ช่องค้นหา (submit → `/slots?q=` — ยังไม่มีหน้าอ่าน `q`) · กลาง: โลโก้ (absolute กลางกรอบ) · ขวา: กระดิ่ง (`openNotifications`) · โพยค้าง (badge จำนวน) · ยอดเงิน (`formatMoney`) + ปุ่ม `+` ทอง (`openDeposit`) · avatar (guest: เข้าสู่ระบบ/สมัครสมาชิก + DevQuickLogin เฉพาะ dev) · ทุกชิ้นแคปซูลกลม ไม่มีขอบ · `data-scrolled` เพิ่มพื้นเมื่อเลื่อน.
+**มือถือ** (`LottoSiteHeader`): โลโก้ · กล่องเครดิต · กระดิ่ง · hamburger (เปิด `LottoMenuDrawer` ผ่าน `HomeActionBridge`) — ซ่อนส่วน desktop ที่ <1024.
 
-### 5.3 CategoryPills
+### 5.3 Sidebar (`LobbySidebar`) — การ์ดลอย
 
-- desktop: สูง 52, padding `0 24 0 14`, ตัวหนังสือ 16, ไอคอน 30 · มือถือ: สูง 32, ตัวหนังสือ 13, ไอคอน 18, มุม 10px (ไม่ใช่ทรงแคปซูล), padding แนวตั้งของแถบ 4px · ปุ่มที่ไม่ active = เทาอ่อน (`--pill-bg` = ขาว 16% บน surface, hover 24%; ธีมสว่างใช้ดำ 8%/14%) · จัดกลุ่ม **กึ่งกลาง** (`justify-content: safe center` — ล้นแล้วชิดซ้ายและเลื่อนได้) ซ่อน scrollbar, `scroll-snap`
-- inactive: `--ui-surface` (ไม่มีขอบ) · hover = `--ui-hover` · active: ไล่เฉดทอง `--btn-gradient1→2`, ตัวหนังสือ `--btn-text`
-- active คำนวณจาก route (`resolveLobbyCategory`) · ข้อมูลหมวดอยู่ `lobby-category.ts` (ไอคอนจาก `assets/3d/menuicon`)
-- **Desktop (≥1024)**: เป็น **แถบเมนูต่อใต้ header** (`CategoryPills bar` ใน `.navBarSlot` ของ `LottoShellFrame` เมื่อ `hubRail`) — เต็มความกว้างจอ พื้น**ไล่เฉดขาว→เทา** `#fff → #e6e9ee` บนลงล่าง (โหมดมืด: `--BG-Surface-Darker`) sticky ใต้ header (z-index 38) สูง 52 · เนื้อหาในแถบจัดแนวเดียวกับ header/main (≤1360 กึ่งกลาง) · เมนูกว้างพอดีเนื้อหา (`padding 0 18`) เรียงชิดกัน **จัดกึ่งกลางกรอบ** ไม่มีพื้นหลังต่อปุ่ม · **ไม่มี ring/outline** และ hover/กดไม่ขยับ UI (ไม่ translate/scale ทับ `.motion-press`) · โฟกัสคีย์บอร์ด = พื้นเทาอ่อน (hover = เทาอ่อน) · **active = ตัวหนังสือสีธีม ตัวหนา + เส้นใต้ 3px สีธีม** · `--lobby-bar-h` (52px) ถูกนำไปคำนวณตำแหน่ง sidebar ลอยและ rail ขวา (อยู่ต่ำลงเท่าแถบนี้)
-- มือถือ: **ใต้การ์ดโปร ก่อนเนื้อหา/เกมยอดนิยม** (ลำดับ: แบนเนอร์+ฝาก/ถอน → hub strip → การ์ดโปร → pill หมวด → เนื้อหา) ผ่าน `LottoMobileQuickMenu` — แถบมีพื้นสีอ่อนเต็มความกว้างจอ (`--BG-Surface-Darker` + ขาว 12%; ธีมสว่าง ดำ 8%) และ **sticky ใต้ header**: เลื่อนจนแถบชน header แล้วติดไปด้วย (`position: sticky`, `top` = ความสูง `.lotto-site-header` วัดด้วย ResizeObserver, z-index 30 < header 40) — ห้ามใส่ `overflow` ให้ ancestor ของแถบนี้บนมือถือ · desktop: ใต้แบนเนอร์ในเนื้อหาหน้าแรก
+- `position: fixed` · `top = header-h + bar-h + 16` · `left = 12` · สูง `min(780px, 100dvh − header − bar − 32)` · มุมมน 16 · z 39 · พื้น `--BG-Surface-Darker` (ธีมสว่าง `#e6e9ee`)
+- **ย่อ 64px** (ไอคอนกลาง, ชื่อเป็น tooltip) / **ขยาย 248px** (ไอคอนซ้าย + ชื่อ) — ปุ่มบนสุดสลับ · `useSidebarCollapsed()` เก็บใน `localStorage["lobby-sidebar-collapsed"]` · ยังไม่เคยเลือก: จอ ≥1440 เริ่มขยาย, แคบกว่าเริ่มย่อ · เฟรมตั้ง `data-sidebar="expanded|collapsed"`
+- เมนู 3 กลุ่ม คั่นด้วยเส้น `--ui-divider` 2 เส้น: **หมวดเกม** — หน้าหลัก · คาสิโน · สล็อต · ยิงปลา · กีฬา · หวย · เกมไพ่ → **โปรโมชั่น** — โปรโมชั่น · กิจกรรม · ลุ้นรางวัล → **ตั้งค่า** (ล่างสุด) — เลือกธีมสี · ภาษา (ธง+ตัวย่อ)
+- แถว: สูง 44 · ไอคอน `lucide` 22 · ชื่อ 14 · active (มืด) = ตัวหนังสือ `--Main-Secondary` + พื้น `--Main-Primary` 12% + แถบทอง 3px; (สว่าง) = พื้น `--ui-theme` + ขาว
+- ลำดับหมวดเกมแหล่งเดียว: `features/home/lobby-category.ts` (`หน้าหลัก · คาสิโน · สล็อต · ยิงปลา · กีฬา · หวย · เกมไพ่`) — sidebar มีรายการของตัวเองในลำดับเดียวกัน **แก้ลำดับต้องแก้ 2 ที่**
+- ห้ามใส่ wallet/ฝาก-ถอนใน sidebar (อยู่ใน header)
 
-### 5.4 PromoCard
+### 5.4 แถบเมนูเกม (`CategoryPills bar`) — desktop ใต้ header
 
-- โครง: `[ชื่อ / คำอธิบาย ≤2 บรรทัด / ปุ่มลูกศรกลม 28px]` ซ้าย (กว้างสูงสุด 62%) · ภาพ 3D ชิดขวา (กว้าง 46%, `object-fit: contain`)
-- พื้น: gradient surface + เรืองสี `tone` ที่มุมขวา · hover: สว่างขึ้น (`brightness 1.1`), ปุ่มลูกศรเป็นทอง
-- `size`: `lg` (สูง ≥132/148) สำหรับคู่บน · `md` (สูง ≥104) สำหรับแถวสาม
-- `tone`: `gold` (ค่าเริ่มต้น) `blue` `purple` `orange` — ใช้เพื่อแยกประเภท ไม่ใช่ตกแต่ง
-- `chips`: ชิปทางลัดใต้คำอธิบาย เฉพาะ desktop
-- Desktop: การ์ดโปรโมชั่น + กิจกรรมพิเศษ อยู่ใน **rail ขวา** เรียงคอลัมน์เดียวใต้แผง "เมนูด่วน" (`<DesktopFeatureCards rail />`, ขนาด `md`, ไม่มีชิป) — ไม่อยู่ใน main · Mobile: แถวเดียวเลื่อนข้าง การ์ดละ 78% ใต้แถบ hub (`mobile`)
+เต็มความกว้างจอ · พื้น **ไล่เฉดขาว→เทา `#fff → #e6e9ee`** (มืด: `--BG-Surface-Darker`) · sticky ใต้ header · เนื้อหาจัดแนวเดียวกับ header/main (≤1360 กึ่งกลาง) · เมนูกว้างพอดีเนื้อหา (`padding 0 18`) เรียงชิดกัน **จัดกึ่งกลาง** · ไม่มีพื้นหลังต่อปุ่ม · **active = ตัวหนังสือสีธีม ตัวหนา + เส้นใต้ 3px สีธีม** (มืด: `--Main-Secondary`/`--Main-Primary`) · **ไม่มี ring/outline** · hover/กด **ไม่ขยับ UI** (ทับ `.motion-press` ด้วย `transform:none`) · โฟกัสคีย์บอร์ด = พื้นเทาอ่อน · ข้อมูลหมวดและ active (`resolveLobbyCategory`) จาก `lobby-category.ts` (หน้าหลัก = `/`, หวย = `/lottery`).
 
-### 5.5 การ์ดเกม + กริด
+### 5.5 Pill หมวดเกม (มือถือ) — `LottoMobileQuickMenu`
 
-- `LobbyGameCard`: ปกใช้ **สัดส่วนเดิมของไฟล์ภาพ** (ปัจจุบัน 1:1) ไม่บังคับ aspect-ratio ไม่ crop — ความสูงการ์ดตามภาพ ทุก carousel/กริด ในกรอบมน 12 (ไม่มีขอบ) · **ไม่มีชื่อเกม** · prop `online` = เพิ่มแถบ**ผู้เล่นออนไลน์** (ไอคอนคน + ตัวเลข กึ่งกลาง) ใต้ภาพ พื้นไล่เฉดสีธีม (`--ui-theme`) ตัวหนังสือขาว — ตัวเลขเป็น mock สุ่มใหม่ทุก 3 วินาที (±120 รอบค่าฐาน, `LiveOnlineCount`) · ใช้เฉพาะ `TrendingGames` · แถวคาสิโน/สล็อต/กีฬาเป็นภาพปกล้วน ไม่มีแถบ
-- ป้าย `สด` / `ฮิต` / `ใหม่` มุมซ้ายบนของภาพ (ซ้อนได้ตามเงื่อนไข)
-- `layout`: `carousel` (กว้าง 100% ของ slide) · `grid` · `fixed` (กว้างตาม `--card-width`)
-- แถวเกม `7grid` (ชื่อโหมดเดิม): desktop เห็น **5 ใบเต็มแถว ไม่ peek** · แท็บเล็ต 4 + peek · มือถือ 3 + peek ครึ่งใบ
-- `TrendingGames`: มือถือ: แถวเดียวเลื่อนข้าง (`overflow-x` + snap) เห็น 3 ใบ + ใบถัดไปโผล่ ทั้ง 10 ใบ · ≥768 5 คอลัมน์ × 2 แถว (10 ใบ) — ประกอบจากเกมที่โหลดแล้ว (คาสิโน 5 + สล็อต 5) ไม่มีแหล่งข้อมูลใหม่
+อยู่ใต้การ์ดโปร · แถบพื้นสว่างกว่าพื้นหน้าเต็มความกว้าง (`--BG-Surface-Darker` + ขาว 12%; สว่าง ดำ 8%) · **sticky ใต้ header** (`top` = ความสูง `.lotto-site-header` วัดด้วย ResizeObserver, z 30) — ห้ามใส่ `overflow` ให้ ancestor บนมือถือ · pill สูง 32 · ตัวหนังสือ 13 · ไอคอน 18 · มุม 10px (ไม่ใช่แคปซูล) · ไม่ active = เทาอ่อน (`--pill-bg`) · active = ไล่เฉดทอง (สว่าง: ขาว + ขอบไล่เฉดสีธีม)
 
-### 5.6 HeroBanner
+### 5.6 แผงขวา (rail) & hub
 
-- ภาพ `public/HomeProBanner/*` อัตราส่วน 1916×821, มุม 16
-- ลูกศรกลม 28px มุมขวาล่าง (≥768) + จุดกลางล่าง (active ยาว 22 สีหลัก)
+- `LobbyHubTiles variant="rail"`: แผง "เมนูด่วน" — หัวแผง + การ์ด **คอลัมน์เดียว** สูง 64: แนะนำเพื่อน · เช็คอิน · วงล้อ · ร้านค้าเพชร (Gems) · คูปอง (เปิด `CouponUI`) · VIP (`/vip`) — ใช้ `useRequireAuthAction`/`menuHrefRequiresAuth` (ต้อง login ก่อนเปิด) · ข้อมูลจาก `DESKTOP_RIGHT_MENU_TILES`
+- `DesktopFeatureCards rail`: การ์ดโปรโมชั่น + กิจกรรมพิเศษ (ขนาด `md`, ไม่มีชิป) ใต้แผงเมนูด่วน
+- มือถือ: `LobbyHubTiles variant="strip"` แถวเลื่อนข้าง (การ์ดกว้าง 8.5rem) + `DesktopFeatureCards mobile` แถวเลื่อน (การ์ดละ 78%)
+- `PromoCard`: ชื่อ+คำอธิบาย(≤2 บรรทัด)+ปุ่มลูกศรกลม ซ้าย (≤62%) · ภาพ 3D ชิดขวา (46%) · `tone` gold/blue/purple/orange · hover brightness 1.1
 
-### 5.7 ค่ายเกม (ProviderLogoMarquee)
+### 5.7 การ์ดเกม & กริด
 
-- ไทล์สูง 56 กว้าง `clamp(7rem,13vw,9.5rem)`, พื้น `--ui-surface` (ไม่มีขอบ), โลโก้ **สีปกติ** (ห้าม grayscale / filter) · hover เปลี่ยนที่พื้นไทล์เท่านั้น: ทอง 12%
-- เลื่อนอัตโนมัติ (CSS ใน `motion-glass.css`) หยุดเมื่อ hover · ปรับ `prefers-reduced-motion` ตามเดิม
+- `LobbyGameCard`: ปกใช้ **สัดส่วนเดิมของไฟล์ภาพ** (ปัจจุบัน 1:1) ไม่บังคับ aspect/ไม่ crop · มุม 12 ไม่มีขอบ · **ไม่มีชื่อเกม** · ป้าย `สด/ฮิต/ใหม่` มุมซ้ายบน · prop `online` = แถบ **ผู้เล่นออนไลน์** (ไอคอนคน + ตัวเลข กึ่งกลาง) พื้นไล่เฉดสีธีม ตัวหนังสือขาว — **ใช้เฉพาะ `TrendingGames`** (แถวคาสิโน/สล็อต/กีฬาเป็นภาพปกล้วน)
+- `LiveOnlineCount` (client): ค่าเริ่มต้น = ค่าฐาน (ตรงกับ server กัน hydration mismatch) แล้ว mock สุ่มใหม่ **ทุก 3 วินาที** ในช่วง ±120 รอบค่าฐาน (เริ่มจังหวะต่างกันเล็กน้อยต่อการ์ด)
+- `TrendingGames`: มือถือ = แถวเดียวเลื่อนข้าง (`overflow-x` + snap) เห็น 3 ใบ + ใบถัดไปโผล่ (10 ใบ) · ≥768 = 5 คอลัมน์ × 2 แถว · ประกอบจากเกมที่โหลดแล้ว (คาสิโน 5 + สล็อต 5)
+- แถวเกม (`GameShowcaseSection` → `LottoPeekCarousel mode="7grid"`): desktop **5 ใบเต็มแถว ไม่ peek** · แท็บเล็ต 4 + peek · มือถือ 3 + peek ครึ่งใบ · ลูกศรเลื่อนอยู่ในหัว section (≥768)
+- `SectionHeader`: ไอคอน 3D 28 + ชื่อ ซ้าย · pill «ดูทั้งหมด» (พื้น `--ui-gray`) + ลูกศรกลม ขวา — **ทุก section ใน lobby ต้องใช้ตัวนี้**
 
-### 5.8 Sidebar (LobbySidebar)
+### 5.8 แบนเนอร์ & ค่ายเกม
 
-- **ขยายแล้วต้องไม่มีอะไรขยับ**: เนื้อหา (`.pageShell`) เว้นซ้ายเท่าแถบ "ย่อ" (64px) + 24 เสมอ — ตอนขยาย (248px) sidebar ลอยทับเนื้อหาด้วย `position: fixed` (ไม่มีเงา) · **header อยู่เต็มความกว้างจอและไม่ถูก sidebar ทับ** จึงไม่ต้องเว้นที่ให้แถบขยาย; เนื้อหาใน header จัดแนวเดียวกับ main (เว้นซ้าย `64 + 24`, ที่ ≥1992px ชดเชยให้อยู่กึ่งกลางเหมือน main)
-- header จัดแนวเดียวกับ main container: กรอบ `.dh-inner` กว้าง ≤1360 กึ่งกลาง เว้นขวาเท่า hub rail (`--lobby-rail-reserve`) — ตัวแปร `--lobby-sidebar-width`, `--lobby-sidebar-expanded`, `--lobby-rail-width`, `--lobby-rail-reserve` นิยามที่ `.frame`
-- สถานะ: `useSidebarCollapsed()` (`hooks/useSidebarCollapsed.ts`) → ส่ง `collapsed` / `onToggle` จาก `LottoShellFrame` · เฟรมตั้ง `data-sidebar="expanded|collapsed"` ให้ CSS เว้นซ้าย/ปรับความกว้าง (transition 200ms)
-- พื้น `--BG-Surface-Darker` (ไม่มีเส้นขอบ) · z-index 39 (ใต้ header ที่ 40)
-- บนสุด: ปุ่มสลับ (`PanelLeftClose/Open`) · กลุ่มหมวดเกม: **หน้าหลัก · คาสิโน · สล็อต · ยิงปลา · กีฬา · หวย · เกมไพ่** (ลำดับมาตรฐานเดียวกับแถบเมนูใต้ header — แหล่งเดียว `lobby-category.ts`) · เส้นคั่น · โปรโมชั่น · กิจกรรม · **ลุ้นรางวัล** · ล่างสุด (ตั้งค่า): ธีม · ภาษา (ธง+ตัวย่อ)
-- แถวเมนู: สูง 44, ไอคอน `lucide` 22 + ชื่อ 14px, มุม `--ui-radius-tile` · ย่อ = ไอคอนกึ่งกลาง ซ่อนชื่อ (`title` เป็น tooltip)
-- **เส้นคั่นกลุ่ม** 2 เส้น (token `--ui-divider`: มืด ขาว 16% · สว่าง เข้ม 16% — ต่างจาก `--ui-stroke` ที่โปร่งใส): ① คั่น หมวดเกม | โปรโมชั่น/กิจกรรม/ลุ้นรางวัล ② คั่น กลุ่มโปรโมชั่น | ตั้งค่า (ธีม · ภาษา)
-- active: ไอคอน+ชื่อ `--Main-Secondary`, พื้น `--Main-Primary` 12%, แถบทอง 3px ขอบซ้าย
-- ห้ามใส่ wallet / ปุ่มฝาก-ถอนในแถบนี้ — อยู่ใน header
+- `HeroBanner`: `public/HomeProBanner/*` (1916×821) มุม 16 · ลูกศรกลมมุมขวาล่าง (≥768) + จุดกลางล่าง
+- `ProviderLogoMarquee`: ไทล์สูง 56 กว้าง `clamp(7rem,13vw,9.5rem)` พื้น `--ui-gray` ไม่มีขอบ · **โลโก้สีปกติ ห้าม grayscale/filter** · hover เปลี่ยนที่พื้นไทล์เท่านั้น · เลื่อนอัตโนมัติ (หยุดเมื่อ hover; `prefers-reduced-motion` ปิด)
 
-### 5.9 Header desktop (LottoDesktopHeader · CSS `styles/lobby-desktop-header.css`)
+### 5.9 Bottom nav & ปุ่มลอย (มือถือ)
 
-- ซ้าย: สวิตช์ คาสิโน/กีฬา + ช่องค้นหา · กลาง: โลโก้ · ขวา: กระดิ่ง · โพยค้าง (badge) · ยอดเงิน + ปุ่ม `+` ทอง · avatar (guest: เข้าสู่ระบบ / สมัครสมาชิก)
-- ทุกชิ้นเป็นแคปซูลกลม `--ui-radius-pill` (ไม่มีขอบ) · hover = พื้น `--ui-hover` · มือถือใช้ header เดิมใน `LottoSiteHeader`
+`BottomNavLotto`: ฝากเงิน · ถอนเงิน · **[เล่นเกม กลาง — ภาพชิป `public/assets/3d/chip.webp` ปุ่มนูน; ลิงก์ `/enterlotto`]** · คืนยอด · ติดต่อ (แชทยังไม่เชื่อมต่อ → toast) · ปุ่มลอย (ธีม/แชท) เหนือ bottom nav; light: ขาว + ขอบ/ไอคอนสีธีม
 
-## 6. ลำดับ section หน้าแรก
+### 5.10 ตาราง · พื้นผิว · แท็บ
 
-1. แบนเนอร์ (`HeroBanner`)
-2. Pill หมวดเกม (`CategoryPills`)
-3. (desktop: การ์ดโปรย้ายไป rail ขวา · mobile: แถวการ์ดโปรใต้ pill/hub)
-4. เกมยอดนิยม (`TrendingGames`)
-5. ค่ายเกม (`ProviderLogoMarquee`)
-6. คาสิโนออนไลน์ → สล็อตออนไลน์ → กีฬาออนไลน์ (`GameShowcaseSection`)
-7. **ผู้ชนะสูงสุด → ผู้โชคดี** (คงดีไซน์เดิม)
+- **ข้อมูลแบบแถว = `<table>` จริง** (หัว `th scope="col"` + แถวเต็มความกว้าง) **ห้ามทำเป็นการ์ด/แคปซูลต่อแถว** · แยกแถวด้วยสีสลับ (zebra) ไม่มีเส้น · กรอบนอกโค้ง · ข้อมูลหลักซ้าย ค่า/วันที่ชิดขวา — ใช้ `ReferralTable` (ประวัติรายได้, เพื่อนที่แนะนำ)
+- ปุ่มทุกชนิดที่ไม่ใช่ pill ใน lobby ใช้มุม 12; ปุ่มกลมใช้ `--ui-radius-pill`
 
-ภาพอ้างอิงมี Live Bets / General Chat / Footer — **ไม่ได้ทำ** เพราะไม่มีข้อมูลรองรับในระบบ (ห้ามใส่ข้อมูลหลอกตามรูป)
+---
 
-**หน้าโปรโมชั่น (`/promotions`)**: ทุกขนาดจอเป็น **กริดการ์ด thumbnail** — ภาพ 16:9 ด้านบน · ชื่อโปรใต้ภาพ · วันหมดเขต · ปุ่ม `soft-tab-active` ความกว้างเต็มการ์ด «อ่านรายละเอียดโปรโมชั่น» (1 คอลัมน์มือถือ · 2 ที่ ≥640 · 3 ที่ ≥1024) + แท็บหมวด (ทั้งหมด/สมาชิกใหม่/ประจำวัน/สิทธิพิเศษ) — ข้อมูลจาก `catalog.mobileList` (`bannerSrc` = `public/promotions/*`) · เลิกใช้แถวรายการแบบกราฟิก SVG + hero เดิมบน desktop
+## 6. หน้าต่าง ๆ
 
-**ระยะขอบข้างของเนื้อหาหมวดเกม/หวย**: มือถือ `px-0` (เหลือแค่ช่องไฟ 12px ของเปลือกหน้า) · ≥640 `px-2` · ≥1024 `px-4` — ไม่ใส่ `px-4` บนมือถือ เพื่อให้กริดค่ายเกมกว้างเต็มที่
+| หน้า | ลักษณะ |
+|---|---|
+| **หน้าแรก `/`** | desktop: แบนเนอร์ → เกมยอดนิยม → ค่ายเกม → คาสิโน/สล็อต/กีฬาออนไลน์ → **ผู้ชนะสูงสุด → ผู้โชคดี** (การ์ดโปรอยู่ rail ขวา; pill หมวดอยู่แถบใต้ header) · มือถือ: ดู §2.3 แล้วเนื้อหาเดียวกัน |
+| **หมวดเกม** (`/casino /slots /fishing /sport /cards`) | `GamingCategoryPage`: hero ชื่อหมวดกึ่งกลาง (ไทยใหญ่ · อังกฤษเล็ก, `gaming-category-hero`) + ตัวกรองซ้าย + กริดค่าย · ระยะขอบข้างเนื้อหา: มือถือ `px-0` · ≥640 `px-2` · ≥1024 `px-4` |
+| **หมวดหวย `/lottery`** | `LotteryHubPage`: hero `หวย / Lottery` กึ่งกลาง → `LotteryHubContent` (คำบรรยาย + ปุ่มโพยของฉัน · การ์ดตลาด · ผลหวยล่าสุดตาราง) · มือถือมี h2 "แทงหวย" แทน hero |
+| **หวย step** (งวด · แทง · ใส่ราคา · สรุปโพย · โพย) | เปลือกกะทัดรัด `fit`/`compactBar` ไม่มีแถบเมนู/rail · สไตล์ธีมสว่างดู §7.2 |
+| **หน้าเมนู/สมาชิก** (`(sub)`) | เปลือกเดียวกับหมวดเกม + hero ชื่อหน้ากึ่งกลาง (VIP ก็ใช้ — แบนเนอร์ VIP ต่อใต้ hero, desktop `margin 16px 0 0` มุม 18) |
+| **โปรโมชั่น `/promotions`** | ทุกจอเป็น **กริดการ์ด thumbnail**: ภาพ 16:9 บน · ชื่อโปรใต้ภาพ · วันหมดเขต · ปุ่ม `soft-tab-active` เต็มการ์ด «อ่านรายละเอียดโปรโมชั่น» (1 คอลัมน์มือถือ · 2 ที่ ≥640 · 3 ที่ ≥1024) + แท็บแคปซูลกึ่งกลาง (ทั้งหมด/สมาชิกใหม่/ประจำวัน/สิทธิพิเศษ) · ข้อมูล `catalog.mobileList` (`public/promotions/*`) · embedded (modal desktop) ใช้ master–detail เดิม |
+| **แนะนำเพื่อน `/referral`** | แท็บแบบมีพื้น (`soft-tab`/`soft-tab-active`) · ประวัติรายได้ + เพื่อนที่แนะนำเป็นตาราง (`ReferralTable`) |
 
-**หน้าเมนูทุกหน้า (แนะนำเพื่อน · เช็คอิน · วงล้อ · ร้านค้าเพชร · โปรโมชั่น · กิจกรรม · ลุ้นรางวัล · ธุรกรรม · คืนยอด ฯลฯ — กลุ่ม route `(sub)`)** ใช้เปลือกเดียวกับหน้าหมวดเกม: `SubShellLayout` → `LottoShellFrame hubRail` (แถบเมนูใต้ header · sidebar ลอย · rail ขวา = เมนูด่วน + การ์ดโปร) · `SubPageShell` แสดง **hero ชื่อหน้ากึ่งกลางจอ** (`gaming-category-hero`) บน desktop แทน h1 ชิดซ้าย (ยกเว้นหน้า `fit`/`compactBar` ของหวย step — หน้า VIP ก็มี hero ชื่อหน้าเหมือนกัน แล้วแบนเนอร์ VIP ต่อใต้มัน) · `SubPageShell` ที่ใช้นอกกลุ่ม (เช่น หน้าค่ายเกม) ได้ `hubRail` อัตโนมัติเมื่อไม่ใช่ `fit`/`compactBar`
+**ไม่ได้ทำ (ไม่มีข้อมูลรองรับ):** Live Bets · General Chat · Footer ตามภาพอ้างอิง.
+**ลบออกแล้วตามสั่ง (ห้ามนำกลับ):** carousel ประเภทการแทงหวยบนหน้าแรก · แถบตรวจสลาก · ผลหวยทั้งหมดบนหน้าแรก/rail (`ResultsRail`, `ThaiLottoCard`, `LottoForeignResults`, `LottoResultCard`).
 
-**หมวดหวย (`/lottery`)** ใช้เปลือก lobby เดียวกับหมวดเกมอื่น — route อยู่ใน `(lobby)/(tabs)/lottery` (แถบเมนูใต้ header · sidebar · rail ขวา) + hero ชื่อหมวดกึ่งกลางจอ (`หวย` / `Lottery`, คลาส `gaming-category-hero` เดียวกับ สล็อต/ยิงปลา) แล้วต่อด้วยเนื้อหา `LotteryHubContent` (คำบรรยาย + ปุ่มโพยของฉัน · การ์ดตลาด · ผลหวยล่าสุด) — component: `features/lottery/hub/LotteryHubPage.tsx`
+---
 
-**ลบออกแล้ว (ตามสั่ง):** carousel ประเภทการแทงหวย · แถบตรวจสลาก · ผลหวยทั้งหมด (`ResultsRail`, `ThaiLottoCard`, `LottoForeignResults`, `LottoResultCard`) — ห้ามนำกลับมาโดยไม่ได้รับคำสั่ง
+## 7. สเปกธีมสว่างรายส่วน
 
-## 7. แผนที่ภาพจาก `public/assets` (+ โฟลเดอร์ public อื่น)
+### 7.1 ทั่วไป
+
+| ส่วน | พื้น | ตัวหนังสือ |
+|---|---|---|
+| พื้นหลังหน้า | gray-300 `#d1d5db` | — |
+| Header desktop | สีธีมเต็ม · แคปซูลภายในขาวโปร่ง 16% | ขาว · สวิตช์ที่ active = พื้นขาว + ตัวสีธีม |
+| Sidebar ซ้าย | เทาอ่อน `#e6e9ee` | เทาเข้ม `#4f586b` · hover `#d8dce3` · **active = `--ui-theme` + ขาว** (ไม่มีแถบทอง) |
+| แผง "เมนูด่วน" (rail) | เทาอ่อน `#e6e9ee` · การ์ดภายในขาว | เข้ม · **hover/active การ์ด = `--ui-theme` + ขาว** |
+| การ์ดโปรใน rail (`PromoCard`) | ไล่เฉด `--ui-theme` | ขาว |
+| แถบเมนูเกม (desktop) | ไล่เฉด ขาว→เทา | เข้ม · active = ตัวสีธีม + เส้นใต้สีธีม |
+| Pill หมวดเกม (มือถือ) | ไล่เฉด ขาว `#fff → #d9dbe0` | `#3a4150` · active = เฉดเดิม + ขอบ 2px ไล่เฉดสีธีม + ตัวสีธีม |
+| ไทล์ค่าย · «ดูทั้งหมด» · ลูกศรเลื่อน | เทา `--ui-gray` | เทาเข้ม |
+| กล่องแบนเนอร์+ฝาก/ถอน (มือถือ) | เทาไล่เฉด `#e2e5eb → #cdd2db` | — |
+| การ์ดเมนูด่วนแถวเลื่อน (มือถือ) | เทาไล่เฉด `#f2f4f7 → #d5dae2` | เข้ม |
+| ปุ่มลอย (ธีม/แชท) | ขาว + ขอบสีธีม | ไอคอนสีธีม |
+| การ์ดทั่วไป / แถบผู้เล่นออนไลน์ | เทากลางไล่เฉด / สีธีม | เข้ม / ขาว |
+
+### 7.2 หน้าหวย (กฎท้าย `lottery-glass.css`)
+
+- **การ์ด/ไทล์/ชิป/ปุ่มตัวเลข**: ขาว→เทา (`#fff → #e6e9ee`) + outline `#cfd4dc` · ตัวหนังสือ `#1c1d22` · การ์ดตลาด/งวด/แถวผลตาม (งวดที่เปิดรับ + แบนเนอร์หัวตลาดคงเป็นสีธีมเต็ม + ขาว)
+- **ปุ่มทุกชนิดรูปทรงเดียวกัน = มุม 12px** (CTA สูง 48) · ปุ่มหลัก (แทงหวย/ใส่ราคา/ส่งโพย/แทงต่อ) = ไล่เฉด `--ui-theme` + ขาว · ปุ่มรอง (กลับแก้ไขเลข/โพยทั้งหมด/แก้ไข) = ขาว→เทา + outline + ตัวเข้ม
+- **ตัวที่เลือก** (chip/ปุ่มเลข/ชิปราคา/segment) = ไล่เฉด `--ui-theme` + ตัวหนังสือ **และอัตราจ่ายเป็นขาว** (เดิมน้ำตาลเข้มบนพื้นเข้ม อ่านไม่ออก) · ไม่เลือก = อัตราจ่ายเข้ม-หนา
+- **ช่องกรอก/ช่องเลข = พื้นขาว + กรอบเข้ม `#98a1b1` 1.5px** (ต่างจากพื้นการ์ดเสมอ) · ช่องถัดไปกรอบสีธีม · ชิปราคาด่วน 5/10/20/50/100 คงโทนสีเดิม (`#0ea5e9/#16a34a/#d97706/#ea580c/#e11d48`) ตัวขาวหนา
+- **หัวการ์ด** (หัวกลุ่มประเภทในโพย/สรุปโพย · หัวงวด · แบนเนอร์ตลาด) = พื้นสีธีม + ขาว — **ต้อง redefine `--text-on-light` / `--text-muted` เป็นขาวใน scope** (ข้อความใน `LotteryDrawCard` ใช้ Tailwind ผ่าน token สองตัวนี้)
+- **toggle (กลับเลข)**: ปิด = เทา `#aab2c0` + ปุ่มกลมขาวชิดซ้าย · เปิด = เขียว `#16a34a` + ปุ่มกลมชิดขวา (ไม่ใช้สีธีมเพราะธีมเข้มแยกสถานะไม่ออก)
+- **แถบย้อน/ลบเลข**: ไม่มีพื้นหลังรอง · สองปุ่มสีธีม + ไอคอนขาว ห่าง 8px
+- ⚠ ชื่อคลาสบางตัวในกฎนี้ (เช่น `.is-active`, `.lottery-slip-summary__group-head`) อ้างจากโค้ด/เดา — ตรวจด้วยตาในทุก step เมื่อแก้
+
+---
+
+## 8. Logic ฝั่ง UI
+
+| เรื่อง | พฤติกรรม |
+|---|---|
+| ย่อ/ขยาย sidebar | `useSidebarCollapsed` (`useSyncExternalStore` + `localStorage`) · SSR = ขยาย · ซิงค์ข้ามแท็บผ่าน `storage` event |
+| sticky pill มือถือ | วัดความสูง header จริงด้วย ResizeObserver แล้วตั้ง `top` |
+| ยอดเงิน | `formatMoney` (`lib/lotto/format-money.ts`): `Intl en-US` 2 ทศนิยม คั่นหลักพัน (12450 → `12,450.00`) — ใช้กับยอดใน header/wallet snapshot |
+| ผู้เล่นออนไลน์ (mock) | `LiveOnlineCount` สุ่มทุก 3 วิ (§5.7) |
+| hub/เมนูที่ต้อง login | `useRequireAuthAction` + `menuActionRequiresAuth/menuHrefRequiresAuth` — ยังไม่ login จะเปิดหน้า login ก่อน |
+| ปุ่มใน component หน้าแรกเดิม | `HomeActionBridge` ดักคลิกระดับ document (ฝาก/ถอน/เข้าสู่ระบบ/สมัคร/ฮัมเบอร์เกอร์) — component เดิมไม่ต้องแก้ |
+| ธีม/ภาษา | ปุ่มใน sidebar เปิด `ThemePickerSheet` / `LanguagePickerSheet` (โหลดแบบ lazy ด้วย `useLazyOverlayMount`) |
+| โปรโมชั่น | `PromotionsCatalogProvider` โหลด `/api/promotions` (จาก `public/promotions/catalog.json`) · กดการ์ด → `/promotions/[id]` |
+| เปลี่ยนหน้า | `ViewTransition` ใน `LottoShellFrame`: เนื้อหา crossfade · header/sidebar/bottom nav ตั้ง `viewTransitionName` ให้อยู่นิ่ง |
+
+---
+
+## 9. แผนที่ภาพ (`public/`)
 
 | ตำแหน่ง | ไฟล์ |
 |---|---|
-| ไอคอนหัว: หวย / คาสิโน / สล็อต / กีฬา | `assets/3d/menuicon/{lotto,casino,slot,sport}.avif` |
-| ไอคอนหัว: เกมยอดนิยม / ค่ายเกม | `assets/3d/menuicon/rank.avif` / `information.avif` |
-| pill หมวด + sidebar | `assets/3d/menuicon/{lotto,casino,slot,fish,sport,card,home,promotion,event}.avif` |
-| PromoCard: โปรโมชั่น / กิจกรรม | `assets/3d/menuicon/promotion.avif` / `event.avif` |
-| PromoCard: ยี่กี / ค่ายหวย | `lottery/ic-stock_yk15-effect.webp` / `lottery/ic-government-effect.webp` |
-| PromoCard: ผู้ชนะสูงสุด | `assets/coins/coins1.webp` |
-| Hub: แนะนำเพื่อน / เช็คอิน / วงล้อ / Gems / คูปอง / VIP | `assets/3d/{cashback,checkin,wheel,diamond,coupon,vip}.avif` |
+| ไอคอนหัว section | `assets/3d/menuicon/{lotto,casino,slot,sport,rank,information}.avif` |
+| pill/แถบเมนู/sidebar (ไอคอน 3D) | `assets/3d/menuicon/{home,casino,slot,fish,sport,lotto,card,promotion,event}.avif` |
+| การ์ดโปร | `menuicon/promotion.avif` · `menuicon/event.avif` |
+| hub | `assets/3d/{cashback,checkin,wheel,diamond,coupon,vip}.avif` |
+| bottom nav กลาง | `assets/3d/chip.webp` |
 | แบนเนอร์หลัก | `HomeProBanner/Mbanner-{1,2}.avif` |
-| ปกเกม | `casino/*`, `slots/*`, `sport/*` (ผ่าน `load-lobby-games.ts`) |
+| ปกเกม (1:1, 500×500) | `casino/* slots/* sport/* fishing/*` (ผ่าน `load-lobby-games.ts`) |
 | โลโก้ค่าย | `provider logo/*` |
+| โปรโมชั่น | `promotions/mock-pro{1,2,3}.avif` + `catalog.json`/`details.json` |
+| ไอคอนหวย | `lottery/*` |
 
-ข้อควรระวัง: `assets/3d/โปรโมชั่น.webp`, `event.webp`, `tournament/*` มีพื้นหลังทึบ/สว่าง — **ห้ามวางบนการ์ดมืด** ใช้ตัวโปร่งใสใน `menuicon/` แทน · ไฟล์ชื่อภาษาไทยต้อง `encodeURI` ก่อนใช้
+ข้อควรระวัง: `assets/3d/โปรโมชั่น.webp`, `event.webp`, `tournament/*` มีพื้นหลังทึบ/สว่าง — ห้ามวางบนการ์ดมืด ใช้ตัวโปร่งใสใน `menuicon/` · ไฟล์ชื่อภาษาไทยต้อง `encodeURI` ก่อนใช้.
 
-## 8. คอมโพเนนต์ที่คงไว้ (ห้ามเปลี่ยนดีไซน์)
+---
 
-- `TopLeadersSection` (ผู้ชนะสูงสุด) และ `HallOfFameSection` (ผู้โชคดี) — ใช้ `showcase.module.css` เดิม **ห้ามแก้ไฟล์นี้** (ทั้งสองส่วนยังอ้างคลาส `section/header/title/viewAll`)
+## 10. กติกาที่ห้ามละเมิด
 
-## 9. Motion
+### 10.1 No shadow
+ไม่ใช้ shadow ทุกชนิดในแอป: `box-shadow` ที่เบลอ · `text-shadow` · `filter: drop-shadow()` · Tailwind `shadow-*`/`drop-shadow-*` · glow ทุกแบบ — แยกชั้นด้วยสีพื้นแทน. **ยกเว้น `box-shadow` ที่ blur = 0** (ring/เส้นขอบ/focus ring/hairline เช่น `0 0 0 2px …`, `inset 0 0 0 1px …`, เส้นใต้ `inset 0 -3px 0`). เว้น `src/legacy` และ CSS ใน `public/` (ไม่ได้ใช้).
 
-### 8.0 พื้นผิวการ์ดและแท็บ = ไล่เฉดสีเสมอ
+### 10.2 Borderless
+ไม่มีเส้นขอบในคอมโพเนนต์ใหม่ (`--ui-stroke` โปร่งใส) · hover/focus = เปลี่ยนพื้น (`--ui-hover`) · เส้นที่อนุญาต: เส้นคั่นกลุ่มเมนู (`--ui-divider`), outline ของการ์ดหวยธีมสว่าง, กรอบช่องกรอกธีมสว่าง, เส้นใต้ active ของแถบเมนู.
 
-- **Surface card ทั้งโปรเจค ไม่ใช้พื้นสีเรียบ**: ใช้ utility `soft-panel` / `soft-card` / `soft-card-dark` / `modal-surface` และคลาสพื้น `soft-panel-bg` / `soft-card-bg` (ห้ามเขียน `bg-[var(--soft-card)]` ฯลฯ ตรง ๆ)
-- ไล่เฉดบน→ล่าง (`180deg`): ขาว 8–9% ทับสีฐาน (บน) → ดำ 7–8% ทับสีฐาน (ล่าง) · แท็บ active ไล่ `--btn-gradient1→2` บน→ล่างเช่นกัน (เคยลองซ้าย→ขวาแล้ว ตัดสินใจกลับมาแบบนี้) (token `--grad-panel`, `--grad-card`, `--grad-modal` ใน `lotto-ui-compat.css`) — ธีมสว่าง/มืดใช้สูตรเดียวกัน สีฐานมาจาก token ของธีม
-- **แท็บ** (ปุ่มแท็บแบบมีพื้น): ไม่ active = `soft-tab` (ไล่เฉด ไม่มีขอบ) · active = `soft-tab-active` (ไล่เฉด `--btn-gradient1→2` ตัวหนังสือ `--btn-text`) · แท็บ VIP ใช้ไล่เฉดบนตัวรางแท็บ · แท็บเส้นใต้ (`SoftLineTabs`) คงเดิม
+### 10.3 Motion
+class เดิม: `motion-reveal` · `motion-lift` · `motion-press` · `gameCardEnterClassName` · transition ปุ่ม/พื้น 150ms · **ห้ามเพิ่ม animation วนลูป** นอกจาก marquee ค่ายเกม · แถบเมนูใต้ header ห้าม translate/scale ตอน hover/กด.
 
-### 8.1 รายการข้อมูล = ตาราง (ไม่ใช้แคปซูล)
+### 10.4 Do / Don't
+**Do**: ใช้ `SectionHeader` · ใช้ token/utility กลาง · เพิ่มข้อมูลผ่านตัวโหลดเดิม · แก้ธีมสว่างที่ token ไม่ใช่ที่คอมโพเนนต์ · ตรวจมือถือ+desktop+สองโหมด.
+**Don't**: hardcode สีหลักใหม่ · ทำกล่องครอบ section · ใช้ `bg-[var(--soft-card)]` ตรง ๆ · ใช้ข้อมูล/ข้อความจากภาพอ้างอิงตรง ๆ · ลบ `.next` ตอน dev รัน · แก้ `src/legacy`.
 
-- รายการแบบแถว (ประวัติรายได้, รายชื่อเพื่อนที่แนะนำ ฯลฯ) ใช้ `<table>` จริง: หัวตาราง (`th scope="col"`) + แถวเต็มความกว้าง **ไม่ทำเป็นการ์ด/แคปซูลต่อแถว**
-- แยกแถวด้วยสีพื้นสลับ (zebra) ไม่มีเส้นขอบ · ตัวตารางโค้งมนที่กรอบนอกเท่านั้น · ข้อมูลหลักซ้าย ค่า/วันที่ชิดขวา (`tabular-nums`)
-- คอมโพเนนต์: `features/referral/ReferralTable.tsx` (2 คอลัมน์) — ใช้ซ้ำสำหรับรายการแบบเดียวกัน
+---
 
-### 9.1 ห้ามมี Shadow
+## 11. คอมโพเนนต์ที่คงไว้ (ห้ามเปลี่ยนดีไซน์)
 
-- **ไม่ใช้ shadow ทุกชนิดทั้งโปรเจค**: `box-shadow` ที่เบลอ, `text-shadow`, `filter: drop-shadow()`, Tailwind `shadow-*` / `drop-shadow-*`, และ glow ทุกแบบ — ความลึกใช้สีพื้น (surface) แยกชั้นแทน
-- **ยกเว้น** `box-shadow` ที่ **blur = 0** (ring/เส้นขอบ/focus ring/hairline เช่น `0 0 0 2px …`, `inset 0 0 0 1px …`) — ไม่ใช่เงา ใช้เป็นเส้นขอบได้
-- เว้นโค้ด legacy (`src/legacy`) และ CSS ที่ dump ไว้ใน `public/` ซึ่งไม่ได้ถูกใช้ในแอปปัจจุบัน
+- `TopLeadersSection` (ผู้ชนะสูงสุด) และ `HallOfFameSection` (ผู้โชคดี) — ใช้ `showcase.module.css` เดิม **ห้ามแก้ไฟล์นี้** (ยังอ้างคลาส `section/header/title/viewAll`)
 
+---
 
-- ใช้ class เดิม: `motion-reveal` (section เข้า), `motion-lift` (การ์ด hover ยก), `motion-press` (ปุ่มกด), `gameCardEnterClassName` (การ์ดเกมเข้าแบบ stagger)
-- transition ปุ่ม/พื้น 150ms `ease` · ห้ามเพิ่ม animation วนลูปใหม่นอกจาก marquee ค่ายเกม
+## 12. สิ่งที่สร้าง/เปลี่ยนในโปรเจกต์ (สรุป)
 
-## 10. Do / Don't
+1. **จัดโครงสร้าง**: ยุบโฟลเดอร์ซ้อน `cas/cas` · ย้ายโค้ดเข้า `src/` · ลบ `agent/` (ซ้ำ `.cursor/`) · เอกสารไป `docs/` · ย้าย PHANTOM clone ไป `src/legacy` (ไม่ใช้)
+2. **ระบบ lobby ใหม่**: tokens `--ui-*` / `--grad-*` · `SectionHeader` · `CategoryPills` · `PromoCard`/`DesktopFeatureCards` · `LobbyHubTiles` · `TrendingGames` · การ์ดเกมสัดส่วนเดิม + `LiveOnlineCount` · แถวเกมแบบ 5 ใบ · hero banner + ลูกศร
+3. **เปลือกหน้า**: header desktop เต็มกว้างตามภาพอ้างอิง · sidebar การ์ดลอย ย่อ/ขยาย (จำค่า) · แถบเมนูเกมใต้ header · rail ขวา (เมนูด่วน + การ์ดโปร) · main ≤1360 กึ่งกลาง (+ชดเชยจอกว้าง) · `SubShellLayout`/`SubPageShell` ให้หน้าเมนูทั้งหมดและหน้าหวยใช้เปลือกเดียวกับหมวดเกม + hero ชื่อหน้า
+4. **มือถือ**: ลำดับ แบนเนอร์→hub→โปร→pill(sticky)→เนื้อหา · pill กะทัดรัด · TrendingGames เลื่อนข้าง · bottom nav กลาง "เล่นเกม" (ชิป) · padding ข้างลดลง
+5. **ธีม**: Borderless · ไม่มี shadow ทั้งแอป · พื้นผิว/แท็บไล่เฉด · ธีมมืด (พื้นหลังสว่างกว่าการ์ด, header/bottom nav ไล่เฉด, แผงแบนเนอร์เข้ม) · **ธีมสว่างทั้งระบบ** (พื้นเทา gray-300, token เทากลาง, สีธีมเต็มที่ active/หัวการ์ด, header ขาวโปร่ง)
+6. **หน้าหวย**: ย้าย `/lottery` เข้าเปลือก lobby + hero · ธีมสว่างทุก step (การ์ดขาว→เทา, ปุ่มรูปทรงเดียว, ช่องกรอกชัด, toggle เขียว/เทา, หัวการ์ดสีธีม)
+7. **หน้าอื่น**: โปรโมชั่นเป็นกริด thumbnail · แนะนำเพื่อนใช้ตารางจริง · VIP มี hero ชื่อหน้า
+8. **ลบ**: carousel/ตรวจสลาก/ผลหวยบนหน้าแรก · shadow ทั้งแอป · ชื่อเกมบนการ์ด
+9. **อื่น ๆ**: `formatMoney` · `useSidebarCollapsed` · เลิกใช้ `--ui-glow`
 
-**Do**
-- ใช้ `SectionHeader` ทุก section · ใช้ token ของธีม · ตรวจทั้งมือถือ (≤390px) และ desktop (1024 / 1280 / 1440)
-- เพิ่มข้อมูลใหม่ผ่านที่โหลดเดิม (`load-lobby-games.ts`, `lib/lotto/*`) ไม่ใส่ในคอมโพเนนต์
+---
 
-**Don't**
-- hardcode สีทอง/ดำใหม่ · ทำกล่องครอบ section · ใช้ emoji เป็นไอคอน (ใช้ `lucide-react` หรือภาพ 3D)
-- ใช้ข้อมูล/ข้อความจากภาพอ้างอิงตรง ๆ (เช่น ชื่อเกม, แชท, ตาราง Live Bets)
+## 13. ข้อจำกัด & งานที่ยังค้าง
 
-## 11. Checklist ก่อนส่งงาน UI
+- ข้อมูล mock: ผู้เล่นออนไลน์, โปรโมชั่น (รูป thumbnail ใช้ 3 ภาพซ้ำ), ผลหวย/ผู้ชนะ — ต้องต่อ backend จริง
+- ช่องค้นหาใน header ส่งไป `/slots?q=` แต่ยังไม่มีหน้าอ่านค่า `q`
+- `lib/lotto/load-dump-snapshots.ts`, `mock-home-data.ts`, `lotto-bet-types.ts` ไม่ถูกใช้บนหน้าแรกแล้ว (ยังไม่ลบ) · `LottoShellHeader` ยังส่ง prop `hideWalletOnDesktop` ที่ไม่มีผลบน desktop แล้ว
+- กฎธีมสว่างของหน้าหวยบางส่วนอ้างชื่อคลาสจากโค้ดโดยไม่ได้ทดสอบภาพจริงทุก step
+- ปุ่ม "เล่นเกม" ใน bottom nav ยังลิงก์ `/enterlotto` (หน้าหวย)
+- ยังไม่มี visual regression / e2e test — ตรวจด้วยตาทุกครั้ง
+
+---
+
+## 14. Checklist ก่อนส่งงาน UI
 
 - [ ] `npx tsc --noEmit` และ `npx eslint src` ผ่าน
-- [ ] มือถือ 360 / 390 / 430: ไม่มี horizontal scroll ของหน้า, pill/hub/promo เลื่อนข้างได้
-- [ ] 768, 1024, 1280, 1440: rail ขวา (เมนูด่วน) แสดงตั้งแต่ 1024
-- [ ] ธีมสว่าง/มืดอ่านออก (ตรวจ pill active, การแยกชั้นด้วยสีพื้น, ตัวหนังสือบนการ์ด)
-- [ ] ผู้ชนะสูงสุด / ผู้โชคดี หน้าตาเหมือนเดิม
+- [ ] มือถือ 360/390/430: ไม่มี horizontal scroll ของหน้า · pill/hub/โปรเลื่อนข้างได้ · pill sticky ใต้ header
+- [ ] 768 / 1024 / 1280 / 1440 / ≥1992: แถบเมนู+rail+sidebar ไม่ซ้อนกัน · ขยาย sidebar แล้วเนื้อหาไม่ขยับ · main กึ่งกลางจอเมื่อ ≥1992
+- [ ] ธีมมืด: การ์ดสว่าง/เข้มต่างจากพื้นหลังชัด · ธีมสว่าง: ไม่มีพื้นพาสเทลของธีม ตัวหนังสืออ่านง่าย
+- [ ] หน้าเมนู (แนะนำเพื่อน/เช็คอิน/วงล้อ/…): มี hero ชื่อหน้ากึ่งกลาง + rail ขวา + แถบเมนู
+- [ ] หน้าหวยทุก step: ปุ่มรูปทรงเดียว · ช่องกรอกเห็นชัด · ตัวที่เลือกอ่านออก
+- [ ] ไม่มี shadow เบลอ / emoji ไอคอน / ข้อมูลหลอกจากภาพ · ผู้ชนะสูงสุด/ผู้โชคดีหน้าตาเหมือนเดิม
