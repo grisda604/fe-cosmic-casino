@@ -2,8 +2,8 @@
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import Image from "next/image";
-import { Dices, Plus, Search, Ticket, Trophy } from "lucide-react";
-import Link, { usePathname, useRouter } from "@/lib/i18n/navigation";
+import { Plus, Search } from "lucide-react";
+import Link, { useRouter } from "@/lib/i18n/navigation";
 import { useT } from "@/lib/i18n/I18nProvider";
 import { NotificationBellButton } from "@/components/notifications/NotificationBellButton";
 import { useNotifications } from "@/components/notifications/NotificationProvider";
@@ -39,7 +39,7 @@ function MemberCluster({ wallet }: { wallet: WalletSnapshot }) {
     <>
       <NotificationBellButton className="dh-icon" onClick={openNotifications} />
 
-      <Link
+      {/* <Link
         href="/lottery/slips"
         className="dh-icon"
         aria-label={pendingCount > 0 ? tLottery("hub.mySlipsPendingAria", { count: pendingCount }) : tLottery("hub.mySlipsAria")}
@@ -47,7 +47,7 @@ function MemberCluster({ wallet }: { wallet: WalletSnapshot }) {
       >
         <Ticket className="h-5 w-5" aria-hidden="true" />
         {pendingCount > 0 ? <span className="dh-icon__badge">{pendingCount > 99 ? "99+" : pendingCount}</span> : null}
-      </Link>
+      </Link> */}
 
       <div className="dh-wallet">
         <span className="dh-wallet__coin" aria-hidden>
@@ -89,19 +89,14 @@ function GuestCluster() {
 }
 
 /**
- * Header desktop (≥1024) ตามภาพอ้างอิง (design.md §5.9):
- * ซ้าย = สวิตช์ คาสิโน/กีฬา + ช่องค้นหา · กลาง = โลโก้ · ขวา = กระดิ่ง · โพย · ยอดเงิน+ฝาก · avatar
+ * Header desktop (≥1024): ซ้าย = ช่องค้นหา · กลาง = โลโก้ · ขวา = กระดิ่ง · ยอดเงิน+ฝาก · avatar
  * mobile ใช้ header เดิมใน LottoSiteHeader (กลุ่มนี้ซ่อนด้วย CSS ต่ำกว่า 1024)
  */
 export function LottoDesktopHeader({ logoSrc, loggedIn, wallet }: Props) {
   const tNav = useT("nav");
-  const tHome = useT("home");
   const router = useRouter();
-  const pathname = usePathname();
   const rootRef = useRef<HTMLDivElement>(null);
   const [query, setQuery] = useState("");
-
-  const sportsActive = pathname === "/sport" || pathname.startsWith("/sport/");
 
   /** เริ่มเลื่อนหน้า → ตั้ง data-scrolled บน <header> เพื่อให้ CSS ใส่พื้นไล่เฉดสีธีม */
   useEffect(() => {
@@ -123,17 +118,6 @@ export function LottoDesktopHeader({ logoSrc, loggedIn, wallet }: Props) {
     <div className="header-desktop" ref={rootRef}>
       <div className="dh-inner">
       <div className="dh-left">
-        <nav className="dh-seg" aria-label={tNav("header.mainCategories")}>
-          <Link href="/casino" className={`dh-seg__item ${sportsActive ? "" : "dh-seg__item--active"}`}>
-            <Dices className="h-4 w-4" aria-hidden="true" />
-            {tHome("categories.casino")}
-          </Link>
-          <Link href="/sport" className={`dh-seg__item ${sportsActive ? "dh-seg__item--active" : ""}`}>
-            <Trophy className="h-4 w-4" aria-hidden="true" />
-            {tHome("categories.sports")}
-          </Link>
-        </nav>
-
         <form className="dh-search" role="search" onSubmit={onSearch}>
           <label htmlFor="dh-search-input" className="sr-only">
             {tNav("header.searchLabel")}

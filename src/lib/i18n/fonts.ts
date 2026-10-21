@@ -1,4 +1,4 @@
-import { Noto_Sans, Noto_Sans_Khmer, Noto_Sans_Lao, Noto_Sans_Myanmar, Noto_Sans_SC } from "next/font/google";
+import { Noto_Sans, Noto_Sans_Khmer, Noto_Sans_Lao, Noto_Sans_Myanmar } from "next/font/google";
 import type { Locale } from "./config";
 
 /**
@@ -30,13 +30,7 @@ const khmer = Noto_Sans_Khmer({
   preload: false,
 });
 
-const chinese = Noto_Sans_SC({
-  variable: "--font-locale",
-  subsets: ["latin"],
-  weight: ["400", "500"],
-  display: "swap",
-  preload: false,
-});
+/** zh ไม่โหลด Noto Sans SC ผ่าน next/font — Turbopack บน Vercel แตกฟอนต์ CJK เป็นหลายร้อยชิ้นแล้ว build ล้ม (queries have exactly one entry) · ใช้ฟอนต์ระบบแทน */
 
 const vietnamese = Noto_Sans({
   variable: "--font-locale",
@@ -50,7 +44,6 @@ const LOCALE_FONT_CLASS: Partial<Record<Locale, string>> = {
   lo: lao.variable,
   my: myanmar.variable,
   km: khmer.variable,
-  zh: chinese.variable,
   vi: vietnamese.variable,
 };
 

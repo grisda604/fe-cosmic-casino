@@ -196,3 +196,14 @@
     height: var(--wheel-hub-size, clamp(3.5rem, 13.5%, 5.25rem));
   }
 }
+
+/* แถวในตารางประวัติ/ผู้ได้รับรางวัล = สีทึบ ต่างจากพื้นการ์ด (ไม่ไล่เฉด ไม่มีเส้นขอบ/เงา) */
+.wheel-row {
+  background: color-mix(in srgb, #fff 18%, #0d0a12);
+  border: 0;
+  box-shadow: none;
+}
+
+html[data-mode="light"][data-mode="light"] .wheel-row {
+  background: #ffffff;
+}

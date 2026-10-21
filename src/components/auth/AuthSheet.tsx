@@ -1,5 +1,6 @@
 "use client";
 
+import { AppSelect } from "@/components/ui/select";
 import { useState } from "react";
 import { OverlayPanel } from "@/components/ui/OverlayPanel";
 import { ResourceGate } from "@/components/ui/ResourceGate";
@@ -264,19 +265,14 @@ export function AuthSheet({
                 className={inputClass}
                 autoComplete="family-name"
               />
-              <select
+              <AppSelect
                 value={bankId}
-                onChange={(event) => setBankId(event.target.value)}
-                aria-label={t("fields.bank")}
-                className={inputClass}
-              >
-                <option value="">{t("fields.bankPlaceholder")}</option>
-                {banks.map((bank) => (
-                  <option key={bank.id} value={bank.id}>
-                    {bank.label}
-                  </option>
-                ))}
-              </select>
+                onValueChange={setBankId}
+                ariaLabel={t("fields.bank")}
+                placeholder={t("fields.bankPlaceholder")}
+                className="h-11 rounded-2xl px-3.5"
+                options={[{ value: "", label: t("fields.bankPlaceholder") }, ...banks.map((bank) => ({ value: bank.id, label: bank.label }))]}
+              />
               <input
                 value={accountNumber}
                 onChange={(event) => setAccountNumber(sanitizeBankAccount(event.target.value))}
@@ -287,19 +283,14 @@ export function AuthSheet({
                 className={inputClass}
                 autoComplete="off"
               />
-              <select
+              <AppSelect
                 value={channelId}
-                onChange={(event) => setChannelId(event.target.value)}
-                aria-label={t("fields.channel")}
-                className={inputClass}
-              >
-                <option value="">{t("fields.channelPlaceholder")}</option>
-                {channels.map((item) => (
-                  <option key={item.id} value={item.id}>
-                    {item.label}
-                  </option>
-                ))}
-              </select>
+                onValueChange={setChannelId}
+                ariaLabel={t("fields.channel")}
+                placeholder={t("fields.channelPlaceholder")}
+                className="h-11 rounded-2xl px-3.5"
+                options={[{ value: "", label: t("fields.channelPlaceholder") }, ...channels.map((item) => ({ value: item.id, label: item.label }))]}
+              />
               <div className="flex gap-2">
                 <button
                   type="button"

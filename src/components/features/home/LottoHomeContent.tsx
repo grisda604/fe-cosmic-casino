@@ -24,8 +24,8 @@ export function LottoHomeContent({
   slots,
   sports,
 }: LottoHomeContentProps) {
-  /* เกมยอดนิยม = เกมเด่นจากรายการเดิม (คาสิโน 5 + สล็อต 5) ไม่มีข้อมูลใหม่ */
-  const trending = [...casino.slice(0, 5), ...slots.slice(0, 5)];
+  /* เกมยอดนิยม = เกมเด่นจากรายการเดิม (คาสิโน 6 + สล็อต 6) ไม่มีข้อมูลใหม่ */
+  const trending = [...casino.slice(0, 6), ...slots.slice(0, 6)];
 
   return (
     <div className="flex flex-col gap-4 lg:gap-6">

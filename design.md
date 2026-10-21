@@ -41,10 +41,10 @@
 | `(lobby)/(tabs)` | `/` `/casino` `/slots` `/fishing` `/sport` `/cards` `/lottery` | `LobbyTabsShell` → `LottoShellFrame hubRail` |
 | `(sub)` | `/referral` `/missions/check-in` `/wheel` `/gems-store` `/promotions` `/event` `/vip` `/reward/*` `/transactions` `/cashback` `/profile/account` | `SubShellLayout` → `LottoShellFrame hubRail` (+ `ShellProvidedContext`) |
 | `(lobby)/[cat]/[provider]` · `lottery/*` (rules, slips) | หน้าค่ายเกม · กติกาหวย · โพย | `SubPageShell` ห่อเอง → `LottoShellFrame` (`hubRail` เมื่อไม่ใช่ `fit`/`compactBar`) |
-| หวย step (`/lottery/<ตลาด>/<งวด>` ฯลฯ) | แทง · ใส่ราคา · สรุปโพย | `SubPageShell fit`/`compactBar` — **ไม่มี** แถบเมนู/rail (โครงกะทัดรัดของหวย) |
+| หวย step (`/lottery/<ตลาด>` · `/<งวด>` · rules · slips) | งวด · แทง · ใส่ราคา · สรุปโพย · โพย | `SubPageShell` (`fit`/`compactBar` บนมือถือ) — **desktop ใช้เปลือกเดียวกับหน้าอื่น**: แถบเมนู + sidebar + rail ขวา + hero ชื่อหน้า · มือถือคงโครงกะทัดรัดเดิม |
 
 `LottoShellFrame` props: `hubRail` (เปิดแถบเมนูใต้ header + rail ขวา) · `fit` (มือถือล็อกความสูงเท่าจอ) · `bottomNav`.
-`SubPageShell` (ในหน้าย่อย): desktop แสดง **hero ชื่อหน้ากึ่งกลาง** (`gaming-category-hero`) แทน h1 ชิดซ้าย (ยกเว้น `fit`/`compactBar`); มือถือคง breadcrumb/h1 เดิม.
+`SubPageShell` (ทุกหน้าย่อย รวมหวยทุก step): `hubRail` เสมอ + desktop แสดง **hero ชื่อหน้ากึ่งกลาง** (`gaming-category-hero`) แทน h1 ชิดซ้าย (ยกเว้น `hideTitle`); มือถือคง breadcrumb/h1/แถบหัวกะทัดรัดเดิม (กฎ `lotto-fit` ล็อกความสูงมีผลเฉพาะ <1024).
 
 ### 2.2 Desktop ≥1024
 
@@ -63,17 +63,18 @@
 
 | ตัวแปร | ค่า | ความหมาย |
 |---|---|---|
-| `--lobby-sidebar-width` | 64px (ย่อ) | ความกว้างที่ **content เว้นให้เสมอ** (ขยาย 248px ลอยทับ ไม่ดัน) |
+| `--lobby-sidebar-width` | 64px (ย่อ) | ความกว้างแถบตอนย่อ (ขยายเป็น `--lobby-sidebar-expanded` ลอยทับ ไม่ดันเนื้อหา) |
 | `--lobby-sidebar-expanded` | 248px | ความกว้างตอนขยาย |
 | `--lobby-sidebar-inset` | 12px | ช่องว่างซ้ายของ sidebar ลอย |
+| `--lobby-content-left` | `inset + expanded + 16` = **276px** (จอ 1024–1279: `inset + 64 + 16` = 92px) | **ขอบซ้ายของเนื้อหา/header/แถบเมนู** — เว้นเท่าแถบ "ขยาย" เสมอ (ที่ ≥1280) เพื่อให้เนื้อหาไม่ถูก sidebar ทับและไม่ขยับตอนสลับย่อ/ขยาย; ขนาดเนื้อหายืดหยุ่นตามพื้นที่ที่เหลือ |
 | `--lobby-header-h` | 72px | ความสูง header desktop |
 | `--lobby-bar-h` | 52px เมื่อ `data-hub` (ไม่งั้น 0) | ความสูงแถบเมนูใต้ header |
 | `--lobby-rail-width` | 264px (≥1280: 300px) | ความกว้าง rail ขวา |
 | `--lobby-rail-reserve` | `rail + 16px` เมื่อ `data-hub` (ไม่งั้น 0) | พื้นที่ขวาที่ header/main/แถบเมนูต้องเว้น |
 
-- **เว้นซ้ายของ content/header/แถบเมนู** = `inset + sidebar-width(64) + 16` (= 92px) · เว้นขวา = `24 + rail-reserve`
-- **main container** (`.mainStack`) กว้างไม่เกิน **1360px** กึ่งกลางพื้นที่ที่เหลือ · จอ **≥1992px** ชดเชย (`padding-left: max(0, reserve − sidebar − inset − 4)`) ให้ main อยู่กึ่งกลาง "จอ" จริง — header และแถบเมนูใช้สูตรเดียวกัน
-- **ขยาย sidebar แล้วต้องไม่มีอะไรขยับ**: sidebar `position: fixed` ลอยทับเนื้อหา (ไม่มีเงา) · header/แถบเมนูไม่ถูกทับ (อยู่เหนือ)
+- **เว้นซ้ายของ content/header/แถบเมนู** = `--lobby-content-left` (276px ที่ ≥1280 · 92px ที่ 1024–1279 ซึ่งแถบขยายจะลอยทับเนื้อหาแทน เพราะที่ไม่พอ) · เว้นขวา = `24 + rail-reserve`
+- **main container** (`.mainStack`) กว้างไม่เกิน **1360px** กึ่งกลางพื้นที่ที่เหลือ · จอ **≥1992px** ชดเชย (`padding-left: max(0, rail-reserve + 24 − content-left)`) ให้ main อยู่กึ่งกลาง "จอ" จริง — header และแถบเมนูใช้สูตรเดียวกัน
+- **ขยาย sidebar แล้วต้องไม่มีอะไรขยับ**: sidebar (sticky ภายใน pageShell — เลื่อนไปจนสุดเนื้อหาแล้วหยุดเหนือ footer) ลอยทับเนื้อหา (ไม่มีเงา) · header/แถบเมนูไม่ถูกทับ (อยู่เหนือ)
 - z-index: header 40 · bottom nav 40 · sidebar 39 · แถบเมนู 38 · แถบ pill มือถือ 30
 
 ### 2.3 Mobile <1024
@@ -168,7 +169,7 @@ sidebar / แถบเมนูใต้ header / rail ขวา **ไม่แ�
 
 ### 5.3 Sidebar (`LobbySidebar`) — การ์ดลอย
 
-- `position: fixed` · `top = header-h + bar-h + 16` · `left = 12` · สูง `min(780px, 100dvh − header − bar − 32)` · มุมมน 16 · z 39 · พื้น `--BG-Surface-Darker` (ธีมสว่าง `#e6e9ee`)
+- ช่อง `.sidebarSlot` = flex item กว้าง 0 `position: sticky` ใน `.pageShell` (แบบเดียวกับ rail ขวา · หยุดที่ขอบล่างเนื้อหา → ไม่ทับ footer) · การ์ดข้างในเป็น absolute · `top = header-h + bar-h + 16` · `left = 12` · สูง `min(780px, 100dvh − header − bar − 32)` · มุมมน 16 · z 39 · พื้น `--BG-Surface-Darker` (ธีมสว่าง `#e6e9ee`)
 - **ย่อ 64px** (ไอคอนกลาง, ชื่อเป็น tooltip) / **ขยาย 248px** (ไอคอนซ้าย + ชื่อ) — ปุ่มบนสุดสลับ · `useSidebarCollapsed()` เก็บใน `localStorage["lobby-sidebar-collapsed"]` · ยังไม่เคยเลือก: จอ ≥1440 เริ่มขยาย, แคบกว่าเริ่มย่อ · เฟรมตั้ง `data-sidebar="expanded|collapsed"`
 - เมนู 3 กลุ่ม คั่นด้วยเส้น `--ui-divider` 2 เส้น: **หมวดเกม** — หน้าหลัก · คาสิโน · สล็อต · ยิงปลา · กีฬา · หวย · เกมไพ่ → **โปรโมชั่น** — โปรโมชั่น · กิจกรรม · ลุ้นรางวัล → **ตั้งค่า** (ล่างสุด) — เลือกธีมสี · ภาษา (ธง+ตัวย่อ)
 - แถว: สูง 44 · ไอคอน `lucide` 22 · ชื่อ 14 · active (มืด) = ตัวหนังสือ `--Main-Secondary` + พื้น `--Main-Primary` 12% + แถบทอง 3px; (สว่าง) = พื้น `--ui-theme` + ขาว
@@ -194,8 +195,8 @@ sidebar / แถบเมนูใต้ header / rail ขวา **ไม่แ�
 
 - `LobbyGameCard`: ปกใช้ **สัดส่วนเดิมของไฟล์ภาพ** (ปัจจุบัน 1:1) ไม่บังคับ aspect/ไม่ crop · มุม 12 ไม่มีขอบ · **ไม่มีชื่อเกม** · ป้าย `สด/ฮิต/ใหม่` มุมซ้ายบน · prop `online` = แถบ **ผู้เล่นออนไลน์** (ไอคอนคน + ตัวเลข กึ่งกลาง) พื้นไล่เฉดสีธีม ตัวหนังสือขาว — **ใช้เฉพาะ `TrendingGames`** (แถวคาสิโน/สล็อต/กีฬาเป็นภาพปกล้วน)
 - `LiveOnlineCount` (client): ค่าเริ่มต้น = ค่าฐาน (ตรงกับ server กัน hydration mismatch) แล้ว mock สุ่มใหม่ **ทุก 3 วินาที** ในช่วง ±120 รอบค่าฐาน (เริ่มจังหวะต่างกันเล็กน้อยต่อการ์ด)
-- `TrendingGames`: มือถือ = แถวเดียวเลื่อนข้าง (`overflow-x` + snap) เห็น 3 ใบ + ใบถัดไปโผล่ (10 ใบ) · ≥768 = 5 คอลัมน์ × 2 แถว · ประกอบจากเกมที่โหลดแล้ว (คาสิโน 5 + สล็อต 5)
-- แถวเกม (`GameShowcaseSection` → `LottoPeekCarousel mode="7grid"`): desktop **5 ใบเต็มแถว ไม่ peek** · แท็บเล็ต 4 + peek · มือถือ 3 + peek ครึ่งใบ · ลูกศรเลื่อนอยู่ในหัว section (≥768)
+- `TrendingGames`: **carousel แถวเดียว** (`LottoPeekCarousel mode="7grid"` เหมือนแถวเกมอื่น) ประกอบจากเกมที่โหลดแล้ว (คาสิโน 6 + สล็อต 6 = 12 ใบ)
+- **แถวเกมทุกแถว** (เกมยอดนิยม · คาสิโน · สล็อต · กีฬา — `LottoPeekCarousel mode="7grid"`) = carousel แถวเดียว **เห็นใบเต็ม + ใบถัดไปโผล่ครึ่งใบเสมอ**: มือถือ 3 + peek · แท็บเล็ต (768–1023) 4 + peek · desktop ≥1024 จำนวนใบเต็มปรับตาม **ความกว้างของแถว** (container query บน `.carouselWrap`): <700px = 4 · ≥700px = 5 · **≥900px = 6** (+ peek 0.5) · ลูกศรเลื่อนอยู่ในหัว section (≥768) เลื่อนทีละ "จำนวนใบที่เห็นเต็มตอนนั้น" (อ่านจาก `--carousel-visible`) · สูตรความกว้าง slide: `(100% − gaps·gap) / (visible + peek)` โดย `--carousel-peek-gaps` = จำนวนช่องว่างระหว่างใบที่เห็น
 - `SectionHeader`: ไอคอน 3D 28 + ชื่อ ซ้าย · pill «ดูทั้งหมด» (พื้น `--ui-gray`) + ลูกศรกลม ขวา — **ทุก section ใน lobby ต้องใช้ตัวนี้**
 
 ### 5.8 แบนเนอร์ & ค่ายเกม
@@ -218,7 +219,7 @@ sidebar / แถบเมนูใต้ header / rail ขวา **ไม่แ�
 
 | หน้า | ลักษณะ |
 |---|---|
-| **หน้าแรก `/`** | desktop: แบนเนอร์ → เกมยอดนิยม → ค่ายเกม → คาสิโน/สล็อต/กีฬาออนไลน์ → **ผู้ชนะสูงสุด → ผู้โชคดี** (การ์ดโปรอยู่ rail ขวา; pill หมวดอยู่แถบใต้ header) · มือถือ: ดู §2.3 แล้วเนื้อหาเดียวกัน |
+| **หน้าแรก `/`** | desktop: แบนเนอร์ → เกมยอดนิยม (carousel) → ค่ายเกม → คาสิโน/สล็อต/กีฬาออนไลน์ → **ผู้ชนะสูงสุด (คาสิโน) → ผู้โชคดี (คาสิโน)** (การ์ดโปรอยู่ rail ขวา; pill หมวดอยู่แถบใต้ header) · มือถือ: ดู §2.3 แล้วเนื้อหาเดียวกัน |
 | **หมวดเกม** (`/casino /slots /fishing /sport /cards`) | `GamingCategoryPage`: hero ชื่อหมวดกึ่งกลาง (ไทยใหญ่ · อังกฤษเล็ก, `gaming-category-hero`) + ตัวกรองซ้าย + กริดค่าย · ระยะขอบข้างเนื้อหา: มือถือ `px-0` · ≥640 `px-2` · ≥1024 `px-4` |
 | **หมวดหวย `/lottery`** | `LotteryHubPage`: hero `หวย / Lottery` กึ่งกลาง → `LotteryHubContent` (คำบรรยาย + ปุ่มโพยของฉัน · การ์ดตลาด · ผลหวยล่าสุดตาราง) · มือถือมี h2 "แทงหวย" แทน hero |
 | **หวย step** (งวด · แทง · ใส่ราคา · สรุปโพย · โพย) | เปลือกกะทัดรัด `fit`/`compactBar` ไม่มีแถบเมนู/rail · สไตล์ธีมสว่างดู §7.2 |
@@ -245,7 +246,7 @@ sidebar / แถบเมนูใต้ header / rail ขวา **ไม่แ�
 | แถบเมนูเกม (desktop) | ไล่เฉด ขาว→เทา | เข้ม · active = ตัวสีธีม + เส้นใต้สีธีม |
 | Pill หมวดเกม (มือถือ) | ไล่เฉด ขาว `#fff → #d9dbe0` | `#3a4150` · active = เฉดเดิม + ขอบ 2px ไล่เฉดสีธีม + ตัวสีธีม |
 | ไทล์ค่าย · «ดูทั้งหมด» · ลูกศรเลื่อน | เทา `--ui-gray` | เทาเข้ม |
-| กล่องแบนเนอร์+ฝาก/ถอน (มือถือ) | เทาไล่เฉด `#e2e5eb → #cdd2db` | — |
+| กล่องแบนเนอร์+ฝาก/ถอน (มือถือ) | **พื้นขาว** ไล่เฉด `#ffffff → #eef0f3` (สว่างกว่าพื้นหน้า gray-300 ชัดเจน) | — |
 | การ์ดเมนูด่วนแถวเลื่อน (มือถือ) | เทาไล่เฉด `#f2f4f7 → #d5dae2` | เข้ม |
 | ปุ่มลอย (ธีม/แชท) | ขาว + ขอบสีธีม | ไอคอนสีธีม |
 | การ์ดทั่วไป / แถบผู้เล่นออนไลน์ | เทากลางไล่เฉด / สีธีม | เข้ม / ขาว |
@@ -317,7 +318,18 @@ class เดิม: `motion-reveal` · `motion-lift` · `motion-press` · `gameC
 
 ## 11. คอมโพเนนต์ที่คงไว้ (ห้ามเปลี่ยนดีไซน์)
 
-- `TopLeadersSection` (ผู้ชนะสูงสุด) และ `HallOfFameSection` (ผู้โชคดี) — ใช้ `showcase.module.css` เดิม **ห้ามแก้ไฟล์นี้** (ยังอ้างคลาส `section/header/title/viewAll`)
+- `TopLeadersSection` (ผู้ชนะสูงสุด) และ `HallOfFameSection` (ผู้โชคดี) — ใช้ `showcase.module.css` เดิม **ห้ามแก้ไฟล์นี้** (ยังอ้างคลาส `section/header/title/viewAll`) · **หน้าตาคงเดิม** (กรอบ section, แถวตาราง live feed) แต่ **ข้อมูล "ผู้โชคดี" เปลี่ยนเป็นผู้โชคดีจากการเล่นคาสิโน** (ดู §11.1)
+
+### 11.1 ผู้ชนะสูงสุด + ผู้โชคดี — ข้อมูลคาสิโน (mock สุ่ม)
+
+- **ผู้ชนะสูงสุด** (`TopLeadersSection`): 5 อันดับ จากการเล่นคาสิโน — การ์ด: avatar + ใบลอเรล + ริบบิ้นอันดับ · จำนวนรางวัล (`฿`, 300,000–1,000,000 เรียงมากไปน้อย) · ชื่อปิดบางส่วน · ตารางย่อย **ประเภทเกม | ค่ายเกม** (ชื่ออย่างเดียว ไม่มีรูปค่าย) · ค่ายเกมไม่ซ้ำกันใน 5 อันดับ · ใช้ `topCasinoLeaders()` (ค่าเริ่มต้นคงที่ — อัปเดตรายวันให้ตั้ง seed ตามวันที่ฝั่ง server เมื่อต่อ API จริง)
+- **ผู้โชคดี** (`HallOfFameSection`): รายละเอียดด้านล่าง
+
+- คอลัมน์: **ผู้เล่น** (avatar `public/Avartar` + ชื่อปิดบางส่วน เช่น `som***89` — โปรไฟล์แบบเดิม) · **ประเภทเกม** (Baccarat · Roulette · Dragon Tiger · Blackjack · Sic Bo · Bull Bull · Poker) · **ค่ายเกม** (แสดง **ชื่อเท่านั้น ไม่มี thumbnail** — ชื่อ: SA Gaming · AE Sexy · Evolution · Dream Gaming · Pretty Gaming · Allbet · Pragmatic Play Live · BetGames · Microgaming · MT Live · Vivo Gaming · Winfinity · WM Casino · YB Live) · **จำนวนรางวัลที่ได้** (`฿` ตัวเลขเด่น สีทอง/สีรอง ชิดขวา)
+- ข้อมูล/ตัวสุ่ม: `lib/lotto/mock-casino-winners.ts` — สุ่มค่ายเกม + ประเภทเกม + โปรไฟล์ + รางวัล 5,000–200,000 บาท (เอียงไปทางค่าต่ำ ปัดหลักร้อย — ต่ำกว่าผู้ชนะสูงสุดเสมอ) · `initialCasinoWinners()` ใช้ PRNG ค่าเริ่มต้นคงที่ (server/client ตรงกัน กัน hydration mismatch) · `nextCasinoWinner()` สุ่มจริงฝั่ง client
+- พฤติกรรม: แสดง 6 แถว · **ทุก 5 วินาที** มีผู้โชคดีรายใหม่ (สุ่ม) เข้ามาบนสุด แทนที่รายเก่าสุด (live feed)
+- มือถือ: บรรทัด 1 = ผู้เล่น · บรรทัด 2 = **ประเภทเกม + ค่ายเกม อยู่บรรทัดเดียวกัน** · จำนวนรางวัลชิดขวาคร่อมสองบรรทัด · desktop: 4 คอลัมน์ + หัวตาราง
+- เพิ่มค่ายเกม/ประเภทเกม: แก้ `CASINO_PROVIDERS` / `CASINO_GAME_TYPES` (ฟิลด์ `file` ใช้อ้างอิงรูปใน `public/casino` เผื่อใช้ภายหลัง — ตอนนี้ไม่แสดงรูป) — ต่อ API จริงแล้วให้แทนที่ `initialCasinoWinners`/`nextCasinoWinner`
 
 ---
 
@@ -337,7 +349,7 @@ class เดิม: `motion-reveal` · `motion-lift` · `motion-press` · `gameC
 
 ## 13. ข้อจำกัด & งานที่ยังค้าง
 
-- ข้อมูล mock: ผู้เล่นออนไลน์, โปรโมชั่น (รูป thumbnail ใช้ 3 ภาพซ้ำ), ผลหวย/ผู้ชนะ — ต้องต่อ backend จริง
+- ข้อมูล mock: ผู้เล่นออนไลน์, โปรโมชั่น (รูป thumbnail ใช้ 3 ภาพซ้ำ), ผู้ชนะสูงสุด (คาสิโน, ค่าคงที่), ผู้โชคดีคาสิโน (สุ่มทุก 5 วิ) — ต้องต่อ backend จริง
 - ช่องค้นหาใน header ส่งไป `/slots?q=` แต่ยังไม่มีหน้าอ่านค่า `q`
 - `lib/lotto/load-dump-snapshots.ts`, `mock-home-data.ts`, `lotto-bet-types.ts` ไม่ถูกใช้บนหน้าแรกแล้ว (ยังไม่ลบ) · `LottoShellHeader` ยังส่ง prop `hideWalletOnDesktop` ที่ไม่มีผลบน desktop แล้ว
 - กฎธีมสว่างของหน้าหวยบางส่วนอ้างชื่อคลาสจากโค้ดโดยไม่ได้ทดสอบภาพจริงทุก step
@@ -355,3 +367,12 @@ class เดิม: `motion-reveal` · `motion-lift` · `motion-press` · `gameC
 - [ ] หน้าเมนู (แนะนำเพื่อน/เช็คอิน/วงล้อ/…): มี hero ชื่อหน้ากึ่งกลาง + rail ขวา + แถบเมนู
 - [ ] หน้าหวยทุก step: ปุ่มรูปทรงเดียว · ช่องกรอกเห็นชัด · ตัวที่เลือกอ่านออก
 - [ ] ไม่มี shadow เบลอ / emoji ไอคอน / ข้อมูลหลอกจากภาพ · ผู้ชนะสูงสุด/ผู้โชคดีหน้าตาเหมือนเดิม
+
+### Footer
+- พื้น `.cosmic-footer` = สีธีม (`--ui-theme`) ไล่เฉดบน→ล่าง (`88% + ขาว` → `70% + ดำ`) ทุกขนาดจอ ทั้งโหมดมืด/สว่าง · ตัวอักษร/โลโก้ขาว · ไม่มีเส้นขอบ/เงา (กฎท้าย `src/styles/footer.css`)
+
+### Select / Date picker (shadcn/ui)
+- ห้ามใช้ `<select>` / `<input type="date">` เนทีฟ → ใช้ `components/ui/select.tsx` (`AppSelect`, Radix Select) และ `components/ui/date-picker.tsx` (`AppDatePicker`, Radix Popover + react-day-picker + date-fns locale th/en)
+- พื้นปุ่ม/เมนูทึบตามธีม (มืด `--ui-surface` · สว่างขาว) ไม่มีเส้นขอบ/เงา · รายการ/วันที่ที่เลือก = `--ui-theme` ตัวอักษร `--ui-on-theme` · portal z-[200] · สไตล์ `.app-select-*` ท้าย `lotto-ui-compat.css`
+- ค่าว่าง `""` ของ option ถูก map เป็น sentinel ภายใน (Radix ไม่รับค่าว่าง) — ค่าที่ส่งออกยังเป็น `""`
+- ใช้แล้วที่: หวย (โพยของฉัน ตลาด/ผลลัพธ์/ช่วงวันที่), cashback เลือกเดือน, TransactionDateRangeDialog (เดือน/ปี), AuthSheet (ธนาคาร/ช่องทาง)

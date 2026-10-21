@@ -1,5 +1,4 @@
-/* ---- header desktop (≥1024) — ภาพอ้างอิง dark casino lobby (design.md §5.9) ----
- * ซ้าย: สวิตช์ คาสิโน/กีฬา + ช่องค้นหา · กลาง: โลโก้ · ขวา: กระดิ่ง · โพย · ยอดเงิน+ฝาก · avatar */
+/* ---- header desktop (≥1024) — ซ้าย: ช่องค้นหา · กลาง: โลโก้ · ขวา: กระดิ่ง · ยอดเงิน+ฝาก · avatar ---- */
 .lotto-site-header .header-desktop {
   display: none;
 }
@@ -17,7 +16,7 @@
     padding-block: 0;
     padding-right: calc(24px + var(--lobby-rail-reserve, 0px));
     /* header เต็มความกว้างจอ — เนื้อหาในนั้นจัดแนวเดียวกับ main (เว้นซ้ายเท่าแถบ sidebar แบบย่อ + 24) */
-    padding-left: calc(var(--lobby-sidebar-inset, 12px) + var(--lobby-sidebar-width, 64px) + 16px);
+    padding-left: var(--lobby-content-left, 276px);
     box-sizing: border-box;
     color: var(--Text-Icon-Title);
   }
@@ -25,7 +24,7 @@
   /* จอกว้าง ≥1992: ชดเชย hub/sidebar ให้เนื้อหา header อยู่กึ่งกลางเหมือน main (กฎเดียวกับ .mainColumn) */
   @media (min-width: 1992px) {
     .lotto-site-header .header-desktop {
-      padding-left: calc(var(--lobby-sidebar-inset, 12px) + var(--lobby-sidebar-width, 64px) + 16px + max(0px, calc(var(--lobby-rail-reserve, 0px) - var(--lobby-sidebar-width, 64px) - var(--lobby-sidebar-inset, 12px) - 4px)));
+      padding-left: calc(var(--lobby-content-left, 276px) + max(0px, calc(var(--lobby-rail-reserve, 0px) + 24px - var(--lobby-content-left, 276px))));
     }
   }
 
@@ -64,46 +63,6 @@
     width: 150px;
     height: auto;
     object-fit: contain;
-  }
-
-  /* สวิตช์ คาสิโน / กีฬา — แคปซูล surface, ตัว active พื้นเข้ม */
-  .lotto-site-header .dh-seg {
-    display: inline-flex;
-    align-items: center;
-    gap: 2px;
-    height: 40px;
-    padding: 3px;
-    border-radius: var(--ui-radius-pill);
-    border: 1px solid var(--ui-stroke);
-    background: var(--ui-surface);
-  }
-
-  .lotto-site-header .dh-seg__item {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    height: 32px;
-    padding: 0 14px;
-    border-radius: var(--ui-radius-pill);
-    color: var(--Text-Icon-Body);
-    font-size: 13px;
-    font-weight: 500;
-    text-decoration: none;
-    white-space: nowrap;
-    transition:
-      background 150ms ease,
-      color 150ms ease;
-  }
-
-  .lotto-site-header .dh-seg__item:hover {
-    color: var(--Text-Icon-Title);
-  }
-
-  .lotto-site-header .dh-seg__item--active,
-  .lotto-site-header .dh-seg__item--active:hover {
-    background: var(--BG-Surface-Lighter);
-    color: var(--Text-Icon-Title);
-    font-weight: 600;
   }
 
   /* ช่องค้นหา — แคปซูล surface, แว่นขยายขวา */
@@ -296,23 +255,9 @@
 
 /* ธีมสว่าง: header เป็นสีธีมเข้ม → แคปซูลเป็นขาวโปร่ง 16% ตัวหนังสือ/ไอคอนขาว · ปุ่ม active = ขาว + ตัวหนังสือสีธีม (อ่านชัด ไม่ใช้พื้นพาสเทล) */
 @media (min-width: 1024px) {
-  html[data-mode="light"] .lotto-site-header :is(.dh-seg, .dh-search, .dh-icon, .dh-wallet) {
+  html[data-mode="light"] .lotto-site-header :is(.dh-search, .dh-icon, .dh-wallet) {
     background: rgba(255, 255, 255, 0.16);
     color: #fff;
-  }
-
-  html[data-mode="light"] .lotto-site-header .dh-seg__item {
-    color: rgba(255, 255, 255, 0.88);
-  }
-
-  html[data-mode="light"] .lotto-site-header .dh-seg__item:hover {
-    color: #fff;
-  }
-
-  html[data-mode="light"] .lotto-site-header .dh-seg__item--active,
-  html[data-mode="light"] .lotto-site-header .dh-seg__item--active:hover {
-    background: #fff;
-    color: var(--ui-theme);
   }
 
   html[data-mode="light"] .lotto-site-header .dh-search input {

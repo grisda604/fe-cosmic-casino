@@ -88,9 +88,9 @@
   }
 }
 
-/* ธีมสว่าง: กล่องครอบแบนเนอร์ + ปุ่มฝาก/ถอน (มือถือ) เป็นเทาไล่เฉดที่เข้มกว่าพื้นขาวของหน้า — แยกจากพื้นหลังชัดเจน */
+/* ธีมสว่าง: กล่องครอบแบนเนอร์ + ปุ่มฝาก/ถอน (มือถือ) เป็นพื้นขาว (ไล่เฉด #fff → #eef0f3) สว่างกว่าพื้นหน้า gray-300 ชัดเจน */
 @media (max-width: 1023px) {
   :global(html[data-mode="light"]) .panel {
-    background: linear-gradient(180deg, #e2e5eb 0%, #cdd2db 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #eef0f3 100%);
   }
 }

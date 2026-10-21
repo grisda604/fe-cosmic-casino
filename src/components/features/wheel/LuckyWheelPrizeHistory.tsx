@@ -63,7 +63,7 @@ export function LuckyWheelPrizeHistory({ extraRows = [], variant = "default" }: 
           <div
             key={row.id}
             className={cn(
-              "soft-card rounded-[var(--radius-soft-sm)]",
+              "wheel-row rounded-[var(--radius-soft-sm)]",
               isSidebar
                 ? "flex min-w-0 flex-col gap-1 px-2.5 py-2 text-[10px] leading-snug lg:text-[11px]"
                 : "flex items-center justify-between gap-1 px-3 py-2.5 text-xs lg:px-2.5 lg:py-2",

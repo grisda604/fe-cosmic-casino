@@ -71,7 +71,9 @@ export function LottoPeekCarousel({
     if (!el) return;
     const slide = el.querySelector<HTMLElement>(`.${styles.slide}`);
     const gap = 8;
-    const page = mode === "7grid" ? (window.matchMedia("(min-width: 1024px)").matches ? 5 : 3) : window.matchMedia("(min-width: 1024px)").matches ? 3 : mode === "2peek" ? 2 : 4;
+    /* 7grid: เลื่อนทีละ "จำนวนใบที่เห็นเต็ม" ตามค่าที่ CSS คำนวณจริง (ปรับตามความกว้างแถว) */
+    const cssVisible = Math.floor(parseFloat(getComputedStyle(el).getPropertyValue("--carousel-visible")) || 0);
+    const page = mode === "7grid" ? Math.max(1, cssVisible || 3) : window.matchMedia("(min-width: 1024px)").matches ? 3 : mode === "2peek" ? 2 : 4;
     const step = slide
       ? slide.offsetWidth * page + gap * (page - 1)
       : el.clientWidth * 0.85;

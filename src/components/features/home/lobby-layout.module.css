@@ -14,8 +14,8 @@
     max-width: none;
     width: 100%;
     margin: 0 auto;
-    /* เว้นซ้ายเท่าแถบ sidebar แบบย่อ (sidebar ตรึงใต้ header ไม่ได้อยู่ใน flow) */
-    padding: 0 24px 0 calc(var(--lobby-sidebar-inset) + var(--lobby-sidebar-width) + 16px);
+    /* เว้นซ้ายเท่าแถบ sidebar แบบขยาย (sidebar เป็นการ์ดลอย ไม่ได้อยู่ใน flow) */
+    padding: 0 24px 0 var(--lobby-content-left);
     box-sizing: border-box;
     flex-direction: row;
     align-items: flex-start;
@@ -60,6 +60,8 @@
     --lobby-header-h: 72px;
     --lobby-bar-h: 0px; /* แถบเมนูเกมใต้ header (มีเมื่อ data-hub) */
     --lobby-sidebar-inset: 12px; /* ช่องว่างซ้าย/บน/ล่างของ sidebar แบบลอย */
+    /* ขอบซ้ายของเนื้อหา/header/แถบเมนู = เว้นเท่า sidebar แบบ **ขยาย** เสมอ → เนื้อหาไม่ถูก sidebar ทับ และไม่ขยับตอนสลับย่อ/ขยาย (ขนาดเนื้อหายืดหยุ่นตามพื้นที่ที่เหลือ) */
+    --lobby-content-left: calc(var(--lobby-sidebar-inset) + var(--lobby-sidebar-expanded) + 16px);
   }
 
   /* มี hub rail: พื้นที่ฝั่งขวาที่ header/main ต้องเว้น (กว้าง rail + ช่องว่าง 16) */
@@ -70,21 +72,30 @@
 
   .sidebarSlot {
     display: block;
-    position: fixed;
+    /* sticky แบบเดียวกับแผงขวา: เป็น flex item กว้าง 0 ใน pageShell → ติดจอตอนเลื่อน และหยุดที่ขอบล่างเนื้อหา (เหนือ footer) */
+    position: sticky;
+    align-self: flex-start;
+    flex: 0 0 0;
+    width: 0;
     top: calc(var(--lobby-header-h) + var(--lobby-bar-h) + 16px);
-    left: var(--lobby-sidebar-inset);
-    z-index: 39; /* ใต้ header (40) */
-    width: var(--lobby-sidebar-width);
+    /* ml + mr + gap(16) = 0 → ไม่กินพื้นที่ใน flow (เนื้อหาเริ่มที่ขอบเดิม) */
+    margin: 16px calc(var(--lobby-content-left) - var(--lobby-sidebar-inset) - 16px) 0 calc(var(--lobby-sidebar-inset) - var(--lobby-content-left));
     /* สูงเท่ากรอบที่ออกแบบ (~780px) ไม่ยืดเต็มจอ · จอเตี้ยกว่านั้นให้เต็มความสูงที่เหลือ */
     height: min(780px, calc(100dvh - var(--lobby-header-h) - var(--lobby-bar-h) - 32px));
-    transition:
-      width 200ms ease,
-      box-shadow 200ms ease;
+    z-index: 39; /* ใต้ header (40) */
   }
 
-  .frame[data-sidebar="expanded"] .sidebarSlot {
+  .sidebarSlot > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: var(--lobby-sidebar-width);
+    transition: width 200ms ease;
+  }
+
+  .frame[data-sidebar="expanded"] .sidebarSlot > * {
     width: var(--lobby-sidebar-expanded);
-    box-shadow: none;
   }
 }
 
@@ -129,7 +140,7 @@
 /* จอกว้างพอ (≥ 1360 + hub ทั้งสองฝั่ง): ชดเชย hub/sidebar ให้ main อยู่กึ่งกลาง "จอ" จริง */
 @media (min-width: 1992px) {
   .mainColumn {
-    padding-left: max(0px, calc(var(--lobby-rail-reserve) - var(--lobby-sidebar-width) - var(--lobby-sidebar-inset) - 4px));
+    padding-left: max(0px, calc(var(--lobby-rail-reserve) + 24px - var(--lobby-content-left)));
   }
 }
 
@@ -175,7 +186,7 @@
     top: var(--lobby-header-h);
     z-index: 38; /* ใต้ header (40) */
     background: linear-gradient(180deg, #ffffff 0%, #e6e9ee 100%); /* ขาว → เทา */
-    padding: 0 calc(24px + var(--lobby-rail-reserve)) 0 calc(var(--lobby-sidebar-inset) + var(--lobby-sidebar-width) + 16px);
+    padding: 0 calc(24px + var(--lobby-rail-reserve)) 0 var(--lobby-content-left);
   }
 
   .navBarInner {
@@ -186,14 +197,18 @@
 
 @media (min-width: 1992px) {
   .navBarSlot {
-    padding-left: calc(
-      var(--lobby-sidebar-inset) + var(--lobby-sidebar-width) + 16px +
-        max(0px, calc(var(--lobby-rail-reserve) - var(--lobby-sidebar-width) - var(--lobby-sidebar-inset) - 4px))
-    );
+    padding-left: calc(var(--lobby-content-left) + max(0px, calc(var(--lobby-rail-reserve) + 24px - var(--lobby-content-left))));
   }
 }
 
 /* โหมดมืด: แถบใช้พื้นมืดของธีมแทนขาว (ไม่ให้ขาวจ้าบนหน้ามืด) */
 :global(html:not([data-mode="light"])) .navBarSlot {
   background: var(--BG-Surface-Darker);
+}
+
+/* จอแคบ (1024–1279): ไม่มีที่พอสำรองความกว้าง sidebar แบบขยาย → เนื้อหาเว้นซ้ายเท่าแถบย่อ แล้วให้ sidebar ที่ขยายลอยทับเนื้อหาแทน */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .frame {
+    --lobby-content-left: calc(var(--lobby-sidebar-inset) + var(--lobby-sidebar-width) + 16px);
+  }
 }

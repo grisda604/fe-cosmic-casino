@@ -1,26 +1,30 @@
-import { SectionHeader } from "@/components/ui/SectionHeader";
-import type { LobbyGameItem } from "@/lib/lotto/load-lobby-games";
+﻿import type { LobbyGameItem } from "@/lib/lotto/load-lobby-games";
 import { LobbyGameCard } from "./LobbyGameCard";
-import styles from "./trending-games.module.css";
+import { LottoCarouselSlide, LottoPeekCarousel } from "./LottoPeekCarousel";
 
 type Props = {
   items: LobbyGameItem[];
 };
 
 /**
- * เกมยอดนิยม — กริดการ์ดเกม 2 แถว (desktop 5 คอลัมน์ · มือถือ 3 คอลัมน์)
- * รวมจากรายการเกมที่โหลดไว้แล้ว (ไม่มีข้อมูลใหม่) · ไอคอนหัว = menuicon/rank (design.md §5.5)
+ * เกมยอดนิยม — carousel แถวเดียว (เหมือนแถวเกมอื่น): desktop เห็น 4–6 ใบเต็มตามความกว้างแถว + ใบถัดไปโผล่ครึ่งใบ
+ * การ์ดมีแถบ "ผู้เล่นออนไลน์" (mock สุ่มทุก 3 วิ) · ประกอบจากเกมที่โหลดแล้ว ไม่มีข้อมูลใหม่ (design.md §5.7)
  */
 export function TrendingGames({ items }: Props) {
   if (items.length === 0) return null;
   return (
-    <section className="motion-reveal flex flex-col gap-2.5" aria-label="เกมยอดนิยม">
-      <SectionHeader title="เกมยอดนิยม" icon="/assets/3d/menuicon/rank.avif" viewAllHref="/casino" />
-      <div className={styles.grid}>
+    <section className="motion-reveal" aria-label="เกมยอดนิยม">
+      <LottoPeekCarousel
+        ariaLabel="เกมยอดนิยม"
+        mode="7grid"
+        heading={{ title: "เกมยอดนิยม", icon: "/assets/3d/menuicon/rank.avif", viewAllHref: "/casino" }}
+      >
         {items.map((item, index) => (
-          <LobbyGameCard key={item.id} item={item} index={index} variant="wide" layout="grid" online />
+          <LottoCarouselSlide key={item.id}>
+            <LobbyGameCard item={item} index={index} variant="wide" layout="carousel" online />
+          </LottoCarouselSlide>
         ))}
-      </div>
+      </LottoPeekCarousel>
     </section>
   );
 }

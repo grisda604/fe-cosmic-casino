@@ -86,11 +86,29 @@
     --carousel-peek-gaps: 3;
   }
 
-  /* desktop: เห็น 5 ใบเต็มแถว ไม่มี peek (ตามภาพอ้างอิง) */
+  /* desktop: แถวเกมแบบ carousel แถวเดียว — จำนวนใบที่เห็นเต็มปรับตาม "ความกว้างของแถว" (container query ด้านล่าง) + peek ครึ่งใบถัดไปเสมอ */
+  .carouselWrap {
+    container-type: inline-size;
+  }
+
   .trackMode7Grid {
-    --carousel-visible: 5;
-    --carousel-peek: 0;
+    --carousel-visible: 4;
+    --carousel-peek: 0.5;
     --carousel-peek-gaps: 4;
+  }
+
+  @container (min-width: 700px) {
+    .trackMode7Grid {
+      --carousel-visible: 5;
+      --carousel-peek-gaps: 5;
+    }
+  }
+
+  @container (min-width: 900px) {
+    .trackMode7Grid {
+      --carousel-visible: 6;
+      --carousel-peek-gaps: 6;
+    }
   }
 
   /* มีไม่เกิน 3 ใบ: ไม่มีใบให้ peek — ขยายเต็มแถว */

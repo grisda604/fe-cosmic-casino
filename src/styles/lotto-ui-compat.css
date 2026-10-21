@@ -140,3 +140,88 @@
   color: var(--btn-text);
   border: 0;
 }
+
+/* ===== shadcn-style Select / DatePicker (components/ui/select.tsx, date-picker.tsx) — ทึบ ไม่มีเส้นขอบ/เงา ===== */
+.app-select-trigger {
+  background: var(--ui-surface, var(--BG-Surface-Darker));
+  border: 0;
+  cursor: pointer;
+  transition: background 150ms ease;
+}
+.app-select-trigger:hover,
+.app-select-trigger[data-state="open"] {
+  background: color-mix(in srgb, #fff 8%, var(--ui-surface, var(--BG-Surface-Darker)));
+}
+.app-select-trigger:focus-visible {
+  outline: 2px solid var(--ui-theme, #3b2a63);
+  outline-offset: 1px;
+}
+.app-select-content {
+  background: color-mix(in srgb, #fff 10%, var(--BG-Surface-Darker, #16101e));
+  color: var(--text-on-light, #fff);
+  border: 0;
+  box-shadow: none;
+}
+.app-select-item[data-highlighted] {
+  background: color-mix(in srgb, #fff 10%, transparent);
+}
+.app-select-item[data-state="checked"] {
+  background: var(--ui-theme, #3b2a63);
+  color: var(--ui-on-theme, #fff);
+}
+html[data-mode="light"] .app-select-trigger {
+  background: #fff;
+}
+html[data-mode="light"] .app-select-trigger:hover,
+html[data-mode="light"] .app-select-trigger[data-state="open"] {
+  background: #f1f3f6;
+}
+html[data-mode="light"] .app-select-content {
+  background: #fff;
+  color: #1f2430;
+}
+html[data-mode="light"] .app-select-item[data-highlighted] {
+  background: #eef0f3;
+}
+html[data-mode="light"] .app-select-item[data-state="checked"] {
+  background: var(--ui-theme, #3b2a63);
+  color: var(--ui-on-theme, #fff);
+}
+
+/* react-day-picker v9 */
+.app-datepicker .rdp-root {
+  --rdp-accent-color: var(--ui-theme, #3b2a63);
+  --rdp-accent-background-color: var(--ui-theme, #3b2a63);
+  --rdp-day-height: 36px;
+  --rdp-day-width: 36px;
+  --rdp-day_button-height: 34px;
+  --rdp-day_button-width: 34px;
+  --rdp-day_button-border-radius: 10px;
+  --rdp-selected-border: 0;
+  font-size: 13px;
+}
+.app-datepicker .rdp-selected .rdp-day_button {
+  background: var(--ui-theme, #3b2a63);
+  color: var(--ui-on-theme, #fff);
+  border: 0;
+}
+.app-datepicker .rdp-today:not(.rdp-selected) .rdp-day_button {
+  background: color-mix(in srgb, #fff 12%, transparent);
+}
+.app-datepicker .rdp-outside,
+.app-datepicker .rdp-disabled {
+  opacity: 0.35;
+}
+.app-datepicker .rdp-chevron {
+  fill: currentColor;
+}
+
+/* พื้นช่องข้อมูลในสรุปโพย (เลข/เรท/ยอด + หัวกลุ่ม) = สีทึบ ไม่ไล่เฉด */
+.slip-solid {
+  background: color-mix(in srgb, #fff 16%, #0d0a12);
+  border: 0;
+  box-shadow: none;
+}
+html[data-mode="light"] .slip-solid {
+  background: #eceff3;
+}

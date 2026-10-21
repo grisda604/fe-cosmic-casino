@@ -41,8 +41,8 @@ export function SubPageShell({ title, children, breadcrumbLabel, parentLabel, ba
   /** fit: มือถือซ่อน breadcrumb + h1 ใช้แถบหัวกะทัดรัดแทน (desktop เหมือนเดิม) */
   const showBar = fit || compactBar;
   const desktopOnly = showBar ? "max-lg:hidden " : "";
-  /** desktop: หัวหน้าเป็น hero ชื่อหน้ากึ่งกลางจอ (เหมือนหน้าหมวดเกม) + rail ขวา — ยกเว้นหน้า fit/compactBar (หวย step) และหน้าที่มี hero เอง */
-  const showHero = !fit && !compactBar && !hideTitle;
+  /** desktop: ทุกหน้า (รวมหวยทุก step) ใช้เปลือกเดียวกับหมวดเกม — hero ชื่อหน้ากึ่งกลาง + แถบเมนูใต้ header + rail ขวา · ยกเว้นหน้าที่ซ่อนชื่อ (`hideTitle`) · มือถือไม่เปลี่ยน (hero/แถบ/rail ซ่อนที่ <1024) */
+  const showHero = !hideTitle;
   const content = (
     <>
       {showHero ? (
@@ -86,7 +86,7 @@ export function SubPageShell({ title, children, breadcrumbLabel, parentLabel, ba
             <span className="truncate text-[var(--text-on-light)]">{crumb}</span>
           </nav>
         </div>
-        <h1 className={`${fit || hideTitle ? "hidden " : showHero ? "lg:hidden " : desktopOnly}mb-4 text-xl font-semibold text-[var(--text-on-light)] sm:text-2xl`}>{title}</h1>
+        <h1 className={`${fit || hideTitle || showBar ? "hidden " : "lg:hidden "}mb-4 text-xl font-semibold text-[var(--text-on-light)] sm:text-2xl`}>{title}</h1>
         {fit ? <div className="lotto-fit__body">{children}</div> : children}
       </div>
     </>
@@ -94,7 +94,7 @@ export function SubPageShell({ title, children, breadcrumbLabel, parentLabel, ba
   return shellProvided ? (
     content
   ) : (
-    <LottoShellFrame fit={fit} bottomNav={!hideBottomNav} hubRail={!fit && !compactBar}>
+    <LottoShellFrame fit={fit} bottomNav={!hideBottomNav} hubRail>
       {content}
     </LottoShellFrame>
   );

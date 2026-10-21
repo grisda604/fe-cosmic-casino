@@ -11,17 +11,16 @@
   gap: 6px;
 }
 
-/* มือถือ: ผู้เล่น/ประเภท/รอบ ซ้อน 3 บรรทัด + เลขชิดขวา · desktop: 4 คอลัมน์ */
+/* มือถือ: บรรทัด 1 = ผู้เล่น · บรรทัด 2 = ประเภทเกม + ค่ายเกม (อยู่บรรทัดเดียวกัน) · จำนวนรางวัลชิดขวา คร่อมสองบรรทัด · desktop: 4 คอลัมน์ */
 .row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   grid-template-areas:
-    "player numbers"
-    "type numbers"
-    "round numbers";
+    "player player prize"
+    "type provider prize";
   align-items: center;
-  column-gap: 8px;
-  row-gap: 2px;
+  column-gap: 12px;
+  row-gap: 4px;
   padding: 8px 10px;
   border-radius: 10px;
   background: color-mix(in srgb, #fff 4%, var(--BG-Surface-Normal));
@@ -75,35 +74,27 @@
   grid-area: type;
 }
 
-.colRound {
-  grid-area: round;
-  font-size: 11px;
-  opacity: 0.75;
+.colProvider {
+  grid-area: provider;
 }
 
-.numbers {
-  grid-area: numbers;
-  display: flex;
-  gap: 4px;
-  justify-content: flex-end;
+.colPrize {
+  grid-area: prize;
 }
 
-.digit {
-  display: grid;
-  place-items: center;
-  width: 22px;
-  height: 26px;
-  border-radius: 6px;
-  font-size: 14px;
-  font-weight: 600;
+/* จำนวนรางวัลที่ได้ — ตัวเลขเด่น ชิดขวา */
+.prize {
+  text-align: right;
+  font-size: 15px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
   color: var(--Main-Secondary);
-  background: color-mix(in srgb, var(--Main-Secondary) 14%, transparent);
 }
 
 @media (min-width: 1024px) {
   .row {
-    grid-template-columns: minmax(150px, 1.1fr) minmax(120px, 1fr) minmax(110px, 0.9fr) minmax(150px, 1.2fr);
-    grid-template-areas: "player type round numbers";
+    grid-template-columns: minmax(150px, 1.1fr) minmax(110px, 0.9fr) minmax(160px, 1.1fr) minmax(130px, 1fr);
+    grid-template-areas: "player type provider prize";
     padding: 8px 14px;
   }
 
@@ -111,19 +102,12 @@
     display: grid;
   }
 
-  .colRound {
-    font-size: 12px;
-    opacity: 1;
-  }
-
-  .headRow .colNumbers {
+  .headRow .colPrize {
     text-align: right;
   }
 
-  .digit {
-    width: 26px;
-    height: 30px;
-    font-size: 15px;
+  .prize {
+    font-size: 16px;
   }
 }
 
