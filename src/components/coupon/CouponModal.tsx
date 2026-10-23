@@ -108,7 +108,7 @@ function CouponModalBody({ onClose, state }: { onClose: () => void; state: "open
             <button
               type="submit"
               disabled={submitting}
-              className="soft-btn-primary flex h-12 w-full cursor-pointer items-center justify-center rounded-xl border-0 text-[15px] font-semibold transition-all active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-60"
+              className="soft-btn-primary flex h-12 w-full cursor-pointer items-center justify-center text-[15px] font-semibold transition-all active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-60"
             >
               {submitting ? t("coupon.submitting") : t("coupon.submit")}
             </button>

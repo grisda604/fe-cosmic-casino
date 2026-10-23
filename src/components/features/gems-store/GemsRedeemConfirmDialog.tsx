@@ -86,7 +86,7 @@ export function GemsRedeemConfirmDialog({
           type="button"
           disabled={loading}
           onClick={() => onOpenChange(false)}
-          className="h-11 flex-1 cursor-pointer rounded-lg border border-white/10 bg-[var(--soft-surface)] text-sm font-semibold text-[var(--text-on-light)] transition-colors hover:bg-[var(--soft-card-elevated)] disabled:opacity-50"
+          className="h-11 flex-1 cursor-pointer soft-btn-secondary text-sm font-semibold text-[var(--text-on-light)] transition-colors hover:bg-[var(--soft-card-elevated)] disabled:opacity-50"
         >
           {t("gemsStore.confirm.cancel")}
         </button>

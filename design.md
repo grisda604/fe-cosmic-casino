@@ -380,3 +380,7 @@ class เดิม: `motion-reveal` · `motion-lift` · `motion-press` · `gameC
 ### ตราแรงค์ VIP (VipRankEmblem)
 - ใช้ **รูปนิ่ง** `public/rank/still/*.webp` (เฟรมโปร่งใสจากวิดีโอ webm ของแต่ละแรงค์ · `getVipRankImageSrc`) แทนวิดีโอ/stacked-alpha → ไม่มี video ใน UI แล้ว
 - ตราใหญ่ที่ active (lg ขึ้นไป) มี glow ด้านหลัง (radial-gradient สีเน้นของแรงค์ `tier.accent` · pulse) · ตรา xl/2xl มี stardust 14 เม็ดลอยขึ้นแล้วเลือนหาย (CSS keyframes ใน `vip-emblem.module.css` · ค่าตำแหน่งคงที่กัน hydration ไม่ตรง) · `prefers-reduced-motion` = ไม่ขยับ
+
+## ปุ่มใน modal / bottom sheet (รูปทรงเดียว)
+- ปุ่ม action ทุกตัวเป็นทรง pill (`border-radius: 9999px`): `soft-btn-primary` (หลัก) · `soft-btn-secondary` (ยกเลิก/รอง พื้นทึบ ไม่มีขอบ) · `soft-btn-outline`
+- ห้าม override ด้วย `rounded-lg/xl` บนปุ่มเหล่านี้

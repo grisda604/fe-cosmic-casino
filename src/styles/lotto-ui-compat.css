@@ -56,6 +56,14 @@
   border: 1px solid rgba(255, 255, 255, 0.35);
 }
 
+@utility soft-btn-secondary {
+  background-color: color-mix(in srgb, #fff 14%, #0d0a12);
+  color: var(--text-on-light);
+  font-weight: 600;
+  border: 0;
+  border-radius: 9999px;
+}
+
 @utility soft-btn-outline {
   background-color: rgba(0, 0, 0, 0.35);
   color: var(--Main-Secondary);
@@ -224,4 +232,8 @@ html[data-mode="light"] .app-select-item[data-state="checked"] {
 }
 html[data-mode="light"] .slip-solid {
   background: #eceff3;
+}
+
+html[data-mode="light"] .soft-btn-secondary {
+  background-color: #eceff3;
 }

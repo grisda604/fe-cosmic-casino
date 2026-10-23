@@ -280,7 +280,7 @@ function LogoutButton() {
             type="button"
             disabled={loading}
             onClick={() => setOpen(false)}
-            className="h-11 flex-1 cursor-pointer rounded-lg border border-white/10 bg-[var(--soft-surface)] text-sm font-semibold text-[var(--text-on-light)] disabled:opacity-50"
+            className="h-11 flex-1 cursor-pointer soft-btn-secondary text-sm font-semibold text-[var(--text-on-light)] disabled:opacity-50"
           >
             {tAuth("logoutConfirm.stay")}
           </button>

@@ -50,7 +50,7 @@ export function PromotionClaimFlow({ content }: { content: PromotionDetailConten
           <button
             type="button"
             onClick={() => setConfirmOpen(false)}
-            className="h-11 flex-1 cursor-pointer rounded-lg border border-white/10 bg-[var(--soft-surface)] text-sm font-semibold text-[var(--text-on-light)] transition-colors hover:bg-[var(--soft-card-elevated)]"
+            className="h-11 flex-1 cursor-pointer soft-btn-secondary text-sm font-semibold text-[var(--text-on-light)] transition-colors hover:bg-[var(--soft-card-elevated)]"
           >
             {tc("cancel")}
           </button>
