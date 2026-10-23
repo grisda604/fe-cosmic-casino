@@ -69,6 +69,12 @@ export const VIP_RANK_MAINTAIN_TARGETS: Partial<
   obsidian: { depositTarget: 2_000_000, turnoverTarget: 15_000_000 },
 };
 
+/** รูปนิ่งตราแรงค์ (เฟรมจากวิดีโอ) — public/rank/still/*.webp โปร่งใส */
+export function getVipRankImageSrc(rankId: VipRankId): string {
+  const name = VIP_RANK_VIDEO[rankId].split("/").pop()!.replace(/.[A-Za-z0-9_-]{8}.webm$/, "");
+  return `/rank/still/${name}.webp`;
+}
+
 export function getVipRankVideoSrc(rankId: VipRankId): string | null {
   return VIP_RANK_VIDEO[rankId] ?? null;
 }

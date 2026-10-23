@@ -124,9 +124,12 @@ export function ThemePickerSheet({ isOpen, onClose }: ThemePickerSheetProps) {
       title={t("theme.title")}
       closeLabel={t("theme.close")}
     >
-      <p className="mb-3 text-xs text-[var(--text-muted)]">{t("theme.description")}</p>
-      <ThemeGrid title={t("theme.dark")} themes={THEMES.filter((x) => x.isDark)} activeTheme={theme} onSelect={pick} />
-      <ThemeGrid title={t("theme.light")} themes={THEMES.filter((x) => !x.isDark)} activeTheme={theme} onSelect={pick} />
+      {/* padding รอบนอก: ring ของธีมที่เลือก/ตอน hover ขยาย ไม่ถูกขอบ scroll ตัด · เว้นล่างให้แถวสุดท้ายไม่ชิดขอบ sheet */}
+      <div className="px-2 pb-8 pt-1">
+        <p className="mb-3 text-xs text-[var(--text-muted)]">{t("theme.description")}</p>
+        <ThemeGrid title={t("theme.dark")} themes={THEMES.filter((x) => x.isDark)} activeTheme={theme} onSelect={pick} />
+        <ThemeGrid title={t("theme.light")} themes={THEMES.filter((x) => !x.isDark)} activeTheme={theme} onSelect={pick} />
+      </div>
     </OverlayPanel>
   );
 }

@@ -376,3 +376,7 @@ class เดิม: `motion-reveal` · `motion-lift` · `motion-press` · `gameC
 - พื้นปุ่ม/เมนูทึบตามธีม (มืด `--ui-surface` · สว่างขาว) ไม่มีเส้นขอบ/เงา · รายการ/วันที่ที่เลือก = `--ui-theme` ตัวอักษร `--ui-on-theme` · portal z-[200] · สไตล์ `.app-select-*` ท้าย `lotto-ui-compat.css`
 - ค่าว่าง `""` ของ option ถูก map เป็น sentinel ภายใน (Radix ไม่รับค่าว่าง) — ค่าที่ส่งออกยังเป็น `""`
 - ใช้แล้วที่: หวย (โพยของฉัน ตลาด/ผลลัพธ์/ช่วงวันที่), cashback เลือกเดือน, TransactionDateRangeDialog (เดือน/ปี), AuthSheet (ธนาคาร/ช่องทาง)
+
+### ตราแรงค์ VIP (VipRankEmblem)
+- ใช้ **รูปนิ่ง** `public/rank/still/*.webp` (เฟรมโปร่งใสจากวิดีโอ webm ของแต่ละแรงค์ · `getVipRankImageSrc`) แทนวิดีโอ/stacked-alpha → ไม่มี video ใน UI แล้ว
+- ตราใหญ่ที่ active (lg ขึ้นไป) มี glow ด้านหลัง (radial-gradient สีเน้นของแรงค์ `tier.accent` · pulse) · ตรา xl/2xl มี stardust 14 เม็ดลอยขึ้นแล้วเลือนหาย (CSS keyframes ใน `vip-emblem.module.css` · ค่าตำแหน่งคงที่กัน hydration ไม่ตรง) · `prefers-reduced-motion` = ไม่ขยับ

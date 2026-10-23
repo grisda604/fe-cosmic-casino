@@ -1,0 +1,72 @@
+/* แสงฟุ้งด้านหลังตรา — radial-gradient สีเน้นของแรงค์ (ไม่ใช้ box-shadow/blur) */
+.root {
+  --emblem-accent: #ffd15c;
+}
+
+.glow {
+  position: absolute;
+  inset: -45%;
+  z-index: 0;
+  border-radius: 50%;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--emblem-accent) 70%, transparent) 0%, transparent 52%),
+    radial-gradient(circle at 50% 50%, color-mix(in srgb, var(--emblem-accent) 22%, transparent) 0%, transparent 70%);
+  animation: emblem-glow 4.2s ease-in-out infinite;
+}
+
+/* ชั้นอนุภาค: ครอบพื้นที่เหนือ+รอบตรา ให้ stardust ลอยขึ้นพ้นตราแล้วจางหาย */
+.dustLayer {
+  position: absolute;
+  inset: -70% -35% 0;
+  z-index: 0;
+  pointer-events: none;
+  overflow: visible;
+}
+
+.dust {
+  position: absolute;
+  bottom: 18%;
+  border-radius: 50%;
+  background: radial-gradient(circle, #fff 0 30%, color-mix(in srgb, var(--emblem-accent) 70%, #fff) 45%, transparent 72%);
+  opacity: 0;
+  animation-name: emblem-dust;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes emblem-dust {
+  0% {
+    transform: translate3d(0, 0, 0) scale(1.3);
+    opacity: 0;
+  }
+  15% {
+    opacity: 0.95;
+  }
+  100% {
+    transform: translate3d(8px, -150px, 0) scale(2.4);
+    opacity: 0;
+  }
+}
+
+@keyframes emblem-glow {
+  0%,
+  100% {
+    opacity: 0.75;
+    transform: scale(0.96);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.06);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glow,
+  .dust {
+    animation: none;
+  }
+  .dust {
+    display: none;
+  }
+}
