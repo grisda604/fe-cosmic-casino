@@ -156,7 +156,7 @@ export function DepositSheet({ onClose, onCompleted }: DepositSheetProps) {
                         className={`${WALLET_CARD_INTERACTIVE} flex w-full items-center gap-3.5 px-3.5 py-3.5 sm:gap-4 sm:px-4 sm:py-4`}
                       >
                         {/* eslint-disable-next-line @next/next/no-img-element */}
-                        <img src={asset.src} alt={t(asset.altKey)} className="h-8 w-8 shrink-0 object-contain sm:h-9 sm:w-9" />
+                        <img src={asset.src} alt={t(asset.altKey)} className="h-8 w-8 shrink-0 object-contain sm:h-9 sm:w-9" width={36} height={36} loading="lazy" decoding="async" />
                         <span className="min-w-0 flex-1 text-sm font-semibold sm:text-base">{t(method.titleKey)}</span>
                         <ChevronRight className="h-5 w-5 shrink-0 text-[var(--text-muted)]" />
                       </button>
@@ -251,7 +251,7 @@ export function DepositSheet({ onClose, onCompleted }: DepositSheetProps) {
                 <section className={`${WALLET_CARD} px-3 py-3 sm:px-4 sm:py-3.5`}>
                   <div className="flex items-start gap-3">
                     {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img src="/assets/bank-logo/KBANK.webp" alt={bank.bankName} className="h-10 w-10 shrink-0 rounded-xl object-contain" />
+                    <img src="/assets/bank-logo/KBANK.webp" alt={bank.bankName} className="h-10 w-10 shrink-0 rounded-xl object-contain" width={40} height={40} loading="lazy" decoding="async" />
                     <div className="min-w-0 flex-1 space-y-1.5 text-sm">
                       <p className="font-semibold">{bank.bankName}</p>
                       <p className="text-[var(--text-muted)]">
@@ -372,7 +372,7 @@ function BankDetailCard({
     <section className={`${WALLET_CARD} p-3.5 sm:p-4`}>
       <div className="flex items-center gap-3.5 sm:gap-4">
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/assets/bank-logo/KBANK.webp" alt={bank.bankName} className="h-16 w-16 shrink-0 rounded-xl object-contain sm:h-[72px] sm:w-[72px]" />
+        <img src="/assets/bank-logo/KBANK.webp" alt={bank.bankName} className="h-16 w-16 shrink-0 rounded-xl object-contain sm:h-[72px] sm:w-[72px]" width={72} height={72} decoding="async" />
         <div className="flex min-w-0 flex-1 flex-col justify-center gap-2.5">
           <div className="space-y-1">
             <div className="flex items-baseline gap-2">

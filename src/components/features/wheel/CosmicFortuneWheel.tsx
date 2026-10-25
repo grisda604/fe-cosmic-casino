@@ -82,7 +82,7 @@ export function CosmicFortuneWheel({
     >
       {t.pointerImageUrl ? (
         // eslint-disable-next-line @next/next/no-img-element -- รูปจาก API (โดเมนไม่แน่นอน) ขนาดเล็ก
-        <img src={t.pointerImageUrl} alt="" className="lucky-wheel__pointer-img" draggable={false} />
+        <img src={t.pointerImageUrl} alt="" className="lucky-wheel__pointer-img" draggable={false} decoding="async" />
       ) : (
         <div className="lucky-wheel__pointer" aria-hidden="true" />
       )}
@@ -193,7 +193,7 @@ export function CosmicFortuneWheel({
 
       {t.frameImageUrl ? (
         // eslint-disable-next-line @next/next/no-img-element -- กรอบจาก API (โดเมนไม่แน่นอน) ทับทั้งวง
-        <img src={t.frameImageUrl} alt="" className="lucky-wheel__frame-img" draggable={false} />
+        <img src={t.frameImageUrl} alt="" className="lucky-wheel__frame-img" draggable={false} decoding="async" />
       ) : null}
 
       <button
@@ -207,7 +207,7 @@ export function CosmicFortuneWheel({
       >
         {t.hubLogoUrl ? (
           // eslint-disable-next-line @next/next/no-img-element -- โลโก้จาก API
-          <img src={t.hubLogoUrl} alt="" className="lucky-wheel__hub-logo" draggable={false} />
+          <img src={t.hubLogoUrl} alt="" className="lucky-wheel__hub-logo" draggable={false} decoding="async" />
         ) : (
           t.hubLabel
         )}

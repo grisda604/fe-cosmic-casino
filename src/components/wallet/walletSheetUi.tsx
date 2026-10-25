@@ -88,7 +88,7 @@ export function WalletSheetHeader({
       ) : null}
       {titleIconSrc ? (
         // eslint-disable-next-line @next/next/no-img-element
-        <img src={titleIconSrc} alt="" aria-hidden="true" className="h-9 w-9 shrink-0 object-contain" />
+        <img src={titleIconSrc} alt="" aria-hidden="true" className="h-9 w-9 shrink-0 object-contain" width={36} height={36} decoding="async" />
       ) : null}
       <div className="min-w-0 flex-1 pt-0.5">
         {title}

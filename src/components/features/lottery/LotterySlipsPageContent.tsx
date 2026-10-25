@@ -1,7 +1,7 @@
 "use client";
 
 import { AppSelect } from "@/components/ui/select";
-import { AppDatePicker } from "@/components/ui/date-picker";
+import dynamic from "next/dynamic";
 import { useMemo, useState } from "react";
 import type {
   LotterySlipListQuery,
@@ -32,6 +32,9 @@ import { EmptyState } from "@/components/ui/StatusState";
 import { LotterySlipCard, formatSignedBaht, signedMoneyToneClass } from "./LotterySlipCard";
 import { formatBaht } from "./lotteryUtils";
 import { useLotteryI18n } from "./useLotteryI18n";
+
+/** ปฏิทิน (react-day-picker + CSS) โหลดแยก chunk เมื่อเลือกช่วงวันที่เอง */
+const AppDatePicker = dynamic(() => import("@/components/ui/date-picker").then((m) => m.AppDatePicker));
 
 const DEFAULTS = { tab: "pending", market: "", result: "", range: "30d", from: "", to: "" } as const;
 type ParamKey = keyof typeof DEFAULTS;

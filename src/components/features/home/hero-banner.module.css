@@ -100,3 +100,7 @@
   width: 22px;
   background: var(--Main-Primary);
 }
+
+.slide picture {
+  display: contents;
+}

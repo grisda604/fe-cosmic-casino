@@ -66,9 +66,17 @@ const STATIC_IMAGE_SOURCES = [
   "/:path*.ico",
 ] as const;
 
+/** ฟอนต์/วิดีโอ/รูปที่ hash อยู่ในชื่อไฟล์ → แคชถาวร */
+const IMMUTABLE_CACHE_HEADER = {
+  key: "Cache-Control",
+  value: "public, max-age=31536000, immutable",
+};
+
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   experimental: {
+    /** import เฉพาะไอคอน/ฟังก์ชันที่ใช้จริง — ลด JS ที่ส่งทุกหน้า */
+    optimizePackageImports: ["lucide-react", "date-fns"],
     /** root layout อยู่ใต้ app/[lang] — URL ที่ไม่ตรง route ใช้ app/global-not-found.tsx */
     globalNotFound: true,
   },
@@ -85,6 +93,9 @@ const nextConfig: NextConfig = {
   async headers() {
     return [
       { source: "/:path*", headers: SECURITY_HEADERS },
+      { source: "/rank/:file*.webm", headers: [STATIC_IMAGE_CACHE_HEADER] },
+      { source: "/rank/:file*.mp4", headers: [STATIC_IMAGE_CACHE_HEADER] },
+      { source: "/:path*.woff2", headers: [IMMUTABLE_CACHE_HEADER] },
       ...STATIC_IMAGE_SOURCES.map((source) => ({
         source,
         headers: [STATIC_IMAGE_CACHE_HEADER],

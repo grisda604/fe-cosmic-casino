@@ -77,7 +77,7 @@ export function VipRankEmblem({
         </span>
       ) : null}
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img src={src} alt="" draggable={false} className="relative z-[1] h-full w-full object-contain" />
+      <img src={src} alt="" draggable={false} decoding="async" className="relative z-[1] h-full w-full object-contain" />
       {inactive && lockLg && (
         <span className="absolute inset-0 z-[2] flex items-center justify-center">
           <LockIcon className={`text-[var(--text-muted)] ${size === "xl" ? "h-7 w-7" : "h-5 w-5"}`} />

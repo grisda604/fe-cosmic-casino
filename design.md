@@ -384,3 +384,10 @@ class เดิม: `motion-reveal` · `motion-lift` · `motion-press` · `gameC
 ## ปุ่มใน modal / bottom sheet (รูปทรงเดียว)
 - ปุ่ม action ทุกตัวเป็นทรง pill (`border-radius: 9999px`): `soft-btn-primary` (หลัก) · `soft-btn-secondary` (ยกเลิก/รอง พื้นทึบ ไม่มีขอบ) · `soft-btn-outline`
 - ห้าม override ด้วย `rounded-lg/xl` บนปุ่มเหล่านี้
+
+## Performance: LCP (หน้าหวย / lobby)
+- HeroBanner ใช้ <picture>: จอ < 768px โหลด *-m.avif (960px ~40KB) · จอใหญ่โหลดไฟล์เต็ม · สไลด์ 0-1 eager + fetchPriority high
+- หน้า /lottery ดึง fetchLotteryHub ฝั่ง server แล้วส่ง props ลง LotteryHubPage → การ์ดอยู่ใน HTML แรก (เดิมรอ SWR ฝั่ง client)
+
+
+- หน้าแทง/หน้ารอบหวย: ห่อด้วย LotteryDataFallback (server) → SwrFallback ส่งข้อมูลบอร์ด/รอบเข้า SWR cache ตั้งแต่ HTML แรก · หน้ารอบใช้ connection() เพราะอิงเวลาจริง

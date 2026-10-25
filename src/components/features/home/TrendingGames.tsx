@@ -17,7 +17,7 @@ export function TrendingGames({ items }: Props) {
       <LottoPeekCarousel
         ariaLabel="เกมยอดนิยม"
         mode="7grid"
-        heading={{ title: "เกมยอดนิยม", icon: "/assets/3d/menuicon/rank.avif", viewAllHref: "/casino" }}
+        heading={{ title: "เกมยอดนิยม", icon: "/menu-icon/vip.webp", viewAllHref: "/casino" }}
       >
         {items.map((item, index) => (
           <LottoCarouselSlide key={item.id}>

@@ -1,13 +1,15 @@
 "use client";
 
 import React from "react";
+import dynamic from "next/dynamic";
+import { useLazyOverlayMount } from "@/hooks/useLazyOverlayMount";
 import { SWRConfig } from "swr";
 import { UrlSearchParamsProvider } from "@/hooks/useUrlSearchParams";
 import { AuthProvider } from "@/components/auth/AuthProvider";
 import type { ApiError } from "@/lib/api/http";
 import { AuthUIProvider } from "@/context/AuthUIContext";
 import { DepositProvider } from "@/context/DepositContext";
-import { MenuUIProvider } from "@/context/MenuUIContext";
+import { MenuUIProvider, useMenuUI } from "@/context/MenuUIContext";
 import { BottomNavUIProvider } from "@/context/BottomNavUIContext";
 import { CouponUIProvider } from "@/context/CouponUIContext";
 import { ToastProvider } from "@/context/ToastContext";
@@ -16,11 +18,18 @@ import { GlobalAuthOverlays } from "@/components/auth/GlobalAuthOverlays";
 import { GlobalCouponOverlay } from "@/components/coupon/GlobalCouponOverlay";
 import { FloatingActions } from "@/components/layout/FloatingActions";
 import { HomeActionBridge } from "@/components/layout/HomeActionBridge";
-import { LottoMenuDrawer } from "@/components/menu/LottoMenuDrawer";
 import { DesktopHubModalProvider } from "@/components/hub/DesktopHubModalProvider";
 import { NotificationProvider } from "@/components/notifications/NotificationProvider";
 import { LanguagePickerProvider } from "@/components/i18n/LanguagePickerProvider";
 import { PwaInstallProvider } from "@/components/pwa/PwaInstallProvider";
+
+const LottoMenuDrawer = dynamic(() => import("@/components/menu/LottoMenuDrawer").then((m) => m.LottoMenuDrawer));
+
+/** เมนู drawer มือถือ — โหลด chunk ตอนเปิดครั้งแรก ไม่แบกใน bundle หน้าแรก */
+function LazyMenuDrawer() {
+  const { isMobileMenuOpen } = useMenuUI();
+  return useLazyOverlayMount(isMobileMenuOpen) ? <LottoMenuDrawer /> : null;
+}
 
 /**
  * ค่าเริ่มต้น SWR ทั้งแอป (เหมือน glass app/providers.tsx) — ไม่ดึงใหม่ทุกครั้งที่สลับแท็บ · 401 / 4xx ไม่ retry
@@ -62,7 +71,7 @@ export function AppProviders({ children }: { children: React.ReactNode }) {
                                 <GlobalCouponOverlay />
                                 <HomeActionBridge />
                                 <FloatingActions />
-                                <LottoMenuDrawer />
+                                <LazyMenuDrawer />
                               </DepositProvider>
                             </PendingTransactionProvider>
                           </BottomNavUIProvider>
