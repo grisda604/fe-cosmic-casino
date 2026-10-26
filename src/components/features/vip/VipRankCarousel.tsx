@@ -47,7 +47,7 @@ export function VipRankCarousel({ focusIndex, onFocusChange, playerRankId, vipRa
         onClick={() => onFocusChange(safeIndex + offset)}
         aria-label={tier.label}
       >
-        <VipRankEmblem rankId={tier.id} size={Math.abs(offset) === 2 ? "sm" : "lg"} inactive={locked} playing={false} />
+        <VipRankEmblem rankId={tier.id} size={Math.abs(offset) === 2 ? "sm" : "lg"} inactive={locked} />
         {tier.label}
       </button>
     );
@@ -77,7 +77,7 @@ export function VipRankCarousel({ focusIndex, onFocusChange, playerRankId, vipRa
       {side(-2)}
       {side(-1)}
       <div className={s.rankMain}>
-        <VipRankEmblem rankId={focused.id} size="xl" inactive={isLocked} playing={!isLocked} />
+        <VipRankEmblem rankId={focused.id} size="xl" inactive={isLocked} />
         <p className={s.rankName} style={isLocked ? undefined : { color: focused.accent }}>
           {focused.label}
         </p>
