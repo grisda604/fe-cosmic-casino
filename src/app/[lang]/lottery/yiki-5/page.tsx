@@ -1,12 +1,4 @@
-import { connection } from "next/server";
-import { LotteryDataFallback } from "@/components/features/lottery/LotteryDataFallback";
-import { LotteryMarketRoundsPage } from "@/components/features/lottery/rounds/LotteryMarketRoundsPage";
-
-export default async function yiki_5RoundsPage() {
-  await connection();
-  return (
-    <LotteryDataFallback roundsSlug="yiki-5">
-      <LotteryMarketRoundsPage marketSlug="yiki-5" />
-    </LotteryDataFallback>
-  );
+/** Step 2 — รายการรอบหวย /lottery/yiki-5 (เนื้อหาอยู่ใน lottery/layout.tsx → LotteryMarketsLayout) */
+export default function LotteryMarketRoundsPage() {
+  return null;
 }

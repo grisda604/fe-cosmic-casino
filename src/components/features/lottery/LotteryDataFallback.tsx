@@ -1,8 +1,10 @@
 import type { ReactNode } from "react";
 import { SwrFallback, type SwrFallbackEntry } from "@/components/providers/SwrFallback";
-import { fetchLotteryPlayRounds, fetchThaiLottoBoard, fetchYikiBoard } from "@/lib/api/lotteryContent";
+import { fetchLotteryCatalog, fetchLotteryPlayRounds, fetchThaiLottoBoard, fetchYikiBoard } from "@/lib/api/lotteryContent";
 
 type LotteryDataFallbackProps = {
+  /** รายการตลาดทั้งหมด (sidebar หน้ารอบ) */
+  catalog?: boolean;
   /** กระดานยี่กี/หวยหุ้น (หน้าแทง) */
   yikiBoard?: boolean;
   /** กระดานหวยรัฐบาล (หน้าแทง · หน้ารอบของหวยรัฐบาล) */
@@ -13,13 +15,15 @@ type LotteryDataFallbackProps = {
 };
 
 /** ดึงข้อมูลหวยฝั่ง server ครั้งเดียวแล้วส่งเข้า SWR cache — ใช้ห่อหน้าแทง/หน้ารอบ */
-export async function LotteryDataFallback({ yikiBoard, thaiBoard, roundsSlug, children }: LotteryDataFallbackProps) {
-  const [yiki, thai, rounds] = await Promise.all([
+export async function LotteryDataFallback({ catalog, yikiBoard, thaiBoard, roundsSlug, children }: LotteryDataFallbackProps) {
+  const [cat, yiki, thai, rounds] = await Promise.all([
+    catalog ? fetchLotteryCatalog() : null,
     yikiBoard ? fetchYikiBoard() : null,
     thaiBoard ? fetchThaiLottoBoard() : null,
     roundsSlug ? fetchLotteryPlayRounds(roundsSlug) : null,
   ]);
   const entries: SwrFallbackEntry[] = [];
+  if (cat?.ok) entries.push({ key: ["lottery-catalog"], data: cat.data });
   if (yiki?.ok) entries.push({ key: ["yiki-board"], data: yiki.data });
   if (thai?.ok) entries.push({ key: ["thai-lotto-board"], data: thai.data });
   if (rounds?.ok && roundsSlug) entries.push({ key: ["lottery-rounds", roundsSlug], data: rounds.data });
